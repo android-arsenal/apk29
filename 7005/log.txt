@@ -1,0 +1,171 @@
+2018-08-26 21:50:44,584 INFO  DownloadService - Downloading "https://github.com/transferwise/sequence-layout/archive/master.zip", attempt 3
+2018-08-26 21:50:46,629 INFO  DownloadService - Downloaded https://github.com/transferwise/sequence-layout/archive/master.zip, attempt 3
+2018-08-26 21:50:46,629 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/master.zip": 152 KB
+2018-08-26 21:50:46,629 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-26 21:50:46,635 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/master.zip: true
+2018-08-26 21:50:46,635 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src'.
+2018-08-26 21:50:46,656 INFO  FullProcessService - Size of directory with sources: 187 KB
+2018-08-26 21:50:46,656 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src]
+2018-08-26 21:50:46,674 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/.git/
+
+2018-08-26 21:50:46,677 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/gradlew
+2018-08-26 21:50:46,680 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sequencelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/build.gradle
+2018-08-26 21:50:46,683 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sequencelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/settings.gradle
+2018-08-26 21:50:46,684 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 21:50:46,684 INFO  ProjectFixService - Fixing project...
+2018-08-26 21:50:46,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/local.properties
+2018-08-26 21:50:46,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sequencelayout/local.properties
+2018-08-26 21:50:46,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sequencelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sequencelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/local.properties
+2018-08-26 21:50:46,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-08-26 21:50:46,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-08-26 21:50:46,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 21:50:46,696 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 21:50:46,697 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:50:46,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:50:55,248 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-26 21:50:55,248 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-26 21:50:55,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-26 21:51:52,612 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sequencelayout:preBuild UP-TO-DATE
+:sequencelayout:preDebugBuild UP-TO-DATE
+:sequencelayout:checkDebugManifest
+:sequencelayout:processDebugManifest
+:sample:preDebugBuild
+:sequencelayout:compileDebugAidl
+:sample:compileDebugAidl
+:sequencelayout:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sequencelayout:compileDebugRenderscript
+:sequencelayout:generateDebugResValues
+:sequencelayout:generateDebugResources
+:sequencelayout:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sequencelayout:platformAttrExtractor
+:sequencelayout:generateDebugBuildConfig
+:sequencelayout:prepareLintJar
+:sequencelayout:processDebugJavaRes NO-SOURCE
+:sample:prepareLintJar
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sequencelayout:mergeDebugShaders
+:sequencelayout:compileDebugShaders
+:sequencelayout:generateDebugAssets
+:sequencelayout:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:sequencelayout:compileDebugNdk NO-SOURCE
+:sequencelayout:mergeDebugJniLibFolders
+:sequencelayout:transformNativeLibsWithMergeJniLibsForDebug
+:sequencelayout:transformNativeLibsWithStripDebugSymbolForDebug
+:sequencelayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:sequencelayout:preReleaseBuild UP-TO-DATE
+:sequencelayout:checkReleaseManifest
+:sequencelayout:processReleaseManifest
+:sample:preReleaseBuild
+:sequencelayout:compileReleaseAidl
+:sample:compileReleaseAidl
+:sequencelayout:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sequencelayout:compileReleaseRenderscript
+:sequencelayout:generateReleaseResValues
+:sequencelayout:generateReleaseResources
+:sequencelayout:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sequencelayout:generateDebugRFile
+:sample:processDebugResources
+:sequencelayout:compileDebugKotlin
+:sequencelayout:generateDebugSources
+:sequencelayout:javaPreCompileDebug
+:sequencelayout:compileDebugJavaWithJavac
+:sequencelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:compileDebugKotlin
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sequencelayout:generateReleaseRFile
+:sample:processReleaseResources
+:sequencelayout:generateReleaseBuildConfig
+:sequencelayout:compileReleaseKotlin
+:sequencelayout:generateReleaseSources
+:sequencelayout:javaPreCompileRelease
+:sequencelayout:compileReleaseJavaWithJavac
+:sequencelayout:processReleaseJavaRes NO-SOURCE
+:sequencelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sequencelayout:mergeReleaseShaders
+:sequencelayout:compileReleaseShaders
+:sequencelayout:generateReleaseAssets
+:sequencelayout:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:sequencelayout:compileReleaseNdk NO-SOURCE
+:sequencelayout:mergeReleaseJniLibFolders
+:sequencelayout:transformNativeLibsWithMergeJniLibsForRelease
+:sequencelayout:transformNativeLibsWithStripDebugSymbolForRelease
+:sequencelayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 56s
+95 actionable tasks: 95 executed
+
+2018-08-26 21:51:52,696 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295044575-0/src/sequence-layout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

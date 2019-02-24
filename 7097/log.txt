@@ -1,0 +1,175 @@
+2019-02-04 11:17:35,660 INFO  DownloadService - Downloading "https://github.com/keshavmix/RuntimePermission/archive/master.zip", attempt 3
+2019-02-04 11:17:37,810 INFO  DownloadService - Downloaded https://github.com/keshavmix/RuntimePermission/archive/master.zip, attempt 3
+2019-02-04 11:17:37,810 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/master.zip": 157 KB
+2019-02-04 11:17:37,810 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:17:37,811 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/master.zip: true
+2019-02-04 11:17:37,811 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src'.
+2019-02-04 11:17:37,833 INFO  FullProcessService - Size of directory with sources: 188 KB
+2019-02-04 11:17:37,833 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src]
+2019-02-04 11:17:37,856 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/.git/
+
+2019-02-04 11:17:37,859 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/gradlew
+2019-02-04 11:17:37,863 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/runtimepermissions-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/build.gradle
+2019-02-04 11:17:37,866 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/runtimepermissions-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/settings.gradle
+2019-02-04 11:17:37,867 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:17:37,867 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:17:37,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/local.properties
+2019-02-04 11:17:37,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/runtimepermissions-library/local.properties
+2019-02-04 11:17:37,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/runtimepermissions-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/runtimepermissions-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/local.properties
+2019-02-04 11:17:37,877 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-04 11:17:37,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-04 11:17:37,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 11:17:37,879 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:17:37,879 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:17:37,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:17:43,961 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-04 11:17:43,967 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:17:43,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:18:30,973 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:runtimepermissions-library:preBuild UP-TO-DATE
+:runtimepermissions-library:preDebugBuild UP-TO-DATE
+:runtimepermissions-library:checkDebugManifest
+:runtimepermissions-library:processDebugManifest
+:app:preDebugBuild
+:runtimepermissions-library:compileDebugAidl
+:app:compileDebugAidl
+:runtimepermissions-library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:runtimepermissions-library:compileDebugRenderscript
+:runtimepermissions-library:generateDebugResValues
+:runtimepermissions-library:generateDebugResources
+:runtimepermissions-library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:runtimepermissions-library:platformAttrExtractor
+:runtimepermissions-library:generateDebugBuildConfig
+:runtimepermissions-library:prepareLintJar
+:runtimepermissions-library:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:runtimepermissions-library:mergeDebugShaders
+:runtimepermissions-library:compileDebugShaders
+:runtimepermissions-library:generateDebugAssets
+:runtimepermissions-library:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:runtimepermissions-library:compileDebugNdk NO-SOURCE
+:runtimepermissions-library:mergeDebugJniLibFolders
+:runtimepermissions-library:transformNativeLibsWithMergeJniLibsForDebug
+:runtimepermissions-library:transformNativeLibsWithStripDebugSymbolForDebug
+:runtimepermissions-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:runtimepermissions-library:preReleaseBuild UP-TO-DATE
+:runtimepermissions-library:checkReleaseManifest
+:runtimepermissions-library:processReleaseManifest
+:app:preReleaseBuild
+:runtimepermissions-library:compileReleaseAidl
+:app:compileReleaseAidl
+:runtimepermissions-library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:runtimepermissions-library:compileReleaseRenderscript
+:runtimepermissions-library:generateReleaseResValues
+:runtimepermissions-library:generateReleaseResources
+:runtimepermissions-library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:runtimepermissions-library:generateReleaseBuildConfig
+:runtimepermissions-library:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:runtimepermissions-library:mergeReleaseShaders
+:runtimepermissions-library:compileReleaseShaders
+:runtimepermissions-library:generateReleaseAssets
+:runtimepermissions-library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:runtimepermissions-library:compileReleaseNdk NO-SOURCE
+:runtimepermissions-library:mergeReleaseJniLibFolders
+:runtimepermissions-library:transformNativeLibsWithMergeJniLibsForRelease
+:runtimepermissions-library:transformNativeLibsWithStripDebugSymbolForRelease
+:runtimepermissions-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:runtimepermissions-library:generateDebugRFile
+:app:processDebugResources
+:runtimepermissions-library:compileDebugKotlin
+:runtimepermissions-library:generateDebugSources
+:runtimepermissions-library:javaPreCompileDebug
+:runtimepermissions-library:compileDebugJavaWithJavac
+:runtimepermissions-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (82, 120): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (82, 137): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (96, 117): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (96, 134): Parameter 'i' is never used, could be renamed to _
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:runtimepermissions-library:generateReleaseRFile
+:app:processReleaseResources
+:runtimepermissions-library:compileReleaseKotlin
+:runtimepermissions-library:generateReleaseSources
+:runtimepermissions-library:javaPreCompileRelease
+:runtimepermissions-library:compileReleaseJavaWithJavac
+:runtimepermissions-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (82, 120): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (82, 137): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (96, 117): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/src/main/java/com/way2bay/runtimepermissionsapp/MainActivityKotlin.kt: (96, 134): Parameter 'i' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 46s
+95 actionable tasks: 95 executed
+
+2019-02-04 11:18:31,055 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253855658-0/src/RuntimePermission-master/app/build/outputs/apk/debug/app-debug.apk

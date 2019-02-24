@@ -1,0 +1,175 @@
+2018-08-26 01:00:24,835 INFO  DownloadService - Downloading "https://github.com/filol/material-preference-library/archive/master.zip", attempt 3
+2018-08-26 01:00:25,655 INFO  DownloadService - Downloaded https://github.com/filol/material-preference-library/archive/master.zip, attempt 3
+2018-08-26 01:00:25,656 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/master.zip": 953 KB
+2018-08-26 01:00:25,656 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-26 01:00:25,658 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/master.zip: true
+2018-08-26 01:00:25,658 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src'.
+2018-08-26 01:00:25,705 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-26 01:00:25,705 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src]
+2018-08-26 01:00:25,722 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/.git/
+
+2018-08-26 01:00:25,727 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/gradlew
+2018-08-26 01:00:25,731 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/build.gradle
+2018-08-26 01:00:25,736 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/settings.gradle
+2018-08-26 01:00:25,736 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 01:00:25,736 INFO  ProjectFixService - Fixing project...
+2018-08-26 01:00:25,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/local.properties
+2018-08-26 01:00:25,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 01:00:25,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/materialpreference/local.properties
+2018-08-26 01:00:25,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/materialpreference/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 01:00:25,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/local.properties
+2018-08-26 01:00:25,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-26 01:00:25,750 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-26 01:00:25,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-08-26 01:00:25,751 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 01:00:25,751 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:00:25,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:00:33,002 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-26 01:00:33,002 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-26 01:00:33,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-26 01:01:22,335 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:materialpreference:preBuild UP-TO-DATE
+:materialpreference:preDebugBuild UP-TO-DATE
+:materialpreference:checkDebugManifest
+:materialpreference:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/mikepenz/community-material-typeface/2.0.46.1/community-material-typeface-2.0.46.1.pom
+Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.9.5/iconics-core-2.9.5.pom
+Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.9.5/iconics-core-2.9.5.aar
+Download https://jcenter.bintray.com/com/mikepenz/community-material-typeface/2.0.46.1/community-material-typeface-2.0.46.1.aar
+:materialpreference:compileDebugAidl
+:app:compileDebugAidl
+:materialpreference:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:materialpreference:compileDebugRenderscript
+:materialpreference:generateDebugResValues
+:materialpreference:generateDebugResources
+:materialpreference:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:materialpreference:platformAttrExtractor
+:materialpreference:generateDebugBuildConfig
+:materialpreference:prepareLintJar
+:materialpreference:javaPreCompileDebug
+:materialpreference:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:materialpreference:mergeDebugShaders
+:materialpreference:compileDebugShaders
+:materialpreference:generateDebugAssets
+:materialpreference:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:materialpreference:compileDebugNdk NO-SOURCE
+:materialpreference:mergeDebugJniLibFolders
+:materialpreference:transformNativeLibsWithMergeJniLibsForDebug
+:materialpreference:transformNativeLibsWithStripDebugSymbolForDebug
+:materialpreference:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:materialpreference:preReleaseBuild UP-TO-DATE
+:materialpreference:checkReleaseManifest
+:materialpreference:processReleaseManifest
+:app:preReleaseBuild
+:materialpreference:compileReleaseAidl
+:app:compileReleaseAidl
+:materialpreference:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:materialpreference:compileReleaseRenderscript
+:materialpreference:generateReleaseResValues
+:materialpreference:generateReleaseResources
+:materialpreference:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:materialpreference:generateReleaseBuildConfig
+:materialpreference:javaPreCompileRelease
+:materialpreference:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:materialpreference:mergeReleaseShaders
+:materialpreference:compileReleaseShaders
+:materialpreference:generateReleaseAssets
+:materialpreference:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:materialpreference:compileReleaseNdk NO-SOURCE
+:materialpreference:mergeReleaseJniLibFolders
+:materialpreference:transformNativeLibsWithMergeJniLibsForRelease
+:materialpreference:transformNativeLibsWithStripDebugSymbolForRelease
+:materialpreference:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:materialpreference:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:materialpreference:generateDebugSources
+:materialpreference:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:materialpreference:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/src/main/java/com/francoisdexemple/materialpreferencedemo/custom/MyCustomItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:materialpreference:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:materialpreference:generateReleaseSources
+:materialpreference:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:materialpreference:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/src/main/java/com/francoisdexemple/materialpreferencedemo/custom/MyCustomItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 48s
+91 actionable tasks: 91 executed
+
+2018-08-26 01:01:22,470 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220024831-0/src/material-preference-library-master/app/build/outputs/apk/debug/app-debug.apk

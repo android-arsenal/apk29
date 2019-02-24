@@ -1,0 +1,263 @@
+2018-08-20 14:27:30,668 INFO  DownloadService - Downloading "https://github.com/mjn1369/FieldSetView/archive/master.zip", attempt 3
+2018-08-20 14:27:33,286 INFO  DownloadService - Downloaded https://github.com/mjn1369/FieldSetView/archive/master.zip, attempt 3
+2018-08-20 14:27:33,286 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/master.zip": 404 KB
+2018-08-20 14:27:33,286 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 14:27:33,292 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/master.zip: true
+2018-08-20 14:27:33,293 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src'.
+2018-08-20 14:27:33,324 INFO  FullProcessService - Size of directory with sources: 718 KB
+2018-08-20 14:27:33,324 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src]
+2018-08-20 14:27:33,340 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/.git/
+
+2018-08-20 14:27:33,343 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/gradlew
+2018-08-20 14:27:33,347 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/build.gradle
+2018-08-20 14:27:33,350 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/settings.gradle
+2018-08-20 14:27:33,351 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 14:27:33,351 INFO  ProjectFixService - Fixing project...
+2018-08-20 14:27:33,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/local.properties
+2018-08-20 14:27:33,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=10,targetSdkVersion=25]
+2018-08-20 14:27:33,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/local.properties
+2018-08-20 14:27:33,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-08-20 14:27:33,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/local.properties
+2018-08-20 14:27:33,362 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-20 14:27:33,362 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-20 14:27:33,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-08-20 14:27:33,363 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 14:27:33,364 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 14:27:33,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 14:27:44,681 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 14:27:44,681 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-20 14:27:44,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-20 14:27:57,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:FieldSetView:preBuild UP-TO-DATE
+:FieldSetView:preDebugBuild UP-TO-DATE
+:FieldSetView:checkDebugManifest
+:FieldSetView:preDebugAndroidTestBuild UP-TO-DATE
+:FieldSetView:preDebugUnitTestBuild UP-TO-DATE
+:FieldSetView:preReleaseBuild UP-TO-DATE
+:FieldSetView:preReleaseUnitTestBuild UP-TO-DATE
+:FieldSetView:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:FieldSetView:prepareComAndroidSupportAppcompatV72531Library
+:FieldSetView:prepareComAndroidSupportSupportCompat2531Library
+:FieldSetView:prepareComAndroidSupportSupportCoreUi2531Library
+:FieldSetView:prepareComAndroidSupportSupportCoreUtils2531Library
+:FieldSetView:prepareComAndroidSupportSupportFragment2531Library
+:FieldSetView:prepareComAndroidSupportSupportMediaCompat2531Library
+:FieldSetView:prepareComAndroidSupportSupportV42531Library
+:FieldSetView:prepareComAndroidSupportSupportVectorDrawable2531Library
+:FieldSetView:prepareDebugDependencies
+:FieldSetView:compileDebugAidl
+:FieldSetView:compileDebugNdk UP-TO-DATE
+:FieldSetView:compileLint
+:FieldSetView:copyDebugLint UP-TO-DATE
+:FieldSetView:compileDebugRenderscript
+:FieldSetView:generateDebugBuildConfig
+:FieldSetView:generateDebugResValues
+:FieldSetView:generateDebugResources
+:FieldSetView:mergeDebugResources
+:FieldSetView:processDebugManifest
+:FieldSetView:processDebugResources
+:FieldSetView:generateDebugSources
+:FieldSetView:incrementalDebugJavaCompilationSafeguard
+:FieldSetView:javaPreCompileDebug
+:FieldSetView:compileDebugJavaWithJavac
+:FieldSetView:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/src/main/java/libs/mjn/fieldset/FieldSetView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:FieldSetView:extractDebugAnnotations
+:FieldSetView:mergeDebugShaders
+:FieldSetView:compileDebugShaders
+:FieldSetView:generateDebugAssets
+:FieldSetView:mergeDebugAssets
+:FieldSetView:mergeDebugProguardFiles
+:FieldSetView:packageDebugRenderscript UP-TO-DATE
+:FieldSetView:packageDebugResources
+:FieldSetView:processDebugJavaRes UP-TO-DATE
+:FieldSetView:transformResourcesWithMergeJavaResForDebug
+:FieldSetView:transformClassesAndResourcesWithSyncLibJarsForDebug
+:FieldSetView:mergeDebugJniLibFolders
+:FieldSetView:transformNativeLibsWithMergeJniLibsForDebug
+:FieldSetView:transformNativeLibsWithStripDebugSymbolForDebug
+:FieldSetView:transformNativeLibsWithSyncJniLibsForDebug
+:FieldSetView:bundleDebug
+:FieldSetView:compileDebugSources
+:FieldSetView:assembleDebug
+:FieldSetView:checkReleaseManifest
+:FieldSetView:prepareReleaseDependencies
+:FieldSetView:compileReleaseAidl
+:FieldSetView:compileReleaseNdk UP-TO-DATE
+:FieldSetView:copyReleaseLint UP-TO-DATE
+:FieldSetView:compileReleaseRenderscript
+:FieldSetView:generateReleaseBuildConfig
+:FieldSetView:generateReleaseResValues
+:FieldSetView:generateReleaseResources
+:FieldSetView:mergeReleaseResources
+:FieldSetView:processReleaseManifest
+:FieldSetView:processReleaseResources
+:FieldSetView:generateReleaseSources
+:FieldSetView:incrementalReleaseJavaCompilationSafeguard
+:FieldSetView:javaPreCompileRelease
+:FieldSetView:compileReleaseJavaWithJavac
+:FieldSetView:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/FieldSetView/src/main/java/libs/mjn/fieldset/FieldSetView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:FieldSetView:extractReleaseAnnotations
+:FieldSetView:mergeReleaseShaders
+:FieldSetView:compileReleaseShaders
+:FieldSetView:generateReleaseAssets
+:FieldSetView:mergeReleaseAssets
+:FieldSetView:mergeReleaseProguardFiles
+:FieldSetView:packageReleaseRenderscript UP-TO-DATE
+:FieldSetView:packageReleaseResources
+:FieldSetView:processReleaseJavaRes UP-TO-DATE
+:FieldSetView:transformResourcesWithMergeJavaResForRelease
+:FieldSetView:transformClassesAndResourcesWithSyncLibJarsForRelease
+:FieldSetView:mergeReleaseJniLibFolders
+:FieldSetView:transformNativeLibsWithMergeJniLibsForRelease
+:FieldSetView:transformNativeLibsWithStripDebugSymbolForRelease
+:FieldSetView:transformNativeLibsWithSyncJniLibsForRelease
+:FieldSetView:bundleRelease
+:FieldSetView:compileReleaseSources
+:FieldSetView:assembleRelease
+:FieldSetView:assemble
+:FieldSetView:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.153 secs
+
+2018-08-20 14:27:57,180 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 14:27:57,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 14:28:03,620 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 14:28:03,620 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 14:28:03,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 14:28:21,560 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:FieldSetView:preBuild UP-TO-DATE
+:FieldSetView:preReleaseBuild UP-TO-DATE
+:FieldSetView:checkReleaseManifest
+:FieldSetView:preDebugAndroidTestBuild UP-TO-DATE
+:FieldSetView:preDebugBuild UP-TO-DATE
+:FieldSetView:preDebugUnitTestBuild UP-TO-DATE
+:FieldSetView:preReleaseUnitTestBuild UP-TO-DATE
+:FieldSetView:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:FieldSetView:prepareComAndroidSupportAppcompatV72531Library
+:FieldSetView:prepareComAndroidSupportSupportCompat2531Library
+:FieldSetView:prepareComAndroidSupportSupportCoreUi2531Library
+:FieldSetView:prepareComAndroidSupportSupportCoreUtils2531Library
+:FieldSetView:prepareComAndroidSupportSupportFragment2531Library
+:FieldSetView:prepareComAndroidSupportSupportMediaCompat2531Library
+:FieldSetView:prepareComAndroidSupportSupportV42531Library
+:FieldSetView:prepareComAndroidSupportSupportVectorDrawable2531Library
+:FieldSetView:prepareReleaseDependencies
+:FieldSetView:compileReleaseAidl UP-TO-DATE
+:FieldSetView:compileReleaseNdk UP-TO-DATE
+:FieldSetView:compileLint UP-TO-DATE
+:FieldSetView:copyReleaseLint UP-TO-DATE
+:FieldSetView:compileReleaseRenderscript UP-TO-DATE
+:FieldSetView:generateReleaseBuildConfig UP-TO-DATE
+:FieldSetView:generateReleaseResValues UP-TO-DATE
+:FieldSetView:generateReleaseResources UP-TO-DATE
+:FieldSetView:mergeReleaseResources UP-TO-DATE
+:FieldSetView:processReleaseManifest UP-TO-DATE
+:FieldSetView:processReleaseResources UP-TO-DATE
+:FieldSetView:generateReleaseSources UP-TO-DATE
+:FieldSetView:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:FieldSetView:javaPreCompileRelease
+:FieldSetView:compileReleaseJavaWithJavac UP-TO-DATE
+:FieldSetView:extractReleaseAnnotations UP-TO-DATE
+:FieldSetView:mergeReleaseShaders UP-TO-DATE
+:FieldSetView:compileReleaseShaders UP-TO-DATE
+:FieldSetView:generateReleaseAssets UP-TO-DATE
+:FieldSetView:mergeReleaseAssets UP-TO-DATE
+:FieldSetView:mergeReleaseProguardFiles UP-TO-DATE
+:FieldSetView:packageReleaseRenderscript UP-TO-DATE
+:FieldSetView:packageReleaseResources UP-TO-DATE
+:FieldSetView:processReleaseJavaRes UP-TO-DATE
+:FieldSetView:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:FieldSetView:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:FieldSetView:mergeReleaseJniLibFolders UP-TO-DATE
+:FieldSetView:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:FieldSetView:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:FieldSetView:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:FieldSetView:bundleRelease UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.681 secs
+
+2018-08-20 14:28:21,692 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750050659-0/src/FieldSetView-master/app/build/outputs/apk/app-debug.apk

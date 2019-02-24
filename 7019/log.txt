@@ -1,0 +1,196 @@
+2018-10-30 18:19:28,030 INFO  DownloadService - Downloading "https://github.com/mike14u/zenith/archive/master.zip", attempt 3
+2018-10-30 18:19:29,924 INFO  DownloadService - Downloaded https://github.com/mike14u/zenith/archive/master.zip, attempt 3
+2018-10-30 18:19:29,925 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/master.zip": 113 KB
+2018-10-30 18:19:29,925 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-30 18:19:29,926 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/master.zip: true
+2018-10-30 18:19:29,926 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src'.
+2018-10-30 18:19:29,972 INFO  FullProcessService - Size of directory with sources: 141 KB
+2018-10-30 18:19:29,972 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src]
+2018-10-30 18:19:30,041 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/.git/
+
+2018-10-30 18:19:30,046 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/gradlew
+2018-10-30 18:19:30,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/build.gradle
+2018-10-30 18:19:30,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/settings.gradle
+2018-10-30 18:19:30,063 INFO  ProjectBuildService - Remote scripts: none
+2018-10-30 18:19:30,063 INFO  ProjectFixService - Fixing project...
+2018-10-30 18:19:30,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/local.properties
+2018-10-30 18:19:30,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-30 18:19:30,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/local.properties
+2018-10-30 18:19:30,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-30 18:19:30,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/local.properties
+2018-10-30 18:19:30,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-30 18:19:30,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-30 18:19:30,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-30 18:19:30,097 INFO  ProjectFixService - Project was maybe fixed
+2018-10-30 18:19:30,097 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-30 18:19:30,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-30 18:19:50,713 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-10-30 18:19:50,714 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-30 18:19:50,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-30 18:21:33,547 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:zenith:preBuild UP-TO-DATE
+:zenith:preDebugBuild UP-TO-DATE
+:zenith:checkDebugManifest
+:zenith:processDebugManifest
+:app:preDebugBuild
+:zenith:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:zenith:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:zenith:compileDebugRenderscript
+:zenith:generateDebugResValues
+:zenith:generateDebugResources
+:zenith:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:zenith:generateDebugRFile
+:app:processDebugResources
+:zenith:generateDebugBuildConfig
+:zenith:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/FixedHoloDatePickerDialog.kt: (42, 32): 'setter for calendarViewShown: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/FixedHoloDatePickerDialog.kt: (43, 32): 'setter for spinnersShown: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (11, 45): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (16, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (18, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (30, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (32, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (8, 7): The primary constructor is empty, no data will be serialized to 'Parcel'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (10, 31): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (11, 33): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (13, 38): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (14, 39): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/MathUtils.kt: (31, 17): Conditional branch result of type Int is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/MathUtils.kt: (33, 17): Conditional branch result of type String is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/NetworkStateReceiver.kt: (27, 30): 'getter for state: NetworkInfo.State!' is deprecated. Deprecated in Java
+:zenith:prepareLintJar
+:zenith:generateDebugSources
+:zenith:javaPreCompileDebug
+:zenith:compileDebugJavaWithJavac
+:zenith:processDebugJavaRes NO-SOURCE
+:zenith:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:zenith:mergeDebugShaders
+:zenith:compileDebugShaders
+:zenith:generateDebugAssets
+:zenith:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:zenith:compileDebugNdk NO-SOURCE
+:zenith:mergeDebugJniLibFolders
+:zenith:transformNativeLibsWithMergeJniLibsForDebug
+:zenith:transformNativeLibsWithStripDebugSymbolForDebug
+:zenith:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:zenith:preReleaseBuild UP-TO-DATE
+:zenith:checkReleaseManifest
+:zenith:processReleaseManifest
+:app:preReleaseBuild
+:zenith:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:zenith:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:zenith:compileReleaseRenderscript
+:zenith:generateReleaseResValues
+:zenith:generateReleaseResources
+:zenith:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:zenith:generateReleaseRFile
+:app:processReleaseResources
+:zenith:generateReleaseBuildConfig
+:zenith:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/FixedHoloDatePickerDialog.kt: (42, 32): 'setter for calendarViewShown: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/FixedHoloDatePickerDialog.kt: (43, 32): 'setter for spinnersShown: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (11, 45): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (16, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (18, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (30, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/dialogs/ProgressDialogHelper.kt: (32, 25): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (8, 7): The primary constructor is empty, no data will be serialized to 'Parcel'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (10, 31): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (11, 33): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (13, 38): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/models/warp/Pointer.kt: (14, 39): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/MathUtils.kt: (31, 17): Conditional branch result of type Int is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/MathUtils.kt: (33, 17): Conditional branch result of type String is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/zenith/src/main/java/com/mikelau/zenith/utils/NetworkStateReceiver.kt: (27, 30): 'getter for state: NetworkInfo.State!' is deprecated. Deprecated in Java
+:zenith:generateReleaseSources
+:zenith:javaPreCompileRelease
+:zenith:compileReleaseJavaWithJavac
+:zenith:processReleaseJavaRes NO-SOURCE
+:zenith:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2227afed9685426e67fe9e9f3b0296f9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:zenith:mergeReleaseShaders
+:zenith:compileReleaseShaders
+:zenith:generateReleaseAssets
+:zenith:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:zenith:compileReleaseNdk NO-SOURCE
+:zenith:mergeReleaseJniLibFolders
+:zenith:transformNativeLibsWithMergeJniLibsForRelease
+:zenith:transformNativeLibsWithStripDebugSymbolForRelease
+:zenith:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 41s
+94 actionable tasks: 94 executed
+
+2018-10-30 18:21:33,686 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898368025-0/src/zenith-master/app/build/outputs/apk/debug/app-debug.apk

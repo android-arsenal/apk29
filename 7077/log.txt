@@ -1,0 +1,253 @@
+2018-11-10 20:31:31,207 INFO  DownloadService - Downloading "https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip", attempt 3
+2018-11-10 20:31:32,147 INFO  DownloadService - Downloaded https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip, attempt 3
+2018-11-10 20:31:32,148 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/master.zip": 344 KB
+2018-11-10 20:31:32,148 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-10 20:31:32,153 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/master.zip: true
+2018-11-10 20:31:32,153 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src'.
+2018-11-10 20:31:32,177 INFO  FullProcessService - Size of directory with sources: 433 KB
+2018-11-10 20:31:32,177 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src]
+2018-11-10 20:31:32,194 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/.git/
+
+2018-11-10 20:31:32,197 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/gradlew
+2018-11-10 20:31:32,200 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/build.gradle
+2018-11-10 20:31:32,203 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle
+2018-11-10 20:31:32,203 INFO  ProjectBuildService - Remote scripts: none
+2018-11-10 20:31:32,203 INFO  ProjectFixService - Fixing project...
+2018-11-10 20:31:32,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/local.properties
+2018-11-10 20:31:32,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/local.properties
+2018-11-10 20:31:32,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,213 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/local.properties
+2018-11-10 20:31:32,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-bin.zip
+2018-11-10 20:31:32,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 20:31:32,216 INFO  ProjectFixService - Project was maybe fixed
+2018-11-10 20:31:32,216 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-10 20:31:32,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-10 20:31:39,542 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-11-10 20:31:39,543 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-10 20:31:39,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-10 20:32:01,961 INFO  SysUtils - Configuration on demand is an incubating feature.
+:devdrawer:preBuild UP-TO-DATE
+:devdrawer:preDebugBuild UP-TO-DATE
+:devdrawer:compileDebugAidl
+:devdrawer:compileDebugRenderscript
+:devdrawer:checkDebugManifest
+:devdrawer:generateDebugBuildConfig
+:devdrawer:generateDebugResValues
+:devdrawer:generateDebugResources
+:devdrawer:packageDebugResources
+:devdrawer:platformAttrExtractor
+:devdrawer:processDebugManifest
+:devdrawer:prepareLintJar
+:devdrawer:mergeDebugConsumerProguardFiles
+:devdrawer:mergeDebugShaders
+:devdrawer:compileDebugShaders
+:devdrawer:generateDebugAssets
+:devdrawer:packageDebugAssets
+:devdrawer:packageDebugRenderscript NO-SOURCE
+:devdrawer:processDebugJavaRes NO-SOURCE
+:devdrawer:compileDebugNdk NO-SOURCE
+:devdrawer:mergeDebugJniLibFolders
+:devdrawer:transformNativeLibsWithMergeJniLibsForDebug
+:devdrawer:transformNativeLibsWithStripDebugSymbolForDebug
+:devdrawer:transformNativeLibsWithSyncJniLibsForDebug
+:devdrawer:preReleaseBuild UP-TO-DATE
+:devdrawer:compileReleaseAidl
+:devdrawer:compileReleaseRenderscript
+:devdrawer:checkReleaseManifest
+:devdrawer:generateReleaseBuildConfig
+:devdrawer:generateReleaseResValues
+:devdrawer:generateReleaseResources
+:devdrawer:packageReleaseResources
+:devdrawer:processReleaseManifest
+:devdrawer:mergeReleaseConsumerProguardFiles
+:devdrawer:mergeReleaseShaders
+:devdrawer:compileReleaseShaders
+:devdrawer:generateReleaseAssets
+:devdrawer:packageReleaseAssets
+:devdrawer:packageReleaseRenderscript NO-SOURCE
+:devdrawer:processReleaseJavaRes NO-SOURCE
+:devdrawer:compileReleaseNdk NO-SOURCE
+:devdrawer:mergeReleaseJniLibFolders
+:devdrawer:transformNativeLibsWithMergeJniLibsForRelease
+:devdrawer:transformNativeLibsWithStripDebugSymbolForRelease
+:devdrawer:transformNativeLibsWithSyncJniLibsForRelease
+:devdrawer:mergeReleaseResources
+:devdrawer:verifyReleaseResources
+:devdrawer:generateDebugRFile
+:devdrawer:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
+:devdrawer:generateDebugSources
+:devdrawer:javaPreCompileDebug
+:devdrawer:compileDebugJavaWithJavac
+:devdrawer:extractDebugAnnotations
+:devdrawer:transformResourcesWithMergeJavaResForDebug
+:devdrawer:transformClassesAndResourcesWithSyncLibJarsForDebug
+:devdrawer:bundleDebug
+:devdrawer:compileDebugSources
+:devdrawer:assembleDebug
+:devdrawer:generateReleaseRFile
+:devdrawer:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
+:devdrawer:generateReleaseSources
+:devdrawer:javaPreCompileRelease
+:devdrawer:compileReleaseJavaWithJavac
+:devdrawer:extractReleaseAnnotations
+:devdrawer:transformResourcesWithMergeJavaResForRelease
+:devdrawer:transformClassesAndResourcesWithSyncLibJarsForRelease
+:devdrawer:bundleRelease
+:devdrawer:compileReleaseSources
+:devdrawer:assembleRelease
+:devdrawer:assemble
+:devdrawer:build
+
+BUILD SUCCESSFUL in 21s
+50 actionable tasks: 50 executed
+
+2018-11-10 20:32:02,018 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-10 20:32:02,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-10 20:32:08,826 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-10 20:32:08,826 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-10 20:32:08,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-10 20:32:42,764 INFO  SysUtils - Configuration on demand is an incubating feature.
+:devdrawer:preBuild UP-TO-DATE
+:devdrawer:preDebugBuild UP-TO-DATE
+:devdrawer:compileDebugAidl UP-TO-DATE
+:devdrawer:compileDebugRenderscript UP-TO-DATE
+:devdrawer:checkDebugManifest UP-TO-DATE
+:devdrawer:generateDebugBuildConfig UP-TO-DATE
+:devdrawer:generateDebugResValues UP-TO-DATE
+:devdrawer:generateDebugResources UP-TO-DATE
+:devdrawer:packageDebugResources UP-TO-DATE
+:devdrawer:platformAttrExtractor UP-TO-DATE
+:devdrawer:processDebugManifest UP-TO-DATE
+:devdrawer:generateDebugRFile UP-TO-DATE
+:devdrawer:compileDebugKotlin UP-TO-DATE
+:devdrawer:prepareLintJar UP-TO-DATE
+:devdrawer:generateDebugSources UP-TO-DATE
+:devdrawer:javaPreCompileDebug UP-TO-DATE
+:devdrawer:compileDebugJavaWithJavac UP-TO-DATE
+:devdrawer:processDebugJavaRes NO-SOURCE
+:devdrawer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild
+:example:compileDebugAidl
+:devdrawer:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:example:processDebugResources
+:example:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
+:example:prepareLintJar
+:example:generateDebugSources
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:devdrawer:mergeDebugShaders UP-TO-DATE
+:devdrawer:compileDebugShaders UP-TO-DATE
+:devdrawer:generateDebugAssets UP-TO-DATE
+:devdrawer:packageDebugAssets UP-TO-DATE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:devdrawer:compileDebugNdk NO-SOURCE
+:devdrawer:mergeDebugJniLibFolders UP-TO-DATE
+:devdrawer:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:devdrawer:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:devdrawer:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:devdrawer:preReleaseBuild UP-TO-DATE
+:devdrawer:compileReleaseAidl UP-TO-DATE
+:devdrawer:compileReleaseRenderscript UP-TO-DATE
+:devdrawer:checkReleaseManifest UP-TO-DATE
+:devdrawer:generateReleaseBuildConfig UP-TO-DATE
+:devdrawer:generateReleaseResValues UP-TO-DATE
+:devdrawer:generateReleaseResources UP-TO-DATE
+:devdrawer:packageReleaseResources UP-TO-DATE
+:devdrawer:processReleaseManifest UP-TO-DATE
+:devdrawer:generateReleaseRFile UP-TO-DATE
+:devdrawer:compileReleaseKotlin UP-TO-DATE
+:devdrawer:generateReleaseSources UP-TO-DATE
+:devdrawer:javaPreCompileRelease UP-TO-DATE
+:devdrawer:compileReleaseJavaWithJavac UP-TO-DATE
+:devdrawer:processReleaseJavaRes NO-SOURCE
+:devdrawer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:preReleaseBuild
+:example:compileReleaseAidl
+:devdrawer:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:example:processReleaseResources
+:example:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
+:example:generateReleaseSources
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:devdrawer:mergeReleaseShaders UP-TO-DATE
+:devdrawer:compileReleaseShaders UP-TO-DATE
+:devdrawer:generateReleaseAssets UP-TO-DATE
+:devdrawer:packageReleaseAssets UP-TO-DATE
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:devdrawer:compileReleaseNdk NO-SOURCE
+:devdrawer:mergeReleaseJniLibFolders UP-TO-DATE
+:devdrawer:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:devdrawer:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:devdrawer:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 33s
+95 actionable tasks: 59 executed, 36 up-to-date
+
+2018-11-10 20:32:42,893 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541856691199-0/src/DevDrawer-master/example/build/outputs/apk/release/example-release-unsigned.apk

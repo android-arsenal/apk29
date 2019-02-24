@@ -1,0 +1,171 @@
+2018-11-14 23:12:09,904 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
+2018-11-14 23:13:10,597 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-14 23:13:12,350 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-14 23:13:12,350 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
+2018-11-14 23:14:14,018 DEBUG FullProcessService - Repository https://github.com/andhikayuana/simple-pie-chart-android available: true
+2018-11-14 23:14:14,018 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-14 23:14:14,018 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andhikayuana/simple-pie-chart-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src]
+2018-11-14 23:14:16,594 INFO  SysUtils - 
+2018-11-14 23:14:16,631 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/.git": true
+2018-11-14 23:14:16,634 INFO  FullProcessService - Size of directory with sources: 215 KB
+2018-11-14 23:14:16,635 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src]
+2018-11-14 23:14:16,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/.git/
+
+2018-11-14 23:14:16,656 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/gradlew
+2018-11-14 23:14:16,659 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/build.gradle
+2018-11-14 23:14:16,662 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/settings.gradle
+2018-11-14 23:14:16,663 INFO  ProjectBuildService - Remote scripts: none
+2018-11-14 23:14:16,663 INFO  ProjectFixService - Fixing project...
+2018-11-14 23:14:16,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/local.properties
+2018-11-14 23:14:16,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/pie-chart/local.properties
+2018-11-14 23:14:16,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/pie-chart/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/pie-chart/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/local.properties
+2018-11-14 23:14:16,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-14 23:14:16,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-14 23:14:16,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,677 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-14 23:14:16,677 INFO  ProjectFixService - Project was maybe fixed
+2018-11-14 23:14:16,678 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-14 23:14:16,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-14 23:14:24,128 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-14 23:14:24,128 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-14 23:14:24,128 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-14 23:15:27,437 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:pie-chart:preBuild UP-TO-DATE
+:pie-chart:preDebugBuild UP-TO-DATE
+:pie-chart:checkDebugManifest
+:pie-chart:processDebugManifest
+:app:preDebugBuild
+:pie-chart:compileDebugAidl
+:app:compileDebugAidl
+:pie-chart:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:pie-chart:compileDebugRenderscript
+:pie-chart:generateDebugResValues
+:pie-chart:generateDebugResources
+:pie-chart:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:pie-chart:platformAttrExtractor
+:pie-chart:generateDebugBuildConfig
+:pie-chart:prepareLintJar
+:pie-chart:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:pie-chart:mergeDebugShaders
+:pie-chart:compileDebugShaders
+:pie-chart:generateDebugAssets
+:pie-chart:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:pie-chart:compileDebugNdk NO-SOURCE
+:pie-chart:mergeDebugJniLibFolders
+:pie-chart:transformNativeLibsWithMergeJniLibsForDebug
+:pie-chart:transformNativeLibsWithStripDebugSymbolForDebug
+:pie-chart:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:pie-chart:preReleaseBuild UP-TO-DATE
+:pie-chart:checkReleaseManifest
+:pie-chart:processReleaseManifest
+:app:preReleaseBuild
+:pie-chart:compileReleaseAidl
+:app:compileReleaseAidl
+:pie-chart:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:pie-chart:compileReleaseRenderscript
+:pie-chart:generateReleaseResValues
+:pie-chart:generateReleaseResources
+:pie-chart:packageReleaseResources
+:app:mergeReleaseResources
+:pie-chart:generateDebugRFile
+:app:processDebugResources
+:pie-chart:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.30/kotlin-stdlib-jre7-1.2.30.jar
+:pie-chart:generateDebugSources
+:pie-chart:javaPreCompileDebug
+:pie-chart:compileDebugJavaWithJavac
+:pie-chart:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:pie-chart:generateReleaseRFile
+:app:processReleaseResources
+:pie-chart:generateReleaseBuildConfig
+:pie-chart:compileReleaseKotlin
+:pie-chart:generateReleaseSources
+:pie-chart:javaPreCompileRelease
+:pie-chart:compileReleaseJavaWithJavac
+:pie-chart:processReleaseJavaRes NO-SOURCE
+:pie-chart:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:pie-chart:mergeReleaseShaders
+:pie-chart:compileReleaseShaders
+:pie-chart:generateReleaseAssets
+:pie-chart:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:pie-chart:compileReleaseNdk NO-SOURCE
+:pie-chart:mergeReleaseJniLibFolders
+:pie-chart:transformNativeLibsWithMergeJniLibsForRelease
+:pie-chart:transformNativeLibsWithStripDebugSymbolForRelease
+:pie-chart:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 2s
+95 actionable tasks: 95 executed
+
+2018-11-14 23:15:27,541 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542211929900-0/src/app/build/outputs/apk/debug/app-debug.apk

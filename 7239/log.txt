@@ -1,0 +1,14 @@
+2019-02-23 18:50:38,221 INFO  DownloadService - Downloading "https://github.com/VRGsoftUA/VideoCrop/archive/master.zip", attempt 3
+2019-02-23 18:51:39,085 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 18:51:40,301 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 18:51:40,301 INFO  DownloadService - Downloading "https://github.com/VRGsoftUA/VideoCrop/archive/master.zip", attempt 3
+2019-02-23 18:52:42,043 DEBUG FullProcessService - Repository https://github.com/VRGsoftUA/VideoCrop available: true
+2019-02-23 18:52:42,043 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 18:52:42,043 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/VRGsoftUA/VideoCrop, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922638219-0/src]
+2019-02-23 18:52:59,734 INFO  SysUtils - 
+2019-02-23 18:52:59,749 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922638219-0/src/.git": true
+2019-02-23 18:52:59,754 INFO  FullProcessService - Size of directory with sources: 57 MB
+2019-02-23 18:52:59,754 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-02-23 18:52:59,754 ERROR FullProcessService - Project will not be processed
+2019-02-23 18:52:59,755 ERROR FullProcessService - Project build has not produced APK file
+2019-02-23 18:52:59,760 ERROR FullProcessService - Could not find generated or existed APK file

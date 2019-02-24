@@ -1,0 +1,190 @@
+2018-10-07 19:03:30,923 INFO  DownloadService - Downloading "https://github.com/petersamokhin/double-avatar-view/archive/master.zip", attempt 3
+2018-10-07 19:03:32,642 INFO  DownloadService - Downloaded https://github.com/petersamokhin/double-avatar-view/archive/master.zip, attempt 3
+2018-10-07 19:03:32,643 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/master.zip": 80 KB
+2018-10-07 19:03:32,643 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-07 19:03:32,648 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/master.zip: true
+2018-10-07 19:03:32,648 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src'.
+2018-10-07 19:03:32,657 INFO  FullProcessService - Size of directory with sources: 104 KB
+2018-10-07 19:03:32,658 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src]
+2018-10-07 19:03:32,681 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/.git/
+
+2018-10-07 19:03:32,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/gradlew
+2018-10-07 19:03:32,686 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle
+2018-10-07 19:03:32,687 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/settings.gradle
+2018-10-07 19:03:32,688 INFO  ProjectBuildService - Remote scripts: none
+2018-10-07 19:03:32,688 INFO  ProjectFixService - Fixing project...
+2018-10-07 19:03:32,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/local.properties
+2018-10-07 19:03:32,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-07 19:03:32,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-07 19:03:32,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/local.properties
+2018-10-07 19:03:32,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-07 19:03:32,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-07 19:03:32,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-07 19:03:32,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-07 19:03:32,696 INFO  ProjectFixService - Project was maybe fixed
+2018-10-07 19:03:32,697 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 19:03:32,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 19:03:41,964 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-07 19:03:41,964 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-07 19:03:41,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-07 19:04:13,211 INFO  SysUtils - Configuration on demand is an incubating feature.
+:double-avatar-view:preBuild UP-TO-DATE
+:double-avatar-view:preDebugBuild UP-TO-DATE
+:double-avatar-view:compileDebugAidl
+:double-avatar-view:compileDebugRenderscript
+:double-avatar-view:checkDebugManifest
+:double-avatar-view:generateDebugBuildConfig
+:double-avatar-view:generateDebugResValues
+:double-avatar-view:generateDebugResources
+:double-avatar-view:packageDebugResources
+:double-avatar-view:platformAttrExtractor
+:double-avatar-view:processDebugManifest
+:double-avatar-view:prepareLintJar
+:double-avatar-view:mergeDebugConsumerProguardFiles
+:double-avatar-view:mergeDebugShaders
+:double-avatar-view:compileDebugShaders
+:double-avatar-view:generateDebugAssets
+:double-avatar-view:packageDebugAssets
+:double-avatar-view:packageDebugRenderscript NO-SOURCE
+:double-avatar-view:processDebugJavaRes NO-SOURCE
+:double-avatar-view:compileDebugNdk NO-SOURCE
+:double-avatar-view:mergeDebugJniLibFolders
+:double-avatar-view:transformNativeLibsWithMergeJniLibsForDebug
+:double-avatar-view:transformNativeLibsWithStripDebugSymbolForDebug
+:double-avatar-view:transformNativeLibsWithSyncJniLibsForDebug
+:double-avatar-view:preReleaseBuild UP-TO-DATE
+:double-avatar-view:compileReleaseAidl
+:double-avatar-view:compileReleaseRenderscript
+:double-avatar-view:checkReleaseManifest
+:double-avatar-view:generateReleaseBuildConfig
+:double-avatar-view:generateReleaseResValues
+:double-avatar-view:generateReleaseResources
+:double-avatar-view:packageReleaseResources
+:double-avatar-view:processReleaseManifest
+:double-avatar-view:mergeReleaseConsumerProguardFiles
+:double-avatar-view:mergeReleaseShaders
+:double-avatar-view:compileReleaseShaders
+:double-avatar-view:generateReleaseAssets
+:double-avatar-view:packageReleaseAssets
+:double-avatar-view:packageReleaseRenderscript NO-SOURCE
+:double-avatar-view:processReleaseJavaRes NO-SOURCE
+:double-avatar-view:compileReleaseNdk NO-SOURCE
+:double-avatar-view:mergeReleaseJniLibFolders
+:double-avatar-view:transformNativeLibsWithMergeJniLibsForRelease
+:double-avatar-view:transformNativeLibsWithStripDebugSymbolForRelease
+:double-avatar-view:transformNativeLibsWithSyncJniLibsForRelease
+:double-avatar-view:mergeReleaseResources
+:double-avatar-view:verifyReleaseResources
+:double-avatar-view:generateDebugRFile
+:double-avatar-view:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/src/main/java/com/petersamokhin/android/doubleavatarview/Utils.kt: (91, 34): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:double-avatar-view:generateDebugSources
+:double-avatar-view:javaPreCompileDebug
+:double-avatar-view:compileDebugJavaWithJavac
+:double-avatar-view:extractDebugAnnotations
+:double-avatar-view:transformResourcesWithMergeJavaResForDebug
+:double-avatar-view:transformClassesAndResourcesWithSyncLibJarsForDebug
+:double-avatar-view:bundleDebug
+:double-avatar-view:compileDebugSources
+:double-avatar-view:assembleDebug
+:double-avatar-view:generateReleaseRFile
+:double-avatar-view:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/double-avatar-view/src/main/java/com/petersamokhin/android/doubleavatarview/Utils.kt: (91, 34): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:double-avatar-view:generateReleaseSources
+:double-avatar-view:javaPreCompileRelease
+:double-avatar-view:compileReleaseJavaWithJavac
+:double-avatar-view:extractReleaseAnnotations
+:double-avatar-view:transformResourcesWithMergeJavaResForRelease
+:double-avatar-view:transformClassesAndResourcesWithSyncLibJarsForRelease
+:double-avatar-view:bundleRelease
+:double-avatar-view:compileReleaseSources
+:double-avatar-view:assembleRelease
+:double-avatar-view:assemble
+:double-avatar-view:build
+
+BUILD SUCCESSFUL in 30s
+50 actionable tasks: 50 executed
+
+2018-10-07 19:04:13,273 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 19:04:13,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 19:04:21,725 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-07 19:04:21,725 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-07 19:04:21,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913810919-0/src/double-avatar-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-07 19:04:32,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+:double-avatar-view:preBuild UP-TO-DATE
+:double-avatar-view:preDebugBuild UP-TO-DATE
+:double-avatar-view:compileDebugAidl UP-TO-DATE
+:double-avatar-view:compileDebugRenderscript UP-TO-DATE
+:double-avatar-view:checkDebugManifest UP-TO-DATE
+:double-avatar-view:generateDebugBuildConfig UP-TO-DATE
+:double-avatar-view:generateDebugResValues UP-TO-DATE
+:double-avatar-view:generateDebugResources UP-TO-DATE
+:double-avatar-view:packageDebugResources UP-TO-DATE
+:double-avatar-view:platformAttrExtractor UP-TO-DATE
+:double-avatar-view:processDebugManifest UP-TO-DATE
+:double-avatar-view:generateDebugRFile UP-TO-DATE
+:double-avatar-view:compileDebugKotlin UP-TO-DATE
+:double-avatar-view:prepareLintJar UP-TO-DATE
+:double-avatar-view:generateDebugSources UP-TO-DATE
+:double-avatar-view:javaPreCompileDebug UP-TO-DATE
+:double-avatar-view:compileDebugJavaWithJavac UP-TO-DATE
+:double-avatar-view:extractDebugAnnotations UP-TO-DATE
+:double-avatar-view:mergeDebugConsumerProguardFiles UP-TO-DATE
+:double-avatar-view:mergeDebugShaders UP-TO-DATE
+:double-avatar-view:compileDebugShaders UP-TO-DATE
+:double-avatar-view:generateDebugAssets UP-TO-DATE
+:double-avatar-view:packageDebugAssets UP-TO-DATE
+:double-avatar-view:packageDebugRenderscript NO-SOURCE
+:double-avatar-view:processDebugJavaRes NO-SOURCE
+:double-avatar-view:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:double-avatar-view:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:double-avatar-view:compileDebugNdk NO-SOURCE
+:double-avatar-view:mergeDebugJniLibFolders UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:double-avatar-view:bundleDebug UP-TO-DATE
+:double-avatar-view:compileDebugSources UP-TO-DATE
+:double-avatar-view:assembleDebug UP-TO-DATE
+:double-avatar-view:preReleaseBuild UP-TO-DATE
+:double-avatar-view:compileReleaseAidl UP-TO-DATE
+:double-avatar-view:compileReleaseRenderscript UP-TO-DATE
+:double-avatar-view:checkReleaseManifest UP-TO-DATE
+:double-avatar-view:generateReleaseBuildConfig UP-TO-DATE
+:double-avatar-view:generateReleaseResValues UP-TO-DATE
+:double-avatar-view:generateReleaseResources UP-TO-DATE
+:double-avatar-view:packageReleaseResources UP-TO-DATE
+:double-avatar-view:processReleaseManifest UP-TO-DATE
+:double-avatar-view:generateReleaseRFile UP-TO-DATE
+:double-avatar-view:compileReleaseKotlin UP-TO-DATE
+:double-avatar-view:generateReleaseSources UP-TO-DATE
+:double-avatar-view:javaPreCompileRelease UP-TO-DATE
+:double-avatar-view:compileReleaseJavaWithJavac UP-TO-DATE
+:double-avatar-view:extractReleaseAnnotations UP-TO-DATE
+:double-avatar-view:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:double-avatar-view:mergeReleaseShaders UP-TO-DATE
+:double-avatar-view:compileReleaseShaders UP-TO-DATE
+:double-avatar-view:generateReleaseAssets UP-TO-DATE
+:double-avatar-view:packageReleaseAssets UP-TO-DATE
+:double-avatar-view:packageReleaseRenderscript NO-SOURCE
+:double-avatar-view:processReleaseJavaRes NO-SOURCE
+:double-avatar-view:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:double-avatar-view:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:double-avatar-view:compileReleaseNdk NO-SOURCE
+:double-avatar-view:mergeReleaseJniLibFolders UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:double-avatar-view:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:double-avatar-view:bundleRelease UP-TO-DATE
+:double-avatar-view:compileReleaseSources UP-TO-DATE
+:double-avatar-view:mergeReleaseResources UP-TO-DATE
+:double-avatar-view:verifyReleaseResources UP-TO-DATE
+:double-avatar-view:assembleRelease UP-TO-DATE
+:double-avatar-view:assemble UP-TO-DATE
+:double-avatar-view:build
+
+BUILD SUCCESSFUL in 10s
+50 actionable tasks: 50 up-to-date
+
+2018-10-07 19:04:33,024 ERROR FullProcessService - Project build has not produced APK file
+2018-10-07 19:04:33,082 ERROR FullProcessService - Could not find generated or existed APK file

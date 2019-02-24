@@ -1,0 +1,161 @@
+2018-10-17 14:55:31,105 INFO  DownloadService - Downloading "https://github.com/100rabhkr/TCWHOIS/archive/master.zip", attempt 3
+2018-10-17 14:55:31,800 INFO  DownloadService - Downloaded https://github.com/100rabhkr/TCWHOIS/archive/master.zip, attempt 3
+2018-10-17 14:55:31,800 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/master.zip": 146 KB
+2018-10-17 14:55:31,800 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-17 14:55:31,805 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/master.zip: true
+2018-10-17 14:55:31,806 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src'.
+2018-10-17 14:55:31,826 INFO  FullProcessService - Size of directory with sources: 231 KB
+2018-10-17 14:55:31,826 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src]
+2018-10-17 14:55:31,846 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/.git/
+
+2018-10-17 14:55:31,849 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/gradlew
+2018-10-17 14:55:31,852 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/tcwhois/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/build.gradle
+2018-10-17 14:55:31,855 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/tcwhois/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/settings.gradle
+2018-10-17 14:55:31,855 INFO  ProjectBuildService - Remote scripts: none
+2018-10-17 14:55:31,855 INFO  ProjectFixService - Fixing project...
+2018-10-17 14:55:31,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/local.properties
+2018-10-17 14:55:31,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/tcwhois/local.properties
+2018-10-17 14:55:31,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/tcwhois/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/tcwhois/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/local.properties
+2018-10-17 14:55:31,867 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-17 14:55:31,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-17 14:55:31,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=22,targetSdkVersion=27]
+2018-10-17 14:55:31,868 INFO  ProjectFixService - Project was maybe fixed
+2018-10-17 14:55:31,868 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-17 14:55:31,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-17 14:55:38,129 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-17 14:55:38,129 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-17 14:55:38,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-17 14:56:07,017 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:tcwhois:preBuild UP-TO-DATE
+:tcwhois:preDebugBuild UP-TO-DATE
+:tcwhois:checkDebugManifest
+:tcwhois:processDebugManifest
+:app:preDebugBuild
+:tcwhois:compileDebugAidl
+:app:compileDebugAidl
+:tcwhois:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:tcwhois:compileDebugRenderscript
+:tcwhois:generateDebugResValues
+:tcwhois:generateDebugResources
+:tcwhois:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:tcwhois:platformAttrExtractor
+:tcwhois:generateDebugBuildConfig
+:tcwhois:prepareLintJar
+:tcwhois:javaPreCompileDebug
+:tcwhois:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:tcwhois:mergeDebugShaders
+:tcwhois:compileDebugShaders
+:tcwhois:generateDebugAssets
+:tcwhois:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:tcwhois:compileDebugNdk NO-SOURCE
+:tcwhois:mergeDebugJniLibFolders
+:tcwhois:transformNativeLibsWithMergeJniLibsForDebug
+:tcwhois:transformNativeLibsWithStripDebugSymbolForDebug
+:tcwhois:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:tcwhois:preReleaseBuild UP-TO-DATE
+:tcwhois:checkReleaseManifest
+:tcwhois:processReleaseManifest
+:app:preReleaseBuild
+:tcwhois:compileReleaseAidl
+:app:compileReleaseAidl
+:tcwhois:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:tcwhois:compileReleaseRenderscript
+:tcwhois:generateReleaseResValues
+:tcwhois:generateReleaseResources
+:tcwhois:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:tcwhois:generateReleaseBuildConfig
+:tcwhois:javaPreCompileRelease
+:tcwhois:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:tcwhois:mergeReleaseShaders
+:tcwhois:compileReleaseShaders
+:tcwhois:generateReleaseAssets
+:tcwhois:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:tcwhois:compileReleaseNdk NO-SOURCE
+:tcwhois:mergeReleaseJniLibFolders
+:tcwhois:transformNativeLibsWithMergeJniLibsForRelease
+:tcwhois:transformNativeLibsWithStripDebugSymbolForRelease
+:tcwhois:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:tcwhois:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:tcwhois:generateDebugSources
+:tcwhois:compileDebugJavaWithJavac
+:tcwhois:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:tcwhois:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:tcwhois:generateReleaseSources
+:tcwhois:compileReleaseJavaWithJavac
+:tcwhois:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2018-10-17 14:56:07,082 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539762931101-0/src/TCWHOIS-master/app/build/outputs/apk/debug/app-debug.apk

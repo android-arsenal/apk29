@@ -1,0 +1,123 @@
+2019-02-23 18:56:01,659 INFO  DownloadService - Downloading "https://github.com/patrickyin/kotlin-coroutines-vs-rx/archive/master.zip", attempt 3
+2019-02-23 18:57:02,501 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 18:57:03,603 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 18:57:03,603 INFO  DownloadService - Downloading "https://github.com/patrickyin/kotlin-coroutines-vs-rx/archive/master.zip", attempt 3
+2019-02-23 18:58:05,394 DEBUG FullProcessService - Repository https://github.com/patrickyin/kotlin-coroutines-vs-rx available: true
+2019-02-23 18:58:05,400 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 18:58:05,400 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/patrickyin/kotlin-coroutines-vs-rx, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src]
+2019-02-23 18:58:07,520 INFO  SysUtils - 
+2019-02-23 18:58:07,550 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/.git": true
+2019-02-23 18:58:07,554 INFO  FullProcessService - Size of directory with sources: 153 KB
+2019-02-23 18:58:07,554 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src]
+2019-02-23 18:58:07,576 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/.git/
+
+2019-02-23 18:58:07,579 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/gradlew
+2019-02-23 18:58:07,582 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/build.gradle
+2019-02-23 18:58:07,586 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/settings.gradle
+2019-02-23 18:58:07,587 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 18:58:07,587 INFO  ProjectFixService - Fixing project...
+2019-02-23 18:58:07,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/local.properties
+2019-02-23 18:58:07,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 18:58:07,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 18:58:07,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/local.properties
+2019-02-23 18:58:07,601 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-23 18:58:07,602 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-23 18:58:07,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 18:58:07,604 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 18:58:07,605 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 18:58:07,605 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:58:07,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:58:15,788 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-02-23 18:58:15,789 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-02-23 18:58:15,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-02-23 18:58:59,492 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDevelopmentDebugBuild
+:app:compileDevelopmentDebugAidl
+:app:compileDevelopmentDebugRenderscript
+:app:checkDevelopmentDebugManifest
+:app:generateDevelopmentDebugBuildConfig
+:app:mainApkListPersistenceDevelopmentDebug
+:app:generateDevelopmentDebugResValues
+:app:generateDevelopmentDebugResources
+:app:mergeDevelopmentDebugResources
+:app:createDevelopmentDebugCompatibleScreenManifests
+:app:processDevelopmentDebugManifest
+:app:splitsDiscoveryTaskDevelopmentDebug
+:app:processDevelopmentDebugResources
+:app:kaptGenerateStubsDevelopmentDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.60/kotlin-stdlib-jdk8-1.2.60.jar
+:app:kaptDevelopmentDebugKotlin
+:app:compileDevelopmentDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/src/main/java/io/github/patrickyin/coroutinesvsrx/MainActivity.kt: (42, 9): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+:app:prepareLintJar
+:app:generateDevelopmentDebugSources
+:app:javaPreCompileDevelopmentDebug
+:app:compileDevelopmentDebugJavaWithJavac
+:app:compileDevelopmentDebugNdk NO-SOURCE
+:app:compileDevelopmentDebugSources
+:app:mergeDevelopmentDebugShaders
+:app:compileDevelopmentDebugShaders
+:app:generateDevelopmentDebugAssets
+:app:mergeDevelopmentDebugAssets
+:app:transformClassesWithDexBuilderForDevelopmentDebug
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDevelopmentDebug
+:app:transformDexArchiveWithDexMergerForDevelopmentDebug
+:app:mergeDevelopmentDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDevelopmentDebug
+:app:transformNativeLibsWithStripDebugSymbolForDevelopmentDebug
+:app:processDevelopmentDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDevelopmentDebug
+:app:validateSigningDevelopmentDebug
+:app:packageDevelopmentDebug
+:app:assembleDevelopmentDebug
+:app:assembleDebug
+:app:preDevelopmentReleaseBuild
+:app:compileDevelopmentReleaseAidl
+:app:compileDevelopmentReleaseRenderscript
+:app:checkDevelopmentReleaseManifest
+:app:generateDevelopmentReleaseBuildConfig
+:app:mainApkListPersistenceDevelopmentRelease
+:app:generateDevelopmentReleaseResValues
+:app:generateDevelopmentReleaseResources
+:app:mergeDevelopmentReleaseResources
+:app:createDevelopmentReleaseCompatibleScreenManifests
+:app:processDevelopmentReleaseManifest
+:app:splitsDiscoveryTaskDevelopmentRelease
+:app:processDevelopmentReleaseResources
+:app:kaptGenerateStubsDevelopmentReleaseKotlin
+:app:kaptDevelopmentReleaseKotlin
+:app:compileDevelopmentReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/src/main/java/io/github/patrickyin/coroutinesvsrx/MainActivity.kt: (42, 9): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+:app:generateDevelopmentReleaseSources
+:app:javaPreCompileDevelopmentRelease
+:app:compileDevelopmentReleaseJavaWithJavac
+:app:compileDevelopmentReleaseNdk NO-SOURCE
+:app:compileDevelopmentReleaseSources
+:app:lintVitalDevelopmentRelease
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar
+Download https://jcenter.bintray.com/org/objenesis/objenesis/2.5/objenesis-2.5.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.jar
+:app:mergeDevelopmentReleaseShaders
+:app:compileDevelopmentReleaseShaders
+:app:generateDevelopmentReleaseAssets
+:app:mergeDevelopmentReleaseAssets
+:app:transformClassesWithDexBuilderForDevelopmentRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForDevelopmentRelease
+:app:transformDexArchiveWithDexMergerForDevelopmentRelease
+:app:mergeDevelopmentReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDevelopmentRelease
+:app:transformNativeLibsWithStripDebugSymbolForDevelopmentRelease
+:app:processDevelopmentReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDevelopmentRelease
+:app:packageDevelopmentRelease
+:app:assembleDevelopmentRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 42s
+59 actionable tasks: 59 executed
+
+2019-02-23 18:58:59,557 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922961656-0/src/app/build/outputs/apk/development/release/app-development-release-unsigned.apk

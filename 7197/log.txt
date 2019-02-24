@@ -1,0 +1,285 @@
+2018-12-09 20:43:37,663 INFO  DownloadService - Downloading "https://github.com/Winfooz/WinAnalytics/archive/master.zip", attempt 3
+2018-12-09 20:43:38,319 INFO  DownloadService - Downloaded https://github.com/Winfooz/WinAnalytics/archive/master.zip, attempt 3
+2018-12-09 20:43:38,319 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/master.zip": 280 KB
+2018-12-09 20:43:38,319 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-09 20:43:38,325 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/master.zip: true
+2018-12-09 20:43:38,326 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src'.
+2018-12-09 20:43:38,374 INFO  FullProcessService - Size of directory with sources: 351 KB
+2018-12-09 20:43:38,374 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src]
+2018-12-09 20:43:38,391 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/.git/
+
+2018-12-09 20:43:38,397 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/gradlew
+2018-12-09 20:43:38,404 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/kotlin-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-compiler/build.gradle
+2018-12-09 20:43:38,410 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/kotlin-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics/build.gradle
+2018-12-09 20:43:38,411 INFO  ProjectBuildService - Remote scripts: none
+2018-12-09 20:43:38,411 INFO  ProjectFixService - Fixing project...
+2018-12-09 20:43:38,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/local.properties
+2018-12-09 20:43:38,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-09 20:43:38,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-09 20:43:38,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/kotlin-sample/local.properties
+2018-12-09 20:43:38,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/kotlin-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-09 20:43:38,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/kotlin-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-09 20:43:38,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-retrofit/local.properties
+2018-12-09 20:43:38,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-retrofit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-retrofit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics/local.properties
+2018-12-09 20:43:38,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/local.properties
+2018-12-09 20:43:38,445 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-09 20:43:38,445 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-09 20:43:38,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,448 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-annotations/local.properties
+2018-12-09 20:43:38,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,452 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-compiler/local.properties
+2018-12-09 20:43:38,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,455 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/winanalytics-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 20:43:38,456 INFO  ProjectFixService - Project was maybe fixed
+2018-12-09 20:43:38,456 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 20:43:38,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 20:43:58,018 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-09 20:43:58,018 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-09 20:43:58,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-09 20:45:17,814 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:java-sample:checkDebugClasspath
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.5.0/converter-gson-2.5.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-converters/2.5.0/retrofit-converters-2.5.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.5.0/converter-gson-2.5.0.jar
+:java-sample:preBuild UP-TO-DATE
+:winanalytics:format
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.6/google-java-format-1.6.pom
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format-parent/1.6/google-java-format-parent-1.6.pom
+Download https://jcenter.bintray.com/com/google/errorprone/javac-shaded/9+181-r4173-1/javac-shaded-9+181-r4173-1.pom
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.6/google-java-format-1.6.jar
+Download https://jcenter.bintray.com/com/google/errorprone/javac-shaded/9+181-r4173-1/javac-shaded-9+181-r4173-1.jar
+:winanalytics:formatKotlinMain
+:winanalytics:formatKotlin
+:winanalytics:preBuild
+:winanalytics:preDebugBuild
+:winanalytics:checkDebugManifest
+:winanalytics:processDebugManifest
+:winanalytics-retrofit:format
+:winanalytics-retrofit:formatKotlin UP-TO-DATE
+:winanalytics-retrofit:preBuild
+:winanalytics-retrofit:preDebugBuild
+:winanalytics-retrofit:checkDebugManifest
+:winanalytics-retrofit:processDebugManifest
+:java-sample:preDebugBuild
+:winanalytics:compileDebugAidl NO-SOURCE
+:winanalytics-retrofit:compileDebugAidl NO-SOURCE
+:java-sample:compileDebugAidl NO-SOURCE
+:winanalytics:packageDebugRenderscript NO-SOURCE
+:winanalytics-retrofit:packageDebugRenderscript NO-SOURCE
+:java-sample:compileDebugRenderscript
+:java-sample:checkDebugManifest
+:java-sample:generateDebugBuildConfig
+:java-sample:prepareLintJar
+:java-sample:mainApkListPersistenceDebug
+:java-sample:generateDebugResValues
+:java-sample:generateDebugResources
+:winanalytics:compileDebugRenderscript
+:winanalytics:generateDebugResValues
+:winanalytics:generateDebugResources
+:winanalytics:packageDebugResources
+:winanalytics-retrofit:compileDebugRenderscript
+:winanalytics-retrofit:generateDebugResValues
+:winanalytics-retrofit:generateDebugResources
+:winanalytics-retrofit:packageDebugResources
+:java-sample:mergeDebugResources
+:java-sample:createDebugCompatibleScreenManifests
+:java-sample:processDebugManifest
+:java-sample:splitsDiscoveryTaskDebug
+:winanalytics:generateDebugRFile
+:winanalytics-retrofit:generateDebugRFile
+:java-sample:processDebugResources
+:java-sample:generateDebugSources
+:winanalytics:generateDebugBuildConfig
+:winanalytics-annotations:discoverMainScriptsExtensions
+:winanalytics-annotations:compileKotlin
+:winanalytics-annotations:compileJava NO-SOURCE
+:winanalytics-annotations:processResources NO-SOURCE
+:winanalytics-annotations:classes UP-TO-DATE
+:winanalytics-annotations:inspectClassesForKotlinIC
+:winanalytics-annotations:jar
+:winanalytics:compileDebugKotlin
+:winanalytics:prepareLintJar
+:winanalytics:generateDebugSources
+:winanalytics:javaPreCompileDebug
+:winanalytics:compileDebugJavaWithJavac
+:winanalytics:processDebugJavaRes NO-SOURCE
+:winanalytics:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:winanalytics-compiler:discoverMainScriptsExtensions
+:winanalytics-compiler:compileKotlin
+w: Runtime JAR files in the classpath have the version 1.1, which is older than the API version 1.3. Consider using the runtime of version 1.3, or pass '-api-version 1.1' explicitly to restrict the available APIs to the runtime of version 1.1. You can also pass '-language-version 1.1' instead, which will restrict not only the APIs to the specified version, but also the language features
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.1.51/222365b4b684bfe35a7676c5ff69b4b414e398fa/kotlin-reflect-1.1.51.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.3
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.51/8b5933578dc55f32cfc1a25f1db6371e4161fb8f/kotlin-stdlib-jre7-1.1.51.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.3
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/e34fe80c9714240525f665113dd3749415515655/kotlin-stdlib-1.1.51.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.3
+:winanalytics-compiler:compileJava NO-SOURCE
+:winanalytics-compiler:processResources
+:winanalytics-compiler:classes
+:winanalytics-compiler:inspectClassesForKotlinIC
+:winanalytics-compiler:jar
+:winanalytics-retrofit:generateDebugBuildConfig
+:winanalytics-retrofit:compileDebugKotlin
+:winanalytics-retrofit:prepareLintJar
+:winanalytics-retrofit:generateDebugSources
+:winanalytics-retrofit:javaPreCompileDebug
+:winanalytics-retrofit:compileDebugJavaWithJavac
+:winanalytics-retrofit:processDebugJavaRes NO-SOURCE
+:winanalytics-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:java-sample:javaPreCompileDebug
+:java-sample:compileDebugJavaWithJavac
+:java-sample:compileDebugNdk NO-SOURCE
+:java-sample:compileDebugSources
+:java-sample:mergeDebugShaders
+:java-sample:compileDebugShaders
+:java-sample:generateDebugAssets
+:winanalytics:mergeDebugShaders
+:winanalytics:compileDebugShaders
+:winanalytics:generateDebugAssets
+:winanalytics:packageDebugAssets
+:winanalytics-retrofit:mergeDebugShaders
+:winanalytics-retrofit:compileDebugShaders
+:winanalytics-retrofit:generateDebugAssets
+:winanalytics-retrofit:packageDebugAssets
+:java-sample:mergeDebugAssets
+:java-sample:transformClassesWithDexBuilderForDebug
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.1.aar/dc3e2370fc93c82401e1d709b6bb1282/jars/classes.jar: D8: Type `com.google.android.gms.common.GoogleApiAvailability` was not found, it is required for default or static interface methods desugaring of `void com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler.runGCMRegistration(java.lang.String)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.1.aar/dc3e2370fc93c82401e1d709b6bb1282/jars/classes.jar: D8: Type `com.google.android.gms.iid.InstanceID` was not found, it is required for default or static interface methods desugaring of `void com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler.runGCMRegistration(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+:java-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:java-sample:transformDexArchiveWithDexMergerForDebug
+:java-sample:mergeDebugJniLibFolders
+:winanalytics:compileDebugNdk NO-SOURCE
+:winanalytics:mergeDebugJniLibFolders
+:winanalytics:transformNativeLibsWithMergeJniLibsForDebug
+:winanalytics:transformNativeLibsWithStripDebugSymbolForDebug
+:winanalytics:transformNativeLibsWithIntermediateJniLibsForDebug
+:winanalytics-retrofit:compileDebugNdk NO-SOURCE
+:winanalytics-retrofit:mergeDebugJniLibFolders
+:winanalytics-retrofit:transformNativeLibsWithMergeJniLibsForDebug
+:winanalytics-retrofit:transformNativeLibsWithStripDebugSymbolForDebug
+:winanalytics-retrofit:transformNativeLibsWithIntermediateJniLibsForDebug
+:java-sample:transformNativeLibsWithMergeJniLibsForDebug
+:java-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:java-sample:checkDebugLibraries
+:java-sample:processDebugJavaRes NO-SOURCE
+:java-sample:transformResourcesWithMergeJavaResForDebug
+:java-sample:validateSigningDebug
+:java-sample:packageDebug
+:java-sample:assembleDebug
+:java-sample:checkReleaseClasspath
+:winanalytics:preReleaseBuild
+:winanalytics:checkReleaseManifest
+:winanalytics:processReleaseManifest
+:winanalytics-retrofit:preReleaseBuild
+:winanalytics-retrofit:checkReleaseManifest
+:winanalytics-retrofit:processReleaseManifest
+:java-sample:preReleaseBuild
+:winanalytics:compileReleaseAidl NO-SOURCE
+:winanalytics-retrofit:compileReleaseAidl NO-SOURCE
+:java-sample:compileReleaseAidl NO-SOURCE
+:winanalytics:packageReleaseRenderscript NO-SOURCE
+:winanalytics-retrofit:packageReleaseRenderscript NO-SOURCE
+:java-sample:compileReleaseRenderscript
+:java-sample:checkReleaseManifest
+:java-sample:generateReleaseBuildConfig
+:java-sample:mainApkListPersistenceRelease
+:java-sample:generateReleaseResValues
+:java-sample:generateReleaseResources
+:winanalytics:compileReleaseRenderscript
+:winanalytics:generateReleaseResValues
+:winanalytics:generateReleaseResources
+:winanalytics:packageReleaseResources
+:winanalytics-retrofit:compileReleaseRenderscript
+:winanalytics-retrofit:generateReleaseResValues
+:winanalytics-retrofit:generateReleaseResources
+:winanalytics-retrofit:packageReleaseResources
+:java-sample:mergeReleaseResources
+:java-sample:createReleaseCompatibleScreenManifests
+:java-sample:processReleaseManifest
+:java-sample:splitsDiscoveryTaskRelease
+:winanalytics:generateReleaseRFile
+:winanalytics-retrofit:generateReleaseRFile
+:java-sample:processReleaseResources
+:java-sample:generateReleaseSources
+:winanalytics:generateReleaseBuildConfig
+:winanalytics:compileReleaseKotlin
+:winanalytics:generateReleaseSources
+:winanalytics:javaPreCompileRelease
+:winanalytics:compileReleaseJavaWithJavac
+:winanalytics:processReleaseJavaRes NO-SOURCE
+:winanalytics:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:winanalytics-retrofit:generateReleaseBuildConfig
+:winanalytics-retrofit:compileReleaseKotlin
+:winanalytics-retrofit:generateReleaseSources
+:winanalytics-retrofit:javaPreCompileRelease
+:winanalytics-retrofit:compileReleaseJavaWithJavac
+:winanalytics-retrofit:processReleaseJavaRes NO-SOURCE
+:winanalytics-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:java-sample:javaPreCompileRelease
+:java-sample:compileReleaseJavaWithJavac
+:java-sample:compileReleaseNdk NO-SOURCE
+:java-sample:compileReleaseSources
+:java-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/45682c9ee77698791cee524e63268e42/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:java-sample:mergeReleaseShaders
+:java-sample:compileReleaseShaders
+:java-sample:generateReleaseAssets
+:winanalytics:mergeReleaseShaders
+:winanalytics:compileReleaseShaders
+:winanalytics:generateReleaseAssets
+:winanalytics:packageReleaseAssets
+:winanalytics-retrofit:mergeReleaseShaders
+:winanalytics-retrofit:compileReleaseShaders
+:winanalytics-retrofit:generateReleaseAssets
+:winanalytics-retrofit:packageReleaseAssets
+:java-sample:mergeReleaseAssets
+:java-sample:transformClassesWithDexBuilderForRelease
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.1.aar/dc3e2370fc93c82401e1d709b6bb1282/jars/classes.jar: D8: Type `com.google.android.gms.common.GoogleApiAvailability` was not found, it is required for default or static interface methods desugaring of `void com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler.runGCMRegistration(java.lang.String)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.1.aar/dc3e2370fc93c82401e1d709b6bb1282/jars/classes.jar: D8: Type `com.google.android.gms.iid.InstanceID` was not found, it is required for default or static interface methods desugaring of `void com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler.runGCMRegistration(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+:java-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:java-sample:transformDexArchiveWithDexMergerForRelease
+:java-sample:mergeReleaseJniLibFolders
+:winanalytics:compileReleaseNdk NO-SOURCE
+:winanalytics:mergeReleaseJniLibFolders
+:winanalytics:transformNativeLibsWithMergeJniLibsForRelease
+:winanalytics:transformNativeLibsWithStripDebugSymbolForRelease
+:winanalytics:transformNativeLibsWithIntermediateJniLibsForRelease
+:winanalytics-retrofit:compileReleaseNdk NO-SOURCE
+:winanalytics-retrofit:mergeReleaseJniLibFolders
+:winanalytics-retrofit:transformNativeLibsWithMergeJniLibsForRelease
+:winanalytics-retrofit:transformNativeLibsWithStripDebugSymbolForRelease
+:winanalytics-retrofit:transformNativeLibsWithIntermediateJniLibsForRelease
+:java-sample:transformNativeLibsWithMergeJniLibsForRelease
+:java-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:java-sample:checkReleaseLibraries
+:java-sample:processReleaseJavaRes NO-SOURCE
+:java-sample:transformResourcesWithMergeJavaResForRelease
+:java-sample:packageRelease
+:java-sample:assembleRelease
+:java-sample:assemble
+:java-sample:build
+
+BUILD SUCCESSFUL in 1m 18s
+141 actionable tasks: 141 executed
+
+2018-12-09 20:45:17,925 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363017658-0/src/WinAnalytics-master/java-sample/build/outputs/apk/release/java-sample-release-unsigned.apk

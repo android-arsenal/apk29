@@ -1,0 +1,167 @@
+2019-02-04 11:12:14,622 INFO  DownloadService - Downloading "https://github.com/ashkanpower/EasyWebservice/archive/master.zip", attempt 3
+2019-02-04 11:12:15,282 INFO  DownloadService - Downloaded https://github.com/ashkanpower/EasyWebservice/archive/master.zip, attempt 3
+2019-02-04 11:12:15,283 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/master.zip": 151 KB
+2019-02-04 11:12:15,283 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:12:15,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/master.zip: true
+2019-02-04 11:12:15,288 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src'.
+2019-02-04 11:12:15,309 INFO  FullProcessService - Size of directory with sources: 181 KB
+2019-02-04 11:12:15,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src]
+2019-02-04 11:12:15,326 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/.git/
+
+2019-02-04 11:12:15,329 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/gradlew
+2019-02-04 11:12:15,333 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/build.gradle
+2019-02-04 11:12:15,337 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/settings.gradle
+2019-02-04 11:12:15,337 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:12:15,337 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:12:15,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/local.properties
+2019-02-04 11:12:15,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/local.properties
+2019-02-04 11:12:15,347 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,348 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/local.properties
+2019-02-04 11:12:15,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-04 11:12:15,349 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-04 11:12:15,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:12:15,350 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:12:15,350 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:12:15,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:12:21,054 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-04 11:12:21,054 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:12:21,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:12:51,608 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:easywebservice:preBuild UP-TO-DATE
+:easywebservice:preDebugBuild UP-TO-DATE
+:easywebservice:checkDebugManifest
+:easywebservice:processDebugManifest
+:app:preDebugBuild
+:easywebservice:compileDebugAidl
+:app:compileDebugAidl
+:easywebservice:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:easywebservice:compileDebugRenderscript
+:easywebservice:generateDebugResValues
+:easywebservice:generateDebugResources
+:easywebservice:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:easywebservice:platformAttrExtractor
+:easywebservice:generateDebugBuildConfig
+:easywebservice:prepareLintJar
+:easywebservice:javaPreCompileDebug
+:easywebservice:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:easywebservice:mergeDebugShaders
+:easywebservice:compileDebugShaders
+:easywebservice:generateDebugAssets
+:easywebservice:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:easywebservice:compileDebugNdk NO-SOURCE
+:easywebservice:mergeDebugJniLibFolders
+:easywebservice:transformNativeLibsWithMergeJniLibsForDebug
+:easywebservice:transformNativeLibsWithStripDebugSymbolForDebug
+:easywebservice:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:easywebservice:preReleaseBuild UP-TO-DATE
+:easywebservice:checkReleaseManifest
+:easywebservice:processReleaseManifest
+:app:preReleaseBuild
+:easywebservice:compileReleaseAidl
+:app:compileReleaseAidl
+:easywebservice:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:easywebservice:compileReleaseRenderscript
+:easywebservice:generateReleaseResValues
+:easywebservice:generateReleaseResources
+:easywebservice:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:easywebservice:generateReleaseBuildConfig
+:easywebservice:javaPreCompileRelease
+:easywebservice:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:easywebservice:mergeReleaseShaders
+:easywebservice:compileReleaseShaders
+:easywebservice:generateReleaseAssets
+:easywebservice:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:easywebservice:compileReleaseNdk NO-SOURCE
+:easywebservice:mergeReleaseJniLibFolders
+:easywebservice:transformNativeLibsWithMergeJniLibsForRelease
+:easywebservice:transformNativeLibsWithStripDebugSymbolForRelease
+:easywebservice:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:easywebservice:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:easywebservice:generateDebugSources
+:easywebservice:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/src/main/java/hivatec/ir/easywebservice/EasyWebservice.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:easywebservice:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:easywebservice:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:easywebservice:generateReleaseSources
+:easywebservice:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/easywebservice/src/main/java/hivatec/ir/easywebservice/EasyWebservice.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:easywebservice:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+91 actionable tasks: 91 executed
+
+2019-02-04 11:12:51,692 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253534619-0/src/EasyWebservice-master/app/build/outputs/apk/debug/app-debug.apk

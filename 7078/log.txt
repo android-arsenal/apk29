@@ -1,0 +1,196 @@
+2018-12-02 16:36:30,278 INFO  DownloadService - Downloading "https://github.com/RobertApikyan/SegmentedControl/archive/master.zip", attempt 3
+2018-12-02 16:36:32,347 INFO  DownloadService - Downloaded https://github.com/RobertApikyan/SegmentedControl/archive/master.zip, attempt 3
+2018-12-02 16:36:32,348 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/master.zip": 97 KB
+2018-12-02 16:36:32,348 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 16:36:32,349 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/master.zip: true
+2018-12-02 16:36:32,349 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src'.
+2018-12-02 16:36:32,375 INFO  FullProcessService - Size of directory with sources: 169 KB
+2018-12-02 16:36:32,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src]
+2018-12-02 16:36:32,402 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/.git/
+
+2018-12-02 16:36:32,406 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/gradlew
+2018-12-02 16:36:32,409 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/build.gradle
+2018-12-02 16:36:32,412 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/settings.gradle
+2018-12-02 16:36:32,413 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 16:36:32,413 INFO  ProjectFixService - Fixing project...
+2018-12-02 16:36:32,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/local.properties
+2018-12-02 16:36:32,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-02 16:36:32,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/local.properties
+2018-12-02 16:36:32,423 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-02 16:36:32,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-02 16:36:32,425 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-02 16:36:32,425 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 16:36:32,425 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:36:32,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:36:40,263 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-12-02 16:36:40,263 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-02 16:36:40,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-02 16:37:00,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+:segmentedcontrolmodule:preBuild UP-TO-DATE
+:segmentedcontrolmodule:preDebugBuild UP-TO-DATE
+:segmentedcontrolmodule:compileDebugAidl
+Download https://jitpack.io/com/github/RobertApikyan/ViewComponent/1.0.1/ViewComponent-1.0.1.pom
+Download https://jitpack.io/com/github/RobertApikyan/SecLayout/1.0.1/SecLayout-1.0.1.pom
+Download https://jitpack.io/com/github/RobertApikyan/SecLayout/1.0.1/SecLayout-1.0.1.aar
+Download https://jitpack.io/com/github/RobertApikyan/ViewComponent/1.0.1/ViewComponent-1.0.1.aar
+:segmentedcontrolmodule:compileDebugRenderscript
+:segmentedcontrolmodule:checkDebugManifest
+:segmentedcontrolmodule:generateDebugBuildConfig
+:segmentedcontrolmodule:generateDebugResValues
+:segmentedcontrolmodule:generateDebugResources
+:segmentedcontrolmodule:packageDebugResources
+:segmentedcontrolmodule:platformAttrExtractor
+:segmentedcontrolmodule:processDebugManifest
+:segmentedcontrolmodule:prepareLintJar
+:segmentedcontrolmodule:javaPreCompileDebug
+:segmentedcontrolmodule:mergeDebugConsumerProguardFiles
+:segmentedcontrolmodule:mergeDebugShaders
+:segmentedcontrolmodule:compileDebugShaders
+:segmentedcontrolmodule:generateDebugAssets
+:segmentedcontrolmodule:packageDebugAssets
+:segmentedcontrolmodule:packageDebugRenderscript NO-SOURCE
+:segmentedcontrolmodule:processDebugJavaRes NO-SOURCE
+:segmentedcontrolmodule:compileDebugNdk NO-SOURCE
+:segmentedcontrolmodule:mergeDebugJniLibFolders
+:segmentedcontrolmodule:transformNativeLibsWithMergeJniLibsForDebug
+:segmentedcontrolmodule:transformNativeLibsWithStripDebugSymbolForDebug
+:segmentedcontrolmodule:transformNativeLibsWithSyncJniLibsForDebug
+:segmentedcontrolmodule:preReleaseBuild UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseAidl
+:segmentedcontrolmodule:compileReleaseRenderscript
+:segmentedcontrolmodule:checkReleaseManifest
+:segmentedcontrolmodule:generateReleaseBuildConfig
+:segmentedcontrolmodule:generateReleaseResValues
+:segmentedcontrolmodule:generateReleaseResources
+:segmentedcontrolmodule:packageReleaseResources
+:segmentedcontrolmodule:processReleaseManifest
+:segmentedcontrolmodule:javaPreCompileRelease
+:segmentedcontrolmodule:mergeReleaseConsumerProguardFiles
+:segmentedcontrolmodule:mergeReleaseShaders
+:segmentedcontrolmodule:compileReleaseShaders
+:segmentedcontrolmodule:generateReleaseAssets
+:segmentedcontrolmodule:packageReleaseAssets
+:segmentedcontrolmodule:packageReleaseRenderscript NO-SOURCE
+:segmentedcontrolmodule:processReleaseJavaRes NO-SOURCE
+:segmentedcontrolmodule:compileReleaseNdk NO-SOURCE
+:segmentedcontrolmodule:mergeReleaseJniLibFolders
+:segmentedcontrolmodule:transformNativeLibsWithMergeJniLibsForRelease
+:segmentedcontrolmodule:transformNativeLibsWithStripDebugSymbolForRelease
+:segmentedcontrolmodule:transformNativeLibsWithSyncJniLibsForRelease
+:segmentedcontrolmodule:mergeReleaseResources
+:segmentedcontrolmodule:verifyReleaseResources
+:segmentedcontrolmodule:sourcesJar
+:segmentedcontrolmodule:generateDebugRFile
+:segmentedcontrolmodule:generateDebugSources
+:segmentedcontrolmodule:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/src/main/java/segmented_control/widget/custom/android/com/segmentedcontrol/custom_segment/SegmentViewHolderImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:segmentedcontrolmodule:extractDebugAnnotations
+:segmentedcontrolmodule:transformResourcesWithMergeJavaResForDebug
+:segmentedcontrolmodule:transformClassesAndResourcesWithSyncLibJarsForDebug
+:segmentedcontrolmodule:bundleDebug
+:segmentedcontrolmodule:compileDebugSources
+:segmentedcontrolmodule:assembleDebug
+:segmentedcontrolmodule:generateReleaseRFile
+:segmentedcontrolmodule:generateReleaseSources
+:segmentedcontrolmodule:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/segmentedcontrolmodule/src/main/java/segmented_control/widget/custom/android/com/segmentedcontrol/custom_segment/SegmentViewHolderImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:segmentedcontrolmodule:extractReleaseAnnotations
+:segmentedcontrolmodule:transformResourcesWithMergeJavaResForRelease
+:segmentedcontrolmodule:transformClassesAndResourcesWithSyncLibJarsForRelease
+:segmentedcontrolmodule:bundleRelease
+:segmentedcontrolmodule:compileReleaseSources
+:segmentedcontrolmodule:assembleRelease
+:segmentedcontrolmodule:assemble
+:segmentedcontrolmodule:build
+
+BUILD SUCCESSFUL in 20s
+49 actionable tasks: 49 executed
+
+2018-12-02 16:37:00,955 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:37:00,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:37:08,380 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-12-02 16:37:08,380 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-02 16:37:08,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743390270-0/src/SegmentedControl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-02 16:37:14,939 INFO  SysUtils - Configuration on demand is an incubating feature.
+:segmentedcontrolmodule:preBuild UP-TO-DATE
+:segmentedcontrolmodule:preDebugBuild UP-TO-DATE
+:segmentedcontrolmodule:compileDebugAidl UP-TO-DATE
+:segmentedcontrolmodule:compileDebugRenderscript UP-TO-DATE
+:segmentedcontrolmodule:checkDebugManifest UP-TO-DATE
+:segmentedcontrolmodule:generateDebugBuildConfig UP-TO-DATE
+:segmentedcontrolmodule:generateDebugResValues UP-TO-DATE
+:segmentedcontrolmodule:generateDebugResources UP-TO-DATE
+:segmentedcontrolmodule:packageDebugResources UP-TO-DATE
+:segmentedcontrolmodule:platformAttrExtractor UP-TO-DATE
+:segmentedcontrolmodule:processDebugManifest UP-TO-DATE
+:segmentedcontrolmodule:generateDebugRFile UP-TO-DATE
+:segmentedcontrolmodule:prepareLintJar UP-TO-DATE
+:segmentedcontrolmodule:generateDebugSources UP-TO-DATE
+:segmentedcontrolmodule:javaPreCompileDebug UP-TO-DATE
+:segmentedcontrolmodule:compileDebugJavaWithJavac UP-TO-DATE
+:segmentedcontrolmodule:extractDebugAnnotations UP-TO-DATE
+:segmentedcontrolmodule:mergeDebugConsumerProguardFiles UP-TO-DATE
+:segmentedcontrolmodule:mergeDebugShaders UP-TO-DATE
+:segmentedcontrolmodule:compileDebugShaders UP-TO-DATE
+:segmentedcontrolmodule:generateDebugAssets UP-TO-DATE
+:segmentedcontrolmodule:packageDebugAssets UP-TO-DATE
+:segmentedcontrolmodule:packageDebugRenderscript NO-SOURCE
+:segmentedcontrolmodule:processDebugJavaRes NO-SOURCE
+:segmentedcontrolmodule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:segmentedcontrolmodule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:segmentedcontrolmodule:compileDebugNdk NO-SOURCE
+:segmentedcontrolmodule:mergeDebugJniLibFolders UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:segmentedcontrolmodule:bundleDebug UP-TO-DATE
+:segmentedcontrolmodule:compileDebugSources UP-TO-DATE
+:segmentedcontrolmodule:assembleDebug UP-TO-DATE
+:segmentedcontrolmodule:preReleaseBuild UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseAidl UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseRenderscript UP-TO-DATE
+:segmentedcontrolmodule:checkReleaseManifest UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseBuildConfig UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseResValues UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseResources UP-TO-DATE
+:segmentedcontrolmodule:packageReleaseResources UP-TO-DATE
+:segmentedcontrolmodule:processReleaseManifest UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseRFile UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseSources UP-TO-DATE
+:segmentedcontrolmodule:javaPreCompileRelease UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseJavaWithJavac UP-TO-DATE
+:segmentedcontrolmodule:extractReleaseAnnotations UP-TO-DATE
+:segmentedcontrolmodule:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:segmentedcontrolmodule:mergeReleaseShaders UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseShaders UP-TO-DATE
+:segmentedcontrolmodule:generateReleaseAssets UP-TO-DATE
+:segmentedcontrolmodule:packageReleaseAssets UP-TO-DATE
+:segmentedcontrolmodule:packageReleaseRenderscript NO-SOURCE
+:segmentedcontrolmodule:processReleaseJavaRes NO-SOURCE
+:segmentedcontrolmodule:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:segmentedcontrolmodule:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseNdk NO-SOURCE
+:segmentedcontrolmodule:mergeReleaseJniLibFolders UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:segmentedcontrolmodule:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:segmentedcontrolmodule:bundleRelease UP-TO-DATE
+:segmentedcontrolmodule:compileReleaseSources UP-TO-DATE
+:segmentedcontrolmodule:mergeReleaseResources UP-TO-DATE
+:segmentedcontrolmodule:verifyReleaseResources UP-TO-DATE
+:segmentedcontrolmodule:assembleRelease UP-TO-DATE
+:segmentedcontrolmodule:sourcesJar UP-TO-DATE
+:segmentedcontrolmodule:assemble UP-TO-DATE
+:segmentedcontrolmodule:build
+
+BUILD SUCCESSFUL in 6s
+49 actionable tasks: 49 up-to-date
+
+2018-12-02 16:37:14,986 ERROR FullProcessService - Project build has not produced APK file
+2018-12-02 16:37:15,031 ERROR FullProcessService - Could not find generated or existed APK file

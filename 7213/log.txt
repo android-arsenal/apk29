@@ -1,0 +1,379 @@
+2019-02-23 19:15:21,373 INFO  DownloadService - Downloading "https://github.com/gratusik/AGIKSwipeButton/archive/master.zip", attempt 3
+2019-02-23 19:16:22,245 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:16:23,498 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 19:16:23,498 INFO  DownloadService - Downloading "https://github.com/gratusik/AGIKSwipeButton/archive/master.zip", attempt 3
+2019-02-23 19:17:25,291 DEBUG FullProcessService - Repository https://github.com/gratusik/AGIKSwipeButton available: true
+2019-02-23 19:17:25,291 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:17:25,291 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gratusik/AGIKSwipeButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src]
+2019-02-23 19:17:28,036 INFO  SysUtils - 
+2019-02-23 19:17:28,045 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/.git": true
+2019-02-23 19:17:28,048 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-23 19:17:28,048 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src]
+2019-02-23 19:17:28,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/.git/
+
+2019-02-23 19:17:28,069 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew
+2019-02-23 19:17:28,072 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/build.gradle
+2019-02-23 19:17:28,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/settings.gradle
+2019-02-23 19:17:28,076 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/gratusik/JCenter/master/install.gradle", attempt 3
+2019-02-23 19:17:29,067 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/gratusik/JCenter/master/install.gradle, attempt 3
+2019-02-23 19:17:29,067 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/gratusik/JCenter/master/bintrayscript.gradle", attempt 3
+2019-02-23 19:17:29,302 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/gratusik/JCenter/master/bintrayscript.gradle, attempt 3
+2019-02-23 19:17:29,302 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/gratusik/JCenter/master/install.gradle https://raw.githubusercontent.com/gratusik/JCenter/master/bintrayscript.gradle
+2019-02-23 19:17:29,302 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:17:29,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/local.properties
+2019-02-23 19:17:29,315 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:17:29,316 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/local.properties
+2019-02-23 19:17:29,316 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:17:29,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/local.properties
+2019-02-23 19:17:29,317 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 19:17:29,317 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 19:17:29,318 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:17:29,318 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:17:29,318 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:17:29,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:17:38,753 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-02-23 19:17:38,754 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 19:17:38,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 19:17:52,421 INFO  SysUtils - Configuration on demand is an incubating feature.
+:AGIKSwipeButton:preBuild UP-TO-DATE
+:AGIKSwipeButton:preDebugBuild UP-TO-DATE
+:AGIKSwipeButton:compileDebugAidl NO-SOURCE
+:AGIKSwipeButton:compileDebugRenderscript
+:AGIKSwipeButton:checkDebugManifest
+:AGIKSwipeButton:generateDebugBuildConfig
+:AGIKSwipeButton:generateDebugResValues
+:AGIKSwipeButton:generateDebugResources
+:AGIKSwipeButton:packageDebugResources
+:AGIKSwipeButton:processDebugManifest
+:AGIKSwipeButton:generateDebugRFile
+:AGIKSwipeButton:prepareLintJar
+:AGIKSwipeButton:generateDebugSources
+:AGIKSwipeButton:javaPreCompileDebug
+:AGIKSwipeButton:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/src/main/java/com/agik/AGIKSwipeButton/View/Swipe_Button_View.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:AGIKSwipeButton:extractDebugAnnotations
+:AGIKSwipeButton:mergeDebugConsumerProguardFiles
+:AGIKSwipeButton:mergeDebugShaders
+:AGIKSwipeButton:compileDebugShaders
+:AGIKSwipeButton:generateDebugAssets
+:AGIKSwipeButton:packageDebugAssets
+:AGIKSwipeButton:packageDebugRenderscript NO-SOURCE
+:AGIKSwipeButton:processDebugJavaRes NO-SOURCE
+:AGIKSwipeButton:transformResourcesWithMergeJavaResForDebug
+:AGIKSwipeButton:transformClassesAndResourcesWithSyncLibJarsForDebug
+:AGIKSwipeButton:compileDebugNdk NO-SOURCE
+:AGIKSwipeButton:mergeDebugJniLibFolders
+:AGIKSwipeButton:transformNativeLibsWithMergeJniLibsForDebug
+:AGIKSwipeButton:transformNativeLibsWithStripDebugSymbolForDebug
+:AGIKSwipeButton:transformNativeLibsWithSyncJniLibsForDebug
+:AGIKSwipeButton:bundleDebugAar
+:AGIKSwipeButton:compileDebugSources
+:AGIKSwipeButton:assembleDebug
+:AGIKSwipeButton:preReleaseBuild UP-TO-DATE
+:AGIKSwipeButton:compileReleaseAidl NO-SOURCE
+:AGIKSwipeButton:compileReleaseRenderscript
+:AGIKSwipeButton:checkReleaseManifest
+:AGIKSwipeButton:generateReleaseBuildConfig
+:AGIKSwipeButton:generateReleaseResValues
+:AGIKSwipeButton:generateReleaseResources
+:AGIKSwipeButton:packageReleaseResources
+:AGIKSwipeButton:processReleaseManifest
+:AGIKSwipeButton:generateReleaseRFile
+:AGIKSwipeButton:generateReleaseSources
+:AGIKSwipeButton:javaPreCompileRelease
+:AGIKSwipeButton:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/AGIKSwipeButton/src/main/java/com/agik/AGIKSwipeButton/View/Swipe_Button_View.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:AGIKSwipeButton:extractReleaseAnnotations
+:AGIKSwipeButton:mergeReleaseConsumerProguardFiles
+:AGIKSwipeButton:mergeReleaseShaders
+:AGIKSwipeButton:compileReleaseShaders
+:AGIKSwipeButton:generateReleaseAssets
+:AGIKSwipeButton:packageReleaseAssets
+:AGIKSwipeButton:packageReleaseRenderscript NO-SOURCE
+:AGIKSwipeButton:processReleaseJavaRes NO-SOURCE
+:AGIKSwipeButton:transformResourcesWithMergeJavaResForRelease
+:AGIKSwipeButton:transformClassesAndResourcesWithSyncLibJarsForRelease
+:AGIKSwipeButton:compileReleaseNdk NO-SOURCE
+:AGIKSwipeButton:mergeReleaseJniLibFolders
+:AGIKSwipeButton:transformNativeLibsWithMergeJniLibsForRelease
+:AGIKSwipeButton:transformNativeLibsWithStripDebugSymbolForRelease
+:AGIKSwipeButton:transformNativeLibsWithSyncJniLibsForRelease
+:AGIKSwipeButton:bundleReleaseAar
+:AGIKSwipeButton:compileReleaseSources
+:AGIKSwipeButton:mergeReleaseResources
+:AGIKSwipeButton:verifyReleaseResources
+:AGIKSwipeButton:assembleRelease
+:AGIKSwipeButton:assemble
+:AGIKSwipeButton:build
+
+BUILD SUCCESSFUL in 13s
+45 actionable tasks: 45 executed
+
+2019-02-23 19:17:52,474 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:17:52,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:17:58,178 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-02-23 19:17:58,179 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:17:58,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:18:03,964 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-23 19:18:03,964 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2019-02-23 19:18:03,964 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-02-23 19:18:03,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-23 19:18:33,314 INFO  SysUtils - Configuration on demand is an incubating feature.
+:AGIKSwipeButton:preBuild UP-TO-DATE
+:AGIKSwipeButton:preDebugBuild UP-TO-DATE
+:AGIKSwipeButton:compileDebugAidl NO-SOURCE
+:AGIKSwipeButton:compileDebugRenderscript UP-TO-DATE
+:AGIKSwipeButton:checkDebugManifest UP-TO-DATE
+:AGIKSwipeButton:generateDebugBuildConfig UP-TO-DATE
+:AGIKSwipeButton:generateDebugResValues UP-TO-DATE
+:AGIKSwipeButton:generateDebugResources UP-TO-DATE
+:AGIKSwipeButton:packageDebugResources UP-TO-DATE
+:AGIKSwipeButton:processDebugManifest UP-TO-DATE
+:AGIKSwipeButton:generateDebugRFile UP-TO-DATE
+:AGIKSwipeButton:prepareLintJar UP-TO-DATE
+:AGIKSwipeButton:generateDebugSources UP-TO-DATE
+:AGIKSwipeButton:javaPreCompileDebug UP-TO-DATE
+:AGIKSwipeButton:compileDebugJavaWithJavac UP-TO-DATE
+:AGIKSwipeButton:processDebugJavaRes NO-SOURCE
+:AGIKSwipeButton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:AGIKSwipeButton:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:AGIKSwipeButton:mergeDebugShaders UP-TO-DATE
+:AGIKSwipeButton:compileDebugShaders UP-TO-DATE
+:AGIKSwipeButton:generateDebugAssets UP-TO-DATE
+:AGIKSwipeButton:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:AGIKSwipeButton:compileDebugNdk NO-SOURCE
+:AGIKSwipeButton:mergeDebugJniLibFolders UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:AGIKSwipeButton:preReleaseBuild UP-TO-DATE
+:AGIKSwipeButton:compileReleaseAidl NO-SOURCE
+:AGIKSwipeButton:compileReleaseRenderscript UP-TO-DATE
+:AGIKSwipeButton:checkReleaseManifest UP-TO-DATE
+:AGIKSwipeButton:generateReleaseBuildConfig UP-TO-DATE
+:AGIKSwipeButton:generateReleaseResValues UP-TO-DATE
+:AGIKSwipeButton:generateReleaseResources UP-TO-DATE
+:AGIKSwipeButton:packageReleaseResources UP-TO-DATE
+:AGIKSwipeButton:processReleaseManifest UP-TO-DATE
+:AGIKSwipeButton:generateReleaseRFile UP-TO-DATE
+:AGIKSwipeButton:generateReleaseSources UP-TO-DATE
+:AGIKSwipeButton:javaPreCompileRelease UP-TO-DATE
+:AGIKSwipeButton:compileReleaseJavaWithJavac UP-TO-DATE
+:AGIKSwipeButton:processReleaseJavaRes NO-SOURCE
+:AGIKSwipeButton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:AGIKSwipeButton:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:AGIKSwipeButton:mergeReleaseShaders UP-TO-DATE
+:AGIKSwipeButton:compileReleaseShaders UP-TO-DATE
+:AGIKSwipeButton:generateReleaseAssets UP-TO-DATE
+:AGIKSwipeButton:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:AGIKSwipeButton:compileReleaseNdk NO-SOURCE
+:AGIKSwipeButton:mergeReleaseJniLibFolders UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:AGIKSwipeButton:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/f62e396aaed29091c017e99f0a8aa120/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 2 issues found
+Ran lint on variant debug: 2 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build/reports/lint-results.xml
+:app:generateDebugUnitTestSources
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:javaPreCompileDebugUnitTest
+:app:compileDebugUnitTestJavaWithJavac
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:testDebugUnitTest
+:app:generateReleaseUnitTestSources
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL in 28s
+96 actionable tasks: 65 executed, 31 up-to-date
+
+2019-02-23 19:18:33,434 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924121365-0/src/app/build/outputs/apk/debug/app-debug.apk

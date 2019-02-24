@@ -1,0 +1,174 @@
+2019-02-04 11:08:34,809 INFO  DownloadService - Downloading "https://github.com/tommybuonomo/dotsindicator/archive/master.zip", attempt 3
+2019-02-04 11:08:36,823 INFO  DownloadService - Downloaded https://github.com/tommybuonomo/dotsindicator/archive/master.zip, attempt 3
+2019-02-04 11:08:36,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/master.zip": 186 KB
+2019-02-04 11:08:36,824 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:08:36,829 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/master.zip: true
+2019-02-04 11:08:36,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src'.
+2019-02-04 11:08:36,853 INFO  FullProcessService - Size of directory with sources: 239 KB
+2019-02-04 11:08:36,853 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src]
+2019-02-04 11:08:36,872 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/.git/
+
+2019-02-04 11:08:36,875 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/gradlew
+2019-02-04 11:08:36,879 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/build.gradle
+2019-02-04 11:08:36,882 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/settings.gradle
+2019-02-04 11:08:36,882 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:08:36,882 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:08:36,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/local.properties
+2019-02-04 11:08:36,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-04 11:08:36,892 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-04 11:08:36,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/local.properties
+2019-02-04 11:08:36,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:08:36,893 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:08:36,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/local.properties
+2019-02-04 11:08:36,894 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-04 11:08:36,895 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-04 11:08:36,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:08:36,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 11:08:36,896 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:08:36,896 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:08:36,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:08:45,215 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-04 11:08:45,215 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:08:45,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:09:13,280 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :viewpagerdotsindicator:preBuild UP-TO-DATE
+> Task :viewpagerdotsindicator:preDebugBuild UP-TO-DATE
+> Task :viewpagerdotsindicator:compileDebugAidl NO-SOURCE
+> Task :viewpagerdotsindicator:compileDebugRenderscript
+> Task :viewpagerdotsindicator:checkDebugManifest
+> Task :viewpagerdotsindicator:generateDebugBuildConfig
+> Task :viewpagerdotsindicator:generateDebugResValues
+> Task :viewpagerdotsindicator:generateDebugResources
+> Task :viewpagerdotsindicator:packageDebugResources
+> Task :viewpagerdotsindicator:processDebugManifest
+> Task :viewpagerdotsindicator:generateDebugRFile
+> Task :viewpagerdotsindicator:prepareLintJar
+> Task :viewpagerdotsindicator:generateDebugSources
+> Task :viewpagerdotsindicator:javaPreCompileDebug
+
+> Task :viewpagerdotsindicator:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/src/main/java/com/tbuonomo/viewpagerdotsindicator/WormDotsIndicator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :viewpagerdotsindicator:processDebugJavaRes NO-SOURCE
+> Task :viewpagerdotsindicator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :viewpagerdotsindicator-sample:preBuild UP-TO-DATE
+> Task :viewpagerdotsindicator-sample:preDebugBuild
+> Task :viewpagerdotsindicator-sample:compileDebugAidl NO-SOURCE
+> Task :viewpagerdotsindicator:packageDebugRenderscript NO-SOURCE
+> Task :viewpagerdotsindicator-sample:compileDebugRenderscript
+> Task :viewpagerdotsindicator-sample:checkDebugManifest
+> Task :viewpagerdotsindicator-sample:generateDebugBuildConfig
+> Task :viewpagerdotsindicator-sample:prepareLintJar
+> Task :viewpagerdotsindicator-sample:generateDebugSources
+> Task :viewpagerdotsindicator-sample:javaPreCompileDebug
+> Task :viewpagerdotsindicator-sample:mainApkListPersistenceDebug
+> Task :viewpagerdotsindicator-sample:generateDebugResValues
+> Task :viewpagerdotsindicator-sample:generateDebugResources
+> Task :viewpagerdotsindicator-sample:mergeDebugResources
+> Task :viewpagerdotsindicator-sample:createDebugCompatibleScreenManifests
+> Task :viewpagerdotsindicator-sample:processDebugManifest
+> Task :viewpagerdotsindicator-sample:processDebugResources
+> Task :viewpagerdotsindicator-sample:compileDebugJavaWithJavac
+> Task :viewpagerdotsindicator-sample:compileDebugNdk NO-SOURCE
+> Task :viewpagerdotsindicator-sample:compileDebugSources
+> Task :viewpagerdotsindicator:mergeDebugShaders
+> Task :viewpagerdotsindicator:compileDebugShaders
+> Task :viewpagerdotsindicator:generateDebugAssets
+> Task :viewpagerdotsindicator:packageDebugAssets
+> Task :viewpagerdotsindicator-sample:mergeDebugShaders
+> Task :viewpagerdotsindicator-sample:compileDebugShaders
+> Task :viewpagerdotsindicator-sample:generateDebugAssets
+> Task :viewpagerdotsindicator-sample:mergeDebugAssets
+> Task :viewpagerdotsindicator:createFullJarDebug
+> Transform full.jar (project :viewpagerdotsindicator) with IdentityTransform
+> Task :viewpagerdotsindicator-sample:mergeExtDexDebug
+> Transform full.jar (project :viewpagerdotsindicator) with DexingTransform
+> Task :viewpagerdotsindicator-sample:transformClassesWithDexBuilderForDebug
+> Task :viewpagerdotsindicator-sample:mergeDexDebug
+> Task :viewpagerdotsindicator-sample:validateSigningDebug
+> Task :viewpagerdotsindicator-sample:signingConfigWriterDebug
+> Task :viewpagerdotsindicator:compileDebugNdk NO-SOURCE
+> Task :viewpagerdotsindicator:mergeDebugJniLibFolders
+> Task :viewpagerdotsindicator:transformNativeLibsWithMergeJniLibsForDebug
+> Task :viewpagerdotsindicator:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :viewpagerdotsindicator:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :viewpagerdotsindicator-sample:mergeDebugJniLibFolders
+> Task :viewpagerdotsindicator-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :viewpagerdotsindicator-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :viewpagerdotsindicator-sample:processDebugJavaRes NO-SOURCE
+> Task :viewpagerdotsindicator-sample:transformResourcesWithMergeJavaResForDebug
+> Task :viewpagerdotsindicator-sample:packageDebug
+> Task :viewpagerdotsindicator-sample:assembleDebug
+> Task :viewpagerdotsindicator:preReleaseBuild UP-TO-DATE
+> Task :viewpagerdotsindicator:compileReleaseAidl NO-SOURCE
+> Task :viewpagerdotsindicator:compileReleaseRenderscript
+> Task :viewpagerdotsindicator:checkReleaseManifest
+> Task :viewpagerdotsindicator:generateReleaseBuildConfig
+> Task :viewpagerdotsindicator:generateReleaseResValues
+> Task :viewpagerdotsindicator:generateReleaseResources
+> Task :viewpagerdotsindicator:packageReleaseResources
+> Task :viewpagerdotsindicator:processReleaseManifest
+> Task :viewpagerdotsindicator:generateReleaseRFile
+> Task :viewpagerdotsindicator:generateReleaseSources
+> Task :viewpagerdotsindicator:javaPreCompileRelease
+
+> Task :viewpagerdotsindicator:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator/src/main/java/com/tbuonomo/viewpagerdotsindicator/WormDotsIndicator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :viewpagerdotsindicator:processReleaseJavaRes NO-SOURCE
+> Task :viewpagerdotsindicator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :viewpagerdotsindicator-sample:preReleaseBuild
+> Task :viewpagerdotsindicator-sample:compileReleaseAidl NO-SOURCE
+> Task :viewpagerdotsindicator:packageReleaseRenderscript NO-SOURCE
+> Task :viewpagerdotsindicator-sample:compileReleaseRenderscript
+> Task :viewpagerdotsindicator-sample:checkReleaseManifest
+> Task :viewpagerdotsindicator-sample:generateReleaseBuildConfig
+> Task :viewpagerdotsindicator-sample:generateReleaseSources
+> Task :viewpagerdotsindicator-sample:javaPreCompileRelease
+> Task :viewpagerdotsindicator-sample:mainApkListPersistenceRelease
+> Task :viewpagerdotsindicator-sample:generateReleaseResValues
+> Task :viewpagerdotsindicator-sample:generateReleaseResources
+> Task :viewpagerdotsindicator-sample:mergeReleaseResources
+> Task :viewpagerdotsindicator-sample:createReleaseCompatibleScreenManifests
+> Task :viewpagerdotsindicator-sample:processReleaseManifest
+> Task :viewpagerdotsindicator-sample:processReleaseResources
+> Task :viewpagerdotsindicator-sample:compileReleaseJavaWithJavac
+> Task :viewpagerdotsindicator-sample:compileReleaseNdk NO-SOURCE
+> Task :viewpagerdotsindicator-sample:compileReleaseSources
+> Task :viewpagerdotsindicator-sample:lintVitalRelease
+> Task :viewpagerdotsindicator:createFullJarRelease
+> Transform full.jar (project :viewpagerdotsindicator) with IdentityTransform
+> Task :viewpagerdotsindicator-sample:mergeExtDexRelease
+> Transform full.jar (project :viewpagerdotsindicator) with DexingTransform
+> Task :viewpagerdotsindicator-sample:transformClassesWithDexBuilderForRelease
+> Task :viewpagerdotsindicator-sample:mergeDexRelease
+> Task :viewpagerdotsindicator:mergeReleaseShaders
+> Task :viewpagerdotsindicator:compileReleaseShaders
+> Task :viewpagerdotsindicator:generateReleaseAssets
+> Task :viewpagerdotsindicator:packageReleaseAssets
+> Task :viewpagerdotsindicator-sample:mergeReleaseShaders
+> Task :viewpagerdotsindicator-sample:compileReleaseShaders
+> Task :viewpagerdotsindicator-sample:generateReleaseAssets
+> Task :viewpagerdotsindicator-sample:mergeReleaseAssets
+> Task :viewpagerdotsindicator-sample:signingConfigWriterRelease
+> Task :viewpagerdotsindicator:compileReleaseNdk NO-SOURCE
+> Task :viewpagerdotsindicator:mergeReleaseJniLibFolders
+> Task :viewpagerdotsindicator:transformNativeLibsWithMergeJniLibsForRelease
+> Task :viewpagerdotsindicator:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :viewpagerdotsindicator:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :viewpagerdotsindicator-sample:mergeReleaseJniLibFolders
+> Task :viewpagerdotsindicator-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :viewpagerdotsindicator-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :viewpagerdotsindicator-sample:processReleaseJavaRes NO-SOURCE
+> Task :viewpagerdotsindicator-sample:transformResourcesWithMergeJavaResForRelease
+> Task :viewpagerdotsindicator-sample:packageRelease
+> Task :viewpagerdotsindicator-sample:assembleRelease
+> Task :viewpagerdotsindicator-sample:assemble
+> Task :viewpagerdotsindicator-sample:build
+
+BUILD SUCCESSFUL in 27s
+88 actionable tasks: 88 executed
+
+2019-02-04 11:09:13,358 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253314802-0/src/dotsindicator-master/viewpagerdotsindicator-sample/build/outputs/apk/release/viewpagerdotsindicator-sample-release-unsigned.apk

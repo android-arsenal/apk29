@@ -1,0 +1,188 @@
+2018-09-19 10:59:01,178 INFO  DownloadService - Downloading "https://github.com/RobertApikyan/LifecycleEvents/archive/master.zip", attempt 3
+2018-09-19 10:59:03,333 INFO  DownloadService - Downloaded https://github.com/RobertApikyan/LifecycleEvents/archive/master.zip, attempt 3
+2018-09-19 10:59:03,333 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/master.zip": 84 KB
+2018-09-19 10:59:03,333 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-19 10:59:03,338 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/master.zip: true
+2018-09-19 10:59:03,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src'.
+2018-09-19 10:59:03,354 INFO  FullProcessService - Size of directory with sources: 118 KB
+2018-09-19 10:59:03,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src]
+2018-09-19 10:59:03,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/.git/
+
+2018-09-19 10:59:03,374 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/gradlew
+2018-09-19 10:59:03,377 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle
+2018-09-19 10:59:03,379 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/settings.gradle
+2018-09-19 10:59:03,379 INFO  ProjectBuildService - Remote scripts: none
+2018-09-19 10:59:03,379 INFO  ProjectFixService - Fixing project...
+2018-09-19 10:59:03,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/local.properties
+2018-09-19 10:59:03,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-19 10:59:03,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-19 10:59:03,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/local.properties
+2018-09-19 10:59:03,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-19 10:59:03,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-19 10:59:03,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-19 10:59:03,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-19 10:59:03,390 INFO  ProjectFixService - Project was maybe fixed
+2018-09-19 10:59:03,390 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-19 10:59:03,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-19 10:59:12,064 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-19 10:59:12,064 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-19 10:59:12,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/lifecycleEvents/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-19 10:59:37,071 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lifecycleEvents:preBuild UP-TO-DATE
+:lifecycleEvents:preDebugBuild UP-TO-DATE
+:lifecycleEvents:compileDebugAidl
+:lifecycleEvents:compileDebugRenderscript
+:lifecycleEvents:checkDebugManifest
+:lifecycleEvents:generateDebugBuildConfig
+:lifecycleEvents:generateDebugResValues
+:lifecycleEvents:generateDebugResources
+:lifecycleEvents:packageDebugResources
+:lifecycleEvents:platformAttrExtractor
+:lifecycleEvents:processDebugManifest
+:lifecycleEvents:prepareLintJar
+:lifecycleEvents:mergeDebugConsumerProguardFiles
+:lifecycleEvents:mergeDebugShaders
+:lifecycleEvents:compileDebugShaders
+:lifecycleEvents:generateDebugAssets
+:lifecycleEvents:packageDebugAssets
+:lifecycleEvents:packageDebugRenderscript NO-SOURCE
+:lifecycleEvents:processDebugJavaRes NO-SOURCE
+:lifecycleEvents:compileDebugNdk NO-SOURCE
+:lifecycleEvents:mergeDebugJniLibFolders
+:lifecycleEvents:transformNativeLibsWithMergeJniLibsForDebug
+:lifecycleEvents:transformNativeLibsWithStripDebugSymbolForDebug
+:lifecycleEvents:transformNativeLibsWithSyncJniLibsForDebug
+:lifecycleEvents:preReleaseBuild UP-TO-DATE
+:lifecycleEvents:compileReleaseAidl
+:lifecycleEvents:compileReleaseRenderscript
+:lifecycleEvents:checkReleaseManifest
+:lifecycleEvents:generateReleaseBuildConfig
+:lifecycleEvents:generateReleaseResValues
+:lifecycleEvents:generateReleaseResources
+:lifecycleEvents:packageReleaseResources
+:lifecycleEvents:processReleaseManifest
+:lifecycleEvents:mergeReleaseConsumerProguardFiles
+:lifecycleEvents:mergeReleaseShaders
+:lifecycleEvents:compileReleaseShaders
+:lifecycleEvents:generateReleaseAssets
+:lifecycleEvents:packageReleaseAssets
+:lifecycleEvents:packageReleaseRenderscript NO-SOURCE
+:lifecycleEvents:processReleaseJavaRes NO-SOURCE
+:lifecycleEvents:compileReleaseNdk NO-SOURCE
+:lifecycleEvents:mergeReleaseJniLibFolders
+:lifecycleEvents:transformNativeLibsWithMergeJniLibsForRelease
+:lifecycleEvents:transformNativeLibsWithStripDebugSymbolForRelease
+:lifecycleEvents:transformNativeLibsWithSyncJniLibsForRelease
+:lifecycleEvents:mergeReleaseResources
+:lifecycleEvents:verifyReleaseResources
+:lifecycleEvents:generateDebugRFile
+:lifecycleEvents:compileDebugKotlin
+:lifecycleEvents:generateDebugSources
+:lifecycleEvents:javaPreCompileDebug
+:lifecycleEvents:compileDebugJavaWithJavac
+:lifecycleEvents:extractDebugAnnotations
+:lifecycleEvents:transformResourcesWithMergeJavaResForDebug
+:lifecycleEvents:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lifecycleEvents:bundleDebug
+:lifecycleEvents:compileDebugSources
+:lifecycleEvents:assembleDebug
+:lifecycleEvents:generateReleaseRFile
+:lifecycleEvents:compileReleaseKotlin
+:lifecycleEvents:generateReleaseSources
+:lifecycleEvents:javaPreCompileRelease
+:lifecycleEvents:compileReleaseJavaWithJavac
+:lifecycleEvents:extractReleaseAnnotations
+:lifecycleEvents:transformResourcesWithMergeJavaResForRelease
+:lifecycleEvents:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lifecycleEvents:bundleRelease
+:lifecycleEvents:compileReleaseSources
+:lifecycleEvents:assembleRelease
+:lifecycleEvents:assemble
+:lifecycleEvents:build
+
+BUILD SUCCESSFUL in 24s
+50 actionable tasks: 50 executed
+
+2018-09-19 10:59:37,121 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-19 10:59:37,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-19 10:59:43,826 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-19 10:59:43,826 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-19 10:59:43,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537329541174-0/src/LifecycleEvents-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-19 10:59:51,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lifecycleEvents:preBuild UP-TO-DATE
+:lifecycleEvents:preDebugBuild UP-TO-DATE
+:lifecycleEvents:compileDebugAidl UP-TO-DATE
+:lifecycleEvents:compileDebugRenderscript UP-TO-DATE
+:lifecycleEvents:checkDebugManifest UP-TO-DATE
+:lifecycleEvents:generateDebugBuildConfig UP-TO-DATE
+:lifecycleEvents:generateDebugResValues UP-TO-DATE
+:lifecycleEvents:generateDebugResources UP-TO-DATE
+:lifecycleEvents:packageDebugResources UP-TO-DATE
+:lifecycleEvents:platformAttrExtractor UP-TO-DATE
+:lifecycleEvents:processDebugManifest UP-TO-DATE
+:lifecycleEvents:generateDebugRFile UP-TO-DATE
+:lifecycleEvents:compileDebugKotlin UP-TO-DATE
+:lifecycleEvents:prepareLintJar UP-TO-DATE
+:lifecycleEvents:generateDebugSources UP-TO-DATE
+:lifecycleEvents:javaPreCompileDebug UP-TO-DATE
+:lifecycleEvents:compileDebugJavaWithJavac UP-TO-DATE
+:lifecycleEvents:extractDebugAnnotations UP-TO-DATE
+:lifecycleEvents:mergeDebugConsumerProguardFiles UP-TO-DATE
+:lifecycleEvents:mergeDebugShaders UP-TO-DATE
+:lifecycleEvents:compileDebugShaders UP-TO-DATE
+:lifecycleEvents:generateDebugAssets UP-TO-DATE
+:lifecycleEvents:packageDebugAssets UP-TO-DATE
+:lifecycleEvents:packageDebugRenderscript NO-SOURCE
+:lifecycleEvents:processDebugJavaRes NO-SOURCE
+:lifecycleEvents:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:lifecycleEvents:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:lifecycleEvents:compileDebugNdk NO-SOURCE
+:lifecycleEvents:mergeDebugJniLibFolders UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:lifecycleEvents:bundleDebug UP-TO-DATE
+:lifecycleEvents:compileDebugSources UP-TO-DATE
+:lifecycleEvents:assembleDebug UP-TO-DATE
+:lifecycleEvents:preReleaseBuild UP-TO-DATE
+:lifecycleEvents:compileReleaseAidl UP-TO-DATE
+:lifecycleEvents:compileReleaseRenderscript UP-TO-DATE
+:lifecycleEvents:checkReleaseManifest UP-TO-DATE
+:lifecycleEvents:generateReleaseBuildConfig UP-TO-DATE
+:lifecycleEvents:generateReleaseResValues UP-TO-DATE
+:lifecycleEvents:generateReleaseResources UP-TO-DATE
+:lifecycleEvents:packageReleaseResources UP-TO-DATE
+:lifecycleEvents:processReleaseManifest UP-TO-DATE
+:lifecycleEvents:generateReleaseRFile UP-TO-DATE
+:lifecycleEvents:compileReleaseKotlin UP-TO-DATE
+:lifecycleEvents:generateReleaseSources UP-TO-DATE
+:lifecycleEvents:javaPreCompileRelease UP-TO-DATE
+:lifecycleEvents:compileReleaseJavaWithJavac UP-TO-DATE
+:lifecycleEvents:extractReleaseAnnotations UP-TO-DATE
+:lifecycleEvents:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:lifecycleEvents:mergeReleaseShaders UP-TO-DATE
+:lifecycleEvents:compileReleaseShaders UP-TO-DATE
+:lifecycleEvents:generateReleaseAssets UP-TO-DATE
+:lifecycleEvents:packageReleaseAssets UP-TO-DATE
+:lifecycleEvents:packageReleaseRenderscript NO-SOURCE
+:lifecycleEvents:processReleaseJavaRes NO-SOURCE
+:lifecycleEvents:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:lifecycleEvents:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:lifecycleEvents:compileReleaseNdk NO-SOURCE
+:lifecycleEvents:mergeReleaseJniLibFolders UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:lifecycleEvents:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:lifecycleEvents:bundleRelease UP-TO-DATE
+:lifecycleEvents:compileReleaseSources UP-TO-DATE
+:lifecycleEvents:mergeReleaseResources UP-TO-DATE
+:lifecycleEvents:verifyReleaseResources UP-TO-DATE
+:lifecycleEvents:assembleRelease UP-TO-DATE
+:lifecycleEvents:assemble UP-TO-DATE
+:lifecycleEvents:build
+
+BUILD SUCCESSFUL in 7s
+50 actionable tasks: 50 up-to-date
+
+2018-09-19 10:59:51,666 ERROR FullProcessService - Project build has not produced APK file
+2018-09-19 10:59:51,712 ERROR FullProcessService - Could not find generated or existed APK file

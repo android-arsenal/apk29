@@ -1,0 +1,189 @@
+2019-02-04 11:01:58,831 INFO  DownloadService - Downloading "https://github.com/RobertApikyan/LifecycleMvp/archive/master.zip", attempt 3
+2019-02-04 11:02:00,655 INFO  DownloadService - Downloaded https://github.com/RobertApikyan/LifecycleMvp/archive/master.zip, attempt 3
+2019-02-04 11:02:00,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/master.zip": 77 KB
+2019-02-04 11:02:00,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:02:00,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/master.zip: true
+2019-02-04 11:02:00,661 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src'.
+2019-02-04 11:02:00,672 INFO  FullProcessService - Size of directory with sources: 110 KB
+2019-02-04 11:02:00,673 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src]
+2019-02-04 11:02:00,694 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/.git/
+
+2019-02-04 11:02:00,696 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/gradlew
+2019-02-04 11:02:00,698 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle
+2019-02-04 11:02:00,700 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle
+2019-02-04 11:02:00,700 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:02:00,700 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:02:00,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/local.properties
+2019-02-04 11:02:00,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-04 11:02:00,706 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-04 11:02:00,707 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/local.properties
+2019-02-04 11:02:00,707 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-04 11:02:00,707 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-04 11:02:00,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-04 11:02:00,708 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-04 11:02:00,709 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:02:00,709 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:02:00,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:02:07,355 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-04 11:02:07,355 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-04 11:02:07,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/lifecyclemvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-04 11:02:31,063 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lifecyclemvp:preBuild UP-TO-DATE
+:lifecyclemvp:preDebugBuild UP-TO-DATE
+:lifecyclemvp:compileDebugAidl NO-SOURCE
+:lifecyclemvp:compileDebugRenderscript
+Download https://jitpack.io/com/github/RobertApikyan/AbstractMvp/1.0.3/AbstractMvp-1.0.3.aar
+:lifecyclemvp:checkDebugManifest
+:lifecyclemvp:generateDebugBuildConfig
+:lifecyclemvp:generateDebugResValues
+:lifecyclemvp:generateDebugResources
+:lifecyclemvp:packageDebugResources
+:lifecyclemvp:processDebugManifest
+:lifecyclemvp:generateDebugRFile
+:lifecyclemvp:compileDebugKotlin
+:lifecyclemvp:prepareLintJar
+:lifecyclemvp:generateDebugSources
+:lifecyclemvp:javaPreCompileDebug
+:lifecyclemvp:compileDebugJavaWithJavac
+:lifecyclemvp:extractDebugAnnotations
+:lifecyclemvp:mergeDebugConsumerProguardFiles
+:lifecyclemvp:mergeDebugShaders
+:lifecyclemvp:compileDebugShaders
+:lifecyclemvp:generateDebugAssets
+:lifecyclemvp:packageDebugAssets
+:lifecyclemvp:packageDebugRenderscript NO-SOURCE
+:lifecyclemvp:processDebugJavaRes NO-SOURCE
+:lifecyclemvp:transformResourcesWithMergeJavaResForDebug
+:lifecyclemvp:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lifecyclemvp:compileDebugNdk NO-SOURCE
+:lifecyclemvp:mergeDebugJniLibFolders
+:lifecyclemvp:transformNativeLibsWithMergeJniLibsForDebug
+:lifecyclemvp:transformNativeLibsWithStripDebugSymbolForDebug
+:lifecyclemvp:transformNativeLibsWithSyncJniLibsForDebug
+:lifecyclemvp:bundleDebugAar
+:lifecyclemvp:compileDebugSources
+:lifecyclemvp:assembleDebug
+:lifecyclemvp:preReleaseBuild UP-TO-DATE
+:lifecyclemvp:compileReleaseAidl NO-SOURCE
+:lifecyclemvp:compileReleaseRenderscript
+:lifecyclemvp:checkReleaseManifest
+:lifecyclemvp:generateReleaseBuildConfig
+:lifecyclemvp:generateReleaseResValues
+:lifecyclemvp:generateReleaseResources
+:lifecyclemvp:packageReleaseResources
+:lifecyclemvp:processReleaseManifest
+:lifecyclemvp:generateReleaseRFile
+:lifecyclemvp:compileReleaseKotlin
+:lifecyclemvp:generateReleaseSources
+:lifecyclemvp:javaPreCompileRelease
+:lifecyclemvp:compileReleaseJavaWithJavac
+:lifecyclemvp:extractReleaseAnnotations
+:lifecyclemvp:mergeReleaseConsumerProguardFiles
+:lifecyclemvp:mergeReleaseShaders
+:lifecyclemvp:compileReleaseShaders
+:lifecyclemvp:generateReleaseAssets
+:lifecyclemvp:packageReleaseAssets
+:lifecyclemvp:packageReleaseRenderscript NO-SOURCE
+:lifecyclemvp:processReleaseJavaRes NO-SOURCE
+:lifecyclemvp:transformResourcesWithMergeJavaResForRelease
+:lifecyclemvp:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lifecyclemvp:compileReleaseNdk NO-SOURCE
+:lifecyclemvp:mergeReleaseJniLibFolders
+:lifecyclemvp:transformNativeLibsWithMergeJniLibsForRelease
+:lifecyclemvp:transformNativeLibsWithStripDebugSymbolForRelease
+:lifecyclemvp:transformNativeLibsWithSyncJniLibsForRelease
+:lifecyclemvp:bundleReleaseAar
+:lifecyclemvp:compileReleaseSources
+:lifecyclemvp:mergeReleaseResources
+:lifecyclemvp:verifyReleaseResources
+:lifecyclemvp:assembleRelease
+:lifecyclemvp:sourcesJar
+:lifecyclemvp:assemble
+:lifecyclemvp:build
+
+BUILD SUCCESSFUL in 23s
+48 actionable tasks: 48 executed
+
+2019-02-04 11:02:31,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:02:31,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:02:37,555 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-04 11:02:37,556 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-04 11:02:37,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252918826-0/src/LifecycleMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-04 11:02:45,797 INFO  SysUtils - Configuration on demand is an incubating feature.
+:lifecyclemvp:preBuild UP-TO-DATE
+:lifecyclemvp:preDebugBuild UP-TO-DATE
+:lifecyclemvp:compileDebugAidl NO-SOURCE
+:lifecyclemvp:compileDebugRenderscript UP-TO-DATE
+:lifecyclemvp:checkDebugManifest UP-TO-DATE
+:lifecyclemvp:generateDebugBuildConfig UP-TO-DATE
+:lifecyclemvp:generateDebugResValues UP-TO-DATE
+:lifecyclemvp:generateDebugResources UP-TO-DATE
+:lifecyclemvp:packageDebugResources UP-TO-DATE
+:lifecyclemvp:processDebugManifest UP-TO-DATE
+:lifecyclemvp:generateDebugRFile UP-TO-DATE
+:lifecyclemvp:compileDebugKotlin UP-TO-DATE
+:lifecyclemvp:prepareLintJar UP-TO-DATE
+:lifecyclemvp:generateDebugSources UP-TO-DATE
+:lifecyclemvp:javaPreCompileDebug UP-TO-DATE
+:lifecyclemvp:compileDebugJavaWithJavac UP-TO-DATE
+:lifecyclemvp:extractDebugAnnotations UP-TO-DATE
+:lifecyclemvp:mergeDebugConsumerProguardFiles UP-TO-DATE
+:lifecyclemvp:mergeDebugShaders UP-TO-DATE
+:lifecyclemvp:compileDebugShaders UP-TO-DATE
+:lifecyclemvp:generateDebugAssets UP-TO-DATE
+:lifecyclemvp:packageDebugAssets UP-TO-DATE
+:lifecyclemvp:packageDebugRenderscript NO-SOURCE
+:lifecyclemvp:processDebugJavaRes NO-SOURCE
+:lifecyclemvp:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:lifecyclemvp:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:lifecyclemvp:compileDebugNdk NO-SOURCE
+:lifecyclemvp:mergeDebugJniLibFolders UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:lifecyclemvp:bundleDebugAar UP-TO-DATE
+:lifecyclemvp:compileDebugSources UP-TO-DATE
+:lifecyclemvp:assembleDebug UP-TO-DATE
+:lifecyclemvp:preReleaseBuild UP-TO-DATE
+:lifecyclemvp:compileReleaseAidl NO-SOURCE
+:lifecyclemvp:compileReleaseRenderscript UP-TO-DATE
+:lifecyclemvp:checkReleaseManifest UP-TO-DATE
+:lifecyclemvp:generateReleaseBuildConfig UP-TO-DATE
+:lifecyclemvp:generateReleaseResValues UP-TO-DATE
+:lifecyclemvp:generateReleaseResources UP-TO-DATE
+:lifecyclemvp:packageReleaseResources UP-TO-DATE
+:lifecyclemvp:processReleaseManifest UP-TO-DATE
+:lifecyclemvp:generateReleaseRFile UP-TO-DATE
+:lifecyclemvp:compileReleaseKotlin UP-TO-DATE
+:lifecyclemvp:generateReleaseSources UP-TO-DATE
+:lifecyclemvp:javaPreCompileRelease UP-TO-DATE
+:lifecyclemvp:compileReleaseJavaWithJavac UP-TO-DATE
+:lifecyclemvp:extractReleaseAnnotations UP-TO-DATE
+:lifecyclemvp:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:lifecyclemvp:mergeReleaseShaders UP-TO-DATE
+:lifecyclemvp:compileReleaseShaders UP-TO-DATE
+:lifecyclemvp:generateReleaseAssets UP-TO-DATE
+:lifecyclemvp:packageReleaseAssets UP-TO-DATE
+:lifecyclemvp:packageReleaseRenderscript NO-SOURCE
+:lifecyclemvp:processReleaseJavaRes NO-SOURCE
+:lifecyclemvp:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:lifecyclemvp:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:lifecyclemvp:compileReleaseNdk NO-SOURCE
+:lifecyclemvp:mergeReleaseJniLibFolders UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:lifecyclemvp:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:lifecyclemvp:bundleReleaseAar UP-TO-DATE
+:lifecyclemvp:compileReleaseSources UP-TO-DATE
+:lifecyclemvp:mergeReleaseResources UP-TO-DATE
+:lifecyclemvp:verifyReleaseResources UP-TO-DATE
+:lifecyclemvp:assembleRelease UP-TO-DATE
+:lifecyclemvp:sourcesJar UP-TO-DATE
+:lifecyclemvp:assemble UP-TO-DATE
+:lifecyclemvp:build
+
+BUILD SUCCESSFUL in 7s
+48 actionable tasks: 48 up-to-date
+
+2019-02-04 11:02:45,859 ERROR FullProcessService - Project build has not produced APK file
+2019-02-04 11:02:45,913 ERROR FullProcessService - Could not find generated or existed APK file

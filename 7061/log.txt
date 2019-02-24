@@ -1,0 +1,235 @@
+2019-02-07 19:22:36,387 INFO  DownloadService - Downloading "https://github.com/mybringback22/HorizontalCalendarView-Android-/archive/master.zip", attempt 3
+2019-02-07 19:23:36,998 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-07 19:23:38,366 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-07 19:23:38,367 INFO  DownloadService - Downloading "https://github.com/mybringback22/HorizontalCalendarView-Android-/archive/master.zip", attempt 3
+2019-02-07 19:24:39,883 DEBUG FullProcessService - Repository https://github.com/mybringback22/HorizontalCalendarView-Android- available: true
+2019-02-07 19:24:39,883 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-07 19:24:39,883 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mybringback22/HorizontalCalendarView-Android-, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src]
+2019-02-07 19:24:42,279 INFO  SysUtils - 
+2019-02-07 19:24:42,289 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/.git": true
+2019-02-07 19:24:42,296 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-07 19:24:42,296 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src]
+2019-02-07 19:24:42,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/.git/
+
+2019-02-07 19:24:42,321 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/gradlew
+2019-02-07 19:24:42,328 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarviewlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/build.gradle
+2019-02-07 19:24:42,333 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarviewlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/settings.gradle
+2019-02-07 19:24:42,334 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 19:24:42,334 INFO  ProjectFixService - Fixing project...
+2019-02-07 19:24:42,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/local.properties
+2019-02-07 19:24:42,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,348 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/local.properties
+2019-02-07 19:24:42,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarviewlibrary/local.properties
+2019-02-07 19:24:42,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarviewlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarviewlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/local.properties
+2019-02-07 19:24:42,354 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-07 19:24:42,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-07 19:24:42,357 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-07 19:24:42,357 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 19:24:42,358 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 19:24:42,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 19:24:51,695 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-07 19:24:51,695 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-07 19:24:51,695 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-07 19:25:53,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:horizontalcalendarview:preBuild UP-TO-DATE
+:horizontalcalendarview:preDebugBuild UP-TO-DATE
+:horizontalcalendarview:checkDebugManifest
+:horizontalcalendarview:processDebugManifest
+:horizontalcalendarviewlibrary:preBuild UP-TO-DATE
+:horizontalcalendarviewlibrary:preDebugBuild UP-TO-DATE
+:horizontalcalendarviewlibrary:checkDebugManifest
+:horizontalcalendarviewlibrary:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/28.0.0-alpha3/support-v4-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/28.0.0-alpha3/support-media-compat-28.0.0-alpha3.aar
+:horizontalcalendarviewlibrary:compileDebugAidl
+:horizontalcalendarview:compileDebugAidl
+:app:compileDebugAidl
+:horizontalcalendarview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:horizontalcalendarviewlibrary:packageDebugRenderscript NO-SOURCE
+:horizontalcalendarview:compileDebugRenderscript
+:horizontalcalendarview:generateDebugResValues
+:horizontalcalendarview:generateDebugResources
+:horizontalcalendarview:packageDebugResources
+:horizontalcalendarviewlibrary:compileDebugRenderscript
+:horizontalcalendarviewlibrary:generateDebugResValues
+:horizontalcalendarviewlibrary:generateDebugResources
+:horizontalcalendarviewlibrary:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:horizontalcalendarview:platformAttrExtractor
+:horizontalcalendarviewlibrary:platformAttrExtractor
+:horizontalcalendarview:generateDebugBuildConfig
+:horizontalcalendarview:prepareLintJar
+:horizontalcalendarviewlibrary:generateDebugBuildConfig
+:horizontalcalendarviewlibrary:prepareLintJar
+:horizontalcalendarviewlibrary:javaPreCompileDebug
+:horizontalcalendarviewlibrary:processDebugJavaRes NO-SOURCE
+:horizontalcalendarview:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:horizontalcalendarview:mergeDebugShaders
+:horizontalcalendarview:compileDebugShaders
+:horizontalcalendarview:generateDebugAssets
+:horizontalcalendarview:packageDebugAssets
+:horizontalcalendarviewlibrary:mergeDebugShaders
+:horizontalcalendarviewlibrary:compileDebugShaders
+:horizontalcalendarviewlibrary:generateDebugAssets
+:horizontalcalendarviewlibrary:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:horizontalcalendarview:compileDebugNdk NO-SOURCE
+:horizontalcalendarview:mergeDebugJniLibFolders
+:horizontalcalendarview:transformNativeLibsWithMergeJniLibsForDebug
+:horizontalcalendarview:transformNativeLibsWithStripDebugSymbolForDebug
+:horizontalcalendarview:transformNativeLibsWithIntermediateJniLibsForDebug
+:horizontalcalendarviewlibrary:compileDebugNdk NO-SOURCE
+:horizontalcalendarviewlibrary:mergeDebugJniLibFolders
+:horizontalcalendarviewlibrary:transformNativeLibsWithMergeJniLibsForDebug
+:horizontalcalendarviewlibrary:transformNativeLibsWithStripDebugSymbolForDebug
+:horizontalcalendarviewlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:horizontalcalendarview:preReleaseBuild UP-TO-DATE
+:horizontalcalendarview:checkReleaseManifest
+:horizontalcalendarview:processReleaseManifest
+:horizontalcalendarviewlibrary:preReleaseBuild UP-TO-DATE
+:horizontalcalendarviewlibrary:checkReleaseManifest
+:horizontalcalendarviewlibrary:processReleaseManifest
+:app:preReleaseBuild
+:horizontalcalendarviewlibrary:compileReleaseAidl
+:horizontalcalendarview:compileReleaseAidl
+:app:compileReleaseAidl
+:horizontalcalendarview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:horizontalcalendarviewlibrary:packageReleaseRenderscript NO-SOURCE
+:horizontalcalendarview:compileReleaseRenderscript
+:horizontalcalendarview:generateReleaseResValues
+:horizontalcalendarview:generateReleaseResources
+:horizontalcalendarview:packageReleaseResources
+:horizontalcalendarviewlibrary:compileReleaseRenderscript
+:horizontalcalendarviewlibrary:generateReleaseResValues
+:horizontalcalendarviewlibrary:generateReleaseResources
+:horizontalcalendarviewlibrary:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:horizontalcalendarview:generateReleaseBuildConfig
+:horizontalcalendarviewlibrary:generateReleaseBuildConfig
+:horizontalcalendarviewlibrary:javaPreCompileRelease
+:horizontalcalendarviewlibrary:processReleaseJavaRes NO-SOURCE
+:horizontalcalendarview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:horizontalcalendarview:mergeReleaseShaders
+:horizontalcalendarviewlibrary:generateDebugRFile
+:horizontalcalendarviewlibrary:generateDebugSources
+:horizontalcalendarviewlibrary:compileDebugJavaWithJavac
+:horizontalcalendarviewlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:horizontalcalendarview:javaPreCompileDebug
+:horizontalcalendarviewlibrary:generateReleaseRFile
+:horizontalcalendarviewlibrary:generateReleaseSources
+:horizontalcalendarviewlibrary:compileReleaseJavaWithJavac
+:horizontalcalendarviewlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:horizontalcalendarview:javaPreCompileRelease
+:horizontalcalendarview:compileReleaseShaders
+:horizontalcalendarview:generateReleaseAssets
+:horizontalcalendarview:packageReleaseAssets
+:horizontalcalendarviewlibrary:mergeReleaseShaders
+:horizontalcalendarviewlibrary:compileReleaseShaders
+:horizontalcalendarviewlibrary:generateReleaseAssets
+:horizontalcalendarviewlibrary:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:horizontalcalendarview:compileReleaseNdk NO-SOURCE
+:horizontalcalendarview:mergeReleaseJniLibFolders
+:horizontalcalendarview:transformNativeLibsWithMergeJniLibsForRelease
+:horizontalcalendarview:transformNativeLibsWithStripDebugSymbolForRelease
+:horizontalcalendarview:transformNativeLibsWithIntermediateJniLibsForRelease
+:horizontalcalendarviewlibrary:compileReleaseNdk NO-SOURCE
+:horizontalcalendarviewlibrary:mergeReleaseJniLibFolders
+:horizontalcalendarviewlibrary:transformNativeLibsWithMergeJniLibsForRelease
+:horizontalcalendarviewlibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:horizontalcalendarviewlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:horizontalcalendarview:generateDebugRFile
+:app:processDebugResources
+:horizontalcalendarview:generateDebugSources
+:horizontalcalendarview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/src/main/java/com/view/calender/horizontal/umar/horizontalcalendarview/CalAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:horizontalcalendarview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.51/kotlin-stdlib-jre7-1.2.51.jar
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.51/fa510f846ca4894fdf26776dd64cefb4030dcd12/kotlin-stdlib-jre7-1.2.51.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/src/main/java/com/view/calender/horizontal/umar/MainActivity.kt: (26, 42): 'getColor(Int): Int' is deprecated. Deprecated in Java
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:horizontalcalendarview:generateReleaseRFile
+:app:processReleaseResources
+:horizontalcalendarview:generateReleaseSources
+:horizontalcalendarview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/horizontalcalendarview/src/main/java/com/view/calender/horizontal/umar/horizontalcalendarview/CalAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:horizontalcalendarview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.51/fa510f846ca4894fdf26776dd64cefb4030dcd12/kotlin-stdlib-jre7-1.2.51.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/src/main/java/com/view/calender/horizontal/umar/MainActivity.kt: (26, 42): 'getColor(Int): Int' is deprecated. Deprecated in Java
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 0s
+131 actionable tasks: 131 executed
+
+2019-02-07 19:25:53,429 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549542156382-0/src/app/build/outputs/apk/debug/app-debug.apk

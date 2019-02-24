@@ -1,0 +1,606 @@
+2019-02-23 19:28:38,435 INFO  DownloadService - Downloading "https://github.com/moro56/AnimatedCheckBox/archive/master.zip", attempt 3
+2019-02-23 19:29:39,123 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:29:40,183 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 19:29:40,183 INFO  DownloadService - Downloading "https://github.com/moro56/AnimatedCheckBox/archive/master.zip", attempt 3
+2019-02-23 19:30:42,121 DEBUG FullProcessService - Repository https://github.com/moro56/AnimatedCheckBox available: true
+2019-02-23 19:30:42,121 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:30:42,121 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/moro56/AnimatedCheckBox, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src]
+2019-02-23 19:30:46,731 INFO  SysUtils - 
+2019-02-23 19:30:46,761 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/.git": true
+2019-02-23 19:30:46,764 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-02-23 19:30:46,764 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src]
+2019-02-23 19:30:46,781 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/.git/
+
+2019-02-23 19:30:46,783 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew
+2019-02-23 19:30:46,786 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/build.gradle
+2019-02-23 19:30:46,788 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/settings.gradle
+2019-02-23 19:30:46,788 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-02-23 19:30:47,428 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-02-23 19:30:47,428 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-02-23 19:30:47,519 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-02-23 19:30:47,519 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-02-23 19:30:47,519 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:30:47,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/local.properties
+2019-02-23 19:30:47,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/local.properties
+2019-02-23 19:30:47,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,531 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/local.properties
+2019-02-23 19:30:47,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 19:30:47,533 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 19:30:47,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,534 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 19:30:47,534 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:30:47,535 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:30:47,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:30:56,056 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-02-23 19:30:56,056 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 19:30:56,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/animatedcheckbox/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 19:31:21,655 INFO  SysUtils - Configuration on demand is an incubating feature.
+animatedcheckbox: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.0', 'androidx.databinding:databinding-compiler:3.2.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:animatedcheckbox:preBuild UP-TO-DATE
+:animatedcheckbox:preDebugBuild UP-TO-DATE
+:animatedcheckbox:compileDebugAidl NO-SOURCE
+:animatedcheckbox:compileDebugRenderscript
+:animatedcheckbox:checkDebugManifest
+:animatedcheckbox:generateDebugBuildConfig
+:animatedcheckbox:generateDebugResValues
+:animatedcheckbox:generateDebugResources
+:animatedcheckbox:packageDebugResources
+:animatedcheckbox:processDebugManifest
+:animatedcheckbox:generateDebugRFile
+:animatedcheckbox:prepareLintJar
+:animatedcheckbox:generateDebugSources
+:animatedcheckbox:dataBindingExportBuildInfoDebug
+:animatedcheckbox:dataBindingMergeDependencyArtifactsDebug
+:animatedcheckbox:mergeDebugResources
+:animatedcheckbox:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:animatedcheckbox:dataBindingGenBaseClassesDebug
+:animatedcheckbox:compileDebugKotlin
+:animatedcheckbox:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:animatedcheckbox:compileDebugJavaWithJavac
+:animatedcheckbox:extractDebugAnnotations
+:animatedcheckbox:mergeDebugConsumerProguardFiles
+:animatedcheckbox:mergeDebugShaders
+:animatedcheckbox:compileDebugShaders
+:animatedcheckbox:generateDebugAssets
+:animatedcheckbox:packageDebugAssets
+:animatedcheckbox:packageDebugRenderscript NO-SOURCE
+:animatedcheckbox:processDebugJavaRes NO-SOURCE
+:animatedcheckbox:transformResourcesWithMergeJavaResForDebug
+:animatedcheckbox:transformClassesAndResourcesWithSyncLibJarsForDebug
+:animatedcheckbox:compileDebugNdk NO-SOURCE
+:animatedcheckbox:mergeDebugJniLibFolders
+:animatedcheckbox:transformNativeLibsWithMergeJniLibsForDebug
+:animatedcheckbox:transformNativeLibsWithStripDebugSymbolForDebug
+:animatedcheckbox:transformNativeLibsWithSyncJniLibsForDebug
+:animatedcheckbox:bundleDebugAar
+:animatedcheckbox:compileDebugSources
+:animatedcheckbox:assembleDebug
+:animatedcheckbox:preReleaseBuild UP-TO-DATE
+:animatedcheckbox:compileReleaseAidl NO-SOURCE
+:animatedcheckbox:compileReleaseRenderscript
+:animatedcheckbox:checkReleaseManifest
+:animatedcheckbox:generateReleaseBuildConfig
+:animatedcheckbox:generateReleaseResValues
+:animatedcheckbox:generateReleaseResources
+:animatedcheckbox:packageReleaseResources
+:animatedcheckbox:processReleaseManifest
+:animatedcheckbox:generateReleaseRFile
+:animatedcheckbox:generateReleaseSources
+:animatedcheckbox:dataBindingExportBuildInfoRelease
+:animatedcheckbox:dataBindingMergeDependencyArtifactsRelease
+:animatedcheckbox:mergeReleaseResources
+:animatedcheckbox:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:animatedcheckbox:dataBindingGenBaseClassesRelease
+:animatedcheckbox:compileReleaseKotlin
+:animatedcheckbox:javaPreCompileRelease
+:animatedcheckbox:compileReleaseJavaWithJavac
+:animatedcheckbox:extractReleaseAnnotations
+:animatedcheckbox:mergeReleaseConsumerProguardFiles
+:animatedcheckbox:mergeReleaseShaders
+:animatedcheckbox:compileReleaseShaders
+:animatedcheckbox:generateReleaseAssets
+:animatedcheckbox:packageReleaseAssets
+:animatedcheckbox:packageReleaseRenderscript NO-SOURCE
+:animatedcheckbox:processReleaseJavaRes NO-SOURCE
+:animatedcheckbox:transformResourcesWithMergeJavaResForRelease
+:animatedcheckbox:transformClassesAndResourcesWithSyncLibJarsForRelease
+:animatedcheckbox:compileReleaseNdk NO-SOURCE
+:animatedcheckbox:mergeReleaseJniLibFolders
+:animatedcheckbox:transformNativeLibsWithMergeJniLibsForRelease
+:animatedcheckbox:transformNativeLibsWithStripDebugSymbolForRelease
+:animatedcheckbox:transformNativeLibsWithSyncJniLibsForRelease
+:animatedcheckbox:bundleReleaseAar
+:animatedcheckbox:compileReleaseSources
+:animatedcheckbox:verifyReleaseResources
+:animatedcheckbox:assembleRelease
+:animatedcheckbox:assemble
+:animatedcheckbox:build
+
+BUILD SUCCESSFUL in 24s
+56 actionable tasks: 56 executed
+
+2019-02-23 19:31:21,733 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:31:21,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:31:27,618 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-02-23 19:31:27,618 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:31:27,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:31:33,526 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-23 19:31:33,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2019-02-23 19:31:33,526 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-02-23 19:31:33,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-23 19:32:05,509 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-23 19:32:05,515 INFO  SysUtils - Configuration on demand is an incubating feature.
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+animatedcheckbox: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.0', 'androidx.databinding:databinding-compiler:3.2.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:animatedcheckbox:preBuild UP-TO-DATE
+:animatedcheckbox:preDebugBuild UP-TO-DATE
+:animatedcheckbox:compileDebugAidl NO-SOURCE
+:animatedcheckbox:compileDebugRenderscript UP-TO-DATE
+:animatedcheckbox:checkDebugManifest UP-TO-DATE
+:animatedcheckbox:generateDebugBuildConfig UP-TO-DATE
+:animatedcheckbox:generateDebugResValues UP-TO-DATE
+:animatedcheckbox:generateDebugResources UP-TO-DATE
+:animatedcheckbox:packageDebugResources UP-TO-DATE
+:animatedcheckbox:processDebugManifest UP-TO-DATE
+:animatedcheckbox:generateDebugRFile UP-TO-DATE
+:animatedcheckbox:prepareLintJar UP-TO-DATE
+:animatedcheckbox:generateDebugSources UP-TO-DATE
+:animatedcheckbox:dataBindingExportBuildInfoDebug UP-TO-DATE
+:animatedcheckbox:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+:animatedcheckbox:mergeDebugResources UP-TO-DATE
+:animatedcheckbox:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:animatedcheckbox:dataBindingGenBaseClassesDebug UP-TO-DATE
+:animatedcheckbox:compileDebugKotlin UP-TO-DATE
+:animatedcheckbox:javaPreCompileDebug UP-TO-DATE
+:animatedcheckbox:compileDebugJavaWithJavac UP-TO-DATE
+:animatedcheckbox:processDebugJavaRes NO-SOURCE
+:animatedcheckbox:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:animatedcheckbox:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:app:compileDebugKotlin
+:app:dataBindingExportFeaturePackageIdsDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:animatedcheckbox:mergeDebugShaders UP-TO-DATE
+:animatedcheckbox:compileDebugShaders UP-TO-DATE
+:animatedcheckbox:generateDebugAssets UP-TO-DATE
+:animatedcheckbox:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:animatedcheckbox:compileDebugNdk NO-SOURCE
+:animatedcheckbox:mergeDebugJniLibFolders UP-TO-DATE
+:animatedcheckbox:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:animatedcheckbox:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:animatedcheckbox:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:animatedcheckbox:preReleaseBuild UP-TO-DATE
+:animatedcheckbox:compileReleaseAidl NO-SOURCE
+:animatedcheckbox:compileReleaseRenderscript UP-TO-DATE
+:animatedcheckbox:checkReleaseManifest UP-TO-DATE
+:animatedcheckbox:generateReleaseBuildConfig UP-TO-DATE
+:animatedcheckbox:generateReleaseResValues UP-TO-DATE
+:animatedcheckbox:generateReleaseResources UP-TO-DATE
+:animatedcheckbox:packageReleaseResources UP-TO-DATE
+:animatedcheckbox:processReleaseManifest UP-TO-DATE
+:animatedcheckbox:generateReleaseRFile UP-TO-DATE
+:animatedcheckbox:generateReleaseSources UP-TO-DATE
+:animatedcheckbox:dataBindingExportBuildInfoRelease UP-TO-DATE
+:animatedcheckbox:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+:animatedcheckbox:mergeReleaseResources UP-TO-DATE
+:animatedcheckbox:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+:animatedcheckbox:dataBindingGenBaseClassesRelease UP-TO-DATE
+:animatedcheckbox:compileReleaseKotlin UP-TO-DATE
+:animatedcheckbox:javaPreCompileRelease UP-TO-DATE
+:animatedcheckbox:compileReleaseJavaWithJavac UP-TO-DATE
+:animatedcheckbox:processReleaseJavaRes NO-SOURCE
+:animatedcheckbox:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:animatedcheckbox:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:app:compileReleaseKotlin
+:app:dataBindingExportFeaturePackageIdsRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:animatedcheckbox:mergeReleaseShaders UP-TO-DATE
+:animatedcheckbox:compileReleaseShaders UP-TO-DATE
+:animatedcheckbox:generateReleaseAssets UP-TO-DATE
+:animatedcheckbox:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForReleaseD8: Program type already present: it.emperor.animatedcheckbox.BuildConfig
+java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:593)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:720)
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:406)
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:233)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1431)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:36)
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1424)
+	... 4 more
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:65)
+	at com.android.tools.r8.utils.ExceptionUtils.withD8CompilationHandler(ExceptionUtils.java:43)
+	at com.android.tools.r8.D8.run(D8.java:90)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:115)
+	... 7 more
+Caused by: com.android.tools.r8.utils.AbortException: Error: Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.tools.r8.utils.Reporter.failIfPendingErrors(Reporter.java:116)
+	at com.android.tools.r8.utils.Reporter.fatalError(Reporter.java:74)
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:59)
+	... 10 more
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformDexArchiveWithDexMergerForRelease'.
+> com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+  Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+  Program type already present: it.emperor.animatedcheckbox.BuildConfig
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformDexArchiveWithDexMergerForRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: com.android.build.api.transform.TransformException: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:238)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	... 42 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:406)
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:233)
+	... 45 more
+Caused by: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/152, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/153, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/externalLibsDexMerger/release/0, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/148.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/149.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/150.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/intermediates/transforms/dexBuilder/release/151.jar
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:101)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:36)
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:65)
+	at com.android.tools.r8.utils.ExceptionUtils.withD8CompilationHandler(ExceptionUtils.java:43)
+	at com.android.tools.r8.D8.run(D8.java:90)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:115)
+	... 2 more
+Caused by: com.android.tools.r8.utils.AbortException: Error: Program type already present: it.emperor.animatedcheckbox.BuildConfig
+	at com.android.tools.r8.utils.Reporter.failIfPendingErrors(Reporter.java:116)
+	at com.android.tools.r8.utils.Reporter.fatalError(Reporter.java:74)
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:59)
+	... 5 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 31s
+103 actionable tasks: 63 executed, 40 up-to-date
+
+2019-02-23 19:32:05,655 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924918428-0/src/app/build/outputs/apk/debug/app-debug.apk

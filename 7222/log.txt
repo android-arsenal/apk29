@@ -1,0 +1,249 @@
+2019-02-23 19:06:28,000 INFO  DownloadService - Downloading "https://github.com/GeorgeArgyrakis/Watermark/archive/master.zip", attempt 3
+2019-02-23 19:07:28,776 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:07:29,793 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 19:07:29,793 INFO  DownloadService - Downloading "https://github.com/GeorgeArgyrakis/Watermark/archive/master.zip", attempt 3
+2019-02-23 19:08:31,575 DEBUG FullProcessService - Repository https://github.com/GeorgeArgyrakis/Watermark available: true
+2019-02-23 19:08:31,575 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:08:31,576 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/GeorgeArgyrakis/Watermark, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src]
+2019-02-23 19:08:33,390 INFO  SysUtils - 
+2019-02-23 19:08:33,398 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/.git": true
+2019-02-23 19:08:33,402 INFO  FullProcessService - Size of directory with sources: 249 KB
+2019-02-23 19:08:33,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src]
+2019-02-23 19:08:33,419 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/.git/
+
+2019-02-23 19:08:33,423 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/gradlew
+2019-02-23 19:08:33,426 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/build.gradle
+2019-02-23 19:08:33,430 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/settings.gradle
+2019-02-23 19:08:33,430 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 19:08:33,430 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:08:33,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/local.properties
+2019-02-23 19:08:33,438 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,438 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,439 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/local.properties
+2019-02-23 19:08:33,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/local.properties
+2019-02-23 19:08:33,441 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-23 19:08:33,441 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-23 19:08:33,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,442 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:08:33,443 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:08:33,443 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:08:33,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:08:40,396 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-02-23 19:08:40,396 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 19:08:40,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/ScreenWatermark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 19:08:52,594 INFO  SysUtils - Configuration on demand is an incubating feature.
+:ScreenWatermark:preBuild UP-TO-DATE
+:ScreenWatermark:preDebugBuild UP-TO-DATE
+:ScreenWatermark:compileDebugAidl
+:ScreenWatermark:compileDebugRenderscript
+:ScreenWatermark:checkDebugManifest
+:ScreenWatermark:generateDebugBuildConfig
+:ScreenWatermark:generateDebugResValues
+:ScreenWatermark:generateDebugResources
+:ScreenWatermark:packageDebugResources
+:ScreenWatermark:platformAttrExtractor
+:ScreenWatermark:processDebugManifest
+:ScreenWatermark:prepareLintJar
+:ScreenWatermark:javaPreCompileDebug
+:ScreenWatermark:mergeDebugConsumerProguardFiles
+:ScreenWatermark:mergeDebugShaders
+:ScreenWatermark:compileDebugShaders
+:ScreenWatermark:generateDebugAssets
+:ScreenWatermark:packageDebugAssets
+:ScreenWatermark:packageDebugRenderscript NO-SOURCE
+:ScreenWatermark:processDebugJavaRes NO-SOURCE
+:ScreenWatermark:compileDebugNdk NO-SOURCE
+:ScreenWatermark:mergeDebugJniLibFolders
+:ScreenWatermark:transformNativeLibsWithMergeJniLibsForDebug
+:ScreenWatermark:transformNativeLibsWithStripDebugSymbolForDebug
+:ScreenWatermark:transformNativeLibsWithSyncJniLibsForDebug
+:ScreenWatermark:preReleaseBuild UP-TO-DATE
+:ScreenWatermark:compileReleaseAidl
+:ScreenWatermark:compileReleaseRenderscript
+:ScreenWatermark:checkReleaseManifest
+:ScreenWatermark:generateReleaseBuildConfig
+:ScreenWatermark:generateReleaseResValues
+:ScreenWatermark:generateReleaseResources
+:ScreenWatermark:packageReleaseResources
+:ScreenWatermark:processReleaseManifest
+:ScreenWatermark:javaPreCompileRelease
+:ScreenWatermark:mergeReleaseConsumerProguardFiles
+:ScreenWatermark:mergeReleaseShaders
+:ScreenWatermark:compileReleaseShaders
+:ScreenWatermark:generateReleaseAssets
+:ScreenWatermark:packageReleaseAssets
+:ScreenWatermark:packageReleaseRenderscript NO-SOURCE
+:ScreenWatermark:processReleaseJavaRes NO-SOURCE
+:ScreenWatermark:compileReleaseNdk NO-SOURCE
+:ScreenWatermark:mergeReleaseJniLibFolders
+:ScreenWatermark:transformNativeLibsWithMergeJniLibsForRelease
+:ScreenWatermark:transformNativeLibsWithStripDebugSymbolForRelease
+:ScreenWatermark:transformNativeLibsWithSyncJniLibsForRelease
+:ScreenWatermark:mergeReleaseResources
+:ScreenWatermark:verifyReleaseResources
+:ScreenWatermark:generateDebugRFile
+:ScreenWatermark:generateDebugSources
+:ScreenWatermark:compileDebugJavaWithJavac
+:ScreenWatermark:extractDebugAnnotations
+:ScreenWatermark:transformResourcesWithMergeJavaResForDebug
+:ScreenWatermark:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ScreenWatermark:bundleDebug
+:ScreenWatermark:compileDebugSources
+:ScreenWatermark:assembleDebug
+:ScreenWatermark:generateReleaseRFile
+:ScreenWatermark:generateReleaseSources
+:ScreenWatermark:compileReleaseJavaWithJavac
+:ScreenWatermark:extractReleaseAnnotations
+:ScreenWatermark:transformResourcesWithMergeJavaResForRelease
+:ScreenWatermark:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ScreenWatermark:bundleRelease
+:ScreenWatermark:compileReleaseSources
+:ScreenWatermark:assembleRelease
+:ScreenWatermark:assemble
+:ScreenWatermark:build
+
+BUILD SUCCESSFUL in 11s
+48 actionable tasks: 48 executed
+
+2019-02-23 19:08:52,639 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:08:52,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:08:58,579 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-23 19:08:58,579 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:08:58,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:09:22,208 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:ScreenWatermark:preBuild UP-TO-DATE
+:ScreenWatermark:preDebugBuild UP-TO-DATE
+:ScreenWatermark:compileDebugAidl UP-TO-DATE
+:ScreenWatermark:compileDebugRenderscript UP-TO-DATE
+:ScreenWatermark:checkDebugManifest UP-TO-DATE
+:ScreenWatermark:generateDebugBuildConfig UP-TO-DATE
+:ScreenWatermark:generateDebugResValues UP-TO-DATE
+:ScreenWatermark:generateDebugResources UP-TO-DATE
+:ScreenWatermark:packageDebugResources UP-TO-DATE
+:ScreenWatermark:platformAttrExtractor UP-TO-DATE
+:ScreenWatermark:processDebugManifest UP-TO-DATE
+:ScreenWatermark:generateDebugRFile UP-TO-DATE
+:ScreenWatermark:prepareLintJar UP-TO-DATE
+:ScreenWatermark:generateDebugSources UP-TO-DATE
+:ScreenWatermark:javaPreCompileDebug UP-TO-DATE
+:ScreenWatermark:compileDebugJavaWithJavac UP-TO-DATE
+:ScreenWatermark:processDebugJavaRes NO-SOURCE
+:ScreenWatermark:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:ScreenWatermark:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/src/main/java/info/gargy/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:ScreenWatermark:mergeDebugShaders UP-TO-DATE
+:ScreenWatermark:compileDebugShaders UP-TO-DATE
+:ScreenWatermark:generateDebugAssets UP-TO-DATE
+:ScreenWatermark:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:ScreenWatermark:compileDebugNdk NO-SOURCE
+:ScreenWatermark:mergeDebugJniLibFolders UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:ScreenWatermark:preReleaseBuild UP-TO-DATE
+:ScreenWatermark:compileReleaseAidl UP-TO-DATE
+:ScreenWatermark:compileReleaseRenderscript UP-TO-DATE
+:ScreenWatermark:checkReleaseManifest UP-TO-DATE
+:ScreenWatermark:generateReleaseBuildConfig UP-TO-DATE
+:ScreenWatermark:generateReleaseResValues UP-TO-DATE
+:ScreenWatermark:generateReleaseResources UP-TO-DATE
+:ScreenWatermark:packageReleaseResources UP-TO-DATE
+:ScreenWatermark:processReleaseManifest UP-TO-DATE
+:ScreenWatermark:generateReleaseRFile UP-TO-DATE
+:ScreenWatermark:generateReleaseSources UP-TO-DATE
+:ScreenWatermark:javaPreCompileRelease UP-TO-DATE
+:ScreenWatermark:compileReleaseJavaWithJavac UP-TO-DATE
+:ScreenWatermark:processReleaseJavaRes NO-SOURCE
+:ScreenWatermark:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:ScreenWatermark:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/src/main/java/info/gargy/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:ScreenWatermark:mergeReleaseShaders UP-TO-DATE
+:ScreenWatermark:compileReleaseShaders UP-TO-DATE
+:ScreenWatermark:generateReleaseAssets UP-TO-DATE
+:ScreenWatermark:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:ScreenWatermark:compileReleaseNdk NO-SOURCE
+:ScreenWatermark:mergeReleaseJniLibFolders UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:ScreenWatermark:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 22s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2019-02-23 19:09:22,332 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550923587993-0/src/app/build/outputs/apk/debug/app-debug.apk

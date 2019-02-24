@@ -1,0 +1,264 @@
+2018-08-20 13:31:49,302 INFO  DownloadService - Downloading "https://github.com/DVegasa/ArcPointer/archive/master.zip", attempt 3
+2018-08-20 13:31:49,807 INFO  DownloadService - Downloaded https://github.com/DVegasa/ArcPointer/archive/master.zip, attempt 3
+2018-08-20 13:31:49,807 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/master.zip": 156 KB
+2018-08-20 13:31:49,807 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 13:31:49,813 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/master.zip: true
+2018-08-20 13:31:49,813 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src'.
+2018-08-20 13:31:49,833 INFO  FullProcessService - Size of directory with sources: 208 KB
+2018-08-20 13:31:49,833 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src]
+2018-08-20 13:31:49,848 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/.git/
+
+2018-08-20 13:31:49,851 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/gradlew
+2018-08-20 13:31:49,855 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/build.gradle
+2018-08-20 13:31:49,858 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/settings.gradle
+2018-08-20 13:31:49,858 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 13:31:49,858 INFO  ProjectFixService - Fixing project...
+2018-08-20 13:31:49,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/local.properties
+2018-08-20 13:31:49,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-20 13:31:49,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/local.properties
+2018-08-20 13:31:49,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-20 13:31:49,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/local.properties
+2018-08-20 13:31:49,867 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-20 13:31:49,868 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-20 13:31:49,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-20 13:31:49,869 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 13:31:49,869 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:31:49,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:32:52,007 INFO  ProjectTaskService - Detected possible tasks: 80
+2018-08-20 13:32:52,007 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-20 13:32:52,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/arcpointer2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-20 13:33:06,557 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:arcpointer2:preBuild UP-TO-DATE
+:arcpointer2:preDebugBuild UP-TO-DATE
+:arcpointer2:checkDebugManifest
+:arcpointer2:preDebugAndroidTestBuild UP-TO-DATE
+:arcpointer2:preDebugUnitTestBuild UP-TO-DATE
+:arcpointer2:preReleaseBuild UP-TO-DATE
+:arcpointer2:preReleaseUnitTestBuild UP-TO-DATE
+:arcpointer2:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportV42600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:arcpointer2:prepareDebugDependencies
+:arcpointer2:compileDebugAidl
+:arcpointer2:compileDebugNdk UP-TO-DATE
+:arcpointer2:compileLint
+:arcpointer2:copyDebugLint UP-TO-DATE
+:arcpointer2:compileDebugRenderscript
+:arcpointer2:generateDebugBuildConfig
+:arcpointer2:generateDebugResValues
+:arcpointer2:generateDebugResources
+:arcpointer2:mergeDebugResources
+:arcpointer2:processDebugManifest
+:arcpointer2:processDebugResources
+:arcpointer2:generateDebugSources
+:arcpointer2:incrementalDebugJavaCompilationSafeguard
+:arcpointer2:javaPreCompileDebug
+:arcpointer2:compileDebugJavaWithJavac
+:arcpointer2:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:arcpointer2:extractDebugAnnotations
+:arcpointer2:mergeDebugShaders
+:arcpointer2:compileDebugShaders
+:arcpointer2:generateDebugAssets
+:arcpointer2:mergeDebugAssets
+:arcpointer2:mergeDebugProguardFiles
+:arcpointer2:packageDebugRenderscript UP-TO-DATE
+:arcpointer2:packageDebugResources
+:arcpointer2:processDebugJavaRes UP-TO-DATE
+:arcpointer2:transformResourcesWithMergeJavaResForDebug
+:arcpointer2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:arcpointer2:mergeDebugJniLibFolders
+:arcpointer2:transformNativeLibsWithMergeJniLibsForDebug
+:arcpointer2:transformNativeLibsWithStripDebugSymbolForDebug
+:arcpointer2:transformNativeLibsWithSyncJniLibsForDebug
+:arcpointer2:bundleDebug
+:arcpointer2:compileDebugSources
+:arcpointer2:assembleDebug
+:arcpointer2:checkReleaseManifest
+:arcpointer2:prepareReleaseDependencies
+:arcpointer2:compileReleaseAidl
+:arcpointer2:compileReleaseNdk UP-TO-DATE
+:arcpointer2:copyReleaseLint UP-TO-DATE
+:arcpointer2:compileReleaseRenderscript
+:arcpointer2:generateReleaseBuildConfig
+:arcpointer2:generateReleaseResValues
+:arcpointer2:generateReleaseResources
+:arcpointer2:mergeReleaseResources
+:arcpointer2:processReleaseManifest
+:arcpointer2:processReleaseResources
+:arcpointer2:generateReleaseSources
+:arcpointer2:incrementalReleaseJavaCompilationSafeguard
+:arcpointer2:javaPreCompileRelease
+:arcpointer2:compileReleaseJavaWithJavac
+:arcpointer2:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:arcpointer2:extractReleaseAnnotations
+:arcpointer2:mergeReleaseShaders
+:arcpointer2:compileReleaseShaders
+:arcpointer2:generateReleaseAssets
+:arcpointer2:mergeReleaseAssets
+:arcpointer2:mergeReleaseProguardFiles
+:arcpointer2:packageReleaseRenderscript UP-TO-DATE
+:arcpointer2:packageReleaseResources
+:arcpointer2:processReleaseJavaRes UP-TO-DATE
+:arcpointer2:transformResourcesWithMergeJavaResForRelease
+:arcpointer2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:arcpointer2:mergeReleaseJniLibFolders
+:arcpointer2:transformNativeLibsWithMergeJniLibsForRelease
+:arcpointer2:transformNativeLibsWithStripDebugSymbolForRelease
+:arcpointer2:transformNativeLibsWithSyncJniLibsForRelease
+:arcpointer2:bundleRelease
+:arcpointer2:compileReleaseSources
+:arcpointer2:assembleRelease
+:arcpointer2:assemble
+:arcpointer2:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.279 secs
+
+2018-08-20 13:33:06,640 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:33:06,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:33:14,128 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 13:33:14,128 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 13:33:14,128 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 13:33:35,655 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:arcpointer2:preBuild UP-TO-DATE
+:arcpointer2:preReleaseBuild UP-TO-DATE
+:arcpointer2:checkReleaseManifest
+:arcpointer2:preDebugAndroidTestBuild UP-TO-DATE
+:arcpointer2:preDebugBuild UP-TO-DATE
+:arcpointer2:preDebugUnitTestBuild UP-TO-DATE
+:arcpointer2:preReleaseUnitTestBuild UP-TO-DATE
+:arcpointer2:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportV42600Alpha1Library
+:arcpointer2:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:arcpointer2:prepareReleaseDependencies
+:arcpointer2:compileReleaseAidl UP-TO-DATE
+:arcpointer2:compileReleaseNdk UP-TO-DATE
+:arcpointer2:compileLint UP-TO-DATE
+:arcpointer2:copyReleaseLint UP-TO-DATE
+:arcpointer2:compileReleaseRenderscript UP-TO-DATE
+:arcpointer2:generateReleaseBuildConfig UP-TO-DATE
+:arcpointer2:generateReleaseResValues UP-TO-DATE
+:arcpointer2:generateReleaseResources UP-TO-DATE
+:arcpointer2:mergeReleaseResources UP-TO-DATE
+:arcpointer2:processReleaseManifest UP-TO-DATE
+:arcpointer2:processReleaseResources UP-TO-DATE
+:arcpointer2:generateReleaseSources UP-TO-DATE
+:arcpointer2:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:arcpointer2:javaPreCompileRelease
+:arcpointer2:compileReleaseJavaWithJavac UP-TO-DATE
+:arcpointer2:extractReleaseAnnotations UP-TO-DATE
+:arcpointer2:mergeReleaseShaders UP-TO-DATE
+:arcpointer2:compileReleaseShaders UP-TO-DATE
+:arcpointer2:generateReleaseAssets UP-TO-DATE
+:arcpointer2:mergeReleaseAssets UP-TO-DATE
+:arcpointer2:mergeReleaseProguardFiles UP-TO-DATE
+:arcpointer2:packageReleaseRenderscript UP-TO-DATE
+:arcpointer2:packageReleaseResources UP-TO-DATE
+:arcpointer2:processReleaseJavaRes UP-TO-DATE
+:arcpointer2:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:arcpointer2:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:arcpointer2:mergeReleaseJniLibFolders UP-TO-DATE
+:arcpointer2:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arcpointer2:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arcpointer2:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:arcpointer2:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:sample:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:sample:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sample:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:sample:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:sample:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:sample:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:sample:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:sample:prepareComAndroidSupportSupportV42600Alpha1Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/src/main/java/io/github/dvegasa/arcpointer_sample/SampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/src/main/java/io/github/dvegasa/arcpointer_sample/SampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.161 secs
+
+2018-08-20 13:33:35,785 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534746709295-0/src/ArcPointer-master/sample/build/outputs/apk/sample-debug.apk

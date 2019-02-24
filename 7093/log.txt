@@ -1,0 +1,170 @@
+2019-02-04 11:18:42,212 INFO  DownloadService - Downloading "https://github.com/grumpyshoe/android-module-locationmanager/archive/master.zip", attempt 3
+2019-02-04 11:18:44,016 INFO  DownloadService - Downloaded https://github.com/grumpyshoe/android-module-locationmanager/archive/master.zip, attempt 3
+2019-02-04 11:18:44,016 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/master.zip": 153 KB
+2019-02-04 11:18:44,016 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:18:44,021 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/master.zip: true
+2019-02-04 11:18:44,022 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src'.
+2019-02-04 11:18:44,043 INFO  FullProcessService - Size of directory with sources: 163 KB
+2019-02-04 11:18:44,044 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src]
+2019-02-04 11:18:44,070 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/.git/
+
+2019-02-04 11:18:44,074 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/gradlew
+2019-02-04 11:18:44,077 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/build.gradle
+2019-02-04 11:18:44,081 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/settings.gradle
+2019-02-04 11:18:44,081 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:18:44,081 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:18:44,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/local.properties
+2019-02-04 11:18:44,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:18:44,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:18:44,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/local.properties
+2019-02-04 11:18:44,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:18:44,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:18:44,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/local.properties
+2019-02-04 11:18:44,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-04 11:18:44,095 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-04 11:18:44,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:18:44,097 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:18:44,097 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:18:44,097 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:18:44,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:18:50,601 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-04 11:18:50,601 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:18:50,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:19:33,831 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:locationmanager:preBuild UP-TO-DATE
+:locationmanager:preDebugBuild UP-TO-DATE
+:locationmanager:checkDebugManifest
+:locationmanager:processDebugManifest
+:app:preDebugBuild
+Download https://jitpack.io/com/github/grumpyshoe/android-module-permissionmanager/1.2.0/android-module-permissionmanager-1.2.0.aar
+:locationmanager:compileDebugAidl
+:app:compileDebugAidl
+:locationmanager:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:locationmanager:compileDebugRenderscript
+:locationmanager:generateDebugResValues
+:locationmanager:generateDebugResources
+:locationmanager:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:locationmanager:platformAttrExtractor
+:locationmanager:generateDebugBuildConfig
+:locationmanager:prepareLintJar
+:locationmanager:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:locationmanager:mergeDebugShaders
+:locationmanager:compileDebugShaders
+:locationmanager:generateDebugAssets
+:locationmanager:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:locationmanager:compileDebugNdk NO-SOURCE
+:locationmanager:mergeDebugJniLibFolders
+:locationmanager:transformNativeLibsWithMergeJniLibsForDebug
+:locationmanager:transformNativeLibsWithStripDebugSymbolForDebug
+:locationmanager:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:locationmanager:preReleaseBuild UP-TO-DATE
+:locationmanager:checkReleaseManifest
+:locationmanager:processReleaseManifest
+:app:preReleaseBuild
+:locationmanager:compileReleaseAidl
+:app:compileReleaseAidl
+:locationmanager:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:locationmanager:compileReleaseRenderscript
+:locationmanager:generateReleaseResValues
+:locationmanager:generateReleaseResources
+:locationmanager:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:locationmanager:generateReleaseBuildConfig
+:locationmanager:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:locationmanager:mergeReleaseShaders
+:locationmanager:compileReleaseShaders
+:locationmanager:generateReleaseAssets
+:locationmanager:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:locationmanager:compileReleaseNdk NO-SOURCE
+:locationmanager:mergeReleaseJniLibFolders
+:locationmanager:transformNativeLibsWithMergeJniLibsForRelease
+:locationmanager:transformNativeLibsWithStripDebugSymbolForRelease
+:locationmanager:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:locationmanager:generateDebugRFile
+:app:processDebugResources
+:locationmanager:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/src/main/java/com/grumpyshoe/module/locationmanager/impl/LocationManagerImpl.kt: (106, 37): Parameter 'locationSettingsResponse' is never used, could be renamed to _
+:locationmanager:generateDebugSources
+:locationmanager:javaPreCompileDebug
+:locationmanager:compileDebugJavaWithJavac
+:locationmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:locationmanager:generateReleaseRFile
+:app:processReleaseResources
+:locationmanager:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/locationmanager/src/main/java/com/grumpyshoe/module/locationmanager/impl/LocationManagerImpl.kt: (106, 37): Parameter 'locationSettingsResponse' is never used, could be renamed to _
+:locationmanager:generateReleaseSources
+:locationmanager:javaPreCompileRelease
+:locationmanager:compileReleaseJavaWithJavac
+:locationmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 42s
+95 actionable tasks: 95 executed
+
+2019-02-04 11:19:33,926 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253922209-0/src/android-module-locationmanager-master/app/build/outputs/apk/debug/app-debug.apk

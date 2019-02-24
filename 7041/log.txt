@@ -1,0 +1,385 @@
+2018-12-01 19:22:54,636 INFO  DownloadService - Downloading "https://github.com/xmartlabs/fountain/archive/master.zip", attempt 3
+2018-12-01 19:22:55,504 INFO  DownloadService - Downloaded https://github.com/xmartlabs/fountain/archive/master.zip, attempt 3
+2018-12-01 19:22:55,505 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/master.zip": 492 KB
+2018-12-01 19:22:55,505 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-01 19:22:55,511 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/master.zip: true
+2018-12-01 19:22:55,511 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src'.
+2018-12-01 19:22:55,595 INFO  FullProcessService - Size of directory with sources: 736 KB
+2018-12-01 19:22:55,595 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src]
+2018-12-01 19:22:55,616 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/.git/
+
+2018-12-01 19:22:55,628 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/gradlew
+2018-12-01 19:22:55,642 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-testutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/build.gradle
+2018-12-01 19:22:55,656 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-testutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-retrofit/build.gradle
+2018-12-01 19:22:55,657 INFO  ProjectBuildService - Remote scripts: none
+2018-12-01 19:22:55,657 INFO  ProjectFixService - Fixing project...
+2018-12-01 19:22:55,690 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/local.properties
+2018-12-01 19:22:55,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,700 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-core/local.properties
+2018-12-01 19:22:55,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-coroutines/local.properties
+2018-12-01 19:22:55,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-retrofit/local.properties
+2018-12-01 19:22:55,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-retrofit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-retrofit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-rx2/local.properties
+2018-12-01 19:22:55,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-testutils/local.properties
+2018-12-01 19:22:55,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-testutils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/fountain-testutils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/local.properties
+2018-12-01 19:22:55,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-12-01 19:22:55,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-12-01 19:22:55,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-12-01 19:22:55,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-01 19:22:55,755 INFO  ProjectFixService - Project was maybe fixed
+2018-12-01 19:22:55,755 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-01 19:22:55,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-01 19:23:04,711 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-01 19:23:04,711 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-01 19:23:04,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-01 19:24:42,031 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :app:checkDebugClasspath
+WARNING: Conflict with dependency 'org.jetbrains.kotlinx:kotlinx-coroutines-core' in project ':app'. Resolved versions for runtime classpath (1.0.1) and compile classpath (0.26.1-eap13) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1")
+}
+
+WARNING: Conflict with dependency 'org.jetbrains.kotlinx:kotlinx-coroutines-core-common' in project ':app'. Resolved versions for runtime classpath (1.0.1) and compile classpath (0.26.1-eap13) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.1")
+}
+
+
+> Task :app:preBuild UP-TO-DATE
+> Task :fountain-core:preBuild UP-TO-DATE
+> Task :fountain-core:preDebugBuild UP-TO-DATE
+> Task :fountain-core:checkDebugManifest
+> Task :fountain-core:processDebugManifest
+> Task :fountain-coroutines:preBuild UP-TO-DATE
+> Task :fountain-coroutines:preDebugBuild UP-TO-DATE
+> Task :fountain-coroutines:checkDebugManifest
+> Task :fountain-coroutines:processDebugManifest
+> Task :fountain-retrofit:preBuild UP-TO-DATE
+> Task :fountain-retrofit:preDebugBuild UP-TO-DATE
+> Task :fountain-retrofit:checkDebugManifest
+> Task :fountain-retrofit:processDebugManifest
+> Task :fountain-rx2:preBuild UP-TO-DATE
+> Task :fountain-rx2:preDebugBuild UP-TO-DATE
+> Task :fountain-rx2:checkDebugManifest
+> Task :fountain-rx2:processDebugManifest
+> Task :app:preDebugBuild
+> Task :fountain-core:compileDebugAidl NO-SOURCE
+> Task :fountain-coroutines:compileDebugAidl NO-SOURCE
+> Task :fountain-retrofit:compileDebugAidl NO-SOURCE
+> Task :fountain-rx2:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :fountain-core:packageDebugRenderscript NO-SOURCE
+> Task :fountain-coroutines:packageDebugRenderscript NO-SOURCE
+> Task :fountain-retrofit:packageDebugRenderscript NO-SOURCE
+> Task :fountain-rx2:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :fountain-core:compileDebugRenderscript
+> Task :fountain-core:generateDebugResValues
+> Task :fountain-core:generateDebugResources
+> Task :fountain-core:packageDebugResources
+> Task :fountain-coroutines:compileDebugRenderscript
+> Task :fountain-coroutines:generateDebugResValues
+> Task :fountain-coroutines:generateDebugResources
+> Task :fountain-coroutines:packageDebugResources
+> Task :fountain-retrofit:compileDebugRenderscript
+> Task :fountain-retrofit:generateDebugResValues
+> Task :fountain-retrofit:generateDebugResources
+> Task :fountain-retrofit:packageDebugResources
+> Task :fountain-rx2:compileDebugRenderscript
+> Task :fountain-rx2:generateDebugResValues
+> Task :fountain-rx2:generateDebugResources
+> Task :fountain-rx2:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :fountain-core:generateDebugRFile
+> Task :fountain-coroutines:generateDebugRFile
+> Task :fountain-retrofit:generateDebugRFile
+> Task :fountain-rx2:generateDebugRFile
+> Task :app:processDebugResources
+> Task :fountain-core:generateDebugBuildConfig
+> Task :fountain-core:compileDebugKotlin
+> Task :fountain-core:prepareLintJar
+> Task :fountain-core:generateDebugSources
+> Task :fountain-core:javaPreCompileDebug
+> Task :fountain-core:compileDebugJavaWithJavac
+> Task :fountain-core:processDebugJavaRes NO-SOURCE
+> Task :fountain-core:transformClassesWithJacocoForDebug
+> Task :fountain-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :fountain-coroutines:generateDebugBuildConfig
+> Task :fountain-coroutines:compileDebugKotlin
+> Task :fountain-coroutines:prepareLintJar
+> Task :fountain-coroutines:generateDebugSources
+> Task :fountain-coroutines:javaPreCompileDebug
+> Task :fountain-coroutines:compileDebugJavaWithJavac
+> Task :fountain-coroutines:processDebugJavaRes NO-SOURCE
+> Task :fountain-coroutines:transformClassesWithJacocoForDebug
+> Task :fountain-coroutines:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :fountain-retrofit:generateDebugBuildConfig
+> Task :fountain-retrofit:compileDebugKotlin
+> Task :fountain-retrofit:prepareLintJar
+> Task :fountain-retrofit:generateDebugSources
+> Task :fountain-retrofit:javaPreCompileDebug
+> Task :fountain-retrofit:compileDebugJavaWithJavac
+> Task :fountain-retrofit:processDebugJavaRes NO-SOURCE
+> Task :fountain-retrofit:transformClassesWithJacocoForDebug
+> Task :fountain-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :fountain-rx2:generateDebugBuildConfig
+> Task :fountain-rx2:compileDebugKotlin
+> Task :fountain-rx2:prepareLintJar
+> Task :fountain-rx2:generateDebugSources
+> Task :fountain-rx2:javaPreCompileDebug
+> Task :fountain-rx2:compileDebugJavaWithJavac
+> Task :fountain-rx2:processDebugJavaRes NO-SOURCE
+> Task :fountain-rx2:transformClassesWithJacocoForDebug
+> Task :fountain-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build/generated/source/kapt/debug/com/xmartlabs/sample/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :fountain-core:mergeDebugShaders
+> Task :fountain-core:compileDebugShaders
+> Task :fountain-core:generateDebugAssets
+> Task :fountain-core:packageDebugAssets
+> Task :fountain-coroutines:mergeDebugShaders
+> Task :fountain-coroutines:compileDebugShaders
+> Task :fountain-coroutines:generateDebugAssets
+> Task :fountain-coroutines:packageDebugAssets
+> Task :fountain-retrofit:mergeDebugShaders
+> Task :fountain-retrofit:compileDebugShaders
+> Task :fountain-retrofit:generateDebugAssets
+> Task :fountain-retrofit:packageDebugAssets
+> Task :fountain-rx2:mergeDebugShaders
+> Task :fountain-rx2:compileDebugShaders
+> Task :fountain-rx2:generateDebugAssets
+> Task :fountain-rx2:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :fountain-core:compileDebugNdk NO-SOURCE
+> Task :fountain-core:mergeDebugJniLibFolders
+> Task :fountain-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fountain-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fountain-core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :fountain-coroutines:compileDebugNdk NO-SOURCE
+> Task :fountain-coroutines:mergeDebugJniLibFolders
+> Task :fountain-coroutines:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fountain-coroutines:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fountain-coroutines:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :fountain-retrofit:compileDebugNdk NO-SOURCE
+> Task :fountain-retrofit:mergeDebugJniLibFolders
+> Task :fountain-retrofit:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fountain-retrofit:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fountain-retrofit:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :fountain-rx2:compileDebugNdk NO-SOURCE
+> Task :fountain-rx2:mergeDebugJniLibFolders
+> Task :fountain-rx2:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fountain-rx2:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fountain-rx2:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :app:checkReleaseClasspath
+WARNING: Conflict with dependency 'org.jetbrains.kotlinx:kotlinx-coroutines-core' in project ':app'. Resolved versions for runtime classpath (1.0.1) and compile classpath (0.26.1-eap13) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1")
+}
+
+WARNING: Conflict with dependency 'org.jetbrains.kotlinx:kotlinx-coroutines-core-common' in project ':app'. Resolved versions for runtime classpath (1.0.1) and compile classpath (0.26.1-eap13) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.1")
+}
+
+
+> Task :fountain-core:preReleaseBuild UP-TO-DATE
+> Task :fountain-core:checkReleaseManifest
+> Task :fountain-core:processReleaseManifest
+> Task :fountain-coroutines:preReleaseBuild UP-TO-DATE
+> Task :fountain-coroutines:checkReleaseManifest
+> Task :fountain-coroutines:processReleaseManifest
+> Task :fountain-retrofit:preReleaseBuild UP-TO-DATE
+> Task :fountain-retrofit:checkReleaseManifest
+> Task :fountain-retrofit:processReleaseManifest
+> Task :fountain-rx2:preReleaseBuild UP-TO-DATE
+> Task :fountain-rx2:checkReleaseManifest
+> Task :fountain-rx2:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :fountain-core:compileReleaseAidl NO-SOURCE
+> Task :fountain-coroutines:compileReleaseAidl NO-SOURCE
+> Task :fountain-retrofit:compileReleaseAidl NO-SOURCE
+> Task :fountain-rx2:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :fountain-core:packageReleaseRenderscript NO-SOURCE
+> Task :fountain-coroutines:packageReleaseRenderscript NO-SOURCE
+> Task :fountain-retrofit:packageReleaseRenderscript NO-SOURCE
+> Task :fountain-rx2:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :fountain-core:compileReleaseRenderscript
+> Task :fountain-core:generateReleaseResValues
+> Task :fountain-core:generateReleaseResources
+> Task :fountain-core:packageReleaseResources
+> Task :fountain-coroutines:compileReleaseRenderscript
+> Task :fountain-coroutines:generateReleaseResValues
+> Task :fountain-coroutines:generateReleaseResources
+> Task :fountain-coroutines:packageReleaseResources
+> Task :fountain-retrofit:compileReleaseRenderscript
+> Task :fountain-retrofit:generateReleaseResValues
+> Task :fountain-retrofit:generateReleaseResources
+> Task :fountain-retrofit:packageReleaseResources
+> Task :fountain-rx2:compileReleaseRenderscript
+> Task :fountain-rx2:generateReleaseResValues
+> Task :fountain-rx2:generateReleaseResources
+> Task :fountain-rx2:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :fountain-core:generateReleaseRFile
+> Task :fountain-coroutines:generateReleaseRFile
+> Task :fountain-retrofit:generateReleaseRFile
+> Task :fountain-rx2:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :fountain-core:generateReleaseBuildConfig
+> Task :fountain-core:compileReleaseKotlin
+> Task :fountain-core:generateReleaseSources
+> Task :fountain-core:javaPreCompileRelease
+> Task :fountain-core:compileReleaseJavaWithJavac
+> Task :fountain-core:processReleaseJavaRes NO-SOURCE
+> Task :fountain-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :fountain-coroutines:generateReleaseBuildConfig
+> Task :fountain-coroutines:compileReleaseKotlin
+> Task :fountain-coroutines:generateReleaseSources
+> Task :fountain-coroutines:javaPreCompileRelease
+> Task :fountain-coroutines:compileReleaseJavaWithJavac
+> Task :fountain-coroutines:processReleaseJavaRes NO-SOURCE
+> Task :fountain-coroutines:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :fountain-retrofit:generateReleaseBuildConfig
+> Task :fountain-retrofit:compileReleaseKotlin
+> Task :fountain-retrofit:generateReleaseSources
+> Task :fountain-retrofit:javaPreCompileRelease
+> Task :fountain-retrofit:compileReleaseJavaWithJavac
+> Task :fountain-retrofit:processReleaseJavaRes NO-SOURCE
+> Task :fountain-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :fountain-rx2:generateReleaseBuildConfig
+> Task :fountain-rx2:compileReleaseKotlin
+> Task :fountain-rx2:generateReleaseSources
+> Task :fountain-rx2:javaPreCompileRelease
+> Task :fountain-rx2:compileReleaseJavaWithJavac
+> Task :fountain-rx2:processReleaseJavaRes NO-SOURCE
+> Task :fountain-rx2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build/generated/source/kapt/release/com/xmartlabs/sample/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4193685945de9cc0831fd6781c9717f2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :fountain-core:mergeReleaseShaders
+> Task :fountain-core:compileReleaseShaders
+> Task :fountain-core:generateReleaseAssets
+> Task :fountain-core:packageReleaseAssets
+> Task :fountain-coroutines:mergeReleaseShaders
+> Task :fountain-coroutines:compileReleaseShaders
+> Task :fountain-coroutines:generateReleaseAssets
+> Task :fountain-coroutines:packageReleaseAssets
+> Task :fountain-retrofit:mergeReleaseShaders
+> Task :fountain-retrofit:compileReleaseShaders
+> Task :fountain-retrofit:generateReleaseAssets
+> Task :fountain-retrofit:packageReleaseAssets
+> Task :fountain-rx2:mergeReleaseShaders
+> Task :fountain-rx2:compileReleaseShaders
+> Task :fountain-rx2:generateReleaseAssets
+> Task :fountain-rx2:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :fountain-core:compileReleaseNdk NO-SOURCE
+> Task :fountain-core:mergeReleaseJniLibFolders
+> Task :fountain-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fountain-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fountain-core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :fountain-coroutines:compileReleaseNdk NO-SOURCE
+> Task :fountain-coroutines:mergeReleaseJniLibFolders
+> Task :fountain-coroutines:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fountain-coroutines:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fountain-coroutines:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :fountain-retrofit:compileReleaseNdk NO-SOURCE
+> Task :fountain-retrofit:mergeReleaseJniLibFolders
+> Task :fountain-retrofit:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fountain-retrofit:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fountain-retrofit:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :fountain-rx2:compileReleaseNdk NO-SOURCE
+> Task :fountain-rx2:mergeReleaseJniLibFolders
+> Task :fountain-rx2:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fountain-rx2:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fountain-rx2:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 36s
+213 actionable tasks: 213 executed
+
+2018-12-01 19:24:42,226 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543666974627-0/src/fountain-master/app/build/outputs/apk/debug/app-debug.apk

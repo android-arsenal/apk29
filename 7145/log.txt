@@ -1,0 +1,165 @@
+2019-02-03 23:35:32,287 INFO  DownloadService - Downloading "https://github.com/GrenderG/MarkdownView/archive/master.zip", attempt 3
+2019-02-03 23:35:33,668 INFO  DownloadService - Downloaded https://github.com/GrenderG/MarkdownView/archive/master.zip, attempt 3
+2019-02-03 23:35:33,669 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/master.zip": 1 MB
+2019-02-03 23:35:33,669 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-03 23:35:33,674 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/master.zip: true
+2019-02-03 23:35:33,675 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src'.
+2019-02-03 23:35:33,703 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-03 23:35:33,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src]
+2019-02-03 23:35:33,721 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/.git/
+
+2019-02-03 23:35:33,724 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/gradlew
+2019-02-03 23:35:33,727 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/build.gradle
+2019-02-03 23:35:33,730 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/build.gradle
+2019-02-03 23:35:33,730 INFO  ProjectBuildService - Remote scripts: none
+2019-02-03 23:35:33,730 INFO  ProjectFixService - Fixing project...
+2019-02-03 23:35:33,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/local.properties
+2019-02-03 23:35:33,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 23:35:33,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 23:35:33,739 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/local.properties
+2019-02-03 23:35:33,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-03 23:35:33,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-03 23:35:33,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/local.properties
+2019-02-03 23:35:33,740 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-03 23:35:33,741 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-03 23:35:33,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 23:35:33,742 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 23:35:33,743 INFO  ProjectFixService - Project was maybe fixed
+2019-02-03 23:35:33,743 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-03 23:35:33,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-03 23:35:39,857 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-03 23:35:39,857 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-03 23:35:39,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-03 23:36:12,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:markdownview:preBuild UP-TO-DATE
+:markdownview:preDebugBuild UP-TO-DATE
+:markdownview:checkDebugManifest
+:markdownview:processDebugManifest
+:app:preDebugBuild
+:markdownview:compileDebugAidl
+:app:compileDebugAidl
+:markdownview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:markdownview:compileDebugRenderscript
+:markdownview:generateDebugResValues
+:markdownview:generateDebugResources
+:markdownview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:markdownview:platformAttrExtractor
+:markdownview:generateDebugBuildConfig
+:markdownview:prepareLintJar
+:markdownview:javaPreCompileDebug
+:markdownview:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:markdownview:mergeDebugShaders
+:markdownview:compileDebugShaders
+:markdownview:generateDebugAssets
+:markdownview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:markdownview:compileDebugNdk NO-SOURCE
+:markdownview:mergeDebugJniLibFolders
+:markdownview:transformNativeLibsWithMergeJniLibsForDebug
+:markdownview:transformNativeLibsWithStripDebugSymbolForDebug
+:markdownview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:markdownview:preReleaseBuild UP-TO-DATE
+:markdownview:checkReleaseManifest
+:markdownview:processReleaseManifest
+:app:preReleaseBuild
+:markdownview:compileReleaseAidl
+:app:compileReleaseAidl
+:markdownview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:markdownview:compileReleaseRenderscript
+:markdownview:generateReleaseResValues
+:markdownview:generateReleaseResources
+:markdownview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:markdownview:generateReleaseBuildConfig
+:markdownview:javaPreCompileRelease
+:markdownview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:markdownview:mergeReleaseShaders
+:markdownview:compileReleaseShaders
+:markdownview:generateReleaseAssets
+:markdownview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:markdownview:compileReleaseNdk NO-SOURCE
+:markdownview:mergeReleaseJniLibFolders
+:markdownview:transformNativeLibsWithMergeJniLibsForRelease
+:markdownview:transformNativeLibsWithStripDebugSymbolForRelease
+:markdownview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:markdownview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:markdownview:generateDebugSources
+:markdownview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:markdownview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:markdownview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:markdownview:generateReleaseSources
+:markdownview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:markdownview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 31s
+91 actionable tasks: 91 executed
+
+2019-02-03 23:36:12,616 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549211732280-0/src/MarkdownView-master/app/build/outputs/apk/debug/app-debug.apk

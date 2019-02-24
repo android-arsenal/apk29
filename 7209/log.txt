@@ -1,0 +1,240 @@
+2019-02-23 19:18:41,957 INFO  DownloadService - Downloading "https://github.com/AliEsaAssadi/aaudio-api-sample-app/archive/master.zip", attempt 3
+2019-02-23 19:19:43,009 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:19:44,226 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 19:19:44,227 INFO  DownloadService - Downloading "https://github.com/AliEsaAssadi/aaudio-api-sample-app/archive/master.zip", attempt 3
+2019-02-23 19:20:46,126 DEBUG FullProcessService - Repository https://github.com/AliEsaAssadi/aaudio-api-sample-app available: true
+2019-02-23 19:20:46,126 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:20:46,126 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AliEsaAssadi/aaudio-api-sample-app, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src]
+2019-02-23 19:20:51,353 INFO  SysUtils - 
+2019-02-23 19:20:51,391 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/.git": true
+2019-02-23 19:20:51,395 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-02-23 19:20:51,395 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src]
+2019-02-23 19:20:51,411 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/.git/
+
+2019-02-23 19:20:51,414 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/gradlew
+2019-02-23 19:20:51,418 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/build.gradle
+2019-02-23 19:20:51,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/settings.gradle
+2019-02-23 19:20:51,422 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 19:20:51,422 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:20:51,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/local.properties
+2019-02-23 19:20:51,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:20:51,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:20:51,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/local.properties
+2019-02-23 19:20:51,431 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 19:20:51,431 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 19:20:51,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:20:51,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 19:20:51,432 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:20:51,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:20:51,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:20:57,495 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 19:20:57,495 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:20:57,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:21:39,267 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:generateJsonModelDebug
+Variant=debug ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=armeabi-v7a :-- Detecting C compiler ABI info
+Variant=debug ABI=armeabi-v7a :-- Detecting C compiler ABI info - done
+Variant=debug ABI=armeabi-v7a :-- Detecting C compile features
+Variant=debug ABI=armeabi-v7a :-- Detecting C compile features - done
+Variant=debug ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compiler ABI info
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features
+Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features - done
+Variant=debug ABI=armeabi-v7a :-- Configuring done
+Variant=debug ABI=armeabi-v7a :-- Generating done
+Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info
+Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info - done
+Variant=debug ABI=arm64-v8a :-- Detecting C compile features
+Variant=debug ABI=arm64-v8a :-- Detecting C compile features - done
+Variant=debug ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compiler ABI info
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features
+Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features - done
+Variant=debug ABI=arm64-v8a :-- Configuring done
+Variant=debug ABI=arm64-v8a :-- Generating done
+Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/debug/arm64-v8a
+Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=debug ABI=x86 :-- Detecting C compiler ABI info
+Variant=debug ABI=x86 :-- Detecting C compiler ABI info - done
+Variant=debug ABI=x86 :-- Detecting C compile features
+Variant=debug ABI=x86 :-- Detecting C compile features - done
+Variant=debug ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=debug ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=debug ABI=x86 :-- Detecting CXX compiler ABI info
+Variant=debug ABI=x86 :-- Detecting CXX compiler ABI info - done
+Variant=debug ABI=x86 :-- Detecting CXX compile features
+Variant=debug ABI=x86 :-- Detecting CXX compile features - done
+Variant=debug ABI=x86 :-- Configuring done
+Variant=debug ABI=x86 :-- Generating done
+Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/debug/x86
+:app:externalNativeBuildDebug
+Build app x86
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/debug/obj/x86/libapp.so
+Build app arm64-v8a
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/debug/obj/arm64-v8a/libapp.so
+Build app armeabi-v7a
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libapp.so
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:generateJsonModelRelease
+Variant=release ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=armeabi-v7a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=armeabi-v7a :-- Detecting C compiler ABI info
+Variant=release ABI=armeabi-v7a :-- Detecting C compiler ABI info - done
+Variant=release ABI=armeabi-v7a :-- Detecting C compile features
+Variant=release ABI=armeabi-v7a :-- Detecting C compile features - done
+Variant=release ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=armeabi-v7a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compiler ABI info
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features
+Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features - done
+Variant=release ABI=armeabi-v7a :-- Configuring done
+Variant=release ABI=armeabi-v7a :-- Generating done
+Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/release/armeabi-v7a
+Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info
+Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info - done
+Variant=release ABI=arm64-v8a :-- Detecting C compile features
+Variant=release ABI=arm64-v8a :-- Detecting C compile features - done
+Variant=release ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=arm64-v8a :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=arm64-v8a :-- Detecting CXX compiler ABI info
+Variant=release ABI=arm64-v8a :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=arm64-v8a :-- Detecting CXX compile features
+Variant=release ABI=arm64-v8a :-- Detecting CXX compile features - done
+Variant=release ABI=arm64-v8a :-- Configuring done
+Variant=release ABI=arm64-v8a :-- Generating done
+Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/release/arm64-v8a
+Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Variant=release ABI=x86 :-- Detecting C compiler ABI info
+Variant=release ABI=x86 :-- Detecting C compiler ABI info - done
+Variant=release ABI=x86 :-- Detecting C compile features
+Variant=release ABI=x86 :-- Detecting C compile features - done
+Variant=release ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Variant=release ABI=x86 :-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Variant=release ABI=x86 :-- Detecting CXX compiler ABI info
+Variant=release ABI=x86 :-- Detecting CXX compiler ABI info - done
+Variant=release ABI=x86 :-- Detecting CXX compile features
+Variant=release ABI=x86 :-- Detecting CXX compile features - done
+Variant=release ABI=x86 :-- Configuring done
+Variant=release ABI=x86 :-- Generating done
+Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/.externalNativeBuild/cmake/release/x86
+:app:externalNativeBuildRelease
+Build app x86
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/release/obj/x86/libapp.so
+Build app arm64-v8a
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/release/obj/arm64-v8a/libapp.so
+Build app armeabi-v7a
+[1/5] Building CXX object CMakeFiles/app.dir/StreamEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/app.dir/jni_bridge.cpp.o
+[3/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/debug-utils/trace.cpp.o
+[4/5] Building CXX object CMakeFiles/app.dir/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/src/main/common/audio_common.cpp.o
+[5/5] Linking CXX shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/intermediates/cmake/release/obj/armeabi-v7a/libapp.so
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 41s
+59 actionable tasks: 59 executed
+
+2019-02-23 19:21:39,356 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550924321950-0/src/app/build/outputs/apk/debug/app-debug.apk

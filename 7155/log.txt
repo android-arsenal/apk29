@@ -1,0 +1,188 @@
+2018-10-07 19:38:08,952 INFO  DownloadService - Downloading "https://github.com/petersamokhin/floating-hearts-view/archive/master.zip", attempt 3
+2018-10-07 19:38:09,419 INFO  DownloadService - Downloaded https://github.com/petersamokhin/floating-hearts-view/archive/master.zip, attempt 3
+2018-10-07 19:38:09,420 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/master.zip": 64 KB
+2018-10-07 19:38:09,420 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-07 19:38:09,420 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/master.zip: true
+2018-10-07 19:38:09,420 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src'.
+2018-10-07 19:38:09,430 INFO  FullProcessService - Size of directory with sources: 75 KB
+2018-10-07 19:38:09,431 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src]
+2018-10-07 19:38:09,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/.git/
+
+2018-10-07 19:38:09,455 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/gradlew
+2018-10-07 19:38:09,459 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle
+2018-10-07 19:38:09,462 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/settings.gradle
+2018-10-07 19:38:09,463 INFO  ProjectBuildService - Remote scripts: none
+2018-10-07 19:38:09,463 INFO  ProjectFixService - Fixing project...
+2018-10-07 19:38:09,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/local.properties
+2018-10-07 19:38:09,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-07 19:38:09,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-07 19:38:09,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/local.properties
+2018-10-07 19:38:09,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-07 19:38:09,475 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-07 19:38:09,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-07 19:38:09,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-07 19:38:09,479 INFO  ProjectFixService - Project was maybe fixed
+2018-10-07 19:38:09,479 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 19:38:09,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 19:38:18,441 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-07 19:38:18,441 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-07 19:38:18,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/floating-hearts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-07 19:38:41,641 INFO  SysUtils - Configuration on demand is an incubating feature.
+:floating-hearts:preBuild UP-TO-DATE
+:floating-hearts:preDebugBuild UP-TO-DATE
+:floating-hearts:compileDebugAidl
+:floating-hearts:compileDebugRenderscript
+:floating-hearts:checkDebugManifest
+:floating-hearts:generateDebugBuildConfig
+:floating-hearts:generateDebugResValues
+:floating-hearts:generateDebugResources
+:floating-hearts:packageDebugResources
+:floating-hearts:platformAttrExtractor
+:floating-hearts:processDebugManifest
+:floating-hearts:prepareLintJar
+:floating-hearts:mergeDebugConsumerProguardFiles
+:floating-hearts:mergeDebugShaders
+:floating-hearts:compileDebugShaders
+:floating-hearts:generateDebugAssets
+:floating-hearts:packageDebugAssets
+:floating-hearts:packageDebugRenderscript NO-SOURCE
+:floating-hearts:processDebugJavaRes NO-SOURCE
+:floating-hearts:compileDebugNdk NO-SOURCE
+:floating-hearts:mergeDebugJniLibFolders
+:floating-hearts:transformNativeLibsWithMergeJniLibsForDebug
+:floating-hearts:transformNativeLibsWithStripDebugSymbolForDebug
+:floating-hearts:transformNativeLibsWithSyncJniLibsForDebug
+:floating-hearts:preReleaseBuild UP-TO-DATE
+:floating-hearts:compileReleaseAidl
+:floating-hearts:compileReleaseRenderscript
+:floating-hearts:checkReleaseManifest
+:floating-hearts:generateReleaseBuildConfig
+:floating-hearts:generateReleaseResValues
+:floating-hearts:generateReleaseResources
+:floating-hearts:packageReleaseResources
+:floating-hearts:processReleaseManifest
+:floating-hearts:mergeReleaseConsumerProguardFiles
+:floating-hearts:mergeReleaseShaders
+:floating-hearts:compileReleaseShaders
+:floating-hearts:generateReleaseAssets
+:floating-hearts:packageReleaseAssets
+:floating-hearts:packageReleaseRenderscript NO-SOURCE
+:floating-hearts:processReleaseJavaRes NO-SOURCE
+:floating-hearts:compileReleaseNdk NO-SOURCE
+:floating-hearts:mergeReleaseJniLibFolders
+:floating-hearts:transformNativeLibsWithMergeJniLibsForRelease
+:floating-hearts:transformNativeLibsWithStripDebugSymbolForRelease
+:floating-hearts:transformNativeLibsWithSyncJniLibsForRelease
+:floating-hearts:mergeReleaseResources
+:floating-hearts:verifyReleaseResources
+:floating-hearts:generateDebugRFile
+:floating-hearts:compileDebugKotlin
+:floating-hearts:generateDebugSources
+:floating-hearts:javaPreCompileDebug
+:floating-hearts:compileDebugJavaWithJavac
+:floating-hearts:extractDebugAnnotations
+:floating-hearts:transformResourcesWithMergeJavaResForDebug
+:floating-hearts:transformClassesAndResourcesWithSyncLibJarsForDebug
+:floating-hearts:bundleDebug
+:floating-hearts:compileDebugSources
+:floating-hearts:assembleDebug
+:floating-hearts:generateReleaseRFile
+:floating-hearts:compileReleaseKotlin
+:floating-hearts:generateReleaseSources
+:floating-hearts:javaPreCompileRelease
+:floating-hearts:compileReleaseJavaWithJavac
+:floating-hearts:extractReleaseAnnotations
+:floating-hearts:transformResourcesWithMergeJavaResForRelease
+:floating-hearts:transformClassesAndResourcesWithSyncLibJarsForRelease
+:floating-hearts:bundleRelease
+:floating-hearts:compileReleaseSources
+:floating-hearts:assembleRelease
+:floating-hearts:assemble
+:floating-hearts:build
+
+BUILD SUCCESSFUL in 22s
+50 actionable tasks: 50 executed
+
+2018-10-07 19:38:41,670 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 19:38:41,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 19:38:49,429 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-07 19:38:49,430 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-07 19:38:49,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538915888946-0/src/floating-hearts-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-07 19:38:58,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+:floating-hearts:preBuild UP-TO-DATE
+:floating-hearts:preDebugBuild UP-TO-DATE
+:floating-hearts:compileDebugAidl UP-TO-DATE
+:floating-hearts:compileDebugRenderscript UP-TO-DATE
+:floating-hearts:checkDebugManifest UP-TO-DATE
+:floating-hearts:generateDebugBuildConfig UP-TO-DATE
+:floating-hearts:generateDebugResValues UP-TO-DATE
+:floating-hearts:generateDebugResources UP-TO-DATE
+:floating-hearts:packageDebugResources UP-TO-DATE
+:floating-hearts:platformAttrExtractor UP-TO-DATE
+:floating-hearts:processDebugManifest UP-TO-DATE
+:floating-hearts:generateDebugRFile UP-TO-DATE
+:floating-hearts:compileDebugKotlin UP-TO-DATE
+:floating-hearts:prepareLintJar UP-TO-DATE
+:floating-hearts:generateDebugSources UP-TO-DATE
+:floating-hearts:javaPreCompileDebug UP-TO-DATE
+:floating-hearts:compileDebugJavaWithJavac UP-TO-DATE
+:floating-hearts:extractDebugAnnotations UP-TO-DATE
+:floating-hearts:mergeDebugConsumerProguardFiles UP-TO-DATE
+:floating-hearts:mergeDebugShaders UP-TO-DATE
+:floating-hearts:compileDebugShaders UP-TO-DATE
+:floating-hearts:generateDebugAssets UP-TO-DATE
+:floating-hearts:packageDebugAssets UP-TO-DATE
+:floating-hearts:packageDebugRenderscript NO-SOURCE
+:floating-hearts:processDebugJavaRes NO-SOURCE
+:floating-hearts:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:floating-hearts:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:floating-hearts:compileDebugNdk NO-SOURCE
+:floating-hearts:mergeDebugJniLibFolders UP-TO-DATE
+:floating-hearts:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:floating-hearts:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:floating-hearts:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:floating-hearts:bundleDebug UP-TO-DATE
+:floating-hearts:compileDebugSources UP-TO-DATE
+:floating-hearts:assembleDebug UP-TO-DATE
+:floating-hearts:preReleaseBuild UP-TO-DATE
+:floating-hearts:compileReleaseAidl UP-TO-DATE
+:floating-hearts:compileReleaseRenderscript UP-TO-DATE
+:floating-hearts:checkReleaseManifest UP-TO-DATE
+:floating-hearts:generateReleaseBuildConfig UP-TO-DATE
+:floating-hearts:generateReleaseResValues UP-TO-DATE
+:floating-hearts:generateReleaseResources UP-TO-DATE
+:floating-hearts:packageReleaseResources UP-TO-DATE
+:floating-hearts:processReleaseManifest UP-TO-DATE
+:floating-hearts:generateReleaseRFile UP-TO-DATE
+:floating-hearts:compileReleaseKotlin UP-TO-DATE
+:floating-hearts:generateReleaseSources UP-TO-DATE
+:floating-hearts:javaPreCompileRelease UP-TO-DATE
+:floating-hearts:compileReleaseJavaWithJavac UP-TO-DATE
+:floating-hearts:extractReleaseAnnotations UP-TO-DATE
+:floating-hearts:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:floating-hearts:mergeReleaseShaders UP-TO-DATE
+:floating-hearts:compileReleaseShaders UP-TO-DATE
+:floating-hearts:generateReleaseAssets UP-TO-DATE
+:floating-hearts:packageReleaseAssets UP-TO-DATE
+:floating-hearts:packageReleaseRenderscript NO-SOURCE
+:floating-hearts:processReleaseJavaRes NO-SOURCE
+:floating-hearts:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:floating-hearts:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:floating-hearts:compileReleaseNdk NO-SOURCE
+:floating-hearts:mergeReleaseJniLibFolders UP-TO-DATE
+:floating-hearts:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:floating-hearts:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:floating-hearts:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:floating-hearts:bundleRelease UP-TO-DATE
+:floating-hearts:compileReleaseSources UP-TO-DATE
+:floating-hearts:mergeReleaseResources UP-TO-DATE
+:floating-hearts:verifyReleaseResources UP-TO-DATE
+:floating-hearts:assembleRelease UP-TO-DATE
+:floating-hearts:assemble UP-TO-DATE
+:floating-hearts:build
+
+BUILD SUCCESSFUL in 8s
+50 actionable tasks: 50 up-to-date
+
+2018-10-07 19:38:58,548 ERROR FullProcessService - Project build has not produced APK file
+2018-10-07 19:38:58,572 ERROR FullProcessService - Could not find generated or existed APK file

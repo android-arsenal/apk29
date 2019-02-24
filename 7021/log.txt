@@ -1,0 +1,232 @@
+2018-12-09 22:08:54,075 INFO  DownloadService - Downloading "https://github.com/Ashok-Varma/SqliteManager/archive/master.zip", attempt 3
+2018-12-09 22:08:57,026 INFO  DownloadService - Downloaded https://github.com/Ashok-Varma/SqliteManager/archive/master.zip, attempt 3
+2018-12-09 22:08:57,026 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/master.zip": 1 MB
+2018-12-09 22:08:57,026 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-09 22:08:57,026 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/master.zip: true
+2018-12-09 22:08:57,026 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src'.
+2018-12-09 22:08:57,072 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-09 22:08:57,073 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src]
+2018-12-09 22:08:57,094 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/.git/
+
+2018-12-09 22:08:57,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/gradlew
+2018-12-09 22:08:57,104 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/build.gradle
+2018-12-09 22:08:57,109 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/install_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/bintray_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/install_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/bintray_lib.gradle
+2018-12-09 22:08:57,110 INFO  ProjectBuildService - Remote scripts: none
+2018-12-09 22:08:57,110 INFO  ProjectFixService - Fixing project...
+2018-12-09 22:08:57,123 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/local.properties
+2018-12-09 22:08:57,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 22:08:57,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/local.properties
+2018-12-09 22:08:57,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager-no-op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 22:08:57,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/local.properties
+2018-12-09 22:08:57,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sqlite-manager/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 22:08:57,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/local.properties
+2018-12-09 22:08:57,136 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-09 22:08:57,137 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-09 22:08:57,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-09 22:08:57,138 INFO  ProjectFixService - Project was maybe fixed
+2018-12-09 22:08:57,138 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 22:08:57,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 22:09:03,940 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-09 22:09:03,941 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-09 22:09:03,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-09 22:09:41,700 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sqlite-manager:preBuild UP-TO-DATE
+:sqlite-manager:preDebugBuild UP-TO-DATE
+:sqlite-manager:checkDebugManifest
+:sqlite-manager:processDebugManifest
+:sample:preDebugBuild
+:sqlite-manager:compileDebugAidl NO-SOURCE
+:sample:compileDebugAidl NO-SOURCE
+:sqlite-manager:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sqlite-manager:compileDebugRenderscript
+:sqlite-manager:generateDebugResValues
+:sqlite-manager:generateDebugResources
+:sqlite-manager:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/AndroidManifest.xml:6:5-31:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+:sample:splitsDiscoveryTaskDebug
+:sqlite-manager:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:sqlite-manager:generateDebugBuildConfig
+:sqlite-manager:prepareLintJar
+:sqlite-manager:generateDebugSources
+:sqlite-manager:javaPreCompileDebug
+:sqlite-manager:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sqlite-manager:processDebugJavaRes NO-SOURCE
+:sqlite-manager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/Loan.java:21: warning: book_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Loan {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/Loan.java:21: warning: user_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Loan {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:28: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByName(String userName);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:36: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByNameAfter(String userName, Date after);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:43: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByNameSync(String userName);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:49: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUser(String userId);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:56: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUserAfter(String userId, Date after);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:62: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUserSync(String userId);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/AppDatabase.java:9: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/LauncherActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 warnings
+
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sqlite-manager:mergeDebugShaders
+:sqlite-manager:compileDebugShaders
+:sqlite-manager:generateDebugAssets
+:sqlite-manager:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:sqlite-manager:compileDebugNdk NO-SOURCE
+:sqlite-manager:mergeDebugJniLibFolders
+:sqlite-manager:transformNativeLibsWithMergeJniLibsForDebug
+:sqlite-manager:transformNativeLibsWithStripDebugSymbolForDebug
+:sqlite-manager:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseClasspath
+:sqlite-manager:preReleaseBuild UP-TO-DATE
+:sqlite-manager:checkReleaseManifest
+:sqlite-manager:processReleaseManifest
+:sample:preReleaseBuild
+:sqlite-manager:compileReleaseAidl NO-SOURCE
+:sample:compileReleaseAidl NO-SOURCE
+:sqlite-manager:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sqlite-manager:compileReleaseRenderscript
+:sqlite-manager:generateReleaseResValues
+:sqlite-manager:generateReleaseResources
+:sqlite-manager:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/AndroidManifest.xml:6:5-31:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+:sample:splitsDiscoveryTaskRelease
+:sqlite-manager:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sqlite-manager:generateReleaseBuildConfig
+:sqlite-manager:generateReleaseSources
+:sqlite-manager:javaPreCompileRelease
+:sqlite-manager:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sqlite-manager:processReleaseJavaRes NO-SOURCE
+:sqlite-manager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/Loan.java:21: warning: book_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Loan {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/Loan.java:21: warning: user_id column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public class Loan {
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:28: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByName(String userName);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:36: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByNameAfter(String userName, Date after);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:43: warning: The query returns some columns [startTime, endTime, book_id, user_id, name, lastName, age] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id, id, name, lastName, age. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByNameSync(String userName);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:49: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUser(String userId);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:56: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUserAfter(String userId, Date after);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/BookDao.java:62: warning: The query returns some columns [startTime, endTime, book_id, user_id] which are not use by com.ashokvarma.sqlitemanager.sample.db.room.Book. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, id, startTime, endTime, book_id, user_id. Fields in com.ashokvarma.sqlitemanager.sample.db.room.Book: id, title.
+    public List<Book> findBooksBorrowedByUserSync(String userId);
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/db/room/AppDatabase.java:9: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/src/main/java/com/ashokvarma/sqlitemanager/sample/LauncherActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 warnings
+
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sqlite-manager:mergeReleaseShaders
+:sqlite-manager:compileReleaseShaders
+:sqlite-manager:generateReleaseAssets
+:sqlite-manager:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:sqlite-manager:compileReleaseNdk NO-SOURCE
+:sqlite-manager:mergeReleaseJniLibFolders
+:sqlite-manager:transformNativeLibsWithMergeJniLibsForRelease
+:sqlite-manager:transformNativeLibsWithStripDebugSymbolForRelease
+:sqlite-manager:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:validateSigningRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 37s
+91 actionable tasks: 91 executed
+
+2018-12-09 22:09:41,819 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544368134070-0/src/SqliteManager-master/sample/build/outputs/apk/release/sample-release.apk

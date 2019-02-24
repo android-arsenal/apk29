@@ -1,0 +1,161 @@
+2019-02-04 11:13:01,779 INFO  DownloadService - Downloading "https://github.com/devendroid/SketchImage/archive/master.zip", attempt 3
+2019-02-04 11:13:37,885 INFO  DownloadService - Downloaded https://github.com/devendroid/SketchImage/archive/master.zip, attempt 3
+2019-02-04 11:13:37,885 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/master.zip": 16 MB
+2019-02-04 11:13:37,885 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:13:37,892 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/master.zip: true
+2019-02-04 11:13:37,892 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src'.
+2019-02-04 11:13:38,022 INFO  FullProcessService - Size of directory with sources: 16 MB
+2019-02-04 11:13:38,022 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src]
+2019-02-04 11:13:38,041 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/.git/
+
+2019-02-04 11:13:38,044 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/gradlew
+2019-02-04 11:13:38,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/sketchimage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/build.gradle
+2019-02-04 11:13:38,051 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/sketchimage/build.gradle
+2019-02-04 11:13:38,051 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:13:38,051 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:13:38,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/local.properties
+2019-02-04 11:13:38,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/sketchimage/local.properties
+2019-02-04 11:13:38,061 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/sketchimage/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,061 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/sketchimage/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/local.properties
+2019-02-04 11:13:38,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-04 11:13:38,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-04 11:13:38,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,064 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-04 11:13:38,065 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:13:38,065 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:13:38,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:13:44,014 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-04 11:13:44,015 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:13:44,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:14:13,190 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:sketchimage:preBuild UP-TO-DATE
+:sketchimage:preDebugBuild UP-TO-DATE
+:sketchimage:checkDebugManifest
+:sketchimage:processDebugManifest
+:app:preDebugBuild
+:sketchimage:compileDebugAidl
+:app:compileDebugAidl
+:sketchimage:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:sketchimage:compileDebugRenderscript
+:sketchimage:generateDebugResValues
+:sketchimage:generateDebugResources
+:sketchimage:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:sketchimage:platformAttrExtractor
+:sketchimage:generateDebugBuildConfig
+:sketchimage:prepareLintJar
+:sketchimage:javaPreCompileDebug
+:sketchimage:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:sketchimage:mergeDebugShaders
+:sketchimage:compileDebugShaders
+:sketchimage:generateDebugAssets
+:sketchimage:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:sketchimage:compileDebugNdk NO-SOURCE
+:sketchimage:mergeDebugJniLibFolders
+:sketchimage:transformNativeLibsWithMergeJniLibsForDebug
+:sketchimage:transformNativeLibsWithStripDebugSymbolForDebug
+:sketchimage:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:sketchimage:preReleaseBuild UP-TO-DATE
+:sketchimage:checkReleaseManifest
+:sketchimage:processReleaseManifest
+:app:preReleaseBuild
+:sketchimage:compileReleaseAidl
+:app:compileReleaseAidl
+:sketchimage:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:sketchimage:compileReleaseRenderscript
+:sketchimage:generateReleaseResValues
+:sketchimage:generateReleaseResources
+:sketchimage:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:sketchimage:generateReleaseBuildConfig
+:sketchimage:javaPreCompileRelease
+:sketchimage:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:sketchimage:mergeReleaseShaders
+:sketchimage:compileReleaseShaders
+:sketchimage:generateReleaseAssets
+:sketchimage:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:sketchimage:compileReleaseNdk NO-SOURCE
+:sketchimage:mergeReleaseJniLibFolders
+:sketchimage:transformNativeLibsWithMergeJniLibsForRelease
+:sketchimage:transformNativeLibsWithStripDebugSymbolForRelease
+:sketchimage:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:sketchimage:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:sketchimage:generateDebugSources
+:sketchimage:compileDebugJavaWithJavac
+:sketchimage:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:sketchimage:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:sketchimage:generateReleaseSources
+:sketchimage:compileReleaseJavaWithJavac
+:sketchimage:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2019-02-04 11:14:13,272 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253581771-0/src/SketchImage-master/app/build/outputs/apk/debug/app-debug.apk

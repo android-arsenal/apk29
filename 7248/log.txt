@@ -1,0 +1,170 @@
+2019-01-25 22:28:35,338 INFO  DownloadService - Downloading "https://github.com/marcoscgdev/EasyAbout/archive/master.zip", attempt 3
+2019-01-25 22:28:36,010 INFO  DownloadService - Downloaded https://github.com/marcoscgdev/EasyAbout/archive/master.zip, attempt 3
+2019-01-25 22:28:36,010 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/master.zip": 440 KB
+2019-01-25 22:28:36,010 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-25 22:28:36,016 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/master.zip: true
+2019-01-25 22:28:36,016 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src'.
+2019-01-25 22:28:36,047 INFO  FullProcessService - Size of directory with sources: 510 KB
+2019-01-25 22:28:36,047 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src]
+2019-01-25 22:28:36,064 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/.git/
+
+2019-01-25 22:28:36,068 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/gradlew
+2019-01-25 22:28:36,072 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/easyabout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/build.gradle
+2019-01-25 22:28:36,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/easyabout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/settings.gradle
+2019-01-25 22:28:36,080 INFO  ProjectBuildService - Remote scripts: none
+2019-01-25 22:28:36,080 INFO  ProjectFixService - Fixing project...
+2019-01-25 22:28:36,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/local.properties
+2019-01-25 22:28:36,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-25 22:28:36,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-25 22:28:36,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/easyabout/local.properties
+2019-01-25 22:28:36,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/easyabout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-25 22:28:36,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/easyabout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-25 22:28:36,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/local.properties
+2019-01-25 22:28:36,097 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-25 22:28:36,097 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-25 22:28:36,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-25 22:28:36,100 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-25 22:28:36,100 INFO  ProjectFixService - Project was maybe fixed
+2019-01-25 22:28:36,100 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-25 22:28:36,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-25 22:28:42,287 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-25 22:28:42,287 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-25 22:28:42,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-25 22:29:11,705 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jitpack.io/com/github/marcoscgdev/Licenser/1.0.5/Licenser-1.0.5.aar
+:app:preBuild UP-TO-DATE
+:easyabout:preBuild UP-TO-DATE
+:easyabout:preDebugBuild UP-TO-DATE
+:easyabout:checkDebugManifest
+:easyabout:processDebugManifest
+:app:preDebugBuild
+:easyabout:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:easyabout:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:easyabout:compileDebugRenderscript
+:easyabout:generateDebugResValues
+:easyabout:generateDebugResources
+:easyabout:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:easyabout:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:easyabout:generateDebugBuildConfig
+:easyabout:prepareLintJar
+:easyabout:generateDebugSources
+:easyabout:javaPreCompileDebug
+:easyabout:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:easyabout:processDebugJavaRes NO-SOURCE
+:easyabout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:easyabout:mergeDebugShaders
+:easyabout:compileDebugShaders
+:easyabout:generateDebugAssets
+:easyabout:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:easyabout:compileDebugNdk NO-SOURCE
+:easyabout:mergeDebugJniLibFolders
+:easyabout:transformNativeLibsWithMergeJniLibsForDebug
+:easyabout:transformNativeLibsWithStripDebugSymbolForDebug
+:easyabout:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:easyabout:preReleaseBuild UP-TO-DATE
+:easyabout:checkReleaseManifest
+:easyabout:processReleaseManifest
+:app:preReleaseBuild
+:easyabout:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:easyabout:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:easyabout:compileReleaseRenderscript
+:easyabout:generateReleaseResValues
+:easyabout:generateReleaseResources
+:easyabout:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:easyabout:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:easyabout:generateReleaseBuildConfig
+:easyabout:generateReleaseSources
+:easyabout:javaPreCompileRelease
+:easyabout:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:easyabout:processReleaseJavaRes NO-SOURCE
+:easyabout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4c664dd8a93f97c8b454b4802926a61e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:easyabout:mergeReleaseShaders
+:easyabout:compileReleaseShaders
+:easyabout:generateReleaseAssets
+:easyabout:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:easyabout:compileReleaseNdk NO-SOURCE
+:easyabout:mergeReleaseJniLibFolders
+:easyabout:transformNativeLibsWithMergeJniLibsForRelease
+:easyabout:transformNativeLibsWithStripDebugSymbolForRelease
+:easyabout:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+90 actionable tasks: 90 executed
+
+2019-01-25 22:29:11,802 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430115335-0/src/EasyAbout-master/app/build/outputs/apk/debug/app-debug.apk

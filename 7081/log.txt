@@ -1,0 +1,179 @@
+2019-02-07 19:05:13,977 INFO  DownloadService - Downloading "https://github.com/volsahin/bottomify-navigation-view/archive/master.zip", attempt 3
+2019-02-07 19:06:14,862 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-07 19:06:15,888 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-07 19:06:15,888 INFO  DownloadService - Downloading "https://github.com/volsahin/bottomify-navigation-view/archive/master.zip", attempt 3
+2019-02-07 19:07:17,227 DEBUG FullProcessService - Repository https://github.com/volsahin/bottomify-navigation-view available: true
+2019-02-07 19:07:17,227 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-07 19:07:17,227 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/volsahin/bottomify-navigation-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src]
+2019-02-07 19:07:19,537 INFO  SysUtils - 
+2019-02-07 19:07:19,546 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/.git": true
+2019-02-07 19:07:19,550 INFO  FullProcessService - Size of directory with sources: 622 KB
+2019-02-07 19:07:19,550 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src]
+2019-02-07 19:07:19,573 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/.git/
+
+2019-02-07 19:07:19,577 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/gradlew
+2019-02-07 19:07:19,581 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/build.gradle
+2019-02-07 19:07:19,586 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/settings.gradle
+2019-02-07 19:07:19,586 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 19:07:19,587 INFO  ProjectFixService - Fixing project...
+2019-02-07 19:07:19,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/local.properties
+2019-02-07 19:07:19,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-07 19:07:19,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-07 19:07:19,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/bottomify/local.properties
+2019-02-07 19:07:19,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/bottomify/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2019-02-07 19:07:19,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/bottomify/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2019-02-07 19:07:19,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/local.properties
+2019-02-07 19:07:19,600 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-07 19:07:19,600 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-07 19:07:19,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-07 19:07:19,602 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-07 19:07:19,602 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 19:07:19,602 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 19:07:19,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 19:07:29,305 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-02-07 19:07:29,306 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-07 19:07:29,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-07 19:08:30,148 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:bottomify:preBuild UP-TO-DATE
+:bottomify:preDebugBuild UP-TO-DATE
+:bottomify:checkDebugManifest
+:bottomify:processDebugManifest
+:app:preDebugBuild
+:bottomify:compileDebugAidl
+:app:compileDebugAidl
+:bottomify:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:bottomify:compileDebugRenderscript
+:bottomify:generateDebugResValues
+:bottomify:generateDebugResources
+:bottomify:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:bottomify:platformAttrExtractor
+:bottomify:generateDebugBuildConfig
+:bottomify:prepareLintJar
+:bottomify:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:bottomify:mergeDebugShaders
+:bottomify:compileDebugShaders
+:bottomify:generateDebugAssets
+:bottomify:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:bottomify:compileDebugNdk NO-SOURCE
+:bottomify:mergeDebugJniLibFolders
+:bottomify:transformNativeLibsWithMergeJniLibsForDebug
+:bottomify:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomify:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:bottomify:preReleaseBuild UP-TO-DATE
+:bottomify:checkReleaseManifest
+:bottomify:processReleaseManifest
+:app:preReleaseBuild
+:bottomify:compileReleaseAidl
+:app:compileReleaseAidl
+:bottomify:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:bottomify:compileReleaseRenderscript
+:bottomify:generateReleaseResValues
+:bottomify:generateReleaseResources
+:bottomify:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:bottomify:generateReleaseBuildConfig
+:bottomify:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:bottomify:mergeReleaseShaders
+:bottomify:generateDebugRFile
+:app:processDebugResources
+:bottomify:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.30/kotlin-stdlib-jdk7-1.2.30.jar
+:bottomify:generateDebugSources
+:bottomify:javaPreCompileDebug
+:bottomify:compileDebugJavaWithJavac
+:bottomify:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:bottomify:generateReleaseRFile
+:app:processReleaseResources
+:bottomify:compileReleaseKotlin
+:bottomify:generateReleaseSources
+:bottomify:javaPreCompileRelease
+:bottomify:compileReleaseJavaWithJavac
+:bottomify:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.3/lint-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.3/lint-api-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.3/lint-gradle-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.3/lint-kotlin-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.3/intellij-core-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.3/uast-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.3/lint-checks-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.3/kotlin-compiler-26.1.3.jar
+:bottomify:compileReleaseShaders
+:bottomify:generateReleaseAssets
+:bottomify:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:bottomify:compileReleaseNdk NO-SOURCE
+:bottomify:mergeReleaseJniLibFolders
+:bottomify:transformNativeLibsWithMergeJniLibsForRelease
+:bottomify:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomify:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 59s
+95 actionable tasks: 95 executed
+
+2019-02-07 19:08:30,235 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549541113973-0/src/app/build/outputs/apk/debug/app-debug.apk

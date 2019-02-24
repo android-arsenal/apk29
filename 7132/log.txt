@@ -1,0 +1,169 @@
+2019-01-28 10:45:21,013 INFO  DownloadService - Downloading "https://github.com/Swati4star/Images-to-pdf/archive/master.zip", attempt 3
+2019-01-28 10:45:30,381 INFO  DownloadService - Downloaded https://github.com/Swati4star/Images-to-pdf/archive/master.zip, attempt 3
+2019-01-28 10:45:30,382 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/master.zip": 10 MB
+2019-01-28 10:45:30,382 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-28 10:45:30,388 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/master.zip: true
+2019-01-28 10:45:30,388 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src'.
+2019-01-28 10:45:30,557 INFO  FullProcessService - Size of directory with sources: 13 MB
+2019-01-28 10:45:30,557 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src]
+2019-01-28 10:45:30,576 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/.git/
+
+2019-01-28 10:45:30,583 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/gradlew
+2019-01-28 10:45:30,590 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/build.gradle
+2019-01-28 10:45:30,597 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/config/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/settings.gradle
+2019-01-28 10:45:30,597 INFO  ProjectBuildService - Remote scripts: none
+2019-01-28 10:45:30,597 INFO  ProjectFixService - Fixing project...
+2019-01-28 10:45:30,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/local.properties
+2019-01-28 10:45:30,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-01-28 10:45:30,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/local.properties
+2019-01-28 10:45:30,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-28 10:45:30,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-28 10:45:30,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-01-28 10:45:30,616 INFO  ProjectFixService - Project was maybe fixed
+2019-01-28 10:45:30,616 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-28 10:45:30,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-28 10:45:36,792 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-28 10:45:36,792 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-28 10:45:36,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-28 10:46:44,124 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/journeyapps/zxing-android-embedded/3.4.0/zxing-android-embedded-3.4.0.aar
+:app:preBuild
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:76: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:158: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:277: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:91: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:173: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:292: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:76: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:159: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:278: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1635: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1731: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1860: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:82: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:165: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:284: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+warn: removing resource swati4star.createpdf:plurals/error_over_count without required default value.
+
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:76: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:158: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:277: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:91: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:173: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:292: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:76: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:159: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:278: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1635: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1731: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1860: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:82: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:165: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:284: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+warn: removing resource swati4star.createpdf:plurals/error_over_count without required default value.
+
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends RoomDatabase {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a46000ffb2a3b9e6a81b0f742564f997/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 7s
+55 actionable tasks: 55 executed
+
+2019-01-28 10:46:44,257 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548647121009-0/src/Images-to-PDF-master/app/build/outputs/apk/debug/app-debug.apk

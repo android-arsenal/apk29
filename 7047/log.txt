@@ -1,0 +1,172 @@
+2019-02-07 19:44:34,558 INFO  DownloadService - Downloading "https://github.com/Ashok-Varma/SharedPrefManager/archive/master.zip", attempt 3
+2019-02-07 19:45:35,133 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-07 19:45:36,222 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-07 19:45:36,222 INFO  DownloadService - Downloading "https://github.com/Ashok-Varma/SharedPrefManager/archive/master.zip", attempt 3
+2019-02-07 19:46:38,029 DEBUG FullProcessService - Repository https://github.com/Ashok-Varma/SharedPrefManager available: true
+2019-02-07 19:46:38,029 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-07 19:46:38,029 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ashok-Varma/SharedPrefManager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src]
+2019-02-07 19:46:40,533 INFO  SysUtils - 
+2019-02-07 19:46:40,543 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/.git": true
+2019-02-07 19:46:40,549 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-07 19:46:40,549 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src]
+2019-02-07 19:46:40,571 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/.git/
+
+2019-02-07 19:46:40,578 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/gradlew
+2019-02-07 19:46:40,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/build.gradle
+2019-02-07 19:46:40,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/install_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/bintray_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/install_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/bintray_lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/settings.gradle
+2019-02-07 19:46:40,589 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 19:46:40,589 INFO  ProjectFixService - Fixing project...
+2019-02-07 19:46:40,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/local.properties
+2019-02-07 19:46:40,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-07 19:46:40,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/local.properties
+2019-02-07 19:46:40,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager-no-op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-07 19:46:40,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/local.properties
+2019-02-07 19:46:40,620 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sharedpref-manager/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-07 19:46:40,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/local.properties
+2019-02-07 19:46:40,621 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-07 19:46:40,622 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-07 19:46:40,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-07 19:46:40,623 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 19:46:40,623 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 19:46:40,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 19:46:50,968 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-02-07 19:46:50,968 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-07 19:46:50,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-07 19:47:38,095 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sharedpref-manager:preBuild UP-TO-DATE
+:sharedpref-manager:preDebugBuild UP-TO-DATE
+:sharedpref-manager:checkDebugManifest
+:sharedpref-manager:processDebugManifest
+:sample:preDebugBuild
+:sharedpref-manager:compileDebugAidl NO-SOURCE
+:sample:compileDebugAidl NO-SOURCE
+:sharedpref-manager:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sharedpref-manager:compileDebugRenderscript
+:sharedpref-manager:generateDebugResValues
+:sharedpref-manager:generateDebugResources
+:sharedpref-manager:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sharedpref-manager:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:sharedpref-manager:generateDebugBuildConfig
+:sharedpref-manager:prepareLintJar
+:sharedpref-manager:generateDebugSources
+:sharedpref-manager:javaPreCompileDebug
+:sharedpref-manager:compileDebugJavaWithJavac
+:sharedpref-manager:processDebugJavaRes NO-SOURCE
+:sharedpref-manager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/src/main/java/com/ashokvarma/sharedprefmanager/sample/LauncherActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sharedpref-manager:mergeDebugShaders
+:sharedpref-manager:compileDebugShaders
+:sharedpref-manager:generateDebugAssets
+:sharedpref-manager:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:sharedpref-manager:compileDebugNdk NO-SOURCE
+:sharedpref-manager:mergeDebugJniLibFolders
+:sharedpref-manager:transformNativeLibsWithMergeJniLibsForDebug
+:sharedpref-manager:transformNativeLibsWithStripDebugSymbolForDebug
+:sharedpref-manager:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseClasspath
+:sharedpref-manager:preReleaseBuild UP-TO-DATE
+:sharedpref-manager:checkReleaseManifest
+:sharedpref-manager:processReleaseManifest
+:sample:preReleaseBuild
+:sharedpref-manager:compileReleaseAidl NO-SOURCE
+:sample:compileReleaseAidl NO-SOURCE
+:sharedpref-manager:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sharedpref-manager:compileReleaseRenderscript
+:sharedpref-manager:generateReleaseResValues
+:sharedpref-manager:generateReleaseResources
+:sharedpref-manager:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sharedpref-manager:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sharedpref-manager:generateReleaseBuildConfig
+:sharedpref-manager:generateReleaseSources
+:sharedpref-manager:javaPreCompileRelease
+:sharedpref-manager:compileReleaseJavaWithJavac
+:sharedpref-manager:processReleaseJavaRes NO-SOURCE
+:sharedpref-manager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/src/main/java/com/ashokvarma/sharedprefmanager/sample/LauncherActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c433e4f54b17ed327d49ee840db6f113/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sharedpref-manager:mergeReleaseShaders
+:sharedpref-manager:compileReleaseShaders
+:sharedpref-manager:generateReleaseAssets
+:sharedpref-manager:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:sharedpref-manager:compileReleaseNdk NO-SOURCE
+:sharedpref-manager:mergeReleaseJniLibFolders
+:sharedpref-manager:transformNativeLibsWithMergeJniLibsForRelease
+:sharedpref-manager:transformNativeLibsWithStripDebugSymbolForRelease
+:sharedpref-manager:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:validateSigningRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 46s
+91 actionable tasks: 91 executed
+
+2019-02-07 19:47:38,209 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543474551-0/src/sample/build/outputs/apk/release/sample-release.apk

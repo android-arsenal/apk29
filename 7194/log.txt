@@ -1,0 +1,258 @@
+2019-02-23 19:32:17,808 INFO  DownloadService - Downloading "https://github.com/MaximeJallu/generic-adapter-kotlin/archive/master.zip", attempt 3
+2019-02-23 19:33:18,770 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:33:20,016 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-02-23 19:33:20,016 INFO  DownloadService - Downloading "https://github.com/MaximeJallu/generic-adapter-kotlin/archive/develop.zip", attempt 3
+2019-02-23 19:34:22,310 DEBUG FullProcessService - Repository https://github.com/MaximeJallu/generic-adapter-kotlin available: true
+2019-02-23 19:34:22,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:34:22,311 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MaximeJallu/generic-adapter-kotlin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src]
+2019-02-23 19:34:24,026 INFO  SysUtils - 
+2019-02-23 19:34:24,035 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/.git": true
+2019-02-23 19:34:24,039 INFO  FullProcessService - Size of directory with sources: 248 KB
+2019-02-23 19:34:24,039 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src]
+2019-02-23 19:34:24,056 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/.git/
+
+2019-02-23 19:34:24,060 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradlew
+2019-02-23 19:34:24,065 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/build.gradle
+2019-02-23 19:34:24,068 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/settings.gradle
+2019-02-23 19:34:24,069 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 19:34:24,069 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:34:24,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/local.properties
+2019-02-23 19:34:24,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-23 19:34:24,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/local.properties
+2019-02-23 19:34:24,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=24,targetSdkVersion=27]
+2019-02-23 19:34:24,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/local.properties
+2019-02-23 19:34:24,085 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-23 19:34:24,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-23 19:34:24,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-23 19:34:24,086 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:34:24,086 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:34:24,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:34:32,405 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-02-23 19:34:32,405 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 19:34:32,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 19:34:53,666 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapter:androidSourcesJar
+:adapter:preBuild UP-TO-DATE
+:adapter:preDebugBuild UP-TO-DATE
+:adapter:compileDebugAidl
+:adapter:compileDebugRenderscript
+:adapter:checkDebugManifest
+:adapter:generateDebugBuildConfig
+:adapter:generateDebugResValues
+:adapter:generateDebugResources
+:adapter:packageDebugResources
+:adapter:platformAttrExtractor
+:adapter:processDebugManifest
+:adapter:prepareLintJar
+:adapter:mergeDebugConsumerProguardFiles
+:adapter:mergeDebugShaders
+:adapter:compileDebugShaders
+:adapter:generateDebugAssets
+:adapter:packageDebugAssets
+:adapter:packageDebugRenderscript NO-SOURCE
+:adapter:processDebugJavaRes NO-SOURCE
+:adapter:compileDebugNdk NO-SOURCE
+:adapter:mergeDebugJniLibFolders
+:adapter:transformNativeLibsWithMergeJniLibsForDebug
+:adapter:transformNativeLibsWithStripDebugSymbolForDebug
+:adapter:transformNativeLibsWithSyncJniLibsForDebug
+:adapter:preReleaseBuild UP-TO-DATE
+:adapter:compileReleaseAidl
+:adapter:compileReleaseRenderscript
+:adapter:checkReleaseManifest
+:adapter:generateReleaseBuildConfig
+:adapter:generateReleaseResValues
+:adapter:generateReleaseResources
+:adapter:packageReleaseResources
+:adapter:processReleaseManifest
+:adapter:mergeReleaseConsumerProguardFiles
+:adapter:mergeReleaseShaders
+:adapter:compileReleaseShaders
+:adapter:generateReleaseAssets
+:adapter:packageReleaseAssets
+:adapter:packageReleaseRenderscript NO-SOURCE
+:adapter:processReleaseJavaRes NO-SOURCE
+:adapter:compileReleaseNdk NO-SOURCE
+:adapter:mergeReleaseJniLibFolders
+:adapter:transformNativeLibsWithMergeJniLibsForRelease
+:adapter:transformNativeLibsWithStripDebugSymbolForRelease
+:adapter:transformNativeLibsWithSyncJniLibsForRelease
+:adapter:mergeReleaseResources
+:adapter:verifyReleaseResources
+:adapter:generateDebugRFile
+:adapter:kaptGenerateStubsDebugKotlin
+:adapter:kaptDebugKotlin
+:adapter:compileDebugKotlin
+:adapter:generateDebugSources
+:adapter:javaPreCompileDebug
+:adapter:compileDebugJavaWithJavac
+:adapter:extractDebugAnnotations
+:adapter:transformResourcesWithMergeJavaResForDebug
+:adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+:adapter:bundleDebug
+:adapter:compileDebugSources
+:adapter:assembleDebug
+:adapter:generateReleaseRFile
+:adapter:kaptGenerateStubsReleaseKotlin
+:adapter:kaptReleaseKotlin
+:adapter:compileReleaseKotlin
+:adapter:generateReleaseSources
+:adapter:javaPreCompileRelease
+:adapter:compileReleaseJavaWithJavac
+:adapter:extractReleaseAnnotations
+:adapter:transformResourcesWithMergeJavaResForRelease
+:adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:adapter:bundleRelease
+:adapter:compileReleaseSources
+:adapter:assembleRelease
+:adapter:signArchives SKIPPED
+:adapter:assemble
+:adapter:build
+
+BUILD SUCCESSFUL in 20s
+55 actionable tasks: 55 executed
+
+2019-02-23 19:34:53,723 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:34:53,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:35:00,905 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 19:35:00,906 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:35:00,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:35:41,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapter:preBuild UP-TO-DATE
+:adapter:preDebugBuild UP-TO-DATE
+:adapter:compileDebugAidl UP-TO-DATE
+:adapter:compileDebugRenderscript UP-TO-DATE
+:adapter:checkDebugManifest UP-TO-DATE
+:adapter:generateDebugBuildConfig UP-TO-DATE
+:adapter:generateDebugResValues UP-TO-DATE
+:adapter:generateDebugResources UP-TO-DATE
+:adapter:packageDebugResources UP-TO-DATE
+:adapter:platformAttrExtractor UP-TO-DATE
+:adapter:processDebugManifest UP-TO-DATE
+:adapter:generateDebugRFile UP-TO-DATE
+:adapter:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:adapter:kaptDebugKotlin UP-TO-DATE
+:adapter:compileDebugKotlin UP-TO-DATE
+:adapter:prepareLintJar UP-TO-DATE
+:adapter:generateDebugSources UP-TO-DATE
+:adapter:javaPreCompileDebug UP-TO-DATE
+:adapter:compileDebugJavaWithJavac UP-TO-DATE
+:adapter:processDebugJavaRes NO-SOURCE
+:adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:adapter:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:adapter:mergeDebugShaders UP-TO-DATE
+:adapter:compileDebugShaders UP-TO-DATE
+:adapter:generateDebugAssets UP-TO-DATE
+:adapter:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:adapter:compileDebugNdk NO-SOURCE
+:adapter:mergeDebugJniLibFolders UP-TO-DATE
+:adapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:adapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:adapter:preReleaseBuild UP-TO-DATE
+:adapter:compileReleaseAidl UP-TO-DATE
+:adapter:compileReleaseRenderscript UP-TO-DATE
+:adapter:checkReleaseManifest UP-TO-DATE
+:adapter:generateReleaseBuildConfig UP-TO-DATE
+:adapter:generateReleaseResValues UP-TO-DATE
+:adapter:generateReleaseResources UP-TO-DATE
+:adapter:packageReleaseResources UP-TO-DATE
+:adapter:processReleaseManifest UP-TO-DATE
+:adapter:generateReleaseRFile UP-TO-DATE
+:adapter:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:adapter:kaptReleaseKotlin UP-TO-DATE
+:adapter:compileReleaseKotlin UP-TO-DATE
+:adapter:generateReleaseSources UP-TO-DATE
+:adapter:javaPreCompileRelease UP-TO-DATE
+:adapter:compileReleaseJavaWithJavac UP-TO-DATE
+:adapter:processReleaseJavaRes NO-SOURCE
+:adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:adapter:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:adapter:mergeReleaseShaders UP-TO-DATE
+:adapter:compileReleaseShaders UP-TO-DATE
+:adapter:generateReleaseAssets UP-TO-DATE
+:adapter:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:adapter:compileReleaseNdk NO-SOURCE
+:adapter:mergeReleaseJniLibFolders UP-TO-DATE
+:adapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:adapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 39s
+99 actionable tasks: 59 executed, 40 up-to-date
+
+2019-02-23 19:35:41,660 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550925137800-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

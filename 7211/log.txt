@@ -1,0 +1,173 @@
+2019-02-03 23:19:30,928 INFO  DownloadService - Downloading "https://github.com/tizisdeepan/eventscalendar/archive/master.zip", attempt 3
+2019-02-03 23:19:32,313 INFO  DownloadService - Downloaded https://github.com/tizisdeepan/eventscalendar/archive/master.zip, attempt 3
+2019-02-03 23:19:32,313 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/master.zip": 1 MB
+2019-02-03 23:19:32,313 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-03 23:19:32,319 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/master.zip: true
+2019-02-03 23:19:32,319 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src'.
+2019-02-03 23:19:32,362 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-03 23:19:32,362 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src]
+2019-02-03 23:19:32,379 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/.git/
+
+2019-02-03 23:19:32,383 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/gradlew
+2019-02-03 23:19:32,387 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/build.gradle
+2019-02-03 23:19:32,391 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/settings.gradle
+2019-02-03 23:19:32,391 INFO  ProjectBuildService - Remote scripts: none
+2019-02-03 23:19:32,391 INFO  ProjectFixService - Fixing project...
+2019-02-03 23:19:32,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/local.properties
+2019-02-03 23:19:32,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-03 23:19:32,401 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-03 23:19:32,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/local.properties
+2019-02-03 23:19:32,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:19:32,403 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:19:32,404 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/local.properties
+2019-02-03 23:19:32,404 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-03 23:19:32,405 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-03 23:19:32,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-03 23:19:32,406 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-03 23:19:32,406 INFO  ProjectFixService - Project was maybe fixed
+2019-02-03 23:19:32,406 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-03 23:19:32,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-03 23:19:39,365 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-03 23:19:39,366 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-03 23:19:39,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-03 23:20:29,811 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:eventscalendar:preBuild UP-TO-DATE
+:eventscalendar:preDebugBuild UP-TO-DATE
+:eventscalendar:checkDebugManifest
+:eventscalendar:processDebugManifest
+:app:preDebugBuild
+:eventscalendar:compileDebugAidl
+:app:compileDebugAidl
+:eventscalendar:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:eventscalendar:compileDebugRenderscript
+:eventscalendar:generateDebugResValues
+:eventscalendar:generateDebugResources
+:eventscalendar:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:eventscalendar:platformAttrExtractor
+:eventscalendar:generateDebugBuildConfig
+:eventscalendar:prepareLintJar
+:eventscalendar:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:eventscalendar:mergeDebugShaders
+:eventscalendar:compileDebugShaders
+:eventscalendar:generateDebugAssets
+:eventscalendar:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:eventscalendar:compileDebugNdk NO-SOURCE
+:eventscalendar:mergeDebugJniLibFolders
+:eventscalendar:transformNativeLibsWithMergeJniLibsForDebug
+:eventscalendar:transformNativeLibsWithStripDebugSymbolForDebug
+:eventscalendar:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:eventscalendar:preReleaseBuild UP-TO-DATE
+:eventscalendar:checkReleaseManifest
+:eventscalendar:processReleaseManifest
+:app:preReleaseBuild
+:eventscalendar:compileReleaseAidl
+:app:compileReleaseAidl
+:eventscalendar:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:eventscalendar:compileReleaseRenderscript
+:eventscalendar:generateReleaseResValues
+:eventscalendar:generateReleaseResources
+:eventscalendar:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:eventscalendar:generateReleaseBuildConfig
+:eventscalendar:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:eventscalendar:mergeReleaseShaders
+:eventscalendar:compileReleaseShaders
+:eventscalendar:generateReleaseAssets
+:eventscalendar:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:eventscalendar:compileReleaseNdk NO-SOURCE
+:eventscalendar:mergeReleaseJniLibFolders
+:eventscalendar:transformNativeLibsWithMergeJniLibsForRelease
+:eventscalendar:transformNativeLibsWithStripDebugSymbolForRelease
+:eventscalendar:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:eventscalendar:generateDebugRFile
+:app:processDebugResources
+:eventscalendar:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/utils/Events.kt: (46, 87): Elvis operator (?:) always returns the left operand of non-nullable type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/utils/EventsCalendarUtil.kt: (124, 84): Condition 'currentSelectedDate == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/views/DateText.kt: (347, 28): Parameter 'isClick' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/views/DatesGridLayout.kt: (359, 27): Variable 'isUserClick' initializer is redundant
+:eventscalendar:generateDebugSources
+:eventscalendar:javaPreCompileDebug
+:eventscalendar:compileDebugJavaWithJavac
+:eventscalendar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:eventscalendar:generateReleaseRFile
+:app:processReleaseResources
+:eventscalendar:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/utils/Events.kt: (46, 87): Elvis operator (?:) always returns the left operand of non-nullable type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/utils/EventsCalendarUtil.kt: (124, 84): Condition 'currentSelectedDate == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/views/DateText.kt: (347, 28): Parameter 'isClick' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/eventscalendar/src/main/java/com/events/calendar/views/DatesGridLayout.kt: (359, 27): Variable 'isUserClick' initializer is redundant
+:eventscalendar:generateReleaseSources
+:eventscalendar:javaPreCompileRelease
+:eventscalendar:compileReleaseJavaWithJavac
+:eventscalendar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 49s
+95 actionable tasks: 95 executed
+
+2019-02-03 23:20:29,911 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210770920-0/src/eventscalendar-master/app/build/outputs/apk/debug/app-debug.apk

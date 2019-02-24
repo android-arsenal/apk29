@@ -1,0 +1,176 @@
+2019-02-07 18:55:37,917 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
+2019-02-07 18:56:38,615 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-07 18:56:39,670 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-07 18:56:39,670 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
+2019-02-07 18:57:41,342 DEBUG FullProcessService - Repository https://github.com/LordSaac/FontAwesome_Android_JGB available: true
+2019-02-07 18:57:41,342 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-07 18:57:41,342 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/LordSaac/FontAwesome_Android_JGB, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src]
+2019-02-07 18:57:43,857 INFO  SysUtils - 
+2019-02-07 18:57:43,866 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/.git": true
+2019-02-07 18:57:43,871 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-07 18:57:43,871 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src]
+2019-02-07 18:57:43,892 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/.git/
+
+2019-02-07 18:57:43,896 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew
+2019-02-07 18:57:43,900 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle
+2019-02-07 18:57:43,904 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/settings.gradle
+2019-02-07 18:57:43,905 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 18:57:43,905 INFO  ProjectFixService - Fixing project...
+2019-02-07 18:57:43,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/local.properties
+2019-02-07 18:57:43,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,917 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/local.properties
+2019-02-07 18:57:43,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/local.properties
+2019-02-07 18:57:43,920 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-07 18:57:43,920 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-07 18:57:43,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-07 18:57:43,922 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 18:57:43,922 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 18:57:43,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 18:57:55,300 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-07 18:57:55,300 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-07 18:57:55,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-07 18:58:52,193 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:fontmanager:preBuild UP-TO-DATE
+:fontmanager:preDebugBuild UP-TO-DATE
+:fontmanager:checkDebugManifest
+:fontmanager:processDebugManifest
+:app:preDebugBuild
+:fontmanager:compileDebugAidl
+:app:compileDebugAidl
+:fontmanager:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:fontmanager:compileDebugRenderscript
+:fontmanager:generateDebugResValues
+:fontmanager:generateDebugResources
+:fontmanager:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:fontmanager:platformAttrExtractor
+:fontmanager:generateDebugBuildConfig
+:fontmanager:prepareLintJar
+:fontmanager:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:fontmanager:mergeDebugShaders
+:fontmanager:compileDebugShaders
+:fontmanager:generateDebugAssets
+:fontmanager:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:fontmanager:compileDebugNdk NO-SOURCE
+:fontmanager:mergeDebugJniLibFolders
+:fontmanager:transformNativeLibsWithMergeJniLibsForDebug
+:fontmanager:transformNativeLibsWithStripDebugSymbolForDebug
+:fontmanager:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:fontmanager:preReleaseBuild UP-TO-DATE
+:fontmanager:checkReleaseManifest
+:fontmanager:processReleaseManifest
+:app:preReleaseBuild
+:fontmanager:compileReleaseAidl
+:app:compileReleaseAidl
+:fontmanager:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:fontmanager:compileReleaseRenderscript
+:fontmanager:generateReleaseResValues
+:fontmanager:generateReleaseResources
+:fontmanager:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:fontmanager:generateReleaseBuildConfig
+:fontmanager:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:fontmanager:mergeReleaseShaders
+:fontmanager:compileReleaseShaders
+:fontmanager:generateReleaseAssets
+:fontmanager:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:fontmanager:compileReleaseNdk NO-SOURCE
+:fontmanager:mergeReleaseJniLibFolders
+:fontmanager:transformNativeLibsWithMergeJniLibsForRelease
+:fontmanager:transformNativeLibsWithStripDebugSymbolForRelease
+:fontmanager:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:fontmanager:generateDebugRFile
+:app:processDebugResources
+:fontmanager:compileDebugKotlin
+:fontmanager:generateDebugSources
+:fontmanager:javaPreCompileDebug
+:fontmanager:compileDebugJavaWithJavac
+:fontmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:fontmanager:generateReleaseRFile
+:app:processReleaseResources
+:fontmanager:compileReleaseKotlin
+:fontmanager:generateReleaseSources
+:fontmanager:javaPreCompileRelease
+:fontmanager:compileReleaseJavaWithJavac
+:fontmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 55s
+95 actionable tasks: 95 executed
+
+2019-02-07 18:58:52,306 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build/outputs/apk/debug/app-debug.apk

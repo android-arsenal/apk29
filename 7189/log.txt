@@ -1,0 +1,176 @@
+2019-02-23 19:47:39,022 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/SearchView/archive/master.zip", attempt 3
+2019-02-23 19:48:39,880 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 19:48:41,054 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 19:48:41,054 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/SearchView/archive/master.zip", attempt 3
+2019-02-23 19:49:43,114 DEBUG FullProcessService - Repository https://github.com/fevziomurtekin/SearchView available: true
+2019-02-23 19:49:43,114 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 19:49:43,114 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fevziomurtekin/SearchView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src]
+2019-02-23 19:49:45,032 INFO  SysUtils - 
+2019-02-23 19:49:45,040 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/.git": true
+2019-02-23 19:49:45,043 INFO  FullProcessService - Size of directory with sources: 507 KB
+2019-02-23 19:49:45,043 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src]
+2019-02-23 19:49:45,061 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/.git/
+
+2019-02-23 19:49:45,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/gradlew
+2019-02-23 19:49:45,067 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/build.gradle
+2019-02-23 19:49:45,070 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/settings.gradle
+2019-02-23 19:49:45,071 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 19:49:45,071 INFO  ProjectFixService - Fixing project...
+2019-02-23 19:49:45,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/local.properties
+2019-02-23 19:49:45,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,079 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/local.properties
+2019-02-23 19:49:45,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/local.properties
+2019-02-23 19:49:45,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-23 19:49:45,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-23 19:49:45,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 19:49:45,083 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 19:49:45,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 19:49:45,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 19:49:52,628 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-23 19:49:52,628 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 19:49:52,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 19:50:22,013 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:searchview:preBuild UP-TO-DATE
+:searchview:preDebugBuild UP-TO-DATE
+:searchview:checkDebugManifest
+:searchview:processDebugManifest
+:app:preDebugBuild
+:searchview:compileDebugAidl
+:app:compileDebugAidl
+:searchview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:searchview:compileDebugRenderscript
+:searchview:generateDebugResValues
+:searchview:generateDebugResources
+:searchview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:searchview:platformAttrExtractor
+:searchview:generateDebugBuildConfig
+:searchview:prepareLintJar
+:searchview:javaPreCompileDebug
+:searchview:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:searchview:mergeDebugShaders
+:searchview:compileDebugShaders
+:searchview:generateDebugAssets
+:searchview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:searchview:compileDebugNdk NO-SOURCE
+:searchview:mergeDebugJniLibFolders
+:searchview:transformNativeLibsWithMergeJniLibsForDebug
+:searchview:transformNativeLibsWithStripDebugSymbolForDebug
+:searchview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:searchview:preReleaseBuild UP-TO-DATE
+:searchview:checkReleaseManifest
+:searchview:processReleaseManifest
+:app:preReleaseBuild
+:searchview:compileReleaseAidl
+:app:compileReleaseAidl
+:searchview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:searchview:compileReleaseRenderscript
+:searchview:generateReleaseResValues
+:searchview:generateReleaseResources
+:searchview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:searchview:generateReleaseBuildConfig
+:searchview:javaPreCompileRelease
+:searchview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:searchview:mergeReleaseShaders
+:searchview:compileReleaseShaders
+:searchview:generateReleaseAssets
+:searchview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:searchview:compileReleaseNdk NO-SOURCE
+:searchview:mergeReleaseJniLibFolders
+:searchview:transformNativeLibsWithMergeJniLibsForRelease
+:searchview:transformNativeLibsWithStripDebugSymbolForRelease
+:searchview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:searchview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:searchview:generateDebugSources
+:searchview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/src/main/java/com/fevziomurtekin/searchview/SearchView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:searchview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/src/main/java/com/fevziomurtekin/search/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:searchview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:searchview:generateReleaseSources
+:searchview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/searchview/src/main/java/com/fevziomurtekin/searchview/SearchView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:searchview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/src/main/java/com/fevziomurtekin/search/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2019-02-23 19:50:22,102 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550926059020-0/src/app/build/outputs/apk/debug/app-debug.apk

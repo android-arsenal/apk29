@@ -1,0 +1,169 @@
+2019-02-04 11:09:20,758 INFO  DownloadService - Downloading "https://github.com/m4xp1/SwipePicker/archive/master.zip", attempt 3
+2019-02-04 11:09:24,353 INFO  DownloadService - Downloaded https://github.com/m4xp1/SwipePicker/archive/master.zip, attempt 3
+2019-02-04 11:09:24,353 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/master.zip": 3 MB
+2019-02-04 11:09:24,353 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 11:09:24,360 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/master.zip: true
+2019-02-04 11:09:24,360 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src'.
+2019-02-04 11:09:24,451 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-02-04 11:09:24,451 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src]
+2019-02-04 11:09:24,468 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/.git/
+
+2019-02-04 11:09:24,472 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/gradlew
+2019-02-04 11:09:24,476 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/build.gradle
+2019-02-04 11:09:24,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/settings.gradle
+2019-02-04 11:09:24,481 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 11:09:24,481 INFO  ProjectFixService - Fixing project...
+2019-02-04 11:09:24,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/local.properties
+2019-02-04 11:09:24,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:09:24,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:09:24,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/local.properties
+2019-02-04 11:09:24,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:09:24,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/swipepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:09:24,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/local.properties
+2019-02-04 11:09:24,498 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-04 11:09:24,498 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-04 11:09:24,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-04 11:09:24,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-04 11:09:24,501 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 11:09:24,501 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 11:09:24,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 11:09:31,061 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-04 11:09:31,061 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 11:09:31,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 11:10:20,430 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration(s) specified but the install task does not exist in project :swipepicker.
+:app:preBuild UP-TO-DATE
+:swipepicker:preBuild UP-TO-DATE
+:swipepicker:preDebugBuild UP-TO-DATE
+:swipepicker:checkDebugManifest
+:swipepicker:processDebugManifest
+:app:preDebugBuild
+:swipepicker:compileDebugAidl
+:app:compileDebugAidl
+:swipepicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:swipepicker:compileDebugRenderscript
+:swipepicker:generateDebugResValues
+:swipepicker:generateDebugResources
+:swipepicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:swipepicker:platformAttrExtractor
+:swipepicker:generateDebugBuildConfig
+:swipepicker:prepareLintJar
+:swipepicker:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:swipepicker:mergeDebugShaders
+:swipepicker:compileDebugShaders
+:swipepicker:generateDebugAssets
+:swipepicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:swipepicker:compileDebugNdk NO-SOURCE
+:swipepicker:mergeDebugJniLibFolders
+:swipepicker:transformNativeLibsWithMergeJniLibsForDebug
+:swipepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:swipepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:swipepicker:preReleaseBuild UP-TO-DATE
+:swipepicker:checkReleaseManifest
+:swipepicker:processReleaseManifest
+:app:preReleaseBuild
+:swipepicker:compileReleaseAidl
+:app:compileReleaseAidl
+:swipepicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:swipepicker:compileReleaseRenderscript
+:swipepicker:generateReleaseResValues
+:swipepicker:generateReleaseResources
+:swipepicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:swipepicker:generateReleaseBuildConfig
+:swipepicker:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:swipepicker:mergeReleaseShaders
+:swipepicker:compileReleaseShaders
+:swipepicker:generateReleaseAssets
+:swipepicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:swipepicker:compileReleaseNdk NO-SOURCE
+:swipepicker:mergeReleaseJniLibFolders
+:swipepicker:transformNativeLibsWithMergeJniLibsForRelease
+:swipepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:swipepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:swipepicker:generateDebugRFile
+:app:processDebugResources
+:swipepicker:compileDebugKotlin
+:swipepicker:generateDebugSources
+:swipepicker:javaPreCompileDebug
+:swipepicker:compileDebugJavaWithJavac
+:swipepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:swipepicker:generateReleaseRFile
+:app:processReleaseResources
+:swipepicker:compileReleaseKotlin
+:swipepicker:generateReleaseSources
+:swipepicker:javaPreCompileRelease
+:swipepicker:compileReleaseJavaWithJavac
+:swipepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 48s
+95 actionable tasks: 95 executed
+
+2019-02-04 11:10:20,518 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253360755-0/src/SwipePicker-master/app/build/outputs/apk/debug/app-debug.apk

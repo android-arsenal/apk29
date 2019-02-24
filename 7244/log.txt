@@ -1,0 +1,421 @@
+2019-02-23 18:40:33,197 INFO  DownloadService - Downloading "https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip", attempt 3
+2019-02-23 18:41:34,058 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 18:41:35,181 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 18:41:35,181 INFO  DownloadService - Downloading "https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip", attempt 3
+2019-02-23 18:42:37,035 DEBUG FullProcessService - Repository https://github.com/agrawalsuneet/DotLoadersPack-Android available: true
+2019-02-23 18:42:37,035 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 18:42:37,035 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/agrawalsuneet/DotLoadersPack-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src]
+2019-02-23 18:42:38,745 INFO  SysUtils - 
+2019-02-23 18:42:38,778 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/.git": true
+2019-02-23 18:42:38,781 INFO  FullProcessService - Size of directory with sources: 252 KB
+2019-02-23 18:42:38,781 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src]
+2019-02-23 18:42:38,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/.git/
+
+2019-02-23 18:42:38,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew
+2019-02-23 18:42:38,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle
+2019-02-23 18:42:38,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle
+2019-02-23 18:42:38,805 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-02-23 18:42:39,659 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-02-23 18:42:39,659 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-02-23 18:42:39,659 INFO  ProjectFixService - Fixing project...
+2019-02-23 18:42:39,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/local.properties
+2019-02-23 18:42:39,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,670 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/local.properties
+2019-02-23 18:42:39,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,675 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/local.properties
+2019-02-23 18:42:39,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
+2019-02-23 18:42:39,677 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-02-23 18:42:39,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 18:42:39,678 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 18:42:39,678 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:42:39,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:42:47,592 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-02-23 18:42:47,592 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 18:42:47,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 18:42:54,199 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-23 18:42:54,199 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 6s
+
+2019-02-23 18:42:54,200 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-02-23 18:42:54,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-23 18:44:01,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :dotsloader:preBuild UP-TO-DATE
+> Task :dotsloader:preDebugBuild UP-TO-DATE
+> Task :dotsloader:checkDebugManifest
+> Task :dotsloader:processDebugManifest
+> Task :app:preDebugBuild
+> Task :dotsloader:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :dotsloader:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :dotsloader:compileDebugRenderscript
+> Task :dotsloader:generateDebugResValues
+> Task :dotsloader:generateDebugResources
+> Task :dotsloader:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :dotsloader:generateDebugRFile
+> Task :app:processDebugResources
+> Task :dotsloader:generateDebugBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+> Task :dotsloader:compileDebugKotlin
+> Task :dotsloader:prepareLintJar
+> Task :dotsloader:generateDebugSources
+> Task :dotsloader:javaPreCompileDebug
+> Task :dotsloader:compileDebugJavaWithJavac
+> Task :dotsloader:processDebugJavaRes NO-SOURCE
+> Task :dotsloader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :dotsloader:mergeDebugShaders
+> Task :dotsloader:compileDebugShaders
+> Task :dotsloader:generateDebugAssets
+> Task :dotsloader:packageDebugAssets
+> Task :app:mergeDebugAssets
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/fa8127e505bff50fec291d0dd619d1bda5c619e0/kotlin-stdlib-1.2.51.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/fa8127e505bff50fec291d0dd619d1bda5c619e0/kotlin-stdlib-1.2.51.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :dotsloader:compileDebugNdk NO-SOURCE
+> Task :dotsloader:mergeDebugJniLibFolders
+> Task :dotsloader:transformNativeLibsWithMergeJniLibsForDebug
+> Task :dotsloader:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :dotsloader:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :dotsloader:preReleaseBuild UP-TO-DATE
+> Task :dotsloader:checkReleaseManifest
+> Task :dotsloader:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :dotsloader:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :dotsloader:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :dotsloader:compileReleaseRenderscript
+> Task :dotsloader:generateReleaseResValues
+> Task :dotsloader:generateReleaseResources
+> Task :dotsloader:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :dotsloader:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :dotsloader:generateReleaseBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+> Task :dotsloader:compileReleaseKotlin
+> Task :dotsloader:generateReleaseSources
+> Task :dotsloader:javaPreCompileRelease
+> Task :dotsloader:compileReleaseJavaWithJavac
+> Task :dotsloader:processReleaseJavaRes NO-SOURCE
+> Task :dotsloader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :dotsloader:mergeReleaseShaders
+> Task :dotsloader:compileReleaseShaders
+> Task :dotsloader:generateReleaseAssets
+> Task :dotsloader:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :dotsloader:compileReleaseNdk NO-SOURCE
+> Task :dotsloader:mergeReleaseJniLibFolders
+> Task :dotsloader:transformNativeLibsWithMergeJniLibsForRelease
+> Task :dotsloader:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :dotsloader:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/be514c6d1fb0c3c3add05b436f53772c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 29 issues found
+Ran lint on variant debug: 29 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/reports/lint-results.xml
+
+> Task :app:compileDebugUnitTestKotlin NO-SOURCE
+> Task :app:generateDebugUnitTestSources
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:testDebugUnitTest NO-SOURCE
+> Task :app:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :app:generateReleaseUnitTestSources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:testReleaseUnitTest NO-SOURCE
+> Task :app:test UP-TO-DATE
+> Task :app:check
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 6s
+96 actionable tasks: 96 executed
+
+2019-02-23 18:44:01,414 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/outputs/apk/debug/app-debug.apk
