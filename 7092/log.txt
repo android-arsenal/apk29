@@ -1,36 +1,39 @@
-2018-10-07 19:47:22,160 INFO  DownloadService - Downloading "https://github.com/m7mdra/HtmlRecycler/archive/master.zip", attempt 3
-2018-10-07 19:47:28,170 INFO  DownloadService - Downloaded https://github.com/m7mdra/HtmlRecycler/archive/master.zip, attempt 3
-2018-10-07 19:47:28,170 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/master.zip": 16 MB
-2018-10-07 19:47:28,170 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-07 19:47:28,172 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/master.zip: true
-2018-10-07 19:47:28,172 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src'.
-2018-10-07 19:47:28,366 INFO  FullProcessService - Size of directory with sources: 17 MB
-2018-10-07 19:47:28,366 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src]
-2018-10-07 19:47:28,385 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/.git/
+2019-02-24 19:56:30,028 INFO  DownloadService - Downloading "https://github.com/m7mdra/HtmlRecycler/archive/master.zip", attempt 3
+2019-02-24 19:57:31,010 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-24 19:57:32,499 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-24 19:57:32,499 INFO  DownloadService - Downloading "https://github.com/m7mdra/HtmlRecycler/archive/master.zip", attempt 3
+2019-02-24 19:58:34,481 DEBUG FullProcessService - Repository https://github.com/m7mdra/HtmlRecycler available: true
+2019-02-24 19:58:34,481 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-24 19:58:34,481 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/m7mdra/HtmlRecycler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src]
+2019-02-24 19:58:50,356 INFO  SysUtils - 
+2019-02-24 19:58:50,368 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/.git": true
+2019-02-24 19:58:50,375 INFO  FullProcessService - Size of directory with sources: 17 MB
+2019-02-24 19:58:50,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src]
+2019-02-24 19:58:50,394 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/.git/
 
-2018-10-07 19:47:28,391 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/gradlew
-2018-10-07 19:47:28,396 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/build.gradle
-2018-10-07 19:47:28,403 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/settings.gradle
-2018-10-07 19:47:28,403 INFO  ProjectBuildService - Remote scripts: none
-2018-10-07 19:47:28,403 INFO  ProjectFixService - Fixing project...
-2018-10-07 19:47:28,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/local.properties
-2018-10-07 19:47:28,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,416 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/local.properties
-2018-10-07 19:47:28,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/local.properties
-2018-10-07 19:47:28,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-07 19:47:28,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-07 19:47:28,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-07 19:47:28,422 INFO  ProjectFixService - Project was maybe fixed
-2018-10-07 19:47:28,422 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-07 19:47:28,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-07 19:47:47,225 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-10-07 19:47:47,225 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-07 19:47:47,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-07 19:49:10,483 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 19:58:50,399 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/gradlew
+2019-02-24 19:58:50,404 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/build.gradle
+2019-02-24 19:58:50,409 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/settings.gradle
+2019-02-24 19:58:50,409 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 19:58:50,409 INFO  ProjectFixService - Fixing project...
+2019-02-24 19:58:50,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/local.properties
+2019-02-24 19:58:50,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/local.properties
+2019-02-24 19:58:50,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,424 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/local.properties
+2019-02-24 19:58:50,424 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-24 19:58:50,425 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-24 19:58:50,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-24 19:58:50,426 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 19:58:50,426 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 19:58:50,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 19:59:06,860 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-02-24 19:59:06,861 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 19:59:06,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 20:00:16,579 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :htmlrecycler:preBuild UP-TO-DATE
@@ -60,7 +63,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3
 :app:processDebugResources
 :htmlrecycler:generateDebugBuildConfig
 :htmlrecycler:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/src/main/java/m7mdra/com/htmlrecycler/elements/ElementType.kt: (3, 24): Parameter 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/src/main/java/m7mdra/com/htmlrecycler/elements/ElementType.kt: (3, 24): Parameter 'type' is never used
 :htmlrecycler:prepareLintJar
 :htmlrecycler:generateDebugSources
 :htmlrecycler:javaPreCompileDebug
@@ -69,8 +72,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/
 :htmlrecycler:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.51/fa510f846ca4894fdf26776dd64cefb4030dcd12/kotlin-stdlib-jre7-1.2.51.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 82): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 85): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 82): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 85): Parameter 'view' is never used, could be renamed to _
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -136,7 +139,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:processReleaseResources
 :htmlrecycler:generateReleaseBuildConfig
 :htmlrecycler:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/htmlrecycler/src/main/java/m7mdra/com/htmlrecycler/elements/ElementType.kt: (3, 24): Parameter 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/htmlrecycler/src/main/java/m7mdra/com/htmlrecycler/elements/ElementType.kt: (3, 24): Parameter 'type' is never used
 :htmlrecycler:generateReleaseSources
 :htmlrecycler:javaPreCompileRelease
 :htmlrecycler:compileReleaseJavaWithJavac
@@ -144,8 +147,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/
 :htmlrecycler:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
 w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.51/fa510f846ca4894fdf26776dd64cefb4030dcd12/kotlin-stdlib-jre7-1.2.51.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 82): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 85): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 82): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/src/main/java/m7mdra/com/htmlrecyclerview/MainActivity.kt: (27, 85): Parameter 'view' is never used, could be renamed to _
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -153,13 +156,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/
 :app:compileReleaseSources
 :app:lintVitalRelease
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-beta05/lint-kotlin-26.2.0-beta05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-beta05/lint-gradle-26.2.0-beta05.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-beta05/lint-26.2.0-beta05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-beta05/uast-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-beta05/lint-gradle-26.2.0-beta05.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-beta05/lint-api-26.2.0-beta05.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-beta05/lint-checks-26.2.0-beta05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-beta05/kotlin-compiler-26.2.0-beta05.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-beta05/intellij-core-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-beta05/uast-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-beta05/kotlin-compiler-26.2.0-beta05.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/9be007e6451100c4195df980a355a444/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
@@ -188,7 +191,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 22s
+BUILD SUCCESSFUL in 1m 8s
 94 actionable tasks: 94 executed
 
-2018-10-07 19:49:10,585 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538916442155-0/src/HtmlRecycler-master/app/build/outputs/apk/debug/app-debug.apk
+2019-02-24 20:00:16,683 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551012990025-0/src/app/build/outputs/apk/debug/app-debug.apk

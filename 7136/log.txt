@@ -1,46 +1,63 @@
-2019-02-04 11:03:51,750 INFO  DownloadService - Downloading "https://github.com/HenriqueMachine/EasyFingerPrint/archive/master.zip", attempt 3
-2019-02-04 11:03:57,432 INFO  DownloadService - Downloaded https://github.com/HenriqueMachine/EasyFingerPrint/archive/master.zip, attempt 3
-2019-02-04 11:03:57,433 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/master.zip": 2 MB
-2019-02-04 11:03:57,433 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-04 11:03:57,439 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/master.zip: true
-2019-02-04 11:03:57,440 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src'.
-2019-02-04 11:03:57,486 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-02-04 11:03:57,486 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src]
-2019-02-04 11:03:57,504 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/.git/
+2019-02-24 19:27:14,654 INFO  DownloadService - Downloading "https://github.com/HenriqueMachine/EasyFingerPrint/archive/master.zip", attempt 3
+2019-02-24 19:27:21,393 INFO  DownloadService - Downloaded https://github.com/HenriqueMachine/EasyFingerPrint/archive/master.zip, attempt 3
+2019-02-24 19:27:21,394 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/master.zip": 2 MB
+2019-02-24 19:27:21,394 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 19:27:21,400 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/master.zip: true
+2019-02-24 19:27:21,400 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src'.
+2019-02-24 19:27:21,448 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-02-24 19:27:21,449 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src]
+2019-02-24 19:27:21,472 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/.git/
 
-2019-02-04 11:03:57,508 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/gradlew
-2019-02-04 11:03:57,512 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/build.gradle
-2019-02-04 11:03:57,516 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/settings.gradle
-2019-02-04 11:03:57,517 INFO  ProjectBuildService - Remote scripts: none
-2019-02-04 11:03:57,517 INFO  ProjectFixService - Fixing project...
-2019-02-04 11:03:57,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/local.properties
-2019-02-04 11:03:57,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-04 11:03:57,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-04 11:03:57,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/local.properties
-2019-02-04 11:03:57,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-04 11:03:57,530 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-04 11:03:57,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/local.properties
-2019-02-04 11:03:57,531 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-04 11:03:57,531 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-04 11:03:57,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-04 11:03:57,532 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-04 11:03:57,533 INFO  ProjectFixService - Project was maybe fixed
-2019-02-04 11:03:57,533 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-04 11:03:57,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-04 11:04:03,988 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-04 11:04:03,988 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-04 11:04:03,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-04 11:04:58,498 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 19:27:21,477 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/gradlew
+2019-02-24 19:27:21,482 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/build.gradle
+2019-02-24 19:27:21,486 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/settings.gradle
+2019-02-24 19:27:21,486 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 19:27:21,486 INFO  ProjectFixService - Fixing project...
+2019-02-24 19:27:21,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/local.properties
+2019-02-24 19:27:21,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-24 19:27:21,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-24 19:27:21,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/local.properties
+2019-02-24 19:27:21,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-24 19:27:21,499 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-24 19:27:21,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/local.properties
+2019-02-24 19:27:21,501 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-24 19:27:21,501 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-24 19:27:21,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-24 19:27:21,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-24 19:27:21,503 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 19:27:21,503 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 19:27:21,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 19:27:32,063 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-02-24 19:27:32,063 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 19:27:32,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 19:28:20,231 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :easyfingerprint:preBuild UP-TO-DATE
 :easyfingerprint:preDebugBuild UP-TO-DATE
 :easyfingerprint:checkDebugManifest
 :easyfingerprint:processDebugManifest
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0-alpha3/cardview-v7-28.0.0-alpha3.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0-alpha3/design-28.0.0-alpha3.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0-alpha3/transition-28.0.0-alpha3.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0-alpha3/recyclerview-v7-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha3/support-core-ui-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-alpha3/support-fragment-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-alpha3/animated-vector-drawable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-alpha3/support-core-utils-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha3/support-vector-drawable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-alpha3/appcompat-v7-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha3/viewpager-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha3/loader-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-alpha3/coordinatorlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-alpha3/drawerlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha3/customview-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha3/slidingpanelayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha3/swiperefreshlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-alpha3/asynclayoutinflater-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-alpha3/support-compat-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha3/cursoradapter-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-alpha3/versionedparcelable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-alpha3/documentfile-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-alpha3/print-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha3/localbroadcastmanager-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha3/interpolator-28.0.0-alpha3.aar
 :easyfingerprint:compileDebugAidl
 :app:compileDebugAidl
 :easyfingerprint:packageDebugRenderscript NO-SOURCE
@@ -76,10 +93,34 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/recyclervie
 :easyfingerprint:compileDebugNdk NO-SOURCE
 :easyfingerprint:mergeDebugJniLibFolders
 :easyfingerprint:transformNativeLibsWithMergeJniLibsForDebug
+:easyfingerprint:generateDebugRFile
+:app:processDebugResources
+:easyfingerprint:compileDebugKotlin
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-alpha3/collections-28.0.0-alpha3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha3/support-annotations-28.0.0-alpha3.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (146, 38): Unnecessary safe call on a non-null receiver of type Activity?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (158, 37): 'USE_FINGERPRINT: String' is deprecated. Deprecated in Java
+:easyfingerprint:generateDebugSources
+:easyfingerprint:javaPreCompileDebug
+:easyfingerprint:compileDebugJavaWithJavac
+:easyfingerprint:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
 :easyfingerprint:transformNativeLibsWithStripDebugSymbolForDebug
 :easyfingerprint:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
 :app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
 :easyfingerprint:preReleaseBuild UP-TO-DATE
 :easyfingerprint:checkReleaseManifest
 :easyfingerprint:processReleaseManifest
@@ -101,9 +142,24 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/recyclervie
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
+:easyfingerprint:generateReleaseRFile
+:app:processReleaseResources
 :easyfingerprint:generateReleaseBuildConfig
+:easyfingerprint:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (146, 38): Unnecessary safe call on a non-null receiver of type Activity?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (158, 37): 'USE_FINGERPRINT: String' is deprecated. Deprecated in Java
+:easyfingerprint:generateReleaseSources
+:easyfingerprint:javaPreCompileRelease
+:easyfingerprint:compileReleaseJavaWithJavac
 :easyfingerprint:processReleaseJavaRes NO-SOURCE
+:easyfingerprint:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -112,64 +168,25 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/recyclervie
 :easyfingerprint:generateReleaseAssets
 :easyfingerprint:packageReleaseAssets
 :app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :easyfingerprint:compileReleaseNdk NO-SOURCE
 :easyfingerprint:mergeReleaseJniLibFolders
 :easyfingerprint:transformNativeLibsWithMergeJniLibsForRelease
 :easyfingerprint:transformNativeLibsWithStripDebugSymbolForRelease
 :easyfingerprint:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:easyfingerprint:generateDebugRFile
-:app:processDebugResources
-:easyfingerprint:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (146, 38): Unnecessary safe call on a non-null receiver of type Activity?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (158, 37): 'USE_FINGERPRINT: String' is deprecated. Deprecated in Java
-:easyfingerprint:generateDebugSources
-:easyfingerprint:javaPreCompileDebug
-:easyfingerprint:compileDebugJavaWithJavac
-:easyfingerprint:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:easyfingerprint:generateReleaseRFile
-:app:processReleaseResources
-:easyfingerprint:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (146, 38): Unnecessary safe call on a non-null receiver of type Activity?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/easyfingerprint/src/main/java/com/easyfingerprint/EasyFingerPrint.kt: (158, 37): 'USE_FINGERPRINT: String' is deprecated. Deprecated in Java
-:easyfingerprint:generateReleaseSources
-:easyfingerprint:javaPreCompileRelease
-:easyfingerprint:compileReleaseJavaWithJavac
-:easyfingerprint:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 53s
+BUILD SUCCESSFUL in 47s
 95 actionable tasks: 95 executed
 
-2019-02-04 11:04:58,611 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549253031742-0/src/EasyFingerPrint-master/app/build/outputs/apk/debug/app-debug.apk
+2019-02-24 19:28:20,345 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551011234645-0/src/EasyFingerPrint-master/app/build/outputs/apk/debug/app-debug.apk
