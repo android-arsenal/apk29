@@ -1,36 +1,36 @@
-2018-11-02 18:50:38,188 INFO  DownloadService - Downloading "https://github.com/anderscheow/WhatsNew/archive/master.zip", attempt 3
-2018-11-02 18:50:39,904 INFO  DownloadService - Downloaded https://github.com/anderscheow/WhatsNew/archive/master.zip, attempt 3
-2018-11-02 18:50:39,905 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/master.zip": 1 MB
-2018-11-02 18:50:39,905 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-02 18:50:39,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/master.zip: true
-2018-11-02 18:50:39,911 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src'.
-2018-11-02 18:50:39,948 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-02 18:50:39,949 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src]
-2018-11-02 18:50:39,965 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/.git/
+2019-02-24 18:02:38,085 INFO  DownloadService - Downloading "https://github.com/anderscheow/WhatsNew/archive/master.zip", attempt 3
+2019-02-24 18:02:41,803 INFO  DownloadService - Downloaded https://github.com/anderscheow/WhatsNew/archive/master.zip, attempt 3
+2019-02-24 18:02:41,804 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/master.zip": 1 MB
+2019-02-24 18:02:41,804 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 18:02:41,810 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/master.zip: true
+2019-02-24 18:02:41,810 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src'.
+2019-02-24 18:02:41,850 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-24 18:02:41,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src]
+2019-02-24 18:02:41,872 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/.git/
 
-2018-11-02 18:50:39,969 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/gradlew
-2018-11-02 18:50:39,973 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/build.gradle
-2018-11-02 18:50:39,977 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/settings.gradle
-2018-11-02 18:50:39,981 INFO  ProjectBuildService - Remote scripts: none
-2018-11-02 18:50:39,981 INFO  ProjectFixService - Fixing project...
-2018-11-02 18:50:39,997 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/local.properties
-2018-11-02 18:50:40,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-02 18:50:40,002 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-02 18:50:40,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/local.properties
-2018-11-02 18:50:40,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-02 18:50:40,011 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-02 18:50:40,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/local.properties
-2018-11-02 18:50:40,013 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-02 18:50:40,013 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-02 18:50:40,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-02 18:50:40,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-02 18:50:40,018 INFO  ProjectFixService - Project was maybe fixed
-2018-11-02 18:50:40,019 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 18:50:40,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 18:50:49,145 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-02 18:50:49,145 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-02 18:50:49,145 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-02 18:51:21,802 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 18:02:41,877 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/gradlew
+2019-02-24 18:02:41,882 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/build.gradle
+2019-02-24 18:02:41,887 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/settings.gradle
+2019-02-24 18:02:41,887 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 18:02:41,888 INFO  ProjectFixService - Fixing project...
+2019-02-24 18:02:41,901 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/local.properties
+2019-02-24 18:02:41,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:02:41,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:02:41,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/local.properties
+2019-02-24 18:02:41,910 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:02:41,910 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:02:41,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/local.properties
+2019-02-24 18:02:41,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-24 18:02:41,912 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-24 18:02:41,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:02:41,916 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:02:41,917 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 18:02:41,917 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 18:02:41,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 18:02:52,423 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-02-24 18:02:52,423 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-24 18:02:52,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-24 18:03:31,076 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:androidSourcesJar
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -51,6 +51,10 @@
 :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 :library:dataBindingGenBaseClassesDebug
 :library:kaptGenerateStubsDebugKotlin
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-rc01/annotation-1.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-rc01/core-common-2.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-rc01/lifecycle-common-2.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-rc01/collection-1.0.0-rc01.jar
 ERROR: [TAG] Failed to resolve variable '${project.version}'
 ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 :library:kaptDebugKotlin
@@ -120,15 +124,15 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 37s
 62 actionable tasks: 62 executed
 
-2018-11-02 18:51:21,900 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 18:51:21,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 18:51:27,822 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-02 18:51:27,822 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-02 18:51:27,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-02 18:52:07,852 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 18:03:31,187 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 18:03:31,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 18:03:38,385 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-02-24 18:03:38,385 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 18:03:38,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 18:04:34,580 INFO  SysUtils - Configuration on demand is an incubating feature.
 sample: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -178,7 +182,7 @@ sample: 'annotationProcessor' dependencies won't be recognized as kapt annotatio
 :sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 :sample:dataBindingGenBaseClassesDebug
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/src/main/java/io/github/anderscheow/whatsnew/MainActivity.kt: (17, 54): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/src/main/java/io/github/anderscheow/whatsnew/MainActivity.kt: (17, 54): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
 :sample:dataBindingExportFeaturePackageIdsDebug
 :sample:javaPreCompileDebug
 :sample:compileDebugJavaWithJavac
@@ -193,6 +197,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :library:compileDebugNdk NO-SOURCE
@@ -253,7 +265,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/
 :sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
 :sample:dataBindingGenBaseClassesRelease
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/src/main/java/io/github/anderscheow/whatsnew/MainActivity.kt: (17, 54): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/src/main/java/io/github/anderscheow/whatsnew/MainActivity.kt: (17, 54): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
 :sample:dataBindingExportFeaturePackageIdsRelease
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavac
@@ -288,7 +300,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 55s
 118 actionable tasks: 71 executed, 47 up-to-date
 
-2018-11-02 18:52:08,037 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541159438179-0/src/WhatsNew-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-02-24 18:04:34,782 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006158078-0/src/WhatsNew-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

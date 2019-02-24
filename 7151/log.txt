@@ -1,40 +1,37 @@
-2019-02-07 18:45:02,939 INFO  DownloadService - Downloading "https://github.com/romellfudi/VoIpUSSD/archive/master.zip", attempt 3
-2019-02-07 18:46:03,815 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-07 18:46:04,917 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-07 18:46:04,918 INFO  DownloadService - Downloading "https://github.com/romellfudi/VoIpUSSD/archive/master.zip", attempt 3
-2019-02-07 18:47:06,714 DEBUG FullProcessService - Repository https://github.com/romellfudi/VoIpUSSD available: true
-2019-02-07 18:47:06,714 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-07 18:47:06,714 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/romellfudi/VoIpUSSD, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src]
-2019-02-07 18:47:09,210 INFO  SysUtils - 
-2019-02-07 18:47:09,219 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/.git": true
-2019-02-07 18:47:09,223 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-02-07 18:47:09,223 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src]
-2019-02-07 18:47:09,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/.git/
+2019-02-24 18:14:02,206 INFO  DownloadService - Downloading "https://github.com/romellfudi/VoIpUSSD/archive/master.zip", attempt 3
+2019-02-24 18:14:04,684 INFO  DownloadService - Downloaded https://github.com/romellfudi/VoIpUSSD/archive/master.zip, attempt 3
+2019-02-24 18:14:04,685 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/master.zip": 1 MB
+2019-02-24 18:14:04,685 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 18:14:04,685 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/master.zip: true
+2019-02-24 18:14:04,686 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src'.
+2019-02-24 18:14:04,728 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-24 18:14:04,729 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src]
+2019-02-24 18:14:04,747 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/.git/
 
-2019-02-07 18:47:09,247 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/gradlew
-2019-02-07 18:47:09,251 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/ussd-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/build.gradle
-2019-02-07 18:47:09,255 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/ussd-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/settings.gradle
-2019-02-07 18:47:09,256 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle", attempt 3
-2019-02-07 18:47:09,473 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle, attempt 3
-2019-02-07 18:47:09,473 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle", attempt 3
-2019-02-07 18:47:09,694 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle, attempt 3
-2019-02-07 18:47:09,694 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle
-2019-02-07 18:47:09,694 INFO  ProjectFixService - Fixing project...
-2019-02-07 18:47:09,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/local.properties
-2019-02-07 18:47:09,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2019-02-07 18:47:09,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/ussd-library/local.properties
-2019-02-07 18:47:09,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/ussd-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2019-02-07 18:47:09,705 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/local.properties
-2019-02-07 18:47:09,705 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-02-07 18:47:09,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-02-07 18:47:09,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2019-02-07 18:47:09,707 INFO  ProjectFixService - Project was maybe fixed
-2019-02-07 18:47:09,707 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-07 18:47:09,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-07 18:47:18,684 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-02-07 18:47:18,685 INFO  ProjectTaskService - Excluded tasks (22): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-07 18:47:18,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-07 18:47:26,084 ERROR SysUtils - Could not process external command
+2019-02-24 18:14:04,752 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/gradlew
+2019-02-24 18:14:04,756 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/ussd-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/build.gradle
+2019-02-24 18:14:04,760 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/ussd-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/settings.gradle
+2019-02-24 18:14:04,761 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle", attempt 3
+2019-02-24 18:14:04,995 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle, attempt 3
+2019-02-24 18:14:04,996 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle", attempt 3
+2019-02-24 18:14:05,229 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle, attempt 3
+2019-02-24 18:14:05,229 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/master/artifactory_bintray.gradle
+2019-02-24 18:14:05,229 INFO  ProjectFixService - Fixing project...
+2019-02-24 18:14:05,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/local.properties
+2019-02-24 18:14:05,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-02-24 18:14:05,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/ussd-library/local.properties
+2019-02-24 18:14:05,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/ussd-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-02-24 18:14:05,243 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/local.properties
+2019-02-24 18:14:05,244 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-02-24 18:14:05,244 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-02-24 18:14:05,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-02-24 18:14:05,245 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 18:14:05,245 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 18:14:05,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 18:14:13,636 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-02-24 18:14:13,637 INFO  ProjectTaskService - Excluded tasks (22): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 18:14:13,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 18:14:19,159 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-07 18:47:26,084 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 18:14:19,159 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -146,11 +142,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2019-02-07 18:47:26,084 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-02-07 18:47:26,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-07 18:48:09,051 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 18:14:19,159 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-02-24 18:14:19,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-24 18:14:53,302 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :ussd-library:preBuild UP-TO-DATE
@@ -289,10 +285,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/8543ea84f96b8af27f01c5c6084ddad1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7b139c10065302af8d872aa8d5aa8516/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 148 issues found
 Ran lint on variant release: 148 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build/reports/lint-results.xml
+Ran lint on variant debug: 148 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build/reports/lint-results.xml
 
 > Task :app:generateDebugUnitTestSources
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
@@ -310,7 +306,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 > Task :app:check
 > Task :app:build
 
-BUILD SUCCESSFUL in 42s
+BUILD SUCCESSFUL in 33s
 93 actionable tasks: 93 executed
 
-2019-02-07 18:48:09,150 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539902934-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-02-24 18:14:53,403 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006842203-0/src/VoIpUSSD-master/app/build/outputs/apk/debug/app-debug.apk

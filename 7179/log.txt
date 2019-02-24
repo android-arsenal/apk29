@@ -1,85 +1,62 @@
-2018-10-06 16:46:06,985 INFO  DownloadService - Downloading "https://github.com/hajiyevelnur92/retrofit-with-food2fork.com/archive/master.zip", attempt 3
-2018-10-06 16:46:12,644 INFO  DownloadService - Downloaded https://github.com/hajiyevelnur92/retrofit-with-food2fork.com/archive/master.zip, attempt 3
-2018-10-06 16:46:12,645 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/master.zip": 7 MB
-2018-10-06 16:46:12,645 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-06 16:46:12,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/master.zip: true
-2018-10-06 16:46:12,662 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src'.
-2018-10-06 16:46:12,822 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-10-06 16:46:12,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src]
-2018-10-06 16:46:12,862 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/.git/
+2019-02-24 17:53:10,641 INFO  DownloadService - Downloading "https://github.com/hajiyevelnur92/retrofit-with-food2fork.com/archive/master.zip", attempt 3
+2019-02-24 17:53:46,867 INFO  DownloadService - Downloaded https://github.com/hajiyevelnur92/retrofit-with-food2fork.com/archive/master.zip, attempt 3
+2019-02-24 17:53:46,868 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/master.zip": 7 MB
+2019-02-24 17:53:46,868 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 17:53:46,874 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/master.zip: true
+2019-02-24 17:53:46,874 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src'.
+2019-02-24 17:53:46,978 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-02-24 17:53:46,978 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src]
+2019-02-24 17:53:46,995 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/.git/
 
-2018-10-06 16:46:12,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/gradlew
-2018-10-06 16:46:12,910 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/build.gradle
-2018-10-06 16:46:12,920 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/settings.gradle
-2018-10-06 16:46:12,922 INFO  ProjectBuildService - Remote scripts: none
-2018-10-06 16:46:12,923 INFO  ProjectFixService - Fixing project...
-2018-10-06 16:46:12,994 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2018-10-06 16:46:12,994 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2018-10-06 16:46:12,997 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2018-10-06 16:46:13,001 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2018-10-06 16:46:13,004 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2018-10-06 16:46:13,006 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2018-10-06 16:46:13,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/local.properties
-2018-10-06 16:46:13,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
-2018-10-06 16:46:13,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
-2018-10-06 16:46:13,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/local.properties
-2018-10-06 16:46:13,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-06 16:46:13,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-10-06 16:46:13,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/local.properties
-2018-10-06 16:46:13,033 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-06 16:46:13,034 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-06 16:46:13,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
-2018-10-06 16:46:13,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
-2018-10-06 16:46:13,038 INFO  ProjectFixService - Project was maybe fixed
-2018-10-06 16:46:13,041 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-06 16:46:13,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-06 16:46:30,831 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-06 16:46:30,831 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-06 16:46:30,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-06 16:49:02,808 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
+2019-02-24 17:53:47,002 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/gradlew
+2019-02-24 17:53:47,009 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/build.gradle
+2019-02-24 17:53:47,015 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/settings.gradle
+2019-02-24 17:53:47,015 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 17:53:47,015 INFO  ProjectFixService - Fixing project...
+2019-02-24 17:53:47,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/local.properties
+2019-02-24 17:53:47,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
+2019-02-24 17:53:47,030 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
+2019-02-24 17:53:47,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/local.properties
+2019-02-24 17:53:47,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-24 17:53:47,032 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-24 17:53:47,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/local.properties
+2019-02-24 17:53:47,034 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-24 17:53:47,034 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-24 17:53:47,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
+2019-02-24 17:53:47,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=23,targetSdkVersion=27]
+2019-02-24 17:53:47,036 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 17:53:47,036 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 17:53:47,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 17:53:54,226 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-24 17:53:54,226 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 17:53:54,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 17:55:16,499 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :mysearch:preBuild UP-TO-DATE
 :mysearch:preDebugBuild UP-TO-DATE
 :mysearch:checkDebugManifest
 :mysearch:processDebugManifest
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/15.0.0/play-services-ads-15.0.0.pom
-Download https://jcenter.bintray.com/io/github/kobakei/ratethisapp/1.2.0/ratethisapp-1.2.0.pom
-Download https://jcenter.bintray.com/me/zhanghai/android/materialratingbar/library/1.3.1/library-1.3.1.pom
-Download https://jcenter.bintray.com/com/jackandphantom/android/androidlikebutton/1.2.0/androidlikebutton-1.2.0.pom
-Download https://jitpack.io/com/github/apl-devs/appintro/v4.2.2/appintro-v4.2.2.pom
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/15.0.0/play-services-ads-base-15.0.0.pom
 Download https://maven.google.com/com/google/android/gms/play-services-ads-base/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-identifier/maven-metadata.xml
 Download https://maven.google.com/com/google/android/gms/play-services-ads-identifier/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/15.0.0/play-services-ads-lite-15.0.0.pom
 Download https://maven.google.com/com/google/android/gms/play-services-ads-lite/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/maven-metadata.xml
 Download https://maven.google.com/com/google/android/gms/play-services-basement/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/15.0.0/play-services-gass-15.0.0.pom
 Download https://maven.google.com/com/google/android/gms/play-services-gass/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/15.0.0/play-services-gass-15.0.0.aar
-Download https://jcenter.bintray.com/io/github/kobakei/ratethisapp/1.2.0/ratethisapp-1.2.0.aar
-Download https://jcenter.bintray.com/me/zhanghai/android/materialratingbar/library/1.3.1/library-1.3.1.aar
-Download https://jitpack.io/com/github/apl-devs/appintro/v4.2.2/appintro-v4.2.2.aar
-Download https://jcenter.bintray.com/com/jackandphantom/android/androidlikebutton/1.2.0/androidlikebutton-1.2.0.aar
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/15.0.0/play-services-ads-lite-15.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/15.0.0/play-services-ads-15.0.0.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.8.1/butterknife-8.8.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.1/cardview-v7-27.1.1.aar
+Download https://jcenter.bintray.com/me/zhanghai/android/materialratingbar/library/1.3.1/library-1.3.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/15.0.0/play-services-gass-15.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/26.1.0/customtabs-26.1.0.aar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.7.1/gifdecoder-4.7.1.aar
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/15.0.0/play-services-ads-base-15.0.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.7.1/gifdecoder-4.7.1.aar
+Download https://jcenter.bintray.com/io/github/kobakei/ratethisapp/1.2.0/ratethisapp-1.2.0.aar
+Download https://jitpack.io/com/github/apl-devs/appintro/v4.2.2/appintro-v4.2.2.aar
 Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.7.1/glide-4.7.1.aar
-Download https://jcenter.bintray.com/com/bartoszlipinski/viewpropertyobjectanimator/1.2.0/viewpropertyobjectanimator-1.2.0.pom
+Download https://jcenter.bintray.com/com/jackandphantom/android/androidlikebutton/1.2.0/androidlikebutton-1.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/15.0.0/play-services-ads-15.0.0.aar
 Download https://jcenter.bintray.com/com/bartoszlipinski/viewpropertyobjectanimator/1.2.0/viewpropertyobjectanimator-1.2.0.aar
 :mysearch:compileDebugAidl
 :app:compileDebugAidl
@@ -103,31 +80,8 @@ Download https://jcenter.bintray.com/com/bartoszlipinski/viewpropertyobjectanima
 :mysearch:generateDebugBuildConfig
 :mysearch:prepareLintJar
 :mysearch:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/nineoldandroids/library/2.4.0/library-2.4.0.jar
 :mysearch:processDebugJavaRes NO-SOURCE
 :app:compileDebugNdk NO-SOURCE
-:mysearch:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:mysearch:generateDebugSources
-:mysearch:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/src/main/java/codehive/mysearch/persistentsearch/SearchBox.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-:mysearch:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.7.1/annotations-4.7.1.jar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.8.1/butterknife-annotations-8.8.1.jar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.8.1/butterknife-compiler-8.8.1.jar
-Download https://jcenter.bintray.com/com/google/auto/auto-common/0.8/auto-common-0.8.jar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.7.1/compiler-4.7.1.jar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.7.1/disklrucache-4.7.1.jar
-Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.4.0/converter-gson-2.4.0.jar
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:app:compileDebugSources
 :app:mergeDebugShaders
 :app:compileDebugShaders
 :app:generateDebugAssets
@@ -136,22 +90,14 @@ Note: Recompile with -Xlint:unchecked for details.
 :mysearch:generateDebugAssets
 :mysearch:packageDebugAssets
 :app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :mysearch:compileDebugNdk NO-SOURCE
 :mysearch:mergeDebugJniLibFolders
 :mysearch:transformNativeLibsWithMergeJniLibsForDebug
 :mysearch:transformNativeLibsWithStripDebugSymbolForDebug
 :mysearch:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
 :app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
 :mysearch:preReleaseBuild UP-TO-DATE
 :mysearch:checkReleaseManifest
 :mysearch:processReleaseManifest
@@ -173,34 +119,10 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
-:mysearch:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
 :mysearch:generateReleaseBuildConfig
-:mysearch:generateReleaseSources
 :mysearch:javaPreCompileRelease
-:mysearch:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/mysearch/src/main/java/codehive/mysearch/persistentsearch/SearchBox.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
 :mysearch:processReleaseJavaRes NO-SOURCE
-:mysearch:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
 :app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -209,25 +131,67 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 :mysearch:generateReleaseAssets
 :mysearch:packageReleaseAssets
 :app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :mysearch:compileReleaseNdk NO-SOURCE
 :mysearch:mergeReleaseJniLibFolders
 :mysearch:transformNativeLibsWithMergeJniLibsForRelease
 :mysearch:transformNativeLibsWithStripDebugSymbolForRelease
 :mysearch:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:mysearch:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:mysearch:generateDebugSources
+:mysearch:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/src/main/java/codehive/mysearch/persistentsearch/SearchBox.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mysearch:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.7.1/annotations-4.7.1.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.7.1/compiler-4.7.1.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.7.1/disklrucache-4.7.1.jar
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:mysearch:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:mysearch:generateReleaseSources
+:mysearch:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/mysearch/src/main/java/codehive/mysearch/persistentsearch/SearchBox.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mysearch:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 2m 31s
+BUILD SUCCESSFUL in 1m 21s
 91 actionable tasks: 91 executed
 
-2018-10-06 16:49:02,969 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538819166886-0/src/retrofit-with-food2fork.com-master/app/build/outputs/apk/debug/app-debug.apk
+2019-02-24 17:55:16,627 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551005590633-0/src/retrofit-with-food2fork.com-master/app/build/outputs/apk/debug/app-debug.apk

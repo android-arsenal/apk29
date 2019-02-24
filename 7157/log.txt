@@ -1,602 +1,643 @@
-2019-01-28 10:42:31,342 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-plugins-android/archive/master.zip", attempt 3
-2019-01-28 10:42:34,212 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-plugins-android/archive/master.zip, attempt 3
-2019-01-28 10:42:34,212 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/master.zip": 1 MB
-2019-01-28 10:42:34,212 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-28 10:42:34,215 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/master.zip: true
-2019-01-28 10:42:34,215 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src'.
-2019-01-28 10:42:34,350 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-01-28 10:42:34,350 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src]
-2019-01-28 10:42:34,366 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/.git/
+2019-02-24 18:08:49,883 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-plugins-android/archive/master.zip", attempt 3
+2019-02-24 18:08:53,045 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-plugins-android/archive/master.zip, attempt 3
+2019-02-24 18:08:53,045 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/master.zip": 1 MB
+2019-02-24 18:08:53,045 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 18:08:53,047 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/master.zip: true
+2019-02-24 18:08:53,047 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src'.
+2019-02-24 18:08:53,186 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-02-24 18:08:53,186 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src]
+2019-02-24 18:08:53,203 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/.git/
 
-2019-01-28 10:42:34,380 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradlew
-2019-01-28 10:42:34,395 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/build.gradle
-2019-01-28 10:42:34,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradle/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradle/generate-token.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle
-2019-01-28 10:42:34,409 INFO  ProjectBuildService - Remote scripts: none
-2019-01-28 10:42:34,409 INFO  ProjectFixService - Fixing project...
-2019-01-28 10:42:34,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/local.properties
-2019-01-28 10:42:34,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,459 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/local.properties
-2019-01-28 10:42:34,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/local.properties
-2019-01-28 10:42:34,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/local.properties
-2019-01-28 10:42:34,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,487 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,488 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/local.properties
-2019-01-28 10:42:34,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/local.properties
-2019-01-28 10:42:34,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/local.properties
-2019-01-28 10:42:34,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,513 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/local.properties
-2019-01-28 10:42:34,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/local.properties
-2019-01-28 10:42:34,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/local.properties
-2019-01-28 10:42:34,530 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-28 10:42:34,531 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-28 10:42:34,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 10:42:34,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 10:42:34,538 INFO  ProjectFixService - Project was maybe fixed
-2019-01-28 10:42:34,538 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-28 10:42:34,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-28 10:42:41,943 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-01-28 10:42:41,943 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-28 10:42:41,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-28 10:44:11,366 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.6.1/leakcanary-android-1.6.1.aar
-Download https://jcenter.bintray.com/com/mapbox/mapboxsdk/mapbox-sdk-geojson/4.3.0/mapbox-sdk-geojson-4.3.0.jar
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.6.1/leakcanary-watcher-1.6.1.jar
-Download https://jcenter.bintray.com/com/mapbox/mapboxsdk/mapbox-sdk-turf/4.3.0/mapbox-sdk-turf-4.3.0.jar
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.6.1/leakcanary-analyzer-1.6.1.aar
-Download https://jcenter.bintray.com/com/mapbox/mapboxsdk/mapbox-sdk-core/4.3.0/mapbox-sdk-core-4.3.0.jar
-:app:preBuild UP-TO-DATE
-:ktx-mapbox-maps:preBuild UP-TO-DATE
-:ktx-mapbox-maps:preDebugBuild UP-TO-DATE
-:ktx-mapbox-maps:checkDebugManifest
-:ktx-mapbox-maps:processDebugManifest
-:plugin-annotation:preBuild UP-TO-DATE
-:plugin-annotation:preDebugBuild UP-TO-DATE
-:plugin-annotation:checkDebugManifest
-:plugin-annotation:processDebugManifest
-:plugin-building:preBuild UP-TO-DATE
-:plugin-building:preDebugBuild UP-TO-DATE
-:plugin-building:checkDebugManifest
-:plugin-building:processDebugManifest
-:plugin-localization:preBuild UP-TO-DATE
-:plugin-localization:preDebugBuild UP-TO-DATE
-:plugin-localization:checkDebugManifest
-:plugin-localization:processDebugManifest
-:plugin-markerview:preBuild UP-TO-DATE
-:plugin-markerview:preDebugBuild UP-TO-DATE
-:plugin-markerview:checkDebugManifest
-:plugin-markerview:processDebugManifest
-:plugin-offline:preBuild UP-TO-DATE
-:plugin-offline:preDebugBuild UP-TO-DATE
-:plugin-offline:checkDebugManifest
-:plugin-offline:processDebugManifest
-:plugin-places:preBuild UP-TO-DATE
-:plugin-places:preDebugBuild UP-TO-DATE
-:plugin-places:checkDebugManifest
-:plugin-places:processDebugManifest
-:plugin-traffic:preBuild UP-TO-DATE
-:plugin-traffic:preDebugBuild UP-TO-DATE
-:plugin-traffic:checkDebugManifest
-:plugin-traffic:processDebugManifest
-:app:preDebugBuild
-:ktx-mapbox-maps:compileDebugAidl NO-SOURCE
-:plugin-annotation:compileDebugAidl NO-SOURCE
-:plugin-building:compileDebugAidl NO-SOURCE
-:plugin-localization:compileDebugAidl NO-SOURCE
-:plugin-markerview:compileDebugAidl NO-SOURCE
-:plugin-offline:compileDebugAidl NO-SOURCE
-:plugin-places:compileDebugAidl NO-SOURCE
-:plugin-traffic:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:ktx-mapbox-maps:packageDebugRenderscript NO-SOURCE
-:plugin-annotation:packageDebugRenderscript NO-SOURCE
-:plugin-building:packageDebugRenderscript NO-SOURCE
-:plugin-localization:packageDebugRenderscript NO-SOURCE
-:plugin-markerview:packageDebugRenderscript NO-SOURCE
-:plugin-offline:packageDebugRenderscript NO-SOURCE
-:plugin-places:packageDebugRenderscript NO-SOURCE
-:plugin-traffic:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:ktx-mapbox-maps:compileDebugRenderscript
-:ktx-mapbox-maps:generateDebugResValues
-:ktx-mapbox-maps:generateDebugResources
-:ktx-mapbox-maps:packageDebugResources
-:plugin-annotation:compileDebugRenderscript
-:plugin-annotation:generateDebugResValues
-:plugin-annotation:generateDebugResources
-:plugin-annotation:packageDebugResources
-:plugin-building:compileDebugRenderscript
-:plugin-building:generateDebugResValues
-:plugin-building:generateDebugResources
-:plugin-building:packageDebugResources
-:plugin-localization:compileDebugRenderscript
-:plugin-localization:generateDebugResValues
-:plugin-localization:generateDebugResources
-:plugin-localization:packageDebugResources
-:plugin-markerview:compileDebugRenderscript
-:plugin-markerview:generateDebugResValues
-:plugin-markerview:generateDebugResources
-:plugin-markerview:packageDebugResources
-:plugin-offline:compileDebugRenderscript
-:plugin-offline:generateDebugResValues
-:plugin-offline:generateDebugResources
-:plugin-offline:packageDebugResources
-:plugin-places:compileDebugRenderscript
-:plugin-places:generateDebugResValues
-:plugin-places:generateDebugResources
-:plugin-places:packageDebugResources
-:plugin-traffic:compileDebugRenderscript
-:plugin-traffic:generateDebugResValues
-:plugin-traffic:generateDebugResources
-:plugin-traffic:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:ktx-mapbox-maps:generateDebugRFile
-:plugin-annotation:generateDebugRFile
-:plugin-building:generateDebugRFile
-:plugin-localization:generateDebugRFile
-:plugin-markerview:generateDebugRFile
-:plugin-offline:generateDebugRFile
-:plugin-places:generateDebugRFile
-:plugin-traffic:generateDebugRFile
-:app:processDebugResources
-:ktx-mapbox-maps:generateDebugBuildConfig
-:ktx-mapbox-maps:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-:ktx-mapbox-maps:prepareLintJar
-:ktx-mapbox-maps:generateDebugSources
-:ktx-mapbox-maps:javaPreCompileDebug
-:ktx-mapbox-maps:compileDebugJavaWithJavac
-:ktx-mapbox-maps:processDebugJavaRes NO-SOURCE
-:ktx-mapbox-maps:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-annotation:generateDebugBuildConfig
-:plugin-annotation:prepareLintJar
-:plugin-annotation:generateDebugSources
-:plugin-annotation:javaPreCompileDebug
-:plugin-annotation:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
+2019-02-24 18:08:53,218 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradlew
+2019-02-24 18:08:53,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/build.gradle
+2019-02-24 18:08:53,249 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradle/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradle/generate-token.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle
+2019-02-24 18:08:53,250 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 18:08:53,251 INFO  ProjectFixService - Fixing project...
+2019-02-24 18:08:53,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/local.properties
+2019-02-24 18:08:53,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/local.properties
+2019-02-24 18:08:53,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/local.properties
+2019-02-24 18:08:53,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,317 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,319 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/local.properties
+2019-02-24 18:08:53,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,329 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/local.properties
+2019-02-24 18:08:53,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/local.properties
+2019-02-24 18:08:53,347 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,347 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/local.properties
+2019-02-24 18:08:53,357 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/local.properties
+2019-02-24 18:08:53,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/local.properties
+2019-02-24 18:08:53,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/local.properties
+2019-02-24 18:08:53,375 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-24 18:08:53,376 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-24 18:08:53,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-24 18:08:53,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-24 18:08:53,383 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 18:08:53,383 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 18:08:53,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 18:09:01,730 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-02-24 18:09:01,730 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 18:09:01,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 18:11:05,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :ktx-mapbox-maps:preBuild UP-TO-DATE
+> Task :ktx-mapbox-maps:preDebugBuild UP-TO-DATE
+> Task :ktx-mapbox-maps:checkDebugManifest
+> Task :ktx-mapbox-maps:processDebugManifest
+> Task :plugin-annotation:preBuild UP-TO-DATE
+> Task :plugin-annotation:preDebugBuild UP-TO-DATE
+> Task :plugin-annotation:checkDebugManifest
+> Task :plugin-annotation:processDebugManifest
+> Task :plugin-building:preBuild UP-TO-DATE
+> Task :plugin-building:preDebugBuild UP-TO-DATE
+> Task :plugin-building:checkDebugManifest
+> Task :plugin-building:processDebugManifest
+> Task :plugin-localization:preBuild UP-TO-DATE
+> Task :plugin-localization:preDebugBuild UP-TO-DATE
+> Task :plugin-localization:checkDebugManifest
+> Task :plugin-localization:processDebugManifest
+> Task :plugin-markerview:preBuild UP-TO-DATE
+> Task :plugin-markerview:preDebugBuild UP-TO-DATE
+> Task :plugin-markerview:checkDebugManifest
+> Task :plugin-markerview:processDebugManifest
+> Task :plugin-offline:preBuild UP-TO-DATE
+> Task :plugin-offline:preDebugBuild UP-TO-DATE
+> Task :plugin-offline:checkDebugManifest
+> Task :plugin-offline:processDebugManifest
+> Task :plugin-places:preBuild UP-TO-DATE
+> Task :plugin-places:preDebugBuild UP-TO-DATE
+> Task :plugin-places:checkDebugManifest
+> Task :plugin-places:processDebugManifest
+> Task :plugin-traffic:preBuild UP-TO-DATE
+> Task :plugin-traffic:preDebugBuild UP-TO-DATE
+> Task :plugin-traffic:checkDebugManifest
+> Task :plugin-traffic:processDebugManifest
+> Task :app:preDebugBuild
+> Task :ktx-mapbox-maps:compileDebugAidl NO-SOURCE
+> Task :plugin-annotation:compileDebugAidl NO-SOURCE
+> Task :plugin-building:compileDebugAidl NO-SOURCE
+> Task :plugin-localization:compileDebugAidl NO-SOURCE
+> Task :plugin-markerview:compileDebugAidl NO-SOURCE
+> Task :plugin-offline:compileDebugAidl NO-SOURCE
+> Task :plugin-places:compileDebugAidl NO-SOURCE
+> Task :plugin-traffic:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :ktx-mapbox-maps:packageDebugRenderscript NO-SOURCE
+> Task :plugin-annotation:packageDebugRenderscript NO-SOURCE
+> Task :plugin-building:packageDebugRenderscript NO-SOURCE
+> Task :plugin-localization:packageDebugRenderscript NO-SOURCE
+> Task :plugin-markerview:packageDebugRenderscript NO-SOURCE
+> Task :plugin-offline:packageDebugRenderscript NO-SOURCE
+> Task :plugin-places:packageDebugRenderscript NO-SOURCE
+> Task :plugin-traffic:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :ktx-mapbox-maps:compileDebugRenderscript
+> Task :ktx-mapbox-maps:generateDebugResValues
+> Task :ktx-mapbox-maps:generateDebugResources
+> Task :ktx-mapbox-maps:packageDebugResources
+> Task :plugin-annotation:compileDebugRenderscript
+> Task :plugin-annotation:generateDebugResValues
+> Task :plugin-annotation:generateDebugResources
+> Task :plugin-annotation:packageDebugResources
+> Task :plugin-building:compileDebugRenderscript
+> Task :plugin-building:generateDebugResValues
+> Task :plugin-building:generateDebugResources
+> Task :plugin-building:packageDebugResources
+> Task :plugin-localization:compileDebugRenderscript
+> Task :plugin-localization:generateDebugResValues
+> Task :plugin-localization:generateDebugResources
+> Task :plugin-localization:packageDebugResources
+> Task :plugin-markerview:compileDebugRenderscript
+> Task :plugin-markerview:generateDebugResValues
+> Task :plugin-markerview:generateDebugResources
+> Task :plugin-markerview:packageDebugResources
+> Task :plugin-offline:compileDebugRenderscript
+> Task :plugin-offline:generateDebugResValues
+> Task :plugin-offline:generateDebugResources
+> Task :plugin-offline:packageDebugResources
+> Task :plugin-places:compileDebugRenderscript
+> Task :plugin-places:generateDebugResValues
+> Task :plugin-places:generateDebugResources
+> Task :plugin-places:packageDebugResources
+> Task :plugin-traffic:compileDebugRenderscript
+> Task :plugin-traffic:generateDebugResValues
+> Task :plugin-traffic:generateDebugResources
+> Task :plugin-traffic:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :ktx-mapbox-maps:generateDebugRFile
+> Task :plugin-annotation:generateDebugRFile
+> Task :plugin-building:generateDebugRFile
+> Task :plugin-localization:generateDebugRFile
+> Task :plugin-markerview:generateDebugRFile
+> Task :plugin-offline:generateDebugRFile
+> Task :plugin-places:generateDebugRFile
+> Task :plugin-traffic:generateDebugRFile
+> Task :app:processDebugResources
+> Task :ktx-mapbox-maps:generateDebugBuildConfig
+
+> Task :ktx-mapbox-maps:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :ktx-mapbox-maps:prepareLintJar
+> Task :ktx-mapbox-maps:generateDebugSources
+> Task :ktx-mapbox-maps:javaPreCompileDebug
+> Task :ktx-mapbox-maps:compileDebugJavaWithJavac
+> Task :ktx-mapbox-maps:processDebugJavaRes NO-SOURCE
+> Task :ktx-mapbox-maps:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-annotation:generateDebugBuildConfig
+> Task :plugin-annotation:prepareLintJar
+> Task :plugin-annotation:generateDebugSources
+> Task :plugin-annotation:javaPreCompileDebug
+
+> Task :plugin-annotation:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:plugin-annotation:processDebugJavaRes NO-SOURCE
-:plugin-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-building:generateDebugBuildConfig
-:plugin-building:prepareLintJar
-:plugin-building:generateDebugSources
-:plugin-building:javaPreCompileDebug
-:plugin-building:compileDebugJavaWithJavac
-:plugin-building:processDebugJavaRes NO-SOURCE
-:plugin-building:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-localization:generateDebugBuildConfig
-:plugin-localization:prepareLintJar
-:plugin-localization:generateDebugSources
-:plugin-localization:javaPreCompileDebug
-:plugin-localization:compileDebugJavaWithJavac
-:plugin-localization:processDebugJavaRes NO-SOURCE
-:plugin-localization:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-markerview:generateDebugBuildConfig
-:plugin-markerview:prepareLintJar
-:plugin-markerview:generateDebugSources
-:plugin-markerview:javaPreCompileDebug
-:plugin-markerview:compileDebugJavaWithJavac
-:plugin-markerview:processDebugJavaRes NO-SOURCE
-:plugin-markerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-offline:generateDebugBuildConfig
-:plugin-offline:prepareLintJar
-:plugin-offline:generateDebugSources
-:plugin-offline:javaPreCompileDebug
-:plugin-offline:compileDebugJavaWithJavac
-:plugin-offline:processDebugJavaRes NO-SOURCE
-:plugin-offline:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-places:generateDebugBuildConfig
-:plugin-places:prepareLintJar
-:plugin-places:generateDebugSources
-:plugin-places:javaPreCompileDebug
-:plugin-places:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
+> Task :plugin-annotation:processDebugJavaRes NO-SOURCE
+> Task :plugin-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-building:generateDebugBuildConfig
+> Task :plugin-building:prepareLintJar
+> Task :plugin-building:generateDebugSources
+> Task :plugin-building:javaPreCompileDebug
+> Task :plugin-building:compileDebugJavaWithJavac
+> Task :plugin-building:processDebugJavaRes NO-SOURCE
+> Task :plugin-building:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-localization:generateDebugBuildConfig
+> Task :plugin-localization:prepareLintJar
+> Task :plugin-localization:generateDebugSources
+> Task :plugin-localization:javaPreCompileDebug
+> Task :plugin-localization:compileDebugJavaWithJavac
+> Task :plugin-localization:processDebugJavaRes NO-SOURCE
+> Task :plugin-localization:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-markerview:generateDebugBuildConfig
+> Task :plugin-markerview:prepareLintJar
+> Task :plugin-markerview:generateDebugSources
+> Task :plugin-markerview:javaPreCompileDebug
+> Task :plugin-markerview:compileDebugJavaWithJavac
+> Task :plugin-markerview:processDebugJavaRes NO-SOURCE
+> Task :plugin-markerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-offline:generateDebugBuildConfig
+> Task :plugin-offline:prepareLintJar
+> Task :plugin-offline:generateDebugSources
+> Task :plugin-offline:javaPreCompileDebug
+
+> Task :plugin-offline:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :plugin-offline:processDebugJavaRes NO-SOURCE
+> Task :plugin-offline:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-places:generateDebugBuildConfig
+> Task :plugin-places:prepareLintJar
+> Task :plugin-places:generateDebugSources
+> Task :plugin-places:javaPreCompileDebug
+
+> Task :plugin-places:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4), compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:plugin-places:processDebugJavaRes NO-SOURCE
-:plugin-places:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:plugin-traffic:generateDebugBuildConfig
-:plugin-traffic:prepareLintJar
-:plugin-traffic:generateDebugSources
-:plugin-traffic:javaPreCompileDebug
-:plugin-traffic:compileDebugJavaWithJavac
-:plugin-traffic:processDebugJavaRes NO-SOURCE
-:plugin-traffic:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:kaptGenerateStubsDebugKotlin
-:app:kaptDebugKotlin
-:app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :plugin-places:processDebugJavaRes NO-SOURCE
+> Task :plugin-places:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :plugin-traffic:generateDebugBuildConfig
+> Task :plugin-traffic:prepareLintJar
+> Task :plugin-traffic:generateDebugSources
+> Task :plugin-traffic:javaPreCompileDebug
+> Task :plugin-traffic:compileDebugJavaWithJavac
+> Task :plugin-traffic:processDebugJavaRes NO-SOURCE
+> Task :plugin-traffic:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
+
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :ktx-mapbox-maps:mergeDebugShaders
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :ktx-mapbox-maps:compileDebugShaders
+> Task :ktx-mapbox-maps:generateDebugAssets
+> Task :ktx-mapbox-maps:packageDebugAssets
+> Task :plugin-annotation:mergeDebugShaders
+> Task :plugin-annotation:compileDebugShaders
+> Task :plugin-annotation:generateDebugAssets
+> Task :plugin-annotation:packageDebugAssets
+> Task :plugin-building:mergeDebugShaders
+> Task :plugin-building:compileDebugShaders
+> Task :plugin-building:generateDebugAssets
+> Task :plugin-building:packageDebugAssets
+> Task :plugin-localization:mergeDebugShaders
+> Task :plugin-localization:compileDebugShaders
+> Task :plugin-localization:generateDebugAssets
+> Task :plugin-localization:packageDebugAssets
+> Task :plugin-markerview:mergeDebugShaders
+> Task :plugin-markerview:compileDebugShaders
+> Task :plugin-markerview:generateDebugAssets
+> Task :plugin-markerview:packageDebugAssets
+> Task :plugin-offline:mergeDebugShaders
+> Task :plugin-offline:compileDebugShaders
+> Task :plugin-offline:generateDebugAssets
+> Task :plugin-offline:packageDebugAssets
+> Task :plugin-places:mergeDebugShaders
+> Task :plugin-places:compileDebugShaders
+> Task :plugin-places:generateDebugAssets
+> Task :plugin-places:packageDebugAssets
+> Task :plugin-traffic:mergeDebugShaders
+> Task :plugin-traffic:compileDebugShaders
+> Task :plugin-traffic:generateDebugAssets
+> Task :plugin-traffic:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:jacocoDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5708766effa3cfbd5e77dfa3d0528b7/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :ktx-mapbox-maps:compileDebugNdk NO-SOURCE
+> Task :ktx-mapbox-maps:mergeDebugJniLibFolders
+> Task :ktx-mapbox-maps:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ktx-mapbox-maps:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ktx-mapbox-maps:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-annotation:compileDebugNdk NO-SOURCE
+> Task :plugin-annotation:mergeDebugJniLibFolders
+> Task :plugin-annotation:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-annotation:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-annotation:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-building:compileDebugNdk NO-SOURCE
+> Task :plugin-building:mergeDebugJniLibFolders
+> Task :plugin-building:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-building:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-building:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-localization:compileDebugNdk NO-SOURCE
+> Task :plugin-localization:mergeDebugJniLibFolders
+> Task :plugin-localization:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-localization:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-localization:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-markerview:compileDebugNdk NO-SOURCE
+> Task :plugin-markerview:mergeDebugJniLibFolders
+> Task :plugin-markerview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-markerview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-markerview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-offline:compileDebugNdk NO-SOURCE
+> Task :plugin-offline:mergeDebugJniLibFolders
+> Task :plugin-offline:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-offline:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-offline:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-places:compileDebugNdk NO-SOURCE
+> Task :plugin-places:mergeDebugJniLibFolders
+> Task :plugin-places:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-places:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-places:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-traffic:compileDebugNdk NO-SOURCE
+> Task :plugin-traffic:mergeDebugJniLibFolders
+> Task :plugin-traffic:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-traffic:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-traffic:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:extractProguardFiles
+> Task :ktx-mapbox-maps:preReleaseBuild UP-TO-DATE
+> Task :ktx-mapbox-maps:checkReleaseManifest
+> Task :ktx-mapbox-maps:processReleaseManifest
+> Task :plugin-annotation:preReleaseBuild UP-TO-DATE
+> Task :plugin-annotation:checkReleaseManifest
+> Task :plugin-annotation:processReleaseManifest
+> Task :plugin-building:preReleaseBuild UP-TO-DATE
+> Task :plugin-building:checkReleaseManifest
+> Task :plugin-building:processReleaseManifest
+> Task :plugin-localization:preReleaseBuild UP-TO-DATE
+> Task :plugin-localization:checkReleaseManifest
+> Task :plugin-localization:processReleaseManifest
+> Task :plugin-markerview:preReleaseBuild UP-TO-DATE
+> Task :plugin-markerview:checkReleaseManifest
+> Task :plugin-markerview:processReleaseManifest
+> Task :plugin-offline:preReleaseBuild UP-TO-DATE
+> Task :plugin-offline:checkReleaseManifest
+> Task :plugin-offline:processReleaseManifest
+> Task :plugin-places:preReleaseBuild UP-TO-DATE
+> Task :plugin-places:checkReleaseManifest
+> Task :plugin-places:processReleaseManifest
+> Task :plugin-traffic:preReleaseBuild UP-TO-DATE
+> Task :plugin-traffic:checkReleaseManifest
+> Task :plugin-traffic:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :ktx-mapbox-maps:compileReleaseAidl NO-SOURCE
+> Task :plugin-annotation:compileReleaseAidl NO-SOURCE
+> Task :plugin-building:compileReleaseAidl NO-SOURCE
+> Task :plugin-localization:compileReleaseAidl NO-SOURCE
+> Task :plugin-markerview:compileReleaseAidl NO-SOURCE
+> Task :plugin-offline:compileReleaseAidl NO-SOURCE
+> Task :plugin-places:compileReleaseAidl NO-SOURCE
+> Task :plugin-traffic:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :ktx-mapbox-maps:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-annotation:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-building:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-localization:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-markerview:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-offline:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-places:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-traffic:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :ktx-mapbox-maps:compileReleaseRenderscript
+> Task :ktx-mapbox-maps:generateReleaseResValues
+> Task :ktx-mapbox-maps:generateReleaseResources
+> Task :ktx-mapbox-maps:packageReleaseResources
+> Task :plugin-annotation:compileReleaseRenderscript
+> Task :plugin-annotation:generateReleaseResValues
+> Task :plugin-annotation:generateReleaseResources
+> Task :plugin-annotation:packageReleaseResources
+> Task :plugin-building:compileReleaseRenderscript
+> Task :plugin-building:generateReleaseResValues
+> Task :plugin-building:generateReleaseResources
+> Task :plugin-building:packageReleaseResources
+> Task :plugin-localization:compileReleaseRenderscript
+> Task :plugin-localization:generateReleaseResValues
+> Task :plugin-localization:generateReleaseResources
+> Task :plugin-localization:packageReleaseResources
+> Task :plugin-markerview:compileReleaseRenderscript
+> Task :plugin-markerview:generateReleaseResValues
+> Task :plugin-markerview:generateReleaseResources
+> Task :plugin-markerview:packageReleaseResources
+> Task :plugin-offline:compileReleaseRenderscript
+> Task :plugin-offline:generateReleaseResValues
+> Task :plugin-offline:generateReleaseResources
+> Task :plugin-offline:packageReleaseResources
+> Task :plugin-places:compileReleaseRenderscript
+> Task :plugin-places:generateReleaseResValues
+> Task :plugin-places:generateReleaseResources
+> Task :plugin-places:packageReleaseResources
+> Task :plugin-traffic:compileReleaseRenderscript
+> Task :plugin-traffic:generateReleaseResValues
+> Task :plugin-traffic:generateReleaseResources
+> Task :plugin-traffic:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :ktx-mapbox-maps:generateReleaseRFile
+> Task :plugin-annotation:generateReleaseRFile
+> Task :plugin-building:generateReleaseRFile
+> Task :plugin-localization:generateReleaseRFile
+> Task :plugin-markerview:generateReleaseRFile
+> Task :plugin-offline:generateReleaseRFile
+> Task :plugin-places:generateReleaseRFile
+> Task :plugin-traffic:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :ktx-mapbox-maps:generateReleaseBuildConfig
+
+> Task :ktx-mapbox-maps:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :ktx-mapbox-maps:generateReleaseSources
+> Task :ktx-mapbox-maps:javaPreCompileRelease
+> Task :ktx-mapbox-maps:compileReleaseJavaWithJavac
+> Task :ktx-mapbox-maps:processReleaseJavaRes NO-SOURCE
+> Task :ktx-mapbox-maps:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-annotation:generateReleaseBuildConfig
+> Task :plugin-annotation:generateReleaseSources
+> Task :plugin-annotation:javaPreCompileRelease
+
+> Task :plugin-annotation:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:ktx-mapbox-maps:mergeDebugShaders
-:ktx-mapbox-maps:compileDebugShaders
-:ktx-mapbox-maps:generateDebugAssets
-:ktx-mapbox-maps:packageDebugAssets
-:plugin-annotation:mergeDebugShaders
-:plugin-annotation:compileDebugShaders
-:plugin-annotation:generateDebugAssets
-:plugin-annotation:packageDebugAssets
-:plugin-building:mergeDebugShaders
-:plugin-building:compileDebugShaders
-:plugin-building:generateDebugAssets
-:plugin-building:packageDebugAssets
-:plugin-localization:mergeDebugShaders
-:plugin-localization:compileDebugShaders
-:plugin-localization:generateDebugAssets
-:plugin-localization:packageDebugAssets
-:plugin-markerview:mergeDebugShaders
-:plugin-markerview:compileDebugShaders
-:plugin-markerview:generateDebugAssets
-:plugin-markerview:packageDebugAssets
-:plugin-offline:mergeDebugShaders
-:plugin-offline:compileDebugShaders
-:plugin-offline:generateDebugAssets
-:plugin-offline:packageDebugAssets
-:plugin-places:mergeDebugShaders
-:plugin-places:compileDebugShaders
-:plugin-places:generateDebugAssets
-:plugin-places:packageDebugAssets
-:plugin-traffic:mergeDebugShaders
-:plugin-traffic:compileDebugShaders
-:plugin-traffic:generateDebugAssets
-:plugin-traffic:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithJacocoForDebug
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:ktx-mapbox-maps:compileDebugNdk NO-SOURCE
-:ktx-mapbox-maps:mergeDebugJniLibFolders
-:ktx-mapbox-maps:transformNativeLibsWithMergeJniLibsForDebug
-:ktx-mapbox-maps:transformNativeLibsWithStripDebugSymbolForDebug
-:ktx-mapbox-maps:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-annotation:compileDebugNdk NO-SOURCE
-:plugin-annotation:mergeDebugJniLibFolders
-:plugin-annotation:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-annotation:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-annotation:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-building:compileDebugNdk NO-SOURCE
-:plugin-building:mergeDebugJniLibFolders
-:plugin-building:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-building:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-building:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-localization:compileDebugNdk NO-SOURCE
-:plugin-localization:mergeDebugJniLibFolders
-:plugin-localization:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-localization:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-localization:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-markerview:compileDebugNdk NO-SOURCE
-:plugin-markerview:mergeDebugJniLibFolders
-:plugin-markerview:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-markerview:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-markerview:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-offline:compileDebugNdk NO-SOURCE
-:plugin-offline:mergeDebugJniLibFolders
-:plugin-offline:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-offline:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-offline:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-places:compileDebugNdk NO-SOURCE
-:plugin-places:mergeDebugJniLibFolders
-:plugin-places:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-places:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-places:transformNativeLibsWithIntermediateJniLibsForDebug
-:plugin-traffic:compileDebugNdk NO-SOURCE
-:plugin-traffic:mergeDebugJniLibFolders
-:plugin-traffic:transformNativeLibsWithMergeJniLibsForDebug
-:plugin-traffic:transformNativeLibsWithStripDebugSymbolForDebug
-:plugin-traffic:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:app:extractProguardFiles
-:ktx-mapbox-maps:preReleaseBuild UP-TO-DATE
-:ktx-mapbox-maps:checkReleaseManifest
-:ktx-mapbox-maps:processReleaseManifest
-:plugin-annotation:preReleaseBuild UP-TO-DATE
-:plugin-annotation:checkReleaseManifest
-:plugin-annotation:processReleaseManifest
-:plugin-building:preReleaseBuild UP-TO-DATE
-:plugin-building:checkReleaseManifest
-:plugin-building:processReleaseManifest
-:plugin-localization:preReleaseBuild UP-TO-DATE
-:plugin-localization:checkReleaseManifest
-:plugin-localization:processReleaseManifest
-:plugin-markerview:preReleaseBuild UP-TO-DATE
-:plugin-markerview:checkReleaseManifest
-:plugin-markerview:processReleaseManifest
-:plugin-offline:preReleaseBuild UP-TO-DATE
-:plugin-offline:checkReleaseManifest
-:plugin-offline:processReleaseManifest
-:plugin-places:preReleaseBuild UP-TO-DATE
-:plugin-places:checkReleaseManifest
-:plugin-places:processReleaseManifest
-:plugin-traffic:preReleaseBuild UP-TO-DATE
-:plugin-traffic:checkReleaseManifest
-:plugin-traffic:processReleaseManifest
-:app:preReleaseBuild
-:ktx-mapbox-maps:compileReleaseAidl NO-SOURCE
-:plugin-annotation:compileReleaseAidl NO-SOURCE
-:plugin-building:compileReleaseAidl NO-SOURCE
-:plugin-localization:compileReleaseAidl NO-SOURCE
-:plugin-markerview:compileReleaseAidl NO-SOURCE
-:plugin-offline:compileReleaseAidl NO-SOURCE
-:plugin-places:compileReleaseAidl NO-SOURCE
-:plugin-traffic:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:ktx-mapbox-maps:packageReleaseRenderscript NO-SOURCE
-:plugin-annotation:packageReleaseRenderscript NO-SOURCE
-:plugin-building:packageReleaseRenderscript NO-SOURCE
-:plugin-localization:packageReleaseRenderscript NO-SOURCE
-:plugin-markerview:packageReleaseRenderscript NO-SOURCE
-:plugin-offline:packageReleaseRenderscript NO-SOURCE
-:plugin-places:packageReleaseRenderscript NO-SOURCE
-:plugin-traffic:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:ktx-mapbox-maps:compileReleaseRenderscript
-:ktx-mapbox-maps:generateReleaseResValues
-:ktx-mapbox-maps:generateReleaseResources
-:ktx-mapbox-maps:packageReleaseResources
-:plugin-annotation:compileReleaseRenderscript
-:plugin-annotation:generateReleaseResValues
-:plugin-annotation:generateReleaseResources
-:plugin-annotation:packageReleaseResources
-:plugin-building:compileReleaseRenderscript
-:plugin-building:generateReleaseResValues
-:plugin-building:generateReleaseResources
-:plugin-building:packageReleaseResources
-:plugin-localization:compileReleaseRenderscript
-:plugin-localization:generateReleaseResValues
-:plugin-localization:generateReleaseResources
-:plugin-localization:packageReleaseResources
-:plugin-markerview:compileReleaseRenderscript
-:plugin-markerview:generateReleaseResValues
-:plugin-markerview:generateReleaseResources
-:plugin-markerview:packageReleaseResources
-:plugin-offline:compileReleaseRenderscript
-:plugin-offline:generateReleaseResValues
-:plugin-offline:generateReleaseResources
-:plugin-offline:packageReleaseResources
-:plugin-places:compileReleaseRenderscript
-:plugin-places:generateReleaseResValues
-:plugin-places:generateReleaseResources
-:plugin-places:packageReleaseResources
-:plugin-traffic:compileReleaseRenderscript
-:plugin-traffic:generateReleaseResValues
-:plugin-traffic:generateReleaseResources
-:plugin-traffic:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:ktx-mapbox-maps:generateReleaseRFile
-:plugin-annotation:generateReleaseRFile
-:plugin-building:generateReleaseRFile
-:plugin-localization:generateReleaseRFile
-:plugin-markerview:generateReleaseRFile
-:plugin-offline:generateReleaseRFile
-:plugin-places:generateReleaseRFile
-:plugin-traffic:generateReleaseRFile
-:app:processReleaseResources
-:ktx-mapbox-maps:generateReleaseBuildConfig
-:ktx-mapbox-maps:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' can be insignificant. Inlining works best for functions with lambda parameters
-:ktx-mapbox-maps:generateReleaseSources
-:ktx-mapbox-maps:javaPreCompileRelease
-:ktx-mapbox-maps:compileReleaseJavaWithJavac
-:ktx-mapbox-maps:processReleaseJavaRes NO-SOURCE
-:ktx-mapbox-maps:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-annotation:generateReleaseBuildConfig
-:plugin-annotation:generateReleaseSources
-:plugin-annotation:javaPreCompileRelease
-:plugin-annotation:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
+> Task :plugin-annotation:processReleaseJavaRes NO-SOURCE
+> Task :plugin-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-building:generateReleaseBuildConfig
+> Task :plugin-building:generateReleaseSources
+> Task :plugin-building:javaPreCompileRelease
+> Task :plugin-building:compileReleaseJavaWithJavac
+> Task :plugin-building:processReleaseJavaRes NO-SOURCE
+> Task :plugin-building:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-localization:generateReleaseBuildConfig
+> Task :plugin-localization:generateReleaseSources
+> Task :plugin-localization:javaPreCompileRelease
+> Task :plugin-localization:compileReleaseJavaWithJavac
+> Task :plugin-localization:processReleaseJavaRes NO-SOURCE
+> Task :plugin-localization:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-markerview:generateReleaseBuildConfig
+> Task :plugin-markerview:generateReleaseSources
+> Task :plugin-markerview:javaPreCompileRelease
+> Task :plugin-markerview:compileReleaseJavaWithJavac
+> Task :plugin-markerview:processReleaseJavaRes NO-SOURCE
+> Task :plugin-markerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-offline:generateReleaseBuildConfig
+> Task :plugin-offline:generateReleaseSources
+> Task :plugin-offline:javaPreCompileRelease
 
-:plugin-annotation:processReleaseJavaRes NO-SOURCE
-:plugin-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-building:generateReleaseBuildConfig
-:plugin-building:generateReleaseSources
-:plugin-building:javaPreCompileRelease
-:plugin-building:compileReleaseJavaWithJavac
-:plugin-building:processReleaseJavaRes NO-SOURCE
-:plugin-building:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-localization:generateReleaseBuildConfig
-:plugin-localization:generateReleaseSources
-:plugin-localization:javaPreCompileRelease
-:plugin-localization:compileReleaseJavaWithJavac
-:plugin-localization:processReleaseJavaRes NO-SOURCE
-:plugin-localization:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-markerview:generateReleaseBuildConfig
-:plugin-markerview:generateReleaseSources
-:plugin-markerview:javaPreCompileRelease
-:plugin-markerview:compileReleaseJavaWithJavac
-:plugin-markerview:processReleaseJavaRes NO-SOURCE
-:plugin-markerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-offline:generateReleaseBuildConfig
-:plugin-offline:generateReleaseSources
-:plugin-offline:javaPreCompileRelease
-:plugin-offline:compileReleaseJavaWithJavac
-:plugin-offline:processReleaseJavaRes NO-SOURCE
-:plugin-offline:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-places:generateReleaseBuildConfig
-:plugin-places:generateReleaseSources
-:plugin-places:javaPreCompileRelease
-:plugin-places:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
+> Task :plugin-offline:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :plugin-offline:processReleaseJavaRes NO-SOURCE
+> Task :plugin-offline:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-places:generateReleaseBuildConfig
+> Task :plugin-places:generateReleaseSources
+> Task :plugin-places:javaPreCompileRelease
+
+> Task :plugin-places:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4), compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:plugin-places:processReleaseJavaRes NO-SOURCE
-:plugin-places:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:plugin-traffic:generateReleaseBuildConfig
-:plugin-traffic:generateReleaseSources
-:plugin-traffic:javaPreCompileRelease
-:plugin-traffic:compileReleaseJavaWithJavac
-:plugin-traffic:processReleaseJavaRes NO-SOURCE
-:plugin-traffic:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:kaptGenerateStubsReleaseKotlin
-:app:kaptReleaseKotlin
-:app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :plugin-places:processReleaseJavaRes NO-SOURCE
+> Task :plugin-places:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :plugin-traffic:generateReleaseBuildConfig
+> Task :plugin-traffic:generateReleaseSources
+> Task :plugin-traffic:javaPreCompileRelease
+> Task :plugin-traffic:compileReleaseJavaWithJavac
+> Task :plugin-traffic:processReleaseJavaRes NO-SOURCE
+> Task :plugin-traffic:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
+
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/90c6c3ab4eaae8cc192a7a585543ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1a3310486a9b06e6afee4c45d29784be/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:ktx-mapbox-maps:mergeReleaseShaders
-:ktx-mapbox-maps:compileReleaseShaders
-:ktx-mapbox-maps:generateReleaseAssets
-:ktx-mapbox-maps:packageReleaseAssets
-:plugin-annotation:mergeReleaseShaders
-:plugin-annotation:compileReleaseShaders
-:plugin-annotation:generateReleaseAssets
-:plugin-annotation:packageReleaseAssets
-:plugin-building:mergeReleaseShaders
-:plugin-building:compileReleaseShaders
-:plugin-building:generateReleaseAssets
-:plugin-building:packageReleaseAssets
-:plugin-localization:mergeReleaseShaders
-:plugin-localization:compileReleaseShaders
-:plugin-localization:generateReleaseAssets
-:plugin-localization:packageReleaseAssets
-:plugin-markerview:mergeReleaseShaders
-:plugin-markerview:compileReleaseShaders
-:plugin-markerview:generateReleaseAssets
-:plugin-markerview:packageReleaseAssets
-:plugin-offline:mergeReleaseShaders
-:plugin-offline:compileReleaseShaders
-:plugin-offline:generateReleaseAssets
-:plugin-offline:packageReleaseAssets
-:plugin-places:mergeReleaseShaders
-:plugin-places:compileReleaseShaders
-:plugin-places:generateReleaseAssets
-:plugin-places:packageReleaseAssets
-:plugin-traffic:mergeReleaseShaders
-:plugin-traffic:compileReleaseShaders
-:plugin-traffic:generateReleaseAssets
-:plugin-traffic:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:ktx-mapbox-maps:mergeReleaseConsumerProguardFiles
-:plugin-annotation:mergeReleaseConsumerProguardFiles
-:plugin-building:mergeReleaseConsumerProguardFiles
-:plugin-localization:mergeReleaseConsumerProguardFiles
-:plugin-markerview:mergeReleaseConsumerProguardFiles
-:plugin-offline:mergeReleaseConsumerProguardFiles
-:plugin-places:mergeReleaseConsumerProguardFiles
-:plugin-traffic:mergeReleaseConsumerProguardFiles
-:app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/34238c826e8e63677cf1e12c6a6f8073/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2e81159f13ee26e05945cce785c37ae7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :ktx-mapbox-maps:mergeReleaseShaders
+> Task :ktx-mapbox-maps:compileReleaseShaders
+> Task :ktx-mapbox-maps:generateReleaseAssets
+> Task :ktx-mapbox-maps:packageReleaseAssets
+> Task :plugin-annotation:mergeReleaseShaders
+> Task :plugin-annotation:compileReleaseShaders
+> Task :plugin-annotation:generateReleaseAssets
+> Task :plugin-annotation:packageReleaseAssets
+> Task :plugin-building:mergeReleaseShaders
+> Task :plugin-building:compileReleaseShaders
+> Task :plugin-building:generateReleaseAssets
+> Task :plugin-building:packageReleaseAssets
+> Task :plugin-localization:mergeReleaseShaders
+> Task :plugin-localization:compileReleaseShaders
+> Task :plugin-localization:generateReleaseAssets
+> Task :plugin-localization:packageReleaseAssets
+> Task :plugin-markerview:mergeReleaseShaders
+> Task :plugin-markerview:compileReleaseShaders
+> Task :plugin-markerview:generateReleaseAssets
+> Task :plugin-markerview:packageReleaseAssets
+> Task :plugin-offline:mergeReleaseShaders
+> Task :plugin-offline:compileReleaseShaders
+> Task :plugin-offline:generateReleaseAssets
+> Task :plugin-offline:packageReleaseAssets
+> Task :plugin-places:mergeReleaseShaders
+> Task :plugin-places:compileReleaseShaders
+> Task :plugin-places:generateReleaseAssets
+> Task :plugin-places:packageReleaseAssets
+> Task :plugin-traffic:mergeReleaseShaders
+> Task :plugin-traffic:compileReleaseShaders
+> Task :plugin-traffic:generateReleaseAssets
+> Task :plugin-traffic:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :ktx-mapbox-maps:mergeReleaseConsumerProguardFiles
+> Task :plugin-annotation:mergeReleaseConsumerProguardFiles
+> Task :plugin-building:mergeReleaseConsumerProguardFiles
+> Task :plugin-localization:mergeReleaseConsumerProguardFiles
+> Task :plugin-markerview:mergeReleaseConsumerProguardFiles
+> Task :plugin-offline:mergeReleaseConsumerProguardFiles
+> Task :plugin-places:mergeReleaseConsumerProguardFiles
+> Task :plugin-traffic:mergeReleaseConsumerProguardFiles
 ProGuard, version 6.0.3
 Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.51/a37c0066df119c02f034bf17159089b588ccc41a/kotlin-stdlib-jdk7-1.2.51.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-7.0.1.aar/7e9b07d2a9c5b50aba279d135abe485d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-services/3.2.0/d480d3d52680fcce6d36bad918e7d7c675ddcd4b/mapbox-sdk-services-3.2.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-4.1.1.aar/8a21e5cfd337d690205eb733937b6ba2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/3f2f5fe1fed7c04fccf89ef0b9eea4d5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/38b4bcc7a48e62d694e91ec87fc75d26/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7a02739718a9ee9e9714c6eb39acf342/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f0462d10fa8ffdea1755132d7609dbf7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d2e4c032e6c310399ef6af1524d06c30/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f78c9e16344f386391eba1df1b576617/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf31f1aba328b8220f75105e3817ec12/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/275b931baf0d1524f44d148280439b90/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/223ddf01af8f7b6bc79a021237112508/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ddc4de4b3df732ec112712eb02c67d13/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c09c9a4715487d0bb41a7a9fca3b4f5e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8c4ae71df1f375a1d5ca9f3661d9c975/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/7a8a1208cf7481091b3af2ebc0f140d8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1c3db502ecca4b929dedb9b942e2d433/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f7656ba2be3313464d8815decfe55812/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eeecc0f67e316dd44d84270d496ece02/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1c6cf7f1092972ada8a735cd81ffd091/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3f667023fcb6c16138fb7a736f1dd367/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d9d497bcde851ae7885755295d31f45d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.3.0.aar/a81cef3deb621ff94388853b15b4451d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2693aee1b69a6660a2d6c4357dbcba5d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/48f0630da60011b711bf364208f92a8c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b95b32425ceb5c944e2c2dc8429bd4c5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2c07aaf43346b10f666958f8040d9dde/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.20/aa17d6fd473ce53061a7b2b9d2ae96f547cae93d/kotlin-stdlib-jdk7-1.3.20.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-7.1.2.aar/d6add7d222d09568ccba248a1a9c3163/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-services/4.3.0/5ec0e4a7125861f2be33d54965fef1772d9459ac/mapbox-sdk-services-4.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-4.2.0.aar/af0e6579ba1867d9e08297fb864ad921/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/d1c8c56c842086a5fe4212c891704709/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5708766effa3cfbd5e77dfa3d0528b7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/3ca849db30c4c7b85ef3199c3bbdfde6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ea3e9b939b26e9b7dc26623b81a58405/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/98d1ca459cd7331c31aafbe681451211/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/049ecfd0612dc444ea5d914cbafdb5ed/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.3.aar/76b016c0e12d46152cc71c91b54478bc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7aa1da627d7eff4e56e58175410bf00a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/ef476a8747aa42f8a700e4eef9ea5e83/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a45296a661bd22c4b116ee13def5dd87/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/b754d8152ad0e55fcaa5b39697e49e68/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e55433cf12b95682761eaf2a7d5e54b7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d181684567d07a75390c82868f51d230/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5c4f8f4e72396282613a36bf7dbd8236/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fb7795af0f338b42df2531f067bd2884/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d3e4092664f6f30d702e2028368f6d30/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/acb8b1f204f24fbd1b47f8ced0aed431/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7ac54b83a831329027edba13bbfd903f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.4.0.aar/e22e6c3ff9b2a2cd57fbdd27c3b4500e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c3c50853eff74fc3249ae53a9bc62a34/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9e950e9fb26a9f3efd46d98a44f7fe7e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/214fd435e82e3d787e7ab9aa581d24bd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ca61195a70a2760edb9c3355c14c7180/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/596540423239d8f8fc33d5b697594dc9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/78fe33b086796a547508d938f7380992/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ec9aeadd1de65c0530c4973477f17e9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/79f0be1681ed0146bf504846f36a33a2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dd54925e66cf5951a72a91ea6e44009b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2ed375489aecbee31da86e0bfdcd127b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/75741657392ad45a2762044e809229bf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/801a5961fbed0d09d9966a400add8de7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b8bf33005fb854917c4db8241b8e0d12/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9412350d565f8f83b92f68662ddb8a58/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.0/6e749dde07b1f6fe13444c94befde3c28e700d5b/common-1.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/920d53762d31c8d0e765c49c89bdb447/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/4224af2b74772841b86b5f2a86eebc4d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/19a92c3378062ab0986edec90dbbb567/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c80f3df083b5cf2533fc8313b023e3ab/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f14aa2300797045ddd059b8932d501b9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/20f0ad765f2336ce4abea5a2dc7c5d9d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.1.aar/f72f8edba9bb5d1f233f4efd9eb28b13/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/fa8127e505bff50fec291d0dd619d1bda5c619e0/kotlin-stdlib-1.2.51.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7baa1a8bcb9dc7901d9927de4eb0436e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.0/6e749dde07b1f6fe13444c94befde3c28e700d5b/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/1773ea1fa49f882e79487d6e0a3f242e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/cf42aeec7cb2362ac66126c740908899/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1680a9c83dd146d5880eb02a49c6b9ff/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2ed302092a9e877b915867c4f937ddcb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d230c8e43dbd9f7022e8814cfcf3bde8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bea2fa98600e32ba2fdcec18cef25a74/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/43aded8ac53596f889f4d728dcfba335/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e4a0dd6ab0638fa6ca68f2384b5410d0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a013b8cd5fa49c99c38c338d9bb7360a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/059342f6b06b30dede7a7ccdaaaff40c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/0d8ec199bdcbbd7a932975d47bf833f7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/eb2a232734e09fcd1b958a5c7520a93c6de38b32/kotlin-stdlib-1.3.20.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-turf/4.3.0/a5da26ba18fe6af97f0de66d9b73c9495df07f73/mapbox-sdk-turf-4.3.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-geojson/4.3.0/e84301470af7f06893705789ce72e96396ac1c20/mapbox-sdk-geojson-4.3.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-core/4.3.0/40e74ea529c4aff507289ae875e16a48069e381/mapbox-sdk-core-4.3.0.jar] (filtered)
@@ -604,27 +645,30 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.square
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/fc4aa382632bfaa7be7b41579efba41d5a71ecf3/retrofit-2.4.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.11.0/f24576b8fd39d34149654df9702f070042083b65/logging-interceptor-3.11.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e4a9d4b13ab19ed1e6531fce6df98e8cfa7f7301/kotlin-stdlib-common-1.2.51.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.2/bfc967828daffc35ba01c9ee204d98b664930a0f/constraint-layout-solver-1.1.2.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.1/c1a6655cebcac68e63e4c24d23f573035032eb2a/annotations-16.0.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-1.1.0.aar/eed9352568fafcd96341fb4dce37daa0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/7d7934e26ce34da1a0a8d00e38038d7cf3375e89/kotlin-stdlib-common-1.3.20.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-1.1.0.aar/ed23057d0dd785758904c1d19f5c66f5/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/tmp/kapt3/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/tmp/kapt3/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
 Initializing...
 Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
 Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
@@ -632,10 +676,13 @@ Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenc
 Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
 Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
 Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
 Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
 Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity); }', but not the descriptor class 'com.google.android.gms.common.api.internal.LifecycleActivity'
-Note: the configuration keeps the entry point 'com.google.android.gms.common.images.internal.LoadingImageView { void setOnImageLoadedListener(com.google.android.gms.common.images.ImageManager$OnImageLoadedListener); }', but not the descriptor class 'com.google.android.gms.common.images.ImageManager$OnImageLoadedListener'
-Note: the configuration keeps the entry point 'com.google.android.gms.common.images.internal.LoadingImageView { void setClipPathProvider(com.google.android.gms.common.images.internal.LoadingImageView$ClipPathProvider); }', but not the descriptor class 'com.google.android.gms.common.images.internal.LoadingImageView$ClipPathProvider'
 Note: the configuration keeps the entry point 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.ResultView { void setOnItemClickListener(com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.ResultClickCallback); }', but not the descriptor class 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.ResultClickCallback'
 Note: the configuration keeps the entry point 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView { void setBackButtonListener(com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView$BackButtonListener); }', but not the descriptor class 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView$BackButtonListener'
 Note: the configuration keeps the entry point 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView { void setQueryListener(com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView$QueryListener); }', but not the descriptor class 'com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.SearchView$QueryListener'
@@ -645,7 +692,7 @@ Note: there were 1 references to unknown classes.
       (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
 Note: there were 1 references to unknown class members.
       You should check your configuration for typos.
-Note: there were 7 unkept descriptor classes in kept class members.
+Note: there were 5 unkept descriptor classes in kept class members.
       You should consider explicitly keeping the mentioned classes
       (using '-keep').
       (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
@@ -653,60 +700,75 @@ Note: there were 5 unresolved dynamic references to classes or interfaces.
       You should check if you need to specify additional program jars.
       (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
 Ignoring unused library classes...
-  Original number of library classes: 4612
-  Final number of library classes:    1417
+  Original number of library classes: 4803
+  Final number of library classes:    1533
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
-  Original number of program classes: 5830
-  Final number of program classes:    3043
+  Original number of program classes: 6074
+  Final number of program classes:    3114
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.51/a37c0066df119c02f034bf17159089b588ccc41a/kotlin-stdlib-jdk7-1.2.51.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-7.0.1.aar/7e9b07d2a9c5b50aba279d135abe485d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-services/3.2.0/d480d3d52680fcce6d36bad918e7d7c675ddcd4b/mapbox-sdk-services-3.2.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-4.1.1.aar/8a21e5cfd337d690205eb733937b6ba2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/3f2f5fe1fed7c04fccf89ef0b9eea4d5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/38b4bcc7a48e62d694e91ec87fc75d26/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7a02739718a9ee9e9714c6eb39acf342/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f0462d10fa8ffdea1755132d7609dbf7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d2e4c032e6c310399ef6af1524d06c30/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f78c9e16344f386391eba1df1b576617/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf31f1aba328b8220f75105e3817ec12/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/275b931baf0d1524f44d148280439b90/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/223ddf01af8f7b6bc79a021237112508/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ddc4de4b3df732ec112712eb02c67d13/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c09c9a4715487d0bb41a7a9fca3b4f5e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8c4ae71df1f375a1d5ca9f3661d9c975/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/7a8a1208cf7481091b3af2ebc0f140d8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/1c3db502ecca4b929dedb9b942e2d433/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f7656ba2be3313464d8815decfe55812/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eeecc0f67e316dd44d84270d496ece02/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1c6cf7f1092972ada8a735cd81ffd091/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3f667023fcb6c16138fb7a736f1dd367/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d9d497bcde851ae7885755295d31f45d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.3.0.aar/a81cef3deb621ff94388853b15b4451d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2693aee1b69a6660a2d6c4357dbcba5d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/48f0630da60011b711bf364208f92a8c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b95b32425ceb5c944e2c2dc8429bd4c5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2c07aaf43346b10f666958f8040d9dde/jars/classes.jar] (filtered)
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.20/aa17d6fd473ce53061a7b2b9d2ae96f547cae93d/kotlin-stdlib-jdk7-1.3.20.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-7.1.2.aar/d6add7d222d09568ccba248a1a9c3163/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-services/4.3.0/5ec0e4a7125861f2be33d54965fef1772d9459ac/mapbox-sdk-services-4.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-4.2.0.aar/af0e6579ba1867d9e08297fb864ad921/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/d1c8c56c842086a5fe4212c891704709/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5708766effa3cfbd5e77dfa3d0528b7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/3ca849db30c4c7b85ef3199c3bbdfde6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ea3e9b939b26e9b7dc26623b81a58405/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/98d1ca459cd7331c31aafbe681451211/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/049ecfd0612dc444ea5d914cbafdb5ed/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.3.aar/76b016c0e12d46152cc71c91b54478bc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7aa1da627d7eff4e56e58175410bf00a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/ef476a8747aa42f8a700e4eef9ea5e83/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a45296a661bd22c4b116ee13def5dd87/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/b754d8152ad0e55fcaa5b39697e49e68/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e55433cf12b95682761eaf2a7d5e54b7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d181684567d07a75390c82868f51d230/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5c4f8f4e72396282613a36bf7dbd8236/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fb7795af0f338b42df2531f067bd2884/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d3e4092664f6f30d702e2028368f6d30/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/acb8b1f204f24fbd1b47f8ced0aed431/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7ac54b83a831329027edba13bbfd903f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.4.0.aar/e22e6c3ff9b2a2cd57fbdd27c3b4500e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c3c50853eff74fc3249ae53a9bc62a34/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9e950e9fb26a9f3efd46d98a44f7fe7e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/214fd435e82e3d787e7ab9aa581d24bd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ca61195a70a2760edb9c3355c14c7180/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/596540423239d8f8fc33d5b697594dc9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/78fe33b086796a547508d938f7380992/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ec9aeadd1de65c0530c4973477f17e9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/79f0be1681ed0146bf504846f36a33a2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dd54925e66cf5951a72a91ea6e44009b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2ed375489aecbee31da86e0bfdcd127b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/75741657392ad45a2762044e809229bf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/801a5961fbed0d09d9966a400add8de7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b8bf33005fb854917c4db8241b8e0d12/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9412350d565f8f83b92f68662ddb8a58/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.0/6e749dde07b1f6fe13444c94befde3c28e700d5b/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/920d53762d31c8d0e765c49c89bdb447/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/4224af2b74772841b86b5f2a86eebc4d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/19a92c3378062ab0986edec90dbbb567/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c80f3df083b5cf2533fc8313b023e3ab/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f14aa2300797045ddd059b8932d501b9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/20f0ad765f2336ce4abea5a2dc7c5d9d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.1.aar/f72f8edba9bb5d1f233f4efd9eb28b13/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/fa8127e505bff50fec291d0dd619d1bda5c619e0/kotlin-stdlib-1.2.51.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7baa1a8bcb9dc7901d9927de4eb0436e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.0/6e749dde07b1f6fe13444c94befde3c28e700d5b/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/1773ea1fa49f882e79487d6e0a3f242e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/cf42aeec7cb2362ac66126c740908899/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1680a9c83dd146d5880eb02a49c6b9ff/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2ed302092a9e877b915867c4f937ddcb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d230c8e43dbd9f7022e8814cfcf3bde8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bea2fa98600e32ba2fdcec18cef25a74/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/43aded8ac53596f889f4d728dcfba335/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e4a0dd6ab0638fa6ca68f2384b5410d0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a013b8cd5fa49c99c38c338d9bb7360a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/059342f6b06b30dede7a7ccdaaaff40c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/0d8ec199bdcbbd7a932975d47bf833f7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/eb2a232734e09fcd1b958a5c7520a93c6de38b32/kotlin-stdlib-1.3.20.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-turf/4.3.0/a5da26ba18fe6af97f0de66d9b73c9495df07f73/mapbox-sdk-turf-4.3.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-geojson/4.3.0/e84301470af7f06893705789ce72e96396ac1c20/mapbox-sdk-geojson-4.3.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-sdk-core/4.3.0/40e74ea529c4aff507289ae875e16a48069e381/mapbox-sdk-core-4.3.0.jar] (filtered)
@@ -714,76 +776,77 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/fc4aa382632bfaa7be7b41579efba41d5a71ecf3/retrofit-2.4.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.11.0/f24576b8fd39d34149654df9702f070042083b65/logging-interceptor-3.11.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e4a9d4b13ab19ed1e6531fce6df98e8cfa7f7301/kotlin-stdlib-common-1.2.51.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.2/bfc967828daffc35ba01c9ee204d98b664930a0f/constraint-layout-solver-1.1.2.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.1/c1a6655cebcac68e63e4c24d23f573035032eb2a/annotations-16.0.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-1.1.0.aar/eed9352568fafcd96341fb4dce37daa0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/7d7934e26ce34da1a0a8d00e38038d7cf3375e89/kotlin-stdlib-common-1.3.20.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-1.1.0.aar/ed23057d0dd785758904c1d19f5c66f5/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-traffic/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-building/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-places/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-offline/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-localization/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-annotation/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/plugin-markerview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/tmp/kapt3/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-:app:transformClassesWithDexBuilderForRelease
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.g.f okhttp3.internal.g.b.a()`
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:ktx-mapbox-maps:compileReleaseNdk NO-SOURCE
-:ktx-mapbox-maps:mergeReleaseJniLibFolders
-:ktx-mapbox-maps:transformNativeLibsWithMergeJniLibsForRelease
-:ktx-mapbox-maps:transformNativeLibsWithStripDebugSymbolForRelease
-:ktx-mapbox-maps:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-annotation:compileReleaseNdk NO-SOURCE
-:plugin-annotation:mergeReleaseJniLibFolders
-:plugin-annotation:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-annotation:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-annotation:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-building:compileReleaseNdk NO-SOURCE
-:plugin-building:mergeReleaseJniLibFolders
-:plugin-building:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-building:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-building:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-localization:compileReleaseNdk NO-SOURCE
-:plugin-localization:mergeReleaseJniLibFolders
-:plugin-localization:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-localization:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-localization:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-markerview:compileReleaseNdk NO-SOURCE
-:plugin-markerview:mergeReleaseJniLibFolders
-:plugin-markerview:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-markerview:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-markerview:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-offline:compileReleaseNdk NO-SOURCE
-:plugin-offline:mergeReleaseJniLibFolders
-:plugin-offline:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-offline:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-offline:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-places:compileReleaseNdk NO-SOURCE
-:plugin-places:mergeReleaseJniLibFolders
-:plugin-places:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-places:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-places:transformNativeLibsWithIntermediateJniLibsForRelease
-:plugin-traffic:compileReleaseNdk NO-SOURCE
-:plugin-traffic:mergeReleaseJniLibFolders
-:plugin-traffic:transformNativeLibsWithMergeJniLibsForRelease
-:plugin-traffic:transformNativeLibsWithStripDebugSymbolForRelease
-:plugin-traffic:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-traffic/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-building/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-places/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-offline/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-localization/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-annotation/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/plugin-markerview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/tmp/kapt3/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.g.f okhttp3.internal.g.b.a()`
 
-BUILD SUCCESSFUL in 1m 28s
-353 actionable tasks: 353 executed
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :ktx-mapbox-maps:compileReleaseNdk NO-SOURCE
+> Task :ktx-mapbox-maps:mergeReleaseJniLibFolders
+> Task :ktx-mapbox-maps:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ktx-mapbox-maps:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ktx-mapbox-maps:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-annotation:compileReleaseNdk NO-SOURCE
+> Task :plugin-annotation:mergeReleaseJniLibFolders
+> Task :plugin-annotation:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-annotation:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-annotation:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-building:compileReleaseNdk NO-SOURCE
+> Task :plugin-building:mergeReleaseJniLibFolders
+> Task :plugin-building:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-building:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-building:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-localization:compileReleaseNdk NO-SOURCE
+> Task :plugin-localization:mergeReleaseJniLibFolders
+> Task :plugin-localization:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-localization:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-localization:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-markerview:compileReleaseNdk NO-SOURCE
+> Task :plugin-markerview:mergeReleaseJniLibFolders
+> Task :plugin-markerview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-markerview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-markerview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-offline:compileReleaseNdk NO-SOURCE
+> Task :plugin-offline:mergeReleaseJniLibFolders
+> Task :plugin-offline:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-offline:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-offline:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-places:compileReleaseNdk NO-SOURCE
+> Task :plugin-places:mergeReleaseJniLibFolders
+> Task :plugin-places:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-places:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-places:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-traffic:compileReleaseNdk NO-SOURCE
+> Task :plugin-traffic:mergeReleaseJniLibFolders
+> Task :plugin-traffic:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-traffic:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-traffic:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-2019-01-28 10:44:11,655 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548646951337-0/src/mapbox-plugins-android-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 2m 3s
+349 actionable tasks: 349 executed
+
+2019-02-24 18:11:06,218 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006529875-0/src/mapbox-plugins-android-master/app/build/outputs/apk/debug/app-debug.apk

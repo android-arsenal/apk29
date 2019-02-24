@@ -1,38 +1,40 @@
-2018-10-07 19:04:33,536 INFO  DownloadService - Downloading "https://github.com/Lamartio/Krate/archive/master.zip", attempt 3
-2018-10-07 19:04:35,662 INFO  DownloadService - Downloaded https://github.com/Lamartio/Krate/archive/master.zip, attempt 3
-2018-10-07 19:04:35,662 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/master.zip": 265 KB
-2018-10-07 19:04:35,662 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-07 19:04:35,668 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/master.zip: true
-2018-10-07 19:04:35,668 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src'.
-2018-10-07 19:04:35,704 INFO  FullProcessService - Size of directory with sources: 331 KB
-2018-10-07 19:04:35,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src]
-2018-10-07 19:04:35,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/.git/
+2019-02-24 18:07:04,084 INFO  DownloadService - Downloading "https://github.com/Lamartio/Krate/archive/master.zip", attempt 3
+2019-02-24 18:07:05,191 INFO  DownloadService - Downloaded https://github.com/Lamartio/Krate/archive/master.zip, attempt 3
+2019-02-24 18:07:05,191 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/master.zip": 265 KB
+2019-02-24 18:07:05,191 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-24 18:07:05,196 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/master.zip: true
+2019-02-24 18:07:05,197 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src'.
+2019-02-24 18:07:05,226 INFO  FullProcessService - Size of directory with sources: 331 KB
+2019-02-24 18:07:05,226 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src]
+2019-02-24 18:07:05,245 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/.git/
 
-2018-10-07 19:04:35,731 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/gradlew
-2018-10-07 19:04:35,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/build.gradle
-2018-10-07 19:04:35,742 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/settings.gradle
-2018-10-07 19:04:35,743 INFO  ProjectBuildService - Remote scripts: none
-2018-10-07 19:04:35,743 INFO  ProjectFixService - Fixing project...
-2018-10-07 19:04:35,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/local.properties
-2018-10-07 19:04:35,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/local.properties
-2018-10-07 19:04:35,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/local.properties
-2018-10-07 19:04:35,765 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-07 19:04:35,765 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-07 19:04:35,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,767 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-07 19:04:35,768 INFO  ProjectFixService - Project was maybe fixed
-2018-10-07 19:04:35,768 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-07 19:04:35,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-07 19:04:44,265 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-07 19:04:44,265 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-07 19:04:44,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-07 19:05:40,693 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-24 18:07:05,250 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/gradlew
+2019-02-24 18:07:05,257 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/build.gradle
+2019-02-24 18:07:05,261 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/settings.gradle
+2019-02-24 18:07:05,261 INFO  ProjectBuildService - Remote scripts: none
+2019-02-24 18:07:05,261 INFO  ProjectFixService - Fixing project...
+2019-02-24 18:07:05,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/local.properties
+2019-02-24 18:07:05,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,276 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/local.properties
+2019-02-24 18:07:05,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/local.properties
+2019-02-24 18:07:05,279 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-24 18:07:05,279 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-24 18:07:05,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-24 18:07:05,282 INFO  ProjectFixService - Project was maybe fixed
+2019-02-24 18:07:05,282 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 18:07:05,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 18:07:12,332 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-24 18:07:12,333 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 18:07:12,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 18:08:08,987 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example:preBuild UP-TO-DATE
 :example:preDebugBuild
+Download https://jcenter.bintray.com/io/lamart/krate/krate/0.9.6/krate-0.9.6.aar
+Download https://jcenter.bintray.com/com/facebook/conceal/conceal/2.0.2/conceal-2.0.2.aar
 :example:compileDebugAidl
 :example:compileDebugRenderscript
 :example:checkDebugManifest
@@ -62,8 +64,8 @@
 :example:mergeDebugJniLibFolders
 :example:transformNativeLibsWithMergeJniLibsForDebug
 :example:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :example:processDebugJavaRes NO-SOURCE
 :example:transformResourcesWithMergeJavaResForDebug
 :example:validateSigningDebug
@@ -99,8 +101,8 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :example:mergeReleaseJniLibFolders
 :example:transformNativeLibsWithMergeJniLibsForRelease
 :example:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :example:processReleaseJavaRes NO-SOURCE
 :example:transformResourcesWithMergeJavaResForRelease
 :example:packageRelease
@@ -111,4 +113,4 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 BUILD SUCCESSFUL in 55s
 55 actionable tasks: 55 executed
 
-2018-10-07 19:05:40,787 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538913873527-0/src/Krate-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-02-24 18:08:09,070 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551006424081-0/src/Krate-master/example/build/outputs/apk/release/example-release-unsigned.apk
