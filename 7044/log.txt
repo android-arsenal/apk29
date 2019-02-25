@@ -1,48 +1,45 @@
-2019-02-07 19:47:47,893 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin/archive/master.zip", attempt 3
-2019-02-07 19:48:48,543 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-07 19:48:49,957 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-07 19:48:49,957 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin/archive/master.zip", attempt 3
-2019-02-07 19:49:51,679 DEBUG FullProcessService - Repository https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin available: true
-2019-02-07 19:49:51,679 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-07 19:49:51,679 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src]
-2019-02-07 19:50:02,309 INFO  SysUtils - 
-2019-02-07 19:50:02,323 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/.git": true
-2019-02-07 19:50:02,329 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-02-07 19:50:02,329 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src]
-2019-02-07 19:50:02,354 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/.git/
+2019-02-25 11:46:44,187 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin/archive/master.zip", attempt 3
+2019-02-25 11:47:26,702 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/DBFlowManager-Hyperion-Plugin/archive/master.zip, attempt 3
+2019-02-25 11:47:26,702 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/master.zip": 3 MB
+2019-02-25 11:47:26,702 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-25 11:47:26,703 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/master.zip: true
+2019-02-25 11:47:26,703 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src'.
+2019-02-25 11:47:26,749 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-02-25 11:47:26,750 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src]
+2019-02-25 11:47:26,769 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/.git/
 
-2019-02-07 19:50:02,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/gradlew
-2019-02-07 19:50:02,367 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/build.gradle
-2019-02-07 19:50:02,373 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/settings.gradle
-2019-02-07 19:50:02,373 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-02-07 19:50:03,578 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-02-07 19:50:03,579 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-02-07 19:50:03,675 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-02-07 19:50:03,675 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-02-07 19:50:03,773 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-02-07 19:50:03,773 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-02-07 19:50:03,773 INFO  ProjectFixService - Fixing project...
-2019-02-07 19:50:03,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/local.properties
-2019-02-07 19:50:03,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library-no-op/local.properties
-2019-02-07 19:50:03,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library/local.properties
-2019-02-07 19:50:03,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/dbflowmanager-hyperion-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/local.properties
-2019-02-07 19:50:03,801 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-07 19:50:03,802 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-07 19:50:03,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,804 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-02-07 19:50:03,804 INFO  ProjectFixService - Project was maybe fixed
-2019-02-07 19:50:03,804 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-07 19:50:03,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-07 19:50:13,842 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-02-07 19:50:13,842 INFO  ProjectTaskService - Excluded tasks (25): lintDebug mockableAndroidJar androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-07 19:50:13,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-07 19:50:23,978 ERROR SysUtils - Could not process external command
+2019-02-25 11:47:26,774 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/gradlew
+2019-02-25 11:47:26,779 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/build.gradle
+2019-02-25 11:47:26,784 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/settings.gradle
+2019-02-25 11:47:26,785 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-02-25 11:47:26,880 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-02-25 11:47:26,880 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-02-25 11:47:26,972 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-02-25 11:47:26,973 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-02-25 11:47:27,065 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-02-25 11:47:27,065 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-02-25 11:47:27,065 INFO  ProjectFixService - Fixing project...
+2019-02-25 11:47:27,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/local.properties
+2019-02-25 11:47:27,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library-no-op/local.properties
+2019-02-25 11:47:27,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,087 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library/local.properties
+2019-02-25 11:47:27,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/dbflowmanager-hyperion-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/local.properties
+2019-02-25 11:47:27,091 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-25 11:47:27,091 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-25 11:47:27,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-25 11:47:27,093 INFO  ProjectFixService - Project was maybe fixed
+2019-02-25 11:47:27,093 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-25 11:47:27,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-25 11:47:33,605 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-02-25 11:47:33,605 INFO  ProjectTaskService - Excluded tasks (25): lintDebug mockableAndroidJar androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-25 11:47:33,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-25 11:47:40,896 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +52,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -69,7 +66,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-07 19:50:23,978 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 11:47:40,896 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -149,23 +146,18 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 9s
+BUILD FAILED in 6s
 
-2019-02-07 19:50:23,978 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-02-07 19:50:23,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-07 19:52:01,516 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 11:47:40,896 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-02-25 11:47:40,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-25 11:48:31,044 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :dbflowmanager-hyperion-library:preBuild UP-TO-DATE
 :dbflowmanager-hyperion-library:preDebugBuild UP-TO-DATE
 :dbflowmanager-hyperion-library:checkDebugManifest
 :dbflowmanager-hyperion-library:processDebugManifest
 :app:preDebugBuild
-Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow/4.2.3/dbflow-4.2.3.aar
-Download https://jcenter.bintray.com/com/willowtreeapps/hyperion/hyperion-plugin/0.9.20/hyperion-plugin-0.9.20.aar
-Download https://jcenter.bintray.com/com/willowtreeapps/hyperion/hyperion-core/0.9.20/hyperion-core-0.9.20.aar
-Download https://jcenter.bintray.com/com/wajahatkarim3/DBFlowManager/DBFlowManager/3.1.1-v1/DBFlowManager-3.1.1-v1.aar
 :dbflowmanager-hyperion-library:compileDebugAidl
-Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow/3.1.1/dbflow-3.1.1.aar
 :app:compileDebugAidl
 :dbflowmanager-hyperion-library:packageDebugRenderscript NO-SOURCE
 :app:compileDebugRenderscript
@@ -186,7 +178,6 @@ Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow/3.1.1/dbflow-3.1.1
 :dbflowmanager-hyperion-library:generateDebugBuildConfig
 :dbflowmanager-hyperion-library:prepareLintJar
 :dbflowmanager-hyperion-library:javaPreCompileDebug
-Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow-core/3.1.1/dbflow-core-3.1.1.jar
 :dbflowmanager-hyperion-library:processDebugJavaRes NO-SOURCE
 :app:prepareLintJar
 :app:compileDebugNdk NO-SOURCE
@@ -211,7 +202,6 @@ Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow-core/3.1.1/dbflow-
 :dbflowmanager-hyperion-library-no-op:checkReleaseManifest
 :dbflowmanager-hyperion-library-no-op:processReleaseManifest
 :app:preReleaseBuild
-Download https://jcenter.bintray.com/com/willowtreeapps/hyperion/hyperion-core-no-op/0.9.20/hyperion-core-no-op-0.9.20.aar
 :dbflowmanager-hyperion-library-no-op:compileReleaseAidl
 :app:compileReleaseAidl
 :dbflowmanager-hyperion-library-no-op:packageReleaseRenderscript NO-SOURCE
@@ -255,30 +245,6 @@ Download https://jcenter.bintray.com/com/willowtreeapps/hyperion/hyperion-core-n
 :app:processDebugUnitTestJavaRes NO-SOURCE
 :app:preReleaseUnitTestBuild UP-TO-DATE
 :app:processReleaseUnitTestJavaRes NO-SOURCE
-:dbflowmanager-hyperion-library-no-op:generateReleaseRFile
-:app:processReleaseResources
-:dbflowmanager-hyperion-library-no-op:generateReleaseSources
-:dbflowmanager-hyperion-library-no-op:compileReleaseJavaWithJavac
-:dbflowmanager-hyperion-library-no-op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:kaptGenerateStubsReleaseKotlin
-Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow-core/4.2.3/dbflow-core-4.2.3.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.1.51/kotlin-stdlib-jre8-1.1.51.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.51/kotlin-stdlib-jre7-1.1.51.jar
-Download https://jitpack.io/com/github/agrosner/KPoet/1.0.0/KPoet-1.0.0.jar
-Download https://jitpack.io/com/github/Raizlabs/DBFlow/dbflow-processor/4.2.3/dbflow-processor-4.2.3.jar
-:app:kaptReleaseKotlin
-w: warning: File for type 'com.raizlabs.android.dbflow.config.AppDBAppDB_Database' created in the last round will not be subject to annotation processing.
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
 :dbflowmanager-hyperion-library:generateDebugRFile
 :app:processDebugResources
 :dbflowmanager-hyperion-library:generateDebugSources
@@ -293,7 +259,6 @@ w: warning: File for type 'com.raizlabs.android.dbflow.config.AppDBAppDB_Databas
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 2 methods.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -301,21 +266,40 @@ D8: Stripped invalid locals information from 2 methods.
 :app:transformResourcesWithMergeJavaResForDebug
 :app:packageDebug
 :app:assembleDebug
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Ran lint on variant release: 6 issues found
-Ran lint on variant debug: 6 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build/reports/lint-results.xml
 :app:kaptGenerateStubsDebugUnitTestKotlin
 :app:kaptDebugUnitTestKotlin
 :app:compileDebugUnitTestKotlin
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
 :app:testDebugUnitTest
+:dbflowmanager-hyperion-library-no-op:generateReleaseRFile
+:app:processReleaseResources
+:dbflowmanager-hyperion-library-no-op:generateReleaseSources
+:dbflowmanager-hyperion-library-no-op:compileReleaseJavaWithJavac
+:dbflowmanager-hyperion-library-no-op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+w: warning: File for type 'com.raizlabs.android.dbflow.config.AppDBAppDB_Database' created in the last round will not be subject to annotation processing.
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant debug: 6 issues found
+Ran lint on variant release: 6 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build/reports/lint-results.xml
 :app:kaptGenerateStubsReleaseUnitTestKotlin
 :app:kaptReleaseUnitTestKotlin
 :app:compileReleaseUnitTestKotlin
@@ -326,7 +310,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 1m 36s
+BUILD SUCCESSFUL in 49s
 110 actionable tasks: 110 executed
 
-2019-02-07 19:52:01,671 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549543667890-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-02-25 11:48:31,142 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551070004184-0/src/DBFlowManager-Hyperion-Plugin-master/app/build/outputs/apk/debug/app-debug.apk
