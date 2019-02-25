@@ -9,6 +9,10 @@
     "minSdkVersion" : "17",
     "targetSdkVersion" : "27",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -26,9 +30,9 @@
   },
   "dexClasses" : 3197,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" package=\"org.shagi.filepicker\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"FilePicker\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:name=\"org.shagi.filepickersample.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"org.shagi.filepickersample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"org.shagi.filepicker.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"org.shagi.filepicker.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2839312,
-  "crc32" : 2169182935,
-  "sha256" : "b02b323723a24eecdc6333af5ccba8643e274e1402bcec1e90f4430f18e371ce",
-  "buildTime" : 1538367357000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" package=\"org.shagi.filepicker\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"FilePicker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"org.shagi.filepickersample.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"org.shagi.filepickersample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"org.shagi.filepicker.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"org.shagi.filepicker.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2839378,
+  "crc32" : 2333316046,
+  "sha256" : "2ba5b602b54fcb4397b4738d582b5b8a41905f39686900c8005890f06f4677da",
+  "buildTime" : 1551109924000
 }

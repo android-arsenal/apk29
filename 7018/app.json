@@ -9,6 +9,10 @@
     "minSdkVersion" : "21",
     "targetSdkVersion" : "27",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -32,9 +36,9 @@
   },
   "dexClasses" : 4627,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"top.defaults.cameraapp\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"CameraApp\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:name=\"top.defaults.cameraapp.CameraApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"top.defaults.cameraapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d0116\" android:name=\"top.defaults.cameraapp.PhotographerActivity\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"top.defaults.cameraapp.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
-  "fileSize" : 3050206,
-  "crc32" : 3961890464,
-  "sha256" : "9b69862cfa4f77472078ea7b9f7913204f80c241559717595c0eb58907200683",
-  "buildTime" : 1537696253000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"top.defaults.cameraapp\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"CameraApp\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"top.defaults.cameraapp.CameraApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"top.defaults.cameraapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d0116\" android:name=\"top.defaults.cameraapp.PhotographerActivity\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"top.defaults.cameraapp.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
+  "fileSize" : 3050099,
+  "crc32" : 343098649,
+  "sha256" : "fc40867757f4360fc5b4f57e48bd5f88b639a5350c5c9628338dcc1c44130b83",
+  "buildTime" : 1551109558000
 }

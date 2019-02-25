@@ -1,44 +1,46 @@
-2018-09-23 16:50:10,938 INFO  DownloadService - Downloading "https://github.com/duanhong169/Camera/archive/master.zip", attempt 3
-2018-09-23 16:50:11,484 INFO  DownloadService - Downloaded https://github.com/duanhong169/Camera/archive/master.zip, attempt 3
-2018-09-23 16:50:11,484 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/master.zip": 387 KB
-2018-09-23 16:50:11,484 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-23 16:50:11,490 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/master.zip: true
-2018-09-23 16:50:11,490 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src'.
-2018-09-23 16:50:11,525 INFO  FullProcessService - Size of directory with sources: 506 KB
-2018-09-23 16:50:11,525 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src]
-2018-09-23 16:50:11,542 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/.git/
+2019-02-25 22:45:15,998 INFO  DownloadService - Downloading "https://github.com/duanhong169/Camera/archive/master.zip", attempt 3
+2019-02-25 22:45:18,561 INFO  DownloadService - Downloaded https://github.com/duanhong169/Camera/archive/master.zip, attempt 3
+2019-02-25 22:45:18,561 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/master.zip": 387 KB
+2019-02-25 22:45:18,561 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-25 22:45:18,563 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/master.zip: true
+2019-02-25 22:45:18,563 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src'.
+2019-02-25 22:45:18,602 INFO  FullProcessService - Size of directory with sources: 506 KB
+2019-02-25 22:45:18,602 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src]
+2019-02-25 22:45:18,624 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/.git/
 
-2018-09-23 16:50:11,546 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/gradlew
-2018-09-23 16:50:11,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/build.gradle
-2018-09-23 16:50:11,555 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/settings.gradle
-2018-09-23 16:50:11,556 INFO  ProjectBuildService - Remote scripts: none
-2018-09-23 16:50:11,556 INFO  ProjectFixService - Fixing project...
-2018-09-23 16:50:11,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/local.properties
-2018-09-23 16:50:11,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,569 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/local.properties
-2018-09-23 16:50:11,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/camera/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/local.properties
-2018-09-23 16:50:11,574 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-09-23 16:50:11,575 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-09-23 16:50:11,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2018-09-23 16:50:11,577 INFO  ProjectFixService - Project was maybe fixed
-2018-09-23 16:50:11,577 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-23 16:50:11,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-23 16:50:17,905 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-09-23 16:50:17,906 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-23 16:50:17,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-23 16:51:13,927 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 22:45:18,628 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/gradlew
+2019-02-25 22:45:18,633 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/build.gradle
+2019-02-25 22:45:18,638 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/settings.gradle
+2019-02-25 22:45:18,638 INFO  ProjectBuildService - Remote scripts: none
+2019-02-25 22:45:18,638 INFO  ProjectFixService - Fixing project...
+2019-02-25 22:45:18,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/local.properties
+2019-02-25 22:45:18,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,651 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/local.properties
+2019-02-25 22:45:18,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,653 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/camera/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/local.properties
+2019-02-25 22:45:18,654 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-25 22:45:18,655 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-25 22:45:18,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-25 22:45:18,657 INFO  ProjectFixService - Project was maybe fixed
+2019-02-25 22:45:18,657 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-25 22:45:18,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-25 22:45:24,753 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-25 22:45:24,753 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-25 22:45:24,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-25 22:46:18,193 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :camera:preBuild UP-TO-DATE
 :camera:preDebugBuild UP-TO-DATE
 :camera:checkDebugManifest
 :camera:processDebugManifest
 :app:preDebugBuild
-Download https://jcenter.bintray.com/com/github/duanhong169/picker-view/1.0.0/picker-view-1.0.0.pom
+Download https://jcenter.bintray.com/com/tbruyelle/rxpermissions2/rxpermissions/0.9.5/rxpermissions-0.9.5.aar
 Download https://jcenter.bintray.com/com/github/duanhong169/picker-view/1.0.0/picker-view-1.0.0.aar
+Download https://jcenter.bintray.com/com/github/duanhong169/text-button/1.0.5/text-button-1.0.5.aar
+Download https://jcenter.bintray.com/com/github/duanhong169/logger/1.0.0/logger-1.0.0.aar
 :camera:compileDebugAidl
 :app:compileDebugAidl
 :camera:packageDebugRenderscript NO-SOURCE
@@ -74,11 +76,31 @@ Download https://jcenter.bintray.com/com/github/duanhong169/picker-view/1.0.0/pi
 :app:mergeDebugJniLibFolders
 :camera:compileDebugNdk NO-SOURCE
 :camera:mergeDebugJniLibFolders
+:camera:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:camera:generateDebugSources
+:camera:compileDebugJavaWithJavac
+:camera:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.2/rxjava-2.0.2.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
 :camera:transformNativeLibsWithMergeJniLibsForDebug
 :camera:transformNativeLibsWithStripDebugSymbolForDebug
 :camera:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
 :app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
 :camera:preReleaseBuild UP-TO-DATE
 :camera:checkReleaseManifest
 :camera:processReleaseManifest
@@ -100,10 +122,20 @@ Download https://jcenter.bintray.com/com/github/duanhong169/picker-view/1.0.0/pi
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
+:camera:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
 :camera:generateReleaseBuildConfig
+:camera:generateReleaseSources
 :camera:javaPreCompileRelease
+:camera:compileReleaseJavaWithJavac
 :camera:processReleaseJavaRes NO-SOURCE
+:camera:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -112,56 +144,27 @@ Download https://jcenter.bintray.com/com/github/duanhong169/picker-view/1.0.0/pi
 :camera:generateReleaseAssets
 :camera:packageReleaseAssets
 :app:mergeReleaseAssets
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :camera:compileReleaseNdk NO-SOURCE
 :camera:mergeReleaseJniLibFolders
 :camera:transformNativeLibsWithMergeJniLibsForRelease
 :camera:transformNativeLibsWithStripDebugSymbolForRelease
 :camera:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:camera:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:camera:generateDebugSources
-:camera:compileDebugJavaWithJavac
-:camera:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithStackFramesFixerForDebug
-:app:transformClassesWithDesugarForDebug
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:camera:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:camera:generateReleaseSources
-:camera:compileReleaseJavaWithJavac
-:camera:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:transformClassesWithStackFramesFixerForRelease
-:app:transformClassesWithDesugarForRelease
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 52s
 95 actionable tasks: 95 executed
 
-2018-09-23 16:51:14,049 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537696210930-0/src/Camera-master/app/build/outputs/apk/debug/app-debug.apk
+2019-02-25 22:46:18,304 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109515994-0/src/Camera-master/app/build/outputs/apk/debug/app-debug.apk
