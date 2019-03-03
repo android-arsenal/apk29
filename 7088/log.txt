@@ -1,39 +1,39 @@
-2019-02-24 20:00:30,542 INFO  DownloadService - Downloading "https://github.com/abalta/swappy-image-view/archive/master.zip", attempt 3
-2019-02-24 20:01:31,407 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-24 20:01:32,547 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-24 20:01:32,547 INFO  DownloadService - Downloading "https://github.com/abalta/swappy-image-view/archive/master.zip", attempt 3
-2019-02-24 20:02:34,355 DEBUG FullProcessService - Repository https://github.com/abalta/swappy-image-view available: true
-2019-02-24 20:02:34,355 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-24 20:02:34,355 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/abalta/swappy-image-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src]
-2019-02-24 20:03:13,158 INFO  SysUtils - 
-2019-02-24 20:03:13,167 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/.git": true
-2019-02-24 20:03:13,172 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-02-24 20:03:13,172 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src]
-2019-02-24 20:03:13,189 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/.git/
+2019-03-03 18:25:52,600 INFO  DownloadService - Downloading "https://github.com/abalta/swappy-image-view/archive/master.zip", attempt 3
+2019-03-03 18:26:53,249 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-03 18:26:54,311 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-03 18:26:54,311 INFO  DownloadService - Downloading "https://github.com/abalta/swappy-image-view/archive/master.zip", attempt 3
+2019-03-03 18:27:55,788 DEBUG FullProcessService - Repository https://github.com/abalta/swappy-image-view available: true
+2019-03-03 18:27:55,788 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-03 18:27:55,788 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/abalta/swappy-image-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src]
+2019-03-03 18:28:29,359 INFO  SysUtils - 
+2019-03-03 18:28:29,369 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/.git": true
+2019-03-03 18:28:29,373 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-03-03 18:28:29,373 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src]
+2019-03-03 18:28:29,390 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/.git/
 
-2019-02-24 20:03:13,193 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/gradlew
-2019-02-24 20:03:13,197 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/build.gradle
-2019-02-24 20:03:13,201 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/settings.gradle
-2019-02-24 20:03:13,201 INFO  ProjectBuildService - Remote scripts: none
-2019-02-24 20:03:13,201 INFO  ProjectFixService - Fixing project...
-2019-02-24 20:03:13,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/local.properties
-2019-02-24 20:03:13,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/local.properties
-2019-02-24 20:03:13,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/local.properties
-2019-02-24 20:03:13,213 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-24 20:03:13,213 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-24 20:03:13,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-24 20:03:13,214 INFO  ProjectFixService - Project was maybe fixed
-2019-02-24 20:03:13,214 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-24 20:03:13,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-24 20:03:19,611 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-24 20:03:19,612 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-24 20:03:19,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-24 20:04:17,268 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-03 18:28:29,394 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/gradlew
+2019-03-03 18:28:29,398 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/build.gradle
+2019-03-03 18:28:29,403 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/settings.gradle
+2019-03-03 18:28:29,403 INFO  ProjectBuildService - Remote scripts: none
+2019-03-03 18:28:29,403 INFO  ProjectFixService - Fixing project...
+2019-03-03 18:28:29,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/local.properties
+2019-03-03 18:28:29,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/local.properties
+2019-03-03 18:28:29,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,415 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/local.properties
+2019-03-03 18:28:29,417 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-03 18:28:29,417 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-03 18:28:29,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-03 18:28:29,418 INFO  ProjectFixService - Project was maybe fixed
+2019-03-03 18:28:29,419 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-03 18:28:29,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-03 18:28:37,536 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-03 18:28:37,536 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-03 18:28:37,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-03 18:29:31,662 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :app:preBuild UP-TO-DATE
@@ -42,9 +42,6 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 :swappy:checkDebugManifest
 :swappy:processDebugManifest
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/2.0.0-alpha2/constraint-layout-2.0.0-alpha2.aar
-Download https://jcenter.bintray.com/com/evernote/android-state/1.3.1/android-state-1.3.1.aar
-Download https://jcenter.bintray.com/net/alhazmy13/MediaPicker/libary/2.4.0/libary-2.4.0.aar
 :swappy:compileDebugAidl
 :app:compileDebugAidl
 :swappy:packageDebugRenderscript NO-SOURCE
@@ -126,18 +123,16 @@ Download https://jcenter.bintray.com/net/alhazmy13/MediaPicker/libary/2.4.0/liba
 :swappy:generateDebugRFile
 :app:processDebugResources
 :swappy:compileDebugKotlin
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/2.0.0-alpha2/constraint-layout-solver-2.0.0-alpha2.jar
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (368, 16): 'startDrag(ClipData!, View.DragShadowBuilder!, Any!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (586, 16): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (368, 16): 'startDrag(ClipData!, View.DragShadowBuilder!, Any!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (586, 16): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 :swappy:generateDebugSources
 :swappy:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/evernote/android-state-processor/1.3.1/android-state-processor-1.3.1.jar
 :swappy:compileDebugJavaWithJavac
 :swappy:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:kaptGenerateStubsDebugKotlin
 :app:kaptDebugKotlin
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/src/main/java/com/abdullahbalta/swappyimageview/AddImageGalleryCameraActivity.kt: (47, 84): Unchecked cast: Serializable! to List<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/src/main/java/com/abdullahbalta/swappyimageview/AddImageGalleryCameraActivity.kt: (47, 84): Unchecked cast: Serializable! to List<String>
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
@@ -153,8 +148,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/
 :swappy:generateReleaseRFile
 :app:processReleaseResources
 :swappy:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (368, 16): 'startDrag(ClipData!, View.DragShadowBuilder!, Any!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (586, 16): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (368, 16): 'startDrag(ClipData!, View.DragShadowBuilder!, Any!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/swappy/src/main/java/com/abdullahbalta/swappy/SwappyImageView.kt: (586, 16): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 :swappy:generateReleaseSources
 :swappy:javaPreCompileRelease
 :swappy:compileReleaseJavaWithJavac
@@ -162,7 +157,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/
 :app:kaptGenerateStubsReleaseKotlin
 :app:kaptReleaseKotlin
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/src/main/java/com/abdullahbalta/swappyimageview/AddImageGalleryCameraActivity.kt: (47, 84): Unchecked cast: Serializable! to List<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/src/main/java/com/abdullahbalta/swappyimageview/AddImageGalleryCameraActivity.kt: (47, 84): Unchecked cast: Serializable! to List<String>
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -179,7 +174,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 56s
+BUILD SUCCESSFUL in 53s
 99 actionable tasks: 99 executed
 
-2019-02-24 20:04:17,379 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013230538-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-03 18:29:31,776 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612352596-0/src/app/build/outputs/apk/debug/app-debug.apk

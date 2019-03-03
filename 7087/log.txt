@@ -1,36 +1,37 @@
-2019-02-24 20:04:44,916 INFO  DownloadService - Downloading "https://github.com/okdroid/checkable-chip-view/archive/master.zip", attempt 3
-2019-02-24 20:05:45,748 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-24 20:05:46,943 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-24 20:05:46,943 INFO  DownloadService - Downloading "https://github.com/okdroid/checkable-chip-view/archive/master.zip", attempt 3
-2019-02-24 20:06:48,893 DEBUG FullProcessService - Repository https://github.com/okdroid/checkable-chip-view available: true
-2019-02-24 20:06:48,893 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-24 20:06:48,893 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/okdroid/checkable-chip-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src]
-2019-02-24 20:06:53,184 INFO  SysUtils - 
-2019-02-24 20:06:53,206 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/.git": true
-2019-02-24 20:06:53,208 INFO  FullProcessService - Size of directory with sources: 965 KB
-2019-02-24 20:06:53,208 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src]
-2019-02-24 20:06:53,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/.git/
+2019-03-03 18:30:01,130 INFO  DownloadService - Downloading "https://github.com/okdroid/checkable-chip-view/archive/master.zip", attempt 3
+2019-03-03 18:31:01,868 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-03 18:31:02,919 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-03 18:31:02,919 INFO  DownloadService - Downloading "https://github.com/okdroid/checkable-chip-view/archive/master.zip", attempt 3
+2019-03-03 18:32:04,325 DEBUG FullProcessService - Repository https://github.com/okdroid/checkable-chip-view available: true
+2019-03-03 18:32:04,325 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-03 18:32:04,325 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/okdroid/checkable-chip-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src]
+2019-03-03 18:32:07,500 INFO  SysUtils - 
+2019-03-03 18:32:07,523 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/.git": true
+2019-03-03 18:32:07,525 INFO  FullProcessService - Size of directory with sources: 965 KB
+2019-03-03 18:32:07,525 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src]
+2019-03-03 18:32:07,543 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/.git/
 
-2019-02-24 20:06:53,227 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/gradlew
-2019-02-24 20:06:53,229 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/build.gradle
-2019-02-24 20:06:53,231 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/settings.gradle
-2019-02-24 20:06:53,231 INFO  ProjectBuildService - Remote scripts: none
-2019-02-24 20:06:53,231 INFO  ProjectFixService - Fixing project...
-2019-02-24 20:06:53,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/local.properties
-2019-02-24 20:06:53,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-24 20:06:53,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/local.properties
-2019-02-24 20:06:53,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-24 20:06:53,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/local.properties
-2019-02-24 20:06:53,240 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
-2019-02-24 20:06:53,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
-2019-02-24 20:06:53,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-24 20:06:53,240 INFO  ProjectFixService - Project was maybe fixed
-2019-02-24 20:06:53,240 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-24 20:06:53,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-24 20:07:08,254 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-02-24 20:07:08,254 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-24 20:07:08,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-24 20:08:04,594 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-03 18:32:07,545 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/gradlew
+2019-03-03 18:32:07,547 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/build.gradle
+2019-03-03 18:32:07,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/settings.gradle
+2019-03-03 18:32:07,549 INFO  ProjectBuildService - Remote scripts: none
+2019-03-03 18:32:07,549 INFO  ProjectFixService - Fixing project...
+2019-03-03 18:32:07,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/local.properties
+2019-03-03 18:32:07,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-03 18:32:07,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/local.properties
+2019-03-03 18:32:07,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-03 18:32:07,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/local.properties
+2019-03-03 18:32:07,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-03-03 18:32:07,560 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-03-03 18:32:07,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-03 18:32:07,560 INFO  ProjectFixService - Project was maybe fixed
+2019-03-03 18:32:07,561 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-03 18:32:07,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-03 18:32:17,812 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-03 18:32:17,812 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-03 18:32:17,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-03 18:33:01,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/0.3/core-ktx-0.3.aar
 > Task :demo:checkDebugClasspath
 > Task :demo:preBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
@@ -50,7 +51,6 @@
 > Task :lib:compileDebugRenderscript
 > Task :lib:generateDebugResValues
 > Task :lib:generateDebugResources
-Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.3.0-alpha05-4916870/aapt2-3.3.0-alpha05-4916870-osx.jar
 > Task :lib:packageDebugResources
 > Task :demo:mergeDebugResources
 > Task :demo:createDebugCompatibleScreenManifests
@@ -58,7 +58,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3
 > Task :lib:generateDebugRFile
 > Task :demo:processDebugResources
 > Task :lib:generateDebugBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/src/main/java/com/github/okdroid/checkablechipview/CheckableChipView.kt: (371, 27): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/src/main/java/com/github/okdroid/checkablechipview/CheckableChipView.kt: (371, 27): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 > Task :lib:compileDebugKotlin
 > Task :lib:prepareLintJar
 > Task :lib:generateDebugSources
@@ -123,7 +123,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/
 > Task :lib:generateReleaseRFile
 > Task :demo:processReleaseResources
 > Task :lib:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/lib/src/main/java/com/github/okdroid/checkablechipview/CheckableChipView.kt: (371, 27): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/lib/src/main/java/com/github/okdroid/checkablechipview/CheckableChipView.kt: (371, 27): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 > Task :lib:compileReleaseKotlin
 > Task :lib:generateReleaseSources
 > Task :lib:javaPreCompileRelease
@@ -138,18 +138,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/
 > Task :demo:compileReleaseJavaWithJavac
 > Task :demo:compileReleaseNdk NO-SOURCE
 > Task :demo:compileReleaseSources
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.3.0-alpha05/lint-kotlin-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.3.0-alpha05/lint-gradle-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.3.0-alpha05/lint-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.3.0-alpha05/lint-api-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.3.0-alpha05/kotlin-compiler-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.3.0-alpha05/lint-checks-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.3.0-alpha05/uast-26.3.0-alpha05.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.3.0-alpha05/intellij-core-26.3.0-alpha05.jar
-
 > Task :demo:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4ec6032054bcdab568f1eb7ae63898d1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
 > Task :demo:generateReleaseAssets
@@ -180,7 +169,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 43s
 94 actionable tasks: 94 executed
 
-2019-02-24 20:08:04,678 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013484913-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-03-03 18:33:01,953 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551612601126-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

@@ -1,33 +1,36 @@
-2019-02-25 11:09:42,334 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/LogKit/archive/master.zip", attempt 3
-2019-02-25 11:09:42,979 INFO  DownloadService - Downloaded https://github.com/AndreaCioccarelli/LogKit/archive/master.zip, attempt 3
-2019-02-25 11:09:42,979 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/master.zip": 65 KB
-2019-02-25 11:09:42,979 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-25 11:09:42,981 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/master.zip: true
-2019-02-25 11:09:42,981 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src'.
-2019-02-25 11:09:42,987 INFO  FullProcessService - Size of directory with sources: 83 KB
-2019-02-25 11:09:42,988 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src]
-2019-02-25 11:09:43,007 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/.git/
+2019-03-03 18:43:31,019 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/LogKit/archive/master.zip", attempt 3
+2019-03-03 18:44:31,714 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-03 18:44:32,805 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-03 18:44:32,806 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/LogKit/archive/master.zip", attempt 3
+2019-03-03 18:45:34,640 DEBUG FullProcessService - Repository https://github.com/AndreaCioccarelli/LogKit available: true
+2019-03-03 18:45:34,640 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-03 18:45:34,640 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AndreaCioccarelli/LogKit, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src]
+2019-03-03 18:45:36,553 INFO  SysUtils - 
+2019-03-03 18:45:36,570 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/.git": true
+2019-03-03 18:45:36,571 INFO  FullProcessService - Size of directory with sources: 83 KB
+2019-03-03 18:45:36,571 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src]
+2019-03-03 18:45:36,590 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/.git/
 
-2019-02-25 11:09:43,008 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/gradlew
-2019-02-25 11:09:43,010 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle
-2019-02-25 11:09:43,011 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/settings.gradle
-2019-02-25 11:09:43,012 INFO  ProjectBuildService - Remote scripts: none
-2019-02-25 11:09:43,012 INFO  ProjectFixService - Fixing project...
-2019-02-25 11:09:43,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/local.properties
-2019-02-25 11:09:43,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-25 11:09:43,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-25 11:09:43,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/local.properties
-2019-02-25 11:09:43,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-25 11:09:43,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-25 11:09:43,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-25 11:09:43,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-25 11:09:43,020 INFO  ProjectFixService - Project was maybe fixed
-2019-02-25 11:09:43,020 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 11:09:43,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 11:09:49,492 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-02-25 11:09:49,492 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-25 11:09:49,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-25 11:10:08,896 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-03 18:45:36,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/gradlew
+2019-03-03 18:45:36,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle
+2019-03-03 18:45:36,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/settings.gradle
+2019-03-03 18:45:36,595 INFO  ProjectBuildService - Remote scripts: none
+2019-03-03 18:45:36,595 INFO  ProjectFixService - Fixing project...
+2019-03-03 18:45:36,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/local.properties
+2019-03-03 18:45:36,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-03 18:45:36,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-03 18:45:36,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/local.properties
+2019-03-03 18:45:36,600 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-03 18:45:36,601 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-03 18:45:36,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-03 18:45:36,602 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-03 18:45:36,602 INFO  ProjectFixService - Project was maybe fixed
+2019-03-03 18:45:36,602 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-03 18:45:36,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-03 18:45:42,841 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-03 18:45:42,842 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-03 18:45:42,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-03 18:46:01,209 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl
@@ -100,15 +103,15 @@
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 18s
+BUILD SUCCESSFUL in 17s
 50 actionable tasks: 50 executed
 
-2019-02-25 11:10:08,944 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 11:10:08,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 11:10:15,148 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-02-25 11:10:15,148 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-25 11:10:15,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067782330-0/src/LogKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-25 11:10:23,035 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-03 18:46:01,254 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-03 18:46:01,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-03 18:46:07,163 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-03 18:46:07,163 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-03 18:46:07,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613411016-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-03 18:46:15,206 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl UP-TO-DATE
@@ -184,5 +187,5 @@ BUILD SUCCESSFUL in 18s
 BUILD SUCCESSFUL in 7s
 50 actionable tasks: 50 up-to-date
 
-2019-02-25 11:10:23,082 ERROR FullProcessService - Project build has not produced APK file
-2019-02-25 11:10:23,129 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-03 18:46:15,253 ERROR FullProcessService - Project build has not produced APK file
+2019-03-03 18:46:15,296 ERROR FullProcessService - Could not find generated or existed APK file
