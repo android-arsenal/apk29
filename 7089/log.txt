@@ -1,49 +1,37 @@
-2019-02-25 22:29:11,966 INFO  DownloadService - Downloading "https://github.com/dmdevgo/RxPM/archive/master.zip", attempt 3
-2019-02-25 22:29:14,505 INFO  DownloadService - Downloaded https://github.com/dmdevgo/RxPM/archive/master.zip, attempt 3
-2019-02-25 22:29:14,505 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/master.zip": 417 KB
-2019-02-25 22:29:14,505 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-25 22:29:14,506 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/master.zip: true
-2019-02-25 22:29:14,506 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src'.
-2019-02-25 22:29:14,570 INFO  FullProcessService - Size of directory with sources: 590 KB
-2019-02-25 22:29:14,571 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src]
-2019-02-25 22:29:14,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/.git/
+2019-03-08 20:47:28,302 INFO  DownloadService - Downloading "https://github.com/dmdevgo/RxPM/archive/master.zip", attempt 3
+2019-03-08 20:47:29,190 INFO  DownloadService - Downloaded https://github.com/dmdevgo/RxPM/archive/master.zip, attempt 3
+2019-03-08 20:47:29,190 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/master.zip": 417 KB
+2019-03-08 20:47:29,190 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-08 20:47:29,196 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/master.zip: true
+2019-03-08 20:47:29,196 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src'.
+2019-03-08 20:47:29,237 INFO  FullProcessService - Size of directory with sources: 590 KB
+2019-03-08 20:47:29,237 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src]
+2019-03-08 20:47:29,255 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/.git/
 
-2019-02-25 22:29:14,615 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/gradlew
-2019-02-25 22:29:14,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/build.gradle
-2019-02-25 22:29:14,629 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/settings.gradle
-2019-02-25 22:29:14,631 INFO  ProjectBuildService - Remote scripts: none
-2019-02-25 22:29:14,631 INFO  ProjectFixService - Fixing project...
-2019-02-25 22:29:14,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/local.properties
-2019-02-25 22:29:14,652 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 22:29:14,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/local.properties
-2019-02-25 22:29:14,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 22:29:14,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/local.properties
-2019-02-25 22:29:14,663 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-25 22:29:14,665 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-25 22:29:14,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 22:29:14,666 INFO  ProjectFixService - Project was maybe fixed
-2019-02-25 22:29:14,667 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 22:29:14,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 22:29:25,229 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-02-25 22:29:25,229 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-25 22:29:25,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-25 22:30:01,366 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 20:47:29,261 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/gradlew
+2019-03-08 20:47:29,266 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/build.gradle
+2019-03-08 20:47:29,271 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/settings.gradle
+2019-03-08 20:47:29,272 INFO  ProjectBuildService - Remote scripts: none
+2019-03-08 20:47:29,272 INFO  ProjectFixService - Fixing project...
+2019-03-08 20:47:29,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/local.properties
+2019-03-08 20:47:29,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-08 20:47:29,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/local.properties
+2019-03-08 20:47:29,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-08 20:47:29,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/local.properties
+2019-03-08 20:47:29,290 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-08 20:47:29,290 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-08 20:47:29,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-08 20:47:29,291 INFO  ProjectFixService - Project was maybe fixed
+2019-03-08 20:47:29,291 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 20:47:29,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 20:47:37,937 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-08 20:47:37,937 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-08 20:47:37,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-08 20:48:07,270 INFO  SysUtils - Configuration on demand is an incubating feature.
 :rxpm:preBuild UP-TO-DATE
 :rxpm:preDebugBuild UP-TO-DATE
 :rxpm:compileDebugAidl NO-SOURCE
 :rxpm:compileDebugRenderscript
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/12.0.0/play-services-tasks-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/12.0.0/play-services-basement-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps/12.0.0/play-services-maps-12.0.0.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-support-v4-kotlin/2.1.1/rxbinding-support-v4-kotlin-2.1.1.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-support-v4/2.1.1/rxbinding-support-v4-2.1.1.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding/2.1.1/rxbinding-2.1.1.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/12.0.0/play-services-base-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps-license/12.0.0/play-services-maps-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base-license/12.0.0/play-services-base-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks-license/12.0.0/play-services-tasks-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement-license/12.0.0/play-services-basement-license-12.0.0.aar
-Download https://jcenter.bintray.com/com/bluelinelabs/conductor/2.1.5/conductor-2.1.5.aar
 :rxpm:checkDebugManifest
 :rxpm:generateDebugBuildConfig
 :rxpm:generateDebugResValues
@@ -52,8 +40,7 @@ Download https://jcenter.bintray.com/com/bluelinelabs/conductor/2.1.5/conductor-
 :rxpm:processDebugManifest
 :rxpm:generateDebugRFile
 :rxpm:compileDebugKotlin
-Download https://jcenter.bintray.com/me/jeevuz/outlast/outlast/1.1/outlast-1.1.jar
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/widget/DialogControl.kt: (4, 20): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/widget/DialogControl.kt: (4, 20): 'DialogFragment' is deprecated. Deprecated in Java
 :rxpm:prepareLintJar
 :rxpm:generateDebugSources
 :rxpm:javaPreCompileDebug
@@ -87,7 +74,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/
 :rxpm:processReleaseManifest
 :rxpm:generateReleaseRFile
 :rxpm:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/widget/DialogControl.kt: (4, 20): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/widget/DialogControl.kt: (4, 20): 'DialogFragment' is deprecated. Deprecated in Java
 :rxpm:generateReleaseSources
 :rxpm:javaPreCompileRelease
 :rxpm:compileReleaseJavaWithJavac
@@ -115,15 +102,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/
 :rxpm:assemble
 :rxpm:build
 
-BUILD SUCCESSFUL in 35s
+BUILD SUCCESSFUL in 28s
 48 actionable tasks: 48 executed
 
-2019-02-25 22:30:01,407 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 22:30:01,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 22:30:09,311 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-25 22:30:09,311 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-25 22:30:09,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-25 22:31:19,002 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 20:48:07,303 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 20:48:07,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 20:48:13,756 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-08 20:48:13,756 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-08 20:48:13,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-08 20:48:59,701 INFO  SysUtils - Configuration on demand is an incubating feature.
 :rxpm:preBuild UP-TO-DATE
 :rxpm:preDebugBuild UP-TO-DATE
 :rxpm:compileDebugAidl NO-SOURCE
@@ -143,9 +130,6 @@ BUILD SUCCESSFUL in 35s
 :rxpm:processDebugJavaRes NO-SOURCE
 :rxpm:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:checkDebugClasspath
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7-kotlin/2.1.1/rxbinding-appcompat-v7-kotlin-2.1.1.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-appcompat-v7/2.1.1/rxbinding-appcompat-v7-2.1.1.aar
-Download https://jcenter.bintray.com/com/googlecode/libphonenumber/libphonenumber/8.9.9/libphonenumber-8.9.9.jar
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl NO-SOURCE
@@ -162,8 +146,8 @@ Download https://jcenter.bintray.com/com/googlecode/libphonenumber/libphonenumbe
 :sample:splitsDiscoveryTaskDebug
 :sample:processDebugResources
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/base/ProgressDialog.kt: (18, 23): Type mismatch: inferred type is Context? but Context was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/confirmation/CodeConfirmationScreen.kt: (31, 13): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/base/ProgressDialog.kt: (18, 23): Type mismatch: inferred type is Context? but Context was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/confirmation/CodeConfirmationScreen.kt: (31, 13): Type mismatch: inferred type is String? but String was expected
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -179,14 +163,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :rxpm:compileDebugNdk NO-SOURCE
@@ -235,8 +211,8 @@ D8: Stripped invalid locals information from 1 method.
 :sample:splitsDiscoveryTaskRelease
 :sample:processReleaseResources
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/base/ProgressDialog.kt: (18, 23): Type mismatch: inferred type is Context? but Context was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/confirmation/CodeConfirmationScreen.kt: (31, 13): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/base/ProgressDialog.kt: (18, 23): Type mismatch: inferred type is Context? but Context was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/ui/confirmation/CodeConfirmationScreen.kt: (31, 13): Type mismatch: inferred type is String? but String was expected
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavac
@@ -244,9 +220,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/
 :sample:compileReleaseSources
 :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4c52420ab3050d445276b322310804e8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.71/kotlin-test-annotations-common-1.2.71.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-junit/1.2.71/kotlin-test-junit-1.2.71.jar
-Download https://jcenter.bintray.com/com/nhaarman/mockitokotlin2/mockito-kotlin/2.0.0-RC2/mockito-kotlin-2.0.0-RC2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.jar
 :rxpm:mergeReleaseShaders UP-TO-DATE
 :rxpm:compileReleaseShaders UP-TO-DATE
 :rxpm:generateReleaseAssets UP-TO-DATE
@@ -274,7 +248,7 @@ Download https://jcenter.bintray.com/com/nhaarman/mockitokotlin2/mockito-kotlin/
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 45s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-02-25 22:31:19,143 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551108551962-0/src/RxPM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-08 20:48:59,828 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552052848299-0/src/RxPM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
