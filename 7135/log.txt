@@ -1,174 +1,185 @@
-2019-03-03 17:28:13,348 INFO  DownloadService - Downloading "https://github.com/anitaa1990/Optimize/archive/master.zip", attempt 3
-2019-03-03 17:28:14,003 INFO  DownloadService - Downloaded https://github.com/anitaa1990/Optimize/archive/master.zip, attempt 3
-2019-03-03 17:28:14,003 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/master.zip": 313 KB
-2019-03-03 17:28:14,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-03 17:28:14,003 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/master.zip: true
-2019-03-03 17:28:14,003 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src'.
-2019-03-03 17:28:14,028 INFO  FullProcessService - Size of directory with sources: 368 KB
-2019-03-03 17:28:14,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src]
-2019-03-03 17:28:14,054 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/.git/
+2019-03-24 20:40:49,330 INFO  DownloadService - Downloading "https://github.com/anitaa1990/Optimize/archive/master.zip", attempt 3
+2019-03-24 20:40:52,903 INFO  DownloadService - Downloaded https://github.com/anitaa1990/Optimize/archive/master.zip, attempt 3
+2019-03-24 20:40:52,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/master.zip": 314 KB
+2019-03-24 20:40:52,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-24 20:40:52,909 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/master.zip: true
+2019-03-24 20:40:52,909 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src'.
+2019-03-24 20:40:52,933 INFO  FullProcessService - Size of directory with sources: 368 KB
+2019-03-24 20:40:52,933 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src]
+2019-03-24 20:40:52,957 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/.git/
 
-2019-03-03 17:28:14,057 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/gradlew
-2019-03-03 17:28:14,061 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/optimize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/build.gradle
-2019-03-03 17:28:14,065 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/optimize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/settings.gradle
-2019-03-03 17:28:14,065 INFO  ProjectBuildService - Remote scripts: none
-2019-03-03 17:28:14,065 INFO  ProjectFixService - Fixing project...
-2019-03-03 17:28:14,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/local.properties
-2019-03-03 17:28:14,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/optimize/local.properties
-2019-03-03 17:28:14,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/optimize/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/optimize/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/local.properties
-2019-03-03 17:28:14,078 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-03 17:28:14,078 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-03 17:28:14,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,079 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-03 17:28:14,080 INFO  ProjectFixService - Project was maybe fixed
-2019-03-03 17:28:14,080 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-03 17:28:14,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-03 17:28:22,366 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-03 17:28:22,366 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-03 17:28:22,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-03 17:28:53,099 INFO  SysUtils - Configuration on demand is an incubating feature.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-:app:preBuild UP-TO-DATE
-:optimize:preBuild UP-TO-DATE
-:optimize:preDebugBuild UP-TO-DATE
-:optimize:checkDebugManifest
-:optimize:processDebugManifest
-:app:preDebugBuild
-:optimize:compileDebugAidl
-:app:compileDebugAidl
-:optimize:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:optimize:compileDebugRenderscript
-:optimize:generateDebugResValues
-:optimize:generateDebugResources
-:optimize:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:optimize:platformAttrExtractor
-:optimize:generateDebugBuildConfig
-:optimize:prepareLintJar
-:optimize:javaPreCompileDebug
-:optimize:processDebugJavaRes NO-SOURCE
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:optimize:mergeDebugShaders
-:optimize:compileDebugShaders
-:optimize:generateDebugAssets
-:optimize:packageDebugAssets
-:app:mergeDebugAssets
-:app:mergeDebugJniLibFolders
-:optimize:compileDebugNdk NO-SOURCE
-:optimize:mergeDebugJniLibFolders
-:optimize:transformNativeLibsWithMergeJniLibsForDebug
-:optimize:transformNativeLibsWithStripDebugSymbolForDebug
-:optimize:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:optimize:preReleaseBuild UP-TO-DATE
-:optimize:checkReleaseManifest
-:optimize:processReleaseManifest
-:app:preReleaseBuild
-:optimize:compileReleaseAidl
-:app:compileReleaseAidl
-:optimize:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:optimize:compileReleaseRenderscript
-:optimize:generateReleaseResValues
-:optimize:generateReleaseResources
-:optimize:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:optimize:generateReleaseBuildConfig
-:optimize:javaPreCompileRelease
-:optimize:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:optimize:mergeReleaseShaders
-:optimize:compileReleaseShaders
-:optimize:generateReleaseAssets
-:optimize:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:mergeReleaseJniLibFolders
-:optimize:compileReleaseNdk NO-SOURCE
-:optimize:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:optimize:generateDebugSources
-:optimize:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+2019-03-24 20:40:52,961 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/gradlew
+2019-03-24 20:40:52,965 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/optimize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/build.gradle
+2019-03-24 20:40:52,969 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/optimize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/settings.gradle
+2019-03-24 20:40:52,970 INFO  ProjectBuildService - Remote scripts: none
+2019-03-24 20:40:52,970 INFO  ProjectFixService - Fixing project...
+2019-03-24 20:40:52,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/local.properties
+2019-03-24 20:40:52,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-24 20:40:52,979 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-24 20:40:52,980 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/optimize/local.properties
+2019-03-24 20:40:52,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/optimize/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-24 20:40:52,981 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/optimize/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-24 20:40:52,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/local.properties
+2019-03-24 20:40:52,983 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-24 20:40:52,983 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-24 20:40:52,985 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-24 20:40:52,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-24 20:40:52,985 INFO  ProjectFixService - Project was maybe fixed
+2019-03-24 20:40:52,985 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 20:40:52,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 20:41:01,193 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-24 20:41:01,193 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-24 20:41:01,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-24 20:41:39,112 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :optimize:preBuild UP-TO-DATE
+> Task :optimize:preDebugBuild UP-TO-DATE
+> Task :optimize:checkDebugManifest
+> Task :optimize:processDebugManifest
+> Task :app:preDebugBuild
+> Task :optimize:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :optimize:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :optimize:compileDebugRenderscript
+> Task :optimize:generateDebugBuildConfig
+> Task :optimize:generateDebugResValues
+> Task :optimize:generateDebugResources
+> Task :optimize:packageDebugResources
+> Task :optimize:generateDebugRFile
+> Task :optimize:prepareLintJar
+> Task :optimize:generateDebugSources
+> Task :optimize:javaPreCompileDebug
+
+> Task :optimize:compileDebugJavaWithJavac
+
+> Task :optimize:processDebugJavaRes NO-SOURCE
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :optimize:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/src/main/java/com/an/optimizesample/activity/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:optimize:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/src/main/java/com/an/optimizesample/activity/MainActivity.java uses unchecked or unsafe operations.
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :optimize:mergeDebugShaders
+> Task :optimize:compileDebugShaders
+> Task :optimize:generateDebugAssets
+> Task :optimize:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :optimize:createFullJarDebug
+> Transform full.jar (project :optimize) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :optimize) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :optimize:compileDebugNdk NO-SOURCE
+> Task :optimize:mergeDebugJniLibFolders
+> Task :optimize:transformNativeLibsWithMergeJniLibsForDebug
+> Task :optimize:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :optimize:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :optimize:preReleaseBuild UP-TO-DATE
+> Task :optimize:checkReleaseManifest
+> Task :optimize:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :optimize:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :optimize:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :optimize:compileReleaseRenderscript
+> Task :optimize:generateReleaseBuildConfig
+> Task :optimize:generateReleaseResValues
+> Task :optimize:generateReleaseResources
+> Task :optimize:packageReleaseResources
+> Task :optimize:generateReleaseRFile
+> Task :optimize:generateReleaseSources
+> Task :optimize:javaPreCompileRelease
+
+> Task :optimize:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-D8 is used to build dex.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-D8 is used to merge dex.
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:optimize:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:optimize:generateReleaseSources
-:optimize:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+> Task :optimize:processReleaseJavaRes NO-SOURCE
+> Task :optimize:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/src/main/java/com/an/optimizesample/activity/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:optimize:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/src/main/java/com/an/optimizesample/activity/MainActivity.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
 
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:transformClassesWithDexBuilderForRelease
-D8 is used to build dex.
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-D8 is used to merge dex.
-:optimize:mergeReleaseJniLibFolders
-:optimize:transformNativeLibsWithMergeJniLibsForRelease
-:optimize:transformNativeLibsWithStripDebugSymbolForRelease
-:optimize:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/59359cce0c37d8503e3b8987b94ef339/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 
-BUILD SUCCESSFUL in 29s
-91 actionable tasks: 91 executed
+> Task :optimize:createFullJarRelease
+> Transform full.jar (project :optimize) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :optimize) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :optimize:mergeReleaseShaders
+> Task :optimize:compileReleaseShaders
+> Task :optimize:generateReleaseAssets
+> Task :optimize:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :optimize:compileReleaseNdk NO-SOURCE
+> Task :optimize:mergeReleaseJniLibFolders
+> Task :optimize:transformNativeLibsWithMergeJniLibsForRelease
+> Task :optimize:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :optimize:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-2019-03-03 17:28:53,184 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551608893344-0/src/Optimize-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 37s
+88 actionable tasks: 88 executed
+
+2019-03-24 20:41:39,194 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553434849325-0/src/Optimize-master/app/build/outputs/apk/debug/app-debug.apk
