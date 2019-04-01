@@ -1,59 +1,54 @@
-2019-03-18 11:47:10,640 INFO  DownloadService - Downloading "https://github.com/beworker/magnet/archive/master.zip", attempt 3
-2019-03-18 11:47:13,686 INFO  DownloadService - Downloaded https://github.com/beworker/magnet/archive/master.zip, attempt 3
-2019-03-18 11:47:13,686 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/master.zip": 892 KB
-2019-03-18 11:47:13,686 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-18 11:47:13,692 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/master.zip: true
-2019-03-18 11:47:13,692 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src'.
-2019-03-18 11:47:13,770 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-18 11:47:13,770 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src]
-2019-03-18 11:47:13,787 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/.git/
+2019-04-01 12:32:07,409 INFO  DownloadService - Downloading "https://github.com/beworker/magnet/archive/master.zip", attempt 3
+2019-04-01 12:32:10,368 INFO  DownloadService - Downloaded https://github.com/beworker/magnet/archive/master.zip, attempt 3
+2019-04-01 12:32:10,369 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/master.zip": 855 KB
+2019-04-01 12:32:10,369 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:32:10,375 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/master.zip: true
+2019-04-01 12:32:10,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src'.
+2019-04-01 12:32:10,461 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-01 12:32:10,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src]
+2019-04-01 12:32:10,486 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/.git/
 
-2019-03-18 11:47:13,795 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew
-2019-03-18 11:47:13,804 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle
-2019-03-18 11:47:13,812 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build-maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build-maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle
-2019-03-18 11:47:13,813 INFO  ProjectBuildService - Remote scripts: none
-2019-03-18 11:47:13,813 INFO  ProjectFixService - Fixing project...
-2019-03-18 11:47:13,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/local.properties
-2019-03-18 11:47:13,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,850 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,851 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/local.properties
-2019-03-18 11:47:13,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/local.properties
-2019-03-18 11:47:13,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,861 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/local.properties
-2019-03-18 11:47:13,862 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
-2019-03-18 11:47:13,862 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
-2019-03-18 11:47:13,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/local.properties
-2019-03-18 11:47:13,870 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-03-18 11:47:13,870 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-03-18 11:47:13,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/local.properties
-2019-03-18 11:47:13,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/local.properties
-2019-03-18 11:47:13,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,891 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/local.properties
-2019-03-18 11:47:13,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/local.properties
-2019-03-18 11:47:13,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/local.properties
-2019-03-18 11:47:13,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-18 11:47:13,911 INFO  ProjectFixService - Project was maybe fixed
-2019-03-18 11:47:13,912 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:47:13,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:47:22,190 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-18 11:47:22,190 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:47:22,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-leakcanary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:47:50,468 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:32:10,496 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew
+2019-04-01 12:32:10,506 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle
+2019-04-01 12:32:10,515 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build-maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle
+2019-04-01 12:32:10,516 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:32:10,516 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:32:10,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/local.properties
+2019-04-01 12:32:10,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/local.properties
+2019-04-01 12:32:10,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/local.properties
+2019-04-01 12:32:10,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-01 12:32:10,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-01 12:32:10,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,562 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/local.properties
+2019-04-01 12:32:10,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/local.properties
+2019-04-01 12:32:10,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,570 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/local.properties
+2019-04-01 12:32:10,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,574 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/local.properties
+2019-04-01 12:32:10,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,579 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/local.properties
+2019-04-01 12:32:10,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/local.properties
+2019-04-01 12:32:10,585 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-01 12:32:10,586 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:32:10,586 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:32:10,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:32:18,941 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-01 12:32:18,941 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-01 12:32:18,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-leakcanary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-01 12:32:55,659 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnetx-app-leakcanary:androidJavadocs NO-SOURCE
 > Task :magnetx-app-leakcanary:androidJavadocsJar
 > Task :magnetx-app-leakcanary:androidSourcesJar
@@ -64,6 +59,14 @@
 > Task :magnet:processResources NO-SOURCE
 > Task :magnet:classes
 > Task :magnet:jar
+> Transform magnet.jar (project :magnet) with IdentityTransform
+> Task :magnet-kotlin:compileKotlin
+> Transform magnet.jar (project :magnet) with IdentityTransform
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC
+> Task :magnet-kotlin:jar
 > Task :magnet-processor:compileKotlin
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources
@@ -78,7 +81,9 @@
 > Task :magnetx-app:classes
 > Task :magnetx-app:inspectClassesForKotlinIC
 > Task :magnetx-app:jar
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
 > Task :magnetx-app-leakcanary:compileDebugRenderscript
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
 > Task :magnetx-app-leakcanary:checkDebugManifest
 > Task :magnetx-app-leakcanary:generateDebugBuildConfig
 > Task :magnetx-app-leakcanary:generateDebugResValues
@@ -86,10 +91,12 @@
 > Task :magnetx-app-leakcanary:packageDebugResources
 > Task :magnetx-app-leakcanary:processDebugManifest
 > Task :magnetx-app-leakcanary:generateDebugRFile
+> Transform magnet-kotlin.jar (project :magnet-kotlin) with IdentityTransform
+> Transform magnet-processor.jar (project :magnet-processor) with IdentityTransform
+> Task :magnetx-app-leakcanary:prepareLintJar
 > Task :magnetx-app-leakcanary:kaptGenerateStubsDebugKotlin
 > Task :magnetx-app-leakcanary:kaptDebugKotlin
 > Task :magnetx-app-leakcanary:compileDebugKotlin
-> Task :magnetx-app-leakcanary:prepareLintJar
 > Task :magnetx-app-leakcanary:generateDebugSources
 > Task :magnetx-app-leakcanary:javaPreCompileDebug
 > Task :magnetx-app-leakcanary:compileDebugJavaWithJavac
@@ -151,16 +158,15 @@
 > Task :magnetx-app-leakcanary:assemble
 > Task :magnetx-app-leakcanary:build
 
-BUILD SUCCESSFUL in 27s
-65 actionable tasks: 65 executed
-w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
+BUILD SUCCESSFUL in 36s
+68 actionable tasks: 68 executed
 
-2019-03-18 11:47:50,506 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:47:50,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:47:57,117 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-18 11:47:57,117 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:47:57,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app-rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:48:15,044 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:32:55,701 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:32:55,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:33:02,828 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-01 12:33:02,828 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-01 12:33:02,829 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app-rxandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-01 12:33:19,321 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnetx-app-rxandroid:androidJavadocs NO-SOURCE
 > Task :magnetx-app-rxandroid:androidJavadocsJar
 > Task :magnetx-app-rxandroid:androidSourcesJar
@@ -171,6 +177,14 @@ w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
 > Task :magnet:processResources NO-SOURCE
 > Task :magnet:classes UP-TO-DATE
 > Task :magnet:jar UP-TO-DATE
+> Transform magnet.jar (project :magnet) with IdentityTransform
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
+> Transform magnet.jar (project :magnet) with IdentityTransform
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
 > Task :magnet-processor:compileKotlin UP-TO-DATE
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources UP-TO-DATE
@@ -185,7 +199,9 @@ w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
 > Task :magnetx-app:classes UP-TO-DATE
 > Task :magnetx-app:inspectClassesForKotlinIC UP-TO-DATE
 > Task :magnetx-app:jar UP-TO-DATE
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
 > Task :magnetx-app-rxandroid:compileDebugRenderscript
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
 > Task :magnetx-app-rxandroid:checkDebugManifest
 > Task :magnetx-app-rxandroid:generateDebugBuildConfig
 > Task :magnetx-app-rxandroid:generateDebugResValues
@@ -193,10 +209,12 @@ w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
 > Task :magnetx-app-rxandroid:packageDebugResources
 > Task :magnetx-app-rxandroid:processDebugManifest
 > Task :magnetx-app-rxandroid:generateDebugRFile
+> Transform magnet-kotlin.jar (project :magnet-kotlin) with IdentityTransform
+> Transform magnet-processor.jar (project :magnet-processor) with IdentityTransform
+> Task :magnetx-app-rxandroid:prepareLintJar
 > Task :magnetx-app-rxandroid:kaptGenerateStubsDebugKotlin
 > Task :magnetx-app-rxandroid:kaptDebugKotlin
 > Task :magnetx-app-rxandroid:compileDebugKotlin
-> Task :magnetx-app-rxandroid:prepareLintJar
 > Task :magnetx-app-rxandroid:generateDebugSources
 > Task :magnetx-app-rxandroid:javaPreCompileDebug
 > Task :magnetx-app-rxandroid:compileDebugJavaWithJavac
@@ -258,113 +276,15 @@ w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
 > Task :magnetx-app-rxandroid:assemble
 > Task :magnetx-app-rxandroid:build
 
-BUILD SUCCESSFUL in 17s
-65 actionable tasks: 53 executed, 12 up-to-date
+BUILD SUCCESSFUL in 15s
+68 actionable tasks: 53 executed, 15 up-to-date
 
-2019-03-18 11:48:15,098 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:48:15,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:48:21,883 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-18 11:48:21,883 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:48:21,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-features/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:48:37,205 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :magnetx-selector-features:androidJavadocs NO-SOURCE
-> Task :magnetx-selector-features:androidJavadocsJar
-> Task :magnetx-selector-features:androidSourcesJar
-> Task :magnetx-selector-features:preBuild UP-TO-DATE
-> Task :magnetx-selector-features:preDebugBuild UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugAidl NO-SOURCE
-> Task :magnet:compileJava UP-TO-DATE
-> Task :magnet:processResources NO-SOURCE
-> Task :magnet:classes UP-TO-DATE
-> Task :magnet:jar UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugRenderscript
-> Task :magnetx-selector-features:checkDebugManifest
-> Task :magnetx-selector-features:generateDebugBuildConfig
-> Task :magnetx-selector-features:generateDebugResValues
-> Task :magnetx-selector-features:generateDebugResources
-> Task :magnetx-selector-features:packageDebugResources
-> Task :magnetx-selector-features:processDebugManifest
-> Task :magnetx-selector-features:generateDebugRFile
-> Task :magnet-processor:compileKotlin UP-TO-DATE
-> Task :magnet-processor:compileJava NO-SOURCE
-> Task :magnet-processor:processResources UP-TO-DATE
-> Task :magnet-processor:classes UP-TO-DATE
-> Task :magnet-processor:inspectClassesForKotlinIC UP-TO-DATE
-> Task :magnet-processor:jar UP-TO-DATE
-> Task :magnetx-selector-features:kaptGenerateStubsDebugKotlin
-> Task :magnetx-selector-features:kaptDebugKotlin
-> Task :magnetx-selector-features:compileDebugKotlin
-> Task :magnetx-selector-features:prepareLintJar
-> Task :magnetx-selector-features:generateDebugSources
-> Task :magnetx-selector-features:javaPreCompileDebug
-> Task :magnetx-selector-features:compileDebugJavaWithJavac
-> Task :magnetx-selector-features:extractDebugAnnotations
-> Task :magnetx-selector-features:mergeDebugConsumerProguardFiles
-> Task :magnetx-selector-features:mergeDebugShaders
-> Task :magnetx-selector-features:compileDebugShaders
-> Task :magnetx-selector-features:generateDebugAssets
-> Task :magnetx-selector-features:packageDebugAssets
-> Task :magnetx-selector-features:packageDebugRenderscript NO-SOURCE
-> Task :magnetx-selector-features:processDebugJavaRes NO-SOURCE
-> Task :magnetx-selector-features:transformResourcesWithMergeJavaResForDebug
-> Task :magnetx-selector-features:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :magnetx-selector-features:compileDebugNdk NO-SOURCE
-> Task :magnetx-selector-features:mergeDebugJniLibFolders
-> Task :magnetx-selector-features:transformNativeLibsWithMergeJniLibsForDebug
-> Task :magnetx-selector-features:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :magnetx-selector-features:transformNativeLibsWithSyncJniLibsForDebug
-> Task :magnetx-selector-features:bundleDebugAar
-> Task :magnetx-selector-features:compileDebugSources
-> Task :magnetx-selector-features:assembleDebug
-> Task :magnetx-selector-features:preReleaseBuild UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseAidl NO-SOURCE
-> Task :magnetx-selector-features:compileReleaseRenderscript
-> Task :magnetx-selector-features:checkReleaseManifest
-> Task :magnetx-selector-features:generateReleaseBuildConfig
-> Task :magnetx-selector-features:generateReleaseResValues
-> Task :magnetx-selector-features:generateReleaseResources
-> Task :magnetx-selector-features:packageReleaseResources
-> Task :magnetx-selector-features:processReleaseManifest
-> Task :magnetx-selector-features:generateReleaseRFile
-> Task :magnetx-selector-features:kaptGenerateStubsReleaseKotlin
-> Task :magnetx-selector-features:kaptReleaseKotlin
-> Task :magnetx-selector-features:compileReleaseKotlin
-> Task :magnetx-selector-features:generateReleaseSources
-> Task :magnetx-selector-features:javaPreCompileRelease
-> Task :magnetx-selector-features:compileReleaseJavaWithJavac
-> Task :magnetx-selector-features:extractReleaseAnnotations
-> Task :magnetx-selector-features:mergeReleaseConsumerProguardFiles
-> Task :magnetx-selector-features:mergeReleaseShaders
-> Task :magnetx-selector-features:compileReleaseShaders
-> Task :magnetx-selector-features:generateReleaseAssets
-> Task :magnetx-selector-features:packageReleaseAssets
-> Task :magnetx-selector-features:packageReleaseRenderscript NO-SOURCE
-> Task :magnetx-selector-features:processReleaseJavaRes NO-SOURCE
-> Task :magnetx-selector-features:transformResourcesWithMergeJavaResForRelease
-> Task :magnetx-selector-features:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :magnetx-selector-features:compileReleaseNdk NO-SOURCE
-> Task :magnetx-selector-features:mergeReleaseJniLibFolders
-> Task :magnetx-selector-features:transformNativeLibsWithMergeJniLibsForRelease
-> Task :magnetx-selector-features:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :magnetx-selector-features:transformNativeLibsWithSyncJniLibsForRelease
-> Task :magnetx-selector-features:bundleReleaseAar
-> Task :magnetx-selector-features:compileReleaseSources
-> Task :magnetx-selector-features:mergeReleaseResources
-> Task :magnetx-selector-features:verifyReleaseResources
-> Task :magnetx-selector-features:assembleRelease
-> Task :magnetx-selector-features:signArchives SKIPPED
-> Task :magnetx-selector-features:assemble
-> Task :magnetx-selector-features:build
-
-BUILD SUCCESSFUL in 14s
-59 actionable tasks: 53 executed, 6 up-to-date
-
-2019-03-18 11:48:37,275 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:48:37,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:48:44,566 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-03-18 11:48:44,566 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:48:44,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:48:59,832 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:33:19,377 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:33:19,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:33:27,502 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-04-01 12:33:27,502 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-01 12:33:27,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-01 12:33:45,218 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnet:compileJava UP-TO-DATE
 > Task :magnet:processResources NO-SOURCE
 > Task :magnet:classes UP-TO-DATE
@@ -374,6 +294,17 @@ BUILD SUCCESSFUL in 14s
 > Task :magnet:signArchives SKIPPED
 > Task :magnet:assemble
 > Task :magnet:build
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
+> Task :magnet-kotlin:javadocJar
+> Task :magnet-kotlin:sourcesJar
+> Task :magnet-kotlin:signArchives SKIPPED
+> Task :magnet-kotlin:assemble
+> Task :magnet-kotlin:build
 > Task :magnet-processor:compileKotlin UP-TO-DATE
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources UP-TO-DATE
@@ -404,7 +335,11 @@ BUILD SUCCESSFUL in 14s
 > Task :magnetx-app-leakcanary:preBuild UP-TO-DATE
 > Task :magnetx-app-leakcanary:preDebugBuild UP-TO-DATE
 > Task :magnetx-app-leakcanary:compileDebugAidl NO-SOURCE
+> Transform magnet.jar (project :magnet) with IdentityTransform
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
 > Task :magnetx-app-leakcanary:compileDebugRenderscript UP-TO-DATE
+> Transform magnetx-app.jar (project :magnetx-app) with IdentityTransform
+> Transform magnet.jar (project :magnet) with IdentityTransform
 > Task :magnetx-app-leakcanary:checkDebugManifest UP-TO-DATE
 > Task :magnetx-app-leakcanary:generateDebugBuildConfig UP-TO-DATE
 > Task :magnetx-app-leakcanary:generateDebugResValues UP-TO-DATE
@@ -412,10 +347,12 @@ BUILD SUCCESSFUL in 14s
 > Task :magnetx-app-leakcanary:packageDebugResources UP-TO-DATE
 > Task :magnetx-app-leakcanary:processDebugManifest UP-TO-DATE
 > Task :magnetx-app-leakcanary:generateDebugRFile UP-TO-DATE
+> Transform magnet-kotlin.jar (project :magnet-kotlin) with IdentityTransform
+> Transform magnet-processor.jar (project :magnet-processor) with IdentityTransform
+> Task :magnetx-app-leakcanary:prepareLintJar UP-TO-DATE
 > Task :magnetx-app-leakcanary:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :magnetx-app-leakcanary:kaptDebugKotlin UP-TO-DATE
 > Task :magnetx-app-leakcanary:compileDebugKotlin UP-TO-DATE
-> Task :magnetx-app-leakcanary:prepareLintJar UP-TO-DATE
 > Task :magnetx-app-leakcanary:generateDebugSources UP-TO-DATE
 > Task :magnetx-app-leakcanary:javaPreCompileDebug UP-TO-DATE
 > Task :magnetx-app-leakcanary:compileDebugJavaWithJavac UP-TO-DATE
@@ -567,145 +504,114 @@ BUILD SUCCESSFUL in 14s
 > Task :magnetx-selector-android:signArchives SKIPPED
 > Task :magnetx-selector-android:assemble
 > Task :magnetx-selector-android:build
-> Task :magnetx-selector-features:androidJavadocs NO-SOURCE
-> Task :magnetx-selector-features:androidJavadocsJar UP-TO-DATE
-> Task :magnetx-selector-features:androidSourcesJar UP-TO-DATE
-> Task :magnetx-selector-features:preBuild UP-TO-DATE
-> Task :magnetx-selector-features:preDebugBuild UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugAidl NO-SOURCE
-> Task :magnetx-selector-features:compileDebugRenderscript UP-TO-DATE
-> Task :magnetx-selector-features:checkDebugManifest UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugBuildConfig UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugResValues UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugResources UP-TO-DATE
-> Task :magnetx-selector-features:packageDebugResources UP-TO-DATE
-> Task :magnetx-selector-features:processDebugManifest UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugRFile UP-TO-DATE
-> Task :magnetx-selector-features:kaptGenerateStubsDebugKotlin UP-TO-DATE
-> Task :magnetx-selector-features:kaptDebugKotlin UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugKotlin UP-TO-DATE
-> Task :magnetx-selector-features:prepareLintJar UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugSources UP-TO-DATE
-> Task :magnetx-selector-features:javaPreCompileDebug UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugJavaWithJavac UP-TO-DATE
-> Task :magnetx-selector-features:extractDebugAnnotations UP-TO-DATE
-> Task :magnetx-selector-features:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :magnetx-selector-features:mergeDebugShaders UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugShaders UP-TO-DATE
-> Task :magnetx-selector-features:generateDebugAssets UP-TO-DATE
-> Task :magnetx-selector-features:packageDebugAssets UP-TO-DATE
-> Task :magnetx-selector-features:packageDebugRenderscript NO-SOURCE
-> Task :magnetx-selector-features:processDebugJavaRes NO-SOURCE
-> Task :magnetx-selector-features:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-> Task :magnetx-selector-features:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugNdk NO-SOURCE
-> Task :magnetx-selector-features:mergeDebugJniLibFolders UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :magnetx-selector-features:bundleDebugAar UP-TO-DATE
-> Task :magnetx-selector-features:compileDebugSources UP-TO-DATE
-> Task :magnetx-selector-features:assembleDebug UP-TO-DATE
-> Task :magnetx-selector-features:preReleaseBuild UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseAidl NO-SOURCE
-> Task :magnetx-selector-features:compileReleaseRenderscript UP-TO-DATE
-> Task :magnetx-selector-features:checkReleaseManifest UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseBuildConfig UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseResValues UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseResources UP-TO-DATE
-> Task :magnetx-selector-features:packageReleaseResources UP-TO-DATE
-> Task :magnetx-selector-features:processReleaseManifest UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseRFile UP-TO-DATE
-> Task :magnetx-selector-features:kaptGenerateStubsReleaseKotlin UP-TO-DATE
-> Task :magnetx-selector-features:kaptReleaseKotlin UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseKotlin UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseSources UP-TO-DATE
-> Task :magnetx-selector-features:javaPreCompileRelease UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :magnetx-selector-features:extractReleaseAnnotations UP-TO-DATE
-> Task :magnetx-selector-features:mergeReleaseConsumerProguardFiles UP-TO-DATE
-> Task :magnetx-selector-features:mergeReleaseShaders UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseShaders UP-TO-DATE
-> Task :magnetx-selector-features:generateReleaseAssets UP-TO-DATE
-> Task :magnetx-selector-features:packageReleaseAssets UP-TO-DATE
-> Task :magnetx-selector-features:packageReleaseRenderscript NO-SOURCE
-> Task :magnetx-selector-features:processReleaseJavaRes NO-SOURCE
-> Task :magnetx-selector-features:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-> Task :magnetx-selector-features:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseNdk NO-SOURCE
-> Task :magnetx-selector-features:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :magnetx-selector-features:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :magnetx-selector-features:bundleReleaseAar UP-TO-DATE
-> Task :magnetx-selector-features:compileReleaseSources UP-TO-DATE
-> Task :magnetx-selector-features:mergeReleaseResources UP-TO-DATE
-> Task :magnetx-selector-features:verifyReleaseResources UP-TO-DATE
-> Task :magnetx-selector-features:assembleRelease UP-TO-DATE
+> Task :magnetx-selector-features:kaptGenerateStubsKotlin
+> Task :magnetx-selector-features:kaptKotlin
+> Task :magnetx-selector-features:compileKotlin
+> Task :magnetx-selector-features:compileJava
+> Task :magnetx-selector-features:processResources NO-SOURCE
+> Task :magnetx-selector-features:classes
+> Task :magnetx-selector-features:inspectClassesForKotlinIC
+> Task :magnetx-selector-features:jar
+> Task :magnetx-selector-features:javadocJar
+> Task :magnetx-selector-features:sourcesJar
 > Task :magnetx-selector-features:signArchives SKIPPED
-> Task :magnetx-selector-features:assemble UP-TO-DATE
+> Task :magnetx-selector-features:assemble
 > Task :magnetx-selector-features:build
 
-BUILD SUCCESSFUL in 14s
-185 actionable tasks: 14 executed, 171 up-to-date
+BUILD SUCCESSFUL in 17s
+145 actionable tasks: 24 executed, 121 up-to-date
 
-2019-03-18 11:48:59,911 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:48:59,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:04,877 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:04,877 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:04,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:49:20,253 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :magnet:compileJava
-> Task :magnet:processResources NO-SOURCE
-> Task :magnet:classes
-> Task :magnet:jar
-> Task :magnet:javadocJar
-> Task :magnet:sourcesJar
-> Task :magnet:signArchives SKIPPED
-> Task :magnet:assemble
-> Task :magnet:build
-> Task :magnet-kotlin:compileKotlin
+2019-04-01 12:33:45,287 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:33:45,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:33:49,080 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:33:49,080 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:33:49,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:33:53,410 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :magnet:compileJava UP-TO-DATE
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
 > Task :magnet-kotlin:compileJava NO-SOURCE
 > Task :magnet-kotlin:processResources NO-SOURCE
 > Task :magnet-kotlin:classes UP-TO-DATE
-> Task :magnet-kotlin:inspectClassesForKotlinIC
-> Task :magnet-kotlin:jar
-> Task :magnet-kotlin:javadocJar
-> Task :magnet-kotlin:sourcesJar
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
+> Task :magnet-kotlin:javadocJar UP-TO-DATE
+> Task :magnet-kotlin:sourcesJar UP-TO-DATE
 > Task :magnet-kotlin:signArchives SKIPPED
-> Task :magnet-kotlin:assemble
+> Task :magnet-kotlin:assemble UP-TO-DATE
 > Task :magnet-kotlin:build
-> Task :magnet-processor:compileKotlin
-> Task :magnet-processor:compileJava NO-SOURCE
-> Task :magnet-processor:processResources
-> Task :magnet-processor:classes
-> Task :magnet-processor:inspectClassesForKotlinIC
-> Task :magnet-processor:jar
-> Task :magnet-processor:javadocJar
-> Task :magnet-processor:sourcesJar
-> Task :magnet-processor:signArchives SKIPPED
-> Task :magnet-processor:assemble
-> Task :magnet-processor:build
 
-BUILD SUCCESSFUL in 14s
-15 actionable tasks: 15 executed
+BUILD SUCCESSFUL in 4s
+6 actionable tasks: 6 up-to-date
 
-2019-03-18 11:49:20,327 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:49:20,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:24,297 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:24,297 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:24,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:49:29,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:33:53,468 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:33:53,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:33:57,231 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:33:57,231 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:33:57,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:34:01,597 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnet:compileJava UP-TO-DATE
-> Task :magnet:processResources NO-SOURCE
-> Task :magnet:classes UP-TO-DATE
-> Task :magnet:jar
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
 > Task :magnet-processor:compileKotlin UP-TO-DATE
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources UP-TO-DATE
 > Task :magnet-processor:classes UP-TO-DATE
 > Task :magnet-processor:inspectClassesForKotlinIC UP-TO-DATE
-> Task :magnet-processor:jar
+> Task :magnet-processor:jar UP-TO-DATE
+> Task :magnet-processor:javadocJar UP-TO-DATE
+> Task :magnet-processor:sourcesJar UP-TO-DATE
+> Task :magnet-processor:signArchives SKIPPED
+> Task :magnet-processor:assemble UP-TO-DATE
+> Task :magnet-processor:build
+
+BUILD SUCCESSFUL in 4s
+10 actionable tasks: 10 up-to-date
+
+2019-04-01 12:34:01,659 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:34:01,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:34:05,139 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:34:05,140 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:34:05,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:34:08,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :magnet:compileJava UP-TO-DATE
+> Task :magnet:processResources NO-SOURCE
+> Task :magnet:classes UP-TO-DATE
+> Task :magnet:jar UP-TO-DATE
+> Task :magnet:javadocJar UP-TO-DATE
+> Task :magnet:sourcesJar UP-TO-DATE
+> Task :magnet:signArchives SKIPPED
+> Task :magnet:assemble UP-TO-DATE
+> Task :magnet:build
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 up-to-date
+
+2019-04-01 12:34:08,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:34:08,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:34:12,488 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:34:12,488 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:34:12,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:34:16,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :magnet:compileJava UP-TO-DATE
+> Task :magnet:processResources NO-SOURCE
+> Task :magnet:classes UP-TO-DATE
+> Task :magnet:jar UP-TO-DATE
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
+> Task :magnet-processor:compileKotlin UP-TO-DATE
+> Task :magnet-processor:compileJava NO-SOURCE
+> Task :magnet-processor:processResources UP-TO-DATE
+> Task :magnet-processor:classes UP-TO-DATE
+> Task :magnet-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-processor:jar UP-TO-DATE
 > Task :magnetx-app:kaptGenerateStubsKotlin UP-TO-DATE
 > Task :magnetx-app:kaptKotlin UP-TO-DATE
 > Task :magnetx-app:compileKotlin UP-TO-DATE
@@ -721,18 +627,24 @@ BUILD SUCCESSFUL in 14s
 > Task :magnetx-app:build
 
 BUILD SUCCESSFUL in 4s
-14 actionable tasks: 2 executed, 12 up-to-date
+17 actionable tasks: 17 up-to-date
 
-2019-03-18 11:49:29,465 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:49:29,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:33,447 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:33,447 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:33,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-extensions/magnetx-selector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:49:39,045 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:34:17,057 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:34:17,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:34:20,862 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:34:20,862 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:34:20,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:34:25,644 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnet:compileJava UP-TO-DATE
 > Task :magnet:processResources NO-SOURCE
 > Task :magnet:classes UP-TO-DATE
 > Task :magnet:jar UP-TO-DATE
+> Task :magnet-kotlin:compileKotlin UP-TO-DATE
+> Task :magnet-kotlin:compileJava NO-SOURCE
+> Task :magnet-kotlin:processResources NO-SOURCE
+> Task :magnet-kotlin:classes UP-TO-DATE
+> Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnet-kotlin:jar UP-TO-DATE
 > Task :magnet-processor:compileKotlin UP-TO-DATE
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources UP-TO-DATE
@@ -753,71 +665,47 @@ BUILD SUCCESSFUL in 4s
 > Task :magnetx-selector-android:assemble UP-TO-DATE
 > Task :magnetx-selector-android:build
 
-BUILD SUCCESSFUL in 5s
-14 actionable tasks: 14 up-to-date
+BUILD SUCCESSFUL in 4s
+17 actionable tasks: 17 up-to-date
 
-2019-03-18 11:49:39,127 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:49:39,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:42,665 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:42,665 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:42,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:49:46,892 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:34:25,728 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:34:25,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:34:30,104 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-04-01 12:34:30,104 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-01 12:34:30,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554096727405-0/src/magnet-master/magnetx-selector-features/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-01 12:34:35,742 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :magnet:compileJava UP-TO-DATE
+> Task :magnet:processResources NO-SOURCE
+> Task :magnet:classes UP-TO-DATE
+> Task :magnet:jar UP-TO-DATE
 > Task :magnet-kotlin:compileKotlin UP-TO-DATE
 > Task :magnet-kotlin:compileJava NO-SOURCE
 > Task :magnet-kotlin:processResources NO-SOURCE
 > Task :magnet-kotlin:classes UP-TO-DATE
 > Task :magnet-kotlin:inspectClassesForKotlinIC UP-TO-DATE
 > Task :magnet-kotlin:jar UP-TO-DATE
-> Task :magnet-kotlin:javadocJar UP-TO-DATE
-> Task :magnet-kotlin:sourcesJar
-> Task :magnet-kotlin:signArchives SKIPPED
-> Task :magnet-kotlin:assemble
-> Task :magnet-kotlin:build
-
-BUILD SUCCESSFUL in 4s
-6 actionable tasks: 1 executed, 5 up-to-date
-
-2019-03-18 11:49:46,967 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:49:46,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:50,643 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:50,643 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:50,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:49:54,917 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :magnet:compileJava UP-TO-DATE
 > Task :magnet-processor:compileKotlin UP-TO-DATE
 > Task :magnet-processor:compileJava NO-SOURCE
 > Task :magnet-processor:processResources UP-TO-DATE
 > Task :magnet-processor:classes UP-TO-DATE
 > Task :magnet-processor:inspectClassesForKotlinIC UP-TO-DATE
-> Task :magnet-processor:jar
-> Task :magnet-processor:javadocJar UP-TO-DATE
-> Task :magnet-processor:sourcesJar UP-TO-DATE
-> Task :magnet-processor:signArchives SKIPPED
-> Task :magnet-processor:assemble
-> Task :magnet-processor:build
+> Task :magnet-processor:jar UP-TO-DATE
+> Task :magnetx-selector-features:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :magnetx-selector-features:kaptKotlin UP-TO-DATE
+> Task :magnetx-selector-features:compileKotlin UP-TO-DATE
+> Task :magnetx-selector-features:compileJava UP-TO-DATE
+> Task :magnetx-selector-features:processResources NO-SOURCE
+> Task :magnetx-selector-features:classes UP-TO-DATE
+> Task :magnetx-selector-features:inspectClassesForKotlinIC UP-TO-DATE
+> Task :magnetx-selector-features:jar UP-TO-DATE
+> Task :magnetx-selector-features:javadocJar UP-TO-DATE
+> Task :magnetx-selector-features:sourcesJar UP-TO-DATE
+> Task :magnetx-selector-features:signArchives SKIPPED
+> Task :magnetx-selector-features:assemble UP-TO-DATE
+> Task :magnetx-selector-features:build
 
-BUILD SUCCESSFUL in 4s
-7 actionable tasks: 1 executed, 6 up-to-date
+BUILD SUCCESSFUL in 5s
+17 actionable tasks: 17 up-to-date
 
-2019-03-18 11:49:54,992 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:49:54,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:49:58,246 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-03-18 11:49:58,246 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 11:49:58,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884430632-0/src/magnet-master/magnet-library/magnet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 11:50:01,800 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :magnet:compileJava UP-TO-DATE
-> Task :magnet:processResources NO-SOURCE
-> Task :magnet:classes UP-TO-DATE
-> Task :magnet:jar
-> Task :magnet:javadocJar UP-TO-DATE
-> Task :magnet:sourcesJar UP-TO-DATE
-> Task :magnet:signArchives SKIPPED
-> Task :magnet:assemble
-> Task :magnet:build
-
-BUILD SUCCESSFUL in 3s
-4 actionable tasks: 1 executed, 3 up-to-date
-
-2019-03-18 11:50:01,875 ERROR FullProcessService - Project build has not produced APK file
-2019-03-18 11:50:01,947 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:34:35,812 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:34:35,880 ERROR FullProcessService - Could not find generated or existed APK file
