@@ -1,39 +1,36 @@
-2019-02-07 18:52:27,451 INFO  DownloadService - Downloading "https://github.com/thealeksandr/PFLockScreen-Android/archive/master.zip", attempt 3
-2019-02-07 18:53:28,151 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-07 18:53:29,461 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-07 18:53:29,461 INFO  DownloadService - Downloading "https://github.com/thealeksandr/PFLockScreen-Android/archive/master.zip", attempt 3
-2019-02-07 18:54:30,766 DEBUG FullProcessService - Repository https://github.com/thealeksandr/PFLockScreen-Android available: true
-2019-02-07 18:54:30,766 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-07 18:54:30,766 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/thealeksandr/PFLockScreen-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src]
-2019-02-07 18:54:33,143 INFO  SysUtils - 
-2019-02-07 18:54:33,154 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/.git": true
-2019-02-07 18:54:33,163 INFO  FullProcessService - Size of directory with sources: 466 KB
-2019-02-07 18:54:33,163 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src]
-2019-02-07 18:54:33,183 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/.git/
+2019-04-05 11:49:54,524 INFO  DownloadService - Downloading "https://github.com/thealeksandr/PFLockScreen-Android/archive/master.zip", attempt 3
+2019-04-05 11:49:56,984 INFO  DownloadService - Downloaded https://github.com/thealeksandr/PFLockScreen-Android/archive/master.zip, attempt 3
+2019-04-05 11:49:56,984 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/master.zip": 325 KB
+2019-04-05 11:49:56,984 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 11:49:56,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/master.zip: true
+2019-04-05 11:49:56,990 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src'.
+2019-04-05 11:49:57,034 INFO  FullProcessService - Size of directory with sources: 466 KB
+2019-04-05 11:49:57,034 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src]
+2019-04-05 11:49:57,060 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/.git/
 
-2019-02-07 18:54:33,189 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/gradlew
-2019-02-07 18:54:33,195 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/build.gradle
-2019-02-07 18:54:33,201 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/settings.gradle
-2019-02-07 18:54:33,201 INFO  ProjectBuildService - Remote scripts: none
-2019-02-07 18:54:33,202 INFO  ProjectFixService - Fixing project...
-2019-02-07 18:54:33,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/local.properties
-2019-02-07 18:54:33,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/local.properties
-2019-02-07 18:54:33,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/local.properties
-2019-02-07 18:54:33,219 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-07 18:54:33,219 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-07 18:54:33,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,221 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-07 18:54:33,222 INFO  ProjectFixService - Project was maybe fixed
-2019-02-07 18:54:33,222 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-07 18:54:33,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-07 18:54:41,542 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-07 18:54:41,543 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-07 18:54:41,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-07 18:55:26,441 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 11:49:57,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/gradlew
+2019-04-05 11:49:57,072 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/build.gradle
+2019-04-05 11:49:57,077 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/settings.gradle
+2019-04-05 11:49:57,077 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 11:49:57,077 INFO  ProjectFixService - Fixing project...
+2019-04-05 11:49:57,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/local.properties
+2019-04-05 11:49:57,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,090 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/local.properties
+2019-04-05 11:49:57,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/local.properties
+2019-04-05 11:49:57,092 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-05 11:49:57,093 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-05 11:49:57,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 11:49:57,094 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 11:49:57,094 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 11:49:57,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 11:50:04,220 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-05 11:50:04,221 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-05 11:50:04,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-05 11:50:36,421 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :pflockscreen:preBuild UP-TO-DATE
@@ -68,7 +65,7 @@
 :pflockscreen:javaPreCompileDebug
 :pflockscreen:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/src/main/java/com/beautycoder/pflockscreen/security/PFFingerprintPinCodeHelper.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/src/main/java/com/beautycoder/pflockscreen/security/PFFingerprintPinCodeHelper.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :pflockscreen:processDebugJavaRes NO-SOURCE
@@ -132,7 +129,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :pflockscreen:javaPreCompileRelease
 :pflockscreen:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/pflockscreen/src/main/java/com/beautycoder/pflockscreen/security/PFFingerprintPinCodeHelper.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/pflockscreen/src/main/java/com/beautycoder/pflockscreen/security/PFFingerprintPinCodeHelper.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :pflockscreen:processReleaseJavaRes NO-SOURCE
@@ -142,10 +139,8 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.2-alpha01/espresso-core-3.1.2-alpha01.pom
-Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.2-alpha01/espresso-idling-resource-3.1.2-alpha01.pom
-Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.2-alpha01/espresso-core-3.1.2-alpha01.aar
-Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.2-alpha01/espresso-idling-resource-3.1.2-alpha01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/rules/1.1.2-alpha01/rules-1.1.2-alpha01.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c9ee890103cbdede8276617132f84479/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -173,7 +168,7 @@ Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 31s
 90 actionable tasks: 90 executed
 
-2019-02-07 18:55:26,557 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540347448-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-04-05 11:50:36,520 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439794517-0/src/PFLockScreen-Android-master/app/build/outputs/apk/debug/app-debug.apk
