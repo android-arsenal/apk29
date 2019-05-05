@@ -1,41 +1,38 @@
-2019-02-23 18:40:33,197 INFO  DownloadService - Downloading "https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip", attempt 3
-2019-02-23 18:41:34,058 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-23 18:41:35,181 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-23 18:41:35,181 INFO  DownloadService - Downloading "https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip", attempt 3
-2019-02-23 18:42:37,035 DEBUG FullProcessService - Repository https://github.com/agrawalsuneet/DotLoadersPack-Android available: true
-2019-02-23 18:42:37,035 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-23 18:42:37,035 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/agrawalsuneet/DotLoadersPack-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src]
-2019-02-23 18:42:38,745 INFO  SysUtils - 
-2019-02-23 18:42:38,778 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/.git": true
-2019-02-23 18:42:38,781 INFO  FullProcessService - Size of directory with sources: 252 KB
-2019-02-23 18:42:38,781 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src]
-2019-02-23 18:42:38,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/.git/
+2019-05-05 18:04:55,860 INFO  DownloadService - Downloading "https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip", attempt 3
+2019-05-05 18:04:56,747 INFO  DownloadService - Downloaded https://github.com/agrawalsuneet/DotLoadersPack-Android/archive/master.zip, attempt 3
+2019-05-05 18:04:56,747 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/master.zip": 142 KB
+2019-05-05 18:04:56,747 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-05 18:04:56,748 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/master.zip: true
+2019-05-05 18:04:56,748 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src'.
+2019-05-05 18:04:56,770 INFO  FullProcessService - Size of directory with sources: 266 KB
+2019-05-05 18:04:56,771 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src]
+2019-05-05 18:04:56,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/.git/
 
-2019-02-23 18:42:38,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew
-2019-02-23 18:42:38,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle
-2019-02-23 18:42:38,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle
-2019-02-23 18:42:38,805 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-02-23 18:42:39,659 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-02-23 18:42:39,659 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-02-23 18:42:39,659 INFO  ProjectFixService - Fixing project...
-2019-02-23 18:42:39,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/local.properties
-2019-02-23 18:42:39,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,670 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/local.properties
-2019-02-23 18:42:39,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,675 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/local.properties
-2019-02-23 18:42:39,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
-2019-02-23 18:42:39,677 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
-2019-02-23 18:42:39,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-23 18:42:39,678 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 18:42:39,678 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 18:42:39,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 18:42:47,592 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-02-23 18:42:47,592 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 18:42:47,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 18:42:54,199 ERROR SysUtils - Could not process external command
+2019-05-05 18:04:56,796 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/gradlew
+2019-05-05 18:04:56,800 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/build.gradle
+2019-05-05 18:04:56,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/build.gradle
+2019-05-05 18:04:56,810 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-05-05 18:04:57,371 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-05-05 18:04:57,372 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-05-05 18:04:57,372 INFO  ProjectFixService - Fixing project...
+2019-05-05 18:04:57,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/local.properties
+2019-05-05 18:04:57,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/local.properties
+2019-05-05 18:04:57,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/local.properties
+2019-05-05 18:04:57,387 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
+2019-05-05 18:04:57,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-05-05 18:04:57,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-05 18:04:57,390 INFO  ProjectFixService - Project was maybe fixed
+2019-05-05 18:04:57,391 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-05 18:04:57,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-05 18:05:15,786 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-05-05 18:05:15,786 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-05 18:05:15,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-05 18:05:21,746 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,21 +45,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-23 18:42:54,199 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-05 18:05:21,746 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -161,11 +159,11 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-02-23 18:42:54,200 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-02-23 18:42:54,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-23 18:44:01,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-05 18:05:21,746 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-05-05 18:05:21,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-05 18:06:28,186 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :dotsloader:preBuild UP-TO-DATE
@@ -193,47 +191,52 @@ BUILD FAILED in 6s
 > Task :dotsloader:generateDebugRFile
 > Task :app:processDebugResources
 > Task :dotsloader:generateDebugBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (22, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (25, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (61, 69): Parameter 'showShadow' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (73, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
 > Task :dotsloader:compileDebugKotlin
 > Task :dotsloader:prepareLintJar
 > Task :dotsloader:generateDebugSources
@@ -306,47 +309,52 @@ D8: Stripped invalid locals information from 1 method.
 > Task :dotsloader:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :dotsloader:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (13, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (15, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/basicviews/ThreeDotsBaseView.kt: (17, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/AbstractLinearLayout.kt: (25, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/CircularAbstractView.kt: (17, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (46, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (48, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (108, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/contracts/DotsLoaderBaseView.kt: (114, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (37, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (38, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (39, 40): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (88, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (91, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/AllianceLoader.kt: (94, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (22, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (25, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (61, 69): Parameter 'showShadow' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (73, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/BounceLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (88, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/CircularDotsLoader.kt: (94, 85): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (52, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (54, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LazyLoader.kt: (56, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (27, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LightsLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (161, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/LinearDotsLoader.kt: (179, 25): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (22, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (70, 74): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/PullInLoader.kt: (74, 31): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (21, 36): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/RotatingCircularDotsLoader.kt: (58, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (26, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (66, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (68, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/SlidingLoader.kt: (70, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TashieLoader.kt: (60, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (20, 38): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/TrailingCircularDotsLoader.kt: (61, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (33, 39): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (34, 41): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (76, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/dotsloader/src/main/java/com/agrawalsuneet/dotsloader/loaders/ZeeLoader.kt: (79, 27): 'getColor(Int): Int' is deprecated. Deprecated in Java
 > Task :dotsloader:compileReleaseKotlin
 > Task :dotsloader:generateReleaseSources
 > Task :dotsloader:javaPreCompileRelease
@@ -388,10 +396,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/be514c6d1fb0c3c3add05b436f53772c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 29 issues found
-Ran lint on variant debug: 29 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/reports/lint-results.xml
+Ran lint on variant release: 30 issues found
+Ran lint on variant debug: 30 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build/reports/lint-results.xml
 
 > Task :app:compileDebugUnitTestKotlin NO-SOURCE
 > Task :app:generateDebugUnitTestSources
@@ -415,7 +423,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 1m 5s
 96 actionable tasks: 96 executed
 
-2019-02-23 18:44:01,414 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550922033188-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-05-05 18:06:28,276 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054295857-0/src/DotLoadersPack-Android-master/app/build/outputs/apk/debug/app-debug.apk
