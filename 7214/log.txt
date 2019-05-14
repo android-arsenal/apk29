@@ -1,186 +1,192 @@
-2018-10-27 19:05:48,719 INFO  DownloadService - Downloading "https://github.com/RobertApikyan/AbstractMvp/archive/master.zip", attempt 3
-2018-10-27 19:05:50,543 INFO  DownloadService - Downloaded https://github.com/RobertApikyan/AbstractMvp/archive/master.zip, attempt 3
-2018-10-27 19:05:50,543 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/master.zip": 76 KB
-2018-10-27 19:05:50,543 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 19:05:50,549 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/master.zip: true
-2018-10-27 19:05:50,549 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src'.
-2018-10-27 19:05:50,563 INFO  FullProcessService - Size of directory with sources: 103 KB
-2018-10-27 19:05:50,563 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src]
-2018-10-27 19:05:50,590 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/.git/
+2019-05-14 14:41:21,415 INFO  DownloadService - Downloading "https://github.com/RobertApikyan/AbstractMvp/archive/master.zip", attempt 3
+2019-05-14 14:41:23,092 INFO  DownloadService - Downloaded https://github.com/RobertApikyan/AbstractMvp/archive/master.zip, attempt 3
+2019-05-14 14:41:23,092 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/master.zip": 75 KB
+2019-05-14 14:41:23,092 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 14:41:23,097 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/master.zip: true
+2019-05-14 14:41:23,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src'.
+2019-05-14 14:41:23,107 INFO  FullProcessService - Size of directory with sources: 102 KB
+2019-05-14 14:41:23,108 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src]
+2019-05-14 14:41:23,125 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/.git/
 
-2018-10-27 19:05:50,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/gradlew
-2018-10-27 19:05:50,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle
-2018-10-27 19:05:50,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/settings.gradle
-2018-10-27 19:05:50,595 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 19:05:50,596 INFO  ProjectFixService - Fixing project...
-2018-10-27 19:05:50,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/local.properties
-2018-10-27 19:05:50,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:05:50,601 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:05:50,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/local.properties
-2018-10-27 19:05:50,602 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-27 19:05:50,603 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-27 19:05:50,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:05:50,604 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:05:50,604 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 19:05:50,604 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 19:05:50,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 19:05:56,855 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-27 19:05:56,855 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-27 19:05:56,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/abstractMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-27 19:06:14,107 INFO  SysUtils - Configuration on demand is an incubating feature.
-:abstractMvp:preBuild UP-TO-DATE
-:abstractMvp:preDebugBuild UP-TO-DATE
-:abstractMvp:compileDebugAidl NO-SOURCE
-:abstractMvp:compileDebugRenderscript
-:abstractMvp:checkDebugManifest
-:abstractMvp:generateDebugBuildConfig
-:abstractMvp:generateDebugResValues
-:abstractMvp:generateDebugResources
-:abstractMvp:packageDebugResources
-:abstractMvp:processDebugManifest
-:abstractMvp:generateDebugRFile
-:abstractMvp:compileDebugKotlin
-:abstractMvp:prepareLintJar
-:abstractMvp:generateDebugSources
-:abstractMvp:javaPreCompileDebug
-:abstractMvp:compileDebugJavaWithJavac
-:abstractMvp:extractDebugAnnotations
-:abstractMvp:mergeDebugConsumerProguardFiles
-:abstractMvp:mergeDebugShaders
-:abstractMvp:compileDebugShaders
-:abstractMvp:generateDebugAssets
-:abstractMvp:packageDebugAssets
-:abstractMvp:packageDebugRenderscript NO-SOURCE
-:abstractMvp:processDebugJavaRes NO-SOURCE
-:abstractMvp:transformResourcesWithMergeJavaResForDebug
-:abstractMvp:transformClassesAndResourcesWithSyncLibJarsForDebug
-:abstractMvp:compileDebugNdk NO-SOURCE
-:abstractMvp:mergeDebugJniLibFolders
-:abstractMvp:transformNativeLibsWithMergeJniLibsForDebug
-:abstractMvp:transformNativeLibsWithStripDebugSymbolForDebug
-:abstractMvp:transformNativeLibsWithSyncJniLibsForDebug
-:abstractMvp:bundleDebugAar
-:abstractMvp:compileDebugSources
-:abstractMvp:assembleDebug
-:abstractMvp:preReleaseBuild UP-TO-DATE
-:abstractMvp:compileReleaseAidl NO-SOURCE
-:abstractMvp:compileReleaseRenderscript
-:abstractMvp:checkReleaseManifest
-:abstractMvp:generateReleaseBuildConfig
-:abstractMvp:generateReleaseResValues
-:abstractMvp:generateReleaseResources
-:abstractMvp:packageReleaseResources
-:abstractMvp:processReleaseManifest
-:abstractMvp:generateReleaseRFile
-:abstractMvp:compileReleaseKotlin
-:abstractMvp:generateReleaseSources
-:abstractMvp:javaPreCompileRelease
-:abstractMvp:compileReleaseJavaWithJavac
-:abstractMvp:extractReleaseAnnotations
-:abstractMvp:mergeReleaseConsumerProguardFiles
-:abstractMvp:mergeReleaseShaders
-:abstractMvp:compileReleaseShaders
-:abstractMvp:generateReleaseAssets
-:abstractMvp:packageReleaseAssets
-:abstractMvp:packageReleaseRenderscript NO-SOURCE
-:abstractMvp:processReleaseJavaRes NO-SOURCE
-:abstractMvp:transformResourcesWithMergeJavaResForRelease
-:abstractMvp:transformClassesAndResourcesWithSyncLibJarsForRelease
-:abstractMvp:compileReleaseNdk NO-SOURCE
-:abstractMvp:mergeReleaseJniLibFolders
-:abstractMvp:transformNativeLibsWithMergeJniLibsForRelease
-:abstractMvp:transformNativeLibsWithStripDebugSymbolForRelease
-:abstractMvp:transformNativeLibsWithSyncJniLibsForRelease
-:abstractMvp:bundleReleaseAar
-:abstractMvp:compileReleaseSources
-:abstractMvp:mergeReleaseResources
-:abstractMvp:verifyReleaseResources
-:abstractMvp:assembleRelease
-:abstractMvp:assemble
-:abstractMvp:build
+2019-05-14 14:41:23,127 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/gradlew
+2019-05-14 14:41:23,129 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle
+2019-05-14 14:41:23,131 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/settings.gradle
+2019-05-14 14:41:23,131 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 14:41:23,131 INFO  ProjectFixService - Fixing project...
+2019-05-14 14:41:23,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/local.properties
+2019-05-14 14:41:23,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:41:23,136 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:41:23,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/local.properties
+2019-05-14 14:41:23,137 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-14 14:41:23,138 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-14 14:41:23,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:41:23,138 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:41:23,139 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 14:41:23,139 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:41:23,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:41:29,903 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-14 14:41:29,903 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-14 14:41:29,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/abstractMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-14 14:41:44,523 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :abstractMvp:preBuild UP-TO-DATE
+> Task :abstractMvp:preDebugBuild UP-TO-DATE
+> Task :abstractMvp:compileDebugAidl NO-SOURCE
+> Task :abstractMvp:compileDebugRenderscript NO-SOURCE
+> Task :abstractMvp:checkDebugManifest
+> Task :abstractMvp:generateDebugBuildConfig
+> Task :abstractMvp:generateDebugResValues
+> Task :abstractMvp:generateDebugResources
+> Task :abstractMvp:packageDebugResources
+> Task :abstractMvp:processDebugManifest
+> Task :abstractMvp:generateDebugRFile
+> Task :abstractMvp:compileDebugKotlin
+> Task :abstractMvp:prepareLintJar
+> Task :abstractMvp:generateDebugSources
+> Task :abstractMvp:javaPreCompileDebug
+> Task :abstractMvp:compileDebugJavaWithJavac
+> Task :abstractMvp:extractDebugAnnotations
+> Task :abstractMvp:mergeDebugConsumerProguardFiles
+> Task :abstractMvp:mergeDebugShaders
+> Task :abstractMvp:compileDebugShaders
+> Task :abstractMvp:generateDebugAssets
+> Task :abstractMvp:packageDebugAssets
+> Task :abstractMvp:packageDebugRenderscript NO-SOURCE
+> Task :abstractMvp:prepareLintJarForPublish
+> Task :abstractMvp:processDebugJavaRes NO-SOURCE
+> Task :abstractMvp:transformResourcesWithMergeJavaResForDebug
+> Task :abstractMvp:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :abstractMvp:mergeDebugJniLibFolders
+> Task :abstractMvp:transformNativeLibsWithMergeJniLibsForDebug
+> Task :abstractMvp:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :abstractMvp:transformNativeLibsWithSyncJniLibsForDebug
+> Task :abstractMvp:bundleDebugAar
+> Task :abstractMvp:compileDebugSources
+> Task :abstractMvp:assembleDebug
+> Task :abstractMvp:preReleaseBuild UP-TO-DATE
+> Task :abstractMvp:compileReleaseAidl NO-SOURCE
+> Task :abstractMvp:compileReleaseRenderscript NO-SOURCE
+> Task :abstractMvp:checkReleaseManifest
+> Task :abstractMvp:generateReleaseBuildConfig
+> Task :abstractMvp:generateReleaseResValues
+> Task :abstractMvp:generateReleaseResources
+> Task :abstractMvp:packageReleaseResources
+> Task :abstractMvp:processReleaseManifest
+> Task :abstractMvp:generateReleaseRFile
+> Task :abstractMvp:compileReleaseKotlin
+> Task :abstractMvp:generateReleaseSources
+> Task :abstractMvp:javaPreCompileRelease
+> Task :abstractMvp:compileReleaseJavaWithJavac
+> Task :abstractMvp:extractReleaseAnnotations
+> Task :abstractMvp:mergeReleaseConsumerProguardFiles
+> Task :abstractMvp:mergeReleaseShaders
+> Task :abstractMvp:compileReleaseShaders
+> Task :abstractMvp:generateReleaseAssets
+> Task :abstractMvp:packageReleaseAssets
+> Task :abstractMvp:packageReleaseRenderscript NO-SOURCE
+> Task :abstractMvp:processReleaseJavaRes NO-SOURCE
+> Task :abstractMvp:transformResourcesWithMergeJavaResForRelease
+> Task :abstractMvp:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :abstractMvp:mergeReleaseJniLibFolders
+> Task :abstractMvp:transformNativeLibsWithMergeJniLibsForRelease
+> Task :abstractMvp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :abstractMvp:transformNativeLibsWithSyncJniLibsForRelease
+> Task :abstractMvp:bundleReleaseAar
+> Task :abstractMvp:compileReleaseSources
+> Task :abstractMvp:mergeReleaseResources
+> Task :abstractMvp:verifyReleaseResources
+> Task :abstractMvp:assembleRelease
+> Task :abstractMvp:assemble
+> Task :abstractMvp:build
 
-BUILD SUCCESSFUL in 16s
-47 actionable tasks: 47 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-10-27 19:06:14,126 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 19:06:14,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 19:06:20,709 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-10-27 19:06:20,709 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-27 19:06:20,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540641948713-0/src/AbstractMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-27 19:06:28,024 INFO  SysUtils - Configuration on demand is an incubating feature.
-:abstractMvp:preBuild UP-TO-DATE
-:abstractMvp:preDebugBuild UP-TO-DATE
-:abstractMvp:compileDebugAidl NO-SOURCE
-:abstractMvp:compileDebugRenderscript UP-TO-DATE
-:abstractMvp:checkDebugManifest UP-TO-DATE
-:abstractMvp:generateDebugBuildConfig UP-TO-DATE
-:abstractMvp:generateDebugResValues UP-TO-DATE
-:abstractMvp:generateDebugResources UP-TO-DATE
-:abstractMvp:packageDebugResources UP-TO-DATE
-:abstractMvp:processDebugManifest UP-TO-DATE
-:abstractMvp:generateDebugRFile UP-TO-DATE
-:abstractMvp:compileDebugKotlin UP-TO-DATE
-:abstractMvp:prepareLintJar UP-TO-DATE
-:abstractMvp:generateDebugSources UP-TO-DATE
-:abstractMvp:javaPreCompileDebug UP-TO-DATE
-:abstractMvp:compileDebugJavaWithJavac UP-TO-DATE
-:abstractMvp:extractDebugAnnotations UP-TO-DATE
-:abstractMvp:mergeDebugConsumerProguardFiles UP-TO-DATE
-:abstractMvp:mergeDebugShaders UP-TO-DATE
-:abstractMvp:compileDebugShaders UP-TO-DATE
-:abstractMvp:generateDebugAssets UP-TO-DATE
-:abstractMvp:packageDebugAssets UP-TO-DATE
-:abstractMvp:packageDebugRenderscript NO-SOURCE
-:abstractMvp:processDebugJavaRes NO-SOURCE
-:abstractMvp:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:abstractMvp:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:abstractMvp:compileDebugNdk NO-SOURCE
-:abstractMvp:mergeDebugJniLibFolders UP-TO-DATE
-:abstractMvp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:abstractMvp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:abstractMvp:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-:abstractMvp:bundleDebugAar UP-TO-DATE
-:abstractMvp:compileDebugSources UP-TO-DATE
-:abstractMvp:assembleDebug UP-TO-DATE
-:abstractMvp:preReleaseBuild UP-TO-DATE
-:abstractMvp:compileReleaseAidl NO-SOURCE
-:abstractMvp:compileReleaseRenderscript UP-TO-DATE
-:abstractMvp:checkReleaseManifest UP-TO-DATE
-:abstractMvp:generateReleaseBuildConfig UP-TO-DATE
-:abstractMvp:generateReleaseResValues UP-TO-DATE
-:abstractMvp:generateReleaseResources UP-TO-DATE
-:abstractMvp:packageReleaseResources UP-TO-DATE
-:abstractMvp:processReleaseManifest UP-TO-DATE
-:abstractMvp:generateReleaseRFile UP-TO-DATE
-:abstractMvp:compileReleaseKotlin UP-TO-DATE
-:abstractMvp:generateReleaseSources UP-TO-DATE
-:abstractMvp:javaPreCompileRelease UP-TO-DATE
-:abstractMvp:compileReleaseJavaWithJavac UP-TO-DATE
-:abstractMvp:extractReleaseAnnotations UP-TO-DATE
-:abstractMvp:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:abstractMvp:mergeReleaseShaders UP-TO-DATE
-:abstractMvp:compileReleaseShaders UP-TO-DATE
-:abstractMvp:generateReleaseAssets UP-TO-DATE
-:abstractMvp:packageReleaseAssets UP-TO-DATE
-:abstractMvp:packageReleaseRenderscript NO-SOURCE
-:abstractMvp:processReleaseJavaRes NO-SOURCE
-:abstractMvp:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:abstractMvp:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:abstractMvp:compileReleaseNdk NO-SOURCE
-:abstractMvp:mergeReleaseJniLibFolders UP-TO-DATE
-:abstractMvp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:abstractMvp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:abstractMvp:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-:abstractMvp:bundleReleaseAar UP-TO-DATE
-:abstractMvp:compileReleaseSources UP-TO-DATE
-:abstractMvp:mergeReleaseResources UP-TO-DATE
-:abstractMvp:verifyReleaseResources
-:abstractMvp:assembleRelease
-:abstractMvp:assemble
-:abstractMvp:build
+BUILD SUCCESSFUL in 13s
+46 actionable tasks: 46 executed
 
-BUILD SUCCESSFUL in 7s
-47 actionable tasks: 1 executed, 46 up-to-date
+2019-05-14 14:41:44,542 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:41:44,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:41:50,750 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-14 14:41:50,750 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-14 14:41:50,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819681408-0/src/AbstractMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-14 14:41:57,597 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :abstractMvp:preBuild UP-TO-DATE
+> Task :abstractMvp:preDebugBuild UP-TO-DATE
+> Task :abstractMvp:compileDebugAidl NO-SOURCE
+> Task :abstractMvp:compileDebugRenderscript NO-SOURCE
+> Task :abstractMvp:checkDebugManifest UP-TO-DATE
+> Task :abstractMvp:generateDebugBuildConfig UP-TO-DATE
+> Task :abstractMvp:generateDebugResValues UP-TO-DATE
+> Task :abstractMvp:generateDebugResources UP-TO-DATE
+> Task :abstractMvp:packageDebugResources UP-TO-DATE
+> Task :abstractMvp:processDebugManifest UP-TO-DATE
+> Task :abstractMvp:generateDebugRFile UP-TO-DATE
+> Task :abstractMvp:compileDebugKotlin UP-TO-DATE
+> Task :abstractMvp:prepareLintJar UP-TO-DATE
+> Task :abstractMvp:generateDebugSources UP-TO-DATE
+> Task :abstractMvp:javaPreCompileDebug UP-TO-DATE
+> Task :abstractMvp:compileDebugJavaWithJavac UP-TO-DATE
+> Task :abstractMvp:extractDebugAnnotations UP-TO-DATE
+> Task :abstractMvp:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :abstractMvp:mergeDebugShaders UP-TO-DATE
+> Task :abstractMvp:compileDebugShaders UP-TO-DATE
+> Task :abstractMvp:generateDebugAssets UP-TO-DATE
+> Task :abstractMvp:packageDebugAssets UP-TO-DATE
+> Task :abstractMvp:packageDebugRenderscript NO-SOURCE
+> Task :abstractMvp:prepareLintJarForPublish UP-TO-DATE
+> Task :abstractMvp:processDebugJavaRes NO-SOURCE
+> Task :abstractMvp:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :abstractMvp:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :abstractMvp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :abstractMvp:bundleDebugAar UP-TO-DATE
+> Task :abstractMvp:compileDebugSources UP-TO-DATE
+> Task :abstractMvp:assembleDebug UP-TO-DATE
+> Task :abstractMvp:preReleaseBuild UP-TO-DATE
+> Task :abstractMvp:compileReleaseAidl NO-SOURCE
+> Task :abstractMvp:compileReleaseRenderscript NO-SOURCE
+> Task :abstractMvp:checkReleaseManifest UP-TO-DATE
+> Task :abstractMvp:generateReleaseBuildConfig UP-TO-DATE
+> Task :abstractMvp:generateReleaseResValues UP-TO-DATE
+> Task :abstractMvp:generateReleaseResources UP-TO-DATE
+> Task :abstractMvp:packageReleaseResources UP-TO-DATE
+> Task :abstractMvp:processReleaseManifest UP-TO-DATE
+> Task :abstractMvp:generateReleaseRFile UP-TO-DATE
+> Task :abstractMvp:compileReleaseKotlin UP-TO-DATE
+> Task :abstractMvp:generateReleaseSources UP-TO-DATE
+> Task :abstractMvp:javaPreCompileRelease UP-TO-DATE
+> Task :abstractMvp:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :abstractMvp:extractReleaseAnnotations UP-TO-DATE
+> Task :abstractMvp:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :abstractMvp:mergeReleaseShaders UP-TO-DATE
+> Task :abstractMvp:compileReleaseShaders UP-TO-DATE
+> Task :abstractMvp:generateReleaseAssets UP-TO-DATE
+> Task :abstractMvp:packageReleaseAssets UP-TO-DATE
+> Task :abstractMvp:packageReleaseRenderscript NO-SOURCE
+> Task :abstractMvp:processReleaseJavaRes NO-SOURCE
+> Task :abstractMvp:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :abstractMvp:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :abstractMvp:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :abstractMvp:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :abstractMvp:bundleReleaseAar UP-TO-DATE
+> Task :abstractMvp:compileReleaseSources UP-TO-DATE
+> Task :abstractMvp:mergeReleaseResources UP-TO-DATE
+> Task :abstractMvp:verifyReleaseResources
+> Task :abstractMvp:assembleRelease
+> Task :abstractMvp:assemble
+> Task :abstractMvp:build
 
-2018-10-27 19:06:28,041 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 19:06:28,056 ERROR FullProcessService - Could not find generated or existed APK file
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+46 actionable tasks: 1 executed, 45 up-to-date
+
+2019-05-14 14:41:57,616 ERROR FullProcessService - Project build has not produced APK file
+2019-05-14 14:41:57,630 ERROR FullProcessService - Could not find generated or existed APK file
