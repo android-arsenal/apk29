@@ -1,170 +1,199 @@
-2019-03-05 11:50:19,698 INFO  DownloadService - Downloading "https://github.com/SuperRabbitD/NumberPicker/archive/master.zip", attempt 3
-2019-03-05 11:50:23,374 INFO  DownloadService - Downloaded https://github.com/SuperRabbitD/NumberPicker/archive/master.zip, attempt 3
-2019-03-05 11:50:23,375 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/master.zip": 2 MB
-2019-03-05 11:50:23,375 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-05 11:50:23,378 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/master.zip: true
-2019-03-05 11:50:23,379 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src'.
-2019-03-05 11:50:23,427 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-03-05 11:50:23,427 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src]
-2019-03-05 11:50:23,452 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/.git/
+2019-05-15 13:37:32,752 INFO  DownloadService - Downloading "https://github.com/SuperRabbitD/NumberPicker/archive/master.zip", attempt 3
+2019-05-15 13:37:36,989 INFO  DownloadService - Downloaded https://github.com/SuperRabbitD/NumberPicker/archive/master.zip, attempt 3
+2019-05-15 13:37:36,989 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/master.zip": 2 MB
+2019-05-15 13:37:36,990 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-15 13:37:36,991 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/master.zip: true
+2019-05-15 13:37:36,991 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src'.
+2019-05-15 13:37:37,041 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-05-15 13:37:37,041 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src]
+2019-05-15 13:37:37,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/.git/
 
-2019-03-05 11:50:23,456 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/gradlew
-2019-03-05 11:50:23,463 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/wheel_picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/build.gradle
-2019-03-05 11:50:23,468 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/wheel_picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/settings.gradle
-2019-03-05 11:50:23,468 INFO  ProjectBuildService - Remote scripts: none
-2019-03-05 11:50:23,468 INFO  ProjectFixService - Fixing project...
-2019-03-05 11:50:23,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/local.properties
-2019-03-05 11:50:23,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/wheel_picker/local.properties
-2019-03-05 11:50:23,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/wheel_picker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/wheel_picker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/local.properties
-2019-03-05 11:50:23,484 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-05 11:50:23,485 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-05 11:50:23,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-05 11:50:23,487 INFO  ProjectFixService - Project was maybe fixed
-2019-03-05 11:50:23,487 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-05 11:50:23,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-05 11:50:31,007 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-05 11:50:31,008 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-05 11:50:31,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-05 11:51:19,594 INFO  SysUtils - Configuration on demand is an incubating feature.
-:demo:preBuild UP-TO-DATE
-:wheel_picker:preBuild UP-TO-DATE
-:wheel_picker:preDebugBuild UP-TO-DATE
-:wheel_picker:checkDebugManifest
-:wheel_picker:processDebugManifest
-:demo:preDebugBuild
-:wheel_picker:compileDebugAidl
-:demo:compileDebugAidl
-:wheel_picker:packageDebugRenderscript NO-SOURCE
-:demo:compileDebugRenderscript
-:demo:checkDebugManifest
-:demo:generateDebugBuildConfig
-:demo:mainApkListPersistenceDebug
-:demo:generateDebugResValues
-:demo:generateDebugResources
-:wheel_picker:compileDebugRenderscript
-:wheel_picker:generateDebugResValues
-:wheel_picker:generateDebugResources
-:wheel_picker:packageDebugResources
-:demo:mergeDebugResources
-:demo:createDebugCompatibleScreenManifests
-:demo:processDebugManifest
-:demo:splitsDiscoveryTaskDebug
-:wheel_picker:platformAttrExtractor
-:wheel_picker:generateDebugBuildConfig
-:wheel_picker:prepareLintJar
-:wheel_picker:processDebugJavaRes NO-SOURCE
-:demo:prepareLintJar
-:demo:compileDebugNdk NO-SOURCE
-:demo:mergeDebugShaders
-:demo:compileDebugShaders
-:demo:generateDebugAssets
-:wheel_picker:mergeDebugShaders
-:wheel_picker:compileDebugShaders
-:wheel_picker:generateDebugAssets
-:wheel_picker:packageDebugAssets
-:demo:mergeDebugAssets
-:demo:mergeDebugJniLibFolders
-:wheel_picker:compileDebugNdk NO-SOURCE
-:wheel_picker:mergeDebugJniLibFolders
-:wheel_picker:transformNativeLibsWithMergeJniLibsForDebug
-:wheel_picker:transformNativeLibsWithStripDebugSymbolForDebug
-:wheel_picker:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo:processDebugJavaRes NO-SOURCE
-:demo:validateSigningDebug
-:wheel_picker:preReleaseBuild UP-TO-DATE
-:wheel_picker:checkReleaseManifest
-:wheel_picker:processReleaseManifest
-:demo:preReleaseBuild
-:wheel_picker:compileReleaseAidl
-:demo:compileReleaseAidl
-:wheel_picker:packageReleaseRenderscript NO-SOURCE
-:demo:compileReleaseRenderscript
-:demo:checkReleaseManifest
-:demo:generateReleaseBuildConfig
-:demo:mainApkListPersistenceRelease
-:demo:generateReleaseResValues
-:demo:generateReleaseResources
-:wheel_picker:compileReleaseRenderscript
-:wheel_picker:generateReleaseResValues
-:wheel_picker:generateReleaseResources
-:wheel_picker:packageReleaseResources
-:demo:mergeReleaseResources
-:demo:createReleaseCompatibleScreenManifests
-:demo:processReleaseManifest
-:demo:splitsDiscoveryTaskRelease
-:wheel_picker:generateReleaseBuildConfig
-:wheel_picker:processReleaseJavaRes NO-SOURCE
-:demo:compileReleaseNdk NO-SOURCE
-:demo:mergeReleaseShaders
-:wheel_picker:generateDebugRFile
-:demo:processDebugResources
-:wheel_picker:compileDebugKotlin
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.31/kotlin-stdlib-jre7-1.2.31.jar
-:wheel_picker:generateDebugSources
-:wheel_picker:javaPreCompileDebug
-:wheel_picker:compileDebugJavaWithJavac
-:wheel_picker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/src/main/java/com/super_rabbit/demo/DemoActivity.kt: (33, 13): Variable 'context' is never used
-:demo:generateDebugSources
-:demo:javaPreCompileDebug
-:demo:compileDebugJavaWithJavac
-:demo:compileDebugSources
-:demo:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo:transformDexArchiveWithDexMergerForDebug
-:demo:transformNativeLibsWithMergeJniLibsForDebug
-:demo:transformNativeLibsWithStripDebugSymbolForDebug
-:demo:transformResourcesWithMergeJavaResForDebug
-:demo:packageDebug
-:demo:assembleDebug
-:wheel_picker:generateReleaseRFile
-:demo:processReleaseResources
-:wheel_picker:compileReleaseKotlin
-:wheel_picker:generateReleaseSources
-:wheel_picker:javaPreCompileRelease
-:wheel_picker:compileReleaseJavaWithJavac
-:wheel_picker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/src/main/java/com/super_rabbit/demo/DemoActivity.kt: (33, 13): Variable 'context' is never used
-:demo:generateReleaseSources
-:demo:javaPreCompileRelease
-:demo:compileReleaseJavaWithJavac
-:demo:compileReleaseSources
-:demo:lintVitalRelease
-:demo:compileReleaseShaders
-:demo:generateReleaseAssets
-:wheel_picker:mergeReleaseShaders
-:wheel_picker:compileReleaseShaders
-:wheel_picker:generateReleaseAssets
-:wheel_picker:packageReleaseAssets
-:demo:mergeReleaseAssets
-:demo:transformClassesWithDexBuilderForRelease
-:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
-:demo:transformDexArchiveWithDexMergerForRelease
-:demo:mergeReleaseJniLibFolders
-:wheel_picker:compileReleaseNdk NO-SOURCE
-:wheel_picker:mergeReleaseJniLibFolders
-:wheel_picker:transformNativeLibsWithMergeJniLibsForRelease
-:wheel_picker:transformNativeLibsWithStripDebugSymbolForRelease
-:wheel_picker:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo:transformNativeLibsWithMergeJniLibsForRelease
-:demo:transformNativeLibsWithStripDebugSymbolForRelease
-:demo:processReleaseJavaRes NO-SOURCE
-:demo:transformResourcesWithMergeJavaResForRelease
-:demo:packageRelease
-:demo:assembleRelease
-:demo:assemble
-:demo:build
+2019-05-15 13:37:37,070 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/gradlew
+2019-05-15 13:37:37,078 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/wheel_picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/build.gradle
+2019-05-15 13:37:37,082 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/wheel_picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/settings.gradle
+2019-05-15 13:37:37,083 INFO  ProjectBuildService - Remote scripts: none
+2019-05-15 13:37:37,083 INFO  ProjectFixService - Fixing project...
+2019-05-15 13:37:37,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/local.properties
+2019-05-15 13:37:37,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-15 13:37:37,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-15 13:37:37,096 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/wheel_picker/local.properties
+2019-05-15 13:37:37,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/wheel_picker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-15 13:37:37,098 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/wheel_picker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-15 13:37:37,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/local.properties
+2019-05-15 13:37:37,099 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-bin.zip
+2019-05-15 13:37:37,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-15 13:37:37,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-15 13:37:37,101 INFO  ProjectFixService - Project was maybe fixed
+2019-05-15 13:37:37,101 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-15 13:37:37,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-15 13:37:49,355 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-05-15 13:37:49,355 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-15 13:37:49,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-15 13:38:48,120 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 47s
-95 actionable tasks: 95 executed
+> Configure project :demo
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
 
-2019-03-05 11:51:19,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551761419693-0/src/NumberPicker-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+WARNING: The option setting 'android.enableR8.fullMode=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :wheel_picker
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+WARNING: The option setting 'android.enableR8.fullMode=true' is experimental and unsupported.
+The current default is 'false'.
+
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :demo:preBuild UP-TO-DATE
+> Task :wheel_picker:preBuild UP-TO-DATE
+> Task :wheel_picker:preDebugBuild UP-TO-DATE
+> Task :wheel_picker:checkDebugManifest
+> Task :wheel_picker:processDebugManifest
+> Task :wheel_picker:packageDebugRenderscript NO-SOURCE
+> Task :demo:preDebugBuild
+> Task :wheel_picker:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :wheel_picker:compileDebugRenderscript
+> Task :wheel_picker:generateDebugResValues
+> Task :wheel_picker:generateDebugResources
+> Task :wheel_picker:packageDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :wheel_picker:generateDebugRFile
+> Task :demo:processDebugResources
+> Task :wheel_picker:generateDebugBuildConfig
+> Task :wheel_picker:compileDebugKotlin
+> Task :wheel_picker:prepareLintJar
+> Task :wheel_picker:generateDebugSources
+> Task :wheel_picker:javaPreCompileDebug
+> Task :wheel_picker:compileDebugJavaWithJavac
+> Task :wheel_picker:processDebugJavaRes NO-SOURCE
+> Task :wheel_picker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+
+> Task :demo:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/src/main/java/com/super_rabbit/demo/DemoActivity.kt: (33, 13): Variable 'context' is never used
+
+> Task :demo:prepareLintJar
+> Task :demo:generateDebugSources
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugNdk NO-SOURCE
+> Task :demo:compileDebugSources
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :wheel_picker:mergeDebugShaders
+> Task :wheel_picker:compileDebugShaders
+> Task :wheel_picker:generateDebugAssets
+> Task :wheel_picker:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :demo:validateSigningDebug
+> Task :demo:signingConfigWriterDebug
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :demo:transformDexArchiveWithDexMergerForDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :wheel_picker:compileDebugNdk NO-SOURCE
+> Task :wheel_picker:mergeDebugJniLibFolders
+> Task :wheel_picker:transformNativeLibsWithMergeJniLibsForDebug
+> Task :wheel_picker:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :wheel_picker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :wheel_picker:preReleaseBuild UP-TO-DATE
+> Task :wheel_picker:checkReleaseManifest
+> Task :wheel_picker:processReleaseManifest
+> Task :demo:preReleaseBuild
+> Task :wheel_picker:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :wheel_picker:packageReleaseRenderscript NO-SOURCE
+> Task :demo:compileReleaseRenderscript
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :wheel_picker:compileReleaseRenderscript
+> Task :wheel_picker:generateReleaseResValues
+> Task :wheel_picker:generateReleaseResources
+> Task :wheel_picker:packageReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :wheel_picker:generateReleaseRFile
+> Task :demo:processReleaseResources
+> Task :wheel_picker:generateReleaseBuildConfig
+> Task :wheel_picker:compileReleaseKotlin
+> Task :wheel_picker:generateReleaseSources
+> Task :wheel_picker:javaPreCompileRelease
+> Task :wheel_picker:compileReleaseJavaWithJavac
+> Task :wheel_picker:processReleaseJavaRes NO-SOURCE
+> Task :wheel_picker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+
+> Task :demo:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/src/main/java/com/super_rabbit/demo/DemoActivity.kt: (33, 13): Variable 'context' is never used
+
+> Task :demo:generateReleaseSources
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseNdk NO-SOURCE
+> Task :demo:compileReleaseSources
+> Task :demo:mergeReleaseShaders
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/889b84acd5edf354ce4eecbcfa86ab47/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :wheel_picker:mergeReleaseShaders
+> Task :wheel_picker:compileReleaseShaders
+> Task :wheel_picker:generateReleaseAssets
+> Task :wheel_picker:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:signingConfigWriterRelease
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :demo:transformDexArchiveWithDexMergerForRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :wheel_picker:compileReleaseNdk NO-SOURCE
+> Task :wheel_picker:mergeReleaseJniLibFolders
+> Task :wheel_picker:transformNativeLibsWithMergeJniLibsForRelease
+> Task :wheel_picker:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :wheel_picker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 58s
+90 actionable tasks: 90 executed
+
+2019-05-15 13:38:48,255 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557902252748-0/src/NumberPicker-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
