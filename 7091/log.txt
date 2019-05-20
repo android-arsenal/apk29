@@ -1,45 +1,43 @@
-2019-02-07 18:55:37,917 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
-2019-02-07 18:56:38,615 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-07 18:56:39,670 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-07 18:56:39,670 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
-2019-02-07 18:57:41,342 DEBUG FullProcessService - Repository https://github.com/LordSaac/FontAwesome_Android_JGB available: true
-2019-02-07 18:57:41,342 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-07 18:57:41,342 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/LordSaac/FontAwesome_Android_JGB, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src]
-2019-02-07 18:57:43,857 INFO  SysUtils - 
-2019-02-07 18:57:43,866 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/.git": true
-2019-02-07 18:57:43,871 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-02-07 18:57:43,871 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src]
-2019-02-07 18:57:43,892 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/.git/
+2019-05-20 12:52:31,716 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
+2019-05-20 12:53:00,919 INFO  DownloadService - Downloaded https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip, attempt 3
+2019-05-20 12:53:00,919 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/master.zip": 975 KB
+2019-05-20 12:53:00,919 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-20 12:53:00,925 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/master.zip: true
+2019-05-20 12:53:00,926 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src'.
+2019-05-20 12:53:00,967 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-20 12:53:00,968 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src]
+2019-05-20 12:53:00,987 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/.git/
 
-2019-02-07 18:57:43,896 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew
-2019-02-07 18:57:43,900 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle
-2019-02-07 18:57:43,904 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/settings.gradle
-2019-02-07 18:57:43,905 INFO  ProjectBuildService - Remote scripts: none
-2019-02-07 18:57:43,905 INFO  ProjectFixService - Fixing project...
-2019-02-07 18:57:43,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/local.properties
-2019-02-07 18:57:43,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,917 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/local.properties
-2019-02-07 18:57:43,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/fontmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/local.properties
-2019-02-07 18:57:43,920 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-07 18:57:43,920 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-07 18:57:43,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-07 18:57:43,922 INFO  ProjectFixService - Project was maybe fixed
-2019-02-07 18:57:43,922 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-07 18:57:43,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-07 18:57:55,300 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-07 18:57:55,300 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-07 18:57:55,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-07 18:58:52,193 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-20 12:53:00,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/gradlew
+2019-05-20 12:53:00,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/build.gradle
+2019-05-20 12:53:01,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/settings.gradle
+2019-05-20 12:53:01,002 INFO  ProjectBuildService - Remote scripts: none
+2019-05-20 12:53:01,002 INFO  ProjectFixService - Fixing project...
+2019-05-20 12:53:01,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/local.properties
+2019-05-20 12:53:01,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/fontmanager/local.properties
+2019-05-20 12:53:01,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,016 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,017 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/local.properties
+2019-05-20 12:53:01,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-05-20 12:53:01,018 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-05-20 12:53:01,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-20 12:53:01,020 INFO  ProjectFixService - Project was maybe fixed
+2019-05-20 12:53:01,020 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 12:53:01,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 12:53:08,646 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-20 12:53:08,646 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-20 12:53:08,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-20 12:54:01,434 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :fontmanager:preBuild UP-TO-DATE
 :fontmanager:preDebugBuild UP-TO-DATE
 :fontmanager:checkDebugManifest
 :fontmanager:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-beta02/work-runtime-1.0.0-beta02.aar
 :fontmanager:compileDebugAidl
 :app:compileDebugAidl
 :fontmanager:packageDebugRenderscript NO-SOURCE
@@ -131,6 +129,8 @@
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -151,14 +151,6 @@
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -170,7 +162,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 51s
 95 actionable tasks: 95 executed
 
-2019-02-07 18:58:52,306 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549540537912-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-05-20 12:54:01,536 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331551709-0/src/FontAwesome_Android_JGB-master/app/build/outputs/apk/debug/app-debug.apk
