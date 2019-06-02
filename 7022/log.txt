@@ -1,161 +1,172 @@
-2019-02-25 22:43:27,842 INFO  DownloadService - Downloading "https://github.com/lopspower/LazyDatePicker/archive/master.zip", attempt 3
-2019-02-25 22:43:29,059 INFO  DownloadService - Downloaded https://github.com/lopspower/LazyDatePicker/archive/master.zip, attempt 3
-2019-02-25 22:43:29,059 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/master.zip": 273 KB
-2019-02-25 22:43:29,059 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-25 22:43:29,061 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/master.zip: true
-2019-02-25 22:43:29,061 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src'.
-2019-02-25 22:43:29,078 INFO  FullProcessService - Size of directory with sources: 324 KB
-2019-02-25 22:43:29,078 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src]
-2019-02-25 22:43:29,100 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/.git/
+2019-06-02 20:02:18,393 INFO  DownloadService - Downloading "https://github.com/lopspower/LazyDatePicker/archive/master.zip", attempt 3
+2019-06-02 20:02:20,693 INFO  DownloadService - Downloaded https://github.com/lopspower/LazyDatePicker/archive/master.zip, attempt 3
+2019-06-02 20:02:20,694 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/master.zip": 276 KB
+2019-06-02 20:02:20,694 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-02 20:02:20,699 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/master.zip: true
+2019-06-02 20:02:20,699 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src'.
+2019-06-02 20:02:20,714 INFO  FullProcessService - Size of directory with sources: 337 KB
+2019-06-02 20:02:20,715 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src]
+2019-06-02 20:02:20,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/.git/
 
-2019-02-25 22:43:29,103 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/gradlew
-2019-02-25 22:43:29,106 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/build.gradle
-2019-02-25 22:43:29,109 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/settings.gradle
-2019-02-25 22:43:29,109 INFO  ProjectBuildService - Remote scripts: none
-2019-02-25 22:43:29,109 INFO  ProjectFixService - Fixing project...
-2019-02-25 22:43:29,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/local.properties
-2019-02-25 22:43:29,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-02-25 22:43:29,119 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-02-25 22:43:29,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker/local.properties
-2019-02-25 22:43:29,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-02-25 22:43:29,123 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-02-25 22:43:29,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/local.properties
-2019-02-25 22:43:29,125 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-25 22:43:29,125 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-25 22:43:29,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-02-25 22:43:29,128 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-02-25 22:43:29,129 INFO  ProjectFixService - Project was maybe fixed
-2019-02-25 22:43:29,129 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 22:43:29,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 22:43:36,811 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-25 22:43:36,812 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-25 22:43:36,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-25 22:44:04,241 INFO  SysUtils - Configuration on demand is an incubating feature.
-:lazydatepicker:preBuild UP-TO-DATE
-:lazydatepicker:preDebugBuild UP-TO-DATE
-:lazydatepicker:compileDebugAidl
-:lazydatepicker:compileDebugRenderscript
-:lazydatepicker:checkDebugManifest
-:lazydatepicker:generateDebugBuildConfig
-:lazydatepicker:generateDebugResValues
-:lazydatepicker:generateDebugResources
-:lazydatepicker:packageDebugResources
-:lazydatepicker:platformAttrExtractor
-:lazydatepicker:processDebugManifest
-:lazydatepicker:prepareLintJar
-:lazydatepicker:javaPreCompileDebug
-:lazydatepicker:processDebugJavaRes NO-SOURCE
-:lazydatepicker-example:preBuild UP-TO-DATE
-:lazydatepicker-example:preDebugBuild
-:lazydatepicker-example:compileDebugAidl
-:lazydatepicker:packageDebugRenderscript NO-SOURCE
-:lazydatepicker-example:compileDebugRenderscript
-:lazydatepicker-example:checkDebugManifest
-:lazydatepicker-example:generateDebugBuildConfig
-:lazydatepicker-example:prepareLintJar
-:lazydatepicker-example:mainApkListPersistenceDebug
-:lazydatepicker-example:generateDebugResValues
-:lazydatepicker-example:generateDebugResources
-:lazydatepicker-example:mergeDebugResources
-:lazydatepicker-example:createDebugCompatibleScreenManifests
-:lazydatepicker-example:processDebugManifest
-:lazydatepicker-example:splitsDiscoveryTaskDebug
-:lazydatepicker-example:compileDebugNdk NO-SOURCE
-:lazydatepicker:mergeDebugShaders
-:lazydatepicker:compileDebugShaders
-:lazydatepicker:generateDebugAssets
-:lazydatepicker:packageDebugAssets
-:lazydatepicker-example:mergeDebugShaders
-:lazydatepicker-example:compileDebugShaders
-:lazydatepicker-example:generateDebugAssets
-:lazydatepicker-example:mergeDebugAssets
-:lazydatepicker:compileDebugNdk NO-SOURCE
-:lazydatepicker:mergeDebugJniLibFolders
-:lazydatepicker:transformNativeLibsWithMergeJniLibsForDebug
-:lazydatepicker:transformNativeLibsWithStripDebugSymbolForDebug
-:lazydatepicker:transformNativeLibsWithIntermediateJniLibsForDebug
-:lazydatepicker-example:mergeDebugJniLibFolders
-:lazydatepicker-example:processDebugJavaRes NO-SOURCE
-:lazydatepicker-example:validateSigningDebug
-:lazydatepicker:preReleaseBuild UP-TO-DATE
-:lazydatepicker:compileReleaseAidl
-:lazydatepicker:compileReleaseRenderscript
-:lazydatepicker:checkReleaseManifest
-:lazydatepicker:generateReleaseBuildConfig
-:lazydatepicker:generateReleaseResValues
-:lazydatepicker:generateReleaseResources
-:lazydatepicker:packageReleaseResources
-:lazydatepicker:processReleaseManifest
-:lazydatepicker:javaPreCompileRelease
-:lazydatepicker:processReleaseJavaRes NO-SOURCE
-:lazydatepicker-example:preReleaseBuild
-:lazydatepicker-example:compileReleaseAidl
-:lazydatepicker:packageReleaseRenderscript NO-SOURCE
-:lazydatepicker-example:compileReleaseRenderscript
-:lazydatepicker-example:checkReleaseManifest
-:lazydatepicker-example:generateReleaseBuildConfig
-:lazydatepicker-example:mainApkListPersistenceRelease
-:lazydatepicker-example:generateReleaseResValues
-:lazydatepicker-example:generateReleaseResources
-:lazydatepicker-example:mergeReleaseResources
-:lazydatepicker-example:createReleaseCompatibleScreenManifests
-:lazydatepicker-example:processReleaseManifest
-:lazydatepicker-example:splitsDiscoveryTaskRelease
-:lazydatepicker-example:compileReleaseNdk NO-SOURCE
-:lazydatepicker:mergeReleaseShaders
-:lazydatepicker:compileReleaseShaders
-:lazydatepicker:generateReleaseAssets
-:lazydatepicker:packageReleaseAssets
-:lazydatepicker-example:mergeReleaseShaders
-:lazydatepicker-example:compileReleaseShaders
-:lazydatepicker-example:generateReleaseAssets
-:lazydatepicker-example:mergeReleaseAssets
-:lazydatepicker:compileReleaseNdk NO-SOURCE
-:lazydatepicker:mergeReleaseJniLibFolders
-:lazydatepicker:transformNativeLibsWithMergeJniLibsForRelease
-:lazydatepicker:transformNativeLibsWithStripDebugSymbolForRelease
-:lazydatepicker:transformNativeLibsWithIntermediateJniLibsForRelease
-:lazydatepicker-example:mergeReleaseJniLibFolders
-:lazydatepicker-example:processReleaseJavaRes NO-SOURCE
-:lazydatepicker:generateDebugRFile
-:lazydatepicker:generateDebugSources
-:lazydatepicker:compileDebugJavaWithJavac
-:lazydatepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:lazydatepicker-example:processDebugResources
-:lazydatepicker-example:generateDebugSources
-:lazydatepicker-example:javaPreCompileDebug
-:lazydatepicker-example:compileDebugJavaWithJavac
-:lazydatepicker-example:compileDebugSources
-:lazydatepicker-example:transformClassesWithDexBuilderForDebug
-:lazydatepicker-example:transformDexArchiveWithExternalLibsDexMergerForDebug
-:lazydatepicker-example:transformDexArchiveWithDexMergerForDebug
-:lazydatepicker-example:transformNativeLibsWithMergeJniLibsForDebug
-:lazydatepicker-example:transformNativeLibsWithStripDebugSymbolForDebug
-:lazydatepicker-example:transformResourcesWithMergeJavaResForDebug
-:lazydatepicker-example:packageDebug
-:lazydatepicker-example:assembleDebug
-:lazydatepicker:generateReleaseRFile
-:lazydatepicker:generateReleaseSources
-:lazydatepicker:compileReleaseJavaWithJavac
-:lazydatepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:lazydatepicker-example:processReleaseResources
-:lazydatepicker-example:generateReleaseSources
-:lazydatepicker-example:javaPreCompileRelease
-:lazydatepicker-example:compileReleaseJavaWithJavac
-:lazydatepicker-example:compileReleaseSources
-:lazydatepicker-example:lintVitalRelease
-:lazydatepicker-example:transformClassesWithDexBuilderForRelease
-:lazydatepicker-example:transformDexArchiveWithExternalLibsDexMergerForRelease
-:lazydatepicker-example:transformDexArchiveWithDexMergerForRelease
-:lazydatepicker-example:transformNativeLibsWithMergeJniLibsForRelease
-:lazydatepicker-example:transformNativeLibsWithStripDebugSymbolForRelease
-:lazydatepicker-example:transformResourcesWithMergeJavaResForRelease
-:lazydatepicker-example:packageRelease
-:lazydatepicker-example:assembleRelease
-:lazydatepicker-example:assemble
-:lazydatepicker-example:build
+2019-06-02 20:02:20,735 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/gradlew
+2019-06-02 20:02:20,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/build.gradle
+2019-06-02 20:02:20,739 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/settings.gradle
+2019-06-02 20:02:20,740 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 20:02:20,740 INFO  ProjectFixService - Fixing project...
+2019-06-02 20:02:20,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/local.properties
+2019-06-02 20:02:20,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 20:02:20,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 20:02:20,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker/local.properties
+2019-06-02 20:02:20,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 20:02:20,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 20:02:20,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/local.properties
+2019-06-02 20:02:20,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-02 20:02:20,750 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-02 20:02:20,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 20:02:20,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 20:02:20,756 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 20:02:20,756 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 20:02:20,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 20:02:29,329 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-02 20:02:29,329 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-02 20:02:29,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-02 20:03:12,352 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :lazydatepicker:preBuild UP-TO-DATE
+> Task :lazydatepicker:preDebugBuild UP-TO-DATE
+> Task :lazydatepicker:compileDebugAidl NO-SOURCE
+> Task :lazydatepicker:compileDebugRenderscript NO-SOURCE
+> Task :lazydatepicker:checkDebugManifest
+> Task :lazydatepicker:generateDebugBuildConfig
+> Task :lazydatepicker:generateDebugResValues
+> Task :lazydatepicker:generateDebugResources
+> Task :lazydatepicker:packageDebugResources
+> Task :lazydatepicker:processDebugManifest
+> Task :lazydatepicker:generateDebugRFile
+> Task :lazydatepicker:prepareLintJar
+> Task :lazydatepicker:generateDebugSources
+> Task :lazydatepicker:javaPreCompileDebug
+> Task :lazydatepicker:compileDebugJavaWithJavac
+> Task :lazydatepicker:bundleLibCompileDebug
+> Task :lazydatepicker-example:preBuild UP-TO-DATE
+> Task :lazydatepicker-example:preDebugBuild
+> Task :lazydatepicker-example:compileDebugAidl NO-SOURCE
+> Task :lazydatepicker:packageDebugRenderscript NO-SOURCE
+> Task :lazydatepicker-example:compileDebugRenderscript NO-SOURCE
+> Task :lazydatepicker-example:checkDebugManifest
+> Task :lazydatepicker-example:generateDebugBuildConfig
+> Task :lazydatepicker-example:prepareLintJar
+> Task :lazydatepicker-example:generateDebugSources
+> Task :lazydatepicker-example:javaPreCompileDebug
+> Task :lazydatepicker-example:mainApkListPersistenceDebug
+> Task :lazydatepicker-example:generateDebugResValues
+> Task :lazydatepicker-example:generateDebugResources
+> Task :lazydatepicker-example:mergeDebugResources
+> Task :lazydatepicker-example:createDebugCompatibleScreenManifests
+> Task :lazydatepicker-example:processDebugManifest
+> Task :lazydatepicker-example:processDebugResources
+> Task :lazydatepicker-example:compileDebugJavaWithJavac
+> Task :lazydatepicker-example:compileDebugSources
+> Task :lazydatepicker:mergeDebugShaders
+> Task :lazydatepicker:compileDebugShaders
+> Task :lazydatepicker:generateDebugAssets
+> Task :lazydatepicker:packageDebugAssets
+> Task :lazydatepicker-example:mergeDebugShaders
+> Task :lazydatepicker-example:compileDebugShaders
+> Task :lazydatepicker-example:generateDebugAssets
+> Task :lazydatepicker-example:mergeDebugAssets
+> Task :lazydatepicker:processDebugJavaRes NO-SOURCE
+> Task :lazydatepicker:bundleLibResDebug
+> Task :lazydatepicker:bundleLibRuntimeDebug
+> Task :lazydatepicker:createFullJarDebug
+> Task :lazydatepicker-example:checkDebugDuplicateClasses
+> Task :lazydatepicker-example:mergeExtDexDebug
+> Task :lazydatepicker-example:transformClassesWithDexBuilderForDebug
+> Task :lazydatepicker-example:mergeDexDebug
+> Task :lazydatepicker-example:validateSigningDebug
+> Task :lazydatepicker-example:signingConfigWriterDebug
+> Task :lazydatepicker:mergeDebugJniLibFolders
+> Task :lazydatepicker:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lazydatepicker:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lazydatepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lazydatepicker-example:mergeDebugJniLibFolders
+> Task :lazydatepicker-example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lazydatepicker-example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lazydatepicker-example:processDebugJavaRes NO-SOURCE
+> Task :lazydatepicker-example:transformResourcesWithMergeJavaResForDebug
+> Task :lazydatepicker-example:packageDebug
+> Task :lazydatepicker-example:assembleDebug
+> Task :lazydatepicker:preReleaseBuild UP-TO-DATE
+> Task :lazydatepicker:compileReleaseAidl NO-SOURCE
+> Task :lazydatepicker:compileReleaseRenderscript NO-SOURCE
+> Task :lazydatepicker:checkReleaseManifest
+> Task :lazydatepicker:generateReleaseBuildConfig
+> Task :lazydatepicker:generateReleaseResValues
+> Task :lazydatepicker:generateReleaseResources
+> Task :lazydatepicker:packageReleaseResources
+> Task :lazydatepicker:processReleaseManifest
+> Task :lazydatepicker:generateReleaseRFile
+> Task :lazydatepicker:generateReleaseSources
+> Task :lazydatepicker:javaPreCompileRelease
+> Task :lazydatepicker:compileReleaseJavaWithJavac
+> Task :lazydatepicker:bundleLibCompileRelease
+> Task :lazydatepicker-example:preReleaseBuild
+> Task :lazydatepicker-example:compileReleaseAidl NO-SOURCE
+> Task :lazydatepicker:packageReleaseRenderscript NO-SOURCE
+> Task :lazydatepicker-example:compileReleaseRenderscript NO-SOURCE
+> Task :lazydatepicker-example:checkReleaseManifest
+> Task :lazydatepicker-example:generateReleaseBuildConfig
+> Task :lazydatepicker-example:generateReleaseSources
+> Task :lazydatepicker-example:javaPreCompileRelease
+> Task :lazydatepicker-example:mainApkListPersistenceRelease
+> Task :lazydatepicker-example:generateReleaseResValues
+> Task :lazydatepicker-example:generateReleaseResources
+> Task :lazydatepicker-example:mergeReleaseResources
+> Task :lazydatepicker-example:createReleaseCompatibleScreenManifests
+> Task :lazydatepicker-example:processReleaseManifest
+> Task :lazydatepicker-example:processReleaseResources
+> Task :lazydatepicker-example:compileReleaseJavaWithJavac
+> Task :lazydatepicker-example:compileReleaseSources
+> Task :lazydatepicker:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 27s
+> Task :lazydatepicker-example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1ba2f1cb7182ceb75c03741f1a93c7fa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :lazydatepicker:processReleaseJavaRes NO-SOURCE
+> Task :lazydatepicker:bundleLibResRelease
+> Task :lazydatepicker:bundleLibRuntimeRelease
+> Task :lazydatepicker:createFullJarRelease
+> Task :lazydatepicker-example:checkReleaseDuplicateClasses
+> Task :lazydatepicker-example:mergeExtDexRelease
+> Task :lazydatepicker-example:transformClassesWithDexBuilderForRelease
+> Task :lazydatepicker-example:mergeDexRelease
+> Task :lazydatepicker:mergeReleaseShaders
+> Task :lazydatepicker:compileReleaseShaders
+> Task :lazydatepicker:generateReleaseAssets
+> Task :lazydatepicker:packageReleaseAssets
+> Task :lazydatepicker-example:mergeReleaseShaders
+> Task :lazydatepicker-example:compileReleaseShaders
+> Task :lazydatepicker-example:generateReleaseAssets
+> Task :lazydatepicker-example:mergeReleaseAssets
+> Task :lazydatepicker-example:signingConfigWriterRelease
+> Task :lazydatepicker:mergeReleaseJniLibFolders
+> Task :lazydatepicker:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lazydatepicker:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lazydatepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lazydatepicker-example:mergeReleaseJniLibFolders
+> Task :lazydatepicker-example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lazydatepicker-example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lazydatepicker-example:processReleaseJavaRes NO-SOURCE
+> Task :lazydatepicker-example:transformResourcesWithMergeJavaResForRelease
+> Task :lazydatepicker-example:packageRelease
+> Task :lazydatepicker-example:assembleRelease
+> Task :lazydatepicker-example:assemble
+> Task :lazydatepicker-example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 42s
 91 actionable tasks: 91 executed
 
-2019-02-25 22:44:04,329 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551109407839-0/src/LazyDatePicker-master/lazydatepicker-example/build/outputs/apk/release/lazydatepicker-example-release-unsigned.apk
+2019-06-02 20:03:12,412 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480538388-0/src/LazyDatePicker-master/lazydatepicker-example/build/outputs/apk/release/lazydatepicker-example-release-unsigned.apk
