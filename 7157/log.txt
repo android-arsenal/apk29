@@ -1,57 +1,60 @@
-2019-05-25 20:09:31,349 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-plugins-android/archive/master.zip", attempt 3
-2019-05-25 20:09:34,333 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-plugins-android/archive/master.zip, attempt 3
-2019-05-25 20:09:34,334 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/master.zip": 1 MB
-2019-05-25 20:09:34,334 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-25 20:09:34,335 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/master.zip: true
-2019-05-25 20:09:34,335 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src'.
-2019-05-25 20:09:34,476 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-05-25 20:09:34,477 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src]
-2019-05-25 20:09:34,502 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/.git/
+2019-06-13 10:56:45,870 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-plugins-android/archive/master.zip", attempt 3
+2019-06-13 10:56:48,733 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-plugins-android/archive/master.zip, attempt 3
+2019-06-13 10:56:48,734 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/master.zip": 1 MB
+2019-06-13 10:56:48,734 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-13 10:56:48,736 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/master.zip: true
+2019-06-13 10:56:48,737 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src'.
+2019-06-13 10:56:48,863 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-06-13 10:56:48,863 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src]
+2019-06-13 10:56:48,879 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/.git/
 
-2019-05-25 20:09:34,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradlew
-2019-05-25 20:09:34,532 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/build.gradle
-2019-05-25 20:09:34,544 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/generate-token.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradle/nitpick.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle
-2019-05-25 20:09:34,546 INFO  ProjectBuildService - Remote scripts: none
-2019-05-25 20:09:34,546 INFO  ProjectFixService - Fixing project...
-2019-05-25 20:09:34,595 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/local.properties
-2019-05-25 20:09:34,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/local.properties
-2019-05-25 20:09:34,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/local.properties
-2019-05-25 20:09:34,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-building/local.properties
-2019-05-25 20:09:34,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,642 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-localization/local.properties
-2019-05-25 20:09:34,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-markerview/local.properties
-2019-05-25 20:09:34,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,665 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,667 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-offline/local.properties
-2019-05-25 20:09:34,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,675 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/local.properties
-2019-05-25 20:09:34,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-traffic/local.properties
-2019-05-25 20:09:34,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/local.properties
-2019-05-25 20:09:34,693 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-25 20:09:34,694 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-25 20:09:34,701 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 20:09:34,701 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 20:09:34,701 INFO  ProjectFixService - Project was maybe fixed
-2019-05-25 20:09:34,701 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-25 20:09:34,702 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-25 20:09:44,558 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-05-25 20:09:44,558 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-25 20:09:44,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-25 20:11:24,481 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-13 10:56:48,891 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradlew
+2019-06-13 10:56:48,903 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-scalebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/build.gradle
+2019-06-13 10:56:48,915 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-scalebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/generate-token.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradle/nitpick.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-building/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle
+2019-06-13 10:56:48,917 INFO  ProjectBuildService - Remote scripts: none
+2019-06-13 10:56:48,917 INFO  ProjectFixService - Fixing project...
+2019-06-13 10:56:48,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/local.properties
+2019-06-13 10:56:48,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:48,973 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:48,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/local.properties
+2019-06-13 10:56:48,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:48,984 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:48,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/local.properties
+2019-06-13 10:56:48,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:48,993 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:48,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-building/local.properties
+2019-06-13 10:56:49,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-building/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-localization/local.properties
+2019-06-13 10:56:49,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,011 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-localization/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-markerview/local.properties
+2019-06-13 10:56:49,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-markerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-offline/local.properties
+2019-06-13 10:56:49,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,027 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-offline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/local.properties
+2019-06-13 10:56:49,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,036 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-scalebar/local.properties
+2019-06-13 10:56:49,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-scalebar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,044 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-scalebar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-traffic/local.properties
+2019-06-13 10:56:49,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-traffic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/local.properties
+2019-06-13 10:56:49,055 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-13 10:56:49,055 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-13 10:56:49,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:56:49,064 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:56:49,065 INFO  ProjectFixService - Project was maybe fixed
+2019-06-13 10:56:49,065 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 10:56:49,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 10:56:57,591 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-06-13 10:56:57,591 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-13 10:56:57,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-13 10:58:29,249 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :ktx-mapbox-maps:preBuild UP-TO-DATE
 > Task :ktx-mapbox-maps:preDebugBuild UP-TO-DATE
@@ -81,6 +84,10 @@
 > Task :plugin-places:preDebugBuild UP-TO-DATE
 > Task :plugin-places:checkDebugManifest
 > Task :plugin-places:processDebugManifest
+> Task :plugin-scalebar:preBuild UP-TO-DATE
+> Task :plugin-scalebar:preDebugBuild UP-TO-DATE
+> Task :plugin-scalebar:checkDebugManifest
+> Task :plugin-scalebar:processDebugManifest
 > Task :plugin-traffic:preBuild UP-TO-DATE
 > Task :plugin-traffic:preDebugBuild UP-TO-DATE
 > Task :plugin-traffic:checkDebugManifest
@@ -93,6 +100,7 @@
 > Task :plugin-markerview:compileDebugAidl NO-SOURCE
 > Task :plugin-offline:compileDebugAidl NO-SOURCE
 > Task :plugin-places:compileDebugAidl NO-SOURCE
+> Task :plugin-scalebar:compileDebugAidl NO-SOURCE
 > Task :plugin-traffic:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :ktx-mapbox-maps:packageDebugRenderscript NO-SOURCE
@@ -102,6 +110,7 @@
 > Task :plugin-markerview:packageDebugRenderscript NO-SOURCE
 > Task :plugin-offline:packageDebugRenderscript NO-SOURCE
 > Task :plugin-places:packageDebugRenderscript NO-SOURCE
+> Task :plugin-scalebar:packageDebugRenderscript NO-SOURCE
 > Task :plugin-traffic:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
@@ -137,6 +146,10 @@
 > Task :plugin-places:generateDebugResValues
 > Task :plugin-places:generateDebugResources
 > Task :plugin-places:packageDebugResources
+> Task :plugin-scalebar:compileDebugRenderscript NO-SOURCE
+> Task :plugin-scalebar:generateDebugResValues
+> Task :plugin-scalebar:generateDebugResources
+> Task :plugin-scalebar:packageDebugResources
 > Task :plugin-traffic:compileDebugRenderscript NO-SOURCE
 > Task :plugin-traffic:generateDebugResValues
 > Task :plugin-traffic:generateDebugResources
@@ -151,17 +164,18 @@
 > Task :plugin-markerview:generateDebugRFile
 > Task :plugin-offline:generateDebugRFile
 > Task :plugin-places:generateDebugRFile
+> Task :plugin-scalebar:generateDebugRFile
 > Task :plugin-traffic:generateDebugRFile
 > Task :app:processDebugResources
 > Task :ktx-mapbox-maps:generateDebugBuildConfig
 
 > Task :ktx-mapbox-maps:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
 > Task :ktx-mapbox-maps:prepareLintJar
 > Task :ktx-mapbox-maps:generateDebugSources
@@ -174,7 +188,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/
 > Task :plugin-annotation:javaPreCompileDebug
 
 > Task :plugin-annotation:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :plugin-annotation:bundleLibCompileDebug
@@ -214,12 +228,18 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :plugin-places:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4), compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :plugin-places:bundleLibCompileDebug
+> Task :plugin-scalebar:generateDebugBuildConfig
+> Task :plugin-scalebar:prepareLintJar
+> Task :plugin-scalebar:generateDebugSources
+> Task :plugin-scalebar:javaPreCompileDebug
+> Task :plugin-scalebar:compileDebugJavaWithJavac
+> Task :plugin-scalebar:bundleLibCompileDebug
 > Task :plugin-traffic:generateDebugBuildConfig
 > Task :plugin-traffic:prepareLintJar
 > Task :plugin-traffic:generateDebugSources
@@ -230,8 +250,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/places/PickerLauncherActivity.kt: (25, 61): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/places/PickerLauncherActivity.kt: (25, 61): Parameter 'compoundButton' is never used, could be renamed to _
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -240,7 +260,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/
 > Task :app:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugSources
@@ -275,6 +295,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-places:compileDebugShaders
 > Task :plugin-places:generateDebugAssets
 > Task :plugin-places:packageDebugAssets
+> Task :plugin-scalebar:mergeDebugShaders
+> Task :plugin-scalebar:compileDebugShaders
+> Task :plugin-scalebar:generateDebugAssets
+> Task :plugin-scalebar:packageDebugAssets
 > Task :plugin-traffic:mergeDebugShaders
 > Task :plugin-traffic:compileDebugShaders
 > Task :plugin-traffic:generateDebugAssets
@@ -291,6 +315,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-markerview:bundleLibRuntimeDebug
 > Task :plugin-offline:bundleLibRuntimeDebug
 > Task :plugin-places:bundleLibRuntimeDebug
+> Task :plugin-scalebar:bundleLibRuntimeDebug
 > Task :plugin-traffic:bundleLibRuntimeDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
@@ -338,6 +363,12 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-places:transformNativeLibsWithMergeJniLibsForDebug
 > Task :plugin-places:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :plugin-places:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :plugin-scalebar:processDebugJavaRes NO-SOURCE
+> Task :plugin-scalebar:bundleLibResDebug
+> Task :plugin-scalebar:mergeDebugJniLibFolders
+> Task :plugin-scalebar:transformNativeLibsWithMergeJniLibsForDebug
+> Task :plugin-scalebar:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :plugin-scalebar:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :plugin-traffic:processDebugJavaRes NO-SOURCE
 > Task :plugin-traffic:bundleLibResDebug
 > Task :plugin-traffic:mergeDebugJniLibFolders
@@ -372,6 +403,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-places:preReleaseBuild UP-TO-DATE
 > Task :plugin-places:checkReleaseManifest
 > Task :plugin-places:processReleaseManifest
+> Task :plugin-scalebar:preReleaseBuild UP-TO-DATE
+> Task :plugin-scalebar:checkReleaseManifest
+> Task :plugin-scalebar:processReleaseManifest
 > Task :plugin-traffic:preReleaseBuild UP-TO-DATE
 > Task :plugin-traffic:checkReleaseManifest
 > Task :plugin-traffic:processReleaseManifest
@@ -383,6 +417,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-markerview:compileReleaseAidl NO-SOURCE
 > Task :plugin-offline:compileReleaseAidl NO-SOURCE
 > Task :plugin-places:compileReleaseAidl NO-SOURCE
+> Task :plugin-scalebar:compileReleaseAidl NO-SOURCE
 > Task :plugin-traffic:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :ktx-mapbox-maps:packageReleaseRenderscript NO-SOURCE
@@ -392,6 +427,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-markerview:packageReleaseRenderscript NO-SOURCE
 > Task :plugin-offline:packageReleaseRenderscript NO-SOURCE
 > Task :plugin-places:packageReleaseRenderscript NO-SOURCE
+> Task :plugin-scalebar:packageReleaseRenderscript NO-SOURCE
 > Task :plugin-traffic:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
@@ -427,6 +463,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-places:generateReleaseResValues
 > Task :plugin-places:generateReleaseResources
 > Task :plugin-places:packageReleaseResources
+> Task :plugin-scalebar:compileReleaseRenderscript NO-SOURCE
+> Task :plugin-scalebar:generateReleaseResValues
+> Task :plugin-scalebar:generateReleaseResources
+> Task :plugin-scalebar:packageReleaseResources
 > Task :plugin-traffic:compileReleaseRenderscript NO-SOURCE
 > Task :plugin-traffic:generateReleaseResValues
 > Task :plugin-traffic:generateReleaseResources
@@ -441,17 +481,18 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-markerview:generateReleaseRFile
 > Task :plugin-offline:generateReleaseRFile
 > Task :plugin-places:generateReleaseRFile
+> Task :plugin-scalebar:generateReleaseRFile
 > Task :plugin-traffic:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :ktx-mapbox-maps:generateReleaseBuildConfig
 
 > Task :ktx-mapbox-maps:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (11, 1): Expected performance impact of inlining 'public inline fun LatLng.toPoint(): Point defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Geometry.kt: (20, 1): Expected performance impact of inlining 'public inline fun Point.toLatLng(): LatLng defined in com.mapbox.mapboxsdk.plugins.maps in file Geometry.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (17, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (30, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLng: LatLng, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (43, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/ktx-mapbox-maps/src/main/java/com/mapbox/mapboxsdk/plugins/maps/Maps.kt: (55, 1): Expected performance impact of inlining 'public inline fun MapboxMap.queryRenderedFeatures(latLngBounds: LatLngBounds, filter: Expression?, vararg layerIds: String): List<Feature> defined in com.mapbox.mapboxsdk.plugins.maps in file Maps.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
 > Task :ktx-mapbox-maps:generateReleaseSources
 > Task :ktx-mapbox-maps:javaPreCompileRelease
@@ -462,7 +503,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/
 > Task :plugin-annotation:javaPreCompileRelease
 
 > Task :plugin-annotation:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-annotation/src/main/java/com/mapbox/mapboxsdk/plugins/annotation/DraggableAnnotationController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :plugin-annotation:bundleLibCompileRelease
@@ -497,23 +538,28 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :plugin-places:compileReleaseJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: auto-value-1.5.4.jar (com.google.auto.value:auto-value:1.5.4), compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
 > Task :plugin-places:bundleLibCompileRelease
+> Task :plugin-scalebar:generateReleaseBuildConfig
+> Task :plugin-scalebar:generateReleaseSources
+> Task :plugin-scalebar:javaPreCompileRelease
+> Task :plugin-scalebar:compileReleaseJavaWithJavac
+> Task :plugin-scalebar:bundleLibCompileRelease
 > Task :plugin-traffic:generateReleaseBuildConfig
 > Task :plugin-traffic:generateReleaseSources
 > Task :plugin-traffic:javaPreCompileRelease
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/ui/ResultView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/plugin-places/src/main/java/com/mapbox/mapboxsdk/plugins/places/autocomplete/viewmodel/PlaceAutocompleteViewModel.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-traffic:compileReleaseJavaWithJavac
 > Task :plugin-traffic:bundleLibCompileRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/places/PickerLauncherActivity.kt: (25, 61): Parameter 'compoundButton' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/markerview/MarkerViewActivity.kt: (65, 35): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/places/PickerLauncherActivity.kt: (25, 61): Parameter 'compoundButton' is never used, could be renamed to _
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -521,7 +567,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/
 > Task :app:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/src/main/java/com/mapbox/mapboxsdk/plugins/testapp/activity/FeatureOverviewActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
@@ -532,6 +578,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :plugin-markerview:prepareLintJarForPublish
 > Task :plugin-offline:prepareLintJarForPublish
 > Task :plugin-places:prepareLintJarForPublish
+> Task :plugin-scalebar:prepareLintJarForPublish
 > Task :plugin-traffic:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
@@ -569,6 +616,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :plugin-places:compileReleaseShaders
 > Task :plugin-places:generateReleaseAssets
 > Task :plugin-places:packageReleaseAssets
+> Task :plugin-scalebar:mergeReleaseShaders
+> Task :plugin-scalebar:compileReleaseShaders
+> Task :plugin-scalebar:generateReleaseAssets
+> Task :plugin-scalebar:packageReleaseAssets
 > Task :plugin-traffic:mergeReleaseShaders
 > Task :plugin-traffic:compileReleaseShaders
 > Task :plugin-traffic:generateReleaseAssets
@@ -590,6 +641,8 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :plugin-offline:bundleLibResRelease
 > Task :plugin-places:processReleaseJavaRes NO-SOURCE
 > Task :plugin-places:bundleLibResRelease
+> Task :plugin-scalebar:processReleaseJavaRes NO-SOURCE
+> Task :plugin-scalebar:bundleLibResRelease
 > Task :plugin-traffic:processReleaseJavaRes NO-SOURCE
 > Task :plugin-traffic:bundleLibResRelease
 > Task :app:transformResourcesWithMergeJavaResForRelease
@@ -607,11 +660,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :plugin-offline:mergeReleaseConsumerProguardFiles
 > Task :plugin-places:bundleLibRuntimeRelease
 > Task :plugin-places:mergeReleaseConsumerProguardFiles
+> Task :plugin-scalebar:bundleLibRuntimeRelease
+> Task :plugin-scalebar:mergeReleaseConsumerProguardFiles
 > Task :plugin-traffic:bundleLibRuntimeRelease
 > Task :plugin-traffic:mergeReleaseConsumerProguardFiles
-D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
 
 > Task :app:transformClassesAndResourcesWithR8ForRelease
 R8 is the new Android code shrinker. If you experience any issues, please file a bug at
@@ -621,6 +673,9 @@ Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from 
 
 D8: Missing class: android.arch.paging.PositionalDataSource
 
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.ConscryptPlatform.configureSslSocketFactory(javax.net.ssl.SSLSocketFactory)`
 
 > Task :app:mergeReleaseJniLibFolders
@@ -652,6 +707,10 @@ D8: Missing class: android.arch.paging.PositionalDataSource
 > Task :plugin-places:transformNativeLibsWithMergeJniLibsForRelease
 > Task :plugin-places:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :plugin-places:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :plugin-scalebar:mergeReleaseJniLibFolders
+> Task :plugin-scalebar:transformNativeLibsWithMergeJniLibsForRelease
+> Task :plugin-scalebar:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :plugin-scalebar:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :plugin-traffic:mergeReleaseJniLibFolders
 > Task :plugin-traffic:transformNativeLibsWithMergeJniLibsForRelease
 > Task :plugin-traffic:transformNativeLibsWithStripDebugSymbolForRelease
@@ -667,7 +726,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 39s
-370 actionable tasks: 370 executed
+BUILD SUCCESSFUL in 1m 30s
+409 actionable tasks: 409 executed
 
-2019-05-25 20:11:24,723 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558789771347-0/src/mapbox-plugins-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-13 10:58:29,444 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398205862-0/src/mapbox-plugins-android-master/app/build/outputs/apk/debug/app-debug.apk
