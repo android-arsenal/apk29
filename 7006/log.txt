@@ -1,249 +1,273 @@
-2019-02-25 22:56:00,003 INFO  DownloadService - Downloading "https://github.com/alfianyusufabdullah/spager/archive/master.zip", attempt 3
-2019-02-25 22:56:02,747 INFO  DownloadService - Downloaded https://github.com/alfianyusufabdullah/spager/archive/master.zip, attempt 3
-2019-02-25 22:56:02,747 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/master.zip": 173 KB
-2019-02-25 22:56:02,747 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-25 22:56:02,748 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/master.zip: true
-2019-02-25 22:56:02,748 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src'.
-2019-02-25 22:56:02,771 INFO  FullProcessService - Size of directory with sources: 197 KB
-2019-02-25 22:56:02,771 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src]
-2019-02-25 22:56:02,796 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/.git/
+2019-07-05 00:40:06,168 INFO  DownloadService - Downloading "https://github.com/alfianyusufabdullah/spager/archive/master.zip", attempt 3
+2019-07-05 00:40:08,116 INFO  DownloadService - Downloaded https://github.com/alfianyusufabdullah/spager/archive/master.zip, attempt 3
+2019-07-05 00:40:08,116 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/master.zip": 173 KB
+2019-07-05 00:40:08,116 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 00:40:08,121 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/master.zip: true
+2019-07-05 00:40:08,122 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src'.
+2019-07-05 00:40:08,140 INFO  FullProcessService - Size of directory with sources: 197 KB
+2019-07-05 00:40:08,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src]
+2019-07-05 00:40:08,156 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/.git/
 
-2019-02-25 22:56:02,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/gradlew
-2019-02-25 22:56:02,803 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/build.gradle
-2019-02-25 22:56:02,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/settings.gradle
-2019-02-25 22:56:02,807 INFO  ProjectBuildService - Remote scripts: none
-2019-02-25 22:56:02,807 INFO  ProjectFixService - Fixing project...
-2019-02-25 22:56:02,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/local.properties
-2019-02-25 22:56:02,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,815 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/local.properties
-2019-02-25 22:56:02,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,817 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/local.properties
-2019-02-25 22:56:02,818 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-25 22:56:02,818 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-25 22:56:02,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,819 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-25 22:56:02,820 INFO  ProjectFixService - Project was maybe fixed
-2019-02-25 22:56:02,820 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 22:56:02,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 22:58:11,588 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-02-25 22:58:11,588 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-25 22:58:11,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-25 22:58:36,641 INFO  SysUtils - Configuration on demand is an incubating feature.
-:lib:preBuild UP-TO-DATE
-:lib:preDebugBuild UP-TO-DATE
-:lib:compileDebugAidl
-:lib:compileDebugRenderscript
-:lib:checkDebugManifest
-:lib:generateDebugBuildConfig
-:lib:generateDebugResValues
-:lib:generateDebugResources
-:lib:packageDebugResources
-:lib:platformAttrExtractor
-:lib:processDebugManifest
-:lib:prepareLintJar
-:lib:mergeDebugConsumerProguardFiles
-:lib:mergeDebugShaders
-:lib:compileDebugShaders
-:lib:generateDebugAssets
-:lib:packageDebugAssets
-:lib:packageDebugRenderscript NO-SOURCE
-:lib:processDebugJavaRes NO-SOURCE
-:lib:compileDebugNdk NO-SOURCE
-:lib:mergeDebugJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForDebug
-:lib:transformNativeLibsWithStripDebugSymbolForDebug
-:lib:transformNativeLibsWithSyncJniLibsForDebug
-:lib:preReleaseBuild UP-TO-DATE
-:lib:compileReleaseAidl
-:lib:compileReleaseRenderscript
-:lib:checkReleaseManifest
-:lib:generateReleaseBuildConfig
-:lib:generateReleaseResValues
-:lib:generateReleaseResources
-:lib:packageReleaseResources
-:lib:processReleaseManifest
-:lib:mergeReleaseConsumerProguardFiles
-:lib:mergeReleaseShaders
-:lib:compileReleaseShaders
-:lib:generateReleaseAssets
-:lib:packageReleaseAssets
-:lib:packageReleaseRenderscript NO-SOURCE
-:lib:processReleaseJavaRes NO-SOURCE
-:lib:compileReleaseNdk NO-SOURCE
-:lib:mergeReleaseJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForRelease
-:lib:transformNativeLibsWithStripDebugSymbolForRelease
-:lib:transformNativeLibsWithSyncJniLibsForRelease
-:lib:mergeReleaseResources
-:lib:verifyReleaseResources
-:lib:generateDebugRFile
-:lib:compileDebugKotlin
-:lib:generateDebugSources
-:lib:javaPreCompileDebug
-:lib:compileDebugJavaWithJavac
-:lib:extractDebugAnnotations
-:lib:transformResourcesWithMergeJavaResForDebug
-:lib:transformClassesAndResourcesWithSyncLibJarsForDebug
-:lib:bundleDebug
-:lib:compileDebugSources
-:lib:assembleDebug
-:lib:generateReleaseRFile
-:lib:compileReleaseKotlin
-:lib:generateReleaseSources
-:lib:javaPreCompileRelease
-:lib:compileReleaseJavaWithJavac
-:lib:extractReleaseAnnotations
-:lib:transformResourcesWithMergeJavaResForRelease
-:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
-:lib:bundleRelease
-:lib:compileReleaseSources
-:lib:assembleRelease
-:lib:assemble
-:lib:build
+2019-07-05 00:40:08,159 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/gradlew
+2019-07-05 00:40:08,161 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/build.gradle
+2019-07-05 00:40:08,164 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/settings.gradle
+2019-07-05 00:40:08,164 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 00:40:08,164 INFO  ProjectFixService - Fixing project...
+2019-07-05 00:40:08,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/local.properties
+2019-07-05 00:40:08,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/local.properties
+2019-07-05 00:40:08,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,172 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/local.properties
+2019-07-05 00:40:08,173 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 00:40:08,173 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 00:40:08,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-07-05 00:40:08,174 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 00:40:08,174 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:40:08,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:40:14,255 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 00:40:14,255 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 00:40:14,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 00:40:31,641 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 24s
-50 actionable tasks: 50 executed
+> Configure project :lib
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-02-25 22:58:36,701 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 22:58:36,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 22:58:42,485 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-25 22:58:42,485 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-25 22:58:42,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-26 00:15:48,850 INFO  SysUtils - Configuration on demand is an incubating feature.
-:lib:preBuild UP-TO-DATE
-:lib:preDebugBuild UP-TO-DATE
-:lib:compileDebugAidl UP-TO-DATE
-:lib:compileDebugRenderscript UP-TO-DATE
-:lib:checkDebugManifest UP-TO-DATE
-:lib:generateDebugBuildConfig UP-TO-DATE
-:lib:generateDebugResValues UP-TO-DATE
-:lib:generateDebugResources UP-TO-DATE
-:lib:packageDebugResources UP-TO-DATE
-:lib:platformAttrExtractor UP-TO-DATE
-:lib:processDebugManifest UP-TO-DATE
-:lib:generateDebugRFile UP-TO-DATE
-:lib:compileDebugKotlin UP-TO-DATE
-:lib:prepareLintJar UP-TO-DATE
-:lib:generateDebugSources UP-TO-DATE
-:lib:javaPreCompileDebug UP-TO-DATE
-:lib:compileDebugJavaWithJavac UP-TO-DATE
-:lib:processDebugJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:lib:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:compileDebugKotlin
-:sample:prepareLintJar
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:lib:mergeDebugShaders UP-TO-DATE
-:lib:compileDebugShaders UP-TO-DATE
-:lib:generateDebugAssets UP-TO-DATE
-:lib:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:lib:compileDebugNdk NO-SOURCE
-:lib:mergeDebugJniLibFolders UP-TO-DATE
-:lib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:lib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:lib:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:lib:preReleaseBuild UP-TO-DATE
-:lib:compileReleaseAidl UP-TO-DATE
-:lib:compileReleaseRenderscript UP-TO-DATE
-:lib:checkReleaseManifest UP-TO-DATE
-:lib:generateReleaseBuildConfig UP-TO-DATE
-:lib:generateReleaseResValues UP-TO-DATE
-:lib:generateReleaseResources UP-TO-DATE
-:lib:packageReleaseResources UP-TO-DATE
-:lib:processReleaseManifest UP-TO-DATE
-:lib:generateReleaseRFile UP-TO-DATE
-:lib:compileReleaseKotlin UP-TO-DATE
-:lib:generateReleaseSources UP-TO-DATE
-:lib:javaPreCompileRelease UP-TO-DATE
-:lib:compileReleaseJavaWithJavac UP-TO-DATE
-:lib:processReleaseJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:lib:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:compileReleaseKotlin
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:lib:mergeReleaseShaders UP-TO-DATE
-:lib:compileReleaseShaders UP-TO-DATE
-:lib:generateReleaseAssets UP-TO-DATE
-:lib:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:lib:compileReleaseNdk NO-SOURCE
-:lib:mergeReleaseJniLibFolders UP-TO-DATE
-:lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:lib:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:checkDebugManifest
+> Task :lib:generateDebugBuildConfig
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :lib:processDebugManifest
+> Task :lib:generateDebugRFile
+> Task :lib:compileDebugKotlin
+> Task :lib:prepareLintJar
+> Task :lib:generateDebugSources
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:extractDebugAnnotations
+> Task :lib:mergeDebugConsumerProguardFiles
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :lib:prepareLintJarForPublish
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:transformResourcesWithMergeJavaResForDebug
+> Task :lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:transformNativeLibsWithSyncJniLibsForDebug
+> Task :lib:bundleDebugAar
+> Task :lib:compileDebugSources
+> Task :lib:assembleDebug
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:checkReleaseManifest
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:processReleaseManifest
+> Task :lib:generateReleaseRFile
+> Task :lib:compileReleaseKotlin
+> Task :lib:generateReleaseSources
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:extractReleaseAnnotations
+> Task :lib:mergeReleaseConsumerProguardFiles
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:transformResourcesWithMergeJavaResForRelease
+> Task :lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:transformNativeLibsWithSyncJniLibsForRelease
+> Task :lib:bundleReleaseAar
+> Task :lib:compileReleaseSources
+> Task :lib:mergeReleaseResources
+> Task :lib:verifyReleaseResources
+> Task :lib:assembleRelease
+> Task :lib:assemble
+> Task :lib:build
 
-BUILD SUCCESSFUL in 1h 17m 5s
-95 actionable tasks: 59 executed, 36 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-02-26 00:15:48,964 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551110160000-0/src/spager-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+BUILD SUCCESSFUL in 16s
+46 actionable tasks: 46 executed
+
+2019-07-05 00:40:31,678 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:40:31,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:40:37,690 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 00:40:37,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 00:40:37,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 00:41:29,721 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :lib
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:checkDebugManifest UP-TO-DATE
+> Task :lib:generateDebugBuildConfig UP-TO-DATE
+> Task :lib:generateDebugResValues UP-TO-DATE
+> Task :lib:generateDebugResources UP-TO-DATE
+> Task :lib:packageDebugResources UP-TO-DATE
+> Task :lib:processDebugManifest UP-TO-DATE
+> Task :lib:generateDebugRFile UP-TO-DATE
+> Task :lib:compileDebugKotlin UP-TO-DATE
+> Task :lib:prepareLintJar UP-TO-DATE
+> Task :lib:generateDebugSources UP-TO-DATE
+> Task :lib:javaPreCompileDebug UP-TO-DATE
+> Task :lib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :lib:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :lib:mergeDebugShaders UP-TO-DATE
+> Task :lib:compileDebugShaders UP-TO-DATE
+> Task :lib:generateDebugAssets UP-TO-DATE
+> Task :lib:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:bundleLibResDebug
+> Task :lib:bundleLibRuntimeDebug
+> Task :lib:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :lib:mergeDebugJniLibFolders UP-TO-DATE
+> Task :lib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :lib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:checkReleaseManifest UP-TO-DATE
+> Task :lib:generateReleaseBuildConfig UP-TO-DATE
+> Task :lib:generateReleaseResValues UP-TO-DATE
+> Task :lib:generateReleaseResources UP-TO-DATE
+> Task :lib:packageReleaseResources UP-TO-DATE
+> Task :lib:processReleaseManifest UP-TO-DATE
+> Task :lib:generateReleaseRFile UP-TO-DATE
+> Task :lib:compileReleaseKotlin UP-TO-DATE
+> Task :lib:generateReleaseSources UP-TO-DATE
+> Task :lib:javaPreCompileRelease UP-TO-DATE
+> Task :lib:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :lib:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :lib:prepareLintJarForPublish UP-TO-DATE
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5b68e6493f140e9c3f2169cccdbcb68c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:bundleLibResRelease
+> Task :lib:bundleLibRuntimeRelease
+> Task :lib:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :lib:mergeReleaseShaders UP-TO-DATE
+> Task :lib:compileReleaseShaders UP-TO-DATE
+> Task :lib:generateReleaseAssets UP-TO-DATE
+> Task :lib:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :lib:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 51s
+95 actionable tasks: 63 executed, 32 up-to-date
+
+2019-07-05 00:41:29,802 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262006166-0/src/spager-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
