@@ -1,39 +1,36 @@
-2018-12-28 20:37:50,805 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
-2018-12-28 20:38:51,766 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-28 20:38:53,037 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-28 20:38:53,037 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
-2018-12-28 20:39:54,387 DEBUG FullProcessService - Repository https://github.com/saket/InboxRecyclerView available: true
-2018-12-28 20:39:54,387 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-28 20:39:54,388 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/saket/InboxRecyclerView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src]
-2018-12-28 20:40:00,033 INFO  SysUtils - 
-2018-12-28 20:40:00,042 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/.git": true
-2018-12-28 20:40:00,046 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-12-28 20:40:00,046 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src]
-2018-12-28 20:40:00,064 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/.git/
+2019-07-04 23:53:13,406 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
+2019-07-04 23:56:38,352 INFO  DownloadService - Downloaded https://github.com/saket/InboxRecyclerView/archive/master.zip, attempt 3
+2019-07-04 23:56:38,352 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/master.zip": 8 MB
+2019-07-04 23:56:38,352 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 23:56:38,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/master.zip: true
+2019-07-04 23:56:38,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src'.
+2019-07-04 23:56:38,430 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-07-04 23:56:38,431 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src]
+2019-07-04 23:56:38,447 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/.git/
 
-2018-12-28 20:40:00,068 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradlew
-2018-12-28 20:40:00,072 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/build.gradle
-2018-12-28 20:40:00,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle
-2018-12-28 20:40:00,076 INFO  ProjectBuildService - Remote scripts: none
-2018-12-28 20:40:00,076 INFO  ProjectFixService - Fixing project...
-2018-12-28 20:40:00,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/local.properties
-2018-12-28 20:40:00,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=27]
-2018-12-28 20:40:00,090 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
-2018-12-28 20:40:00,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/local.properties
-2018-12-28 20:40:00,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
-2018-12-28 20:40:00,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=27]
-2018-12-28 20:40:00,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/local.properties
-2018-12-28 20:40:00,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-28 20:40:00,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-28 20:40:00,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
-2018-12-28 20:40:00,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=27]
-2018-12-28 20:40:00,097 INFO  ProjectFixService - Project was maybe fixed
-2018-12-28 20:40:00,097 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-28 20:40:00,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-28 20:40:09,335 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-28 20:40:09,336 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-28 20:40:09,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-28 20:41:02,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 23:56:38,450 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradlew
+2019-07-04 23:56:38,452 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/build.gradle
+2019-07-04 23:56:38,455 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle
+2019-07-04 23:56:38,455 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 23:56:38,455 INFO  ProjectFixService - Fixing project...
+2019-07-04 23:56:38,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/local.properties
+2019-07-04 23:56:38,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=27]
+2019-07-04 23:56:38,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=27]
+2019-07-04 23:56:38,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/local.properties
+2019-07-04 23:56:38,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
+2019-07-04 23:56:38,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
+2019-07-04 23:56:38,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/local.properties
+2019-07-04 23:56:38,468 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-04 23:56:38,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-04 23:56:38,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
+2019-07-04 23:56:38,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
+2019-07-04 23:56:38,471 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 23:56:38,471 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:56:38,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:56:51,868 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-04 23:56:51,868 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-04 23:56:51,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-04 23:57:30,595 INFO  SysUtils - Configuration on demand is an incubating feature.
 :inboxrecyclerview:preBuild UP-TO-DATE
 :inboxrecyclerview:preDebugBuild UP-TO-DATE
 :inboxrecyclerview:compileDebugAidl NO-SOURCE
@@ -46,11 +43,14 @@
 :inboxrecyclerview:processDebugManifest
 :inboxrecyclerview:generateDebugRFile
 :inboxrecyclerview:kaptGenerateStubsDebugKotlin
-Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-rc01/annotation-1.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-rc01/core-common-2.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-rc01/collection-1.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-rc01/lifecycle-common-2.0.0-rc01.jar
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.60/kotlin-stdlib-jdk7-1.2.60.jar
 Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-android-extensions-runtime/1.2.60/kotlin-android-extensions-runtime-1.2.60.jar
 :inboxrecyclerview:kaptDebugKotlin
 :inboxrecyclerview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 :inboxrecyclerview:prepareLintJar
 :inboxrecyclerview:generateDebugSources
 :inboxrecyclerview:javaPreCompileDebug
@@ -86,7 +86,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/
 :inboxrecyclerview:kaptGenerateStubsReleaseKotlin
 :inboxrecyclerview:kaptReleaseKotlin
 :inboxrecyclerview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
 :inboxrecyclerview:generateReleaseSources
 :inboxrecyclerview:javaPreCompileRelease
 :inboxrecyclerview:compileReleaseJavaWithJavac
@@ -110,7 +110,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/
 :inboxrecyclerview:mergeReleaseResources
 :inboxrecyclerview:verifyReleaseResources
 :inboxrecyclerview:assembleRelease
-:inboxrecyclerview:dokkawarning: duplicate source root: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/inboxrecyclerview/src/main/java
+:inboxrecyclerview:dokkawarning: duplicate source root: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java
 
 No documentation for me.saket.inboxrecyclerview.InboxRecyclerView$page (InboxRecyclerView.kt:55)
 No documentation for me.saket.inboxrecyclerview.InboxRecyclerView$onSaveInstanceState() (InboxRecyclerView.kt:73)
@@ -235,15 +235,15 @@ Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayout
 :inboxrecyclerview:assemble
 :inboxrecyclerview:build
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 38s
 54 actionable tasks: 54 executed
 
-2018-12-28 20:41:02,255 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-28 20:41:02,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-28 20:41:12,895 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-28 20:41:12,895 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-28 20:41:12,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-28 20:42:26,099 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 23:57:30,636 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:57:30,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:57:38,974 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-04 23:57:38,974 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 23:57:38,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 23:58:32,781 INFO  SysUtils - Configuration on demand is an incubating feature.
 :inboxrecyclerview:preBuild UP-TO-DATE
 :inboxrecyclerview:preDebugBuild UP-TO-DATE
 :inboxrecyclerview:compileDebugAidl NO-SOURCE
@@ -265,6 +265,9 @@ BUILD SUCCESSFUL in 52s
 :inboxrecyclerview:processDebugJavaRes NO-SOURCE
 :inboxrecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:checkDebugClasspath
+Download https://repo.maven.apache.org/maven2/com/squareup/leakcanary/leakcanary-watcher/1.6.1/leakcanary-watcher-1.6.1.jar
+Download https://repo.maven.apache.org/maven2/com/jakewharton/rxrelay2/rxrelay/2.0.0/rxrelay-2.0.0.jar
+Download https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.9/rxjava-2.1.9.jar
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl NO-SOURCE
@@ -283,9 +286,9 @@ BUILD SUCCESSFUL in 52s
 :sample:kaptGenerateStubsDebugKotlin
 :sample:kaptDebugKotlin
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -361,9 +364,9 @@ D8: Stripped invalid locals information from 1 method.
 :sample:kaptGenerateStubsReleaseKotlin
 :sample:kaptReleaseKotlin
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavac
@@ -398,7 +401,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 1m 12s
+BUILD SUCCESSFUL in 53s
 102 actionable tasks: 65 executed, 37 up-to-date
 
-2018-12-28 20:42:26,309 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546004270801-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-04 23:58:32,884 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562259193402-0/src/InboxRecyclerView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
