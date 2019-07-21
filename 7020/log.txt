@@ -1,821 +1,135 @@
-2019-05-15 14:22:05,163 INFO  DownloadService - Downloading "https://github.com/NickM-27/LinkPreview/archive/master.zip", attempt 3
-2019-05-15 14:22:09,662 INFO  DownloadService - Downloaded https://github.com/NickM-27/LinkPreview/archive/master.zip, attempt 3
-2019-05-15 14:22:09,663 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/master.zip": 2 MB
-2019-05-15 14:22:09,663 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-15 14:22:09,669 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/master.zip: true
-2019-05-15 14:22:09,669 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src'.
-2019-05-15 14:22:09,716 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-05-15 14:22:09,716 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src]
-2019-05-15 14:22:09,744 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/.git/
+2019-07-21 19:46:45,017 INFO  DownloadService - Downloading "https://github.com/NickM-27/LinkPreview/archive/master.zip", attempt 3
+2019-07-21 19:46:50,874 INFO  DownloadService - Downloaded https://github.com/NickM-27/LinkPreview/archive/master.zip, attempt 3
+2019-07-21 19:46:50,875 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/master.zip": 2 MB
+2019-07-21 19:46:50,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-21 19:46:50,876 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/master.zip: true
+2019-07-21 19:46:50,877 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src'.
+2019-07-21 19:46:50,938 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-21 19:46:50,938 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src]
+2019-07-21 19:46:50,972 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/.git/
 
-2019-05-15 14:22:09,748 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/gradlew
-2019-05-15 14:22:09,753 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/build.gradle
-2019-05-15 14:22:09,757 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/settings.gradle
-2019-05-15 14:22:09,758 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-05-15 14:22:10,375 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-05-15 14:22:10,376 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-05-15 14:22:10,760 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-05-15 14:22:10,760 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-05-15 14:22:10,760 INFO  ProjectFixService - Fixing project...
-2019-05-15 14:22:10,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/local.properties
-2019-05-15 14:22:10,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,776 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/local.properties
-2019-05-15 14:22:10,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/local.properties
-2019-05-15 14:22:10,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-15 14:22:10,783 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-15 14:22:10,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-15 14:22:10,785 INFO  ProjectFixService - Project was maybe fixed
-2019-05-15 14:22:10,785 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-15 14:22:10,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-15 14:22:20,648 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-15 14:22:20,648 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-15 14:22:20,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-15 14:22:48,557 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with JetifyTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with JetifyTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with ExtractAarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with JetifyTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with ExtractAarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with JetifyTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with ExtractAarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with ExtractAarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with ExtractAarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
+2019-07-21 19:46:50,978 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/gradlew
+2019-07-21 19:46:50,984 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/build.gradle
+2019-07-21 19:46:50,990 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/settings.gradle
+2019-07-21 19:46:50,997 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-21 19:46:52,341 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-21 19:46:52,342 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-21 19:46:52,420 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-21 19:46:52,420 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-21 19:46:52,420 INFO  ProjectFixService - Fixing project...
+2019-07-21 19:46:52,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/local.properties
+2019-07-21 19:46:52,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/local.properties
+2019-07-21 19:46:52,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,450 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/local.properties
+2019-07-21 19:46:52,452 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-21 19:46:52,453 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-21 19:46:52,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,455 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-07-21 19:46:52,456 INFO  ProjectFixService - Project was maybe fixed
+2019-07-21 19:46:52,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 19:46:52,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 19:47:09,463 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-21 19:47:09,463 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-21 19:47:09,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-21 19:47:58,033 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :linkpreview:preBuild UP-TO-DATE
 > Task :linkpreview:preDebugBuild UP-TO-DATE
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with IdentityTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with ExtractAarTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.0) with JetifyTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.0) with IdentityTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.8.0) with JetifyTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.8.0) with IdentityTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.8.0) with JetifyTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.8.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with JetifyTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarCompileClassesTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarCompileClassesTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with JetifyTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with IdentityTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarCompileClassesTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarCompileClassesTransform
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0) with JetifyTransform
-> Transform databinding-common.jar (androidx.databinding:databinding-common:3.3.0) with JetifyTransform
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0) with IdentityTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarCompileClassesTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarCompileClassesTransform
-> Transform databinding-common.jar (androidx.databinding:databinding-common:3.3.0) with IdentityTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0) with IdentityTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
 > Task :linkpreview:checkDebugManifest
 > Task :linkpreview:generateDebugBuildConfig
 > Task :linkpreview:prepareLintJar
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Task :linkpreview:generateDebugResValues
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with LibrarySymbolTableTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with LibrarySymbolTableTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with LibrarySymbolTableTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with LibrarySymbolTableTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with LibrarySymbolTableTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with LibrarySymbolTableTransform
-> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.0-5013011) with Aapt2Extractor
-> Transform jsoup.jar (org.jsoup:jsoup:1.11.3) with JetifyTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with JetifyTransform
-> Task :linkpreview:processDebugManifest
-> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
-> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
-> Transform checker-qual.jar (org.checkerframework:checker-qual:2.5.2) with JetifyTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with JetifyTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11) with JetifyTransform
-> Transform annotations.jar (com.android.tools:annotations:26.3.0) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with JetifyTransform
-> Transform jetifier-core.jar (com.android.tools.build.jetifier:jetifier-core:1.0.0-beta02) with JetifyTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with JetifyTransform
-> Transform baseLibrary.jar (com.android.databinding:baseLibrary:3.3.0) with JetifyTransform
-> Transform juniversalchardet.jar (com.googlecode.juniversalchardet:juniversalchardet:1.0.3) with JetifyTransform
-> Transform jsoup.jar (org.jsoup:jsoup:1.11.3) with IdentityTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with ExtractAarTransform
-
-> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.1.3) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${junit.version}'
-
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarCompileClassesTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
+> Task :linkpreview:prepareLintJarForPublish
 > Task :linkpreview:compileDebugAidl NO-SOURCE
-> Transform javapoet.jar (com.squareup:javapoet:1.8.0) with JetifyTransform
-> Task :linkpreview:compileDebugRenderscript
+> Task :linkpreview:compileDebugRenderscript NO-SOURCE
 > Task :linkpreview:generateDebugSources
-> Transform gson.jar (com.google.code.gson:gson:2.8.0) with JetifyTransform
-> Transform commons-io.jar (commons-io:commons-io:2.4) with JetifyTransform
 > Task :linkpreview:dataBindingExportBuildInfoDebug
-> Task :linkpreview:generateDebugResources
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform commons-codec.jar (commons-codec:commons-codec:1.9) with JetifyTransform
-
-> Transform antlr4.jar (org.antlr:antlr4:4.5.3) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-
-> Transform guava.jar (com.google.guava:guava:26.0-jre) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
-> Task :linkpreview:mergeDebugResources
 > Task :linkpreview:dataBindingMergeDependencyArtifactsDebug
-> Task :linkpreview:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :linkpreview:dataBindingMergeGenClassesDebug
+> Task :linkpreview:generateDebugResValues
+> Task :linkpreview:generateDebugResources
+> Task :linkpreview:mergeDebugResources
 > Task :linkpreview:dataBindingGenBaseClassesDebug
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with LibrarySymbolTableTransform
 > Task :linkpreview:packageDebugResources
-> Task :linkpreview:generateDebugRFile
-> Transform databinding-compiler-common.jar (androidx.databinding:databinding-compiler-common:3.3.0) with JetifyTransform
-> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11) with JetifyTransform
-> Transform databinding-compiler.jar (androidx.databinding:databinding-compiler:3.3.0) with JetifyTransform
-> Task :linkpreview:mergeDebugConsumerProguardFiles
 > Task :linkpreview:mergeDebugShaders
 > Task :linkpreview:compileDebugShaders
 > Task :linkpreview:generateDebugAssets
 > Task :linkpreview:packageDebugAssets
 > Task :linkpreview:packageDebugRenderscript NO-SOURCE
 > Task :linkpreview:processDebugJavaRes NO-SOURCE
-> Task :linkpreview:compileDebugNdk NO-SOURCE
 > Task :linkpreview:mergeDebugJniLibFolders
-> Transform compiler.jar (com.github.bumptech.glide:compiler:4.8.0) with JetifyTransform
-> Task :linkpreview:transformNativeLibsWithMergeJniLibsForDebug
-> Task :linkpreview:kaptGenerateStubsDebugKotlin
-> Task :linkpreview:kaptDebugKotlin
-> Task :linkpreview:compileDebugKotlin
-> Task :linkpreview:javaPreCompileDebug
-> Task :linkpreview:compileDebugJavaWithJavac
-> Task :linkpreview:extractDebugAnnotations
-> Task :linkpreview:transformResourcesWithMergeJavaResForDebug
-> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :linkpreview:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :linkpreview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :linkpreview:bundleDebugAar
-> Task :linkpreview:compileDebugSources
-> Task :linkpreview:assembleDebug
 > Task :linkpreview:extractProguardFiles
 > Task :linkpreview:preReleaseBuild
 > Task :linkpreview:compileReleaseAidl NO-SOURCE
-> Task :linkpreview:compileReleaseRenderscript
+> Task :linkpreview:compileReleaseRenderscript NO-SOURCE
 > Task :linkpreview:checkReleaseManifest
 > Task :linkpreview:generateReleaseBuildConfig
 > Task :linkpreview:generateReleaseSources
 > Task :linkpreview:dataBindingExportBuildInfoRelease
-> Task :linkpreview:dataBindingMergeDependencyArtifactsRelease
+> Task :linkpreview:processDebugManifest
 > Task :linkpreview:generateReleaseResValues
 > Task :linkpreview:generateReleaseResources
 > Task :linkpreview:mergeReleaseResources
-> Task :linkpreview:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
-> Task :linkpreview:dataBindingGenBaseClassesRelease
 > Task :linkpreview:packageReleaseResources
-> Task :linkpreview:processReleaseManifest
-> Task :linkpreview:generateReleaseRFile
-> Task :linkpreview:kaptGenerateStubsReleaseKotlin
-> Task :linkpreview:kaptReleaseKotlin
-> Task :linkpreview:compileReleaseKotlin
-> Task :linkpreview:javaPreCompileRelease
-> Task :linkpreview:compileReleaseJavaWithJavac
-> Task :linkpreview:extractReleaseAnnotations
-> Task :linkpreview:mergeReleaseConsumerProguardFiles
+> Task :linkpreview:mergeDebugNativeLibs
+> Task :linkpreview:stripDebugDebugSymbols
+> Task :linkpreview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :linkpreview:dataBindingMergeDependencyArtifactsRelease
 > Task :linkpreview:mergeReleaseShaders
 > Task :linkpreview:compileReleaseShaders
 > Task :linkpreview:generateReleaseAssets
 > Task :linkpreview:packageReleaseAssets
 > Task :linkpreview:packageReleaseRenderscript NO-SOURCE
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with IdentityTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.8.0) with IdentityTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.0) with IdentityTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.8.0) with IdentityTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with IdentityTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0) with IdentityTransform
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0) with IdentityTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform jsoup.jar (org.jsoup:jsoup:1.11.3) with IdentityTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform databinding-common.jar (androidx.databinding:databinding-common:3.3.0) with IdentityTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with ExtractProGuardRulesTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.20) with ExtractProGuardRulesTransform
-> Transform kotlinx-coroutines-core-common.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.0) with ExtractProGuardRulesTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.8.0) with ExtractProGuardRulesTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.8.0) with ExtractProGuardRulesTransform
-> Transform constraintlayout-solver.jar (androidx.constraintlayout:constraintlayout-solver:1.1.3) with ExtractProGuardRulesTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.8.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with ExtractProGuardRulesTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with ExtractProGuardRulesTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with ExtractProGuardRulesTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.20) with ExtractProGuardRulesTransform
-> Transform core-ktx.aar (androidx.core:core-ktx:1.0.1) with AarTransform
-> Transform kotlinx-coroutines-android.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0) with ExtractProGuardRulesTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.8.0) with AarTransform
-> Transform constraintlayout.aar (androidx.constraintlayout:constraintlayout:1.1.3) with AarTransform
-> Transform browser.aar (androidx.browser:browser:1.0.0) with AarTransform
-> Transform databinding-common.jar (androidx.databinding:databinding-common:3.3.0) with ExtractProGuardRulesTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with ExtractProGuardRulesTransform
-> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.3.0) with AarTransform
-> Transform kotlinx-coroutines-core.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0) with ExtractProGuardRulesTransform
-> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.3.0) with AarTransform
+> Task :linkpreview:parseDebugLibraryResources
+> Task :linkpreview:parseReleaseLibraryResources
+> Task :linkpreview:dataBindingMergeGenClassesRelease
+> Task :linkpreview:dataBindingGenBaseClassesRelease
+> Task :linkpreview:processReleaseManifest
 > Task :linkpreview:processReleaseJavaRes NO-SOURCE
-> Transform jsoup.jar (org.jsoup:jsoup:1.11.3) with ExtractProGuardRulesTransform
-> Task :linkpreview:transformResourcesWithMergeJavaResForRelease
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/tmp/kotlin-classes/release] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/tmp/kapt3/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.0.aar/be9ea885f2594fd5378daaeff450c7a5/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.0.aar/d3956efeb1cec54d0ce769366411521a/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.0/9df1ac00e230e8e9aae9c6fae20415ac31dc5253/databinding-common-3.3.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/21f77d4b3825a4a6bae3bed61ae9bc19/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7748f04f6281c3565e473bf0a5a57dfd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jsoup-1.11.3.jar/07a41b979a04062f078ed1d4548da672/jetified-jsoup-1.11.3.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/271bf44e7495a02f98a2067fd0aed89d/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/kotlinx-coroutines-android-1.0.0.jar/8253db267bde428e53cd23d1c63fd396/jetified-kotlinx-coroutines-android-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.0.0/a33c4bf7581f71f01d4ed660b09ca199abbb44da/kotlinx-coroutines-core-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.1.aar/e0e78cf8e3aff2dc5759e8d1832aabaa/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/eb2a232734e09fcd1b958a5c7520a93c6de38b32/kotlin-stdlib-1.3.20.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d45b25c8ac1a9b9d9aaa3c79ef7ff03c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/58970239dfead61f2e7d13728910cfb7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5d0ad4821c1c5df06774486df15dce67/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/330526c2650e92e3d0b8e73d0ea1185c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/5555c0ded9eca15d2e6b1a0f854289c1/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1bc8d6e5cedb78c4352368c07dc3b1c4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/44438309a0989fdd948db3e2c3e0cdde/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/d20817651e732b6370df4a7bebbf3f41/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/6c9e2213eb0e47dd2a8fd134e64e2f5f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d85354e6a9d6330370b82017de2eeb10/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8e03a51f2b2e53e71aa66787e2b4aac4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/31cc2ba31fe92c84895431b857dc934f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/13326dc518ad1dc6e5f6958d73b2e389/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/14fe4a5b2e77888e37f0ef188c1c371e/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/05393eec8c0e85e2d596cc7709afde9f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d11acb37dec44d52bcadbe1aba3ea768/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4d3fd9289109fd8138ee19361ad780b4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/ac1962a8162de1eecd1e53482b1395fb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3093094622b3ac8fe7c0c4e1ca1fb55c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/12ca4890219656a7071c5f127870b366/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/47343c5c002b59825e55c236a4533d0c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/9ceb0f5c2b52b12bce14a9bdc6e26840/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/cdd3d1fe6f42e6c4b4e51c6a930fa068/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/cf729b6fa7bd6143bf94bd632f8bb37a/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.0.0/5f7551ec1edc068deaa0397100a1f14f32270274/kotlinx-coroutines-core-common-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/7d7934e26ce34da1a0a8d00e38038d7cf3375e89/kotlin-stdlib-common-1.3.20.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.0.aar/be9ea885f2594fd5378daaeff450c7a5/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.0.aar/d3956efeb1cec54d0ce769366411521a/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.0/9df1ac00e230e8e9aae9c6fae20415ac31dc5253/databinding-common-3.3.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/21f77d4b3825a4a6bae3bed61ae9bc19/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7748f04f6281c3565e473bf0a5a57dfd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jsoup-1.11.3.jar/07a41b979a04062f078ed1d4548da672/jetified-jsoup-1.11.3.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/271bf44e7495a02f98a2067fd0aed89d/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/kotlinx-coroutines-android-1.0.0.jar/8253db267bde428e53cd23d1c63fd396/jetified-kotlinx-coroutines-android-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.0.0/a33c4bf7581f71f01d4ed660b09ca199abbb44da/kotlinx-coroutines-core-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.1.aar/e0e78cf8e3aff2dc5759e8d1832aabaa/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/eb2a232734e09fcd1b958a5c7520a93c6de38b32/kotlin-stdlib-1.3.20.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d45b25c8ac1a9b9d9aaa3c79ef7ff03c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/58970239dfead61f2e7d13728910cfb7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5d0ad4821c1c5df06774486df15dce67/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/330526c2650e92e3d0b8e73d0ea1185c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/5555c0ded9eca15d2e6b1a0f854289c1/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1bc8d6e5cedb78c4352368c07dc3b1c4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/44438309a0989fdd948db3e2c3e0cdde/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/d20817651e732b6370df4a7bebbf3f41/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/6c9e2213eb0e47dd2a8fd134e64e2f5f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d85354e6a9d6330370b82017de2eeb10/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8e03a51f2b2e53e71aa66787e2b4aac4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/31cc2ba31fe92c84895431b857dc934f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/13326dc518ad1dc6e5f6958d73b2e389/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/14fe4a5b2e77888e37f0ef188c1c371e/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/05393eec8c0e85e2d596cc7709afde9f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d11acb37dec44d52bcadbe1aba3ea768/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4d3fd9289109fd8138ee19361ad780b4/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/ac1962a8162de1eecd1e53482b1395fb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/3093094622b3ac8fe7c0c4e1ca1fb55c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/12ca4890219656a7071c5f127870b366/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/47343c5c002b59825e55c236a4533d0c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/9ceb0f5c2b52b12bce14a9bdc6e26840/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/cdd3d1fe6f42e6c4b4e51c6a930fa068/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/cf729b6fa7bd6143bf94bd632f8bb37a/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.0.0/5f7551ec1edc068deaa0397100a1f14f32270274/kotlinx-coroutines-core-common-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/7d7934e26ce34da1a0a8d00e38038d7cf3375e89/kotlin-stdlib-common-1.3.20.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Note: the configuration refers to the unknown class 'android.databinding.DataBinderMapper'
-      Maybe you meant the fully qualified name 'androidx.databinding.DataBinderMapper'?
-Note: there were 1 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
-Ignoring unused library classes...
-  Original number of library classes: 8004
-  Final number of library classes:    406
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 226
-  Final number of program classes:    226
-Optimizing (pass 1/5)...
-  Number of finalized classes:                   2
-  Number of unboxed enum classes:                0
-  Number of vertically merged classes:           0   (disabled)
-  Number of horizontally merged classes:         0   (disabled)
-  Number of merged wrapper classes:              0   (disabled)
-  Number of removed write-only fields:           0   (disabled)
-  Number of privatized fields:                   0   (disabled)
-  Number of inlined constant fields:             0   (disabled)
-  Number of privatized methods:                  0
-  Number of staticized methods:                  0
-  Number of finalized methods:                   0
-  Number of desynchronized methods:              0
-  Number of simplified method signatures:        0
-  Number of removed method parameters:           0
-  Number of inlined constant parameters:         0
-  Number of inlined constant return values:      0
-  Number of inlined short method calls:          0
-  Number of inlined unique method calls:         0
-  Number of inlined tail recursion calls:        0
-  Number of merged code blocks:                  0
-  Number of variable peephole optimizations:     52
-  Number of arithmetic peephole optimizations:   0   (disabled)
-  Number of cast peephole optimizations:         0   (disabled)
-  Number of field peephole optimizations:        2
-  Number of branch peephole optimizations:       21
-  Number of object peephole optimizations:       0
-  Number of string peephole optimizations:       3
-  Number of math peephole optimizations:         0
-  Number of simplified instructions:             0
-  Number of removed instructions:                64
-  Number of removed local variables:             7
-  Number of removed exception blocks:            0
-  Number of optimized local variable frames:     26
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 226
-  Final number of program classes:    226
-Optimizing (pass 2/5)...
-  Number of finalized classes:                   0
-  Number of unboxed enum classes:                0
-  Number of vertically merged classes:           0   (disabled)
-  Number of horizontally merged classes:         0   (disabled)
-  Number of merged wrapper classes:              0   (disabled)
-  Number of removed write-only fields:           0   (disabled)
-  Number of privatized fields:                   0   (disabled)
-  Number of inlined constant fields:             0   (disabled)
-  Number of privatized methods:                  0
-  Number of staticized methods:                  0
-  Number of finalized methods:                   0
-  Number of desynchronized methods:              0
-  Number of simplified method signatures:        0
-  Number of removed method parameters:           0
-  Number of inlined constant parameters:         0
-  Number of inlined constant return values:      0
-  Number of inlined short method calls:          0
-  Number of inlined unique method calls:         0
-  Number of inlined tail recursion calls:        0
-  Number of merged code blocks:                  0
-  Number of variable peephole optimizations:     2
-  Number of arithmetic peephole optimizations:   0   (disabled)
-  Number of cast peephole optimizations:         0   (disabled)
-  Number of field peephole optimizations:        0
-  Number of branch peephole optimizations:       1
-  Number of object peephole optimizations:       0
-  Number of string peephole optimizations:       2
-  Number of math peephole optimizations:         0
-  Number of simplified instructions:             0
-  Number of removed instructions:                60
-  Number of removed local variables:             0
-  Number of removed exception blocks:            0
-  Number of optimized local variable frames:     0
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 226
-  Final number of program classes:    226
-Optimizing (pass 3/5)...
-  Number of finalized classes:                   0
-  Number of unboxed enum classes:                0
-  Number of vertically merged classes:           0   (disabled)
-  Number of horizontally merged classes:         0   (disabled)
-  Number of merged wrapper classes:              0   (disabled)
-  Number of removed write-only fields:           0   (disabled)
-  Number of privatized fields:                   0   (disabled)
-  Number of inlined constant fields:             0   (disabled)
-  Number of privatized methods:                  0
-  Number of staticized methods:                  0
-  Number of finalized methods:                   0
-  Number of desynchronized methods:              0
-  Number of simplified method signatures:        0
-  Number of removed method parameters:           0
-  Number of inlined constant parameters:         0
-  Number of inlined constant return values:      0
-  Number of inlined short method calls:          0
-  Number of inlined unique method calls:         0
-  Number of inlined tail recursion calls:        0
-  Number of merged code blocks:                  0
-  Number of variable peephole optimizations:     0
-  Number of arithmetic peephole optimizations:   0   (disabled)
-  Number of cast peephole optimizations:         0   (disabled)
-  Number of field peephole optimizations:        0
-  Number of branch peephole optimizations:       0
-  Number of object peephole optimizations:       0
-  Number of string peephole optimizations:       0
-  Number of math peephole optimizations:         0
-  Number of simplified instructions:             0
-  Number of removed instructions:                0
-  Number of removed local variables:             0
-  Number of removed exception blocks:            0
-  Number of optimized local variable frames:     0
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/tmp/kapt3/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/linkpreview/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-
-> Task :linkpreview:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-
-> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :linkpreview:compileReleaseNdk NO-SOURCE
 > Task :linkpreview:mergeReleaseJniLibFolders
-> Task :linkpreview:transformNativeLibsWithMergeJniLibsForRelease
-> Task :linkpreview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :linkpreview:mergeReleaseNativeLibs
+> Task :linkpreview:stripReleaseDebugSymbols
 > Task :linkpreview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :linkpreview:bundleReleaseAar
+> Task :linkpreview:generateReleaseRFile
+> Task :linkpreview:kaptGenerateStubsReleaseKotlin
+> Task :linkpreview:kaptReleaseKotlin
+> Task :linkpreview:compileReleaseKotlin
+> Task :linkpreview:generateDebugRFile
+> Task :linkpreview:kaptGenerateStubsDebugKotlin
+> Task :linkpreview:kaptDebugKotlin
+> Task :linkpreview:compileDebugKotlin
+> Task :linkpreview:javaPreCompileRelease
+> Task :linkpreview:compileReleaseJavaWithJavac
+> Task :linkpreview:extractReleaseAnnotations
+> Task :linkpreview:mergeReleaseGeneratedProguardFiles
+> Task :linkpreview:mergeReleaseConsumerProguardFiles
+> Task :linkpreview:javaPreCompileDebug
+> Task :linkpreview:compileDebugJavaWithJavac
+> Task :linkpreview:extractDebugAnnotations
+> Task :linkpreview:mergeDebugGeneratedProguardFiles
+> Task :linkpreview:mergeDebugConsumerProguardFiles
+> Task :linkpreview:compileDebugSources
 > Task :linkpreview:compileReleaseSources
+> Task :linkpreview:generateReleaseLibraryProguardRules
 > Task :linkpreview:verifyReleaseResources
+> Task :linkpreview:mergeReleaseJavaResource
+> Task :linkpreview:transformClassesAndResourcesWithR8ForRelease
+> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :linkpreview:bundleReleaseAar
 > Task :linkpreview:assembleRelease
+> Task :linkpreview:mergeDebugJavaResource
+> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :linkpreview:bundleDebugAar
+> Task :linkpreview:assembleDebug
 > Task :linkpreview:assemble
 > Task :linkpreview:build
 
-BUILD SUCCESSFUL in 27s
-62 actionable tasks: 62 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-05-15 14:22:48,618 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557904925160-0/src/LinkPreview-master/sample/release/sample-release.apk
+BUILD SUCCESSFUL in 47s
+66 actionable tasks: 66 executed
+
+2019-07-21 19:47:58,080 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713205007-0/src/LinkPreview-master/sample/release/sample-release.apk
