@@ -1,234 +1,184 @@
-2019-07-05 00:35:53,953 INFO  DownloadService - Downloading "https://github.com/betterme-dev/RxBilling/archive/master.zip", attempt 3
-2019-07-05 00:35:55,469 INFO  DownloadService - Downloaded https://github.com/betterme-dev/RxBilling/archive/master.zip, attempt 3
-2019-07-05 00:35:55,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/master.zip": 157 KB
-2019-07-05 00:35:55,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 00:35:55,475 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/master.zip: true
-2019-07-05 00:35:55,475 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src'.
-2019-07-05 00:35:55,495 INFO  FullProcessService - Size of directory with sources: 190 KB
-2019-07-05 00:35:55,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src]
-2019-07-05 00:35:55,511 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/.git/
+2019-07-21 22:47:06,561 INFO  DownloadService - Downloading "https://github.com/betterme-dev/RxBilling/archive/master.zip", attempt 3
+2019-07-21 22:47:07,092 INFO  DownloadService - Downloaded https://github.com/betterme-dev/RxBilling/archive/master.zip, attempt 3
+2019-07-21 22:47:07,092 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/master.zip": 155 KB
+2019-07-21 22:47:07,092 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-21 22:47:07,094 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/master.zip: true
+2019-07-21 22:47:07,094 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src'.
+2019-07-21 22:47:07,112 INFO  FullProcessService - Size of directory with sources: 191 KB
+2019-07-21 22:47:07,112 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src]
+2019-07-21 22:47:07,129 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/.git/
 
-2019-07-05 00:35:55,514 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/gradlew
-2019-07-05 00:35:55,516 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/build.gradle
-2019-07-05 00:35:55,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/build.gradle
-2019-07-05 00:35:55,519 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 00:35:55,519 INFO  ProjectFixService - Fixing project...
-2019-07-05 00:35:55,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/local.properties
-2019-07-05 00:35:55,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 00:35:55,530 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 00:35:55,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/local.properties
-2019-07-05 00:35:55,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 00:35:55,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 00:35:55,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/local.properties
-2019-07-05 00:35:55,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-05 00:35:55,535 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-05 00:35:55,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 00:35:55,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 00:35:55,538 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 00:35:55,539 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 00:35:55,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 00:36:02,344 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-05 00:36:02,345 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 00:36:02,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 00:36:53,398 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:rxbilling:preBuild UP-TO-DATE
-:rxbilling:preDebugBuild UP-TO-DATE
-:rxbilling:checkDebugManifest
-:rxbilling:processDebugManifest
-:app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-alpha1/appcompat-v7-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-alpha1/support-fragment-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-alpha1/animated-vector-drawable-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-alpha1/support-core-utils-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha1/support-core-ui-28.0.0-alpha1.aar
-Download https://jcenter.bintray.com/com/android/billingclient/billing/1.1/billing-1.1.aar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.1/rxandroid-2.0.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha1/loader-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha1/support-vector-drawable-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha1/viewpager-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-alpha1/coordinatorlayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha1/customview-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-alpha1/asynclayoutinflater-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha1/swiperefreshlayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-alpha1/support-compat-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-alpha1/drawerlayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha1/slidingpanelayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-alpha1/documentfile-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha1/interpolator-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-alpha1/print-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha1/localbroadcastmanager-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha1/cursoradapter-28.0.0-alpha1.aar
-:rxbilling:compileDebugAidl
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-service/2.0.0-alpha1/lifecycle-service-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0-alpha1/lifecycle-runtime-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-extensions/2.0.0-alpha1/lifecycle-extensions-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.0.0-alpha1/lifecycle-livedata-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.0.0-alpha1/lifecycle-process-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.0.0-alpha1/lifecycle-livedata-core-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.0.0-alpha1/lifecycle-viewmodel-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.0.0-alpha1/core-runtime-2.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.0.0-alpha1/fragment-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-ui/1.0.0-alpha1/legacy-support-core-ui-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0-alpha1/loader-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-utils/1.0.0-alpha1/legacy-support-core-utils-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0-alpha1/viewpager-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/1.0.0-alpha1/coordinatorlayout-1.0.0-alpha1.aar
-Download https://jcenter.bintray.com/com/bluelinelabs/conductor/2.1.4/conductor-2.1.4.aar
-Download https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0-alpha1/drawerlayout-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0-alpha1/customview-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/slidingpanelayout/slidingpanelayout/1.0.0-alpha1/slidingpanelayout-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/swiperefreshlayout/swiperefreshlayout/1.0.0-alpha1/swiperefreshlayout-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/asynclayoutinflater/asynclayoutinflater/1.0.0-alpha1/asynclayoutinflater-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.0.0-alpha1/core-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0-alpha1/cursoradapter-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0-alpha1/localbroadcastmanager-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/1.0.0-alpha1/documentfile-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/print/print/1.0.0-alpha1/print-1.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0-alpha1/interpolator-1.0.0-alpha1.aar
-:app:compileDebugAidl
-:rxbilling:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:rxbilling:compileDebugRenderscript
-:rxbilling:generateDebugResValues
-:rxbilling:generateDebugResources
-:rxbilling:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:rxbilling:platformAttrExtractor
-:rxbilling:generateDebugBuildConfig
-:rxbilling:prepareLintJar
-:rxbilling:processDebugJavaRes NO-SOURCE
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:rxbilling:mergeDebugShaders
-:rxbilling:compileDebugShaders
-:rxbilling:generateDebugAssets
-:rxbilling:packageDebugAssets
-:app:mergeDebugAssets
-:app:mergeDebugJniLibFolders
-:rxbilling:compileDebugNdk NO-SOURCE
-:rxbilling:mergeDebugJniLibFolders
-:rxbilling:transformNativeLibsWithMergeJniLibsForDebug
-:rxbilling:transformNativeLibsWithStripDebugSymbolForDebug
-:rxbilling:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:rxbilling:preReleaseBuild UP-TO-DATE
-:rxbilling:checkReleaseManifest
-:rxbilling:processReleaseManifest
-:app:preReleaseBuild
-:rxbilling:compileReleaseAidl
-:app:compileReleaseAidl
-:rxbilling:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:rxbilling:compileReleaseRenderscript
-:rxbilling:generateReleaseResValues
-:rxbilling:generateReleaseResources
-:rxbilling:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:rxbilling:generateReleaseBuildConfig
-:rxbilling:generateDebugRFile
-:app:processDebugResources
-:rxbilling:kaptGenerateStubsDebugKotlin
-Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-alpha1/core-common-2.0.0-alpha1.jar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-alpha1/lifecycle-common-2.0.0-alpha1.jar
-Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-alpha1/annotation-1.0.0-alpha1.jar
-Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-alpha1/collection-1.0.0-alpha1.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.50/kotlin-stdlib-jdk7-1.2.50.jar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.jar
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-compiler/2.0.0-alpha1/lifecycle-compiler-2.0.0-alpha1.jar
-:rxbilling:kaptDebugKotlin
-:rxbilling:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/src/main/java/com/gen/rxbilling/flow/RxBillingFlow.kt: (79, 30): Parameter 'activityResultCode' is never used
-:rxbilling:generateDebugSources
-:rxbilling:javaPreCompileDebug
-:rxbilling:compileDebugJavaWithJavac
-:rxbilling:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:kaptGenerateStubsDebugKotlin
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha1/support-annotations-28.0.0-alpha1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-alpha1/collections-28.0.0-alpha1.jar
-:app:kaptDebugKotlin
-:app:compileDebugKotlin
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:rxbilling:generateReleaseRFile
-:app:processReleaseResources
-:rxbilling:kaptGenerateStubsReleaseKotlin
-:rxbilling:kaptReleaseKotlin
-:rxbilling:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/rxbilling/src/main/java/com/gen/rxbilling/flow/RxBillingFlow.kt: (79, 30): Parameter 'activityResultCode' is never used
-:rxbilling:generateReleaseSources
-:rxbilling:javaPreCompileRelease
-:rxbilling:compileReleaseJavaWithJavac
-:rxbilling:processReleaseJavaRes NO-SOURCE
-:rxbilling:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:kaptGenerateStubsReleaseKotlin
-:app:kaptReleaseKotlin
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:rxbilling:mergeReleaseShaders
-:rxbilling:compileReleaseShaders
-:rxbilling:generateReleaseAssets
-:rxbilling:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:rxbilling:compileReleaseNdk NO-SOURCE
-:rxbilling:mergeReleaseJniLibFolders
-:rxbilling:transformNativeLibsWithMergeJniLibsForRelease
-:rxbilling:transformNativeLibsWithStripDebugSymbolForRelease
-:rxbilling:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-07-21 22:47:07,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/gradlew
+2019-07-21 22:47:07,136 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/rxbilling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/build.gradle
+2019-07-21 22:47:07,139 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/rxbilling/build.gradle
+2019-07-21 22:47:07,143 INFO  ProjectBuildService - Remote scripts: none
+2019-07-21 22:47:07,143 INFO  ProjectFixService - Fixing project...
+2019-07-21 22:47:07,152 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/local.properties
+2019-07-21 22:47:07,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-21 22:47:07,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-21 22:47:07,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/rxbilling/local.properties
+2019-07-21 22:47:07,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/rxbilling/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-21 22:47:07,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/rxbilling/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-21 22:47:07,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/local.properties
+2019-07-21 22:47:07,163 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
+2019-07-21 22:47:07,163 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
+2019-07-21 22:47:07,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-21 22:47:07,166 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-21 22:47:07,167 INFO  ProjectFixService - Project was maybe fixed
+2019-07-21 22:47:07,167 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 22:47:07,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 22:48:07,211 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-21 22:48:07,211 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-21 22:48:07,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-21 22:49:11,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :rxbilling:preBuild UP-TO-DATE
+> Task :rxbilling:preDebugBuild UP-TO-DATE
+> Task :rxbilling:checkDebugManifest
+> Task :rxbilling:processDebugManifest
+> Task :app:preDebugBuild
+> Task :rxbilling:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :rxbilling:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :rxbilling:compileDebugRenderscript NO-SOURCE
+> Task :rxbilling:generateDebugResValues
+> Task :rxbilling:generateDebugResources
+> Task :rxbilling:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :rxbilling:generateDebugRFile
+> Task :app:processDebugResources
+> Task :rxbilling:generateDebugBuildConfig
+> Task :rxbilling:kaptGenerateStubsDebugKotlin
+> Task :rxbilling:kaptDebugKotlin
+> Task :rxbilling:compileDebugKotlin
+> Task :rxbilling:prepareLintJar
+> Task :rxbilling:generateDebugSources
+> Task :rxbilling:javaPreCompileDebug
+> Task :rxbilling:compileDebugJavaWithJavac
+> Task :rxbilling:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :rxbilling:mergeDebugShaders
+> Task :rxbilling:compileDebugShaders
+> Task :rxbilling:generateDebugAssets
+> Task :rxbilling:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :rxbilling:processDebugJavaRes NO-SOURCE
+> Task :rxbilling:bundleLibResDebug
+> Task :rxbilling:bundleLibRuntimeDebug
+> Task :rxbilling:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :rxbilling:mergeDebugJniLibFolders
+> Task :rxbilling:transformNativeLibsWithMergeJniLibsForDebug
+> Task :rxbilling:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :rxbilling:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :rxbilling:preReleaseBuild UP-TO-DATE
+> Task :rxbilling:checkReleaseManifest
+> Task :rxbilling:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :rxbilling:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :rxbilling:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :rxbilling:compileReleaseRenderscript NO-SOURCE
+> Task :rxbilling:generateReleaseResValues
+> Task :rxbilling:generateReleaseResources
+> Task :rxbilling:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :rxbilling:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :rxbilling:generateReleaseBuildConfig
+> Task :rxbilling:kaptGenerateStubsReleaseKotlin
+> Task :rxbilling:kaptReleaseKotlin
+> Task :rxbilling:compileReleaseKotlin
+> Task :rxbilling:generateReleaseSources
+> Task :rxbilling:javaPreCompileRelease
+> Task :rxbilling:compileReleaseJavaWithJavac
+> Task :rxbilling:bundleLibCompileRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :rxbilling:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 50s
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/21b5d28dc444e3aeebb77f0d451516eb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :rxbilling:processReleaseJavaRes NO-SOURCE
+> Task :rxbilling:bundleLibResRelease
+> Task :rxbilling:bundleLibRuntimeRelease
+> Task :rxbilling:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :rxbilling:mergeReleaseShaders
+> Task :rxbilling:compileReleaseShaders
+> Task :rxbilling:generateReleaseAssets
+> Task :rxbilling:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :rxbilling:mergeReleaseJniLibFolders
+> Task :rxbilling:transformNativeLibsWithMergeJniLibsForRelease
+> Task :rxbilling:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :rxbilling:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 3s
 103 actionable tasks: 103 executed
 
-2019-07-05 00:36:53,474 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261753950-0/src/RxBilling-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-21 22:49:11,764 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563724026558-0/src/RxBilling-master/app/build/outputs/apk/debug/app-debug.apk
