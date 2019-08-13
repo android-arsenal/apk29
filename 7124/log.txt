@@ -1,112 +1,120 @@
-2019-07-29 10:17:21,386 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
-2019-07-29 10:18:20,542 INFO  DownloadService - Downloaded https://github.com/saket/InboxRecyclerView/archive/master.zip, attempt 3
-2019-07-29 10:18:20,543 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/master.zip": 8 MB
-2019-07-29 10:18:20,543 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-29 10:18:20,544 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/master.zip: true
-2019-07-29 10:18:20,544 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src'.
-2019-07-29 10:18:20,617 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-07-29 10:18:20,617 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src]
-2019-07-29 10:18:20,637 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/.git/
+2019-08-13 14:39:17,422 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
+2019-08-13 14:40:17,429 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-13 14:40:18,581 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-13 14:40:18,581 INFO  DownloadService - Downloading "https://github.com/saket/InboxRecyclerView/archive/master.zip", attempt 3
+2019-08-13 14:41:19,924 DEBUG FullProcessService - Repository https://github.com/saket/InboxRecyclerView available: true
+2019-08-13 14:41:19,925 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-13 14:41:19,925 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/saket/InboxRecyclerView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src]
+2019-08-13 14:41:27,637 INFO  SysUtils - 
+2019-08-13 14:41:27,644 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/.git": true
+2019-08-13 14:41:27,647 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-08-13 14:41:27,647 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src]
+2019-08-13 14:41:27,664 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/.git/
 
-2019-07-29 10:18:20,640 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradlew
-2019-07-29 10:18:20,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/build.gradle
-2019-07-29 10:18:20,646 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle
-2019-07-29 10:18:20,647 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 10:18:20,647 INFO  ProjectFixService - Fixing project...
-2019-07-29 10:18:20,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/local.properties
-2019-07-29 10:18:20,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=27]
-2019-07-29 10:18:20,660 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=27]
-2019-07-29 10:18:20,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/local.properties
-2019-07-29 10:18:20,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
-2019-07-29 10:18:20,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
-2019-07-29 10:18:20,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/local.properties
-2019-07-29 10:18:20,664 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-29 10:18:20,665 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-29 10:18:20,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
-2019-07-29 10:18:20,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
-2019-07-29 10:18:20,668 INFO  ProjectFixService - Project was maybe fixed
-2019-07-29 10:18:20,668 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:18:20,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:18:29,054 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-07-29 10:18:29,054 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-29 10:18:29,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-29 10:19:12,123 INFO  SysUtils - Configuration on demand is an incubating feature.
-:inboxrecyclerview:preBuild UP-TO-DATE
-:inboxrecyclerview:preDebugBuild UP-TO-DATE
-:inboxrecyclerview:compileDebugAidl NO-SOURCE
-:inboxrecyclerview:compileDebugRenderscript
-:inboxrecyclerview:checkDebugManifest
-:inboxrecyclerview:generateDebugBuildConfig
-:inboxrecyclerview:generateDebugResValues
-:inboxrecyclerview:generateDebugResources
-:inboxrecyclerview:packageDebugResources
-:inboxrecyclerview:processDebugManifest
-:inboxrecyclerview:generateDebugRFile
-:inboxrecyclerview:kaptGenerateStubsDebugKotlin
-:inboxrecyclerview:kaptDebugKotlin
-:inboxrecyclerview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-:inboxrecyclerview:prepareLintJar
-:inboxrecyclerview:generateDebugSources
-:inboxrecyclerview:javaPreCompileDebug
-:inboxrecyclerview:compileDebugJavaWithJavac
-:inboxrecyclerview:extractDebugAnnotations
-:inboxrecyclerview:mergeDebugConsumerProguardFiles
-:inboxrecyclerview:mergeDebugShaders
-:inboxrecyclerview:compileDebugShaders
-:inboxrecyclerview:generateDebugAssets
-:inboxrecyclerview:packageDebugAssets
-:inboxrecyclerview:packageDebugRenderscript NO-SOURCE
-:inboxrecyclerview:processDebugJavaRes NO-SOURCE
-:inboxrecyclerview:transformResourcesWithMergeJavaResForDebug
-:inboxrecyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
-:inboxrecyclerview:compileDebugNdk NO-SOURCE
-:inboxrecyclerview:mergeDebugJniLibFolders
-:inboxrecyclerview:transformNativeLibsWithMergeJniLibsForDebug
-:inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
-:inboxrecyclerview:transformNativeLibsWithSyncJniLibsForDebug
-:inboxrecyclerview:bundleDebugAar
-:inboxrecyclerview:compileDebugSources
-:inboxrecyclerview:assembleDebug
-:inboxrecyclerview:preReleaseBuild UP-TO-DATE
-:inboxrecyclerview:compileReleaseAidl NO-SOURCE
-:inboxrecyclerview:compileReleaseRenderscript
-:inboxrecyclerview:checkReleaseManifest
-:inboxrecyclerview:generateReleaseBuildConfig
-:inboxrecyclerview:generateReleaseResValues
-:inboxrecyclerview:generateReleaseResources
-:inboxrecyclerview:packageReleaseResources
-:inboxrecyclerview:processReleaseManifest
-:inboxrecyclerview:generateReleaseRFile
-:inboxrecyclerview:kaptGenerateStubsReleaseKotlin
-:inboxrecyclerview:kaptReleaseKotlin
-:inboxrecyclerview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-:inboxrecyclerview:generateReleaseSources
-:inboxrecyclerview:javaPreCompileRelease
-:inboxrecyclerview:compileReleaseJavaWithJavac
-:inboxrecyclerview:extractReleaseAnnotations
-:inboxrecyclerview:mergeReleaseConsumerProguardFiles
-:inboxrecyclerview:mergeReleaseShaders
-:inboxrecyclerview:compileReleaseShaders
-:inboxrecyclerview:generateReleaseAssets
-:inboxrecyclerview:packageReleaseAssets
-:inboxrecyclerview:packageReleaseRenderscript NO-SOURCE
-:inboxrecyclerview:processReleaseJavaRes NO-SOURCE
-:inboxrecyclerview:transformResourcesWithMergeJavaResForRelease
-:inboxrecyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
-:inboxrecyclerview:compileReleaseNdk NO-SOURCE
-:inboxrecyclerview:mergeReleaseJniLibFolders
-:inboxrecyclerview:transformNativeLibsWithMergeJniLibsForRelease
-:inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
-:inboxrecyclerview:transformNativeLibsWithSyncJniLibsForRelease
-:inboxrecyclerview:bundleReleaseAar
-:inboxrecyclerview:compileReleaseSources
-:inboxrecyclerview:mergeReleaseResources
-:inboxrecyclerview:verifyReleaseResources
-:inboxrecyclerview:assembleRelease
-:inboxrecyclerview:dokkawarning: duplicate source root: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/inboxrecyclerview/src/main/java
+2019-08-13 14:41:27,667 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradlew
+2019-08-13 14:41:27,669 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/build.gradle
+2019-08-13 14:41:27,672 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle
+2019-08-13 14:41:27,672 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 14:41:27,673 INFO  ProjectFixService - Fixing project...
+2019-08-13 14:41:27,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/local.properties
+2019-08-13 14:41:27,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=27]
+2019-08-13 14:41:27,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=27]
+2019-08-13 14:41:27,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/local.properties
+2019-08-13 14:41:27,684 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
+2019-08-13 14:41:27,684 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
+2019-08-13 14:41:27,685 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/local.properties
+2019-08-13 14:41:27,685 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
+2019-08-13 14:41:27,686 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
+2019-08-13 14:41:27,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=23,targetSdkVersion=27]
+2019-08-13 14:41:27,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=27]
+2019-08-13 14:41:27,688 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 14:41:27,689 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:41:27,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:41:40,017 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-13 14:41:40,017 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-13 14:41:40,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-13 14:42:50,179 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+> Task :inboxrecyclerview:preBuild UP-TO-DATE
+> Task :inboxrecyclerview:preDebugBuild UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugAidl NO-SOURCE
+> Task :inboxrecyclerview:checkDebugManifest
+> Task :inboxrecyclerview:compileDebugRenderscript NO-SOURCE
+> Task :inboxrecyclerview:generateDebugBuildConfig
+> Task :inboxrecyclerview:generateDebugResValues
+> Task :inboxrecyclerview:generateDebugResources
+> Task :inboxrecyclerview:processDebugManifest
+> Task :inboxrecyclerview:packageDebugResources
+> Task :inboxrecyclerview:generateDebugRFile
+> Task :inboxrecyclerview:prepareLintJar
+> Task :inboxrecyclerview:kaptGenerateStubsDebugKotlin
+> Task :inboxrecyclerview:kaptDebugKotlin
 
+> Task :inboxrecyclerview:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/page/PullToCollapseListener.kt: (13, 15): Parameter 'context' is never used
+
+> Task :inboxrecyclerview:generateDebugSources
+> Task :inboxrecyclerview:javaPreCompileDebug
+> Task :inboxrecyclerview:compileDebugJavaWithJavac
+> Task :inboxrecyclerview:extractDebugAnnotations
+> Task :inboxrecyclerview:mergeDebugConsumerProguardFiles
+> Task :inboxrecyclerview:mergeDebugShaders
+> Task :inboxrecyclerview:compileDebugShaders
+> Task :inboxrecyclerview:generateDebugAssets
+> Task :inboxrecyclerview:packageDebugAssets
+> Task :inboxrecyclerview:packageDebugRenderscript NO-SOURCE
+> Task :inboxrecyclerview:prepareLintJarForPublish
+> Task :inboxrecyclerview:processDebugJavaRes NO-SOURCE
+> Task :inboxrecyclerview:transformResourcesWithMergeJavaResForDebug
+> Task :inboxrecyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :inboxrecyclerview:mergeDebugJniLibFolders
+> Task :inboxrecyclerview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :inboxrecyclerview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :inboxrecyclerview:bundleDebugAar
+> Task :inboxrecyclerview:compileDebugSources
+> Task :inboxrecyclerview:assembleDebug
+> Task :inboxrecyclerview:preReleaseBuild UP-TO-DATE
+> Task :inboxrecyclerview:compileReleaseAidl NO-SOURCE
+> Task :inboxrecyclerview:compileReleaseRenderscript NO-SOURCE
+> Task :inboxrecyclerview:checkReleaseManifest
+> Task :inboxrecyclerview:generateReleaseBuildConfig
+> Task :inboxrecyclerview:generateReleaseResValues
+> Task :inboxrecyclerview:generateReleaseResources
+> Task :inboxrecyclerview:packageReleaseResources
+> Task :inboxrecyclerview:processReleaseManifest
+> Task :inboxrecyclerview:generateReleaseRFile
+> Task :inboxrecyclerview:kaptGenerateStubsReleaseKotlin
+> Task :inboxrecyclerview:kaptReleaseKotlin
+
+> Task :inboxrecyclerview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/InboxRecyclerView.kt: (74, 26): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/src/main/java/me/saket/inboxrecyclerview/page/PullToCollapseListener.kt: (13, 15): Parameter 'context' is never used
+
+> Task :inboxrecyclerview:generateReleaseSources
+> Task :inboxrecyclerview:javaPreCompileRelease
+> Task :inboxrecyclerview:compileReleaseJavaWithJavac
+> Task :inboxrecyclerview:extractReleaseAnnotations
+> Task :inboxrecyclerview:mergeReleaseConsumerProguardFiles
+> Task :inboxrecyclerview:mergeReleaseShaders
+> Task :inboxrecyclerview:compileReleaseShaders
+> Task :inboxrecyclerview:generateReleaseAssets
+> Task :inboxrecyclerview:packageReleaseAssets
+> Task :inboxrecyclerview:packageReleaseRenderscript NO-SOURCE
+> Task :inboxrecyclerview:processReleaseJavaRes NO-SOURCE
+> Task :inboxrecyclerview:transformResourcesWithMergeJavaResForRelease
+> Task :inboxrecyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :inboxrecyclerview:mergeReleaseJniLibFolders
+> Task :inboxrecyclerview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :inboxrecyclerview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :inboxrecyclerview:bundleReleaseAar
+> Task :inboxrecyclerview:compileReleaseSources
+
+> Task :inboxrecyclerview:dokka
+warning: duplicate source root: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/inboxrecyclerview/src/main/java
 No documentation for me.saket.inboxrecyclerview.InboxRecyclerView$page (InboxRecyclerView.kt:55)
 No documentation for me.saket.inboxrecyclerview.InboxRecyclerView$onSaveInstanceState() (InboxRecyclerView.kt:73)
 No documentation for me.saket.inboxrecyclerview.InboxRecyclerView$onRestoreInstanceState(android.os.Parcelable) (InboxRecyclerView.kt:77)
@@ -132,7 +140,7 @@ No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$setConte
 No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$expandFromTop() (PullCollapsibleActivity.kt:112)
 No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$expandFrom(android.graphics.Rect) (PullCollapsibleActivity.kt:120)
 No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$finish() (PullCollapsibleActivity.kt:133)
-No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$onOptionsItemSelected(android.view.MenuItem) (PullCollapsibleActivity.kt:151)
+No documentation for me.saket.inboxrecyclerview.PullCollapsibleActivity$onOptionsItemSelected(android.view.MenuItem) (PullCollapsibleActivity.kt:145)
 No documentation for me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView$canScrollProgrammatically() (ScrollSuppressibleRecyclerView.kt:17)
 No documentation for me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView$scrollToPosition(kotlin.Int) (ScrollSuppressibleRecyclerView.kt:19)
 No documentation for me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView$smoothScrollToPosition(kotlin.Int) (ScrollSuppressibleRecyclerView.kt:26)
@@ -163,10 +171,10 @@ No documentation for me.saket.inboxrecyclerview.dimming.UncoveredAreaTintPainter
 No documentation for me.saket.inboxrecyclerview.dimming.UncoveredAreaTintPainter$onPageCollapsed() (UncoveredAreaTintPainter.kt:112)
 No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$animationDurationMillis (BaseExpandablePageLayout.kt:32)
 No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$animationInterpolator (BaseExpandablePageLayout.kt:33)
-No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$onSizeChanged(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:46)
-No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$animateDimensions(kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:54)
-No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$setClippedDimensions(kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:75)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$parentToolbar (ExpandablePageLayout.kt:28)
+No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$onDetachedFromWindow() (BaseExpandablePageLayout.kt:46)
+No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$onSizeChanged(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:51)
+No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$animateDimensions(kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:59)
+No documentation for me.saket.inboxrecyclerview.page.BaseExpandablePageLayout$setClippedDimensions(kotlin.Int, kotlin.Int) (BaseExpandablePageLayout.kt:80)
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$pullToCollapseInterceptor (ExpandablePageLayout.kt:33)
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$pullToCollapseEnabled (ExpandablePageLayout.kt:42)
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$pullToCollapseListener (ExpandablePageLayout.kt:43)
@@ -185,207 +193,229 @@ No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout.PageSt
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout.PageState.EXPANDED (ExpandablePageLayout.kt:80)
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onAttachedToWindow() (ExpandablePageLayout.kt:94)
 No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onDetachedFromWindow() (ExpandablePageLayout.kt:105)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$hasOverlappingRendering() (ExpandablePageLayout.kt:119)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$dispatchTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:125)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onInterceptTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:136)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:145)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$draw(android.graphics.Canvas) (ExpandablePageLayout.kt:460)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$drawChild(android.graphics.Canvas, android.view.View, kotlin.Long) (ExpandablePageLayout.kt:467)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageAboutToExpand(kotlin.Long) (ExpandablePageLayout.kt:549)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageExpanded() (ExpandablePageLayout.kt:554)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageAboutToCollapse(kotlin.Long) (ExpandablePageLayout.kt:559)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$addStateChangeCallbacks(me.saket.inboxrecyclerview.page.PageStateChangeCallbacks) (ExpandablePageLayout.kt:603)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$removeStateChangeCallbacks(me.saket.inboxrecyclerview.page.PageStateChangeCallbacks) (ExpandablePageLayout.kt:607)
-No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$removeOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (ExpandablePageLayout.kt:618)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$hasOverlappingRendering() (ExpandablePageLayout.kt:121)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$dispatchTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:127)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onInterceptTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:138)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onTouchEvent(android.view.MotionEvent) (ExpandablePageLayout.kt:147)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$draw(android.graphics.Canvas) (ExpandablePageLayout.kt:462)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$drawChild(android.graphics.Canvas, android.view.View, kotlin.Long) (ExpandablePageLayout.kt:469)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageAboutToExpand(kotlin.Long) (ExpandablePageLayout.kt:551)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageExpanded() (ExpandablePageLayout.kt:556)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$onPageAboutToCollapse(kotlin.Long) (ExpandablePageLayout.kt:561)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$addStateChangeCallbacks(me.saket.inboxrecyclerview.page.PageStateChangeCallbacks) (ExpandablePageLayout.kt:610)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$removeStateChangeCallbacks(me.saket.inboxrecyclerview.page.PageStateChangeCallbacks) (ExpandablePageLayout.kt:614)
+No documentation for me.saket.inboxrecyclerview.page.ExpandablePageLayout$removeOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (ExpandablePageLayout.kt:625)
 No documentation for me.saket.inboxrecyclerview.page.InterceptResult (InterceptorResult.kt:3)
 No documentation for me.saket.inboxrecyclerview.page.InterceptResult.INTERCEPTED (InterceptorResult.kt:4)
 No documentation for me.saket.inboxrecyclerview.page.InterceptResult.IGNORED (InterceptorResult.kt:5)
-No documentation for me.saket.inboxrecyclerview.page$IGNORE_ALL_PULL_TO_COLLAPSE_INTERCEPTOR (OnPullToCollapseInterceptor.kt:24)
 No documentation for me.saket.inboxrecyclerview.page.PageStateChangeCallbacks$onPageAboutToExpand(kotlin.Long) (PageStateChangeCallbacks.kt:8)
 No documentation for me.saket.inboxrecyclerview.page.PageStateChangeCallbacks$onPageExpanded() (PageStateChangeCallbacks.kt:10)
 No documentation for me.saket.inboxrecyclerview.page.PageStateChangeCallbacks$onPageAboutToCollapse(kotlin.Long) (PageStateChangeCallbacks.kt:12)
 No documentation for me.saket.inboxrecyclerview.page.PageStateChangeCallbacks$onPageCollapsed() (PageStateChangeCallbacks.kt:14)
 No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener (PullToCollapseListener.kt:10)
-No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$<init>(android.content.Context, me.saket.inboxrecyclerview.page.ExpandablePageLayout) (PullToCollapseListener.kt:10)
-No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener (PullToCollapseListener.kt:24)
-No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$addOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (PullToCollapseListener.kt:51)
-No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$removeOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (PullToCollapseListener.kt:55)
-No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$onTouch(android.view.View, android.view.MotionEvent) (PullToCollapseListener.kt:59)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$<init>(me.saket.inboxrecyclerview.page.ExpandablePageLayout) (PullToCollapseListener.kt:10)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener (PullToCollapseListener.kt:27)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$addOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (PullToCollapseListener.kt:54)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$removeOnPullListener(me.saket.inboxrecyclerview.page.PullToCollapseListener.OnPullListener) (PullToCollapseListener.kt:58)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$removeAllOnPullListeners() (PullToCollapseListener.kt:62)
+No documentation for me.saket.inboxrecyclerview.page.PullToCollapseListener$onTouch(android.view.View, android.view.MotionEvent) (PullToCollapseListener.kt:66)
 No documentation for me.saket.inboxrecyclerview.page.SimplePageStateChangeCallbacks$onPageAboutToExpand(kotlin.Long) (SimplePageStateChangeCallbacks.kt:10)
 No documentation for me.saket.inboxrecyclerview.page.SimplePageStateChangeCallbacks$onPageExpanded() (SimplePageStateChangeCallbacks.kt:14)
 No documentation for me.saket.inboxrecyclerview.page.SimplePageStateChangeCallbacks$onPageAboutToCollapse(kotlin.Long) (SimplePageStateChangeCallbacks.kt:18)
 No documentation for me.saket.inboxrecyclerview.page.SimplePageStateChangeCallbacks$onPageCollapsed() (SimplePageStateChangeCallbacks.kt:22)
 No documentation for me.saket.inboxrecyclerview.page.StandaloneExpandablePageLayout$onLayout(kotlin.Boolean, kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int) (StandaloneExpandablePageLayout.kt:48)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-Can't find node by signature androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean), referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
-:inboxrecyclerview:docJar
-:inboxrecyclerview:sourceJar
-:inboxrecyclerview:signArchives SKIPPED
-:inboxrecyclerview:assemble
-:inboxrecyclerview:build
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$setLayoutFrozen(kotlin.Boolean)`, referenced at me.saket.inboxrecyclerview.ScrollSuppressibleRecyclerView (ScrollSuppressibleRecyclerView.kt:7)
 
-BUILD SUCCESSFUL in 42s
-54 actionable tasks: 54 executed
+> Task :inboxrecyclerview:mergeReleaseResources
+> Task :inboxrecyclerview:verifyReleaseResources
+> Task :inboxrecyclerview:assembleRelease
+> Task :inboxrecyclerview:docJar
+> Task :inboxrecyclerview:sourceJar
+> Task :inboxrecyclerview:signArchives SKIPPED
+> Task :inboxrecyclerview:assemble
+> Task :inboxrecyclerview:build
 
-2019-07-29 10:19:12,172 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:19:12,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:19:21,630 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-07-29 10:19:21,631 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-29 10:19:21,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-29 10:20:10,283 INFO  SysUtils - Configuration on demand is an incubating feature.
-:inboxrecyclerview:preBuild UP-TO-DATE
-:inboxrecyclerview:preDebugBuild UP-TO-DATE
-:inboxrecyclerview:compileDebugAidl NO-SOURCE
-:inboxrecyclerview:compileDebugRenderscript UP-TO-DATE
-:inboxrecyclerview:checkDebugManifest UP-TO-DATE
-:inboxrecyclerview:generateDebugBuildConfig UP-TO-DATE
-:inboxrecyclerview:generateDebugResValues UP-TO-DATE
-:inboxrecyclerview:generateDebugResources UP-TO-DATE
-:inboxrecyclerview:packageDebugResources UP-TO-DATE
-:inboxrecyclerview:processDebugManifest UP-TO-DATE
-:inboxrecyclerview:generateDebugRFile UP-TO-DATE
-:inboxrecyclerview:kaptGenerateStubsDebugKotlin UP-TO-DATE
-:inboxrecyclerview:kaptDebugKotlin UP-TO-DATE
-:inboxrecyclerview:compileDebugKotlin UP-TO-DATE
-:inboxrecyclerview:prepareLintJar UP-TO-DATE
-:inboxrecyclerview:generateDebugSources UP-TO-DATE
-:inboxrecyclerview:javaPreCompileDebug UP-TO-DATE
-:inboxrecyclerview:compileDebugJavaWithJavac UP-TO-DATE
-:inboxrecyclerview:processDebugJavaRes NO-SOURCE
-:inboxrecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:checkDebugClasspath
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl NO-SOURCE
-:inboxrecyclerview:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:kaptGenerateStubsDebugKotlin
-:sample:kaptDebugKotlin
-:sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
-:sample:prepareLintJar
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:inboxrecyclerview:mergeDebugShaders UP-TO-DATE
-:inboxrecyclerview:compileDebugShaders UP-TO-DATE
-:inboxrecyclerview:generateDebugAssets UP-TO-DATE
-:inboxrecyclerview:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:inboxrecyclerview:compileDebugNdk NO-SOURCE
-:inboxrecyclerview:mergeDebugJniLibFolders UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:checkDebugLibraries
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:inboxrecyclerview:preReleaseBuild UP-TO-DATE
-:inboxrecyclerview:compileReleaseAidl NO-SOURCE
-:inboxrecyclerview:compileReleaseRenderscript UP-TO-DATE
-:inboxrecyclerview:checkReleaseManifest UP-TO-DATE
-:inboxrecyclerview:generateReleaseBuildConfig UP-TO-DATE
-:inboxrecyclerview:generateReleaseResValues UP-TO-DATE
-:inboxrecyclerview:generateReleaseResources UP-TO-DATE
-:inboxrecyclerview:packageReleaseResources UP-TO-DATE
-:inboxrecyclerview:processReleaseManifest UP-TO-DATE
-:inboxrecyclerview:generateReleaseRFile UP-TO-DATE
-:inboxrecyclerview:kaptGenerateStubsReleaseKotlin UP-TO-DATE
-:inboxrecyclerview:kaptReleaseKotlin UP-TO-DATE
-:inboxrecyclerview:compileReleaseKotlin UP-TO-DATE
-:inboxrecyclerview:generateReleaseSources UP-TO-DATE
-:inboxrecyclerview:javaPreCompileRelease UP-TO-DATE
-:inboxrecyclerview:compileReleaseJavaWithJavac UP-TO-DATE
-:inboxrecyclerview:processReleaseJavaRes NO-SOURCE
-:inboxrecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:checkReleaseClasspath
-:sample:preReleaseBuild
-:sample:compileReleaseAidl NO-SOURCE
-:inboxrecyclerview:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:kaptGenerateStubsReleaseKotlin
-:sample:kaptReleaseKotlin
-:sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (150, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (154, 35): Parameter 'attachment' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (158, 36): Parameter 'attachment' is never used
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/0c86f2e5270aa69a5555ca2c44d2801e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:inboxrecyclerview:mergeReleaseShaders UP-TO-DATE
-:inboxrecyclerview:compileReleaseShaders UP-TO-DATE
-:inboxrecyclerview:generateReleaseAssets UP-TO-DATE
-:inboxrecyclerview:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:inboxrecyclerview:compileReleaseNdk NO-SOURCE
-:inboxrecyclerview:mergeReleaseJniLibFolders UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:inboxrecyclerview:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:checkReleaseLibraries
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
-102 actionable tasks: 65 executed, 37 up-to-date
+BUILD SUCCESSFUL in 1m 9s
+53 actionable tasks: 53 executed
 
-2019-07-29 10:20:10,408 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370241382-0/src/InboxRecyclerView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-13 14:42:50,225 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:42:50,225 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:42:58,828 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-13 14:42:58,828 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 14:42:58,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 14:44:11,526 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+> Task :inboxrecyclerview:preBuild UP-TO-DATE
+> Task :inboxrecyclerview:preDebugBuild UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugAidl NO-SOURCE
+> Task :inboxrecyclerview:checkDebugManifest UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugRenderscript NO-SOURCE
+> Task :inboxrecyclerview:generateDebugBuildConfig UP-TO-DATE
+> Task :inboxrecyclerview:generateDebugResValues UP-TO-DATE
+> Task :inboxrecyclerview:generateDebugResources UP-TO-DATE
+> Task :inboxrecyclerview:packageDebugResources UP-TO-DATE
+> Task :inboxrecyclerview:processDebugManifest UP-TO-DATE
+> Task :inboxrecyclerview:generateDebugRFile UP-TO-DATE
+> Task :inboxrecyclerview:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :inboxrecyclerview:kaptDebugKotlin UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugKotlin UP-TO-DATE
+> Task :inboxrecyclerview:prepareLintJar UP-TO-DATE
+> Task :inboxrecyclerview:generateDebugSources UP-TO-DATE
+> Task :inboxrecyclerview:javaPreCompileDebug UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :inboxrecyclerview:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :inboxrecyclerview:packageDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+
+> Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (151, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (155, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (159, 36): Parameter 'attachment' is never used
+
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :inboxrecyclerview:mergeDebugShaders UP-TO-DATE
+> Task :inboxrecyclerview:compileDebugShaders UP-TO-DATE
+> Task :inboxrecyclerview:generateDebugAssets UP-TO-DATE
+> Task :inboxrecyclerview:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:checkDebugDuplicateClasses
+> Task :inboxrecyclerview:processDebugJavaRes NO-SOURCE
+> Task :inboxrecyclerview:bundleLibResDebug
+> Task :inboxrecyclerview:bundleLibRuntimeDebug
+> Task :inboxrecyclerview:createFullJarDebug
+> Task :sample:mergeLibDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeProjectDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :inboxrecyclerview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :inboxrecyclerview:preReleaseBuild UP-TO-DATE
+> Task :inboxrecyclerview:compileReleaseAidl NO-SOURCE
+> Task :inboxrecyclerview:compileReleaseRenderscript NO-SOURCE
+> Task :inboxrecyclerview:checkReleaseManifest UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseBuildConfig UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseResValues UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseResources UP-TO-DATE
+> Task :inboxrecyclerview:packageReleaseResources UP-TO-DATE
+> Task :inboxrecyclerview:processReleaseManifest UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseRFile UP-TO-DATE
+> Task :inboxrecyclerview:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :inboxrecyclerview:kaptReleaseKotlin UP-TO-DATE
+> Task :inboxrecyclerview:compileReleaseKotlin UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseSources UP-TO-DATE
+> Task :inboxrecyclerview:javaPreCompileRelease UP-TO-DATE
+> Task :inboxrecyclerview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :inboxrecyclerview:bundleLibCompileRelease
+> Task :inboxrecyclerview:packageReleaseRenderscript NO-SOURCE
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+
+> Task :sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (151, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (155, 35): Parameter 'attachment' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/src/main/java/me/saket/inboxrecyclerview/sample/email/EmailThreadFragment.kt: (159, 36): Parameter 'attachment' is never used
+
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :inboxrecyclerview:prepareLintJarForPublish UP-TO-DATE
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/47ceeda3f61333d729d7666a6a528878/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :inboxrecyclerview:processReleaseJavaRes NO-SOURCE
+> Task :inboxrecyclerview:bundleLibResRelease
+> Task :inboxrecyclerview:bundleLibRuntimeRelease
+> Task :inboxrecyclerview:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :inboxrecyclerview:mergeReleaseShaders UP-TO-DATE
+> Task :inboxrecyclerview:compileReleaseShaders UP-TO-DATE
+> Task :inboxrecyclerview:generateReleaseAssets UP-TO-DATE
+> Task :inboxrecyclerview:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :inboxrecyclerview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :inboxrecyclerview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 12s
+104 actionable tasks: 68 executed, 36 up-to-date
+
+2019-08-13 14:44:11,664 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681957414-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

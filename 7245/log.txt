@@ -1,36 +1,39 @@
-2019-07-20 11:37:07,716 INFO  DownloadService - Downloading "https://github.com/pwittchen/RxBiometric/archive/master.zip", attempt 3
-2019-07-20 11:37:09,860 INFO  DownloadService - Downloaded https://github.com/pwittchen/RxBiometric/archive/master.zip, attempt 3
-2019-07-20 11:37:09,861 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/master.zip": 195 KB
-2019-07-20 11:37:09,861 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 11:37:09,866 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/master.zip: true
-2019-07-20 11:37:09,867 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src'.
-2019-07-20 11:37:09,890 INFO  FullProcessService - Size of directory with sources: 234 KB
-2019-07-20 11:37:09,890 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src]
-2019-07-20 11:37:09,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/.git/
+2019-08-13 14:32:44,281 INFO  DownloadService - Downloading "https://github.com/pwittchen/RxBiometric/archive/master.zip", attempt 3
+2019-08-13 14:33:44,288 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-13 14:33:45,451 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-13 14:33:45,451 INFO  DownloadService - Downloading "https://github.com/pwittchen/RxBiometric/archive/master.zip", attempt 3
+2019-08-13 14:34:46,560 DEBUG FullProcessService - Repository https://github.com/pwittchen/RxBiometric available: true
+2019-08-13 14:34:46,560 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-13 14:34:46,560 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pwittchen/RxBiometric, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src]
+2019-08-13 14:34:48,741 INFO  SysUtils - 
+2019-08-13 14:34:48,749 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/.git": true
+2019-08-13 14:34:48,752 INFO  FullProcessService - Size of directory with sources: 234 KB
+2019-08-13 14:34:48,752 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src]
+2019-08-13 14:34:48,768 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/.git/
 
-2019-07-20 11:37:09,918 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/gradlew
-2019-07-20 11:37:09,921 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/build.gradle
-2019-07-20 11:37:09,924 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/settings.gradle
-2019-07-20 11:37:09,924 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 11:37:09,924 INFO  ProjectFixService - Fixing project...
-2019-07-20 11:37:09,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/local.properties
-2019-07-20 11:37:09,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-20 11:37:09,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-07-20 11:37:09,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/library/local.properties
-2019-07-20 11:37:09,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-20 11:37:09,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-07-20 11:37:09,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/local.properties
-2019-07-20 11:37:09,943 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 11:37:09,944 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 11:37:09,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-20 11:37:09,945 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-07-20 11:37:09,945 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 11:37:09,946 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 11:37:09,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 11:37:18,199 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-20 11:37:18,200 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 11:37:18,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 11:38:26,320 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 14:34:48,771 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/gradlew
+2019-08-13 14:34:48,774 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/build.gradle
+2019-08-13 14:34:48,776 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/settings.gradle
+2019-08-13 14:34:48,776 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 14:34:48,776 INFO  ProjectFixService - Fixing project...
+2019-08-13 14:34:48,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/local.properties
+2019-08-13 14:34:48,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-13 14:34:48,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-13 14:34:48,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/library/local.properties
+2019-08-13 14:34:48,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-13 14:34:48,793 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-13 14:34:48,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/local.properties
+2019-08-13 14:34:48,794 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-13 14:34:48,795 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-13 14:34:48,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-13 14:34:48,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-13 14:34:48,797 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 14:34:48,797 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:34:48,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:34:55,770 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-13 14:34:55,770 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 14:34:55,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 14:35:50,484 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 The Kotlin Gradle plugin was loaded multiple times in different subprojects, which is not supported and may break the build. 
 This might happen in subprojects that apply the Kotlin plugins with the Gradle 'plugins { ... }' DSL if they specify explicit versions, even if the versions are equal.
@@ -43,28 +46,28 @@ The Kotlin plugin was loaded in the following projects: ':app-kotlin', ':library
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:processDebugManifest
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:generateDebugResValues
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:generateDebugBuildConfig
-> Task :library:packageDebugResources
-> Task :library:generateDebugRFile
 > Task :app-kotlin:preDebugBuild
-> Task :app-kotlin:compileDebugAidl NO-SOURCE
-> Task :app-kotlin:compileDebugRenderscript NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
 > Task :app-kotlin:checkDebugManifest
 > Task :app-kotlin:generateDebugBuildConfig
+> Task :app-kotlin:compileDebugRenderscript NO-SOURCE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :app-kotlin:compileDebugAidl NO-SOURCE
 > Task :app-kotlin:mainApkListPersistenceDebug
 > Task :app-kotlin:generateDebugResValues
 > Task :app-kotlin:generateDebugResources
-> Task :app-kotlin:mergeDebugResources
+> Task :library:generateDebugResValues
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
 > Task :app-kotlin:createDebugCompatibleScreenManifests
 > Task :app-kotlin:processDebugManifest
+> Task :library:packageDebugResources
+> Task :app-kotlin:mergeDebugResources
+> Task :library:generateDebugRFile
 > Task :app-kotlin:processDebugResources
-> Task :library:prepareLintJar
+> Task :library:generateDebugBuildConfig
 > Task :library:compileDebugKotlin
+> Task :library:prepareLintJar
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
@@ -88,9 +91,6 @@ The Kotlin plugin was loaded in the following projects: ':app-kotlin', ':library
 > Task :library:jacocoDebug
 > Task :library:bundleLibRuntimeDebug
 > Task :app-kotlin:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
 > Task :app-kotlin:transformClassesWithDexBuilderForDebug
 > Task :app-kotlin:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app-kotlin:transformDexArchiveWithDexMergerForDebug
@@ -180,7 +180,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 53s
 94 actionable tasks: 94 executed
 
-2019-07-20 11:38:26,412 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597427708-0/src/RxBiometric-master/app-kotlin/build/outputs/apk/release/app-kotlin-release-unsigned.apk
+2019-08-13 14:35:50,562 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565681564273-0/src/app-kotlin/build/outputs/apk/release/app-kotlin-release-unsigned.apk
