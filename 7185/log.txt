@@ -1,37 +1,40 @@
-2019-03-03 17:07:19,906 INFO  DownloadService - Downloading "https://github.com/ahmadaghazadeh/CodeEditor/archive/master.zip", attempt 3
-2019-03-03 17:07:23,067 INFO  DownloadService - Downloaded https://github.com/ahmadaghazadeh/CodeEditor/archive/master.zip, attempt 3
-2019-03-03 17:07:23,067 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/master.zip": 989 KB
-2019-03-03 17:07:23,067 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-03 17:07:23,069 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/master.zip: true
-2019-03-03 17:07:23,070 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src'.
-2019-03-03 17:07:23,164 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-03 17:07:23,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src]
-2019-03-03 17:07:23,183 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/.git/
+2019-09-26 17:43:11,236 INFO  DownloadService - Downloading "https://github.com/ahmadaghazadeh/CodeEditor/archive/master.zip", attempt 3
+2019-09-26 17:43:14,206 INFO  DownloadService - Downloaded https://github.com/ahmadaghazadeh/CodeEditor/archive/master.zip, attempt 3
+2019-09-26 17:43:14,207 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/master.zip": 990 KB
+2019-09-26 17:43:14,207 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 17:43:14,208 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/master.zip: true
+2019-09-26 17:43:14,208 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src'.
+2019-09-26 17:43:14,291 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-09-26 17:43:14,291 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src]
+2019-09-26 17:43:14,309 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/.git/
 
-2019-03-03 17:07:23,192 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/gradlew
-2019-03-03 17:07:23,201 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/build.gradle
-2019-03-03 17:07:23,209 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/settings.gradle
-2019-03-03 17:07:23,210 INFO  ProjectBuildService - Remote scripts: none
-2019-03-03 17:07:23,210 INFO  ProjectFixService - Fixing project...
-2019-03-03 17:07:23,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/local.properties
-2019-03-03 17:07:23,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-03 17:07:23,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-03 17:07:23,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/library/local.properties
-2019-03-03 17:07:23,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 17:07:23,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 17:07:23,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/local.properties
-2019-03-03 17:07:23,234 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-03 17:07:23,234 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-03 17:07:23,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-03 17:07:23,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-03 17:07:23,236 INFO  ProjectFixService - Project was maybe fixed
-2019-03-03 17:07:23,236 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-03 17:07:23,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-03 17:07:31,665 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-03 17:07:31,665 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-03 17:07:31,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-03 17:08:32,931 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 17:43:14,315 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/gradlew
+2019-09-26 17:43:14,321 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/build.gradle
+2019-09-26 17:43:14,327 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/settings.gradle
+2019-09-26 17:43:14,327 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 17:43:14,328 INFO  ProjectFixService - Fixing project...
+2019-09-26 17:43:14,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/local.properties
+2019-09-26 17:43:14,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:43:14,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:43:14,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/library/local.properties
+2019-09-26 17:43:14,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-26 17:43:14,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-26 17:43:14,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/local.properties
+2019-09-26 17:43:14,347 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-09-26 17:43:14,347 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-09-26 17:43:14,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:43:14,348 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:43:14,349 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 17:43:14,349 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 17:43:14,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 17:43:21,326 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-09-26 17:43:21,326 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 17:43:21,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 17:44:07,328 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0/library-3.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0/adapters-3.2.0.aar
+Download https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -70,6 +73,7 @@
 :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 :library:dataBindingGenBaseClassesDebug
 :library:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0/databinding-compiler-3.2.0.jar
 :library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
@@ -187,7 +191,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 45s
 110 actionable tasks: 110 executed
 
-2019-03-03 17:08:33,147 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551607639902-0/src/CodeEditor-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 17:44:07,468 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494591232-0/src/CodeEditor-master/app/build/outputs/apk/debug/app-debug.apk
