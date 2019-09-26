@@ -1,39 +1,36 @@
-2019-03-03 18:37:32,030 INFO  DownloadService - Downloading "https://github.com/volsahin/bottomify-navigation-view/archive/master.zip", attempt 3
-2019-03-03 18:38:32,820 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-03 18:38:33,894 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-03 18:38:33,894 INFO  DownloadService - Downloading "https://github.com/volsahin/bottomify-navigation-view/archive/master.zip", attempt 3
-2019-03-03 18:39:35,236 DEBUG FullProcessService - Repository https://github.com/volsahin/bottomify-navigation-view available: true
-2019-03-03 18:39:35,236 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-03 18:39:35,236 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/volsahin/bottomify-navigation-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src]
-2019-03-03 18:39:37,668 INFO  SysUtils - 
-2019-03-03 18:39:37,677 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/.git": true
-2019-03-03 18:39:37,681 INFO  FullProcessService - Size of directory with sources: 622 KB
-2019-03-03 18:39:37,681 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src]
-2019-03-03 18:39:37,698 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/.git/
+2019-09-26 18:36:25,672 INFO  DownloadService - Downloading "https://github.com/volsahin/bottomify-navigation-view/archive/master.zip", attempt 3
+2019-09-26 18:36:28,434 INFO  DownloadService - Downloaded https://github.com/volsahin/bottomify-navigation-view/archive/master.zip, attempt 3
+2019-09-26 18:36:28,434 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/master.zip": 498 KB
+2019-09-26 18:36:28,434 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 18:36:28,434 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/master.zip: true
+2019-09-26 18:36:28,434 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src'.
+2019-09-26 18:36:28,458 INFO  FullProcessService - Size of directory with sources: 622 KB
+2019-09-26 18:36:28,458 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src]
+2019-09-26 18:36:28,487 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/.git/
 
-2019-03-03 18:39:37,701 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/gradlew
-2019-03-03 18:39:37,705 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/build.gradle
-2019-03-03 18:39:37,708 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/settings.gradle
-2019-03-03 18:39:37,708 INFO  ProjectBuildService - Remote scripts: none
-2019-03-03 18:39:37,708 INFO  ProjectFixService - Fixing project...
-2019-03-03 18:39:37,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/local.properties
-2019-03-03 18:39:37,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-03-03 18:39:37,718 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-03-03 18:39:37,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/bottomify/local.properties
-2019-03-03 18:39:37,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/bottomify/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
-2019-03-03 18:39:37,719 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/bottomify/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
-2019-03-03 18:39:37,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/local.properties
-2019-03-03 18:39:37,721 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-03 18:39:37,721 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-03 18:39:37,722 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-03-03 18:39:37,722 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-03-03 18:39:37,722 INFO  ProjectFixService - Project was maybe fixed
-2019-03-03 18:39:37,723 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-03 18:39:37,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-03 18:39:44,085 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-03 18:39:44,085 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-03 18:39:44,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-03 18:40:18,582 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 18:36:28,491 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/gradlew
+2019-09-26 18:36:28,494 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/build.gradle
+2019-09-26 18:36:28,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/bottomify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/settings.gradle
+2019-09-26 18:36:28,499 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 18:36:28,499 INFO  ProjectFixService - Fixing project...
+2019-09-26 18:36:28,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/local.properties
+2019-09-26 18:36:28,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 18:36:28,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 18:36:28,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/bottomify/local.properties
+2019-09-26 18:36:28,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/bottomify/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2019-09-26 18:36:28,510 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/bottomify/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2019-09-26 18:36:28,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/local.properties
+2019-09-26 18:36:28,511 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-09-26 18:36:28,511 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-09-26 18:36:28,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 18:36:28,512 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 18:36:28,513 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 18:36:28,513 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 18:36:28,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 18:36:36,152 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 18:36:36,153 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 18:36:36,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 18:37:19,444 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :bottomify:preBuild UP-TO-DATE
 :bottomify:preDebugBuild UP-TO-DATE
@@ -121,6 +118,7 @@
 :bottomify:generateDebugRFile
 :app:processDebugResources
 :bottomify:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.30/kotlin-stdlib-jdk7-1.2.30.jar
 :bottomify:generateDebugSources
 :bottomify:javaPreCompileDebug
 :bottomify:compileDebugJavaWithJavac
@@ -131,6 +129,8 @@
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -162,7 +162,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 42s
 95 actionable tasks: 95 executed
 
-2019-03-03 18:40:18,661 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613052028-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 18:37:19,513 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497785665-0/src/bottomify-navigation-view-master/app/build/outputs/apk/debug/app-debug.apk
