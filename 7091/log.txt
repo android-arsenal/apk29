@@ -1,193 +1,1326 @@
-2019-07-05 00:26:51,695 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
-2019-07-05 00:27:04,603 INFO  DownloadService - Downloaded https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip, attempt 3
-2019-07-05 00:27:04,603 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/master.zip": 991 KB
-2019-07-05 00:27:04,603 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 00:27:04,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/master.zip: true
-2019-07-05 00:27:04,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src'.
-2019-07-05 00:27:04,643 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-05 00:27:04,643 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src]
-2019-07-05 00:27:04,659 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/.git/
+2019-09-26 14:15:52,810 INFO  DownloadService - Downloading "https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip", attempt 3
+2019-09-26 14:15:54,049 INFO  DownloadService - Downloaded https://github.com/LordSaac/FontAwesome_Android_JGB/archive/master.zip, attempt 3
+2019-09-26 14:15:54,049 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/master.zip": 1000 KB
+2019-09-26 14:15:54,049 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 14:15:54,050 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/master.zip: true
+2019-09-26 14:15:54,050 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src'.
+2019-09-26 14:15:54,084 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-09-26 14:15:54,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src]
+2019-09-26 14:15:54,111 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/.git/
 
-2019-07-05 00:27:04,662 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/gradlew
-2019-07-05 00:27:04,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/build.gradle
-2019-07-05 00:27:04,670 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/settings.gradle
-2019-07-05 00:27:04,671 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 00:27:04,671 INFO  ProjectFixService - Fixing project...
-2019-07-05 00:27:04,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/local.properties
-2019-07-05 00:27:04,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/fontmanager/local.properties
-2019-07-05 00:27:04,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/local.properties
-2019-07-05 00:27:04,684 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-05 00:27:04,684 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-05 00:27:04,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,686 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-05 00:27:04,686 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 00:27:04,686 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 00:27:04,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 00:27:11,523 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 00:27:11,523 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 00:27:11,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 00:27:56,341 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:fontmanager:preBuild UP-TO-DATE
-:fontmanager:preDebugBuild UP-TO-DATE
-:fontmanager:checkDebugManifest
-:fontmanager:processDebugManifest
-:app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-beta01/support-vector-drawable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-beta01/support-core-utils-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-beta01/animated-vector-drawable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-beta01/support-core-ui-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-beta01/support-fragment-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-beta01/appcompat-v7-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-beta01/viewpager-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-beta01/loader-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-beta01/drawerlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-beta01/coordinatorlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-beta01/customview-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-beta01/swiperefreshlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-beta01/asynclayoutinflater-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-beta01/slidingpanelayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-beta01/support-compat-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-beta01/documentfile-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-beta01/cursoradapter-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-beta01/localbroadcastmanager-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-beta01/print-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-beta01/versionedparcelable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-beta01/interpolator-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.1.0/extensions-1.1.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.0/livedata-1.1.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-beta02/work-runtime-1.0.0-beta02.aar
-:fontmanager:compileDebugAidl
-:app:compileDebugAidl
-:fontmanager:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:fontmanager:compileDebugRenderscript
-:fontmanager:generateDebugResValues
-:fontmanager:generateDebugResources
-:fontmanager:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:fontmanager:platformAttrExtractor
-:fontmanager:generateDebugBuildConfig
-:fontmanager:prepareLintJar
-:fontmanager:processDebugJavaRes NO-SOURCE
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:fontmanager:mergeDebugShaders
-:fontmanager:compileDebugShaders
-:fontmanager:generateDebugRFile
-:app:processDebugResources
-:fontmanager:compileDebugKotlin
-:fontmanager:generateDebugSources
-:fontmanager:javaPreCompileDebug
-:fontmanager:compileDebugJavaWithJavac
-:fontmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-beta01/collections-28.0.0-beta01.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-beta01/support-annotations-28.0.0-beta01.jar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:fontmanager:generateDebugAssets
-:fontmanager:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:fontmanager:compileDebugNdk NO-SOURCE
-:fontmanager:mergeDebugJniLibFolders
-:fontmanager:transformNativeLibsWithMergeJniLibsForDebug
-:fontmanager:transformNativeLibsWithStripDebugSymbolForDebug
-:fontmanager:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:fontmanager:preReleaseBuild UP-TO-DATE
-:fontmanager:checkReleaseManifest
-:fontmanager:processReleaseManifest
-:app:preReleaseBuild
-:fontmanager:compileReleaseAidl
-:app:compileReleaseAidl
-:fontmanager:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:fontmanager:compileReleaseRenderscript
-:fontmanager:generateReleaseResValues
-:fontmanager:generateReleaseResources
-:fontmanager:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:fontmanager:generateReleaseRFile
-:app:processReleaseResources
-:fontmanager:generateReleaseBuildConfig
-:fontmanager:compileReleaseKotlin
-:fontmanager:generateReleaseSources
-:fontmanager:javaPreCompileRelease
-:fontmanager:compileReleaseJavaWithJavac
-:fontmanager:processReleaseJavaRes NO-SOURCE
-:fontmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:fontmanager:mergeReleaseShaders
-:fontmanager:compileReleaseShaders
-:fontmanager:generateReleaseAssets
-:fontmanager:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:fontmanager:compileReleaseNdk NO-SOURCE
-:fontmanager:mergeReleaseJniLibFolders
-:fontmanager:transformNativeLibsWithMergeJniLibsForRelease
-:fontmanager:transformNativeLibsWithStripDebugSymbolForRelease
-:fontmanager:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-09-26 14:15:54,114 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew
+2019-09-26 14:15:54,117 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle
+2019-09-26 14:15:54,119 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/settings.gradle
+2019-09-26 14:15:54,119 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 14:15:54,119 INFO  ProjectFixService - Fixing project...
+2019-09-26 14:15:54,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/local.properties
+2019-09-26 14:15:54,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,127 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/local.properties
+2019-09-26 14:15:54,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,128 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/local.properties
+2019-09-26 14:15:54,129 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 14:15:54,129 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 14:15:54,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,130 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 14:15:54,131 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 14:15:54,131 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:15:54,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:16:04,693 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-09-26 14:16:04,694 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 14:16:04,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 14:16:40,978 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-26 14:16:40,978 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 43s
-95 actionable tasks: 95 executed
+> Configure project :fontmanager
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-07-05 00:27:56,412 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562261211692-0/src/FontAwesome_Android_JGB-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :fontmanager:preBuild UP-TO-DATE
+> Task :fontmanager:preDebugBuild UP-TO-DATE
+> Task :fontmanager:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :fontmanager:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :fontmanager:compileDebugRenderscript NO-SOURCE
+> Task :fontmanager:generateDebugResValues
+> Task :fontmanager:generateDebugResources
+> Task :fontmanager:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :fontmanager:checkDebugManifest
+> Task :fontmanager:generateDebugBuildConfig
+> Task :app:mergeDebugResources
+> Task :fontmanager:processDebugManifest
+> Task :app:processDebugManifest
+> Task :fontmanager:parseDebugLibraryResources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :fontmanager:mergeDebugShaders
+> Task :fontmanager:compileDebugShaders
+> Task :fontmanager:generateDebugAssets
+> Task :fontmanager:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :fontmanager:generateDebugRFile
+> Task :app:processDebugResources
+> Task :fontmanager:compileDebugKotlin
+> Task :fontmanager:javaPreCompileDebug
+> Task :fontmanager:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :fontmanager:processDebugJavaRes NO-SOURCE
+> Task :fontmanager:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :fontmanager:bundleLibResDebug
+> Task :fontmanager:bundleLibRuntimeDebug
+> Task :fontmanager:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :fontmanager:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :fontmanager:preReleaseBuild UP-TO-DATE
+> Task :fontmanager:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :fontmanager:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :fontmanager:compileReleaseRenderscript NO-SOURCE
+> Task :fontmanager:generateReleaseResValues
+> Task :fontmanager:generateReleaseResources
+> Task :fontmanager:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :fontmanager:checkReleaseManifest
+> Task :fontmanager:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :fontmanager:mergeDebugNativeLibs
+> Task :fontmanager:stripDebugDebugSymbols
+> Task :fontmanager:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :fontmanager:generateReleaseBuildConfig
+> Task :fontmanager:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :fontmanager:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :fontmanager:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :fontmanager:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :fontmanager:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :fontmanager:javaPreCompileRelease
+> Task :fontmanager:compileReleaseJavaWithJavac
+> Task :fontmanager:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :fontmanager:bundleLibRuntimeRelease
+> Task :fontmanager:bundleLibResRelease
+> Task :fontmanager:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/431e01ad0d43bd0d1109d69162abd157/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> Could not resolve all artifacts for configuration ':fontmanager:debugAndroidTestRuntimeClasspath'.
+   > Could not resolve com.android.support:support-annotations:{strictly 26.1.0}.
+     Required by:
+         project :fontmanager
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+   > Could not resolve com.android.support:support-annotations:27.1.1.
+     Required by:
+         project :fontmanager > com.android.support.test:runner:1.0.2
+         project :fontmanager > com.android.support.test:runner:1.0.2 > com.android.support.test:monitor:1.0.2
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+   > Could not resolve com.android.support:support-annotations:26.1.0.
+     Required by:
+         project :fontmanager > android.arch.lifecycle:runtime:1.1.0
+         project :fontmanager > android.arch.lifecycle:common:1.1.0
+         project :fontmanager > android.arch.lifecycle:viewmodel:1.1.0
+         project :fontmanager > android.arch.core:common:1.1.1
+         project :fontmanager > android.arch.core:runtime:1.1.1
+         project :fontmanager > android.arch.persistence.room:common:1.1.1
+         project :fontmanager > android.arch.persistence:db-framework:1.1.1
+         project :fontmanager > android.arch.persistence:db:1.1.1
+         project :fontmanager > com.android.support:support-core-utils:26.1.0
+         project :fontmanager > com.android.support:support-compat:26.1.0
+         project :fontmanager > com.android.support:support-core-ui:26.1.0
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all artifacts for configuration ':fontmanager:debugAndroidTestRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1195)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2100(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1634)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.getArtifacts(DefaultConfiguration.java:1606)
+	at com.android.build.gradle.internal.ide.dependencies.ArtifactDependencyGraph.createDependencies(ArtifactDependencyGraph.java:220)
+	at com.android.build.gradle.internal.ide.ModelBuilder.getDependencies(ModelBuilder.java:813)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createAndroidArtifact(ModelBuilder.java:872)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createVariant(ModelBuilder.java:611)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAndroidProject(ModelBuilder.java:406)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAll(ModelBuilder.java:195)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1$1.create(DefaultToolingModelBuilderRegistry.java:102)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1.call(DefaultToolingModelBuilderRegistry.java:98)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder.buildAll(DefaultToolingModelBuilderRegistry.java:95)
+	at com.android.tools.lint.gradle.LintGradleExecution.createAndroidProject(LintGradleExecution.java:365)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.createAndroidProject(LintGradleProject.java:881)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getAndroidProject(LintGradleProject.java:892)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:904)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:1107)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:909)
+	at com.android.tools.lint.gradle.LintGradleClient.createLintRequest(LintGradleClient.java:211)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:230)
+	at com.android.tools.lint.gradle.LintGradleClient.run(LintGradleClient.java:243)
+	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:301)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:385)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:91)
+	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:60)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	... 35 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.android.support:support-annotations:{strictly 26.1.0}.
+Required by:
+    project :fontmanager
+Caused by: org.gradle.api.GradleException: Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:351)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:143)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:122)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:86)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$7.run(DefaultConfiguration.java:585)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:576)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$600(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$6.run(DefaultConfiguration.java:556)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$SafeExclusiveLockImpl.withLock(DefaultProjectStateRegistry.java:244)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveExclusively(DefaultConfiguration.java:552)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:547)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2200(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1178)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.access$3600(DefaultConfiguration.java:1113)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1628)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.getArtifacts(DefaultConfiguration.java:1606)
+	at com.android.build.gradle.internal.ide.dependencies.ArtifactDependencyGraph.createDependencies(ArtifactDependencyGraph.java:220)
+	at com.android.build.gradle.internal.ide.ModelBuilder.getDependencies(ModelBuilder.java:813)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createAndroidArtifact(ModelBuilder.java:872)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createVariant(ModelBuilder.java:611)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAndroidProject(ModelBuilder.java:406)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAll(ModelBuilder.java:195)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1$1.create(DefaultToolingModelBuilderRegistry.java:102)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1.call(DefaultToolingModelBuilderRegistry.java:98)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder.buildAll(DefaultToolingModelBuilderRegistry.java:95)
+	at com.android.tools.lint.gradle.LintGradleExecution.createAndroidProject(LintGradleExecution.java:365)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.createAndroidProject(LintGradleProject.java:881)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getAndroidProject(LintGradleProject.java:892)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:904)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:1107)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:909)
+	at com.android.tools.lint.gradle.LintGradleClient.createLintRequest(LintGradleClient.java:211)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:230)
+	at com.android.tools.lint.gradle.LintGradleClient.run(LintGradleClient.java:243)
+	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:301)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:385)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:91)
+	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:60)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 35s
+72 actionable tasks: 72 executed
+
+2019-09-26 14:16:41,039 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:16:41,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:16:47,459 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-09-26 14:16:47,459 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-26 14:16:47,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/fontmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-26 14:16:56,359 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :fontmanager
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :fontmanager:preBuild UP-TO-DATE
+> Task :fontmanager:preDebugBuild UP-TO-DATE
+> Task :fontmanager:compileDebugAidl NO-SOURCE
+> Task :fontmanager:compileDebugRenderscript NO-SOURCE
+> Task :fontmanager:checkDebugManifest UP-TO-DATE
+> Task :fontmanager:generateDebugBuildConfig UP-TO-DATE
+> Task :fontmanager:generateDebugResValues UP-TO-DATE
+> Task :fontmanager:generateDebugResources UP-TO-DATE
+> Task :fontmanager:packageDebugResources UP-TO-DATE
+> Task :fontmanager:parseDebugLibraryResources UP-TO-DATE
+> Task :fontmanager:processDebugManifest UP-TO-DATE
+> Task :fontmanager:generateDebugRFile UP-TO-DATE
+> Task :fontmanager:compileDebugKotlin UP-TO-DATE
+> Task :fontmanager:javaPreCompileDebug UP-TO-DATE
+> Task :fontmanager:compileDebugJavaWithJavac UP-TO-DATE
+> Task :fontmanager:extractDebugAnnotations
+> Task :fontmanager:mergeDebugGeneratedProguardFiles
+> Task :fontmanager:mergeDebugConsumerProguardFiles
+> Task :fontmanager:mergeDebugShaders UP-TO-DATE
+> Task :fontmanager:compileDebugShaders UP-TO-DATE
+> Task :fontmanager:generateDebugAssets UP-TO-DATE
+> Task :fontmanager:packageDebugAssets UP-TO-DATE
+> Task :fontmanager:packageDebugRenderscript NO-SOURCE
+> Task :fontmanager:prepareLintJarForPublish UP-TO-DATE
+> Task :fontmanager:processDebugJavaRes NO-SOURCE
+> Task :fontmanager:mergeDebugJniLibFolders UP-TO-DATE
+> Task :fontmanager:mergeDebugNativeLibs UP-TO-DATE
+> Task :fontmanager:stripDebugDebugSymbols UP-TO-DATE
+> Task :fontmanager:transformNativeLibsWithSyncJniLibsForDebug
+> Task :fontmanager:compileDebugSources UP-TO-DATE
+> Task :fontmanager:preReleaseBuild UP-TO-DATE
+> Task :fontmanager:compileReleaseAidl NO-SOURCE
+> Task :fontmanager:compileReleaseRenderscript NO-SOURCE
+> Task :fontmanager:checkReleaseManifest UP-TO-DATE
+> Task :fontmanager:generateReleaseBuildConfig UP-TO-DATE
+> Task :fontmanager:generateReleaseResValues UP-TO-DATE
+> Task :fontmanager:generateReleaseResources UP-TO-DATE
+> Task :fontmanager:packageReleaseResources UP-TO-DATE
+> Task :fontmanager:parseReleaseLibraryResources UP-TO-DATE
+> Task :fontmanager:processReleaseManifest UP-TO-DATE
+> Task :fontmanager:generateReleaseRFile UP-TO-DATE
+> Task :fontmanager:compileReleaseKotlin UP-TO-DATE
+> Task :fontmanager:javaPreCompileRelease UP-TO-DATE
+> Task :fontmanager:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :fontmanager:extractReleaseAnnotations
+> Task :fontmanager:mergeReleaseGeneratedProguardFiles
+> Task :fontmanager:mergeReleaseConsumerProguardFiles
+> Task :fontmanager:mergeReleaseShaders
+> Task :fontmanager:compileReleaseShaders
+> Task :fontmanager:generateReleaseAssets
+> Task :fontmanager:packageReleaseAssets
+> Task :fontmanager:packageReleaseRenderscript NO-SOURCE
+> Task :fontmanager:processReleaseJavaRes NO-SOURCE
+> Task :fontmanager:mergeDebugJavaResource
+> Task :fontmanager:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :fontmanager:bundleDebugAar
+> Task :fontmanager:assembleDebug
+> Task :fontmanager:mergeReleaseJniLibFolders
+> Task :fontmanager:mergeReleaseJavaResource
+> Task :fontmanager:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :fontmanager:compileReleaseSources UP-TO-DATE
+> Task :fontmanager:mergeReleaseResources
+> Task :fontmanager:mergeReleaseNativeLibs
+> Task :fontmanager:stripReleaseDebugSymbols
+> Task :fontmanager:transformNativeLibsWithSyncJniLibsForRelease
+> Task :fontmanager:bundleReleaseAar
+> Task :fontmanager:verifyReleaseResources
+> Task :fontmanager:assembleRelease
+> Task :fontmanager:assemble
+> Task :fontmanager:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 8s
+49 actionable tasks: 22 executed, 27 up-to-date
+
+2019-09-26 14:16:56,436 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:16:56,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:17:03,234 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-09-26 14:17:03,234 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 14:17:03,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482152807-0/src/FontAwesome_Android_JGB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 14:17:14,778 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-26 14:17:14,778 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :fontmanager
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :fontmanager:preBuild UP-TO-DATE
+> Task :fontmanager:preDebugBuild UP-TO-DATE
+> Task :fontmanager:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :fontmanager:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :fontmanager:compileDebugRenderscript NO-SOURCE
+> Task :fontmanager:generateDebugResValues UP-TO-DATE
+> Task :fontmanager:generateDebugResources UP-TO-DATE
+> Task :fontmanager:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :fontmanager:checkDebugManifest UP-TO-DATE
+> Task :fontmanager:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :fontmanager:parseDebugLibraryResources UP-TO-DATE
+> Task :fontmanager:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :fontmanager:generateDebugBuildConfig UP-TO-DATE
+> Task :fontmanager:compileDebugKotlin UP-TO-DATE
+> Task :fontmanager:javaPreCompileDebug UP-TO-DATE
+> Task :fontmanager:compileDebugJavaWithJavac UP-TO-DATE
+> Task :fontmanager:bundleLibCompileDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :fontmanager:mergeDebugShaders UP-TO-DATE
+> Task :fontmanager:compileDebugShaders UP-TO-DATE
+> Task :fontmanager:generateDebugAssets UP-TO-DATE
+> Task :fontmanager:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :fontmanager:processDebugJavaRes NO-SOURCE
+> Task :fontmanager:bundleLibResDebug UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :fontmanager:bundleLibRuntimeDebug UP-TO-DATE
+> Task :fontmanager:createFullJarDebug UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :fontmanager:mergeDebugJniLibFolders UP-TO-DATE
+> Task :fontmanager:mergeDebugNativeLibs UP-TO-DATE
+> Task :fontmanager:stripDebugDebugSymbols UP-TO-DATE
+> Task :fontmanager:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :fontmanager:preReleaseBuild UP-TO-DATE
+> Task :fontmanager:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :fontmanager:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceRelease UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :fontmanager:compileReleaseRenderscript NO-SOURCE
+> Task :fontmanager:generateReleaseResValues UP-TO-DATE
+> Task :fontmanager:generateReleaseResources UP-TO-DATE
+> Task :fontmanager:packageReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :fontmanager:checkReleaseManifest UP-TO-DATE
+> Task :fontmanager:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :fontmanager:parseReleaseLibraryResources UP-TO-DATE
+> Task :fontmanager:generateReleaseRFile UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :fontmanager:generateReleaseBuildConfig UP-TO-DATE
+> Task :fontmanager:compileReleaseKotlin UP-TO-DATE
+> Task :fontmanager:javaPreCompileRelease UP-TO-DATE
+> Task :fontmanager:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :fontmanager:bundleLibCompileRelease UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :fontmanager:prepareLintJarForPublish UP-TO-DATE
+> Task :app:lintVitalRelease FAILED
+> Task :app:mergeExtDexDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> Could not resolve all artifacts for configuration ':fontmanager:debugAndroidTestRuntimeClasspath'.
+   > Could not resolve com.android.support:support-annotations:{strictly 26.1.0}.
+     Required by:
+         project :fontmanager
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+   > Could not resolve com.android.support:support-annotations:27.1.1.
+     Required by:
+         project :fontmanager > com.android.support.test:runner:1.0.2
+         project :fontmanager > com.android.support.test:runner:1.0.2 > com.android.support.test:monitor:1.0.2
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+   > Could not resolve com.android.support:support-annotations:26.1.0.
+     Required by:
+         project :fontmanager > android.arch.lifecycle:runtime:1.1.0
+         project :fontmanager > android.arch.lifecycle:common:1.1.0
+         project :fontmanager > android.arch.lifecycle:viewmodel:1.1.0
+         project :fontmanager > android.arch.core:common:1.1.1
+         project :fontmanager > android.arch.core:runtime:1.1.1
+         project :fontmanager > android.arch.persistence.room:common:1.1.1
+         project :fontmanager > android.arch.persistence:db-framework:1.1.1
+         project :fontmanager > android.arch.persistence:db:1.1.1
+         project :fontmanager > com.android.support:support-core-utils:26.1.0
+         project :fontmanager > com.android.support:support-compat:26.1.0
+         project :fontmanager > com.android.support:support-core-ui:26.1.0
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+           Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all artifacts for configuration ':fontmanager:debugAndroidTestRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1195)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2100(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1634)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.getArtifacts(DefaultConfiguration.java:1606)
+	at com.android.build.gradle.internal.ide.dependencies.ArtifactDependencyGraph.createDependencies(ArtifactDependencyGraph.java:220)
+	at com.android.build.gradle.internal.ide.ModelBuilder.getDependencies(ModelBuilder.java:813)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createAndroidArtifact(ModelBuilder.java:872)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createVariant(ModelBuilder.java:611)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAndroidProject(ModelBuilder.java:406)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAll(ModelBuilder.java:195)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1$1.create(DefaultToolingModelBuilderRegistry.java:102)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1.call(DefaultToolingModelBuilderRegistry.java:98)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder.buildAll(DefaultToolingModelBuilderRegistry.java:95)
+	at com.android.tools.lint.gradle.LintGradleExecution.createAndroidProject(LintGradleExecution.java:365)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.createAndroidProject(LintGradleProject.java:881)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getAndroidProject(LintGradleProject.java:892)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:904)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:1107)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:909)
+	at com.android.tools.lint.gradle.LintGradleClient.createLintRequest(LintGradleClient.java:211)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:230)
+	at com.android.tools.lint.gradle.LintGradleClient.run(LintGradleClient.java:243)
+	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:301)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:385)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:91)
+	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:60)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	... 115 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.android.support:support-annotations:{strictly 26.1.0}.
+Required by:
+    project :fontmanager
+Caused by: org.gradle.api.GradleException: Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Constraint path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support:support-annotations:{strictly 26.1.0}' because of the following reason: debugRuntimeClasspath uses version 26.1.0
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:runtime:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:common:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.lifecycle:viewmodel:1.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'android.arch.core:runtime:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence.room:common:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db-framework:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'android.arch.persistence:db:1.1.1' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.persistence.room:runtime:1.1.1' --> 'com.android.support:support-core-utils:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-compat:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+   Dependency path 'FontAwesome_Android_JGB-master:fontmanager:unspecified' --> 'android.arch.work:work-runtime:1.0.1' --> 'android.arch.lifecycle:extensions:1.1.0' --> 'com.android.support:support-fragment:26.1.0' --> 'com.android.support:support-core-ui:26.1.0' --> 'com.android.support:support-annotations:26.1.0'
+
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:351)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:143)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:122)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:86)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$7.run(DefaultConfiguration.java:585)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:576)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$600(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$6.run(DefaultConfiguration.java:556)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$SafeExclusiveLockImpl.withLock(DefaultProjectStateRegistry.java:244)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveExclusively(DefaultConfiguration.java:552)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:547)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2200(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1178)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.access$3600(DefaultConfiguration.java:1113)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1628)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.getArtifacts(DefaultConfiguration.java:1606)
+	at com.android.build.gradle.internal.ide.dependencies.ArtifactDependencyGraph.createDependencies(ArtifactDependencyGraph.java:220)
+	at com.android.build.gradle.internal.ide.ModelBuilder.getDependencies(ModelBuilder.java:813)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createAndroidArtifact(ModelBuilder.java:872)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createVariant(ModelBuilder.java:611)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAndroidProject(ModelBuilder.java:406)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAll(ModelBuilder.java:195)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1$1.create(DefaultToolingModelBuilderRegistry.java:102)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1.call(DefaultToolingModelBuilderRegistry.java:98)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder.buildAll(DefaultToolingModelBuilderRegistry.java:95)
+	at com.android.tools.lint.gradle.LintGradleExecution.createAndroidProject(LintGradleExecution.java:365)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.createAndroidProject(LintGradleProject.java:881)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getAndroidProject(LintGradleProject.java:892)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:904)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:1107)
+	at com.android.tools.lint.gradle.LintGradleProject$ProjectSearch.getProject(LintGradleProject.java:909)
+	at com.android.tools.lint.gradle.LintGradleClient.createLintRequest(LintGradleClient.java:211)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:230)
+	at com.android.tools.lint.gradle.LintGradleClient.run(LintGradleClient.java:243)
+	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:301)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:385)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:91)
+	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:60)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 11s
+69 actionable tasks: 2 executed, 67 up-to-date
+
+2019-09-26 14:17:14,867 ERROR FullProcessService - Project build has not produced APK file
+2019-09-26 14:17:14,937 ERROR FullProcessService - Could not find generated or existed APK file
