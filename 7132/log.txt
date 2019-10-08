@@ -1,108 +1,92 @@
-2019-09-29 22:02:46,462 INFO  DownloadService - Downloading "https://github.com/Swati4star/Images-to-pdf/archive/master.zip", attempt 3
-2019-09-29 22:02:59,035 INFO  DownloadService - Downloaded https://github.com/Swati4star/Images-to-pdf/archive/master.zip, attempt 3
-2019-09-29 22:02:59,035 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/master.zip": 17 MB
-2019-09-29 22:02:59,035 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-29 22:02:59,043 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/master.zip: true
-2019-09-29 22:02:59,044 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src'.
-2019-09-29 22:02:59,260 INFO  FullProcessService - Size of directory with sources: 20 MB
-2019-09-29 22:02:59,260 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src]
-2019-09-29 22:02:59,292 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/.git/
+2019-10-08 13:15:34,143 INFO  DownloadService - Downloading "https://github.com/Swati4star/Images-to-pdf/archive/master.zip", attempt 3
+2019-10-08 13:15:50,621 INFO  DownloadService - Downloaded https://github.com/Swati4star/Images-to-pdf/archive/master.zip, attempt 3
+2019-10-08 13:15:50,621 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/master.zip": 17 MB
+2019-10-08 13:15:50,621 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 13:15:50,622 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/master.zip: true
+2019-10-08 13:15:50,622 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src'.
+2019-10-08 13:15:50,882 INFO  FullProcessService - Size of directory with sources: 20 MB
+2019-10-08 13:15:50,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src]
+2019-10-08 13:15:50,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/.git/
 
-2019-09-29 22:02:59,301 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/gradlew
-2019-09-29 22:02:59,308 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/build.gradle
-2019-09-29 22:02:59,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/config/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/settings.gradle
-2019-09-29 22:02:59,315 INFO  ProjectBuildService - Remote scripts: none
-2019-09-29 22:02:59,315 INFO  ProjectFixService - Fixing project...
-2019-09-29 22:02:59,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/local.properties
-2019-09-29 22:02:59,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-09-29 22:02:59,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/local.properties
-2019-09-29 22:02:59,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-09-29 22:02:59,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-09-29 22:02:59,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-09-29 22:02:59,332 INFO  ProjectFixService - Project was maybe fixed
-2019-09-29 22:02:59,332 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-29 22:02:59,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-29 22:03:06,901 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-09-29 22:03:06,901 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-29 22:03:06,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-29 22:04:54,038 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/support/preference-v7/28.0.0/preference-v7-28.0.0.aar
-Download https://jcenter.bintray.com/com/balysv/material-ripple/1.0.2/material-ripple-1.0.2.aar
-Download https://jcenter.bintray.com/com/journeyapps/zxing-android-embedded/3.4.0/zxing-android-embedded-3.4.0.aar
-Download https://jcenter.bintray.com/com/theartofdev/edmodo/android-image-cropper/2.7.0/android-image-cropper-2.7.0.aar
-Download https://jitpack.io/com/github/dmytrodanylyk/android-morphing-button/98a4986e56/android-morphing-button-98a4986e56.aar
-Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.5.5/lottie-2.5.5.aar
-Download https://jcenter.bintray.com/jp/wasabeef/picasso-transformations/2.2.1/picasso-transformations-2.2.1.aar
-Download https://jcenter.bintray.com/lib/kashif/folderpicker/2.4/folderpicker-2.4.aar
-Download https://jcenter.bintray.com/com/eftimoff/android-viewpager-transformers/1.0.1/android-viewpager-transformers-1.0.1.aar
-Download https://jcenter.bintray.com/com/zhihu/android/matisse/0.5.2-beta4/matisse-0.5.2-beta4.aar
-Download https://jcenter.bintray.com/com/github/danielnilsson9/color-picker-view/1.4.0/color-picker-view-1.4.0.aar
-Download https://jcenter.bintray.com/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar
-Download https://jcenter.bintray.com/org/apache/xmlbeans/xmlbeans/2.4.0/xmlbeans-2.4.0.jar
-Download https://jcenter.bintray.com/it/sephiroth/android/library/imagezoom/library/1.0.4/library-1.0.4.aar
-Download https://jcenter.bintray.com/com/itextpdf/itextg/5.5.10/itextg-5.5.10.jar
-Download https://jcenter.bintray.com/com/madgag/spongycastle/core/1.58.0.0/core-1.58.0.0.jar
-Download https://jcenter.bintray.com/it/sephiroth/android/library/easing/library/1.0.2/library-1.0.2.aar
-Download https://jcenter.bintray.com/ja/burhanrashid52/photoeditor/0.2.1/photoeditor-0.2.1.aar
-:app:preBuild
-:app:preDebugBuild
-:app:compileDebugAidl NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:196: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:323: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+2019-10-08 13:15:50,922 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/gradlew
+2019-10-08 13:15:50,928 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/build.gradle
+2019-10-08 13:15:50,934 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/config/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/settings.gradle
+2019-10-08 13:15:50,934 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 13:15:50,935 INFO  ProjectFixService - Fixing project...
+2019-10-08 13:15:50,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/local.properties
+2019-10-08 13:15:50,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-08 13:15:50,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/local.properties
+2019-10-08 13:15:50,949 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-08 13:15:50,949 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-08 13:15:50,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-08 13:15:50,950 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 13:15:50,950 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:15:50,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:15:58,984 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-08 13:15:58,984 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-08 13:15:58,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-08 13:18:18,917 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:196: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:323: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:105: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:203: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:330: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:105: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:203: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:330: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:3413: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:3526: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:3665: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1343: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1456: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1596: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:206: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:333: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:114: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:211: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:338: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:114: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:211: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:338: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:206: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:333: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:app:processDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 warn: removing resource swati4star.createpdf:plurals/error_over_count without required default value.
 
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.8.1.jar (com.jakewharton:butterknife-compiler:8.8.1), compiler-1.1.1.jar (android.arch.persistence.room:compiler:1.1.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends RoomDatabase {
                 ^
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:checkDebugDuplicateClasses
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.junit.rules.DisableOnDebug.<init>(org.junit.rules.TestRule)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -111,7 +95,8 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/matisse-0.5.2-beta4.aar/6f3cd6addabe6bd8686ef4e7979f02c5/jars/classes.jar: D8: Type `com.bumptech.glide.Glide` was not found, it is required for default or static interface methods desugaring of `void com.zhihu.matisse.engine.impl.GlideEngine.loadThumbnail(android.content.Context, int, android.graphics.drawable.Drawable, android.widget.ImageView, android.net.Uri)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82329e3ba9bf457e3a348ea5668e7e26/jars/classes.jar: D8: Type `com.bumptech.glide.Glide` was not found, it is required for default or static interface methods desugaring of `void com.zhihu.matisse.engine.impl.GlideEngine.loadThumbnail(android.content.Context, int, android.graphics.drawable.Drawable, android.widget.ImageView, android.net.Uri)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -133,9 +118,8 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/271db64da186ea5726c6bee9bb194919/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/58c4210f98ee05cda644489bc1603493/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.xslf.usermodel.XSLFPictureShape.resize()`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `boolean org.apache.poi.xslf.usermodel.XSLFImageRenderer.drawImage(java.awt.Graphics2D, org.apache.poi.xslf.usermodel.XSLFPictureData, java.awt.geom.Rectangle2D)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -143,8 +127,12 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `java.awt.AlphaComposite` was not found, it is required for default or static interface methods desugaring of `java.awt.Paint org.apache.poi.xslf.usermodel.RenderableShape.createTexturePaint(org.openxmlformats.schemas.drawingml.x2006.main.CTBlipFillProperties, java.awt.Graphics2D, org.apache.poi.openxml4j.opc.PackagePart)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `java.awt.geom.AffineTransform` was not found, it is required for default or static interface methods desugaring of `java.awt.Paint org.apache.poi.xslf.usermodel.RenderableShape.createLinearGradientPaint(java.awt.Graphics2D, org.openxmlformats.schemas.drawingml.x2006.main.CTGradientFillProperties, java.awt.geom.Rectangle2D, org.apache.poi.xslf.usermodel.XSLFTheme, org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.xslf.util.PPTX2PNG.main(java.lang.String[])`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -198,138 +186,123 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.4.0/9c8f767c02f9d8b98a2854aa0cf83e155747d299/xmlbeans-2.4.0.jar: D8: Type `com.sun.tools.javadoc.Main` was not found, it is required for default or static interface methods desugaring of `com.sun.javadoc.RootDoc org.apache.xmlbeans.impl.jam.internal.javadoc.JavadocRunner.run(java.io.File[], java.io.PrintWriter, java.lang.String, java.lang.String, java.lang.String[], org.apache.xmlbeans.impl.jam.provider.JamLogger)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+> Task :app:transformClassesWithDexBuilderForDebug
+
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `java.awt.GraphicsEnvironment` was not found, it is required for default or static interface methods desugaring of `java.awt.GraphicsConfiguration org.apache.poi.hslf.model.PPGraphics2D.getDeviceConfiguration()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `java.awt.FontMetrics org.apache.poi.hslf.model.PPGraphics2D.getFontMetrics(java.awt.Font)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hslf.model.Background.draw(java.awt.Graphics2D)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `java.awt.FontMetrics org.apache.poi.hssf.usermodel.EscherGraphics.getFontMetrics(java.awt.Font)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hslf.blip.BitmapPainter.paint(java.awt.Graphics2D, org.apache.poi.hslf.usermodel.PictureData, org.apache.poi.hslf.model.Picture)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `java.awt.FontMetrics org.apache.poi.hssf.usermodel.EscherGraphics.getFontMetrics(java.awt.Font)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.GraphicsEnvironment` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.FontMetricsDumper.main(java.lang.String[])`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.FontMetricsDumper.main(java.lang.String[])`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `java.awt.Dimension org.apache.poi.ss.util.ImageUtils.getImageDimension(java.io.InputStream, int)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `org.apache.commons.logging.LogFactory` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.CommonsLogger.<clinit>()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.geom.AffineTransform` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hssf.usermodel.EscherGraphics2d.drawString(java.text.AttributedCharacterIterator, float, float)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `java.awt.Dimension org.apache.poi.ss.util.ImageUtils.getImageDimension(java.io.InputStream, int)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `javax.xml.crypto.dsig.XMLSignatureFactory` was not found, it is required for default or static interface methods desugaring of `javax.xml.crypto.dsig.XMLSignatureFactory com.itextpdf.text.pdf.security.MakeXmlSignature.createSignatureFactory()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `org.apache.xml.security.utils.Base64` was not found, it is required for default or static interface methods desugaring of `javax.xml.crypto.dsig.XMLObject com.itextpdf.text.pdf.security.MakeXmlSignature.generateXadesObject(javax.xml.crypto.dsig.XMLSignatureFactory, com.itextpdf.text.pdf.XmlSignatureAppearance, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `org.apache.jcp.xml.dsig.internal.dom.DOMUtils` was not found, it is required for default or static interface methods desugaring of `void com.itextpdf.text.pdf.security.MakeXmlSignature.sign(javax.xml.crypto.dsig.XMLSignatureFactory, com.itextpdf.text.pdf.security.ExternalSignature, com.itextpdf.text.pdf.security.XmlLocator, org.apache.jcp.xml.dsig.internal.dom.DOMSignedInfo, javax.xml.crypto.dsig.XMLObject, javax.xml.crypto.dsig.keyinfo.KeyInfo, java.lang.String)`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.gjt.xpp.XmlPullParserFactory` was not found, it is required for default or static interface methods desugaring of `org.gjt.xpp.XmlPullParserFactory org.dom4j.io.XPPReader.getXPPFactory()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `java.beans.Introspector` was not found, it is required for default or static interface methods desugaring of `void org.dom4j.bean.BeanMetaData.<init>(java.lang.Class)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `com.sun.msv.datatype.xsd.DatatypeFactory` was not found, it is required for default or static interface methods desugaring of `com.sun.msv.datatype.xsd.XSDatatype org.dom4j.datatype.SchemaParser.getTypeByName(java.lang.String)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `java.beans.Introspector` was not found, it is required for default or static interface methods desugaring of `void org.dom4j.bean.BeanMetaData.<init>(java.lang.Class)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `javax.xml.bind.JAXBContext` was not found, it is required for default or static interface methods desugaring of `javax.xml.bind.JAXBContext org.dom4j.jaxb.JAXBSupport.getContext()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `javax.swing.tree.TreeNode` not found. It's needed to make sure desugaring of `org.dom4j.swing.LeafTreeNode` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `com.sun.msv.datatype.SerializationContext` not found. It's needed to make sure desugaring of `org.dom4j.datatype.DatatypeElement` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.relaxng.datatype.ValidationContext` not found. It's needed to make sure desugaring of `org.dom4j.datatype.DatatypeElement` is correct. Desugaring will assume that this interface has no default method.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.gjt.xpp.XmlStartTag` not found. It's needed to make sure desugaring of `org.dom4j.xpp.ProxyXmlStartTag` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.pattern.PatternParser` was not found, it is required for default or static interface methods desugaring of `void org.dom4j.xpath.XPathPattern.<init>(java.lang.String)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.XPathFunctionContext` was not found, it is required for default or static interface methods desugaring of `org.jaxen.ContextSupport org.dom4j.xpath.XPathPattern.getContextSupport()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.dom4j.DocumentNavigator` was not found, it is required for default or static interface methods desugaring of `org.jaxen.ContextSupport org.dom4j.xpath.XPathPattern.getContextSupport()`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.gjt.xpp.XmlStartTag` not found. It's needed to make sure desugaring of `org.dom4j.xpp.ProxyXmlStartTag` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.jaxen.VariableContext` not found. It's needed to make sure desugaring of `org.dom4j.swing.XMLTableDefinition` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.jaxen.NamespaceContext` not found. It's needed to make sure desugaring of `org.dom4j.xpath.DefaultNamespaceContext` is correct. Desugaring will assume that this interface has no default method.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:app:preReleaseBuild
-:app:compileReleaseAidl NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:196: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:323: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:105: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:203: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:330: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:preReleaseBuild
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:196: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml:323: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:3413: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:3526: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:3665: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:105: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:203: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml:330: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:206: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:333: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1343: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1456: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1596: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:114: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:211: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:338: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:99: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:206: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml:333: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:app:processReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:114: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:211: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml:338: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
 warn: removing resource swati4star.createpdf:plurals/error_over_count without required default value.
 
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.8.1.jar (com.jakewharton:butterknife-compiler:8.8.1), compiler-1.1.1.jar (android.arch.persistence.room:compiler:1.1.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/database/AppDatabase.java:11: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends RoomDatabase {
                 ^
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/src/main/java/swati4star/createpdf/fragment/ImageToPdfFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
+> Task :app:compileReleaseSources
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.junit.rules.DisableOnDebug.<init>(org.junit.rules.TestRule)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `long org.junit.internal.runners.statements.FailOnTimeout.cpuTime(java.lang.Thread)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/matisse-0.5.2-beta4.aar/6f3cd6addabe6bd8686ef4e7979f02c5/jars/classes.jar: D8: Type `com.bumptech.glide.Glide` was not found, it is required for default or static interface methods desugaring of `void com.zhihu.matisse.engine.impl.GlideEngine.loadThumbnail(android.content.Context, int, android.graphics.drawable.Drawable, android.widget.ImageView, android.net.Uri)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82329e3ba9bf457e3a348ea5668e7e26/jars/classes.jar: D8: Type `com.bumptech.glide.Glide` was not found, it is required for default or static interface methods desugaring of `void com.zhihu.matisse.engine.impl.GlideEngine.loadThumbnail(android.content.Context, int, android.graphics.drawable.Drawable, android.widget.ImageView, android.net.Uri)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -345,20 +318,26 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/271db64da186ea5726c6bee9bb194919/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/58c4210f98ee05cda644489bc1603493/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.xslf.usermodel.XSLFPictureShape.resize()`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `boolean org.apache.poi.xslf.usermodel.XSLFImageRenderer.drawImage(java.awt.Graphics2D, org.apache.poi.xslf.usermodel.XSLFPictureData, java.awt.geom.Rectangle2D)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `java.awt.Color` was not found, it is required for default or static interface methods desugaring of `java.awt.Color org.apache.poi.xslf.usermodel.XSLFColor.toColor(org.apache.xmlbeans.XmlObject, org.apache.poi.xslf.usermodel.XSLFTheme)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `java.awt.AlphaComposite` was not found, it is required for default or static interface methods desugaring of `java.awt.Paint org.apache.poi.xslf.usermodel.RenderableShape.createTexturePaint(org.openxmlformats.schemas.drawingml.x2006.main.CTBlipFillProperties, java.awt.Graphics2D, org.apache.poi.openxml4j.opc.PackagePart)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `java.awt.geom.AffineTransform` was not found, it is required for default or static interface methods desugaring of `java.awt.Paint org.apache.poi.xslf.usermodel.RenderableShape.createLinearGradientPaint(java.awt.Graphics2D, org.openxmlformats.schemas.drawingml.x2006.main.CTGradientFillProperties, java.awt.geom.Rectangle2D, org.apache.poi.xslf.usermodel.XSLFTheme, org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.9/bbe83c739d22eecfacd06d7e0b99ba13277040ed/poi-ooxml-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.xslf.util.PPTX2PNG.main(java.lang.String[])`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
@@ -418,73 +397,60 @@ JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `java.awt.GraphicsEnvironment` was not found, it is required for default or static interface methods desugaring of `java.awt.GraphicsConfiguration org.apache.poi.hslf.model.PPGraphics2D.getDeviceConfiguration()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `java.awt.FontMetrics org.apache.poi.hslf.model.PPGraphics2D.getFontMetrics(java.awt.Font)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hslf.model.Background.draw(java.awt.Graphics2D)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.9/f07d54f88a9f6c743d133be8d4446879a1e6729/poi-scratchpad-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hslf.blip.BitmapPainter.paint(java.awt.Graphics2D, org.apache.poi.hslf.usermodel.PictureData, org.apache.poi.hslf.model.Picture)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `java.awt.FontMetrics org.apache.poi.hssf.usermodel.EscherGraphics.getFontMetrics(java.awt.Font)`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.GraphicsEnvironment` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.FontMetricsDumper.main(java.lang.String[])`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.FontMetricsDumper.main(java.lang.String[])`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.geom.AffineTransform` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hssf.usermodel.EscherGraphics2d.drawString(java.text.AttributedCharacterIterator, float, float)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `org.apache.commons.logging.LogFactory` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.util.CommonsLogger.<clinit>()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `java.awt.Dimension org.apache.poi.ss.util.ImageUtils.getImageDimension(java.io.InputStream, int)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar: D8: Type `java.awt.geom.AffineTransform` was not found, it is required for default or static interface methods desugaring of `void org.apache.poi.hssf.usermodel.EscherGraphics2d.drawString(java.text.AttributedCharacterIterator, float, float)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `javax.xml.crypto.dsig.XMLSignatureFactory` was not found, it is required for default or static interface methods desugaring of `javax.xml.crypto.dsig.XMLSignatureFactory com.itextpdf.text.pdf.security.MakeXmlSignature.createSignatureFactory()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `org.apache.xml.security.utils.Base64` was not found, it is required for default or static interface methods desugaring of `javax.xml.crypto.dsig.XMLObject com.itextpdf.text.pdf.security.MakeXmlSignature.generateXadesObject(javax.xml.crypto.dsig.XMLSignatureFactory, com.itextpdf.text.pdf.XmlSignatureAppearance, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar: D8: Type `org.apache.jcp.xml.dsig.internal.dom.DOMUtils` was not found, it is required for default or static interface methods desugaring of `void com.itextpdf.text.pdf.security.MakeXmlSignature.sign(javax.xml.crypto.dsig.XMLSignatureFactory, com.itextpdf.text.pdf.security.ExternalSignature, com.itextpdf.text.pdf.security.XmlLocator, org.apache.jcp.xml.dsig.internal.dom.DOMSignedInfo, javax.xml.crypto.dsig.XMLObject, javax.xml.crypto.dsig.keyinfo.KeyInfo, java.lang.String)`
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.gjt.xpp.XmlPullParserFactory` was not found, it is required for default or static interface methods desugaring of `org.gjt.xpp.XmlPullParserFactory org.dom4j.io.XPPReader.getXPPFactory()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `java.beans.Introspector` was not found, it is required for default or static interface methods desugaring of `void org.dom4j.bean.BeanMetaData.<init>(java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `javax.xml.bind.JAXBContext` was not found, it is required for default or static interface methods desugaring of `javax.xml.bind.JAXBContext org.dom4j.jaxb.JAXBSupport.getContext()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `com.sun.msv.datatype.xsd.DatatypeFactory` was not found, it is required for default or static interface methods desugaring of `com.sun.msv.datatype.xsd.XSDatatype org.dom4j.datatype.SchemaParser.getTypeByName(java.lang.String)`
 JarCode: JSR encountered; reparse using JSRInlinerAdapter
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.gjt.xpp.XmlStartTag` not found. It's needed to make sure desugaring of `org.dom4j.xpp.ProxyXmlStartTag` is correct. Desugaring will assume that this interface has no default method.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `javax.xml.bind.JAXBContext` was not found, it is required for default or static interface methods desugaring of `javax.xml.bind.JAXBContext org.dom4j.jaxb.JAXBSupport.getContext()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `javax.swing.tree.TreeNode` not found. It's needed to make sure desugaring of `org.dom4j.swing.LeafTreeNode` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `com.sun.msv.datatype.SerializationContext` not found. It's needed to make sure desugaring of `org.dom4j.datatype.DatatypeElement` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.relaxng.datatype.ValidationContext` not found. It's needed to make sure desugaring of `org.dom4j.datatype.DatatypeElement` is correct. Desugaring will assume that this interface has no default method.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.gjt.xpp.XmlStartTag` not found. It's needed to make sure desugaring of `org.dom4j.xpp.ProxyXmlStartTag` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.pattern.PatternParser` was not found, it is required for default or static interface methods desugaring of `void org.dom4j.xpath.XPathPattern.<init>(java.lang.String)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.XPathFunctionContext` was not found, it is required for default or static interface methods desugaring of `org.jaxen.ContextSupport org.dom4j.xpath.XPathPattern.getContextSupport()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Type `org.jaxen.dom4j.DocumentNavigator` was not found, it is required for default or static interface methods desugaring of `org.jaxen.ContextSupport org.dom4j.xpath.XPathPattern.getContextSupport()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.jaxen.VariableContext` not found. It's needed to make sure desugaring of `org.dom4j.swing.XMLTableDefinition` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar: D8: Interface `org.jaxen.NamespaceContext` not found. It's needed to make sure desugaring of `org.dom4j.xpath.DefaultNamespaceContext` is correct. Desugaring will assume that this interface has no default method.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-BUILD SUCCESSFUL in 1m 46s
-54 actionable tasks: 54 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-09-29 22:04:54,148 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569769366459-0/src/Images-to-PDF-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 2m 19s
+50 actionable tasks: 50 executed
+
+2019-10-08 13:18:19,028 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515334139-0/src/Images-to-PDF-master/app/build/outputs/apk/debug/app-debug.apk
