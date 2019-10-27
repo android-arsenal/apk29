@@ -1,36 +1,36 @@
-2019-08-04 20:25:32,850 INFO  DownloadService - Downloading "https://github.com/whataa/pandora/archive/master.zip", attempt 3
-2019-08-04 20:25:36,775 INFO  DownloadService - Downloaded https://github.com/whataa/pandora/archive/master.zip, attempt 3
-2019-08-04 20:25:36,775 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/master.zip": 1 MB
-2019-08-04 20:25:36,775 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-04 20:25:36,781 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/master.zip: true
-2019-08-04 20:25:36,782 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src'.
-2019-08-04 20:25:36,873 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-04 20:25:36,873 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src]
-2019-08-04 20:25:36,898 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/.git/
+2019-10-27 21:29:57,260 INFO  DownloadService - Downloading "https://github.com/whataa/pandora/archive/master.zip", attempt 3
+2019-10-27 21:30:00,740 INFO  DownloadService - Downloaded https://github.com/whataa/pandora/archive/master.zip, attempt 3
+2019-10-27 21:30:00,740 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/master.zip": 1 MB
+2019-10-27 21:30:00,740 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-27 21:30:00,743 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/master.zip: true
+2019-10-27 21:30:00,744 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src'.
+2019-10-27 21:30:00,824 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-27 21:30:00,824 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src]
+2019-10-27 21:30:00,852 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/.git/
 
-2019-08-04 20:25:36,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/gradlew
-2019-08-04 20:25:36,915 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/pandora-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/build.gradle
-2019-08-04 20:25:36,921 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/pandora-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/settings.gradle
-2019-08-04 20:25:36,922 INFO  ProjectBuildService - Remote scripts: none
-2019-08-04 20:25:36,922 INFO  ProjectFixService - Fixing project...
-2019-08-04 20:25:36,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/local.properties
-2019-08-04 20:25:36,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-04 20:25:36,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-04 20:25:36,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/pandora-core/local.properties
-2019-08-04 20:25:36,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/pandora-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-04 20:25:36,941 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/pandora-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-04 20:25:36,942 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/local.properties
-2019-08-04 20:25:36,942 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2019-08-04 20:25:36,943 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2019-08-04 20:25:36,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-04 20:25:36,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-04 20:25:36,947 INFO  ProjectFixService - Project was maybe fixed
-2019-08-04 20:25:36,947 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-04 20:25:36,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-04 20:25:49,001 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-04 20:25:49,001 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-04 20:25:49,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-04 20:27:09,515 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-27 21:30:00,858 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/gradlew
+2019-10-27 21:30:00,864 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/pandora-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/build.gradle
+2019-10-27 21:30:00,869 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/pandora-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/settings.gradle
+2019-10-27 21:30:00,869 INFO  ProjectBuildService - Remote scripts: none
+2019-10-27 21:30:00,869 INFO  ProjectFixService - Fixing project...
+2019-10-27 21:30:00,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/local.properties
+2019-10-27 21:30:00,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-27 21:30:00,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-27 21:30:00,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/pandora-core/local.properties
+2019-10-27 21:30:00,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/pandora-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-27 21:30:00,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/pandora-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-27 21:30:00,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/local.properties
+2019-10-27 21:30:00,886 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-10-27 21:30:00,886 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-10-27 21:30:00,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-27 21:30:00,888 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-27 21:30:00,888 INFO  ProjectFixService - Project was maybe fixed
+2019-10-27 21:30:00,888 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-27 21:30:00,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-27 21:30:10,468 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-27 21:30:10,468 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-27 21:30:10,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-27 21:31:23,001 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Transform artifact converter-gson.jar (com.squareup.retrofit2:converter-gson:2.2.0) with JetifyTransform
 ERROR: [TAG] Failed to resolve variable '${project.groupId}'
@@ -42,15 +42,15 @@ ERROR: [TAG] Failed to resolve variable '${project.version}'
 > Task :pandora-core:checkDebugManifest
 > Task :pandora-core:processDebugManifest
 > Task :app:preDebugBuild
+
+> Transform artifact antlr4.jar (org.antlr:antlr4:4.7.1) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
 > Task :pandora-core:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-
-> Transform artifact antlr4.jar (org.antlr:antlr4:4.7.1) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-
 > Task :pandora-core:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugSources
@@ -65,6 +65,8 @@ ERROR: [TAG] Failed to resolve variable '${project.version}'
 ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 
 > Task :pandora-core:javaPreCompileDebug
+> Task :pandora-core:processDebugJavaRes NO-SOURCE
+> Task :app:mainApkListPersistenceDebug
 > Task :pandora-core:packageDebugResources
 > Task :pandora-core:generateDebugRFile
 
@@ -74,10 +76,8 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :pandora-core:processDebugJavaRes NO-SOURCE
 > Task :pandora-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:mergeDebugResources
@@ -86,7 +86,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/src/main/java/tech/linjiang/android/pandora/ui/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/src/main/java/tech/linjiang/android/pandora/ui/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
@@ -114,11 +114,11 @@ Note: Recompile with -Xlint:deprecation for details.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.http.converter.AbstractHttpMessageConverter` was not found, it is required for default or static interface methods desugaring of `boolean com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter.canRead(java.lang.reflect.Type, java.lang.Class, org.springframework.http.MediaType)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.StringUtils` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter.writeInternal(java.lang.Object, org.springframework.http.HttpOutputMessage)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.Assert` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonJsonView.setJsonpParameterNames(java.util.Set)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `javax.ws.rs.core.Feature` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonFeature` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.CollectionUtils` was not found, it is required for default or static interface methods desugaring of `java.lang.Object com.alibaba.fastjson.support.spring.FastJsonJsonView.filterModel(java.util.Map)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.web.servlet.view.AbstractView` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonJsonView.setResponseContentType(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `javax.ws.rs.core.Feature` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonFeature` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.data.redis.serializer.RedisSerializer` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonRedisSerializer` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonpResponseBodyAdvice` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.web.servlet.view.AbstractView` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonJsonView.setResponseContentType(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.core.ResolvableType` was not found, it is required for default or static interface methods desugaring of `java.lang.reflect.Type com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter$Spring4TypeResolvableHelper.getType(java.lang.reflect.Type, java.lang.Class)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.apache.commons.logging.LogFactory` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.JSONPResponseBodyAdvice.<init>()`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.glassfish.jersey.internal.spi.AutoDiscoverable` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonAutoDiscoverable` is correct. Desugaring will assume that this interface has no default method.
@@ -179,17 +179,17 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/src/main/java/tech/linjiang/android/pandora/ui/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/src/main/java/tech/linjiang/android/pandora/ui/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/132fff4779aabf4a236c2afa873eb2fe/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :pandora-core:mergeReleaseShaders
 > Task :pandora-core:compileReleaseShaders
@@ -207,19 +207,19 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.Assert` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonJsonView.setJsonpParameterNames(java.util.Set)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.CollectionUtils` was not found, it is required for default or static interface methods desugaring of `java.lang.Object com.alibaba.fastjson.support.spring.FastJsonJsonView.filterModel(java.util.Map)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.web.servlet.view.AbstractView` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonJsonView.setResponseContentType(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.core.ResolvableType` was not found, it is required for default or static interface methods desugaring of `java.lang.reflect.Type com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter$Spring4TypeResolvableHelper.getType(java.lang.reflect.Type, java.lang.Class)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.ObjectUtils` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonpResponseBodyAdvice.<init>(java.lang.String[])`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.util.Assert` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.FastJsonpResponseBodyAdvice.<init>(java.lang.String[])`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.apache.commons.logging.LogFactory` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.JSONPResponseBodyAdvice.<init>()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.springframework.core.ResolvableType` was not found, it is required for default or static interface methods desugaring of `java.lang.reflect.Type com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter$Spring4TypeResolvableHelper.getType(java.lang.reflect.Type, java.lang.Class)`
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonViewResponseBodyAdvice` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `javax.ws.rs.ext.MessageBodyReader` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonProvider` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `javax.ws.rs.ext.MessageBodyWriter` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonProvider` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.glassfish.jersey.internal.spi.AutoDiscoverable` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonAutoDiscoverable` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.http.converter.GenericHttpMessageConverter` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.JSONPResponseBodyAdvice` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `javax.ws.rs.core.Feature` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonFeature` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.data.redis.serializer.RedisSerializer` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonRedisSerializer` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonpResponseBodyAdvice` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Type `org.apache.commons.logging.LogFactory` was not found, it is required for default or static interface methods desugaring of `void com.alibaba.fastjson.support.spring.JSONPResponseBodyAdvice.<init>()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.glassfish.jersey.internal.spi.AutoDiscoverable` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.jaxrs.FastJsonAutoDiscoverable` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.http.converter.GenericHttpMessageConverter` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54ca3c5dce3c22af17c895aa6b454560/jetified-fastjson-1.2.45.jar: D8: Interface `org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice` not found. It's needed to make sure desugaring of `com.alibaba.fastjson.support.spring.JSONPResponseBodyAdvice` is correct. Desugaring will assume that this interface has no default method.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Interface `org.conscrypt.ConscryptHostnameVerifier` not found. It's needed to make sure desugaring of `okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1` is correct. Desugaring will assume that this interface has no default method.
 > Task :app:transformClassesWithDexBuilderForRelease
@@ -244,7 +244,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 1m 12s
 86 actionable tasks: 86 executed
 
-2019-08-04 20:27:09,617 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564925132846-0/src/pandora-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-27 21:31:23,102 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186597251-0/src/pandora-master/app/build/outputs/apk/debug/app-debug.apk
