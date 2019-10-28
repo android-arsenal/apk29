@@ -1,57 +1,47 @@
-2019-09-26 17:45:45,338 INFO  DownloadService - Downloading "https://github.com/NickM-27/LinkPreview/archive/master.zip", attempt 3
-2019-09-26 17:45:50,820 INFO  DownloadService - Downloaded https://github.com/NickM-27/LinkPreview/archive/master.zip, attempt 3
-2019-09-26 17:45:50,821 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/master.zip": 2 MB
-2019-09-26 17:45:50,821 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 17:45:50,822 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/master.zip: true
-2019-09-26 17:45:50,822 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src'.
-2019-09-26 17:45:50,862 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-09-26 17:45:50,862 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src]
-2019-09-26 17:45:50,889 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/.git/
+2019-10-28 14:58:57,938 INFO  DownloadService - Downloading "https://github.com/NickM-27/LinkPreview/archive/master.zip", attempt 3
+2019-10-28 14:59:00,428 INFO  DownloadService - Downloaded https://github.com/NickM-27/LinkPreview/archive/master.zip, attempt 3
+2019-10-28 14:59:00,428 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/master.zip": 2 MB
+2019-10-28 14:59:00,429 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-28 14:59:00,435 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/master.zip: true
+2019-10-28 14:59:00,435 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src'.
+2019-10-28 14:59:00,482 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-10-28 14:59:00,482 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src]
+2019-10-28 14:59:00,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/.git/
 
-2019-09-26 17:45:50,895 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/gradlew
-2019-09-26 17:45:50,904 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/build.gradle
-2019-09-26 17:45:50,908 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/settings.gradle
-2019-09-26 17:45:50,908 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-09-26 17:45:50,980 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-09-26 17:45:50,980 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-09-26 17:45:51,050 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-09-26 17:45:51,051 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-09-26 17:45:51,051 INFO  ProjectFixService - Fixing project...
-2019-09-26 17:45:51,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/local.properties
-2019-09-26 17:45:51,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,063 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,064 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/local.properties
-2019-09-26 17:45:51,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,068 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/local.properties
-2019-09-26 17:45:51,069 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-26 17:45:51,069 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-26 17:45:51,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,071 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-09-26 17:45:51,071 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 17:45:51,071 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 17:45:51,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 17:46:03,841 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-09-26 17:46:03,841 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-26 17:46:03,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-26 17:46:43,122 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-28 14:59:00,506 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/gradlew
+2019-10-28 14:59:00,509 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/build.gradle
+2019-10-28 14:59:00,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/settings.gradle
+2019-10-28 14:59:00,513 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-28 14:59:01,386 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-28 14:59:01,386 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-10-28 14:59:01,633 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-10-28 14:59:01,633 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-10-28 14:59:01,633 INFO  ProjectFixService - Fixing project...
+2019-10-28 14:59:01,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/local.properties
+2019-10-28 14:59:01,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,647 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/local.properties
+2019-10-28 14:59:01,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/local.properties
+2019-10-28 14:59:01,652 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-28 14:59:01,652 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-28 14:59:01,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,653 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-28 14:59:01,654 INFO  ProjectFixService - Project was maybe fixed
+2019-10-28 14:59:01,654 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-28 14:59:01,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-28 14:59:09,482 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-28 14:59:09,482 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-28 14:59:09,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/linkpreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-28 14:59:56,426 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :linkpreview:preBuild UP-TO-DATE
 > Task :linkpreview:preDebugBuild UP-TO-DATE
-> Task :linkpreview:compileDebugAidl NO-SOURCE
 > Task :linkpreview:checkDebugManifest
-> Task :linkpreview:compileDebugRenderscript NO-SOURCE
 > Task :linkpreview:generateDebugBuildConfig
 > Task :linkpreview:prepareLintJar
 > Task :linkpreview:prepareLintJarForPublish
-> Task :linkpreview:generateDebugSources
-> Task :linkpreview:dataBindingExportBuildInfoDebug
-> Task :linkpreview:dataBindingMergeDependencyArtifactsDebug
-> Task :linkpreview:dataBindingMergeGenClassesDebug
 > Task :linkpreview:generateDebugResValues
-> Task :linkpreview:generateDebugResources
-> Task :linkpreview:mergeDebugResources
-> Task :linkpreview:dataBindingGenBaseClassesDebug
-> Task :linkpreview:packageDebugResources
 > Task :linkpreview:mergeDebugShaders
 > Task :linkpreview:compileDebugShaders
 > Task :linkpreview:generateDebugAssets
@@ -61,62 +51,77 @@
 > Task :linkpreview:mergeDebugJniLibFolders
 > Task :linkpreview:extractProguardFiles
 > Task :linkpreview:preReleaseBuild
-> Task :linkpreview:compileReleaseAidl NO-SOURCE
-> Task :linkpreview:compileReleaseRenderscript NO-SOURCE
 > Task :linkpreview:checkReleaseManifest
 > Task :linkpreview:generateReleaseBuildConfig
-> Task :linkpreview:generateReleaseSources
-> Task :linkpreview:dataBindingExportBuildInfoRelease
 > Task :linkpreview:generateReleaseResValues
-> Task :linkpreview:generateReleaseResources
-> Task :linkpreview:mergeReleaseResources
-> Task :linkpreview:packageReleaseResources
-> Task :linkpreview:processDebugManifest
 > Task :linkpreview:mergeReleaseShaders
 > Task :linkpreview:compileReleaseShaders
 > Task :linkpreview:generateReleaseAssets
 > Task :linkpreview:packageReleaseAssets
 > Task :linkpreview:packageReleaseRenderscript NO-SOURCE
 > Task :linkpreview:processReleaseManifest
-> Task :linkpreview:parseDebugLibraryResources
+> Task :linkpreview:processDebugManifest
 > Task :linkpreview:mergeDebugNativeLibs
 > Task :linkpreview:stripDebugDebugSymbols
 > Task :linkpreview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :linkpreview:dataBindingMergeGenClassesRelease
-> Task :linkpreview:dataBindingMergeDependencyArtifactsRelease
-> Task :linkpreview:dataBindingGenBaseClassesRelease
-> Task :linkpreview:parseReleaseLibraryResources
-> Task :linkpreview:generateReleaseRFile
-> Task :linkpreview:kaptGenerateStubsReleaseKotlin
-> Task :linkpreview:kaptReleaseKotlin
-> Task :linkpreview:compileReleaseKotlin
-> Task :linkpreview:generateDebugRFile
-> Task :linkpreview:kaptGenerateStubsDebugKotlin
-> Task :linkpreview:kaptDebugKotlin
-> Task :linkpreview:compileDebugKotlin
 > Task :linkpreview:processReleaseJavaRes NO-SOURCE
 > Task :linkpreview:mergeReleaseJniLibFolders
-> Task :linkpreview:generateReleaseLibraryProguardRules
+> Task :linkpreview:mergeReleaseNativeLibs
+> Task :linkpreview:stripReleaseDebugSymbols
+> Task :linkpreview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :linkpreview:compileDebugAidl NO-SOURCE
+> Task :linkpreview:compileDebugRenderscript NO-SOURCE
+> Task :linkpreview:generateDebugSources
+> Task :linkpreview:dataBindingExportBuildInfoDebug
+> Task :linkpreview:generateDebugResources
+> Task :linkpreview:packageDebugResources
+> Task :linkpreview:dataBindingMergeGenClassesDebug
+> Task :linkpreview:compileReleaseAidl NO-SOURCE
+> Task :linkpreview:compileReleaseRenderscript NO-SOURCE
+> Task :linkpreview:generateReleaseSources
+> Task :linkpreview:dataBindingExportBuildInfoRelease
+> Task :linkpreview:generateReleaseResources
+> Task :linkpreview:packageReleaseResources
+> Task :linkpreview:parseDebugLibraryResources
+> Task :linkpreview:parseReleaseLibraryResources
+> Task :linkpreview:dataBindingMergeDependencyArtifactsDebug
+> Task :linkpreview:dataBindingGenBaseClassesDebug
+> Task :linkpreview:generateDebugRFile
+> Task :linkpreview:kaptGenerateStubsDebugKotlin
+
+> Task :linkpreview:kaptDebugKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
+
+> Task :linkpreview:compileDebugKotlin
+> Task :linkpreview:mergeReleaseResources
 > Task :linkpreview:javaPreCompileDebug
 > Task :linkpreview:compileDebugJavaWithJavac
 > Task :linkpreview:extractDebugAnnotations
 > Task :linkpreview:mergeDebugGeneratedProguardFiles
 > Task :linkpreview:mergeDebugConsumerProguardFiles
 > Task :linkpreview:compileDebugSources
+> Task :linkpreview:dataBindingMergeDependencyArtifactsRelease
+> Task :linkpreview:verifyReleaseResources
+> Task :linkpreview:dataBindingMergeGenClassesRelease
+> Task :linkpreview:dataBindingGenBaseClassesRelease
+> Task :linkpreview:generateReleaseRFile
+> Task :linkpreview:kaptGenerateStubsReleaseKotlin
+
+> Task :linkpreview:kaptReleaseKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
+
+> Task :linkpreview:compileReleaseKotlin
+> Task :linkpreview:generateReleaseLibraryProguardRules
+> Task :linkpreview:mergeDebugJavaResource
+> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :linkpreview:bundleDebugAar
+> Task :linkpreview:assembleDebug
 > Task :linkpreview:javaPreCompileRelease
 > Task :linkpreview:compileReleaseJavaWithJavac
 > Task :linkpreview:extractReleaseAnnotations
 > Task :linkpreview:mergeReleaseGeneratedProguardFiles
 > Task :linkpreview:mergeReleaseConsumerProguardFiles
 > Task :linkpreview:compileReleaseSources
-> Task :linkpreview:mergeReleaseNativeLibs
-> Task :linkpreview:stripReleaseDebugSymbols
-> Task :linkpreview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :linkpreview:verifyReleaseResources
-> Task :linkpreview:mergeDebugJavaResource
-> Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :linkpreview:bundleDebugAar
-> Task :linkpreview:assembleDebug
 > Task :linkpreview:mergeReleaseJavaResource
 > Task :linkpreview:transformClassesAndResourcesWithR8ForRelease
 > Task :linkpreview:transformClassesAndResourcesWithSyncLibJarsForRelease
@@ -129,7 +134,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
-66 actionable tasks: 66 executed
+BUILD SUCCESSFUL in 46s
+65 actionable tasks: 65 executed
 
-2019-09-26 17:46:43,174 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494745330-0/src/LinkPreview-master/sample/release/sample-release.apk
+2019-10-28 14:59:56,478 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572249537935-0/src/LinkPreview-master/sample/release/sample-release.apk
