@@ -1,64 +1,70 @@
-2019-10-25 15:38:56,927 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-navigation-android/archive/master.zip", attempt 3
-2019-10-25 15:39:00,311 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-navigation-android/archive/master.zip, attempt 3
-2019-10-25 15:39:00,311 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/master.zip": 2 MB
-2019-10-25 15:39:00,311 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-25 15:39:00,315 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/master.zip: true
-2019-10-25 15:39:00,315 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src'.
-2019-10-25 15:39:00,691 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-10-25 15:39:00,691 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src]
-2019-10-25 15:39:00,763 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/.git/
+2019-11-10 23:00:13,313 INFO  DownloadService - Downloading "https://github.com/mapbox/mapbox-navigation-android/archive/master.zip", attempt 3
+2019-11-10 23:00:17,052 INFO  DownloadService - Downloaded https://github.com/mapbox/mapbox-navigation-android/archive/master.zip, attempt 3
+2019-11-10 23:00:17,052 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/master.zip": 2 MB
+2019-11-10 23:00:17,052 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-10 23:00:17,055 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/master.zip: true
+2019-11-10 23:00:17,056 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src'.
+2019-11-10 23:00:17,349 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-11-10 23:00:17,349 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src]
+2019-11-10 23:00:17,373 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/.git/
 
-2019-10-25 15:39:00,787 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew
-2019-10-25 15:39:00,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle
-2019-10-25 15:39:00,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/mvn-push-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/script-git-version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/developer-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/dependency-updates.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/dependencies-graph.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/nitpick.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle
-2019-10-25 15:39:00,837 INFO  ProjectBuildService - Remote scripts: none
-2019-10-25 15:39:00,837 INFO  ProjectFixService - Fixing project...
-2019-10-25 15:39:00,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/local.properties
-2019-10-25 15:39:00,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:00,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:00,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/local.properties
-2019-10-25 15:39:01,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:01,004 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:01,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/local.properties
-2019-10-25 15:39:01,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:01,040 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:01,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/local.properties
-2019-10-25 15:39:04,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,271 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/local.properties
-2019-10-25 15:39:04,306 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,308 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/local.properties
-2019-10-25 15:39:04,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/local.properties
-2019-10-25 15:39:04,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,342 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/local.properties
-2019-10-25 15:39:04,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/local.properties
-2019-10-25 15:39:04,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/local.properties
-2019-10-25 15:39:04,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,399 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/local.properties
-2019-10-25 15:39:04,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/local.properties
-2019-10-25 15:39:04,428 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-25 15:39:04,429 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-25 15:39:04,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:39:04,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:39:04,445 INFO  ProjectFixService - Project was maybe fixed
-2019-10-25 15:39:04,445 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:39:04,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:39:26,262 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-25 15:39:26,265 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-25 15:39:26,266 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-25 15:39:26,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-25 15:39:33,107 ERROR SysUtils - Could not process external command
+2019-11-10 23:00:17,399 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew
+2019-11-10 23:00:17,425 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle
+2019-11-10 23:00:17,447 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/mvn-push-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/script-git-version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/developer-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/dependency-updates.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/dependencies-graph.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/nitpick.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle
+2019-11-10 23:00:17,453 INFO  ProjectBuildService - Remote scripts: none
+2019-11-10 23:00:17,453 INFO  ProjectFixService - Fixing project...
+2019-11-10 23:00:17,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/local.properties
+2019-11-10 23:00:17,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,546 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/local.properties
+2019-11-10 23:00:17,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/local.properties
+2019-11-10 23:00:17,588 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/local.properties
+2019-11-10 23:00:17,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,602 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/local.properties
+2019-11-10 23:00:17,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/local.properties
+2019-11-10 23:00:17,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,629 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/local.properties
+2019-11-10 23:00:17,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/local.properties
+2019-11-10 23:00:17,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,657 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/local.properties
+2019-11-10 23:00:17,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/local.properties
+2019-11-10 23:00:17,686 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,686 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/local.properties
+2019-11-10 23:00:17,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,700 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/local.properties
+2019-11-10 23:00:17,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/local.properties
+2019-11-10 23:00:17,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/local.properties
+2019-11-10 23:00:17,728 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-10 23:00:17,728 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-10 23:00:17,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-10 23:00:17,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-10 23:00:17,742 INFO  ProjectFixService - Project was maybe fixed
+2019-11-10 23:00:17,742 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:00:17,742 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:00:26,143 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-10 23:00:26,143 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-10 23:00:26,143 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-10 23:00:26,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-10 23:00:32,656 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -86,7 +92,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:39:33,108 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:00:32,656 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Does your build of mapbox-navigation-android have a Git directory?The try/catch in the script-git-version.gradle file is for the situation when there is no Git setup. Try cloning the mapbox-navigation-android repo, rather than downloading the repo as a .zip file.
@@ -270,12 +276,12 @@ See https://developer.android.com/studio/publish/versioning#appversioning for mo
 
 BUILD FAILED in 6s
 
-2019-10-25 15:39:33,135 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:39:33,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:39:44,184 INFO  ProjectTaskService - Detected possible tasks: 90
-2019-10-25 15:39:44,185 INFO  ProjectTaskService - Excluded tasks (17): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:39:44,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:39:52,968 ERROR SysUtils - Could not process external command
+2019-11-10 23:00:32,684 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:00:32,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:00:43,099 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-11-10 23:00:43,100 INFO  ProjectTaskService - Excluded tasks (17): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:00:43,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:00:53,267 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -303,7 +309,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:39:52,969 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:00:53,267 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :libandroid-navigation-ui
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -314,7 +320,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle' line: 5
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -348,7 +354,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_e9pbzgiq7kuug91pwxu60ixse.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle:101)
+	at build_6sn6t0mhif587681cyuo9ppva.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle:102)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -558,7 +564,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.io.FileNotFoundException: libandroid-navigation/src/test/resources/mobile-event-schemas.jsonl.gz (No such file or directory)
-	at download_schema_541xalkh6iag1i3kdiaff5nkn$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:5)
+	at download_schema_259eshsm4zy71oqs2qiy4039d$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:5)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:130)
@@ -571,7 +577,7 @@ Caused by: java.io.FileNotFoundException: libandroid-navigation/src/test/resourc
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at download_schema_541xalkh6iag1i3kdiaff5nkn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:1)
+	at download_schema_259eshsm4zy71oqs2qiy4039d.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 231 more
 
@@ -582,15 +588,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 8s
+BUILD FAILED in 9s
 
-2019-10-25 15:39:53,023 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:39:53,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:40:00,589 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-25 15:40:00,590 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-25 15:40:00,590 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-25 15:40:00,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-25 15:40:07,306 ERROR SysUtils - Could not process external command
+2019-11-10 23:00:53,293 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:00:53,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:01:00,584 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-10 23:01:00,584 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-10 23:01:00,584 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-10 23:01:00,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-10 23:01:09,177 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -618,12 +624,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:40:07,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:01:09,177 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle' line: 5
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -657,7 +663,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_e9pbzgiq7kuug91pwxu60ixse.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle:101)
+	at build_6sn6t0mhif587681cyuo9ppva.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libandroid-navigation/build.gradle:102)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -791,7 +797,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.io.FileNotFoundException: libandroid-navigation/src/test/resources/mobile-event-schemas.jsonl.gz (No such file or directory)
-	at download_schema_541xalkh6iag1i3kdiaff5nkn$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:5)
+	at download_schema_259eshsm4zy71oqs2qiy4039d$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:5)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:130)
@@ -804,7 +810,7 @@ Caused by: java.io.FileNotFoundException: libandroid-navigation/src/test/resourc
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at download_schema_541xalkh6iag1i3kdiaff5nkn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:1)
+	at download_schema_259eshsm4zy71oqs2qiy4039d.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradle/download-schema.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 155 more
 
@@ -815,26 +821,32 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 6s
+BUILD FAILED in 8s
 
-2019-10-25 15:40:07,331 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:40:07,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:40:14,752 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:40:14,752 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:40:14,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:40:56,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:01:09,213 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:01:09,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:01:17,381 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:01:17,381 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:01:17,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-hybrid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:02:09,346 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libdirections-hybrid:preBuild UP-TO-DATE
 > Task :libdirections-hybrid:preDebugBuild UP-TO-DATE
 > Task :libdirections-offboard:preBuild UP-TO-DATE
 > Task :libdirections-offboard:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
+> Task :liblogger:preBuild UP-TO-DATE
+> Task :liblogger:preDebugBuild UP-TO-DATE
+> Task :libnavigation-util:preBuild UP-TO-DATE
+> Task :libnavigation-util:preDebugBuild UP-TO-DATE
 > Task :libdirections-onboard:preBuild UP-TO-DATE
+> Task :libnavigation-base:compileDebugAidl NO-SOURCE
+> Task :liblogger:compileDebugAidl NO-SOURCE
+> Task :libnavigation-util:compileDebugAidl NO-SOURCE
+> Task :libdirections-offboard:compileDebugAidl NO-SOURCE
 > Task :libdirections-onboard:preDebugBuild UP-TO-DATE
 > Task :libnavigator:preBuild UP-TO-DATE
 > Task :libnavigator:preDebugBuild UP-TO-DATE
-> Task :libnavigation-base:compileDebugAidl NO-SOURCE
-> Task :libdirections-offboard:compileDebugAidl NO-SOURCE
 > Task :libdirections-offboard:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-onboard:packageDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
@@ -844,37 +856,57 @@ BUILD FAILED in 6s
 > Task :libdirections-hybrid:generateDebugResValues
 > Task :libdirections-hybrid:generateDebugResources
 > Task :libdirections-hybrid:packageDebugResources
+> Task :libnavigation-util:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-offboard:compileDebugRenderscript NO-SOURCE
 > Task :libdirections-offboard:generateDebugResValues
 > Task :libdirections-offboard:generateDebugResources
 > Task :libdirections-offboard:packageDebugResources
 > Task :libdirections-offboard:checkDebugManifest
 > Task :libdirections-hybrid:parseDebugLibraryResources
-> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
+> Task :libdirections-offboard:parseDebugLibraryResources
+> Task :liblogger:generateDebugResValues
+> Task :liblogger:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:generateDebugResources
+> Task :liblogger:packageDebugResources
+> Task :liblogger:checkDebugManifest
+> Task :liblogger:parseDebugLibraryResources
 > Task :libnavigation-base:generateDebugResValues
+> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:generateDebugResources
 > Task :libnavigation-base:packageDebugResources
 > Task :libnavigation-base:checkDebugManifest
-> Task :libdirections-offboard:parseDebugLibraryResources
+> Task :libdirections-offboard:processDebugManifest
+> Task :liblogger:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:generateDebugResValues
+> Task :libnavigation-util:generateDebugResources
+> Task :libnavigation-util:packageDebugResources
+> Task :liblogger:processDebugManifest
+> Task :libnavigation-base:processDebugManifest
+> Task :libnavigation-util:checkDebugManifest
+> Task :libdirections-hybrid:processDebugManifest
 > Task :libnavigation-base:parseDebugLibraryResources
+> Task :libnavigation-util:processDebugManifest
 > Task :libnavigator:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-onboard:generateDebugResValues
 > Task :libdirections-onboard:checkDebugManifest
-> Task :libnavigation-base:processDebugManifest
-> Task :libdirections-onboard:processDebugManifest
+> Task :libnavigation-util:parseDebugLibraryResources
+> Task :libnavigation-base:generateDebugRFile
 > Task :libnavigator:generateDebugResValues
 > Task :libnavigator:checkDebugManifest
-> Task :libdirections-hybrid:processDebugManifest
-> Task :libdirections-offboard:processDebugManifest
-> Task :libnavigation-base:generateDebugRFile
+> Task :libdirections-onboard:processDebugManifest
+> Task :liblogger:generateDebugRFile
 > Task :libnavigator:processDebugManifest
 > Task :libdirections-offboard:generateDebugBuildConfig
-> Task :libdirections-offboard:generateDebugRFile
+> Task :libnavigation-util:generateDebugRFile
 > Task :libnavigation-base:generateDebugBuildConfig
 > Task :libnavigation-base:compileDebugKotlin
-> Task :libdirections-onboard:generateDebugBuildConfig
+> Task :libdirections-offboard:generateDebugRFile
+> Task :liblogger:generateDebugBuildConfig
+> Task :libnavigation-util:generateDebugBuildConfig
 > Task :libnavigation-base:javaPreCompileDebug
 > Task :libnavigation-base:compileDebugJavaWithJavac
+> Task :libdirections-onboard:generateDebugBuildConfig
 > Task :libnavigator:generateDebugBuildConfig
 > Task :libdirections-hybrid:mergeDebugShaders
 > Task :libdirections-hybrid:compileDebugShaders
@@ -883,33 +915,17 @@ BUILD FAILED in 6s
 > Task :libdirections-hybrid:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-hybrid:processDebugJavaRes NO-SOURCE
 > Task :libdirections-hybrid:mergeDebugJniLibFolders
-> Task :libnavigation-base:bundleLibCompileDebug
-> Task :libdirections-offboard:compileDebugKotlin
-> Task :libdirections-hybrid:prepareLintJarForPublish
-> Task :libdirections-hybrid:mergeDebugNativeLibs
-> Task :libdirections-offboard:javaPreCompileDebug
-> Task :libdirections-offboard:compileDebugJavaWithJavac
-> Task :libnavigator:compileDebugAidl NO-SOURCE
-> Task :libdirections-onboard:compileDebugAidl NO-SOURCE
-> Task :libdirections-hybrid:compileDebugAidl NO-SOURCE
-> Task :libdirections-onboard:compileDebugRenderscript NO-SOURCE
-> Task :libdirections-onboard:generateDebugResources
-> Task :libdirections-onboard:packageDebugResources
-> Task :libnavigator:compileDebugRenderscript NO-SOURCE
-> Task :libnavigator:generateDebugResources
-> Task :libnavigator:packageDebugResources
-> Task :libdirections-hybrid:stripDebugDebugSymbols
-> Task :libdirections-hybrid:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libdirections-hybrid:preReleaseBuild UP-TO-DATE
 > Task :libdirections-offboard:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:compileReleaseAidl NO-SOURCE
+> Task :liblogger:preReleaseBuild UP-TO-DATE
+> Task :liblogger:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-util:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-util:compileReleaseAidl NO-SOURCE
 > Task :libdirections-offboard:compileReleaseAidl NO-SOURCE
 > Task :libdirections-onboard:preReleaseBuild UP-TO-DATE
 > Task :libnavigator:preReleaseBuild UP-TO-DATE
-> Task :libnavigator:compileReleaseAidl NO-SOURCE
-> Task :libdirections-onboard:compileReleaseAidl NO-SOURCE
-> Task :libdirections-hybrid:compileReleaseAidl NO-SOURCE
 > Task :libdirections-offboard:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-onboard:packageReleaseRenderscript NO-SOURCE
 > Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
@@ -919,37 +935,60 @@ BUILD FAILED in 6s
 > Task :libdirections-hybrid:generateReleaseResValues
 > Task :libdirections-hybrid:generateReleaseResources
 > Task :libdirections-hybrid:packageReleaseResources
-> Task :libdirections-offboard:bundleLibCompileDebug
+> Task :libnavigation-base:bundleLibCompileDebug
+> Task :liblogger:compileDebugKotlin
+> Task :libdirections-hybrid:parseReleaseLibraryResources
+> Task :libnavigation-util:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-offboard:compileReleaseRenderscript NO-SOURCE
 > Task :libdirections-offboard:generateReleaseResValues
 > Task :libdirections-offboard:generateReleaseResources
 > Task :libdirections-offboard:packageReleaseResources
-> Task :libdirections-hybrid:processReleaseManifest
+> Task :libdirections-hybrid:prepareLintJarForPublish
 > Task :libdirections-offboard:checkReleaseManifest
-> Task :libdirections-hybrid:parseReleaseLibraryResources
+> Task :liblogger:javaPreCompileDebug
+> Task :liblogger:compileDebugJavaWithJavac
+> Task :libdirections-hybrid:processReleaseManifest
+> Task :liblogger:compileReleaseRenderscript NO-SOURCE
+> Task :liblogger:generateReleaseResValues
+> Task :liblogger:generateReleaseResources
+> Task :liblogger:packageReleaseResources
+> Task :libdirections-hybrid:mergeDebugNativeLibs
+> Task :libdirections-hybrid:stripDebugDebugSymbols
+> Task :libdirections-hybrid:transformNativeLibsWithSyncJniLibsForDebug
+> Task :liblogger:checkReleaseManifest
+> Task :liblogger:bundleLibCompileDebug
+
+> Task :libnavigation-util:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/src/main/java/com/mapbox/navigation/utils/extensions/ContextEx.kt: (25, 38): 'locale: Locale!' is deprecated. Deprecated in Java
+
+> Task :libdirections-offboard:processReleaseManifest
 > Task :libnavigation-base:compileReleaseRenderscript NO-SOURCE
 > Task :libnavigation-base:generateReleaseResValues
 > Task :libnavigation-base:generateReleaseResources
 > Task :libnavigation-base:packageReleaseResources
-> Task :libdirections-offboard:processReleaseManifest
-> Task :libnavigation-base:checkReleaseManifest
 > Task :libdirections-offboard:parseReleaseLibraryResources
+> Task :libnavigation-base:checkReleaseManifest
+> Task :liblogger:processReleaseManifest
+> Task :liblogger:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:generateReleaseResValues
+> Task :libnavigation-util:generateReleaseResources
+> Task :libnavigation-util:packageReleaseResources
+> Task :libnavigation-base:processReleaseManifest
+> Task :libnavigation-util:checkReleaseManifest
+> Task :libnavigation-base:parseReleaseLibraryResources
+> Task :liblogger:parseReleaseLibraryResources
 > Task :libnavigator:packageReleaseRenderscript NO-SOURCE
-> Task :libdirections-onboard:compileReleaseRenderscript NO-SOURCE
 > Task :libdirections-onboard:generateReleaseResValues
-> Task :libdirections-onboard:generateReleaseResources
-> Task :libdirections-onboard:packageReleaseResources
-> Task :libnavigator:parseDebugLibraryResources
 > Task :libdirections-onboard:checkReleaseManifest
-> Task :libdirections-onboard:parseReleaseLibraryResources
-> Task :libnavigator:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:parseReleaseLibraryResources
 > Task :libnavigator:generateReleaseResValues
-> Task :libnavigator:generateReleaseResources
-> Task :libnavigator:packageReleaseResources
-> Task :libdirections-onboard:processReleaseManifest
 > Task :libnavigator:checkReleaseManifest
+> Task :libnavigation-util:processReleaseManifest
 > Task :libdirections-offboard:generateReleaseBuildConfig
 > Task :libnavigation-base:generateReleaseBuildConfig
+> Task :liblogger:generateReleaseBuildConfig
+> Task :libnavigation-util:generateReleaseBuildConfig
 > Task :libdirections-onboard:generateReleaseBuildConfig
 > Task :libnavigator:generateReleaseBuildConfig
 > Task :libdirections-hybrid:mergeReleaseShaders
@@ -959,60 +998,99 @@ BUILD FAILED in 6s
 > Task :libdirections-hybrid:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-hybrid:processReleaseJavaRes NO-SOURCE
 > Task :libdirections-hybrid:mergeReleaseJniLibFolders
-> Task :libnavigator:parseReleaseLibraryResources
-> Task :libnavigator:generateDebugRFile
-> Task :libnavigator:compileDebugKotlin
-> Task :libdirections-onboard:parseDebugLibraryResources
-> Task :libnavigation-base:processReleaseManifest
-> Task :libdirections-hybrid:mergeReleaseResources
-> Task :libnavigator:javaPreCompileDebug
-> Task :libnavigator:compileDebugJavaWithJavac
-> Task :libnavigation-base:parseReleaseLibraryResources
-> Task :libdirections-hybrid:verifyReleaseResources
-> Task :libdirections-onboard:generateDebugRFile
-> Task :libnavigator:processReleaseManifest
-> Task :libnavigation-base:generateReleaseRFile
-> Task :libdirections-hybrid:generateDebugRFile
-> Task :libnavigation-base:compileReleaseKotlin
-> Task :libnavigator:bundleLibCompileDebug
-> Task :libdirections-onboard:compileDebugKotlin
-> Task :libnavigation-base:javaPreCompileRelease
-> Task :libnavigation-base:compileReleaseJavaWithJavac
+> Task :libdirections-onboard:processReleaseManifest
+> Task :libnavigation-util:javaPreCompileDebug
+> Task :libnavigation-util:compileDebugJavaWithJavac
 > Task :libdirections-hybrid:mergeReleaseNativeLibs
 > Task :libdirections-hybrid:stripReleaseDebugSymbols
 > Task :libdirections-hybrid:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libnavigator:processReleaseManifest
+> Task :libnavigation-base:generateReleaseRFile
+> Task :libnavigation-base:compileReleaseKotlin
+> Task :liblogger:generateReleaseRFile
+> Task :libnavigation-util:bundleLibCompileDebug
+> Task :libdirections-offboard:compileDebugKotlin
+> Task :libnavigation-util:generateReleaseRFile
+> Task :libnavigation-base:javaPreCompileRelease
+> Task :libnavigation-base:compileReleaseJavaWithJavac
+> Task :libdirections-offboard:javaPreCompileDebug
+> Task :libdirections-offboard:compileDebugJavaWithJavac
+> Task :libdirections-offboard:generateReleaseRFile
+> Task :libnavigation-base:bundleLibCompileRelease
+> Task :liblogger:compileReleaseKotlin
+> Task :libdirections-offboard:bundleLibCompileDebug
+> Task :liblogger:javaPreCompileRelease
+> Task :liblogger:compileReleaseJavaWithJavac
+> Task :liblogger:bundleLibCompileRelease
+
+> Task :libnavigation-util:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/src/main/java/com/mapbox/navigation/utils/extensions/ContextEx.kt: (25, 38): 'locale: Locale!' is deprecated. Deprecated in Java
+
+> Task :libnavigation-util:javaPreCompileRelease
+> Task :libnavigation-util:compileReleaseJavaWithJavac
+> Task :libnavigation-util:bundleLibCompileRelease
+> Task :libdirections-offboard:compileReleaseKotlin
+> Task :libdirections-offboard:javaPreCompileRelease
+> Task :libdirections-offboard:compileReleaseJavaWithJavac
+> Task :libdirections-offboard:bundleLibCompileRelease
+> Task :libnavigator:compileDebugAidl NO-SOURCE
+> Task :libdirections-onboard:compileDebugAidl NO-SOURCE
+> Task :libdirections-hybrid:compileDebugAidl NO-SOURCE
+> Task :libdirections-onboard:compileDebugRenderscript NO-SOURCE
+> Task :libdirections-onboard:generateDebugResources
+> Task :libdirections-onboard:packageDebugResources
+> Task :libnavigator:compileDebugRenderscript NO-SOURCE
+> Task :libnavigator:generateDebugResources
+> Task :libnavigator:packageDebugResources
+> Task :libnavigator:compileReleaseAidl NO-SOURCE
+> Task :libdirections-onboard:compileReleaseAidl NO-SOURCE
+> Task :libdirections-hybrid:compileReleaseAidl NO-SOURCE
+> Task :libdirections-onboard:compileReleaseRenderscript NO-SOURCE
+> Task :libdirections-onboard:generateReleaseResources
+> Task :libdirections-onboard:packageReleaseResources
+> Task :libnavigator:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigator:generateReleaseResources
+> Task :libnavigator:packageReleaseResources
+> Task :libdirections-onboard:parseDebugLibraryResources
+> Task :libdirections-onboard:parseReleaseLibraryResources
+> Task :libnavigator:parseDebugLibraryResources
+> Task :libdirections-hybrid:mergeReleaseResources
+> Task :libnavigator:parseReleaseLibraryResources
+> Task :libnavigator:generateDebugRFile
+> Task :libnavigator:compileDebugKotlin
+> Task :libdirections-hybrid:verifyReleaseResources
+> Task :libdirections-onboard:generateDebugRFile
+> Task :libnavigator:generateReleaseRFile
+> Task :libnavigator:javaPreCompileDebug
+> Task :libnavigator:compileDebugJavaWithJavac
+> Task :libnavigator:compileReleaseKotlin
+> Task :libnavigator:bundleLibCompileDebug
+> Task :libdirections-onboard:compileDebugKotlin
+> Task :libnavigator:javaPreCompileRelease
+> Task :libnavigator:compileReleaseJavaWithJavac
+> Task :libdirections-onboard:generateReleaseRFile
 > Task :libdirections-onboard:javaPreCompileDebug
 > Task :libdirections-onboard:compileDebugJavaWithJavac
-> Task :libnavigator:generateReleaseRFile
+> Task :libnavigator:bundleLibCompileRelease
+> Task :libdirections-onboard:compileReleaseKotlin
 > Task :libdirections-onboard:bundleLibCompileDebug
+> Task :libdirections-hybrid:generateDebugRFile
 > Task :libdirections-hybrid:compileDebugKotlin
-> Task :libdirections-onboard:generateReleaseRFile
-> Task :libdirections-offboard:generateReleaseRFile
+> Task :libdirections-hybrid:generateReleaseRFile
+> Task :libdirections-onboard:javaPreCompileRelease
+> Task :libdirections-onboard:compileReleaseJavaWithJavac
 > Task :libdirections-hybrid:javaPreCompileDebug
 > Task :libdirections-hybrid:compileDebugJavaWithJavac
 > Task :libdirections-hybrid:extractDebugAnnotations
 > Task :libdirections-hybrid:mergeDebugGeneratedProguardFiles
 > Task :libdirections-hybrid:mergeDebugConsumerProguardFiles
 > Task :libdirections-hybrid:compileDebugSources
-> Task :libnavigation-base:bundleLibCompileRelease
-> Task :libdirections-offboard:compileReleaseKotlin
+> Task :libdirections-onboard:bundleLibCompileRelease
+> Task :libdirections-hybrid:compileReleaseKotlin
 > Task :libdirections-hybrid:mergeDebugJavaResource
 > Task :libdirections-hybrid:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :libdirections-hybrid:bundleDebugAar
 > Task :libdirections-hybrid:assembleDebug
-> Task :libnavigator:compileReleaseKotlin
-> Task :libdirections-hybrid:generateReleaseRFile
-> Task :libdirections-offboard:javaPreCompileRelease
-> Task :libdirections-offboard:compileReleaseJavaWithJavac
-> Task :libnavigator:javaPreCompileRelease
-> Task :libnavigator:compileReleaseJavaWithJavac
-> Task :libdirections-offboard:bundleLibCompileRelease
-> Task :libnavigator:bundleLibCompileRelease
-> Task :libdirections-onboard:compileReleaseKotlin
-> Task :libdirections-onboard:javaPreCompileRelease
-> Task :libdirections-onboard:compileReleaseJavaWithJavac
-> Task :libdirections-onboard:bundleLibCompileRelease
-> Task :libdirections-hybrid:compileReleaseKotlin
 > Task :libdirections-hybrid:javaPreCompileRelease
 > Task :libdirections-hybrid:compileReleaseJavaWithJavac
 > Task :libdirections-hybrid:extractReleaseAnnotations
@@ -1030,22 +1108,29 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 40s
-137 actionable tasks: 137 executed
+BUILD SUCCESSFUL in 51s
+181 actionable tasks: 181 executed
 
-2019-10-25 15:40:56,440 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:40:56,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:41:03,051 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:41:03,054 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:41:03,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:41:11,952 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:02:09,424 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:02:09,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:02:18,056 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:02:18,057 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:02:18,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-offboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:02:27,274 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libdirections-offboard:preBuild UP-TO-DATE
 > Task :libdirections-offboard:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
+> Task :liblogger:preBuild UP-TO-DATE
+> Task :liblogger:preDebugBuild UP-TO-DATE
+> Task :libnavigation-util:preBuild UP-TO-DATE
+> Task :libnavigation-util:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-offboard:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:compileDebugAidl NO-SOURCE
+> Task :liblogger:compileDebugAidl NO-SOURCE
+> Task :libnavigation-util:compileDebugAidl NO-SOURCE
 > Task :libdirections-offboard:compileDebugAidl NO-SOURCE
 > Task :libdirections-offboard:compileDebugRenderscript NO-SOURCE
 > Task :libdirections-offboard:generateDebugBuildConfig UP-TO-DATE
@@ -1054,6 +1139,13 @@ BUILD SUCCESSFUL in 40s
 > Task :libdirections-offboard:packageDebugResources UP-TO-DATE
 > Task :libdirections-offboard:parseDebugLibraryResources UP-TO-DATE
 > Task :libdirections-offboard:processDebugManifest UP-TO-DATE
+> Task :liblogger:generateDebugResValues UP-TO-DATE
+> Task :liblogger:checkDebugManifest UP-TO-DATE
+> Task :liblogger:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:generateDebugResources UP-TO-DATE
+> Task :liblogger:packageDebugResources UP-TO-DATE
+> Task :liblogger:parseDebugLibraryResources UP-TO-DATE
+> Task :liblogger:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugResValues UP-TO-DATE
 > Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:generateDebugResources UP-TO-DATE
@@ -1062,31 +1154,57 @@ BUILD SUCCESSFUL in 40s
 > Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugRFile UP-TO-DATE
+> Task :liblogger:generateDebugRFile UP-TO-DATE
+> Task :liblogger:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-util:generateDebugResources UP-TO-DATE
+> Task :libnavigation-util:packageDebugResources UP-TO-DATE
+> Task :libnavigation-util:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-util:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-util:processDebugManifest UP-TO-DATE
+> Task :libnavigation-util:generateDebugRFile UP-TO-DATE
 > Task :libdirections-offboard:generateDebugRFile UP-TO-DATE
 > Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
-> Task :libdirections-offboard:mergeDebugShaders
+> Task :liblogger:generateDebugBuildConfig UP-TO-DATE
 > Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
 > Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-util:generateDebugBuildConfig UP-TO-DATE
+> Task :liblogger:compileDebugKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:bundleLibCompileDebug UP-TO-DATE
 > Task :libdirections-offboard:compileDebugKotlin UP-TO-DATE
 > Task :libdirections-offboard:javaPreCompileDebug UP-TO-DATE
 > Task :libdirections-offboard:compileDebugJavaWithJavac UP-TO-DATE
 > Task :libdirections-offboard:extractDebugAnnotations
 > Task :libdirections-offboard:mergeDebugGeneratedProguardFiles
 > Task :libdirections-offboard:mergeDebugConsumerProguardFiles
+> Task :libdirections-offboard:mergeDebugShaders
 > Task :libdirections-offboard:compileDebugShaders
 > Task :libdirections-offboard:generateDebugAssets
 > Task :libdirections-offboard:packageDebugAssets
 > Task :libdirections-offboard:packageDebugRenderscript NO-SOURCE
 > Task :libdirections-offboard:processDebugJavaRes NO-SOURCE
+> Task :libdirections-offboard:prepareLintJarForPublish
 > Task :libdirections-offboard:mergeDebugJniLibFolders
 > Task :libdirections-offboard:compileDebugSources UP-TO-DATE
 > Task :libdirections-offboard:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:compileReleaseAidl NO-SOURCE
+> Task :liblogger:preReleaseBuild UP-TO-DATE
+> Task :liblogger:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-util:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-util:compileReleaseAidl NO-SOURCE
 > Task :libdirections-offboard:compileReleaseAidl NO-SOURCE
 > Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-offboard:compileReleaseRenderscript NO-SOURCE
 > Task :libdirections-offboard:checkReleaseManifest UP-TO-DATE
 > Task :libdirections-offboard:generateReleaseBuildConfig UP-TO-DATE
@@ -1095,6 +1213,13 @@ BUILD SUCCESSFUL in 40s
 > Task :libdirections-offboard:packageReleaseResources UP-TO-DATE
 > Task :libdirections-offboard:parseReleaseLibraryResources UP-TO-DATE
 > Task :libdirections-offboard:processReleaseManifest UP-TO-DATE
+> Task :liblogger:compileReleaseRenderscript NO-SOURCE
+> Task :liblogger:generateReleaseResValues UP-TO-DATE
+> Task :liblogger:generateReleaseResources UP-TO-DATE
+> Task :liblogger:packageReleaseResources UP-TO-DATE
+> Task :liblogger:parseReleaseLibraryResources UP-TO-DATE
+> Task :liblogger:checkReleaseManifest UP-TO-DATE
+> Task :liblogger:processReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:compileReleaseRenderscript NO-SOURCE
 > Task :libnavigation-base:generateReleaseResValues UP-TO-DATE
 > Task :libnavigation-base:generateReleaseResources UP-TO-DATE
@@ -1103,12 +1228,32 @@ BUILD SUCCESSFUL in 40s
 > Task :libnavigation-base:checkReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:processReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:generateReleaseRFile UP-TO-DATE
+> Task :liblogger:generateReleaseRFile UP-TO-DATE
+> Task :liblogger:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:generateReleaseResValues UP-TO-DATE
+> Task :libnavigation-util:generateReleaseResources UP-TO-DATE
+> Task :libnavigation-util:packageReleaseResources UP-TO-DATE
+> Task :libnavigation-util:parseReleaseLibraryResources UP-TO-DATE
+> Task :libnavigation-util:checkReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:generateReleaseRFile UP-TO-DATE
 > Task :libdirections-offboard:generateReleaseRFile UP-TO-DATE
 > Task :libnavigation-base:generateReleaseBuildConfig UP-TO-DATE
 > Task :libnavigation-base:compileReleaseKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileRelease UP-TO-DATE
 > Task :libnavigation-base:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileRelease UP-TO-DATE
+> Task :liblogger:generateReleaseBuildConfig UP-TO-DATE
+> Task :liblogger:compileReleaseKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileRelease UP-TO-DATE
+> Task :libnavigation-util:generateReleaseBuildConfig UP-TO-DATE
+> Task :libnavigation-util:compileReleaseKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileRelease UP-TO-DATE
+> Task :libnavigation-util:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:bundleLibCompileRelease UP-TO-DATE
 > Task :libdirections-offboard:compileReleaseKotlin UP-TO-DATE
 > Task :libdirections-offboard:javaPreCompileRelease UP-TO-DATE
 > Task :libdirections-offboard:compileReleaseJavaWithJavac UP-TO-DATE
@@ -1121,37 +1266,36 @@ BUILD SUCCESSFUL in 40s
 > Task :libdirections-offboard:packageReleaseAssets
 > Task :libdirections-offboard:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-offboard:processReleaseJavaRes NO-SOURCE
-> Task :libdirections-offboard:prepareLintJarForPublish
 > Task :libdirections-offboard:mergeReleaseJniLibFolders
-> Task :libdirections-offboard:compileReleaseSources UP-TO-DATE
-> Task :libdirections-offboard:mergeReleaseJavaResource
-> Task :libdirections-offboard:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :libdirections-offboard:mergeReleaseResources
-> Task :libdirections-offboard:mergeReleaseNativeLibs
-> Task :libdirections-offboard:stripReleaseDebugSymbols
-> Task :libdirections-offboard:transformNativeLibsWithSyncJniLibsForRelease
-> Task :libdirections-offboard:bundleReleaseAar
 > Task :libdirections-offboard:mergeDebugNativeLibs
 > Task :libdirections-offboard:stripDebugDebugSymbols
 > Task :libdirections-offboard:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libdirections-offboard:compileReleaseSources UP-TO-DATE
 > Task :libdirections-offboard:mergeDebugJavaResource
 > Task :libdirections-offboard:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :libdirections-offboard:bundleDebugAar
 > Task :libdirections-offboard:assembleDebug
+> Task :libdirections-offboard:mergeReleaseResources
+> Task :libdirections-offboard:mergeReleaseNativeLibs
+> Task :libdirections-offboard:stripReleaseDebugSymbols
+> Task :libdirections-offboard:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libdirections-offboard:mergeReleaseJavaResource
+> Task :libdirections-offboard:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :libdirections-offboard:bundleReleaseAar
 > Task :libdirections-offboard:verifyReleaseResources
 > Task :libdirections-offboard:assembleRelease
 > Task :libdirections-offboard:assemble
 > Task :libdirections-offboard:build
 
-BUILD SUCCESSFUL in 8s
-71 actionable tasks: 29 executed, 42 up-to-date
+BUILD SUCCESSFUL in 9s
+115 actionable tasks: 29 executed, 86 up-to-date
 
-2019-10-25 15:41:12,068 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:41:12,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:41:19,332 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:41:19,332 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:41:19,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:41:28,638 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:02:27,350 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:02:27,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:02:34,740 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:02:34,740 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:02:34,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libdirections-onboard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:02:43,793 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libdirections-onboard:preBuild UP-TO-DATE
 > Task :libdirections-onboard:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:preBuild UP-TO-DATE
@@ -1160,22 +1304,22 @@ BUILD SUCCESSFUL in 8s
 > Task :libnavigator:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
 > Task :libnavigator:packageDebugRenderscript NO-SOURCE
-> Task :libnavigation-base:compileDebugAidl NO-SOURCE
 > Task :libdirections-onboard:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-base:compileDebugAidl NO-SOURCE
 > Task :libdirections-onboard:generateDebugBuildConfig UP-TO-DATE
+> Task :libnavigator:compileDebugAidl NO-SOURCE
+> Task :libdirections-onboard:compileDebugAidl NO-SOURCE
+> Task :libdirections-onboard:compileDebugRenderscript NO-SOURCE
 > Task :libdirections-onboard:generateDebugResValues UP-TO-DATE
+> Task :libdirections-onboard:generateDebugResources UP-TO-DATE
+> Task :libdirections-onboard:packageDebugResources UP-TO-DATE
+> Task :libdirections-onboard:parseDebugLibraryResources UP-TO-DATE
 > Task :libdirections-onboard:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugResValues UP-TO-DATE
 > Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:generateDebugResources UP-TO-DATE
 > Task :libnavigation-base:packageDebugResources UP-TO-DATE
 > Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
-> Task :libnavigator:compileDebugAidl NO-SOURCE
-> Task :libdirections-onboard:compileDebugAidl NO-SOURCE
-> Task :libdirections-onboard:compileDebugRenderscript NO-SOURCE
-> Task :libdirections-onboard:generateDebugResources UP-TO-DATE
-> Task :libdirections-onboard:packageDebugResources UP-TO-DATE
-> Task :libdirections-onboard:parseDebugLibraryResources UP-TO-DATE
 > Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugRFile UP-TO-DATE
@@ -1189,11 +1333,11 @@ BUILD SUCCESSFUL in 8s
 > Task :libnavigator:generateDebugRFile UP-TO-DATE
 > Task :libdirections-onboard:generateDebugRFile UP-TO-DATE
 > Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
+> Task :libnavigator:generateDebugBuildConfig UP-TO-DATE
 > Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
 > Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
-> Task :libnavigator:generateDebugBuildConfig UP-TO-DATE
 > Task :libdirections-onboard:mergeDebugShaders
 > Task :libnavigator:compileDebugKotlin UP-TO-DATE
 > Task :libnavigator:javaPreCompileDebug UP-TO-DATE
@@ -1224,7 +1368,6 @@ BUILD SUCCESSFUL in 8s
 > Task :libdirections-onboard:checkReleaseManifest UP-TO-DATE
 > Task :libdirections-onboard:generateReleaseBuildConfig UP-TO-DATE
 > Task :libdirections-onboard:generateReleaseResValues UP-TO-DATE
-> Task :libdirections-onboard:prepareLintJarForPublish
 > Task :libdirections-onboard:generateReleaseResources UP-TO-DATE
 > Task :libdirections-onboard:packageReleaseResources UP-TO-DATE
 > Task :libdirections-onboard:parseReleaseLibraryResources UP-TO-DATE
@@ -1268,110 +1411,93 @@ BUILD SUCCESSFUL in 8s
 > Task :libdirections-onboard:packageReleaseAssets
 > Task :libdirections-onboard:packageReleaseRenderscript NO-SOURCE
 > Task :libdirections-onboard:processReleaseJavaRes NO-SOURCE
+> Task :libdirections-onboard:mergeDebugJavaResource
+> Task :libdirections-onboard:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :libdirections-onboard:mergeReleaseJniLibFolders
+> Task :libdirections-onboard:mergeDebugNativeLibs
+> Task :libdirections-onboard:stripDebugDebugSymbols
+> Task :libdirections-onboard:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libdirections-onboard:compileReleaseSources UP-TO-DATE
 > Task :libdirections-onboard:mergeReleaseJavaResource
 > Task :libdirections-onboard:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :libdirections-onboard:mergeReleaseResources
-> Task :libdirections-onboard:mergeDebugNativeLibs
-> Task :libdirections-onboard:stripDebugDebugSymbols
-> Task :libdirections-onboard:transformNativeLibsWithSyncJniLibsForDebug
-> Task :libdirections-onboard:mergeDebugJavaResource
-> Task :libdirections-onboard:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :libdirections-onboard:bundleDebugAar
-> Task :libdirections-onboard:assembleDebug
 > Task :libdirections-onboard:mergeReleaseNativeLibs
 > Task :libdirections-onboard:stripReleaseDebugSymbols
 > Task :libdirections-onboard:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libdirections-onboard:prepareLintJarForPublish
+> Task :libdirections-onboard:bundleDebugAar
+> Task :libdirections-onboard:assembleDebug
 > Task :libdirections-onboard:bundleReleaseAar
 > Task :libdirections-onboard:verifyReleaseResources
 > Task :libdirections-onboard:assembleRelease
 > Task :libdirections-onboard:assemble
 > Task :libdirections-onboard:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 8s
 93 actionable tasks: 29 executed, 64 up-to-date
 
-2019-10-25 15:41:28,740 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:41:28,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:41:36,192 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:41:36,193 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:41:36,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:41:50,475 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:41:50,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:02:43,901 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:02:43,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:02:51,117 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:02:51,117 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:02:51,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/liblogger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:02:59,039 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :liblogger:preBuild UP-TO-DATE
 > Task :liblogger:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
-> Task :liblogger:checkDebugManifest
+> Task :liblogger:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:compileDebugAidl NO-SOURCE
-> Task :liblogger:generateDebugBuildConfig
-> Task :liblogger:generateDebugResValues
-> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:compileDebugAidl NO-SOURCE
+> Task :liblogger:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:generateDebugBuildConfig UP-TO-DATE
+> Task :liblogger:generateDebugResValues UP-TO-DATE
+> Task :liblogger:generateDebugResources UP-TO-DATE
+> Task :liblogger:packageDebugResources UP-TO-DATE
+> Task :liblogger:parseDebugLibraryResources UP-TO-DATE
+> Task :liblogger:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:generateDebugResources UP-TO-DATE
 > Task :libnavigation-base:packageDebugResources UP-TO-DATE
 > Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
 > Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugRFile UP-TO-DATE
-> Task :liblogger:compileDebugAidl NO-SOURCE
-> Task :liblogger:compileDebugRenderscript NO-SOURCE
-> Task :liblogger:generateDebugResources
-> Task :liblogger:packageDebugResources
+> Task :liblogger:generateDebugRFile UP-TO-DATE
 > Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
 > Task :liblogger:mergeDebugShaders
 > Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
 > Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugJavaWithJavac UP-TO-DATE
+> Task :liblogger:extractDebugAnnotations
+> Task :liblogger:mergeDebugGeneratedProguardFiles
+> Task :liblogger:mergeDebugConsumerProguardFiles
 > Task :liblogger:compileDebugShaders
 > Task :liblogger:generateDebugAssets
 > Task :liblogger:packageDebugAssets
 > Task :liblogger:packageDebugRenderscript NO-SOURCE
 > Task :liblogger:processDebugJavaRes NO-SOURCE
 > Task :liblogger:mergeDebugJniLibFolders
+> Task :liblogger:compileDebugSources UP-TO-DATE
 > Task :liblogger:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:compileReleaseAidl NO-SOURCE
 > Task :liblogger:compileReleaseAidl NO-SOURCE
 > Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
 > Task :liblogger:compileReleaseRenderscript NO-SOURCE
-> Task :liblogger:checkReleaseManifest
-> Task :liblogger:generateReleaseBuildConfig
-> Task :liblogger:generateReleaseResValues
-> Task :liblogger:generateReleaseResources
-> Task :liblogger:packageReleaseResources
-> Task :liblogger:prepareLintJarForPublish
-> Task :liblogger:parseReleaseLibraryResources
+> Task :liblogger:checkReleaseManifest UP-TO-DATE
+> Task :liblogger:generateReleaseBuildConfig UP-TO-DATE
+> Task :liblogger:generateReleaseResValues UP-TO-DATE
+> Task :liblogger:generateReleaseResources UP-TO-DATE
+> Task :liblogger:packageReleaseResources UP-TO-DATE
+> Task :liblogger:parseReleaseLibraryResources UP-TO-DATE
+> Task :liblogger:processReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:compileReleaseRenderscript NO-SOURCE
 > Task :libnavigation-base:generateReleaseResValues UP-TO-DATE
 > Task :libnavigation-base:generateReleaseResources UP-TO-DATE
@@ -1380,178 +1506,66 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :libnavigation-base:checkReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:processReleaseManifest UP-TO-DATE
 > Task :libnavigation-base:generateReleaseRFile UP-TO-DATE
+> Task :liblogger:generateReleaseRFile UP-TO-DATE
 > Task :libnavigation-base:generateReleaseBuildConfig UP-TO-DATE
 > Task :libnavigation-base:compileReleaseKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileRelease UP-TO-DATE
 > Task :libnavigation-base:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :liblogger:extractReleaseAnnotations
+> Task :liblogger:mergeReleaseGeneratedProguardFiles
+> Task :liblogger:mergeReleaseConsumerProguardFiles
 > Task :liblogger:mergeReleaseShaders
 > Task :liblogger:compileReleaseShaders
 > Task :liblogger:generateReleaseAssets
 > Task :liblogger:packageReleaseAssets
 > Task :liblogger:packageReleaseRenderscript NO-SOURCE
 > Task :liblogger:processReleaseJavaRes NO-SOURCE
-> Task :liblogger:mergeReleaseJniLibFolders
-> Task :liblogger:parseDebugLibraryResources
-> Task :liblogger:processDebugManifest
-> Task :liblogger:processReleaseManifest
-> Task :liblogger:mergeReleaseResources
-> Task :liblogger:generateReleaseRFile
-
-> Task :liblogger:compileReleaseKotlin FAILED
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (6, 23): Unresolved reference: Logger
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (16, 5): 'v' overrides nothing
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (23, 5): 'd' overrides nothing
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (30, 5): 'i' overrides nothing
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (37, 5): 'w' overrides nothing
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/liblogger/src/main/java/com/mapbox/navigation/logger/MapboxLogger.kt: (44, 5): 'e' overrides nothing
-
-> Task :liblogger:mergeReleaseNativeLibs
-> Task :liblogger:verifyReleaseResources
 > Task :liblogger:mergeDebugNativeLibs
-> Task :liblogger:generateDebugRFile
+> Task :liblogger:stripDebugDebugSymbols
+> Task :liblogger:transformNativeLibsWithSyncJniLibsForDebug
+> Task :liblogger:mergeReleaseJniLibFolders
+> Task :liblogger:prepareLintJarForPublish
+> Task :liblogger:compileReleaseSources UP-TO-DATE
+> Task :liblogger:mergeDebugJavaResource
+> Task :liblogger:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :liblogger:bundleDebugAar
+> Task :liblogger:assembleDebug
+> Task :liblogger:mergeReleaseJavaResource
+> Task :liblogger:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :liblogger:mergeReleaseResources
+> Task :liblogger:mergeReleaseNativeLibs
+> Task :liblogger:stripReleaseDebugSymbols
+> Task :liblogger:transformNativeLibsWithSyncJniLibsForRelease
+> Task :liblogger:bundleReleaseAar
+> Task :liblogger:verifyReleaseResources
+> Task :liblogger:assembleRelease
+> Task :liblogger:assemble
+> Task :liblogger:build
 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL in 7s
+71 actionable tasks: 29 executed, 42 up-to-date
 
-* What went wrong:
-Execution failed for task ':liblogger:compileReleaseKotlin'.
-> Compilation error. See log for more details
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':liblogger:compileReleaseKotlin'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
-	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
-	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
-	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:14)
-	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:122)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runCompilerAsync(GradleKotlinCompilerRunner.kt:146)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runCompilerAsync(GradleKotlinCompilerRunner.kt:141)
-	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunner.runJvmCompilerAsync(GradleKotlinCompilerRunner.kt:81)
-	at org.jetbrains.kotlin.gradle.tasks.KotlinCompile.callCompilerAsync$kotlin_gradle_plugin(Tasks.kt:449)
-	at org.jetbrains.kotlin.gradle.tasks.KotlinCompile.callCompilerAsync$kotlin_gradle_plugin(Tasks.kt:359)
-	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.executeImpl(Tasks.kt:316)
-	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.execute(Tasks.kt:288)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskInputsTaskAction.doExecute(IncrementalTaskInputsTaskAction.java:46)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
-	at org.gradle.api.internal.project.taskfactory.AbstractIncrementalTaskAction.execute(AbstractIncrementalTaskAction.java:25)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
-	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$0(ExecuteStep.java:32)
-	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:32)
-	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
-	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
-	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
-	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
-	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
-	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
-	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
-	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
-	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
-	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
-	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
-	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
-	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
-	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
-	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
-	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
-	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
-	... 35 more
-
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 13s
-50 actionable tasks: 28 executed, 22 up-to-date
-
-2019-10-25 15:41:50,578 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:41:50,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:41:56,375 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:41:56,375 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:41:56,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:42:07,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:02:59,120 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:02:59,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:03:05,113 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:03:05,113 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:03:05,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:03:13,057 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
 > Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
-> Task :libnavigation-base:generateDebugResValues UP-TO-DATE
-> Task :libnavigation-base:processDebugManifest UP-TO-DATE
-> Task :libnavigation-base:mergeDebugShaders
 > Task :libnavigation-base:compileDebugAidl NO-SOURCE
 > Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-base:generateDebugResValues UP-TO-DATE
 > Task :libnavigation-base:generateDebugResources UP-TO-DATE
 > Task :libnavigation-base:packageDebugResources UP-TO-DATE
 > Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-base:processDebugManifest UP-TO-DATE
 > Task :libnavigation-base:generateDebugRFile UP-TO-DATE
 > Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
@@ -1559,12 +1573,14 @@ BUILD FAILED in 13s
 > Task :libnavigation-base:extractDebugAnnotations
 > Task :libnavigation-base:mergeDebugGeneratedProguardFiles
 > Task :libnavigation-base:mergeDebugConsumerProguardFiles
+> Task :libnavigation-base:mergeDebugShaders
 > Task :libnavigation-base:compileDebugShaders
 > Task :libnavigation-base:generateDebugAssets
 > Task :libnavigation-base:packageDebugAssets
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:processDebugJavaRes NO-SOURCE
 > Task :libnavigation-base:mergeDebugJniLibFolders
+> Task :libnavigation-base:prepareLintJarForPublish
 > Task :libnavigation-base:compileDebugSources UP-TO-DATE
 > Task :libnavigation-base:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:compileReleaseAidl NO-SOURCE
@@ -1589,43 +1605,48 @@ BUILD FAILED in 13s
 > Task :libnavigation-base:packageReleaseAssets
 > Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
 > Task :libnavigation-base:processReleaseJavaRes NO-SOURCE
-> Task :libnavigation-base:mergeReleaseJniLibFolders
 > Task :libnavigation-base:mergeDebugJavaResource
 > Task :libnavigation-base:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :libnavigation-base:compileReleaseSources UP-TO-DATE
-> Task :libnavigation-base:mergeReleaseNativeLibs
-> Task :libnavigation-base:stripReleaseDebugSymbols
-> Task :libnavigation-base:transformNativeLibsWithSyncJniLibsForRelease
-> Task :libnavigation-base:mergeReleaseResources
-> Task :libnavigation-base:mergeReleaseJavaResource
-> Task :libnavigation-base:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :libnavigation-base:prepareLintJarForPublish
-> Task :libnavigation-base:bundleReleaseAar
+> Task :libnavigation-base:mergeReleaseJniLibFolders
 > Task :libnavigation-base:mergeDebugNativeLibs
 > Task :libnavigation-base:stripDebugDebugSymbols
 > Task :libnavigation-base:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libnavigation-base:bundleDebugAar
 > Task :libnavigation-base:assembleDebug
+> Task :libnavigation-base:compileReleaseSources UP-TO-DATE
+> Task :libnavigation-base:mergeReleaseJavaResource
+> Task :libnavigation-base:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :libnavigation-base:mergeReleaseResources
+> Task :libnavigation-base:mergeReleaseNativeLibs
+> Task :libnavigation-base:stripReleaseDebugSymbols
+> Task :libnavigation-base:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libnavigation-base:bundleReleaseAar
 > Task :libnavigation-base:verifyReleaseResources
 > Task :libnavigation-base:assembleRelease
 > Task :libnavigation-base:assemble
 > Task :libnavigation-base:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 7s
 49 actionable tasks: 29 executed, 20 up-to-date
 
-2019-10-25 15:42:07,417 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:42:07,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:42:14,994 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:42:14,997 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:42:15,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libnavigator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:42:24,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:03:13,163 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:03:13,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:03:20,186 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:03:20,186 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:03:20,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-metrics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:03:39,655 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
-> Task :libnavigator:preBuild UP-TO-DATE
-> Task :libnavigator:preDebugBuild UP-TO-DATE
-> Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:compileDebugAidl NO-SOURCE
+> Task :libnavigation-metrics:preBuild UP-TO-DATE
+> Task :libnavigation-metrics:preDebugBuild UP-TO-DATE
+> Task :liblogger:preBuild UP-TO-DATE
+> Task :liblogger:preDebugBuild UP-TO-DATE
+> Task :libnavigation-util:preBuild UP-TO-DATE
+> Task :libnavigation-util:preDebugBuild UP-TO-DATE
+> Task :liblogger:compileDebugAidl NO-SOURCE
+> Task :libnavigation-util:compileDebugAidl NO-SOURCE
+> Task :libnavigation-base:checkDebugManifest UP-TO-DATE
 > Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
 > Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
 > Task :libnavigation-base:generateDebugResValues UP-TO-DATE
@@ -1633,16 +1654,339 @@ BUILD SUCCESSFUL in 10s
 > Task :libnavigation-base:packageDebugResources UP-TO-DATE
 > Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
 > Task :libnavigation-base:processDebugManifest UP-TO-DATE
-> Task :libnavigator:compileDebugAidl NO-SOURCE
 > Task :libnavigation-base:generateDebugRFile UP-TO-DATE
 > Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
 > Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
 > Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
 > Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-metrics:compileDebugAidl NO-SOURCE
 > Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-metrics:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-metrics:checkDebugManifest
+> Task :libnavigation-metrics:generateDebugBuildConfig
+> Task :liblogger:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:generateDebugResValues UP-TO-DATE
+> Task :liblogger:generateDebugResources UP-TO-DATE
+> Task :liblogger:packageDebugResources UP-TO-DATE
+> Task :liblogger:parseDebugLibraryResources UP-TO-DATE
+> Task :liblogger:checkDebugManifest UP-TO-DATE
+> Task :liblogger:processDebugManifest UP-TO-DATE
+> Task :liblogger:generateDebugRFile UP-TO-DATE
+> Task :libnavigation-metrics:generateDebugResValues
+> Task :libnavigation-metrics:generateDebugResources
+> Task :libnavigation-metrics:packageDebugResources
+> Task :liblogger:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-util:generateDebugResources UP-TO-DATE
+> Task :libnavigation-util:packageDebugResources UP-TO-DATE
+> Task :libnavigation-util:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-util:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-util:processDebugManifest UP-TO-DATE
+> Task :libnavigation-util:generateDebugRFile UP-TO-DATE
+> Task :liblogger:generateDebugBuildConfig UP-TO-DATE
+> Task :libnavigation-util:generateDebugBuildConfig UP-TO-DATE
+> Task :liblogger:compileDebugKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-metrics:mergeDebugShaders
+> Task :libnavigation-metrics:compileDebugShaders
+> Task :libnavigation-metrics:generateDebugAssets
+> Task :libnavigation-metrics:packageDebugAssets
+> Task :libnavigation-metrics:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-metrics:processDebugJavaRes NO-SOURCE
+> Task :libnavigation-metrics:mergeDebugJniLibFolders
+> Task :libnavigation-metrics:processDebugManifest
+> Task :libnavigation-base:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-base:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-metrics:preReleaseBuild UP-TO-DATE
+> Task :liblogger:preReleaseBuild UP-TO-DATE
+> Task :liblogger:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-util:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-util:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-metrics:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-base:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-base:checkReleaseManifest UP-TO-DATE
+> Task :libnavigation-base:generateReleaseBuildConfig UP-TO-DATE
+> Task :libnavigation-base:generateReleaseResValues UP-TO-DATE
+> Task :libnavigation-base:generateReleaseResources UP-TO-DATE
+> Task :libnavigation-base:packageReleaseResources UP-TO-DATE
+> Task :libnavigation-base:parseReleaseLibraryResources UP-TO-DATE
+> Task :libnavigation-base:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-base:generateReleaseRFile UP-TO-DATE
+> Task :libnavigation-base:compileReleaseKotlin UP-TO-DATE
+> Task :libnavigation-base:javaPreCompileRelease UP-TO-DATE
+> Task :libnavigation-base:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :libnavigation-base:bundleLibCompileRelease UP-TO-DATE
+> Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-metrics:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-metrics:checkReleaseManifest
+> Task :libnavigation-metrics:generateReleaseBuildConfig
+> Task :liblogger:compileReleaseRenderscript NO-SOURCE
+> Task :liblogger:generateReleaseResValues UP-TO-DATE
+> Task :liblogger:generateReleaseResources UP-TO-DATE
+> Task :liblogger:packageReleaseResources UP-TO-DATE
+> Task :liblogger:parseReleaseLibraryResources UP-TO-DATE
+> Task :liblogger:checkReleaseManifest UP-TO-DATE
+> Task :liblogger:processReleaseManifest UP-TO-DATE
+> Task :liblogger:generateReleaseRFile UP-TO-DATE
+> Task :libnavigation-metrics:generateReleaseResValues
+> Task :libnavigation-metrics:generateReleaseResources
+> Task :libnavigation-metrics:packageReleaseResources
+> Task :libnavigation-metrics:prepareLintJarForPublish
+> Task :libnavigation-metrics:parseDebugLibraryResources
+> Task :liblogger:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:generateReleaseResValues UP-TO-DATE
+> Task :libnavigation-util:generateReleaseResources UP-TO-DATE
+> Task :libnavigation-util:packageReleaseResources UP-TO-DATE
+> Task :libnavigation-util:parseReleaseLibraryResources UP-TO-DATE
+> Task :libnavigation-util:checkReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:generateReleaseRFile UP-TO-DATE
+> Task :liblogger:generateReleaseBuildConfig UP-TO-DATE
+> Task :liblogger:compileReleaseKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileRelease UP-TO-DATE
+> Task :libnavigation-util:generateReleaseBuildConfig UP-TO-DATE
+> Task :libnavigation-util:compileReleaseKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileRelease UP-TO-DATE
+> Task :libnavigation-util:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:bundleLibCompileRelease UP-TO-DATE
+> Task :libnavigation-metrics:mergeReleaseShaders
+> Task :libnavigation-metrics:compileReleaseShaders
+> Task :libnavigation-metrics:generateReleaseAssets
+> Task :libnavigation-metrics:packageReleaseAssets
+> Task :libnavigation-metrics:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-metrics:processReleaseJavaRes NO-SOURCE
+> Task :libnavigation-metrics:mergeReleaseJniLibFolders
+> Task :libnavigation-metrics:parseReleaseLibraryResources
+> Task :libnavigation-metrics:mergeDebugNativeLibs
+> Task :libnavigation-metrics:stripDebugDebugSymbols
+> Task :libnavigation-metrics:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libnavigation-metrics:mergeReleaseNativeLibs
+> Task :libnavigation-metrics:stripReleaseDebugSymbols
+> Task :libnavigation-metrics:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libnavigation-metrics:generateDebugRFile
+> Task :libnavigation-metrics:compileDebugKotlin
+> Task :libnavigation-metrics:processReleaseManifest
+> Task :libnavigation-metrics:javaPreCompileDebug
+> Task :libnavigation-metrics:compileDebugJavaWithJavac
+> Task :libnavigation-metrics:extractDebugAnnotations
+> Task :libnavigation-metrics:mergeDebugGeneratedProguardFiles
+> Task :libnavigation-metrics:mergeDebugConsumerProguardFiles
+> Task :libnavigation-metrics:compileDebugSources
+> Task :libnavigation-metrics:generateReleaseRFile
+> Task :libnavigation-metrics:compileReleaseKotlin
+> Task :libnavigation-metrics:mergeReleaseResources
+> Task :libnavigation-metrics:mergeDebugJavaResource
+> Task :libnavigation-metrics:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libnavigation-metrics:bundleDebugAar
+> Task :libnavigation-metrics:assembleDebug
+> Task :libnavigation-metrics:javaPreCompileRelease
+> Task :libnavigation-metrics:compileReleaseJavaWithJavac
+> Task :libnavigation-metrics:extractReleaseAnnotations
+> Task :libnavigation-metrics:mergeReleaseGeneratedProguardFiles
+> Task :libnavigation-metrics:mergeReleaseConsumerProguardFiles
+> Task :libnavigation-metrics:compileReleaseSources
+> Task :libnavigation-metrics:verifyReleaseResources
+> Task :libnavigation-metrics:mergeReleaseJavaResource
+> Task :libnavigation-metrics:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :libnavigation-metrics:bundleReleaseAar
+> Task :libnavigation-metrics:assembleRelease
+> Task :libnavigation-metrics:assemble
+> Task :libnavigation-metrics:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 18s
+115 actionable tasks: 49 executed, 66 up-to-date
+
+2019-11-10 23:03:39,759 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:03:39,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:03:46,213 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:03:46,213 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:03:46,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigation-util/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:03:54,374 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :liblogger:preBuild UP-TO-DATE
+> Task :liblogger:preDebugBuild UP-TO-DATE
+> Task :libnavigation-base:preBuild UP-TO-DATE
+> Task :libnavigation-base:preDebugBuild UP-TO-DATE
+> Task :libnavigation-util:preBuild UP-TO-DATE
+> Task :libnavigation-util:preDebugBuild UP-TO-DATE
+> Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
+> Task :liblogger:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-base:compileDebugAidl NO-SOURCE
+> Task :liblogger:compileDebugAidl NO-SOURCE
+> Task :libnavigation-util:compileDebugAidl NO-SOURCE
+> Task :liblogger:compileDebugRenderscript NO-SOURCE
+> Task :liblogger:generateDebugBuildConfig UP-TO-DATE
+> Task :liblogger:generateDebugResValues UP-TO-DATE
+> Task :liblogger:generateDebugResources UP-TO-DATE
+> Task :liblogger:packageDebugResources UP-TO-DATE
+> Task :liblogger:parseDebugLibraryResources UP-TO-DATE
+> Task :liblogger:processDebugManifest UP-TO-DATE
+> Task :libnavigation-base:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-base:generateDebugResources UP-TO-DATE
+> Task :libnavigation-base:packageDebugResources UP-TO-DATE
+> Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-base:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-base:processDebugManifest UP-TO-DATE
+> Task :libnavigation-base:generateDebugRFile UP-TO-DATE
+> Task :liblogger:generateDebugRFile UP-TO-DATE
+> Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
+> Task :liblogger:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
+> Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
+> Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileDebug UP-TO-DATE
+> Task :liblogger:compileDebugJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-util:generateDebugBuildConfig UP-TO-DATE
+> Task :libnavigation-util:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-util:generateDebugResources UP-TO-DATE
+> Task :libnavigation-util:packageDebugResources UP-TO-DATE
+> Task :libnavigation-util:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-util:processDebugManifest UP-TO-DATE
+> Task :libnavigation-util:generateDebugRFile UP-TO-DATE
+> Task :libnavigation-util:compileDebugKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileDebug UP-TO-DATE
+> Task :libnavigation-util:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:extractDebugAnnotations
+> Task :libnavigation-util:mergeDebugGeneratedProguardFiles
+> Task :libnavigation-util:mergeDebugConsumerProguardFiles
+> Task :libnavigation-util:mergeDebugShaders
+> Task :libnavigation-util:compileDebugShaders
+> Task :libnavigation-util:generateDebugAssets
+> Task :libnavigation-util:packageDebugAssets
+> Task :libnavigation-util:packageDebugRenderscript NO-SOURCE
+> Task :libnavigation-util:processDebugJavaRes NO-SOURCE
+> Task :libnavigation-util:mergeDebugJniLibFolders
+> Task :libnavigation-util:compileDebugSources UP-TO-DATE
+> Task :liblogger:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-base:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-base:compileReleaseAidl NO-SOURCE
+> Task :liblogger:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-util:preReleaseBuild UP-TO-DATE
+> Task :libnavigation-util:compileReleaseAidl NO-SOURCE
+> Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
+> Task :liblogger:compileReleaseRenderscript NO-SOURCE
+> Task :liblogger:checkReleaseManifest UP-TO-DATE
+> Task :liblogger:generateReleaseBuildConfig UP-TO-DATE
+> Task :liblogger:generateReleaseResValues UP-TO-DATE
+> Task :liblogger:generateReleaseResources UP-TO-DATE
+> Task :liblogger:packageReleaseResources UP-TO-DATE
+> Task :liblogger:parseReleaseLibraryResources UP-TO-DATE
+> Task :liblogger:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-base:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-base:generateReleaseResValues UP-TO-DATE
+> Task :libnavigation-base:generateReleaseResources UP-TO-DATE
+> Task :libnavigation-base:packageReleaseResources UP-TO-DATE
+> Task :libnavigation-base:parseReleaseLibraryResources UP-TO-DATE
+> Task :libnavigation-base:checkReleaseManifest UP-TO-DATE
+> Task :libnavigation-base:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-base:generateReleaseRFile UP-TO-DATE
+> Task :liblogger:generateReleaseRFile UP-TO-DATE
+> Task :libnavigation-base:generateReleaseBuildConfig UP-TO-DATE
+> Task :libnavigation-base:compileReleaseKotlin UP-TO-DATE
+> Task :libnavigation-base:javaPreCompileRelease UP-TO-DATE
+> Task :libnavigation-base:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :libnavigation-base:bundleLibCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseKotlin UP-TO-DATE
+> Task :liblogger:javaPreCompileRelease UP-TO-DATE
+> Task :liblogger:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :liblogger:bundleLibCompileRelease UP-TO-DATE
+> Task :liblogger:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:compileReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:checkReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:generateReleaseBuildConfig UP-TO-DATE
+> Task :libnavigation-util:generateReleaseResValues UP-TO-DATE
+> Task :libnavigation-util:generateReleaseResources UP-TO-DATE
+> Task :libnavigation-util:packageReleaseResources UP-TO-DATE
+> Task :libnavigation-util:parseReleaseLibraryResources UP-TO-DATE
+> Task :libnavigation-util:processReleaseManifest UP-TO-DATE
+> Task :libnavigation-util:generateReleaseRFile UP-TO-DATE
+> Task :libnavigation-util:compileReleaseKotlin UP-TO-DATE
+> Task :libnavigation-util:javaPreCompileRelease UP-TO-DATE
+> Task :libnavigation-util:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :libnavigation-util:extractReleaseAnnotations
+> Task :libnavigation-util:mergeReleaseGeneratedProguardFiles
+> Task :libnavigation-util:mergeReleaseConsumerProguardFiles
+> Task :libnavigation-util:mergeReleaseShaders
+> Task :libnavigation-util:compileReleaseShaders
+> Task :libnavigation-util:generateReleaseAssets
+> Task :libnavigation-util:packageReleaseAssets
+> Task :libnavigation-util:packageReleaseRenderscript NO-SOURCE
+> Task :libnavigation-util:processReleaseJavaRes NO-SOURCE
+> Task :libnavigation-util:prepareLintJarForPublish
+> Task :libnavigation-util:mergeReleaseJniLibFolders
+> Task :libnavigation-util:compileReleaseSources UP-TO-DATE
+> Task :libnavigation-util:mergeReleaseJavaResource
+> Task :libnavigation-util:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :libnavigation-util:mergeDebugJavaResource
+> Task :libnavigation-util:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libnavigation-util:mergeReleaseResources
+> Task :libnavigation-util:mergeDebugNativeLibs
+> Task :libnavigation-util:stripDebugDebugSymbols
+> Task :libnavigation-util:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libnavigation-util:bundleDebugAar
+> Task :libnavigation-util:assembleDebug
+> Task :libnavigation-util:mergeReleaseNativeLibs
+> Task :libnavigation-util:stripReleaseDebugSymbols
+> Task :libnavigation-util:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libnavigation-util:bundleReleaseAar
+> Task :libnavigation-util:verifyReleaseResources
+> Task :libnavigation-util:assembleRelease
+> Task :libnavigation-util:assemble
+> Task :libnavigation-util:build
+
+BUILD SUCCESSFUL in 7s
+93 actionable tasks: 29 executed, 64 up-to-date
+
+2019-11-10 23:03:54,474 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:03:54,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:04:00,054 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:04:00,054 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:04:00,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libnavigator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:04:06,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :libnavigation-base:preBuild UP-TO-DATE
+> Task :libnavigation-base:preDebugBuild UP-TO-DATE
+> Task :libnavigator:preBuild UP-TO-DATE
+> Task :libnavigator:preDebugBuild UP-TO-DATE
+> Task :libnavigation-base:checkDebugManifest UP-TO-DATE
+> Task :libnavigation-base:generateDebugBuildConfig UP-TO-DATE
+> Task :libnavigation-base:compileDebugAidl NO-SOURCE
+> Task :libnavigation-base:compileDebugRenderscript NO-SOURCE
+> Task :libnavigation-base:generateDebugResValues UP-TO-DATE
+> Task :libnavigation-base:generateDebugResources UP-TO-DATE
+> Task :libnavigation-base:packageDebugResources UP-TO-DATE
+> Task :libnavigation-base:parseDebugLibraryResources UP-TO-DATE
+> Task :libnavigation-base:processDebugManifest UP-TO-DATE
+> Task :libnavigation-base:generateDebugRFile UP-TO-DATE
+> Task :libnavigation-base:compileDebugKotlin UP-TO-DATE
+> Task :libnavigation-base:javaPreCompileDebug UP-TO-DATE
+> Task :libnavigation-base:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libnavigator:compileDebugAidl NO-SOURCE
+> Task :libnavigation-base:bundleLibCompileDebug UP-TO-DATE
+> Task :libnavigation-base:packageDebugRenderscript NO-SOURCE
+> Task :libnavigator:compileDebugRenderscript NO-SOURCE
 > Task :libnavigator:checkDebugManifest UP-TO-DATE
 > Task :libnavigator:generateDebugBuildConfig UP-TO-DATE
-> Task :libnavigator:compileDebugRenderscript NO-SOURCE
 > Task :libnavigator:generateDebugResValues UP-TO-DATE
 > Task :libnavigator:generateDebugResources UP-TO-DATE
 > Task :libnavigator:packageDebugResources UP-TO-DATE
@@ -1683,9 +2027,6 @@ BUILD SUCCESSFUL in 10s
 > Task :libnavigation-base:packageReleaseRenderscript NO-SOURCE
 > Task :libnavigator:compileReleaseRenderscript NO-SOURCE
 > Task :libnavigator:checkReleaseManifest UP-TO-DATE
-> Task :libnavigator:mergeDebugNativeLibs
-> Task :libnavigator:stripDebugDebugSymbols
-> Task :libnavigator:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libnavigator:generateReleaseBuildConfig UP-TO-DATE
 > Task :libnavigator:generateReleaseResValues UP-TO-DATE
 > Task :libnavigator:generateReleaseResources UP-TO-DATE
@@ -1706,33 +2047,36 @@ BUILD SUCCESSFUL in 10s
 > Task :libnavigator:packageReleaseRenderscript NO-SOURCE
 > Task :libnavigator:processReleaseJavaRes NO-SOURCE
 > Task :libnavigator:mergeReleaseJniLibFolders
+> Task :libnavigator:mergeDebugNativeLibs
+> Task :libnavigator:stripDebugDebugSymbols
+> Task :libnavigator:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libnavigator:compileReleaseSources UP-TO-DATE
 > Task :libnavigator:mergeReleaseJavaResource
 > Task :libnavigator:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :libnavigator:prepareLintJarForPublish
-> Task :libnavigator:mergeDebugJavaResource
-> Task :libnavigator:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :libnavigator:bundleDebugAar
-> Task :libnavigator:assembleDebug
-> Task :libnavigator:mergeReleaseResources
 > Task :libnavigator:mergeReleaseNativeLibs
 > Task :libnavigator:stripReleaseDebugSymbols
 > Task :libnavigator:transformNativeLibsWithSyncJniLibsForRelease
+> Task :libnavigator:mergeReleaseResources
+> Task :libnavigator:mergeDebugJavaResource
+> Task :libnavigator:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libnavigator:prepareLintJarForPublish
+> Task :libnavigator:bundleDebugAar
+> Task :libnavigator:assembleDebug
 > Task :libnavigator:bundleReleaseAar
 > Task :libnavigator:verifyReleaseResources
 > Task :libnavigator:assembleRelease
 > Task :libnavigator:assemble
 > Task :libnavigator:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 6s
 71 actionable tasks: 29 executed, 42 up-to-date
 
-2019-10-25 15:42:25,066 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:42:25,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:42:31,362 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:42:31,364 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:42:31,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:42:46,488 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:04:07,067 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:04:07,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:04:12,658 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:04:12,659 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:04:12,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-notification/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:04:25,389 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
 > Task :libtrip-notification:preBuild UP-TO-DATE
@@ -1766,7 +2110,7 @@ BUILD SUCCESSFUL in 9s
 > Task :libtrip-notification:packageDebugRenderscript NO-SOURCE
 > Task :libtrip-notification:processDebugJavaRes NO-SOURCE
 > Task :libtrip-notification:mergeDebugJniLibFolders
-> Task :libtrip-notification:prepareLintJarForPublish
+> Task :libtrip-notification:parseDebugLibraryResources
 > Task :libnavigation-base:preReleaseBuild UP-TO-DATE
 > Task :libnavigation-base:compileReleaseAidl NO-SOURCE
 > Task :libtrip-notification:preReleaseBuild UP-TO-DATE
@@ -1791,10 +2135,7 @@ BUILD SUCCESSFUL in 9s
 > Task :libtrip-notification:generateReleaseResValues
 > Task :libtrip-notification:generateReleaseResources
 > Task :libtrip-notification:packageReleaseResources
-> Task :libtrip-notification:mergeDebugNativeLibs
-> Task :libtrip-notification:stripDebugDebugSymbols
-> Task :libtrip-notification:transformNativeLibsWithSyncJniLibsForDebug
-> Task :libtrip-notification:processDebugManifest
+> Task :libtrip-notification:prepareLintJarForPublish
 > Task :libtrip-notification:mergeReleaseShaders
 > Task :libtrip-notification:compileReleaseShaders
 > Task :libtrip-notification:generateReleaseAssets
@@ -1802,8 +2143,11 @@ BUILD SUCCESSFUL in 9s
 > Task :libtrip-notification:packageReleaseRenderscript NO-SOURCE
 > Task :libtrip-notification:processReleaseJavaRes NO-SOURCE
 > Task :libtrip-notification:mergeReleaseJniLibFolders
+> Task :libtrip-notification:processDebugManifest
 > Task :libtrip-notification:parseReleaseLibraryResources
-> Task :libtrip-notification:parseDebugLibraryResources
+> Task :libtrip-notification:mergeDebugNativeLibs
+> Task :libtrip-notification:stripDebugDebugSymbols
+> Task :libtrip-notification:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libtrip-notification:mergeReleaseResources
 > Task :libtrip-notification:mergeReleaseNativeLibs
 > Task :libtrip-notification:stripReleaseDebugSymbols
@@ -1825,8 +2169,8 @@ BUILD SUCCESSFUL in 9s
 > Task :libtrip-notification:extractDebugAnnotations
 > Task :libtrip-notification:mergeDebugGeneratedProguardFiles
 > Task :libtrip-notification:mergeDebugConsumerProguardFiles
-> Task :libtrip-notification:mergeReleaseJavaResource
 > Task :libtrip-notification:compileDebugSources
+> Task :libtrip-notification:mergeReleaseJavaResource
 > Task :libtrip-notification:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :libtrip-notification:bundleReleaseAar
 > Task :libtrip-notification:assembleRelease
@@ -1837,15 +2181,15 @@ BUILD SUCCESSFUL in 9s
 > Task :libtrip-notification:assemble
 > Task :libtrip-notification:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 12s
 71 actionable tasks: 49 executed, 22 up-to-date
 
-2019-10-25 15:42:46,597 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:42:46,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:42:52,257 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:42:52,258 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:42:52,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:43:04,836 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:04:25,505 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:04:25,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:04:31,007 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-10 23:04:31,007 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-10 23:04:31,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/libtrip-service/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-10 23:04:43,670 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libnavigation-base:preBuild UP-TO-DATE
 > Task :libnavigation-base:preDebugBuild UP-TO-DATE
 > Task :libtrip-service:preBuild UP-TO-DATE
@@ -1904,9 +2248,8 @@ BUILD SUCCESSFUL in 14s
 > Task :libtrip-service:generateReleaseResValues
 > Task :libtrip-service:generateReleaseResources
 > Task :libtrip-service:packageReleaseResources
-> Task :libtrip-service:mergeDebugNativeLibs
-> Task :libtrip-service:stripDebugDebugSymbols
-> Task :libtrip-service:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libtrip-service:processDebugManifest
+> Task :libtrip-service:prepareLintJarForPublish
 > Task :libtrip-service:mergeReleaseShaders
 > Task :libtrip-service:compileReleaseShaders
 > Task :libtrip-service:generateReleaseAssets
@@ -1914,52 +2257,53 @@ BUILD SUCCESSFUL in 14s
 > Task :libtrip-service:packageReleaseRenderscript NO-SOURCE
 > Task :libtrip-service:processReleaseJavaRes NO-SOURCE
 > Task :libtrip-service:mergeReleaseJniLibFolders
-> Task :libtrip-service:parseReleaseLibraryResources
-> Task :libtrip-service:processDebugManifest
-> Task :libtrip-service:mergeReleaseResources
-> Task :libtrip-service:processReleaseManifest
+> Task :libtrip-service:mergeDebugNativeLibs
+> Task :libtrip-service:stripDebugDebugSymbols
+> Task :libtrip-service:transformNativeLibsWithSyncJniLibsForDebug
 > Task :libtrip-service:mergeReleaseNativeLibs
 > Task :libtrip-service:stripReleaseDebugSymbols
 > Task :libtrip-service:transformNativeLibsWithSyncJniLibsForRelease
-> Task :libtrip-service:generateReleaseRFile
-> Task :libtrip-service:compileReleaseKotlin
-> Task :libtrip-service:verifyReleaseResources
-> Task :libtrip-service:prepareLintJarForPublish
+> Task :libtrip-service:mergeReleaseResources
 > Task :libtrip-service:generateDebugRFile
 > Task :libtrip-service:compileDebugKotlin
-> Task :libtrip-service:javaPreCompileRelease
-> Task :libtrip-service:compileReleaseJavaWithJavac
-> Task :libtrip-service:extractReleaseAnnotations
-> Task :libtrip-service:mergeReleaseGeneratedProguardFiles
-> Task :libtrip-service:mergeReleaseConsumerProguardFiles
-> Task :libtrip-service:compileReleaseSources
+> Task :libtrip-service:parseReleaseLibraryResources
+> Task :libtrip-service:processReleaseManifest
+> Task :libtrip-service:generateReleaseRFile
+> Task :libtrip-service:compileReleaseKotlin
 > Task :libtrip-service:javaPreCompileDebug
 > Task :libtrip-service:compileDebugJavaWithJavac
 > Task :libtrip-service:extractDebugAnnotations
 > Task :libtrip-service:mergeDebugGeneratedProguardFiles
 > Task :libtrip-service:mergeDebugConsumerProguardFiles
 > Task :libtrip-service:compileDebugSources
-> Task :libtrip-service:mergeReleaseJavaResource
-> Task :libtrip-service:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :libtrip-service:bundleReleaseAar
-> Task :libtrip-service:assembleRelease
+> Task :libtrip-service:javaPreCompileRelease
+> Task :libtrip-service:compileReleaseJavaWithJavac
+> Task :libtrip-service:extractReleaseAnnotations
+> Task :libtrip-service:mergeReleaseGeneratedProguardFiles
+> Task :libtrip-service:mergeReleaseConsumerProguardFiles
+> Task :libtrip-service:compileReleaseSources
+> Task :libtrip-service:verifyReleaseResources
 > Task :libtrip-service:mergeDebugJavaResource
 > Task :libtrip-service:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :libtrip-service:bundleDebugAar
 > Task :libtrip-service:assembleDebug
+> Task :libtrip-service:mergeReleaseJavaResource
+> Task :libtrip-service:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :libtrip-service:bundleReleaseAar
+> Task :libtrip-service:assembleRelease
 > Task :libtrip-service:assemble
 > Task :libtrip-service:build
 
 BUILD SUCCESSFUL in 12s
 71 actionable tasks: 49 executed, 22 up-to-date
 
-2019-10-25 15:43:04,968 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:43:04,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:43:09,961 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-25 15:43:09,961 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-25 15:43:09,961 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-25 15:43:09,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992736920-0/src/mapbox-navigation-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-25 15:43:14,812 ERROR SysUtils - Could not process external command
+2019-11-10 23:04:43,791 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 23:04:43,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 23:04:48,828 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-10 23:04:48,828 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-10 23:04:48,828 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-10 23:04:48,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401613305-0/src/mapbox-navigation-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-10 23:04:53,646 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1987,7 +2331,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:43:14,815 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 23:04:53,646 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Does your build of mapbox-navigation-android have a Git directory?The try/catch in the script-git-version.gradle file is for the situation when there is no Git setup. Try cloning the mapbox-navigation-android repo, rather than downloading the repo as a .zip file.
@@ -2171,5 +2515,5 @@ See https://developer.android.com/studio/publish/versioning#appversioning for mo
 
 BUILD FAILED in 4s
 
-2019-10-25 15:43:14,916 ERROR FullProcessService - Project build has not produced APK file
-2019-10-25 15:43:15,012 ERROR FullProcessService - Could not find generated or existed APK file
+2019-11-10 23:04:53,764 ERROR FullProcessService - Project build has not produced APK file
+2019-11-10 23:04:53,870 ERROR FullProcessService - Could not find generated or existed APK file
