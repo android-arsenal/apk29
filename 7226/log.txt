@@ -1,39 +1,38 @@
-2018-10-21 14:36:17,212 INFO  DownloadService - Downloading "https://github.com/nmhung/Rose/archive/master.zip", attempt 3
-2018-10-21 14:36:17,861 INFO  DownloadService - Downloaded https://github.com/nmhung/Rose/archive/master.zip, attempt 3
-2018-10-21 14:36:17,861 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/master.zip": 140 KB
-2018-10-21 14:36:17,861 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-21 14:36:17,867 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/master.zip: true
-2018-10-21 14:36:17,867 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src'.
-2018-10-21 14:36:17,892 INFO  FullProcessService - Size of directory with sources: 149 KB
-2018-10-21 14:36:17,892 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src]
-2018-10-21 14:36:17,912 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/.git/
+2019-11-28 12:58:06,499 INFO  DownloadService - Downloading "https://github.com/nmhung/Rose/archive/master.zip", attempt 3
+2019-11-28 12:58:08,544 INFO  DownloadService - Downloaded https://github.com/nmhung/Rose/archive/master.zip, attempt 3
+2019-11-28 12:58:08,545 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/master.zip": 140 KB
+2019-11-28 12:58:08,545 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-28 12:58:08,546 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/master.zip: true
+2019-11-28 12:58:08,546 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src'.
+2019-11-28 12:58:08,563 INFO  FullProcessService - Size of directory with sources: 149 KB
+2019-11-28 12:58:08,563 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src]
+2019-11-28 12:58:08,581 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/.git/
 
-2018-10-21 14:36:17,915 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/gradlew
-2018-10-21 14:36:17,919 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/rose-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/build.gradle
-2018-10-21 14:36:17,923 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/rose-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/settings.gradle
-2018-10-21 14:36:17,923 INFO  ProjectBuildService - Remote scripts: none
-2018-10-21 14:36:17,923 INFO  ProjectFixService - Fixing project...
-2018-10-21 14:36:17,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/local.properties
-2018-10-21 14:36:17,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,934 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/rose-library/local.properties
-2018-10-21 14:36:17,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/rose-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,937 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/rose-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/local.properties
-2018-10-21 14:36:17,938 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-21 14:36:17,939 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-21 14:36:17,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-21 14:36:17,941 INFO  ProjectFixService - Project was maybe fixed
-2018-10-21 14:36:17,941 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-21 14:36:17,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-21 14:36:27,479 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-21 14:36:27,479 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-21 14:36:27,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-21 14:37:08,235 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-28 12:58:08,584 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/gradlew
+2019-11-28 12:58:08,587 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/rose-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/build.gradle
+2019-11-28 12:58:08,589 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/rose-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/settings.gradle
+2019-11-28 12:58:08,590 INFO  ProjectBuildService - Remote scripts: none
+2019-11-28 12:58:08,590 INFO  ProjectFixService - Fixing project...
+2019-11-28 12:58:08,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/local.properties
+2019-11-28 12:58:08,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/rose-library/local.properties
+2019-11-28 12:58:08,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/rose-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/rose-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/local.properties
+2019-11-28 12:58:08,600 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-11-28 12:58:08,600 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-11-28 12:58:08,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,601 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-28 12:58:08,602 INFO  ProjectFixService - Project was maybe fixed
+2019-11-28 12:58:08,602 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-28 12:58:08,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-28 12:58:31,604 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-11-28 12:58:31,605 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-28 12:58:31,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-28 12:59:17,600 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
-Download https://jcenter.bintray.com/net/fitken/rose/1.0.2/rose-1.0.2.pom
 Download https://jcenter.bintray.com/net/fitken/rose/1.0.2/rose-1.0.2.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -48,6 +47,7 @@ Download https://jcenter.bintray.com/net/fitken/rose/1.0.2/rose-1.0.2.aar
 :app:splitsDiscoveryTaskDebug
 :app:processDebugResources
 :app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.70/kotlin-stdlib-jdk7-1.2.70.jar
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -59,6 +59,8 @@ Download https://jcenter.bintray.com/net/fitken/rose/1.0.2/rose-1.0.2.aar
 :app:generateDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -106,7 +108,7 @@ Download https://jcenter.bintray.com/net/fitken/rose/1.0.2/rose-1.0.2.aar
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 45s
 55 actionable tasks: 55 executed
 
-2018-10-21 14:37:08,351 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107377209-0/src/Rose-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-28 12:59:17,658 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920686494-0/src/Rose-master/app/build/outputs/apk/debug/app-debug.apk
