@@ -1,35 +1,41 @@
-2019-11-30 17:13:55,893 INFO  DownloadService - Downloading "https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip", attempt 3
-2019-11-30 17:13:56,746 INFO  DownloadService - Downloaded https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip, attempt 3
-2019-11-30 17:13:56,747 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/master.zip": 344 KB
-2019-11-30 17:13:56,747 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-30 17:13:56,752 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/master.zip: true
-2019-11-30 17:13:56,752 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src'.
-2019-11-30 17:13:56,773 INFO  FullProcessService - Size of directory with sources: 433 KB
-2019-11-30 17:13:56,773 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src]
-2019-11-30 17:13:56,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/.git/
+2019-12-03 15:04:26,548 INFO  DownloadService - Downloading "https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip", attempt 3
+2019-12-03 15:04:29,062 INFO  DownloadService - Downloaded https://github.com/antonKozyriatskyi/DevDrawer/archive/master.zip, attempt 3
+2019-12-03 15:04:29,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/master.zip": 344 KB
+2019-12-03 15:04:29,063 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-03 15:04:29,071 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/master.zip: true
+2019-12-03 15:04:29,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src'.
+2019-12-03 15:04:29,101 INFO  FullProcessService - Size of directory with sources: 433 KB
+2019-12-03 15:04:29,104 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src]
+2019-12-03 15:04:29,129 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/.git/
 
-2019-11-30 17:13:56,795 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/gradlew
-2019-11-30 17:13:56,797 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/build.gradle
-2019-11-30 17:13:56,799 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle
-2019-11-30 17:13:56,799 INFO  ProjectBuildService - Remote scripts: none
-2019-11-30 17:13:56,799 INFO  ProjectFixService - Fixing project...
-2019-11-30 17:13:56,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/local.properties
-2019-11-30 17:13:56,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,805 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/local.properties
-2019-11-30 17:13:56,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/local.properties
-2019-11-30 17:13:56,807 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-bin.zip
-2019-11-30 17:13:56,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-30 17:13:56,808 INFO  ProjectFixService - Project was maybe fixed
-2019-11-30 17:13:56,808 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-30 17:13:56,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-30 17:14:29,575 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-11-30 17:14:29,576 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-30 17:14:29,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-30 17:14:54,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 15:04:29,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/gradlew
+2019-12-03 15:04:29,150 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/build.gradle
+2019-12-03 15:04:29,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle
+2019-12-03 15:04:29,158 INFO  ProjectBuildService - Remote scripts: none
+2019-12-03 15:04:29,159 INFO  ProjectFixService - Fixing project...
+2019-12-03 15:04:29,194 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-12-03 15:04:29,195 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-12-03 15:04:29,197 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-12-03 15:04:29,199 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2019-12-03 15:04:29,202 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-12-03 15:04:29,203 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-12-03 15:04:29,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/local.properties
+2019-12-03 15:04:29,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,213 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/local.properties
+2019-12-03 15:04:29,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/local.properties
+2019-12-03 15:04:29,224 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-bin.zip
+2019-12-03 15:04:29,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-03 15:04:29,227 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 15:04:29,229 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 15:04:29,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 15:04:35,556 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-12-03 15:04:35,556 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-03 15:04:35,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-03 15:04:58,061 INFO  SysUtils - Configuration on demand is an incubating feature.
 :devdrawer:preBuild UP-TO-DATE
 :devdrawer:preDebugBuild UP-TO-DATE
 :devdrawer:compileDebugAidl
@@ -79,10 +85,9 @@
 :devdrawer:verifyReleaseResources
 :devdrawer:generateDebugRFile
 :devdrawer:compileDebugKotlin
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.60/kotlin-stdlib-jdk7-1.2.60.jar
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
 :devdrawer:generateDebugSources
 :devdrawer:javaPreCompileDebug
 :devdrawer:compileDebugJavaWithJavac
@@ -94,9 +99,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/
 :devdrawer:assembleDebug
 :devdrawer:generateReleaseRFile
 :devdrawer:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (4, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (32, 32): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/devdrawer/src/main/java/antonkozyriatskyi/devdrawer/DevDrawer.kt: (49, 32): 'Fragment' is deprecated. Deprecated in Java
 :devdrawer:generateReleaseSources
 :devdrawer:javaPreCompileRelease
 :devdrawer:compileReleaseJavaWithJavac
@@ -109,15 +114,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/
 :devdrawer:assemble
 :devdrawer:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 21s
 50 actionable tasks: 50 executed
 
-2019-11-30 17:14:54,295 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-30 17:14:54,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-30 17:15:03,018 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-30 17:15:03,019 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-30 17:15:03,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-30 17:15:49,293 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 15:04:58,116 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 15:04:58,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 15:05:04,105 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-03 15:05:04,106 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-03 15:05:04,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-03 15:05:36,391 INFO  SysUtils - Configuration on demand is an incubating feature.
 :devdrawer:preBuild UP-TO-DATE
 :devdrawer:preDebugBuild UP-TO-DATE
 :devdrawer:compileDebugAidl UP-TO-DATE
@@ -139,10 +144,6 @@ BUILD SUCCESSFUL in 23s
 :devdrawer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :example:preBuild UP-TO-DATE
 :example:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0-beta01/recyclerview-v7-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0-beta01/design-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0-beta01/cardview-v7-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0-beta01/transition-28.0.0-beta01.aar
 :example:compileDebugAidl
 :devdrawer:packageDebugRenderscript NO-SOURCE
 :example:compileDebugRenderscript
@@ -157,7 +158,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/transition/
 :example:splitsDiscoveryTaskDebug
 :example:processDebugResources
 :example:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
 :example:prepareLintJar
 :example:generateDebugSources
 :example:javaPreCompileDebug
@@ -173,8 +174,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/
 :example:generateDebugAssets
 :example:mergeDebugAssets
 :example:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
 :example:transformDexArchiveWithExternalLibsDexMergerForDebug
 :example:transformDexArchiveWithDexMergerForDebug
 :devdrawer:compileDebugNdk NO-SOURCE
@@ -221,7 +220,7 @@ D8: Stripped invalid locals information from 1 method.
 :example:splitsDiscoveryTaskRelease
 :example:processReleaseResources
 :example:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/src/main/java/antonkozyriatskyi/devdrawerexample/DslDrawerActivity.kt: (88, 47): Parameter 'fromUser' is never used, could be renamed to _
 :example:generateReleaseSources
 :example:javaPreCompileRelease
 :example:compileReleaseJavaWithJavac
@@ -254,7 +253,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/
 :example:assemble
 :example:build
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 31s
 95 actionable tasks: 59 executed, 36 up-to-date
 
-2019-11-30 17:15:49,390 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575108835890-0/src/DevDrawer-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-12-03 15:05:36,510 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575360266488-0/src/DevDrawer-master/example/build/outputs/apk/release/example-release-unsigned.apk
