@@ -1,34 +1,37 @@
-2019-11-28 14:02:08,469 INFO  DownloadService - Downloading "https://github.com/gm4s/MediaPickerInstagram/archive/master.zip", attempt 3
-2019-11-28 14:02:13,450 INFO  DownloadService - Downloaded https://github.com/gm4s/MediaPickerInstagram/archive/master.zip, attempt 3
-2019-11-28 14:02:13,450 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/master.zip": 148 KB
-2019-11-28 14:02:13,450 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 14:02:13,456 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/master.zip: true
-2019-11-28 14:02:13,456 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src'.
-2019-11-28 14:02:13,472 INFO  FullProcessService - Size of directory with sources: 166 KB
-2019-11-28 14:02:13,473 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src]
-2019-11-28 14:02:13,490 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/.git/
+2019-12-03 14:22:32,668 INFO  DownloadService - Downloading "https://github.com/gm4s/MediaPickerInstagram/archive/master.zip", attempt 3
+2019-12-03 14:23:33,244 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-03 14:23:34,239 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-03 14:23:34,239 INFO  DownloadService - Downloading "https://github.com/gm4s/MediaPickerInstagram/archive/master.zip", attempt 3
+2019-12-03 14:24:35,953 DEBUG FullProcessService - Repository https://github.com/gm4s/MediaPickerInstagram available: true
+2019-12-03 14:24:35,953 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-03 14:24:35,954 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gm4s/MediaPickerInstagram, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src]
+2019-12-03 14:24:37,979 INFO  SysUtils - 
+2019-12-03 14:24:38,019 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/.git": true
+2019-12-03 14:24:38,021 INFO  FullProcessService - Size of directory with sources: 166 KB
+2019-12-03 14:24:38,021 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src]
+2019-12-03 14:24:38,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/.git/
 
-2019-11-28 14:02:13,493 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/gradlew
-2019-11-28 14:02:13,496 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle
-2019-11-28 14:02:13,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/settings.gradle
-2019-11-28 14:02:13,499 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 14:02:13,499 INFO  ProjectFixService - Fixing project...
-2019-11-28 14:02:13,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/local.properties
-2019-11-28 14:02:13,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-11-28 14:02:13,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-11-28 14:02:13,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/local.properties
-2019-11-28 14:02:13,507 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-11-28 14:02:13,507 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-11-28 14:02:13,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-11-28 14:02:13,509 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-11-28 14:02:13,509 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 14:02:13,509 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 14:02:13,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 14:02:20,692 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-28 14:02:20,692 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-28 14:02:20,692 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-28 14:02:20,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-28 14:02:26,244 ERROR SysUtils - Could not process external command
+2019-12-03 14:24:38,044 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/gradlew
+2019-12-03 14:24:38,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle
+2019-12-03 14:24:38,049 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/settings.gradle
+2019-12-03 14:24:38,050 INFO  ProjectBuildService - Remote scripts: none
+2019-12-03 14:24:38,050 INFO  ProjectFixService - Fixing project...
+2019-12-03 14:24:38,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/local.properties
+2019-12-03 14:24:38,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-12-03 14:24:38,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-12-03 14:24:38,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/local.properties
+2019-12-03 14:24:38,058 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-12-03 14:24:38,059 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-12-03 14:24:38,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-12-03 14:24:38,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-12-03 14:24:38,060 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 14:24:38,060 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 14:24:38,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 14:24:43,879 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-03 14:24:43,879 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-03 14:24:43,879 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-03 14:24:43,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-03 14:24:50,453 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 14:02:26,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 14:24:50,453 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -185,22 +188,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-11-28 14:02:26,248 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 14:02:26,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 14:02:31,937 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-28 14:02:31,937 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-28 14:02:31,937 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-28 14:02:31,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924528465-0/src/MediaPickerInstagram-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-28 14:02:37,155 ERROR SysUtils - Could not process external command
+2019-12-03 14:24:50,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 14:24:50,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 14:24:56,387 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-03 14:24:56,387 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-03 14:24:56,387 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-03 14:24:56,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357752659-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-03 14:25:02,262 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -228,7 +231,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 14:02:37,155 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 14:25:02,262 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -357,7 +360,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -366,5 +369,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-11-28 14:02:37,158 ERROR FullProcessService - Project build has not produced APK file
-2019-11-28 14:02:37,161 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-03 14:25:02,265 ERROR FullProcessService - Project build has not produced APK file
+2019-12-03 14:25:02,268 ERROR FullProcessService - Could not find generated or existed APK file

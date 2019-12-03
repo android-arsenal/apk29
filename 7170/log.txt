@@ -1,37 +1,40 @@
-2019-11-28 14:04:08,237 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
-2019-11-28 14:04:10,235 INFO  DownloadService - Downloaded https://github.com/romellfudi/FudiSharePreference/archive/master.zip, attempt 3
-2019-11-28 14:04:10,235 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/master.zip": 158 KB
-2019-11-28 14:04:10,235 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 14:04:10,241 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/master.zip: true
-2019-11-28 14:04:10,241 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src'.
-2019-11-28 14:04:10,260 INFO  FullProcessService - Size of directory with sources: 191 KB
-2019-11-28 14:04:10,261 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src]
-2019-11-28 14:04:10,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/.git/
+2019-12-03 14:25:02,300 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
+2019-12-03 14:26:02,873 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-03 14:26:03,856 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-03 14:26:03,857 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
+2019-12-03 14:27:05,683 DEBUG FullProcessService - Repository https://github.com/romellfudi/FudiSharePreference available: true
+2019-12-03 14:27:05,683 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-03 14:27:05,683 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/romellfudi/FudiSharePreference, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src]
+2019-12-03 14:27:07,894 INFO  SysUtils - 
+2019-12-03 14:27:07,925 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/.git": true
+2019-12-03 14:27:07,928 INFO  FullProcessService - Size of directory with sources: 191 KB
+2019-12-03 14:27:07,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src]
+2019-12-03 14:27:07,945 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/.git/
 
-2019-11-28 14:04:10,283 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/gradlew
-2019-11-28 14:04:10,286 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/build.gradle
-2019-11-28 14:04:10,289 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/settings.gradle
-2019-11-28 14:04:10,290 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-11-28 14:04:10,391 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-11-28 14:04:10,391 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-11-28 14:04:10,491 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-11-28 14:04:10,491 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-11-28 14:04:10,492 INFO  ProjectFixService - Fixing project...
-2019-11-28 14:04:10,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/local.properties
-2019-11-28 14:04:10,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-28 14:04:10,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/fudi-store/local.properties
-2019-11-28 14:04:10,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/fudi-store/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-28 14:04:10,504 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/local.properties
-2019-11-28 14:04:10,504 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-11-28 14:04:10,505 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-11-28 14:04:10,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-28 14:04:10,506 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 14:04:10,506 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 14:04:10,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 14:04:17,784 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-11-28 14:04:17,784 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 14:04:17,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 14:04:22,786 ERROR SysUtils - Could not process external command
+2019-12-03 14:27:07,948 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew
+2019-12-03 14:27:07,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle
+2019-12-03 14:27:07,952 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/settings.gradle
+2019-12-03 14:27:07,952 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-03 14:27:08,897 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-03 14:27:08,898 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-03 14:27:09,454 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-03 14:27:09,455 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-03 14:27:09,455 INFO  ProjectFixService - Fixing project...
+2019-12-03 14:27:09,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/local.properties
+2019-12-03 14:27:09,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-12-03 14:27:09,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/local.properties
+2019-12-03 14:27:09,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-12-03 14:27:09,467 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/local.properties
+2019-12-03 14:27:09,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-12-03 14:27:09,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-12-03 14:27:09,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-12-03 14:27:09,468 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 14:27:09,468 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 14:27:09,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 14:27:16,883 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-12-03 14:27:16,883 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-03 14:27:16,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-03 14:27:23,189 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 14:04:22,786 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 14:27:23,189 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -143,11 +146,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 
-2019-11-28 14:04:22,786 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-11-28 14:04:22,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-28 14:04:57,871 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 14:27:23,190 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-03 14:27:23,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-03 14:27:49,715 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
@@ -223,11 +226,10 @@ BUILD FAILED in 4s
 > Task :app:assemble
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/8543ea84f96b8af27f01c5c6084ddad1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 5 issues found
 Ran lint on variant debug: 5 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/reports/lint-results.xml
 
 > Task :app:generateDebugUnitTestSources
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
@@ -245,7 +247,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 > Task :app:check
 > Task :app:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 25s
 57 actionable tasks: 57 executed
 
-2019-11-28 14:04:57,926 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574924648233-0/src/FudiSharePreference-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-03 14:27:49,769 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,54 +1,48 @@
-2019-06-09 20:03:18,305 INFO  DownloadService - Downloading "https://github.com/liip/SweetPreferences/archive/master.zip", attempt 3
-2019-06-09 20:03:20,339 INFO  DownloadService - Downloaded https://github.com/liip/SweetPreferences/archive/master.zip, attempt 3
-2019-06-09 20:03:20,339 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/master.zip": 139 KB
-2019-06-09 20:03:20,339 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-09 20:03:20,344 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/master.zip: true
-2019-06-09 20:03:20,345 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src'.
-2019-06-09 20:03:20,359 INFO  FullProcessService - Size of directory with sources: 154 KB
-2019-06-09 20:03:20,359 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src]
-2019-06-09 20:03:20,375 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/.git/
+2019-12-03 14:19:39,493 INFO  DownloadService - Downloading "https://github.com/liip/SweetPreferences/archive/master.zip", attempt 3
+2019-12-03 14:20:40,108 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-03 14:20:41,716 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-03 14:20:41,716 INFO  DownloadService - Downloading "https://github.com/liip/SweetPreferences/archive/master.zip", attempt 3
+2019-12-03 14:21:43,287 DEBUG FullProcessService - Repository https://github.com/liip/SweetPreferences available: true
+2019-12-03 14:21:43,287 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-03 14:21:43,287 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/liip/SweetPreferences, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src]
+2019-12-03 14:21:45,505 INFO  SysUtils - 
+2019-12-03 14:21:45,529 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/.git": true
+2019-12-03 14:21:45,531 INFO  FullProcessService - Size of directory with sources: 154 KB
+2019-12-03 14:21:45,531 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src]
+2019-12-03 14:21:45,549 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/.git/
 
-2019-06-09 20:03:20,378 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/gradlew
-2019-06-09 20:03:20,380 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/build.gradle
-2019-06-09 20:03:20,381 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/settings.gradle
-2019-06-09 20:03:20,382 INFO  ProjectBuildService - Remote scripts: none
-2019-06-09 20:03:20,382 INFO  ProjectFixService - Fixing project...
-2019-06-09 20:03:20,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/local.properties
-2019-06-09 20:03:20,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/library/local.properties
-2019-06-09 20:03:20,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,388 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/local.properties
-2019-06-09 20:03:20,389 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-09 20:03:20,389 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-09 20:03:20,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-09 20:03:20,390 INFO  ProjectFixService - Project was maybe fixed
-2019-06-09 20:03:20,391 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-09 20:03:20,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-09 20:03:26,715 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-09 20:03:26,715 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-09 20:03:26,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-09 20:04:00,478 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :library
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-12-03 14:21:45,551 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/gradlew
+2019-12-03 14:21:45,553 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/build.gradle
+2019-12-03 14:21:45,555 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/settings.gradle
+2019-12-03 14:21:45,555 INFO  ProjectBuildService - Remote scripts: none
+2019-12-03 14:21:45,555 INFO  ProjectFixService - Fixing project...
+2019-12-03 14:21:45,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/local.properties
+2019-12-03 14:21:45,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,562 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/local.properties
+2019-12-03 14:21:45,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/local.properties
+2019-12-03 14:21:45,564 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-03 14:21:45,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-03 14:21:45,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,565 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-03 14:21:45,565 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 14:21:45,565 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 14:21:45,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 14:21:52,135 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-03 14:21:52,135 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-03 14:21:52,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-03 14:22:27,985 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :demo:preDebugBuild
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :demo:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :demo:compileDebugRenderscript NO-SOURCE
 > Task :demo:checkDebugManifest
+> Task :demo:compileDebugRenderscript NO-SOURCE
 > Task :demo:generateDebugBuildConfig
 > Task :demo:mainApkListPersistenceDebug
 > Task :demo:generateDebugResValues
@@ -57,24 +51,12 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :demo:mergeDebugResources
 > Task :demo:createDebugCompatibleScreenManifests
-> Task :demo:processDebugManifest
-> Task :library:generateDebugRFile
-> Task :demo:processDebugResources
+> Task :library:checkDebugManifest
+> Task :demo:mergeDebugResources
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugKotlin
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:bundleLibCompileDebug
-> Task :demo:compileDebugKotlin
-> Task :demo:prepareLintJar
-> Task :demo:generateDebugSources
-> Task :demo:javaPreCompileDebug
-> Task :demo:compileDebugJavaWithJavac
-> Task :demo:compileDebugSources
+> Task :library:processDebugManifest
+> Task :demo:processDebugManifest
 > Task :demo:mergeDebugShaders
 > Task :demo:compileDebugShaders
 > Task :demo:generateDebugAssets
@@ -83,31 +65,30 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :demo:mergeDebugAssets
+> Task :demo:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:bundleLibResDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
+> Task :library:parseDebugLibraryResources
 > Task :demo:checkDebugDuplicateClasses
-> Task :demo:mergeExtDexDebug
-> Task :demo:transformClassesWithDexBuilderForDebug
-> Task :demo:mergeDexDebug
 > Task :demo:validateSigningDebug
 > Task :demo:signingConfigWriterDebug
+> Task :library:generateDebugRFile
+> Task :demo:processDebugResources
+
+> Task :library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (90, 38): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (90, 56): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
 > Task :demo:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :demo:mergeExtDexDebug
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
-> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :demo:processDebugJavaRes NO-SOURCE
-> Task :demo:transformResourcesWithMergeJavaResForDebug
-> Task :demo:packageDebug
-> Task :demo:assembleDebug
+> Task :demo:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :demo:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :demo:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
@@ -121,32 +102,22 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :demo:mergeReleaseResources
 > Task :demo:createReleaseCompatibleScreenManifests
-> Task :demo:processReleaseManifest
-> Task :library:generateReleaseRFile
-> Task :demo:processReleaseResources
+> Task :library:checkReleaseManifest
+> Task :library:bundleLibResDebug
+> Task :demo:mergeReleaseResources
 > Task :library:generateReleaseBuildConfig
-> Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:bundleLibCompileRelease
-> Task :demo:compileReleaseKotlin
-> Task :demo:generateReleaseSources
-> Task :demo:javaPreCompileRelease
-> Task :demo:compileReleaseJavaWithJavac
-> Task :demo:compileReleaseSources
+> Task :demo:prepareLintJar
+> Task :library:bundleLibRuntimeDebug
 > Task :library:prepareLintJarForPublish
-> Task :demo:lintVitalRelease
+> Task :library:createFullJarDebug
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
 > Task :demo:checkReleaseDuplicateClasses
-> Task :demo:mergeExtDexRelease
-> Task :demo:transformClassesWithDexBuilderForRelease
-> Task :demo:mergeDexRelease
+> Task :library:parseReleaseLibraryResources
+> Task :library:processReleaseManifest
+> Task :demo:processReleaseManifest
+> Task :library:bundleLibCompileDebug
+> Task :demo:compileDebugKotlin
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
 > Task :demo:generateReleaseAssets
@@ -155,26 +126,61 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :demo:mergeReleaseAssets
+> Task :demo:processReleaseJavaRes NO-SOURCE
 > Task :demo:signingConfigWriterRelease
 > Task :demo:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:generateReleaseRFile
+> Task :demo:processReleaseResources
+
+> Task :library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (90, 38): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/library/src/main/java/ch/liip/sweetpreferences/SweetPreferences.kt: (90, 56): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
+> Task :demo:mergeDebugNativeLibs
+> Task :demo:stripDebugDebugSymbols
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:bundleLibCompileRelease
+> Task :demo:compileReleaseKotlin
+> Task :library:mergeReleaseNativeLibs
+> Task :library:bundleLibResRelease
+> Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
-> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :demo:processReleaseJavaRes NO-SOURCE
-> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseSources
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a2e078e71433362506f9be4570629d9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:mergeExtDexRelease
+> Task :demo:mergeReleaseNativeLibs
+> Task :demo:stripReleaseDebugSymbols
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugSources
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:mergeReleaseJavaResource
+> Task :demo:mergeDebugJavaResource
+> Task :demo:mergeDexRelease
 > Task :demo:packageRelease
 > Task :demo:assembleRelease
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
 > Task :demo:assemble
 > Task :demo:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
-95 actionable tasks: 95 executed
+BUILD SUCCESSFUL in 35s
+94 actionable tasks: 94 executed
 
-2019-06-09 20:04:00,505 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560085398297-0/src/SweetPreferences-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-12-03 14:22:28,009 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357579490-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

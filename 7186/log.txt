@@ -1,66 +1,45 @@
-2019-11-28 13:22:45,808 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
-2019-11-28 13:23:46,399 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-28 13:23:48,279 INFO  GithubDownloadService - Default branch of this repository: master
-2019-11-28 13:23:48,279 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
-2019-11-28 13:24:49,742 DEBUG FullProcessService - Repository https://github.com/andhikayuana/simple-pie-chart-android available: true
-2019-11-28 13:24:49,742 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-11-28 13:24:49,742 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andhikayuana/simple-pie-chart-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src]
-2019-11-28 13:24:53,464 INFO  SysUtils - 
-2019-11-28 13:24:53,495 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/.git": true
-2019-11-28 13:24:53,498 INFO  FullProcessService - Size of directory with sources: 215 KB
-2019-11-28 13:24:53,498 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src]
-2019-11-28 13:24:53,519 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/.git/
+2019-12-03 14:16:43,282 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
+2019-12-03 14:17:43,810 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-03 14:17:45,084 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-03 14:17:45,084 INFO  DownloadService - Downloading "https://github.com/andhikayuana/simple-pie-chart-android/archive/master.zip", attempt 3
+2019-12-03 14:18:46,649 DEBUG FullProcessService - Repository https://github.com/andhikayuana/simple-pie-chart-android available: true
+2019-12-03 14:18:46,649 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-03 14:18:46,649 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andhikayuana/simple-pie-chart-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src]
+2019-12-03 14:18:48,876 INFO  SysUtils - 
+2019-12-03 14:18:48,909 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/.git": true
+2019-12-03 14:18:48,912 INFO  FullProcessService - Size of directory with sources: 215 KB
+2019-12-03 14:18:48,912 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src]
+2019-12-03 14:18:48,932 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/.git/
 
-2019-11-28 13:24:53,521 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/gradlew
-2019-11-28 13:24:53,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/build.gradle
-2019-11-28 13:24:53,526 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/settings.gradle
-2019-11-28 13:24:53,527 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 13:24:53,527 INFO  ProjectFixService - Fixing project...
-2019-11-28 13:24:53,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/local.properties
-2019-11-28 13:24:53,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,534 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/pie-chart/local.properties
-2019-11-28 13:24:53,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/pie-chart/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,536 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/pie-chart/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/local.properties
-2019-11-28 13:24:53,537 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-11-28 13:24:53,537 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-11-28 13:24:53,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-28 13:24:53,538 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 13:24:53,539 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 13:24:53,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 13:25:18,964 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-11-28 13:25:18,964 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 13:25:18,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 13:26:07,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 14:18:48,934 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/gradlew
+2019-12-03 14:18:48,937 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/build.gradle
+2019-12-03 14:18:48,940 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/pie-chart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/settings.gradle
+2019-12-03 14:18:48,940 INFO  ProjectBuildService - Remote scripts: none
+2019-12-03 14:18:48,940 INFO  ProjectFixService - Fixing project...
+2019-12-03 14:18:48,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/local.properties
+2019-12-03 14:18:48,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,948 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/pie-chart/local.properties
+2019-12-03 14:18:48,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/pie-chart/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/pie-chart/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/local.properties
+2019-12-03 14:18:48,950 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-12-03 14:18:48,950 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-12-03 14:18:48,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-03 14:18:48,952 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 14:18:48,952 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 14:18:48,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 14:18:55,264 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-03 14:18:55,264 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-03 14:18:55,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-03 14:19:28,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :pie-chart:preBuild UP-TO-DATE
 :pie-chart:preDebugBuild UP-TO-DATE
 :pie-chart:checkDebugManifest
 :pie-chart:processDebugManifest
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-beta01/support-core-ui-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-beta01/support-fragment-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-beta01/support-core-utils-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-beta01/animated-vector-drawable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-beta01/support-vector-drawable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-beta01/appcompat-v7-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-beta01/loader-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-beta01/viewpager-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-beta01/coordinatorlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-beta01/drawerlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-beta01/customview-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-beta01/slidingpanelayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-beta01/swiperefreshlayout-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-beta01/asynclayoutinflater-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-beta01/support-compat-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-beta01/versionedparcelable-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-beta01/documentfile-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-beta01/print-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-beta01/cursoradapter-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-beta01/interpolator-28.0.0-beta01.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-beta01/localbroadcastmanager-28.0.0-beta01.aar
 :pie-chart:compileDebugAidl
 :app:compileDebugAidl
 :pie-chart:packageDebugRenderscript NO-SOURCE
@@ -142,9 +121,6 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadc
 :pie-chart:generateDebugRFile
 :app:processDebugResources
 :pie-chart:compileDebugKotlin
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-beta01/collections-28.0.0-beta01.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-beta01/support-annotations-28.0.0-beta01.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.30/kotlin-stdlib-jre7-1.2.30.jar
 :pie-chart:generateDebugSources
 :pie-chart:javaPreCompileDebug
 :pie-chart:compileDebugJavaWithJavac
@@ -155,8 +131,6 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -188,7 +162,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 47s
+BUILD SUCCESSFUL in 32s
 95 actionable tasks: 95 executed
 
-2019-11-28 13:26:07,776 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574922165800-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-12-03 14:19:28,963 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357403279-0/src/app/build/outputs/apk/debug/app-debug.apk
