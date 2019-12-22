@@ -1,87 +1,544 @@
-2019-09-26 14:13:32,695 INFO  DownloadService - Downloading "https://github.com/mars885/persistentsearchview/archive/master.zip", attempt 3
-2019-09-26 14:13:33,372 INFO  DownloadService - Downloaded https://github.com/mars885/persistentsearchview/archive/master.zip, attempt 3
-2019-09-26 14:13:33,372 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/master.zip": 504 KB
-2019-09-26 14:13:33,372 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 14:13:33,378 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/master.zip: true
-2019-09-26 14:13:33,378 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src'.
-2019-09-26 14:13:33,474 INFO  FullProcessService - Size of directory with sources: 740 KB
-2019-09-26 14:13:33,474 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src]
-2019-09-26 14:13:33,493 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/.git/
+2019-12-22 22:32:45,044 INFO  DownloadService - Downloading "https://github.com/mars885/persistentsearchview/archive/master.zip", attempt 3
+2019-12-22 22:32:47,973 INFO  DownloadService - Downloaded https://github.com/mars885/persistentsearchview/archive/master.zip, attempt 3
+2019-12-22 22:32:47,974 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/master.zip": 504 KB
+2019-12-22 22:32:47,974 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-22 22:32:47,975 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/master.zip: true
+2019-12-22 22:32:47,976 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src'.
+2019-12-22 22:32:48,053 INFO  FullProcessService - Size of directory with sources: 740 KB
+2019-12-22 22:32:48,053 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src]
+2019-12-22 22:32:48,086 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/.git/
 
-2019-09-26 14:13:33,499 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradlew
-2019-09-26 14:13:33,506 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/build.gradle
-2019-09-26 14:13:33,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/settings.gradle
-2019-09-26 14:13:33,513 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 14:13:33,514 INFO  ProjectFixService - Fixing project...
-2019-09-26 14:13:33,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/local.properties
-2019-09-26 14:13:33,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/local.properties
-2019-09-26 14:13:33,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,537 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/local.properties
-2019-09-26 14:13:33,539 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-26 14:13:33,540 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-26 14:13:33,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=28]
-2019-09-26 14:13:33,545 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 14:13:33,545 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 14:13:33,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 14:13:42,812 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-09-26 14:13:42,812 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-26 14:13:42,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-26 14:14:02,247 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 22:32:48,093 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradlew
+2019-12-22 22:32:48,100 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/build.gradle
+2019-12-22 22:32:48,106 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/settings.gradle
+2019-12-22 22:32:48,106 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 22:32:48,106 INFO  ProjectFixService - Fixing project...
+2019-12-22 22:32:48,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/local.properties
+2019-12-22 22:32:48,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/local.properties
+2019-12-22 22:32:48,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,128 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/local.properties
+2019-12-22 22:32:48,129 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 22:32:48,130 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 22:32:48,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,133 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:32:48,133 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 22:32:48,133 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:32:48,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:32:56,539 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-12-22 22:32:56,539 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-22 22:32:56,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-22 22:33:15,134 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :persistentsearchview:preBuild UP-TO-DATE
 > Task :persistentsearchview:preDebugBuild UP-TO-DATE
 > Task :persistentsearchview:checkDebugManifest
 > Task :persistentsearchview:generateDebugBuildConfig
 > Task :persistentsearchview:generateDebugResValues
-> Task :persistentsearchview:processDebugManifest
-> Task :persistentsearchview:prepareLintJar
-> Task :persistentsearchview:mergeDebugConsumerProguardFiles
 > Task :persistentsearchview:mergeDebugShaders
 > Task :persistentsearchview:compileDebugShaders
+> Task :persistentsearchview:generateDebugAssets
+> Task :persistentsearchview:packageDebugAssets
+> Task :persistentsearchview:packageDebugRenderscript NO-SOURCE
+> Task :persistentsearchview:javaPreCompileDebug
+> Task :persistentsearchview:processDebugJavaRes NO-SOURCE
+> Task :persistentsearchview:mergeDebugJniLibFolders
+> Task :persistentsearchview:preReleaseBuild UP-TO-DATE
+> Task :persistentsearchview:checkReleaseManifest
+> Task :persistentsearchview:generateReleaseBuildConfig
+> Task :persistentsearchview:generateReleaseResValues
+> Task :persistentsearchview:processDebugManifest
+> Task :persistentsearchview:mergeDebugNativeLibs
+> Task :persistentsearchview:stripDebugDebugSymbols
+> Task :persistentsearchview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :persistentsearchview:compileDebugAidl NO-SOURCE
 > Task :persistentsearchview:compileDebugRenderscript NO-SOURCE
 > Task :persistentsearchview:generateDebugResources
 > Task :persistentsearchview:packageDebugResources
-> Task :persistentsearchview:generateDebugRFile
-> Task :persistentsearchview:generateDebugSources
-> Task :persistentsearchview:javaPreCompileDebug
-
-> Task :persistentsearchview:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :persistentsearchview:extractDebugAnnotations
-> Task :persistentsearchview:generateDebugAssets
-> Task :persistentsearchview:packageDebugAssets
-> Task :persistentsearchview:packageDebugRenderscript NO-SOURCE
-> Task :persistentsearchview:prepareLintJarForPublish
-> Task :persistentsearchview:processDebugJavaRes NO-SOURCE
-> Task :persistentsearchview:transformResourcesWithMergeJavaResForDebug
-> Task :persistentsearchview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :persistentsearchview:mergeDebugJniLibFolders
-> Task :persistentsearchview:transformNativeLibsWithMergeJniLibsForDebug
-> Task :persistentsearchview:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :persistentsearchview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :persistentsearchview:bundleDebugAar
-> Task :persistentsearchview:compileDebugSources
-> Task :persistentsearchview:assembleDebug
-> Task :persistentsearchview:preReleaseBuild UP-TO-DATE
 > Task :persistentsearchview:compileReleaseAidl NO-SOURCE
 > Task :persistentsearchview:compileReleaseRenderscript NO-SOURCE
-> Task :persistentsearchview:checkReleaseManifest
-> Task :persistentsearchview:generateReleaseBuildConfig
-> Task :persistentsearchview:generateReleaseResValues
 > Task :persistentsearchview:generateReleaseResources
 > Task :persistentsearchview:packageReleaseResources
+> Task :persistentsearchview:mergeReleaseShaders
+> Task :persistentsearchview:compileReleaseShaders
+> Task :persistentsearchview:generateReleaseAssets
+> Task :persistentsearchview:packageReleaseAssets
+> Task :persistentsearchview:packageReleaseRenderscript NO-SOURCE
+> Task :persistentsearchview:processReleaseJavaRes NO-SOURCE
+> Task :persistentsearchview:parseDebugLibraryResources
+> Task :persistentsearchview:mergeReleaseJniLibFolders
 > Task :persistentsearchview:processReleaseManifest
-> Task :persistentsearchview:generateReleaseRFile
-> Task :persistentsearchview:generateReleaseSources
+> Task :persistentsearchview:prepareLintJarForPublish
+> Task :persistentsearchview:parseReleaseLibraryResources
+> Task :persistentsearchview:mergeReleaseNativeLibs
+> Task :persistentsearchview:stripReleaseDebugSymbols
+> Task :persistentsearchview:transformNativeLibsWithSyncJniLibsForRelease
 > Task :persistentsearchview:javaPreCompileRelease
+
+> Task :persistentsearchview:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Preconditions.java:28: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:25: error: cannot find symbol
+import com.paulrybitskyi.persistentsearchview.R;
+                                             ^
+  symbol:   class R
+  location: package com.paulrybitskyi.persistentsearchview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:27: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:41: error: cannot find symbol
+import androidx.annotation.DrawableRes;
+                          ^
+  symbol:   class DrawableRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:42: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:43: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:44: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:45: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:192: error: cannot find symbol
+    public static void disableRecyclerViewAnimations(RecyclerView recyclerView) {
+                                                     ^
+  symbol:   class RecyclerView
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:26: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:28: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:32: error: package com.arthurivanets.adapster does not exist
+import com.arthurivanets.adapster.Adapter;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:33: error: package com.arthurivanets.adapster.listeners does not exist
+import com.arthurivanets.adapster.listeners.ItemClickListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:34: error: package com.arthurivanets.adapster.listeners does not exist
+import com.arthurivanets.adapster.listeners.OnItemClickListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:35: error: package com.arthurivanets.adapster.model does not exist
+import com.arthurivanets.adapster.model.BaseItem;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:36: error: package com.arthurivanets.adapster.model.markers does not exist
+import com.arthurivanets.adapster.model.markers.Trackable;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:37: error: cannot find symbol
+import com.paulrybitskyi.persistentsearchview.R;
+                                             ^
+  symbol:   class R
+  location: package com.paulrybitskyi.persistentsearchview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:43: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:44: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:52: error: cannot find symbol
+public class SuggestionItem extends BaseItem<Suggestion, SuggestionItem.ViewHolder, SuggestionItemResources> implements Trackable<Long> {
+                                    ^
+  symbol: class BaseItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:233: error: package BaseItem does not exist
+    public static class ViewHolder extends BaseItem.ViewHolder<Suggestion> {
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:25: error: package com.arthurivanets.adapster.markers does not exist
+import com.arthurivanets.adapster.markers.ItemResources;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:28: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:29: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:34: error: cannot find symbol
+public class SuggestionItemResources implements ItemResources {
+                                                ^
+  symbol: class ItemResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:52: error: cannot find symbol
+public class SuggestionItem extends BaseItem<Suggestion, SuggestionItem.ViewHolder, SuggestionItemResources> implements Trackable<Long> {
+                                                                                                                        ^
+  symbol: class Trackable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:106: error: cannot find symbol
+    public ViewHolder init(Adapter adapter,
+                           ^
+  symbol:   class Adapter
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:118: error: cannot find symbol
+    public void bind(@Nullable Adapter adapter,
+                               ^
+  symbol:   class Adapter
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:185: error: cannot find symbol
+    public void setOnItemClickListener(ViewHolder viewHolder, OnItemClickListener<SuggestionItem> onItemClickListener) {
+                                                              ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:202: error: cannot find symbol
+    public void setOnItemRemoveButtonClickListener(ViewHolder viewHolder, OnItemClickListener<SuggestionItem> onItemRemoveButtonClickListener) {
+                                                                          ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:32: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:33: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:46: error: cannot find symbol
+    private AppCompatActivity mSupportActivity;
+            ^
+  symbol:   class AppCompatActivity
+  location: class VoiceRecognitionDelegate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:49: error: package androidx.fragment.app does not exist
+    private androidx.fragment.app.Fragment mSupportFragment;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:63: error: cannot find symbol
+    public VoiceRecognitionDelegate(@NonNull AppCompatActivity activity) {
+                                             ^
+  symbol:   class AppCompatActivity
+  location: class VoiceRecognitionDelegate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:81: error: package androidx.fragment.app does not exist
+    public VoiceRecognitionDelegate(@NonNull androidx.fragment.app.Fragment fragment) {
+                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:47: error: package com.arthurivanets.adapster.listeners does not exist
+import com.arthurivanets.adapster.listeners.OnItemClickListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:70: error: cannot find symbol
+import androidx.annotation.CallSuper;
+                          ^
+  symbol:   class CallSuper
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:71: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:72: error: cannot find symbol
+import androidx.annotation.DrawableRes;
+                          ^
+  symbol:   class DrawableRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:73: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:74: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:75: error: package androidx.cardview.widget does not exist
+import androidx.cardview.widget.CardView;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:76: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:77: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.LinearLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:78: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:24: error: package com.arthurivanets.adapster.listeners does not exist
+import com.arthurivanets.adapster.listeners.OnItemClickListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:25: error: package com.arthurivanets.adapster.markers does not exist
+import com.arthurivanets.adapster.markers.ItemResources;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:26: error: package com.arthurivanets.adapster.recyclerview does not exist
+import com.arthurivanets.adapster.recyclerview.TrackableRecyclerViewAdapter;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:33: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:38: error: cannot find symbol
+public class SuggestionsRecyclerViewAdapter extends TrackableRecyclerViewAdapter<Long, SuggestionItem, SuggestionItem.ViewHolder> {
+                                                    ^
+  symbol: class TrackableRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/widgets/AdvancedEditText.java:27: error: package androidx.appcompat.widget does not exist
+import androidx.appcompat.widget.AppCompatEditText;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/widgets/AdvancedEditText.java:32: error: cannot find symbol
+public class AdvancedEditText extends AppCompatEditText {
+                                      ^
+  symbol: class AppCompatEditText
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:175: error: cannot find symbol
+    private CardView mCardView;
+            ^
+  symbol:   class CardView
+  location: class PersistentSearchView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:183: error: cannot find symbol
+    private RecyclerView mSuggestionsRecyclerView;
+            ^
+  symbol:   class RecyclerView
+  location: class PersistentSearchView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/animations/BackgroundDimmingAnimation.java:30: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/animations/BackgroundDimmingAnimation.java:31: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2768: error: cannot find symbol
+    private final OnItemClickListener<SuggestionItem> mOnSuggestionClickListener = new OnItemClickListener<SuggestionItem>() {
+                  ^
+  symbol:   class OnItemClickListener
+  location: class PersistentSearchView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2785: error: cannot find symbol
+    private final OnItemClickListener<SuggestionItem> mOnRemoveButtonClickListener = new OnItemClickListener<SuggestionItem>() {
+                  ^
+  symbol:   class OnItemClickListener
+  location: class PersistentSearchView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2823: error: package RecyclerView does not exist
+    private final RecyclerView.OnScrollListener mSuggestionsRecyclerViewScrollListener = new RecyclerView.OnScrollListener() {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:41: error: cannot find symbol
+    private ItemResources mResources;
+            ^
+  symbol:   class ItemResources
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:43: error: cannot find symbol
+    private OnItemClickListener<SuggestionItem> mOnItemClickListener;
+            ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:44: error: cannot find symbol
+    private OnItemClickListener<SuggestionItem> mOnItemRemoveButtonClickListener;
+            ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:75: error: cannot find symbol
+    public final void setOnItemClickListener(OnItemClickListener<SuggestionItem> onItemClickListener) {
+                                             ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:87: error: cannot find symbol
+    public final void setOnItemRemoveButtonClickListener(OnItemClickListener<SuggestionItem> onItemRemoveButtonClickListener) {
+                                                         ^
+  symbol:   class OnItemClickListener
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:110: error: cannot find symbol
+    public final ItemResources getResources() {
+                 ^
+  symbol:   class ItemResources
+  location: class SuggestionsRecyclerViewAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/listeners/AnimatorListenerDecorator.java:24: error: cannot find symbol
+import androidx.annotation.CallSuper;
+                          ^
+  symbol:   class CallSuper
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/listeners/AnimatorListenerDecorator.java:25: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Preconditions.java:59: error: cannot find symbol
+    public static void isTrue(@NonNull String info, boolean condition) {
+                               ^
+  symbol:   class NonNull
+  location: class Preconditions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:42: error: cannot find symbol
+    public static void cancelAllAnimations(@NonNull View view) {
+                                            ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:58: error: cannot find symbol
+    public static void updateHeight(@NonNull View view, int height) {
+                                     ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:75: error: cannot find symbol
+    public static void makeVisible(@NonNull View view) {
+                                    ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:87: error: cannot find symbol
+    public static void makeInvisible(@NonNull View view) {
+                                      ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:99: error: cannot find symbol
+    public static void makeGone(@NonNull View view) {
+                                 ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:112: error: cannot find symbol
+    public static void setVisibility(@NonNull View view, int visibility) {
+                                      ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:128: error: cannot find symbol
+    public static int getVisibility(@NonNull View view) {
+                                     ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:142: error: cannot find symbol
+    public static void setScale(@NonNull View view, float scale) {
+                                 ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:158: error: cannot find symbol
+    public static void setVisibilityMarker(@NonNull View view, boolean isVisible) {
+                                            ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:174: error: cannot find symbol
+    public static boolean getVisibilityMarker(@NonNull View view) {
+                                               ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:191: error: cannot find symbol
+    public static void setAnimationMarker(@NonNull View view, Object marker) {
+                                           ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:207: error: cannot find symbol
+    public static <T> T getAnimationMarker(@NonNull View view) {
+                                            ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:222: error: cannot find symbol
+    public static boolean isVisible(@NonNull View view) {
+                                     ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:236: error: cannot find symbol
+    public static boolean isInvisible(@NonNull View view) {
+                                       ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:250: error: cannot find symbol
+    public static boolean isGone(@NonNull View view) {
+                                  ^
+  symbol:   class NonNull
+  location: class ViewUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:76: error: cannot find symbol
+    public static Drawable getColoredDrawable(Context context, @DrawableRes int drawableResId, int color) {
+                                                                ^
+  symbol:   class DrawableRes
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:159: error: cannot find symbol
+    public static void setProgressBarColor(@NonNull ProgressBar progressBar, int color) {
+                                            ^
+  symbol:   class NonNull
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:209: error: cannot find symbol
+    public static int adjustColorAlpha(int color, @FloatRange(from = 0.0, to = 1.0) float alpha) {
+                                                   ^
+  symbol:   class FloatRange
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:250: error: cannot find symbol
+    public static boolean isSpeechRecognitionAvailable(@NonNull Context context) {
+                                                        ^
+  symbol:   class NonNull
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:41: error: cannot find symbol
+    public static void showKeyboard(@NonNull View view) {
+                                     ^
+  symbol:   class NonNull
+  location: class KeyboardManagingUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:59: error: cannot find symbol
+    public static void hideKeyboard(@NonNull View view) {
+                                     ^
+  symbol:   class NonNull
+  location: class KeyboardManagingUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:47: error: cannot find symbol
+    public static List<SuggestionItem> asRecentSearchSuggestions(@NonNull List<String> rawSuggestions) {
+                                                                  ^
+  symbol:   class NonNull
+  location: class SuggestionCreationUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:62: error: cannot find symbol
+    public static List<SuggestionItem> asRegularSearchSuggestions(@NonNull List<String> rawSuggestions) {
+                                                                   ^
+  symbol:   class NonNull
+  location: class SuggestionCreationUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:78: error: cannot find symbol
+    private static List<SuggestionItem> fromRawSuggestions(@NonNull String suggestionType, @NonNull List<String> rawSuggestions) {
+                                                            ^
+  symbol:   class NonNull
+  location: class SuggestionCreationUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:78: error: cannot find symbol
+    private static List<SuggestionItem> fromRawSuggestions(@NonNull String suggestionType, @NonNull List<String> rawSuggestions) {
+                                                                                            ^
+  symbol:   class NonNull
+  location: class SuggestionCreationUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:107: error: cannot find symbol
+    public static List<SuggestionItem> asSuggestions(@NonNull List<? super Suggestion> suggestions) {
+                                                      ^
+  symbol:   class NonNull
+  location: class SuggestionCreationUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:70: error: cannot find symbol
+    public static SuggestionItem of(@NonNull String suggestionText) {
+                                     ^
+  symbol:   class NonNull
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:85: error: cannot find symbol
+    public static SuggestionItem of(long id, @NonNull String suggestionText) {
+                                              ^
+  symbol:   class NonNull
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:118: error: cannot find symbol
+    public void bind(@Nullable Adapter adapter,
+                      ^
+  symbol:   class Nullable
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:119: error: cannot find symbol
+                     @NonNull ViewHolder viewHolder,
+                      ^
+  symbol:   class NonNull
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:120: error: cannot find symbol
+                     @Nullable SuggestionItemResources resources) {
+                      ^
+  symbol:   class Nullable
+  location: class SuggestionItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:188: error: reference not found
+     * Disables the animations of the specified {@link RecyclerView}.
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:60: error: package R does not exist
+    public static final boolean IS_AT_LEAST_OREO = (API_VERSION >= Build.VERSION_CODES.O);
+                                                     ^
+2 errors
+100 warnings
+
+> Task :persistentsearchview:mergeReleaseResources
+> Task :persistentsearchview:generateReleaseRFile
 
 > Task :persistentsearchview:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
@@ -90,543 +547,84 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :persistentsearchview:extractReleaseAnnotations
+> Task :persistentsearchview:mergeReleaseGeneratedProguardFiles
 > Task :persistentsearchview:mergeReleaseConsumerProguardFiles
-> Task :persistentsearchview:mergeReleaseShaders
-> Task :persistentsearchview:compileReleaseShaders
-> Task :persistentsearchview:generateReleaseAssets
-> Task :persistentsearchview:packageReleaseAssets
-> Task :persistentsearchview:packageReleaseRenderscript NO-SOURCE
-> Task :persistentsearchview:processReleaseJavaRes NO-SOURCE
-> Task :persistentsearchview:transformResourcesWithMergeJavaResForRelease
-> Task :persistentsearchview:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :persistentsearchview:mergeReleaseJniLibFolders
-> Task :persistentsearchview:transformNativeLibsWithMergeJniLibsForRelease
-> Task :persistentsearchview:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :persistentsearchview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :persistentsearchview:bundleReleaseAar
 > Task :persistentsearchview:compileReleaseSources
-
-> Task :persistentsearchview:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Preconditions.java:28: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:25: error: cannot find symbol
-import com.paulrybitskyi.persistentsearchview.R;
-                                             ^
-  symbol:   class R
-  location: package com.paulrybitskyi.persistentsearchview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:27: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:41: error: cannot find symbol
-import androidx.annotation.DrawableRes;
-                          ^
-  symbol:   class DrawableRes
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:42: error: cannot find symbol
-import androidx.annotation.FloatRange;
-                          ^
-  symbol:   class FloatRange
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:43: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:44: error: package androidx.core.content does not exist
-import androidx.core.content.ContextCompat;
-                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:45: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:192: error: cannot find symbol
-    public static void disableRecyclerViewAnimations(RecyclerView recyclerView) {
-                                                     ^
-  symbol:   class RecyclerView
-  location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:26: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:28: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:32: error: package com.arthurivanets.adapster does not exist
-import com.arthurivanets.adapster.Adapter;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:33: error: package com.arthurivanets.adapster.listeners does not exist
-import com.arthurivanets.adapster.listeners.ItemClickListener;
-                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:34: error: package com.arthurivanets.adapster.listeners does not exist
-import com.arthurivanets.adapster.listeners.OnItemClickListener;
-                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:35: error: package com.arthurivanets.adapster.model does not exist
-import com.arthurivanets.adapster.model.BaseItem;
-                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:36: error: package com.arthurivanets.adapster.model.markers does not exist
-import com.arthurivanets.adapster.model.markers.Trackable;
-                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:37: error: cannot find symbol
-import com.paulrybitskyi.persistentsearchview.R;
-                                             ^
-  symbol:   class R
-  location: package com.paulrybitskyi.persistentsearchview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:43: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:44: error: cannot find symbol
-import androidx.annotation.Nullable;
-                          ^
-  symbol:   class Nullable
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:52: error: cannot find symbol
-public class SuggestionItem extends BaseItem<Suggestion, SuggestionItem.ViewHolder, SuggestionItemResources> implements Trackable<Long> {
-                                    ^
-  symbol: class BaseItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:233: error: package BaseItem does not exist
-    public static class ViewHolder extends BaseItem.ViewHolder<Suggestion> {
-                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:25: error: package com.arthurivanets.adapster.markers does not exist
-import com.arthurivanets.adapster.markers.ItemResources;
-                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:28: error: cannot find symbol
-import androidx.annotation.ColorInt;
-                          ^
-  symbol:   class ColorInt
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:29: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/resources/SuggestionItemResources.java:34: error: cannot find symbol
-public class SuggestionItemResources implements ItemResources {
-                                                ^
-  symbol: class ItemResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:52: error: cannot find symbol
-public class SuggestionItem extends BaseItem<Suggestion, SuggestionItem.ViewHolder, SuggestionItemResources> implements Trackable<Long> {
-                                                                                                                        ^
-  symbol: class Trackable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:106: error: cannot find symbol
-    public ViewHolder init(Adapter adapter,
-                           ^
-  symbol:   class Adapter
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:118: error: cannot find symbol
-    public void bind(@Nullable Adapter adapter,
-                               ^
-  symbol:   class Adapter
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:185: error: cannot find symbol
-    public void setOnItemClickListener(ViewHolder viewHolder, OnItemClickListener<SuggestionItem> onItemClickListener) {
-                                                              ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:202: error: cannot find symbol
-    public void setOnItemRemoveButtonClickListener(ViewHolder viewHolder, OnItemClickListener<SuggestionItem> onItemRemoveButtonClickListener) {
-                                                                          ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:32: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:33: error: package androidx.appcompat.app does not exist
-import androidx.appcompat.app.AppCompatActivity;
-                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:46: error: cannot find symbol
-    private AppCompatActivity mSupportActivity;
-            ^
-  symbol:   class AppCompatActivity
-  location: class VoiceRecognitionDelegate
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:49: error: package androidx.fragment.app does not exist
-    private androidx.fragment.app.Fragment mSupportFragment;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:63: error: cannot find symbol
-    public VoiceRecognitionDelegate(@NonNull AppCompatActivity activity) {
-                                             ^
-  symbol:   class AppCompatActivity
-  location: class VoiceRecognitionDelegate
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/VoiceRecognitionDelegate.java:81: error: package androidx.fragment.app does not exist
-    public VoiceRecognitionDelegate(@NonNull androidx.fragment.app.Fragment fragment) {
-                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:47: error: package com.arthurivanets.adapster.listeners does not exist
-import com.arthurivanets.adapster.listeners.OnItemClickListener;
-                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:69: error: cannot find symbol
-import androidx.annotation.CallSuper;
-                          ^
-  symbol:   class CallSuper
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:70: error: cannot find symbol
-import androidx.annotation.ColorInt;
-                          ^
-  symbol:   class ColorInt
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:71: error: cannot find symbol
-import androidx.annotation.DrawableRes;
-                          ^
-  symbol:   class DrawableRes
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:72: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:73: error: cannot find symbol
-import androidx.annotation.Nullable;
-                          ^
-  symbol:   class Nullable
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:74: error: package androidx.cardview.widget does not exist
-import androidx.cardview.widget.CardView;
-                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:75: error: package androidx.core.content does not exist
-import androidx.core.content.ContextCompat;
-                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:76: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.LinearLayoutManager;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:77: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:24: error: package com.arthurivanets.adapster.listeners does not exist
-import com.arthurivanets.adapster.listeners.OnItemClickListener;
-                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:25: error: package com.arthurivanets.adapster.markers does not exist
-import com.arthurivanets.adapster.markers.ItemResources;
-                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:26: error: package com.arthurivanets.adapster.recyclerview does not exist
-import com.arthurivanets.adapster.recyclerview.TrackableRecyclerViewAdapter;
-                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:33: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:38: error: cannot find symbol
-public class SuggestionsRecyclerViewAdapter extends TrackableRecyclerViewAdapter<Long, SuggestionItem, SuggestionItem.ViewHolder> {
-                                                    ^
-  symbol: class TrackableRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/widgets/AdvancedEditText.java:27: error: package androidx.appcompat.widget does not exist
-import androidx.appcompat.widget.AppCompatEditText;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/widgets/AdvancedEditText.java:32: error: cannot find symbol
-public class AdvancedEditText extends AppCompatEditText {
-                                      ^
-  symbol: class AppCompatEditText
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:174: error: cannot find symbol
-    private CardView mCardView;
-            ^
-  symbol:   class CardView
-  location: class PersistentSearchView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:182: error: cannot find symbol
-    private RecyclerView mSuggestionsRecyclerView;
-            ^
-  symbol:   class RecyclerView
-  location: class PersistentSearchView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/animations/BackgroundDimmingAnimation.java:30: error: cannot find symbol
-import androidx.annotation.ColorInt;
-                          ^
-  symbol:   class ColorInt
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/animations/BackgroundDimmingAnimation.java:31: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2767: error: cannot find symbol
-    private final OnItemClickListener<SuggestionItem> mOnSuggestionClickListener = new OnItemClickListener<SuggestionItem>() {
-                  ^
-  symbol:   class OnItemClickListener
-  location: class PersistentSearchView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2784: error: cannot find symbol
-    private final OnItemClickListener<SuggestionItem> mOnRemoveButtonClickListener = new OnItemClickListener<SuggestionItem>() {
-                  ^
-  symbol:   class OnItemClickListener
-  location: class PersistentSearchView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/PersistentSearchView.java:2822: error: package RecyclerView does not exist
-    private final RecyclerView.OnScrollListener mSuggestionsRecyclerViewScrollListener = new RecyclerView.OnScrollListener() {
-                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:41: error: cannot find symbol
-    private ItemResources mResources;
-            ^
-  symbol:   class ItemResources
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:43: error: cannot find symbol
-    private OnItemClickListener<SuggestionItem> mOnItemClickListener;
-            ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:44: error: cannot find symbol
-    private OnItemClickListener<SuggestionItem> mOnItemRemoveButtonClickListener;
-            ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:75: error: cannot find symbol
-    public final void setOnItemClickListener(OnItemClickListener<SuggestionItem> onItemClickListener) {
-                                             ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:87: error: cannot find symbol
-    public final void setOnItemRemoveButtonClickListener(OnItemClickListener<SuggestionItem> onItemRemoveButtonClickListener) {
-                                                         ^
-  symbol:   class OnItemClickListener
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/SuggestionsRecyclerViewAdapter.java:110: error: cannot find symbol
-    public final ItemResources getResources() {
-                 ^
-  symbol:   class ItemResources
-  location: class SuggestionsRecyclerViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/listeners/AnimatorListenerDecorator.java:24: error: cannot find symbol
-import androidx.annotation.CallSuper;
-                          ^
-  symbol:   class CallSuper
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/listeners/AnimatorListenerDecorator.java:25: error: cannot find symbol
-import androidx.annotation.Nullable;
-                          ^
-  symbol:   class Nullable
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Preconditions.java:59: error: cannot find symbol
-    public static void isTrue(@NonNull String info, boolean condition) {
-                               ^
-  symbol:   class NonNull
-  location: class Preconditions
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:42: error: cannot find symbol
-    public static void cancelAllAnimations(@NonNull View view) {
-                                            ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:58: error: cannot find symbol
-    public static void updateHeight(@NonNull View view, int height) {
-                                     ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:75: error: cannot find symbol
-    public static void makeVisible(@NonNull View view) {
-                                    ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:87: error: cannot find symbol
-    public static void makeInvisible(@NonNull View view) {
-                                      ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:99: error: cannot find symbol
-    public static void makeGone(@NonNull View view) {
-                                 ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:112: error: cannot find symbol
-    public static void setVisibility(@NonNull View view, int visibility) {
-                                      ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:128: error: cannot find symbol
-    public static int getVisibility(@NonNull View view) {
-                                     ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:142: error: cannot find symbol
-    public static void setScale(@NonNull View view, float scale) {
-                                 ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:158: error: cannot find symbol
-    public static void setVisibilityMarker(@NonNull View view, boolean isVisible) {
-                                            ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:174: error: cannot find symbol
-    public static boolean getVisibilityMarker(@NonNull View view) {
-                                               ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:191: error: cannot find symbol
-    public static void setAnimationMarker(@NonNull View view, Object marker) {
-                                           ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:207: error: cannot find symbol
-    public static <T> T getAnimationMarker(@NonNull View view) {
-                                            ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:222: error: cannot find symbol
-    public static boolean isVisible(@NonNull View view) {
-                                     ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:236: error: cannot find symbol
-    public static boolean isInvisible(@NonNull View view) {
-                                       ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/ViewUtils.java:250: error: cannot find symbol
-    public static boolean isGone(@NonNull View view) {
-                                  ^
-  symbol:   class NonNull
-  location: class ViewUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:76: error: cannot find symbol
-    public static Drawable getColoredDrawable(Context context, @DrawableRes int drawableResId, int color) {
-                                                                ^
-  symbol:   class DrawableRes
-  location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:159: error: cannot find symbol
-    public static void setProgressBarColor(@NonNull ProgressBar progressBar, int color) {
-                                            ^
-  symbol:   class NonNull
-  location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:209: error: cannot find symbol
-    public static int adjustColorAlpha(int color, @FloatRange(from = 0.0, to = 1.0) float alpha) {
-                                                   ^
-  symbol:   class FloatRange
-  location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:250: error: cannot find symbol
-    public static boolean isSpeechRecognitionAvailable(@NonNull Context context) {
-                                                        ^
-  symbol:   class NonNull
-  location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:41: error: cannot find symbol
-    public static void showKeyboard(@NonNull View view) {
-                                     ^
-  symbol:   class NonNull
-  location: class KeyboardManagingUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/KeyboardManagingUtil.java:59: error: cannot find symbol
-    public static void hideKeyboard(@NonNull View view) {
-                                     ^
-  symbol:   class NonNull
-  location: class KeyboardManagingUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:47: error: cannot find symbol
-    public static List<SuggestionItem> asRecentSearchSuggestions(@NonNull List<String> rawSuggestions) {
-                                                                  ^
-  symbol:   class NonNull
-  location: class SuggestionCreationUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:62: error: cannot find symbol
-    public static List<SuggestionItem> asRegularSearchSuggestions(@NonNull List<String> rawSuggestions) {
-                                                                   ^
-  symbol:   class NonNull
-  location: class SuggestionCreationUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:78: error: cannot find symbol
-    private static List<SuggestionItem> fromRawSuggestions(@NonNull String suggestionType, @NonNull List<String> rawSuggestions) {
-                                                            ^
-  symbol:   class NonNull
-  location: class SuggestionCreationUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:78: error: cannot find symbol
-    private static List<SuggestionItem> fromRawSuggestions(@NonNull String suggestionType, @NonNull List<String> rawSuggestions) {
-                                                                                            ^
-  symbol:   class NonNull
-  location: class SuggestionCreationUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/SuggestionCreationUtil.java:107: error: cannot find symbol
-    public static List<SuggestionItem> asSuggestions(@NonNull List<? super Suggestion> suggestions) {
-                                                      ^
-  symbol:   class NonNull
-  location: class SuggestionCreationUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:70: error: cannot find symbol
-    public static SuggestionItem of(@NonNull String suggestionText) {
-                                     ^
-  symbol:   class NonNull
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:85: error: cannot find symbol
-    public static SuggestionItem of(long id, @NonNull String suggestionText) {
-                                              ^
-  symbol:   class NonNull
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:118: error: cannot find symbol
-    public void bind(@Nullable Adapter adapter,
-                      ^
-  symbol:   class Nullable
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:119: error: cannot find symbol
-                     @NonNull ViewHolder viewHolder,
-                      ^
-  symbol:   class NonNull
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/adapters/model/SuggestionItem.java:120: error: cannot find symbol
-                     @Nullable SuggestionItemResources resources) {
-                      ^
-  symbol:   class Nullable
-  location: class SuggestionItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:188: error: reference not found
-     * Disables the animations of the specified {@link RecyclerView}.
-                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/persistentsearchview/src/main/java/com/paulrybitskyi/persistentsearchview/utils/Utils.java:60: error: package R does not exist
-    public static final boolean IS_AT_LEAST_OREO = (API_VERSION >= Build.VERSION_CODES.O);
-                                                     ^
-2 errors
-100 warnings
-
-> Task :persistentsearchview:mergeReleaseResources
-> Task :persistentsearchview:verifyReleaseResources
-> Task :persistentsearchview:assembleRelease
 > Task :persistentsearchview:javadocJar
 > Task :persistentsearchview:sourcesJar
+> Task :persistentsearchview:mergeReleaseJavaResource
+> Task :persistentsearchview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :persistentsearchview:bundleReleaseAar
+> Task :persistentsearchview:verifyReleaseResources
+> Task :persistentsearchview:assembleRelease
+> Task :persistentsearchview:generateDebugRFile
+
+> Task :persistentsearchview:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :persistentsearchview:extractDebugAnnotations
+> Task :persistentsearchview:mergeDebugGeneratedProguardFiles
+> Task :persistentsearchview:mergeDebugConsumerProguardFiles
+> Task :persistentsearchview:compileDebugSources
+> Task :persistentsearchview:mergeDebugJavaResource
+> Task :persistentsearchview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :persistentsearchview:bundleDebugAar
+> Task :persistentsearchview:assembleDebug
 > Task :persistentsearchview:assemble
 > Task :persistentsearchview:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 18s
+50 actionable tasks: 50 executed
 
-2019-09-26 14:14:02,299 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 14:14:02,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 14:14:14,338 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 14:14:14,339 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 14:14:14,339 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 14:15:18,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 22:33:15,194 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:33:15,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:33:23,082 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-22 22:33:23,082 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 22:33:23,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 22:34:37,149 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :persistentsearchview:preBuild UP-TO-DATE
 > Task :persistentsearchview:preDebugBuild UP-TO-DATE
 > Task :persistentsearchview:checkDebugManifest UP-TO-DATE
-> Task :persistentsearchview:generateDebugBuildConfig UP-TO-DATE
-> Task :persistentsearchview:generateDebugResValues UP-TO-DATE
-> Task :persistentsearchview:processDebugManifest UP-TO-DATE
-> Task :persistentsearchview:prepareLintJar UP-TO-DATE
-> Task :persistentsearchview:javaPreCompileDebug UP-TO-DATE
 > Task :persistentsearchview:compileDebugAidl NO-SOURCE
 > Task :persistentsearchview:compileDebugRenderscript NO-SOURCE
+> Task :persistentsearchview:generateDebugBuildConfig UP-TO-DATE
+> Task :persistentsearchview:generateDebugResValues UP-TO-DATE
 > Task :persistentsearchview:generateDebugResources UP-TO-DATE
 > Task :persistentsearchview:packageDebugResources UP-TO-DATE
+> Task :persistentsearchview:parseDebugLibraryResources UP-TO-DATE
+> Task :persistentsearchview:processDebugManifest UP-TO-DATE
 > Task :persistentsearchview:generateDebugRFile UP-TO-DATE
-> Task :persistentsearchview:generateDebugSources UP-TO-DATE
+> Task :persistentsearchview:javaPreCompileDebug UP-TO-DATE
 > Task :persistentsearchview:compileDebugJavaWithJavac UP-TO-DATE
-> Task :persistentsearchview:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :persistentsearchview:packageDebugRenderscript NO-SOURCE
-> Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
+> Task :persistentsearchview:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 78): Parameter 'searchView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 90): Parameter 'oldQuery' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (27, 43): Unchecked cast: Any! to T?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (56, 9): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 78): Parameter 'searchView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 90): Parameter 'oldQuery' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (27, 43): Unchecked cast: Any! to T?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (56, 9): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
@@ -639,24 +637,21 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
 > Task :persistentsearchview:processDebugJavaRes NO-SOURCE
-> Task :sample:checkDebugDuplicateClasses
+> Task :sample:processDebugJavaRes NO-SOURCE
 > Task :persistentsearchview:bundleLibResDebug
-> Task :persistentsearchview:bundleLibRuntimeDebug
-> Task :persistentsearchview:createFullJarDebug
+> Task :sample:mergeDebugJavaResource
+> Task :sample:checkDebugDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeProjectDexDebug
+> Task :persistentsearchview:bundleLibRuntimeDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :persistentsearchview:mergeDebugJniLibFolders UP-TO-DATE
-> Task :persistentsearchview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :persistentsearchview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :persistentsearchview:mergeDebugNativeLibs UP-TO-DATE
+> Task :persistentsearchview:stripDebugDebugSymbols UP-TO-DATE
 > Task :persistentsearchview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:mergeLibDexDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :persistentsearchview:preReleaseBuild UP-TO-DATE
 > Task :persistentsearchview:compileReleaseAidl NO-SOURCE
 > Task :persistentsearchview:compileReleaseRenderscript NO-SOURCE
@@ -665,13 +660,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/
 > Task :persistentsearchview:generateReleaseResValues UP-TO-DATE
 > Task :persistentsearchview:generateReleaseResources UP-TO-DATE
 > Task :persistentsearchview:packageReleaseResources UP-TO-DATE
+> Task :persistentsearchview:parseReleaseLibraryResources UP-TO-DATE
+> Task :sample:mergeProjectDexDebug
 > Task :persistentsearchview:processReleaseManifest UP-TO-DATE
 > Task :persistentsearchview:generateReleaseRFile UP-TO-DATE
-> Task :persistentsearchview:generateReleaseSources UP-TO-DATE
 > Task :persistentsearchview:javaPreCompileRelease UP-TO-DATE
 > Task :persistentsearchview:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :persistentsearchview:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:mergeLibDexDebug
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :persistentsearchview:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
@@ -680,34 +676,32 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
+> Task :persistentsearchview:bundleLibCompileRelease
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 78): Parameter 'searchView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 90): Parameter 'oldQuery' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (27, 43): Unchecked cast: Any! to T?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (56, 9): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 78): Parameter 'searchView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/DemoActivity.kt: (288, 90): Parameter 'oldQuery' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (27, 43): Unchecked cast: Any! to T?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/src/main/java/com/paulrybitskyi/sample/utils/extensions/ViewExtensions.kt: (56, 9): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :persistentsearchview:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/67a9bb075386d76863abab4ea2f0a3fd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/282ffd81661ce49453bb7c0951e0a56b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :persistentsearchview:processReleaseJavaRes NO-SOURCE
-> Task :persistentsearchview:bundleLibResRelease
-> Task :persistentsearchview:bundleLibRuntimeRelease
-> Task :persistentsearchview:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :persistentsearchview:bundleLibRuntimeRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :persistentsearchview:mergeReleaseShaders UP-TO-DATE
 > Task :persistentsearchview:compileReleaseShaders UP-TO-DATE
@@ -717,16 +711,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :persistentsearchview:processReleaseJavaRes NO-SOURCE
+> Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :persistentsearchview:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :persistentsearchview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :persistentsearchview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :persistentsearchview:mergeReleaseNativeLibs UP-TO-DATE
+> Task :persistentsearchview:stripReleaseDebugSymbols UP-TO-DATE
 > Task :persistentsearchview:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :persistentsearchview:bundleLibResRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -736,9 +732,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 3s
-94 actionable tasks: 64 executed, 30 up-to-date
+BUILD SUCCESSFUL in 1m 13s
+91 actionable tasks: 60 executed, 31 up-to-date
 
-2019-09-26 14:15:18,989 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482012692-0/src/persistentsearchview-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-22 22:34:37,277 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028765039-0/src/persistentsearchview-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
