@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.webp",
     "versionName" : "8.8.1",
     "versionCode" : 108,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "28",
@@ -38,7 +46,9 @@
       "name" : "android.hardware.wifi",
       "required" : false
     } ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.webp",
@@ -49,8 +59,8 @@
   "dexClasses" : 17443,
   "locales" : [ "", "es_GT", "sl", "as", "ru_RU", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "tr_TR", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "fr", "ka", "sq", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"108\" android:versionName=\"8.8.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"swati4star.createpdf\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:name=\"android.hardware.camera.front\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.flash\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.screen.landscape\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.wifi\" android:required=\"false\" />\n\t<application android:theme=\"resourceId:0x7f12000a\" android:label=\"PDF Converter\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.webp\" android:name=\"android.support.multidex.MultiDexApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f120043\" android:name=\"com.theartofdev.edmodo.cropper.CropImageActivity\" />\n\t\t<activity android:label=\"PDF Converter\" android:name=\"swati4star.createpdf.activity.MainActivity\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x20\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND_MULTIPLE\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:mimeType=\"image/*\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:mimeType=\"image/*\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"android.app.shortcuts\" android:resource=\"res/xml/shortcuts.xml\" />\n\t\t</activity>\n\t\t<activity android:name=\"swati4star.createpdf.activity.CropImageActivity\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.swati4star.shareFile\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:name=\"swati4star.createpdf.activity.WelcomeActivity\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.ImageEditor\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.PreviewActivity\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.RearrangeImages\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.ImagesPreviewActivity\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.RearrangePdfPages\" />\n\t\t<activity android:name=\"swati4star.createpdf.activity.FavouritesActivity\" />\n\t\t<activity android:name=\"com.zhihu.matisse.ui.MatisseActivity\" />\n\t\t<activity android:name=\"com.zhihu.matisse.internal.ui.AlbumPreviewActivity\" />\n\t\t<activity android:name=\"com.zhihu.matisse.internal.ui.SelectedPreviewActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f120231\" android:name=\"com.journeyapps.barcodescanner.CaptureActivity\" android:clearTaskOnLaunch=\"true\" android:stateNotNeeded=\"true\" android:screenOrientation=\"sensorLandscape\" android:windowSoftInputMode=\"0x3\" />\n\t\t<activity android:name=\"lib.folderpicker.FolderPicker\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 19330788,
-  "crc32" : 400695986,
-  "sha256" : "0d3ec7b82d8b620ac88ef80877c08eeb7372719ed8bf9da19a5ab2a77be0b0bb",
-  "buildTime" : 1575731169000
+  "fileSize" : 19330526,
+  "crc32" : 2342622216,
+  "sha256" : "63ca4076b6ba6ef15967718044d7d53a0c24123331bb2042e992c4387be7bf99",
+  "buildTime" : 1577968769000
 }
