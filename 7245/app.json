@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "14",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.USE_BIOMETRIC", "android.permission.USE_FINGERPRINT" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 5305,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"pwittchen.github.com.rxbiometric\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.USE_BIOMETRIC\" />\n\t<uses-permission android:name=\"android.permission.USE_FINGERPRINT\" />\n\t<application android:theme=\"resourceId:0x7f100008\" android:label=\"RxBiometric\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f10000a\" android:label=\"MainActivity\" android:name=\"pwittchen.github.com.rxbiometric.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f1000e1\" android:name=\"androidx.biometric.DeviceCredentialHandlerActivity\" android:exported=\"true\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3745408,
-  "crc32" : 2135801174,
-  "sha256" : "7eff489e1269abc50fdd810ccc5d8c6c4a4b0fbc1260da3ab12726cb9160ec63",
-  "buildTime" : 1577537958000
+  "fileSize" : 3745479,
+  "crc32" : 4118999049,
+  "sha256" : "c178c8d49f45a2f3e9d28d858fbd9709cd31948837754f8af3e412c0534841db",
+  "buildTime" : 1579435383000
 }

@@ -1,35 +1,36 @@
-2019-12-28 19:57:58,628 INFO  DownloadService - Downloading "https://github.com/pwittchen/RxBiometric/archive/master.zip", attempt 3
-2019-12-28 19:58:00,728 INFO  DownloadService - Downloaded https://github.com/pwittchen/RxBiometric/archive/master.zip, attempt 3
-2019-12-28 19:58:00,729 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/master.zip": 196 KB
-2019-12-28 19:58:00,729 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-28 19:58:00,734 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/master.zip: true
-2019-12-28 19:58:00,734 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src'.
-2019-12-28 19:58:00,762 INFO  FullProcessService - Size of directory with sources: 237 KB
-2019-12-28 19:58:00,762 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src]
-2019-12-28 19:58:00,785 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/.git/
+2020-01-19 19:01:37,675 INFO  DownloadService - Downloading "https://github.com/pwittchen/RxBiometric/archive/master.zip", attempt 3
+2020-01-19 19:01:39,964 INFO  DownloadService - Downloaded https://github.com/pwittchen/RxBiometric/archive/master.zip, attempt 3
+2020-01-19 19:01:39,965 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/master.zip": 196 KB
+2020-01-19 19:01:39,965 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 19:01:39,970 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/master.zip: true
+2020-01-19 19:01:39,971 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src'.
+2020-01-19 19:01:39,994 INFO  FullProcessService - Size of directory with sources: 237 KB
+2020-01-19 19:01:39,994 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src]
+2020-01-19 19:01:40,015 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/.git/
 
-2019-12-28 19:58:00,789 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/gradlew
-2019-12-28 19:58:00,793 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/build.gradle
-2019-12-28 19:58:00,796 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/settings.gradle
-2019-12-28 19:58:00,796 INFO  ProjectBuildService - Remote scripts: none
-2019-12-28 19:58:00,796 INFO  ProjectFixService - Fixing project...
-2019-12-28 19:58:00,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/local.properties
-2019-12-28 19:58:00,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-12-28 19:58:00,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-12-28 19:58:00,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/library/local.properties
-2019-12-28 19:58:00,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-12-28 19:58:00,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-12-28 19:58:00,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/local.properties
-2019-12-28 19:58:00,813 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
-2019-12-28 19:58:00,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-12-28 19:58:00,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-12-28 19:58:00,815 INFO  ProjectFixService - Project was maybe fixed
-2019-12-28 19:58:00,815 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:58:00,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:58:11,088 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-12-28 19:58:11,088 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 19:58:11,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 19:59:19,076 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2020-01-19 19:01:40,018 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/gradlew
+2020-01-19 19:01:40,021 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/build.gradle
+2020-01-19 19:01:40,023 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/settings.gradle
+2020-01-19 19:01:40,024 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 19:01:40,024 INFO  ProjectFixService - Fixing project...
+2020-01-19 19:01:40,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/local.properties
+2020-01-19 19:01:40,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-19 19:01:40,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2020-01-19 19:01:40,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/library/local.properties
+2020-01-19 19:01:40,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-19 19:01:40,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2020-01-19 19:01:40,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/local.properties
+2020-01-19 19:01:40,044 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
+2020-01-19 19:01:40,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-19 19:01:40,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2020-01-19 19:01:40,046 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 19:01:40,046 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:01:40,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:01:47,207 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-01-19 19:01:47,208 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 19:01:47,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 19:01:52,617 INFO  VirusProcessorServiceImpl - Queued project 7278 to scan viruses
+2020-01-19 19:03:04,125 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -58,10 +59,10 @@ The Kotlin plugin was loaded in the following projects: ':app-kotlin', ':library
 > Task :library:packageDebugResources
 > Task :app-kotlin:createDebugCompatibleScreenManifests
 > Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :app-kotlin:processDebugManifest
 > Task :app-kotlin:mergeDebugResources
 > Task :library:parseDebugLibraryResources
+> Task :library:processDebugManifest
+> Task :app-kotlin:processDebugManifest
 > Task :library:generateDebugBuildConfig
 > Task :app-kotlin:mergeDebugShaders
 > Task :app-kotlin:compileDebugShaders
@@ -76,9 +77,9 @@ The Kotlin plugin was loaded in the following projects: ':app-kotlin', ':library
 > Task :library:generateDebugRFile
 > Task :app-kotlin:processDebugResources
 > Task :library:compileDebugKotlin
+> Task :app-kotlin:checkDebugDuplicateClasses
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
-> Task :app-kotlin:checkDebugDuplicateClasses
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibCompileDebug
 > Task :app-kotlin:compileDebugKotlin
@@ -113,32 +114,32 @@ The Kotlin plugin was loaded in the following projects: ':app-kotlin', ':library
 > Task :library:checkReleaseManifest
 > Task :library:processReleaseManifest
 > Task :app-kotlin:processReleaseManifest
+> Task :library:parseReleaseLibraryResources
+> Task :library:generateReleaseRFile
+> Task :library:generateReleaseBuildConfig
+> Task :library:compileReleaseKotlin
+> Task :app-kotlin:mergeReleaseResources
+> Task :app-kotlin:processReleaseResources
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols
-> Task :library:parseReleaseLibraryResources
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:generateReleaseBuildConfig
-> Task :app-kotlin:mergeReleaseResources
-> Task :library:generateReleaseRFile
-> Task :app-kotlin:processReleaseResources
-> Task :library:compileReleaseKotlin
-> Task :app-kotlin:mergeDebugNativeLibs
-> Task :app-kotlin:stripDebugDebugSymbols
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:bundleLibCompileRelease
 > Task :app-kotlin:compileReleaseKotlin
-> Task :app-kotlin:prepareLintJar
-> Task :app-kotlin:checkReleaseDuplicateClasses
-> Task :library:prepareLintJarForPublish
-> Task :library:bundleLibRuntimeRelease
+> Task :app-kotlin:mergeDebugNativeLibs
+> Task :app-kotlin:stripDebugDebugSymbols
 > Task :app-kotlin:javaPreCompileRelease
 > Task :app-kotlin:compileReleaseJavaWithJavac
 > Task :app-kotlin:compileReleaseSources
+> Task :app-kotlin:prepareLintJar
+> Task :app-kotlin:checkReleaseDuplicateClasses
+> Task :library:prepareLintJarForPublish
 
 > Task :app-kotlin:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/76f8922ee06fb58d357a998cd5ecf453/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :library:bundleLibRuntimeRelease
 > Task :app-kotlin:mergeExtDexDebug
 > Task :app-kotlin:desugarReleaseFileDependencies
 > Task :app-kotlin:transformClassesWithDexBuilderForRelease
@@ -177,7 +178,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 1m 16s
 95 actionable tasks: 95 executed
 
-2019-12-28 19:59:19,167 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537878625-0/src/RxBiometric-master/app-kotlin/build/outputs/apk/release/app-kotlin-release-unsigned.apk
+2020-01-19 19:03:04,242 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435297672-0/src/RxBiometric-master/app-kotlin/build/outputs/apk/release/app-kotlin-release-unsigned.apk
