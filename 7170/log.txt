@@ -1,40 +1,41 @@
-2019-12-03 14:25:02,300 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
-2019-12-03 14:26:02,873 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-12-03 14:26:03,856 INFO  GithubDownloadService - Default branch of this repository: master
-2019-12-03 14:26:03,857 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
-2019-12-03 14:27:05,683 DEBUG FullProcessService - Repository https://github.com/romellfudi/FudiSharePreference available: true
-2019-12-03 14:27:05,683 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-12-03 14:27:05,683 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/romellfudi/FudiSharePreference, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src]
-2019-12-03 14:27:07,894 INFO  SysUtils - 
-2019-12-03 14:27:07,925 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/.git": true
-2019-12-03 14:27:07,928 INFO  FullProcessService - Size of directory with sources: 191 KB
-2019-12-03 14:27:07,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src]
-2019-12-03 14:27:07,945 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/.git/
+2020-01-19 20:54:08,507 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiSharePreference/archive/master.zip", attempt 3
+2020-01-19 20:54:11,077 INFO  DownloadService - Downloaded https://github.com/romellfudi/FudiSharePreference/archive/master.zip, attempt 3
+2020-01-19 20:54:11,077 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/master.zip": 247 KB
+2020-01-19 20:54:11,077 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 20:54:11,078 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/master.zip: true
+2020-01-19 20:54:11,078 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src'.
+2020-01-19 20:54:11,109 INFO  FullProcessService - Size of directory with sources: 280 KB
+2020-01-19 20:54:11,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src]
+2020-01-19 20:54:11,142 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/.git/
 
-2019-12-03 14:27:07,948 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew
-2019-12-03 14:27:07,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle
-2019-12-03 14:27:07,952 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/settings.gradle
-2019-12-03 14:27:07,952 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-12-03 14:27:08,897 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-12-03 14:27:08,898 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-12-03 14:27:09,454 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-12-03 14:27:09,455 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-12-03 14:27:09,455 INFO  ProjectFixService - Fixing project...
-2019-12-03 14:27:09,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/local.properties
-2019-12-03 14:27:09,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-12-03 14:27:09,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/local.properties
-2019-12-03 14:27:09,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/fudi-store/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-12-03 14:27:09,467 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/local.properties
-2019-12-03 14:27:09,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-12-03 14:27:09,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-12-03 14:27:09,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-12-03 14:27:09,468 INFO  ProjectFixService - Project was maybe fixed
-2019-12-03 14:27:09,468 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-03 14:27:09,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-03 14:27:16,883 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-12-03 14:27:16,883 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-03 14:27:16,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-03 14:27:23,189 ERROR SysUtils - Could not process external command
+2020-01-19 20:54:11,146 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/gradlew
+2020-01-19 20:54:11,151 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/build.gradle
+2020-01-19 20:54:11,155 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/settings.gradle
+2020-01-19 20:54:11,164 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle", attempt 3
+2020-01-19 20:54:11,952 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle, attempt 3
+2020-01-19 20:54:11,953 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle", attempt 3
+2020-01-19 20:54:12,191 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle, attempt 3
+2020-01-19 20:54:12,191 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle
+2020-01-19 20:54:12,191 INFO  ProjectFixService - Fixing project...
+2020-01-19 20:54:12,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/local.properties
+2020-01-19 20:54:12,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-19 20:54:12,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app/local.properties
+2020-01-19 20:54:12,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-19 20:54:12,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/local.properties
+2020-01-19 20:54:12,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-19 20:54:12,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store/local.properties
+2020-01-19 20:54:12,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-19 20:54:12,209 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/local.properties
+2020-01-19 20:54:12,210 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2020-01-19 20:54:12,210 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2020-01-19 20:54:12,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-19 20:54:12,211 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 20:54:12,211 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 20:54:12,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 20:54:31,333 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-01-19 20:54:31,333 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 20:54:31,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 20:54:37,160 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,27 +54,30 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-03 14:27:23,189 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 20:54:37,160 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app-kotlin
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':app'.
+Task 'javadocJar' not found in project ':app-kotlin'.
 
 * Try:
 Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app-kotlin'.
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
@@ -146,108 +150,188 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-12-03 14:27:23,190 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-12-03 14:27:23,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-12-03 14:27:49,715 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
-> Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:checkDebugLibraries
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:validateSigningDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
-> Task :app:preReleaseBuild
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
-> Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease SKIPPED
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:checkReleaseLibraries
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
+2020-01-19 20:54:37,160 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-01-19 20:54:37,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 20:54:55,192 INFO  VirusProcessorServiceImpl - Queued project 7922 to scan viruses
+2020-01-19 20:55:48,241 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-> Task :app:lint
+> Configure project :app-kotlin
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Configure project :fudi-store-kotlin
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app-kotlin:checkDebugClasspath
+> Task :app-kotlin:preBuild UP-TO-DATE
+> Task :fudi-store-kotlin:preBuild UP-TO-DATE
+> Task :fudi-store-kotlin:preDebugBuild UP-TO-DATE
+> Task :fudi-store-kotlin:checkDebugManifest
+> Task :fudi-store-kotlin:processDebugManifest
+> Task :app-kotlin:preDebugBuild
+> Task :fudi-store-kotlin:compileDebugAidl NO-SOURCE
+> Task :app-kotlin:compileDebugAidl NO-SOURCE
+> Task :fudi-store-kotlin:packageDebugRenderscript NO-SOURCE
+> Task :app-kotlin:compileDebugRenderscript
+> Task :app-kotlin:checkDebugManifest
+> Task :app-kotlin:generateDebugBuildConfig
+> Task :app-kotlin:mainApkListPersistenceDebug
+> Task :app-kotlin:generateDebugResValues
+> Task :app-kotlin:generateDebugResources
+> Task :fudi-store-kotlin:compileDebugRenderscript
+> Task :fudi-store-kotlin:generateDebugResValues
+> Task :fudi-store-kotlin:generateDebugResources
+> Task :fudi-store-kotlin:packageDebugResources
+> Task :app-kotlin:mergeDebugResources
+> Task :app-kotlin:createDebugCompatibleScreenManifests
+> Task :app-kotlin:processDebugManifest
+> Task :app-kotlin:splitsDiscoveryTaskDebug
+> Task :fudi-store-kotlin:generateDebugRFile
+> Task :app-kotlin:processDebugResources
+> Task :fudi-store-kotlin:generateDebugBuildConfig
+
+> Task :fudi-store-kotlin:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (58, 38): Variable 'is' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (59, 41): Variable 'in' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (64, 36): Variable 'str' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/SharePreferenced.kt: (23, 13): Name shadowed: value
+
+> Task :fudi-store-kotlin:prepareLintJar
+> Task :fudi-store-kotlin:generateDebugSources
+> Task :fudi-store-kotlin:javaPreCompileDebug
+> Task :fudi-store-kotlin:compileDebugJavaWithJavac
+> Task :fudi-store-kotlin:processDebugJavaRes NO-SOURCE
+> Task :fudi-store-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app-kotlin:compileDebugKotlin
+> Task :app-kotlin:prepareLintJar
+> Task :app-kotlin:generateDebugSources
+> Task :app-kotlin:javaPreCompileDebug
+> Task :app-kotlin:compileDebugJavaWithJavac
+> Task :app-kotlin:compileDebugNdk NO-SOURCE
+> Task :app-kotlin:compileDebugSources
+> Task :app-kotlin:mergeDebugShaders
+> Task :app-kotlin:compileDebugShaders
+> Task :app-kotlin:generateDebugAssets
+> Task :fudi-store-kotlin:mergeDebugShaders
+> Task :fudi-store-kotlin:compileDebugShaders
+> Task :fudi-store-kotlin:generateDebugAssets
+> Task :fudi-store-kotlin:packageDebugAssets
+> Task :app-kotlin:mergeDebugAssets
+> Task :app-kotlin:transformClassesWithDexBuilderForDebug
+> Task :app-kotlin:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app-kotlin:transformDexArchiveWithDexMergerForDebug
+> Task :app-kotlin:mergeDebugJniLibFolders
+> Task :fudi-store-kotlin:compileDebugNdk NO-SOURCE
+> Task :fudi-store-kotlin:mergeDebugJniLibFolders
+> Task :fudi-store-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fudi-store-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fudi-store-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app-kotlin:checkDebugLibraries
+> Task :app-kotlin:processDebugJavaRes NO-SOURCE
+> Task :app-kotlin:transformResourcesWithMergeJavaResForDebug
+> Task :app-kotlin:validateSigningDebug
+> Task :app-kotlin:packageDebug
+> Task :app-kotlin:assembleDebug
+> Task :app-kotlin:checkReleaseClasspath
+> Task :fudi-store-kotlin:preReleaseBuild UP-TO-DATE
+> Task :fudi-store-kotlin:checkReleaseManifest
+> Task :fudi-store-kotlin:processReleaseManifest
+> Task :app-kotlin:preReleaseBuild
+> Task :fudi-store-kotlin:compileReleaseAidl NO-SOURCE
+> Task :app-kotlin:compileReleaseAidl NO-SOURCE
+> Task :fudi-store-kotlin:packageReleaseRenderscript NO-SOURCE
+> Task :app-kotlin:compileReleaseRenderscript
+> Task :app-kotlin:checkReleaseManifest
+> Task :app-kotlin:generateReleaseBuildConfig
+> Task :app-kotlin:mainApkListPersistenceRelease
+> Task :app-kotlin:generateReleaseResValues
+> Task :app-kotlin:generateReleaseResources
+> Task :fudi-store-kotlin:compileReleaseRenderscript
+> Task :fudi-store-kotlin:generateReleaseResValues
+> Task :fudi-store-kotlin:generateReleaseResources
+> Task :fudi-store-kotlin:packageReleaseResources
+> Task :app-kotlin:mergeReleaseResources
+> Task :app-kotlin:createReleaseCompatibleScreenManifests
+> Task :app-kotlin:processReleaseManifest
+> Task :app-kotlin:splitsDiscoveryTaskRelease
+> Task :fudi-store-kotlin:generateReleaseRFile
+> Task :app-kotlin:processReleaseResources
+> Task :fudi-store-kotlin:generateReleaseBuildConfig
+
+> Task :fudi-store-kotlin:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (58, 38): Variable 'is' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (59, 41): Variable 'in' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/JsonUtil.kt: (64, 36): Variable 'str' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/fudi-store-kotlin/src/main/java/com/romellfudi/sharepreference/SharePreferenced.kt: (23, 13): Name shadowed: value
+
+> Task :fudi-store-kotlin:generateReleaseSources
+> Task :fudi-store-kotlin:javaPreCompileRelease
+> Task :fudi-store-kotlin:compileReleaseJavaWithJavac
+> Task :fudi-store-kotlin:processReleaseJavaRes NO-SOURCE
+> Task :fudi-store-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app-kotlin:compileReleaseKotlin
+> Task :app-kotlin:generateReleaseSources
+> Task :app-kotlin:javaPreCompileRelease
+> Task :app-kotlin:compileReleaseJavaWithJavac
+> Task :app-kotlin:compileReleaseNdk NO-SOURCE
+> Task :app-kotlin:compileReleaseSources
+> Task :app-kotlin:lintVitalRelease SKIPPED
+> Task :app-kotlin:mergeReleaseShaders
+> Task :app-kotlin:compileReleaseShaders
+> Task :app-kotlin:generateReleaseAssets
+> Task :fudi-store-kotlin:mergeReleaseShaders
+> Task :fudi-store-kotlin:compileReleaseShaders
+> Task :fudi-store-kotlin:generateReleaseAssets
+> Task :fudi-store-kotlin:packageReleaseAssets
+> Task :app-kotlin:mergeReleaseAssets
+> Task :app-kotlin:transformClassesWithDexBuilderForRelease
+> Task :app-kotlin:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app-kotlin:transformDexArchiveWithDexMergerForRelease
+> Task :app-kotlin:mergeReleaseJniLibFolders
+> Task :fudi-store-kotlin:compileReleaseNdk NO-SOURCE
+> Task :fudi-store-kotlin:mergeReleaseJniLibFolders
+> Task :fudi-store-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fudi-store-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fudi-store-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app-kotlin:checkReleaseLibraries
+> Task :app-kotlin:processReleaseJavaRes NO-SOURCE
+> Task :app-kotlin:transformResourcesWithMergeJavaResForRelease
+> Task :app-kotlin:packageRelease
+> Task :app-kotlin:assembleRelease
+> Task :app-kotlin:assemble
+
+> Task :app-kotlin:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d6063913173a96cdb01e00e25810257e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/fc840779e29025409a478de3fed23a80/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Ran lint on variant debug: 5 issues found
 Ran lint on variant release: 5 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build/reports/lint-results.xml
 
-> Task :app:generateDebugUnitTestSources
-> Task :app:preDebugUnitTestBuild UP-TO-DATE
-> Task :app:javaPreCompileDebugUnitTest
-> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-> Task :app:processDebugUnitTestJavaRes NO-SOURCE
-> Task :app:testDebugUnitTest NO-SOURCE
-> Task :app:generateReleaseUnitTestSources
-> Task :app:preReleaseUnitTestBuild UP-TO-DATE
-> Task :app:javaPreCompileReleaseUnitTest
-> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :app:testReleaseUnitTest NO-SOURCE
-> Task :app:test UP-TO-DATE
-> Task :app:check
-> Task :app:build
+> Task :app-kotlin:compileDebugUnitTestKotlin NO-SOURCE
+> Task :app-kotlin:generateDebugUnitTestSources
+> Task :app-kotlin:preDebugUnitTestBuild UP-TO-DATE
+> Task :app-kotlin:javaPreCompileDebugUnitTest
+> Task :app-kotlin:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app-kotlin:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app-kotlin:testDebugUnitTest NO-SOURCE
+> Task :app-kotlin:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :app-kotlin:generateReleaseUnitTestSources
+> Task :app-kotlin:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app-kotlin:javaPreCompileReleaseUnitTest
+> Task :app-kotlin:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app-kotlin:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app-kotlin:testReleaseUnitTest NO-SOURCE
+> Task :app-kotlin:test UP-TO-DATE
+> Task :app-kotlin:check
+> Task :app-kotlin:build
 
-BUILD SUCCESSFUL in 25s
-57 actionable tasks: 57 executed
+BUILD SUCCESSFUL in 1m 10s
+96 actionable tasks: 96 executed
 
-2019-12-03 14:27:49,769 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575357902297-0/src/app/build/outputs/apk/debug/app-debug.apk
+2020-01-19 20:55:48,308 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442048499-0/src/FudiSharePreference-master/app-kotlin/build/outputs/apk/release/app-kotlin-release-unsigned.apk
