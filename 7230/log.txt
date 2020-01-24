@@ -1,242 +1,280 @@
-2019-11-28 12:56:53,866 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/AndroidAutoSize/archive/master.zip", attempt 3
-2019-11-28 12:56:57,894 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/AndroidAutoSize/archive/master.zip, attempt 3
-2019-11-28 12:56:57,894 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/master.zip": 2 MB
-2019-11-28 12:56:57,894 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 12:56:57,901 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/master.zip: true
-2019-11-28 12:56:57,901 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src'.
-2019-11-28 12:56:57,958 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-11-28 12:56:57,958 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src]
-2019-11-28 12:56:57,981 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/.git/
+2020-01-24 14:51:07,171 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/AndroidAutoSize/archive/master.zip", attempt 3
+2020-01-24 14:51:07,839 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/AndroidAutoSize/archive/master.zip, attempt 3
+2020-01-24 14:51:07,839 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/master.zip": 2 MB
+2020-01-24 14:51:07,839 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-24 14:51:07,841 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/master.zip: true
+2020-01-24 14:51:07,841 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src'.
+2020-01-24 14:51:07,909 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-24 14:51:07,909 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src]
+2020-01-24 14:51:07,933 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/.git/
 
-2019-11-28 12:56:57,985 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/gradlew
-2019-11-28 12:56:57,989 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/build.gradle
-2019-11-28 12:56:57,993 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/settings.gradle
-2019-11-28 12:56:57,994 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 12:56:57,994 INFO  ProjectFixService - Fixing project...
-2019-11-28 12:56:58,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/local.properties
-2019-11-28 12:56:58,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:56:58,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/local.properties
-2019-11-28 12:56:58,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:56:58,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo/local.properties
-2019-11-28 12:56:58,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:56:58,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/local.properties
-2019-11-28 12:56:58,011 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-28 12:56:58,011 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-28 12:56:58,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:56:58,012 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 12:56:58,012 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:56:58,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:57:07,620 INFO  ProjectTaskService - Detected possible tasks: 78
-2019-11-28 12:57:07,642 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-28 12:57:07,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/autosize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-28 12:57:18,666 INFO  SysUtils - Configuration on demand is an incubating feature.
-:autosize:preBuild UP-TO-DATE
-:autosize:preDebugBuild UP-TO-DATE
-:autosize:compileDebugAidl NO-SOURCE
-:autosize:compileDebugRenderscript
-:autosize:checkDebugManifest
-:autosize:generateDebugBuildConfig
-:autosize:generateDebugResValues
-:autosize:generateDebugResources
-:autosize:packageDebugResources
-:autosize:processDebugManifest
-:autosize:generateDebugRFile
-:autosize:prepareLintJar
-:autosize:generateDebugSources
-:autosize:javaPreCompileDebug
-:autosize:compileDebugJavaWithJavac
-:autosize:extractDebugAnnotations
-:autosize:mergeDebugConsumerProguardFiles
-:autosize:mergeDebugShaders
-:autosize:compileDebugShaders
-:autosize:generateDebugAssets
-:autosize:packageDebugAssets
-:autosize:packageDebugRenderscript NO-SOURCE
-:autosize:processDebugJavaRes NO-SOURCE
-:autosize:transformResourcesWithMergeJavaResForDebug
-:autosize:transformClassesAndResourcesWithSyncLibJarsForDebug
-:autosize:compileDebugNdk NO-SOURCE
-:autosize:mergeDebugJniLibFolders
-:autosize:transformNativeLibsWithMergeJniLibsForDebug
-:autosize:transformNativeLibsWithStripDebugSymbolForDebug
-:autosize:transformNativeLibsWithSyncJniLibsForDebug
-:autosize:bundleDebugAar
-:autosize:compileDebugSources
-:autosize:assembleDebug
-:autosize:preReleaseBuild UP-TO-DATE
-:autosize:compileReleaseAidl NO-SOURCE
-:autosize:compileReleaseRenderscript
-:autosize:checkReleaseManifest
-:autosize:generateReleaseBuildConfig
-:autosize:generateReleaseResValues
-:autosize:generateReleaseResources
-:autosize:packageReleaseResources
-:autosize:processReleaseManifest
-:autosize:generateReleaseRFile
-:autosize:generateReleaseSources
-:autosize:javaPreCompileRelease
-:autosize:compileReleaseJavaWithJavac
-:autosize:extractReleaseAnnotations
-:autosize:mergeReleaseConsumerProguardFiles
-:autosize:mergeReleaseShaders
-:autosize:compileReleaseShaders
-:autosize:generateReleaseAssets
-:autosize:packageReleaseAssets
-:autosize:packageReleaseRenderscript NO-SOURCE
-:autosize:processReleaseJavaRes NO-SOURCE
-:autosize:transformResourcesWithMergeJavaResForRelease
-:autosize:transformClassesAndResourcesWithSyncLibJarsForRelease
-:autosize:compileReleaseNdk NO-SOURCE
-:autosize:mergeReleaseJniLibFolders
-:autosize:transformNativeLibsWithMergeJniLibsForRelease
-:autosize:transformNativeLibsWithStripDebugSymbolForRelease
-:autosize:transformNativeLibsWithSyncJniLibsForRelease
-:autosize:bundleReleaseAar
-:autosize:compileReleaseSources
-:autosize:mergeReleaseResources
-:autosize:verifyReleaseResources
-:autosize:assembleRelease
-:autosize:assemble
-:autosize:build
+2020-01-24 14:51:07,939 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/gradlew
+2020-01-24 14:51:07,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-subunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/build.gradle
+2020-01-24 14:51:07,950 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-subunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/settings.gradle
+2020-01-24 14:51:07,950 INFO  ProjectBuildService - Remote scripts: none
+2020-01-24 14:51:07,950 INFO  ProjectFixService - Fixing project...
+2020-01-24 14:51:07,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/local.properties
+2020-01-24 14:51:07,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-24 14:51:07,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/local.properties
+2020-01-24 14:51:07,970 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-24 14:51:07,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-subunits/local.properties
+2020-01-24 14:51:07,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-subunits/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-24 14:51:07,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo/local.properties
+2020-01-24 14:51:07,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-24 14:51:07,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/local.properties
+2020-01-24 14:51:07,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-24 14:51:07,977 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-24 14:51:07,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-24 14:51:07,977 INFO  ProjectFixService - Project was maybe fixed
+2020-01-24 14:51:07,977 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:51:07,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:51:14,432 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-01-24 14:51:14,432 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-24 14:51:14,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/autosize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-24 14:51:24,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 10s
-45 actionable tasks: 45 executed
+> Configure project :autosize
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-11-28 12:57:18,681 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:57:18,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:57:25,006 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-11-28 12:57:25,006 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 12:57:25,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 12:57:55,541 INFO  SysUtils - Configuration on demand is an incubating feature.
-:autosize:preBuild UP-TO-DATE
-:autosize:preDebugBuild UP-TO-DATE
-:autosize:compileDebugAidl NO-SOURCE
-:autosize:compileDebugRenderscript UP-TO-DATE
-:autosize:checkDebugManifest UP-TO-DATE
-:autosize:generateDebugBuildConfig UP-TO-DATE
-:autosize:generateDebugResValues UP-TO-DATE
-:autosize:generateDebugResources UP-TO-DATE
-:autosize:packageDebugResources UP-TO-DATE
-:autosize:processDebugManifest UP-TO-DATE
-:autosize:generateDebugRFile UP-TO-DATE
-:autosize:prepareLintJar UP-TO-DATE
-:autosize:generateDebugSources UP-TO-DATE
-:autosize:javaPreCompileDebug UP-TO-DATE
-:autosize:compileDebugJavaWithJavac UP-TO-DATE
-:autosize:processDebugJavaRes NO-SOURCE
-:autosize:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo-subunits:checkDebugClasspath
-:demo-subunits:preBuild UP-TO-DATE
-:demo-subunits:preDebugBuild
-:demo-subunits:compileDebugAidl NO-SOURCE
-:autosize:packageDebugRenderscript NO-SOURCE
-:demo-subunits:compileDebugRenderscript
-:demo-subunits:checkDebugManifest
-:demo-subunits:generateDebugBuildConfig
-:demo-subunits:prepareLintJar
-:demo-subunits:mainApkListPersistenceDebug
-:demo-subunits:generateDebugResValues
-:demo-subunits:generateDebugResources
-:demo-subunits:mergeDebugResources
-:demo-subunits:createDebugCompatibleScreenManifests
-:demo-subunits:processDebugManifest
-:demo-subunits:splitsDiscoveryTaskDebug
-:demo-subunits:processDebugResources
-:demo-subunits:generateDebugSources
-:demo-subunits:javaPreCompileDebug
-:demo-subunits:compileDebugJavaWithJavac
-:demo-subunits:compileDebugNdk NO-SOURCE
-:demo-subunits:compileDebugSources
-:autosize:mergeDebugShaders UP-TO-DATE
-:autosize:compileDebugShaders UP-TO-DATE
-:autosize:generateDebugAssets UP-TO-DATE
-:autosize:packageDebugAssets UP-TO-DATE
-:demo-subunits:mergeDebugShaders
-:demo-subunits:compileDebugShaders
-:demo-subunits:generateDebugAssets
-:demo-subunits:mergeDebugAssets
-:demo-subunits:transformClassesWithDexBuilderForDebug
-:demo-subunits:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo-subunits:transformDexArchiveWithDexMergerForDebug
-:autosize:compileDebugNdk NO-SOURCE
-:autosize:mergeDebugJniLibFolders UP-TO-DATE
-:autosize:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:autosize:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:autosize:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo-subunits:mergeDebugJniLibFolders
-:demo-subunits:transformNativeLibsWithMergeJniLibsForDebug
-:demo-subunits:transformNativeLibsWithStripDebugSymbolForDebug
-:demo-subunits:checkDebugLibraries
-:demo-subunits:processDebugJavaRes NO-SOURCE
-:demo-subunits:transformResourcesWithMergeJavaResForDebug
-:demo-subunits:validateSigningDebug
-:demo-subunits:packageDebug
-:demo-subunits:assembleDebug
-:autosize:preReleaseBuild UP-TO-DATE
-:autosize:compileReleaseAidl NO-SOURCE
-:autosize:compileReleaseRenderscript UP-TO-DATE
-:autosize:checkReleaseManifest UP-TO-DATE
-:autosize:generateReleaseBuildConfig UP-TO-DATE
-:autosize:generateReleaseResValues UP-TO-DATE
-:autosize:generateReleaseResources UP-TO-DATE
-:autosize:packageReleaseResources UP-TO-DATE
-:autosize:processReleaseManifest UP-TO-DATE
-:autosize:generateReleaseRFile UP-TO-DATE
-:autosize:generateReleaseSources UP-TO-DATE
-:autosize:javaPreCompileRelease UP-TO-DATE
-:autosize:compileReleaseJavaWithJavac UP-TO-DATE
-:autosize:processReleaseJavaRes NO-SOURCE
-:autosize:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo-subunits:checkReleaseClasspath
-:demo-subunits:preReleaseBuild
-:demo-subunits:compileReleaseAidl NO-SOURCE
-:autosize:packageReleaseRenderscript NO-SOURCE
-:demo-subunits:compileReleaseRenderscript
-:demo-subunits:checkReleaseManifest
-:demo-subunits:generateReleaseBuildConfig
-:demo-subunits:mainApkListPersistenceRelease
-:demo-subunits:generateReleaseResValues
-:demo-subunits:generateReleaseResources
-:demo-subunits:mergeReleaseResources
-:demo-subunits:createReleaseCompatibleScreenManifests
-:demo-subunits:processReleaseManifest
-:demo-subunits:splitsDiscoveryTaskRelease
-:demo-subunits:processReleaseResources
-:demo-subunits:generateReleaseSources
-:demo-subunits:javaPreCompileRelease
-:demo-subunits:compileReleaseJavaWithJavac
-:demo-subunits:compileReleaseNdk NO-SOURCE
-:demo-subunits:compileReleaseSources
-:demo-subunits:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4da30e11fa9860bf7cf4211a853fe9a1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:autosize:mergeReleaseShaders UP-TO-DATE
-:autosize:compileReleaseShaders UP-TO-DATE
-:autosize:generateReleaseAssets UP-TO-DATE
-:autosize:packageReleaseAssets UP-TO-DATE
-:demo-subunits:mergeReleaseShaders
-:demo-subunits:compileReleaseShaders
-:demo-subunits:generateReleaseAssets
-:demo-subunits:mergeReleaseAssets
-:demo-subunits:transformClassesWithDexBuilderForRelease
-:demo-subunits:transformDexArchiveWithExternalLibsDexMergerForRelease
-:demo-subunits:transformDexArchiveWithDexMergerForRelease
-:autosize:compileReleaseNdk NO-SOURCE
-:autosize:mergeReleaseJniLibFolders UP-TO-DATE
-:autosize:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:autosize:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:autosize:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo-subunits:mergeReleaseJniLibFolders
-:demo-subunits:transformNativeLibsWithMergeJniLibsForRelease
-:demo-subunits:transformNativeLibsWithStripDebugSymbolForRelease
-:demo-subunits:checkReleaseLibraries
-:demo-subunits:processReleaseJavaRes NO-SOURCE
-:demo-subunits:transformResourcesWithMergeJavaResForRelease
-:demo-subunits:packageRelease
-:demo-subunits:assembleRelease
-:demo-subunits:assemble
-:demo-subunits:build
+> Task :autosize:preBuild UP-TO-DATE
+> Task :autosize:preDebugBuild UP-TO-DATE
+> Task :autosize:compileDebugAidl NO-SOURCE
+> Task :autosize:compileDebugRenderscript NO-SOURCE
+> Task :autosize:checkDebugManifest
+> Task :autosize:generateDebugBuildConfig
+> Task :autosize:generateDebugResValues
+> Task :autosize:generateDebugResources
+> Task :autosize:packageDebugResources
+> Task :autosize:mergeDebugShaders
+> Task :autosize:compileDebugShaders
+> Task :autosize:generateDebugAssets
+> Task :autosize:packageDebugAssets
+> Task :autosize:packageDebugRenderscript NO-SOURCE
+> Task :autosize:processDebugManifest
+> Task :autosize:processDebugJavaRes NO-SOURCE
+> Task :autosize:mergeDebugJniLibFolders
+> Task :autosize:javaPreCompileDebug
+> Task :autosize:preReleaseBuild UP-TO-DATE
+> Task :autosize:compileReleaseAidl NO-SOURCE
+> Task :autosize:compileReleaseRenderscript NO-SOURCE
+> Task :autosize:checkReleaseManifest
+> Task :autosize:generateReleaseBuildConfig
+> Task :autosize:generateReleaseResValues
+> Task :autosize:generateReleaseResources
+> Task :autosize:packageReleaseResources
+> Task :autosize:parseReleaseLibraryResources
+> Task :autosize:mergeReleaseShaders
+> Task :autosize:compileReleaseShaders
+> Task :autosize:generateReleaseAssets
+> Task :autosize:packageReleaseAssets
+> Task :autosize:packageReleaseRenderscript NO-SOURCE
+> Task :autosize:processReleaseJavaRes NO-SOURCE
+> Task :autosize:mergeReleaseJniLibFolders
+> Task :autosize:mergeReleaseResources
+> Task :autosize:processReleaseManifest
+> Task :autosize:javaPreCompileRelease
+> Task :autosize:generateReleaseRFile
+> Task :autosize:compileReleaseJavaWithJavac
+> Task :autosize:extractReleaseAnnotations
+> Task :autosize:mergeReleaseGeneratedProguardFiles
+> Task :autosize:mergeReleaseConsumerProguardFiles
+> Task :autosize:mergeReleaseNativeLibs
+> Task :autosize:stripReleaseDebugSymbols
+> Task :autosize:transformNativeLibsWithSyncJniLibsForRelease
+> Task :autosize:compileReleaseSources
+> Task :autosize:prepareLintJarForPublish
+> Task :autosize:parseDebugLibraryResources
+> Task :autosize:mergeDebugNativeLibs
+> Task :autosize:stripDebugDebugSymbols
+> Task :autosize:transformNativeLibsWithSyncJniLibsForDebug
+> Task :autosize:verifyReleaseResources
+> Task :autosize:mergeReleaseJavaResource
+> Task :autosize:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :autosize:bundleReleaseAar
+> Task :autosize:assembleRelease
+> Task :autosize:generateDebugRFile
+> Task :autosize:compileDebugJavaWithJavac
+> Task :autosize:extractDebugAnnotations
+> Task :autosize:mergeDebugGeneratedProguardFiles
+> Task :autosize:mergeDebugConsumerProguardFiles
+> Task :autosize:compileDebugSources
+> Task :autosize:mergeDebugJavaResource
+> Task :autosize:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :autosize:bundleDebugAar
+> Task :autosize:assembleDebug
+> Task :autosize:assemble
+> Task :autosize:build
 
-BUILD SUCCESSFUL in 29s
-90 actionable tasks: 59 executed, 31 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-11-28 12:57:55,605 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920613861-0/src/AndroidAutoSize-master/demo-subunits/build/outputs/apk/release/demo-subunits-release-unsigned.apk
+BUILD SUCCESSFUL in 9s
+47 actionable tasks: 47 executed
+
+2020-01-24 14:51:24,057 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:51:24,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:51:29,696 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-24 14:51:29,696 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-24 14:51:29,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-24 14:52:06,450 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :autosize
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :autosize:preBuild UP-TO-DATE
+> Task :autosize:preDebugBuild UP-TO-DATE
+> Task :autosize:compileDebugAidl NO-SOURCE
+> Task :autosize:compileDebugRenderscript NO-SOURCE
+> Task :autosize:checkDebugManifest UP-TO-DATE
+> Task :autosize:generateDebugBuildConfig UP-TO-DATE
+> Task :autosize:generateDebugResValues UP-TO-DATE
+> Task :autosize:generateDebugResources UP-TO-DATE
+> Task :autosize:packageDebugResources UP-TO-DATE
+> Task :autosize:parseDebugLibraryResources UP-TO-DATE
+> Task :autosize:processDebugManifest UP-TO-DATE
+> Task :autosize:generateDebugRFile UP-TO-DATE
+> Task :autosize:javaPreCompileDebug UP-TO-DATE
+> Task :autosize:compileDebugJavaWithJavac UP-TO-DATE
+> Task :demo-androidx:preBuild UP-TO-DATE
+> Task :demo-androidx:preDebugBuild UP-TO-DATE
+> Task :demo-androidx:compileDebugAidl NO-SOURCE
+> Task :autosize:packageDebugRenderscript NO-SOURCE
+> Task :demo-androidx:checkDebugManifest
+> Task :demo-androidx:compileDebugRenderscript NO-SOURCE
+> Task :demo-androidx:generateDebugBuildConfig
+> Task :autosize:bundleLibCompileDebug
+> Task :demo-androidx:javaPreCompileDebug
+> Task :demo-androidx:mainApkListPersistenceDebug
+> Task :demo-androidx:generateDebugResValues
+> Task :demo-androidx:generateDebugResources
+> Task :demo-androidx:createDebugCompatibleScreenManifests
+> Task :demo-androidx:processDebugManifest
+> Task :demo-androidx:mergeDebugResources
+> Task :demo-androidx:processDebugResources
+
+> Task :demo-androidx:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/src/main/java/me/jessyan/autosize/demo/androidx/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :demo-androidx:compileDebugSources
+> Task :autosize:mergeDebugShaders UP-TO-DATE
+> Task :autosize:compileDebugShaders UP-TO-DATE
+> Task :autosize:generateDebugAssets UP-TO-DATE
+> Task :autosize:packageDebugAssets UP-TO-DATE
+> Task :demo-androidx:mergeDebugShaders
+> Task :demo-androidx:compileDebugShaders
+> Task :demo-androidx:generateDebugAssets
+> Task :demo-androidx:mergeDebugAssets
+> Task :autosize:processDebugJavaRes NO-SOURCE
+> Task :demo-androidx:processDebugJavaRes NO-SOURCE
+> Task :autosize:bundleLibResDebug
+> Task :autosize:bundleLibRuntimeDebug
+> Task :demo-androidx:checkDebugDuplicateClasses
+> Task :demo-androidx:mergeDebugJavaResource
+> Task :demo-androidx:transformClassesWithDexBuilderForDebug
+> Task :demo-androidx:validateSigningDebug
+> Task :demo-androidx:signingConfigWriterDebug
+> Task :autosize:mergeDebugJniLibFolders UP-TO-DATE
+> Task :autosize:mergeDebugNativeLibs UP-TO-DATE
+> Task :autosize:stripDebugDebugSymbols UP-TO-DATE
+> Task :autosize:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo-androidx:mergeDebugJniLibFolders
+> Task :autosize:preReleaseBuild UP-TO-DATE
+> Task :autosize:compileReleaseAidl NO-SOURCE
+> Task :autosize:compileReleaseRenderscript NO-SOURCE
+> Task :autosize:checkReleaseManifest UP-TO-DATE
+> Task :autosize:generateReleaseBuildConfig UP-TO-DATE
+> Task :autosize:generateReleaseResValues UP-TO-DATE
+> Task :autosize:generateReleaseResources UP-TO-DATE
+> Task :autosize:packageReleaseResources UP-TO-DATE
+> Task :autosize:parseReleaseLibraryResources UP-TO-DATE
+> Task :autosize:processReleaseManifest UP-TO-DATE
+> Task :autosize:generateReleaseRFile UP-TO-DATE
+> Task :autosize:javaPreCompileRelease UP-TO-DATE
+> Task :autosize:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :demo-androidx:preReleaseBuild UP-TO-DATE
+> Task :demo-androidx:compileReleaseAidl NO-SOURCE
+> Task :autosize:packageReleaseRenderscript NO-SOURCE
+> Task :demo-androidx:compileReleaseRenderscript NO-SOURCE
+> Task :demo-androidx:checkReleaseManifest
+> Task :demo-androidx:generateReleaseBuildConfig
+> Task :demo-androidx:mainApkListPersistenceRelease
+> Task :demo-androidx:generateReleaseResValues
+> Task :demo-androidx:generateReleaseResources
+> Task :demo-androidx:createReleaseCompatibleScreenManifests
+> Task :demo-androidx:processReleaseManifest
+> Task :demo-androidx:mergeDebugNativeLibs
+> Task :demo-androidx:stripDebugDebugSymbols
+> Task :autosize:bundleLibCompileRelease
+> Task :demo-androidx:javaPreCompileRelease
+> Task :autosize:prepareLintJarForPublish UP-TO-DATE
+> Task :demo-androidx:prepareLintJar
+> Task :demo-androidx:checkReleaseDuplicateClasses
+> Task :autosize:mergeReleaseShaders UP-TO-DATE
+> Task :autosize:compileReleaseShaders UP-TO-DATE
+> Task :autosize:generateReleaseAssets UP-TO-DATE
+> Task :autosize:packageReleaseAssets UP-TO-DATE
+> Task :demo-androidx:mergeReleaseShaders
+> Task :demo-androidx:compileReleaseShaders
+> Task :demo-androidx:generateReleaseAssets
+> Task :demo-androidx:mergeReleaseAssets
+> Task :autosize:processReleaseJavaRes NO-SOURCE
+> Task :demo-androidx:mergeReleaseResources
+> Task :demo-androidx:processReleaseResources
+
+> Task :demo-androidx:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/src/main/java/me/jessyan/autosize/demo/androidx/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :demo-androidx:compileReleaseSources
+
+> Task :demo-androidx:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3d5b72111afa69b1393127beeb9b8857/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :demo-androidx:transformClassesWithDexBuilderForRelease
+> Task :demo-androidx:processReleaseJavaRes NO-SOURCE
+> Task :demo-androidx:signingConfigWriterRelease
+> Task :autosize:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :autosize:mergeReleaseNativeLibs UP-TO-DATE
+> Task :autosize:stripReleaseDebugSymbols UP-TO-DATE
+> Task :autosize:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo-androidx:mergeReleaseJniLibFolders
+> Task :autosize:bundleLibRuntimeRelease
+> Task :demo-androidx:mergeExtDexDebug
+> Task :demo-androidx:mergeExtDexRelease
+> Task :autosize:bundleLibResRelease
+> Task :demo-androidx:mergeReleaseNativeLibs
+> Task :demo-androidx:stripReleaseDebugSymbols
+> Task :demo-androidx:mergeReleaseJavaResource
+> Task :demo-androidx:mergeDexDebug
+> Task :demo-androidx:packageDebug
+> Task :demo-androidx:assembleDebug
+> Task :demo-androidx:mergeDexRelease
+> Task :demo-androidx:packageRelease
+> Task :demo-androidx:assembleRelease
+> Task :demo-androidx:assemble
+> Task :demo-androidx:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 35s
+88 actionable tasks: 57 executed, 31 up-to-date
+
+2020-01-24 14:52:06,518 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852267168-0/src/AndroidAutoSize-master/demo-androidx/build/outputs/apk/release/demo-androidx-release-unsigned.apk
