@@ -1,41 +1,38 @@
-2019-02-24 20:11:27,013 INFO  DownloadService - Downloading "https://github.com/Vorlonsoft/AndroidRate/archive/master.zip", attempt 3
-2019-02-24 20:12:28,068 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-24 20:12:29,322 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-24 20:12:29,322 INFO  DownloadService - Downloading "https://github.com/Vorlonsoft/AndroidRate/archive/master.zip", attempt 3
-2019-02-24 20:13:31,547 DEBUG FullProcessService - Repository https://github.com/Vorlonsoft/AndroidRate available: true
-2019-02-24 20:13:31,547 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-24 20:13:31,547 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Vorlonsoft/AndroidRate, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src]
-2019-02-24 20:13:33,990 INFO  SysUtils - 
-2019-02-24 20:13:34,002 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/.git": true
-2019-02-24 20:13:34,011 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-02-24 20:13:34,012 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src]
-2019-02-24 20:13:34,029 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/.git/
+2020-03-29 17:40:08,362 INFO  DownloadService - Downloading "https://github.com/Vorlonsoft/AndroidRate/archive/master.zip", attempt 3
+2020-03-29 17:40:12,145 INFO  DownloadService - Downloaded https://github.com/Vorlonsoft/AndroidRate/archive/master.zip, attempt 3
+2020-03-29 17:40:12,145 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/master.zip": 1 MB
+2020-03-29 17:40:12,145 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 17:40:12,146 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/master.zip: true
+2020-03-29 17:40:12,146 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src'.
+2020-03-29 17:40:12,215 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-29 17:40:12,215 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src]
+2020-03-29 17:40:12,240 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/.git/
 
-2019-02-24 20:13:34,037 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew
-2019-02-24 20:13:34,045 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/build.gradle
-2019-02-24 20:13:34,052 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/settings.gradle
-2019-02-24 20:13:34,053 INFO  DownloadService - Downloading "https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle", attempt 3
-2019-02-24 20:13:35,835 INFO  DownloadService - Downloaded https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle, attempt 3
-2019-02-24 20:13:35,835 INFO  DownloadService - Downloading "https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle", attempt 3
-2019-02-24 20:13:36,266 INFO  DownloadService - Downloaded https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle, attempt 3
-2019-02-24 20:13:36,266 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle
-2019-02-24 20:13:36,266 INFO  ProjectFixService - Fixing project...
-2019-02-24 20:13:36,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/local.properties
-2019-02-24 20:13:36,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-02-24 20:13:36,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/local.properties
-2019-02-24 20:13:36,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-24 20:13:36,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/local.properties
-2019-02-24 20:13:36,299 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-02-24 20:13:36,300 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-02-24 20:13:36,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-02-24 20:13:36,300 INFO  ProjectFixService - Project was maybe fixed
-2019-02-24 20:13:36,300 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-24 20:13:36,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-24 20:13:36,466 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-24 20:13:36,466 INFO  ProjectTaskService - Detected possible tasks: 23
-2019-02-24 20:13:36,466 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
-2019-02-24 20:13:36,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-02-24 20:13:36,645 ERROR SysUtils - Could not process external command
+2020-03-29 17:40:12,248 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew
+2020-03-29 17:40:12,256 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/build.gradle
+2020-03-29 17:40:12,264 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/settings.gradle
+2020-03-29 17:40:12,264 INFO  DownloadService - Downloading "https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle", attempt 3
+2020-03-29 17:40:13,621 INFO  DownloadService - Downloaded https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle, attempt 3
+2020-03-29 17:40:13,621 INFO  DownloadService - Downloading "https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle", attempt 3
+2020-03-29 17:40:14,112 INFO  DownloadService - Downloaded https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle, attempt 3
+2020-03-29 17:40:14,112 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/Vorlonsoft/GradleMavenPush/master/maven-push.gradle https://raw.github.com/Vorlonsoft/EasyDokkaPlugin/master/dokka.gradle
+2020-03-29 17:40:14,112 INFO  ProjectFixService - Fixing project...
+2020-03-29 17:40:14,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/local.properties
+2020-03-29 17:40:14,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2020-03-29 17:40:14,140 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/local.properties
+2020-03-29 17:40:14,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-29 17:40:14,141 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/local.properties
+2020-03-29 17:40:14,141 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2020-03-29 17:40:14,141 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2020-03-29 17:40:14,142 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2020-03-29 17:40:14,142 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 17:40:14,142 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:40:14,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:40:14,365 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-29 17:40:14,365 INFO  ProjectTaskService - Detected possible tasks: 23
+2020-03-29 17:40:14,365 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
+2020-03-29 17:40:14,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-03-29 17:40:14,522 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,29 +45,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-24 20:13:36,646 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-03-29 17:40:14,522 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-24 20:13:36,654 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-24 20:13:36,655 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-24 20:13:36,802 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-24 20:13:36,803 INFO  ProjectTaskService - Detected possible tasks: 23
-2019-02-24 20:13:36,803 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
-2019-02-24 20:13:36,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-02-24 20:13:36,991 ERROR SysUtils - Could not process external command
+2020-03-29 17:40:14,531 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:40:14,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:40:14,659 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-29 17:40:14,659 INFO  ProjectTaskService - Detected possible tasks: 23
+2020-03-29 17:40:14,659 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
+2020-03-29 17:40:14,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-03-29 17:40:14,806 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -83,29 +80,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-24 20:13:36,991 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-03-29 17:40:14,807 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-24 20:13:37,002 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-24 20:13:37,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-24 20:13:37,153 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-24 20:13:37,154 INFO  ProjectTaskService - Detected possible tasks: 23
-2019-02-24 20:13:37,154 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
-2019-02-24 20:13:37,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551013887005-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-02-24 20:13:37,327 ERROR SysUtils - Could not process external command
+2020-03-29 17:40:14,816 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:40:14,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:40:14,952 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-29 17:40:14,952 INFO  ProjectTaskService - Detected possible tasks: 23
+2020-03-29 17:40:14,952 INFO  ProjectTaskService - Excluded tasks (4): androidJavadocsJar sourcesJar androidJavadocs androidSourcesJar
+2020-03-29 17:40:14,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478408359-0/src/AndroidRate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, sourcesJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-03-29 17:40:15,103 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -118,21 +115,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-24 20:13:37,328 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-03-29 17:40:15,103 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-24 20:13:37,337 ERROR FullProcessService - Project build has not produced APK file
-2019-02-24 20:13:37,345 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-29 17:40:15,112 ERROR FullProcessService - Project build has not produced APK file
+2020-03-29 17:40:15,122 ERROR FullProcessService - Could not find generated or existed APK file

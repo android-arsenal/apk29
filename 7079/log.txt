@@ -1,243 +1,250 @@
-2019-03-03 18:40:28,557 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaAnimatedText/archive/master.zip", attempt 3
-2019-03-03 18:41:29,168 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-03 18:41:30,282 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-03 18:41:30,283 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaAnimatedText/archive/master.zip", attempt 3
-2019-03-03 18:42:32,481 DEBUG FullProcessService - Repository https://github.com/Omega-R/OmegaAnimatedText available: true
-2019-03-03 18:42:32,481 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-03 18:42:32,481 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Omega-R/OmegaAnimatedText, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src]
-2019-03-03 18:42:34,542 INFO  SysUtils - 
-2019-03-03 18:42:34,585 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/.git": true
-2019-03-03 18:42:34,590 INFO  FullProcessService - Size of directory with sources: 248 KB
-2019-03-03 18:42:34,590 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src]
-2019-03-03 18:42:34,613 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/.git/
+2020-03-29 17:40:15,170 INFO  DownloadService - Downloading "https://github.com/Omega-R/OmegaAnimatedText/archive/master.zip", attempt 3
+2020-03-29 17:40:16,167 INFO  DownloadService - Downloaded https://github.com/Omega-R/OmegaAnimatedText/archive/master.zip, attempt 3
+2020-03-29 17:40:16,168 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/master.zip": 232 KB
+2020-03-29 17:40:16,168 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 17:40:16,168 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/master.zip: true
+2020-03-29 17:40:16,168 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src'.
+2020-03-29 17:40:16,188 INFO  FullProcessService - Size of directory with sources: 248 KB
+2020-03-29 17:40:16,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src]
+2020-03-29 17:40:16,206 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/.git/
 
-2019-03-03 18:42:34,617 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/gradlew
-2019-03-03 18:42:34,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/build.gradle
-2019-03-03 18:42:34,626 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/settings.gradle
-2019-03-03 18:42:34,626 INFO  ProjectBuildService - Remote scripts: none
-2019-03-03 18:42:34,626 INFO  ProjectFixService - Fixing project...
-2019-03-03 18:42:34,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/local.properties
-2019-03-03 18:42:34,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,638 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/local.properties
-2019-03-03 18:42:34,639 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,639 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/local.properties
-2019-03-03 18:42:34,641 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-03 18:42:34,642 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-03 18:42:34,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-03 18:42:34,643 INFO  ProjectFixService - Project was maybe fixed
-2019-03-03 18:42:34,644 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-03 18:42:34,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-03 18:42:41,251 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-03-03 18:42:41,251 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-03 18:42:41,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/animatedtext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-03 18:42:54,064 INFO  SysUtils - Configuration on demand is an incubating feature.
-:animatedtext:preBuild UP-TO-DATE
-:animatedtext:preDebugBuild UP-TO-DATE
-:animatedtext:compileDebugAidl
-:animatedtext:compileDebugRenderscript
-:animatedtext:checkDebugManifest
-:animatedtext:generateDebugBuildConfig
-:animatedtext:generateDebugResValues
-:animatedtext:generateDebugResources
-:animatedtext:packageDebugResources
-:animatedtext:platformAttrExtractor
-:animatedtext:processDebugManifest
-:animatedtext:prepareLintJar
-:animatedtext:javaPreCompileDebug
-:animatedtext:mergeDebugConsumerProguardFiles
-:animatedtext:mergeDebugShaders
-:animatedtext:compileDebugShaders
-:animatedtext:generateDebugAssets
-:animatedtext:packageDebugAssets
-:animatedtext:packageDebugRenderscript NO-SOURCE
-:animatedtext:processDebugJavaRes NO-SOURCE
-:animatedtext:compileDebugNdk NO-SOURCE
-:animatedtext:mergeDebugJniLibFolders
-:animatedtext:transformNativeLibsWithMergeJniLibsForDebug
-:animatedtext:transformNativeLibsWithStripDebugSymbolForDebug
-:animatedtext:transformNativeLibsWithSyncJniLibsForDebug
-:animatedtext:preReleaseBuild UP-TO-DATE
-:animatedtext:compileReleaseAidl
-:animatedtext:compileReleaseRenderscript
-:animatedtext:checkReleaseManifest
-:animatedtext:generateReleaseBuildConfig
-:animatedtext:generateReleaseResValues
-:animatedtext:generateReleaseResources
-:animatedtext:packageReleaseResources
-:animatedtext:processReleaseManifest
-:animatedtext:javaPreCompileRelease
-:animatedtext:mergeReleaseConsumerProguardFiles
-:animatedtext:mergeReleaseShaders
-:animatedtext:compileReleaseShaders
-:animatedtext:generateReleaseAssets
-:animatedtext:packageReleaseAssets
-:animatedtext:packageReleaseRenderscript NO-SOURCE
-:animatedtext:processReleaseJavaRes NO-SOURCE
-:animatedtext:compileReleaseNdk NO-SOURCE
-:animatedtext:mergeReleaseJniLibFolders
-:animatedtext:transformNativeLibsWithMergeJniLibsForRelease
-:animatedtext:transformNativeLibsWithStripDebugSymbolForRelease
-:animatedtext:transformNativeLibsWithSyncJniLibsForRelease
-:animatedtext:mergeReleaseResources
-:animatedtext:verifyReleaseResources
-:animatedtext:generateDebugRFile
-:animatedtext:generateDebugSources
-:animatedtext:compileDebugJavaWithJavac
-:animatedtext:extractDebugAnnotations
-:animatedtext:transformResourcesWithMergeJavaResForDebug
-:animatedtext:transformClassesAndResourcesWithSyncLibJarsForDebug
-:animatedtext:bundleDebug
-:animatedtext:compileDebugSources
-:animatedtext:assembleDebug
-:animatedtext:generateReleaseRFile
-:animatedtext:generateReleaseSources
-:animatedtext:compileReleaseJavaWithJavac
-:animatedtext:extractReleaseAnnotations
-:animatedtext:transformResourcesWithMergeJavaResForRelease
-:animatedtext:transformClassesAndResourcesWithSyncLibJarsForRelease
-:animatedtext:bundleRelease
-:animatedtext:compileReleaseSources
-:animatedtext:assembleRelease
-:animatedtext:assemble
-:animatedtext:build
+2020-03-29 17:40:16,210 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/gradlew
+2020-03-29 17:40:16,213 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/build.gradle
+2020-03-29 17:40:16,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/settings.gradle
+2020-03-29 17:40:16,217 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 17:40:16,217 INFO  ProjectFixService - Fixing project...
+2020-03-29 17:40:16,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/local.properties
+2020-03-29 17:40:16,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/local.properties
+2020-03-29 17:40:16,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,228 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/local.properties
+2020-03-29 17:40:16,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 17:40:16,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 17:40:16,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,231 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-29 17:40:16,231 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 17:40:16,231 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:40:16,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:40:22,602 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-29 17:40:22,602 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 17:40:22,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/animatedtext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 17:40:25,255 INFO  VirusProcessorServiceImpl - Queued project 7089 to scan viruses
+2020-03-29 17:40:34,222 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :animatedtext:preBuild UP-TO-DATE
+> Task :animatedtext:preDebugBuild UP-TO-DATE
+> Task :animatedtext:checkDebugManifest
+> Task :animatedtext:compileDebugAidl NO-SOURCE
+> Task :animatedtext:compileDebugRenderscript NO-SOURCE
+> Task :animatedtext:generateDebugBuildConfig
+> Task :animatedtext:generateDebugResValues
+> Task :animatedtext:generateDebugResources
+> Task :animatedtext:packageDebugResources
+> Task :animatedtext:mergeDebugShaders
+> Task :animatedtext:compileDebugShaders
+> Task :animatedtext:generateDebugAssets
+> Task :animatedtext:packageDebugAssets
+> Task :animatedtext:packageDebugRenderscript NO-SOURCE
+> Task :animatedtext:processDebugJavaRes NO-SOURCE
+> Task :animatedtext:mergeDebugJniLibFolders
+> Task :animatedtext:processDebugManifest
+> Task :animatedtext:preReleaseBuild UP-TO-DATE
+> Task :animatedtext:compileReleaseAidl NO-SOURCE
+> Task :animatedtext:compileReleaseRenderscript NO-SOURCE
+> Task :animatedtext:checkReleaseManifest
+> Task :animatedtext:generateReleaseBuildConfig
+> Task :animatedtext:generateReleaseResValues
+> Task :animatedtext:generateReleaseResources
+> Task :animatedtext:packageReleaseResources
+> Task :animatedtext:javaPreCompileDebug
+> Task :animatedtext:mergeDebugNativeLibs
+> Task :animatedtext:stripDebugDebugSymbols
+> Task :animatedtext:transformNativeLibsWithSyncJniLibsForDebug
+> Task :animatedtext:mergeReleaseShaders
+> Task :animatedtext:compileReleaseShaders
+> Task :animatedtext:generateReleaseAssets
+> Task :animatedtext:processReleaseManifest
+> Task :animatedtext:packageReleaseAssets
+> Task :animatedtext:packageReleaseRenderscript NO-SOURCE
+> Task :animatedtext:processReleaseJavaRes NO-SOURCE
+> Task :animatedtext:mergeReleaseJniLibFolders
+> Task :animatedtext:parseReleaseLibraryResources
+> Task :animatedtext:javaPreCompileRelease
+> Task :animatedtext:mergeReleaseNativeLibs
+> Task :animatedtext:stripReleaseDebugSymbols
+> Task :animatedtext:transformNativeLibsWithSyncJniLibsForRelease
+> Task :animatedtext:parseDebugLibraryResources
+> Task :animatedtext:prepareLintJarForPublish
+> Task :animatedtext:mergeReleaseResources
+> Task :animatedtext:generateDebugRFile
+> Task :animatedtext:compileDebugJavaWithJavac
+> Task :animatedtext:extractDebugAnnotations
+> Task :animatedtext:mergeDebugGeneratedProguardFiles
+> Task :animatedtext:mergeDebugConsumerProguardFiles
+> Task :animatedtext:compileDebugSources
+> Task :animatedtext:verifyReleaseResources
+> Task :animatedtext:generateReleaseRFile
+> Task :animatedtext:compileReleaseJavaWithJavac
+> Task :animatedtext:extractReleaseAnnotations
+> Task :animatedtext:mergeReleaseGeneratedProguardFiles
+> Task :animatedtext:mergeReleaseConsumerProguardFiles
+> Task :animatedtext:mergeDebugJavaResource
+> Task :animatedtext:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :animatedtext:bundleDebugAar
+> Task :animatedtext:assembleDebug
+> Task :animatedtext:compileReleaseSources
+> Task :animatedtext:mergeReleaseJavaResource
+> Task :animatedtext:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :animatedtext:bundleReleaseAar
+> Task :animatedtext:assembleRelease
+> Task :animatedtext:assemble
+> Task :animatedtext:build
 
-BUILD SUCCESSFUL in 12s
-48 actionable tasks: 48 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-03-03 18:42:54,109 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-03 18:42:54,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-03 18:43:00,268 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-03 18:43:00,268 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-03 18:43:00,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-03 18:43:22,555 INFO  SysUtils - Configuration on demand is an incubating feature.
-:animatedtext:preBuild UP-TO-DATE
-:animatedtext:preDebugBuild UP-TO-DATE
-:animatedtext:compileDebugAidl UP-TO-DATE
-:animatedtext:compileDebugRenderscript UP-TO-DATE
-:animatedtext:checkDebugManifest UP-TO-DATE
-:animatedtext:generateDebugBuildConfig UP-TO-DATE
-:animatedtext:generateDebugResValues UP-TO-DATE
-:animatedtext:generateDebugResources UP-TO-DATE
-:animatedtext:packageDebugResources UP-TO-DATE
-:animatedtext:platformAttrExtractor UP-TO-DATE
-:animatedtext:processDebugManifest UP-TO-DATE
-:animatedtext:generateDebugRFile UP-TO-DATE
-:animatedtext:prepareLintJar UP-TO-DATE
-:animatedtext:generateDebugSources UP-TO-DATE
-:animatedtext:javaPreCompileDebug UP-TO-DATE
-:animatedtext:compileDebugJavaWithJavac UP-TO-DATE
-:animatedtext:processDebugJavaRes NO-SOURCE
-:animatedtext:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild
-:app:compileDebugAidl
-:animatedtext:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:app:processDebugResources
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:animatedtext:mergeDebugShaders UP-TO-DATE
-:animatedtext:compileDebugShaders UP-TO-DATE
-:animatedtext:generateDebugAssets UP-TO-DATE
-:animatedtext:packageDebugAssets UP-TO-DATE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:animatedtext:compileDebugNdk NO-SOURCE
-:animatedtext:mergeDebugJniLibFolders UP-TO-DATE
-:animatedtext:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:animatedtext:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:animatedtext:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:animatedtext:preReleaseBuild UP-TO-DATE
-:animatedtext:compileReleaseAidl UP-TO-DATE
-:animatedtext:compileReleaseRenderscript UP-TO-DATE
-:animatedtext:checkReleaseManifest UP-TO-DATE
-:animatedtext:generateReleaseBuildConfig UP-TO-DATE
-:animatedtext:generateReleaseResValues UP-TO-DATE
-:animatedtext:generateReleaseResources UP-TO-DATE
-:animatedtext:packageReleaseResources UP-TO-DATE
-:animatedtext:processReleaseManifest UP-TO-DATE
-:animatedtext:generateReleaseRFile UP-TO-DATE
-:animatedtext:generateReleaseSources UP-TO-DATE
-:animatedtext:javaPreCompileRelease UP-TO-DATE
-:animatedtext:compileReleaseJavaWithJavac UP-TO-DATE
-:animatedtext:processReleaseJavaRes NO-SOURCE
-:animatedtext:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:preReleaseBuild
-:app:compileReleaseAidl
-:animatedtext:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:app:processReleaseResources
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:animatedtext:mergeReleaseShaders UP-TO-DATE
-:animatedtext:compileReleaseShaders UP-TO-DATE
-:animatedtext:generateReleaseAssets UP-TO-DATE
-:animatedtext:packageReleaseAssets UP-TO-DATE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:animatedtext:compileReleaseNdk NO-SOURCE
-:animatedtext:mergeReleaseJniLibFolders UP-TO-DATE
-:animatedtext:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:animatedtext:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:animatedtext:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+BUILD SUCCESSFUL in 11s
+47 actionable tasks: 47 executed
 
-BUILD SUCCESSFUL in 21s
-91 actionable tasks: 57 executed, 34 up-to-date
+2020-03-29 17:40:34,272 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:40:34,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:40:40,540 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 17:40:40,540 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 17:40:40,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 17:41:11,551 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :animatedtext:preBuild UP-TO-DATE
+> Task :animatedtext:preDebugBuild UP-TO-DATE
+> Task :animatedtext:compileDebugAidl NO-SOURCE
+> Task :animatedtext:checkDebugManifest UP-TO-DATE
+> Task :animatedtext:compileDebugRenderscript NO-SOURCE
+> Task :animatedtext:generateDebugBuildConfig UP-TO-DATE
+> Task :animatedtext:generateDebugResValues UP-TO-DATE
+> Task :animatedtext:generateDebugResources UP-TO-DATE
+> Task :animatedtext:packageDebugResources UP-TO-DATE
+> Task :animatedtext:parseDebugLibraryResources UP-TO-DATE
+> Task :animatedtext:processDebugManifest UP-TO-DATE
+> Task :animatedtext:generateDebugRFile UP-TO-DATE
+> Task :animatedtext:javaPreCompileDebug UP-TO-DATE
+> Task :animatedtext:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :animatedtext:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :animatedtext:bundleLibCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :animatedtext:mergeDebugShaders UP-TO-DATE
+> Task :animatedtext:compileDebugShaders UP-TO-DATE
+> Task :animatedtext:generateDebugAssets UP-TO-DATE
+> Task :animatedtext:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :animatedtext:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :animatedtext:bundleLibResDebug
+> Task :animatedtext:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :animatedtext:mergeDebugJniLibFolders UP-TO-DATE
+> Task :animatedtext:mergeDebugNativeLibs UP-TO-DATE
+> Task :animatedtext:stripDebugDebugSymbols UP-TO-DATE
+> Task :animatedtext:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :animatedtext:preReleaseBuild UP-TO-DATE
+> Task :animatedtext:compileReleaseAidl NO-SOURCE
+> Task :animatedtext:compileReleaseRenderscript NO-SOURCE
+> Task :animatedtext:checkReleaseManifest UP-TO-DATE
+> Task :animatedtext:generateReleaseBuildConfig UP-TO-DATE
+> Task :animatedtext:generateReleaseResValues UP-TO-DATE
+> Task :animatedtext:generateReleaseResources UP-TO-DATE
+> Task :animatedtext:packageReleaseResources UP-TO-DATE
+> Task :animatedtext:parseReleaseLibraryResources UP-TO-DATE
+> Task :animatedtext:processReleaseManifest UP-TO-DATE
+> Task :animatedtext:generateReleaseRFile UP-TO-DATE
+> Task :animatedtext:javaPreCompileRelease UP-TO-DATE
+> Task :animatedtext:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :animatedtext:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :animatedtext:bundleLibCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:javaPreCompileRelease
+> Task :animatedtext:prepareLintJarForPublish UP-TO-DATE
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :animatedtext:bundleLibRuntimeRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 
-2019-03-03 18:43:22,687 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551613228549-0/src/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b539ff0052ef7522461154104715a281/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :animatedtext:mergeReleaseShaders UP-TO-DATE
+> Task :animatedtext:compileReleaseShaders UP-TO-DATE
+> Task :animatedtext:generateReleaseAssets UP-TO-DATE
+> Task :animatedtext:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :animatedtext:processReleaseJavaRes NO-SOURCE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :animatedtext:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :animatedtext:mergeReleaseNativeLibs UP-TO-DATE
+> Task :animatedtext:stripReleaseDebugSymbols UP-TO-DATE
+> Task :animatedtext:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :animatedtext:bundleLibResRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 30s
+88 actionable tasks: 57 executed, 31 up-to-date
+
+2020-03-29 17:41:11,671 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478415167-0/src/OmegaAnimatedText-master/app/build/outputs/apk/debug/app-debug.apk

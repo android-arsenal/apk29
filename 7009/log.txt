@@ -1,81 +1,62 @@
-2020-01-31 11:24:29,362 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/CryptoPrefs/archive/master.zip", attempt 3
-2020-01-31 11:24:31,549 INFO  DownloadService - Downloaded https://github.com/AndreaCioccarelli/CryptoPrefs/archive/master.zip, attempt 3
-2020-01-31 11:24:31,549 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/master.zip": 156 KB
-2020-01-31 11:24:31,549 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-31 11:24:31,549 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/master.zip: true
-2020-01-31 11:24:31,549 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src'.
-2020-01-31 11:24:31,569 INFO  FullProcessService - Size of directory with sources: 186 KB
-2020-01-31 11:24:31,569 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src]
-2020-01-31 11:24:31,604 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/.git/
+2020-03-29 17:55:27,160 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/CryptoPrefs/archive/master.zip", attempt 3
+2020-03-29 17:55:27,728 INFO  DownloadService - Downloaded https://github.com/AndreaCioccarelli/CryptoPrefs/archive/master.zip, attempt 3
+2020-03-29 17:55:27,728 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/master.zip": 159 KB
+2020-03-29 17:55:27,728 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 17:55:27,733 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/master.zip: true
+2020-03-29 17:55:27,733 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src'.
+2020-03-29 17:55:27,753 INFO  FullProcessService - Size of directory with sources: 184 KB
+2020-03-29 17:55:27,753 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src]
+2020-03-29 17:55:27,771 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/.git/
 
-2020-01-31 11:24:31,606 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/gradlew
-2020-01-31 11:24:31,610 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/build.gradle
-2020-01-31 11:24:31,613 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/settings.gradle
-2020-01-31 11:24:31,614 INFO  ProjectBuildService - Remote scripts: none
-2020-01-31 11:24:31,614 INFO  ProjectFixService - Fixing project...
-2020-01-31 11:24:31,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/local.properties
-2020-01-31 11:24:31,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:24:31,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/library/local.properties
-2020-01-31 11:24:31,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:24:31,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/local.properties
-2020-01-31 11:24:31,645 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-31 11:24:31,645 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-31 11:24:31,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:24:31,647 INFO  ProjectFixService - Project was maybe fixed
-2020-01-31 11:24:31,647 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-31 11:24:31,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-31 11:24:40,511 INFO  VirusProcessorServiceImpl - Queued project 7112 to scan viruses
-2020-01-31 11:24:42,688 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-31 11:24:42,689 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-31 11:24:42,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-31 11:26:07,676 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :library
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2020-03-29 17:55:27,775 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/gradlew
+2020-03-29 17:55:27,779 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/build.gradle
+2020-03-29 17:55:27,782 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/maven-publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/versions_plugin_config.gradle
+2020-03-29 17:55:27,782 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 17:55:27,783 INFO  ProjectFixService - Fixing project...
+2020-03-29 17:55:27,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/local.properties
+2020-03-29 17:55:27,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-03-29 17:55:27,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/library/local.properties
+2020-03-29 17:55:27,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/library/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-03-29 17:55:27,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/local.properties
+2020-03-29 17:55:27,794 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-29 17:55:27,794 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-29 17:55:27,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-03-29 17:55:27,796 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 17:55:27,796 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:55:27,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:55:34,051 INFO  VirusProcessorServiceImpl - Queued project 7022 to scan viruses
+2020-03-29 17:55:40,534 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 17:55:40,534 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 17:55:40,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 17:56:42,084 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :app:preDebugBuild
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :library:extractDeepLinksDebug
+> Task :library:compileDebugLibraryResources
+> Task :library:processDebugManifest
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :library:parseDebugLocalResources
+> Task :library:generateDebugBuildConfig
 > Task :library:generateDebugRFile
 > Task :app:processDebugResources
-> Task :library:generateDebugBuildConfig
 > Task :library:compileDebugKotlin
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/src/main/kotlin/com/andreacioccarelli/samplecryptoprefs/PresentationActivity.kt: (60, 17): Variable 'jsonFromPrefs' is never used
-
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -84,36 +65,33 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/src/main/kotlin/com/cioccarellia/samplecryptoprefs/PresentationActivity.kt: (67, 17): Variable 'jsonFromPrefs' is never used
+
 > Task :library:bundleLibResDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeExtDexDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -122,38 +100,40 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :library:extractDeepLinksRelease
+> Task :library:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:copyDebugJniLibsProjectOnly
+> Task :app:mergeReleaseResources
+> Task :library:generateReleaseBuildConfig
+> Task :app:mergeProjectDexDebug
+> Task :library:compileReleaseLibraryResources
+> Task :library:parseReleaseLocalResources
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
+> Task :library:prepareLintJarForPublish
+> Task :library:bundleLibRuntimeRelease
 > Task :library:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/src/main/kotlin/com/andreacioccarelli/samplecryptoprefs/PresentationActivity.kt: (60, 17): Variable 'jsonFromPrefs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/src/main/kotlin/com/cioccarellia/samplecryptoprefs/PresentationActivity.kt: (67, 17): Variable 'jsonFromPrefs' is never used
 
-> Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :library:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c8861df378bde466e38a5f2cb65b94e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeExtDexRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -162,26 +142,28 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 0s
+93 actionable tasks: 93 executed
 
-BUILD SUCCESSFUL in 1m 24s
-95 actionable tasks: 95 executed
-
-2020-01-31 11:26:07,747 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444669357-0/src/CryptoPrefs-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 17:56:42,148 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585479327152-0/src/cryptoprefs-master/app/build/outputs/apk/debug/app-debug.apk

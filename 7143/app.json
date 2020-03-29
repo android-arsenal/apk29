@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "2.1.0",
     "versionCode" : 97,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "14",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 1623,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"97\" android:versionName=\"2.1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.layoutxml.applistmanager\" platformBuildVersionCode=\"97\" platformBuildVersionName=\"2.1.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"AppListManager\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.layoutxml.applistmanager.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.layoutxml.applistmanagerlibrary.AppList\" android:enabled=\"true\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_ADDED\" />\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_REMOVED\" />\n\t\t\t\t<data android:scheme=\"package\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<activity android:name=\"com.layoutxml.applistmanager.ListActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1825926,
-  "crc32" : 3914274966,
-  "sha256" : "2eebfac953207e69c20ecb7ae8ac8c4f4bc0e4e0613bfe20646676672dd8e2da",
-  "buildTime" : 1548146350000
+  "fileSize" : 1825889,
+  "crc32" : 1861016579,
+  "sha256" : "186715094c7b1834141dbe38730cbdaa07dfd53fe9521141c840bb862738b8d6",
+  "buildTime" : 1585476863000
 }

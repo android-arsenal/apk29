@@ -1,39 +1,42 @@
-2019-12-28 20:12:47,838 INFO  DownloadService - Downloading "https://github.com/dmdevgo/RxPM/archive/master.zip", attempt 3
-2019-12-28 20:12:50,481 INFO  DownloadService - Downloaded https://github.com/dmdevgo/RxPM/archive/master.zip, attempt 3
-2019-12-28 20:12:50,481 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/master.zip": 412 KB
-2019-12-28 20:12:50,481 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-28 20:12:50,487 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/master.zip: true
-2019-12-28 20:12:50,487 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src'.
-2019-12-28 20:12:50,524 INFO  FullProcessService - Size of directory with sources: 582 KB
-2019-12-28 20:12:50,524 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src]
-2019-12-28 20:12:50,568 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/.git/
+2020-03-29 17:37:56,148 INFO  DownloadService - Downloading "https://github.com/dmdevgo/RxPM/archive/master.zip", attempt 3
+2020-03-29 17:37:58,757 INFO  DownloadService - Downloaded https://github.com/dmdevgo/RxPM/archive/master.zip, attempt 3
+2020-03-29 17:37:58,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/master.zip": 424 KB
+2020-03-29 17:37:58,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 17:37:58,759 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/master.zip: true
+2020-03-29 17:37:58,759 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src'.
+2020-03-29 17:37:58,797 INFO  FullProcessService - Size of directory with sources: 619 KB
+2020-03-29 17:37:58,797 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src]
+2020-03-29 17:37:58,816 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/.git/
 
-2019-12-28 20:12:50,572 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/gradlew
-2019-12-28 20:12:50,577 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/build.gradle
-2019-12-28 20:12:50,580 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/settings.gradle
-2019-12-28 20:12:50,581 INFO  ProjectBuildService - Remote scripts: none
-2019-12-28 20:12:50,581 INFO  ProjectFixService - Fixing project...
-2019-12-28 20:12:50,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/local.properties
-2019-12-28 20:12:50,591 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,591 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/local.properties
-2019-12-28 20:12:50,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/local.properties
-2019-12-28 20:12:50,596 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-28 20:12:50,596 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-28 20:12:50,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 20:12:50,598 INFO  ProjectFixService - Project was maybe fixed
-2019-12-28 20:12:50,598 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 20:12:50,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 20:12:57,964 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-28 20:12:57,964 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-28 20:12:57,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-28 20:13:22,031 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 17:37:58,822 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/gradlew
+2020-03-29 17:37:58,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/build.gradle
+2020-03-29 17:37:58,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/settings.gradle
+2020-03-29 17:37:58,833 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 17:37:58,833 INFO  ProjectFixService - Fixing project...
+2020-03-29 17:37:58,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/local.properties
+2020-03-29 17:37:58,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-29 17:37:58,847 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-29 17:37:58,848 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/local.properties
+2020-03-29 17:37:58,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 17:37:58,850 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 17:37:58,851 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/local.properties
+2020-03-29 17:37:58,851 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-29 17:37:58,851 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-29 17:37:58,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-29 17:37:58,852 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-29 17:37:58,853 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 17:37:58,853 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:37:58,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:38:06,946 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 17:38:06,946 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 17:38:06,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 17:38:40,148 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :rxpm:preBuild UP-TO-DATE
 > Task :rxpm:preDebugBuild UP-TO-DATE
-> Task :rxpm:checkDebugManifest
+> Task :rxpm:mergeDebugJniLibFolders
+> Task :rxpm:mergeDebugNativeLibs
+> Task :rxpm:stripDebugDebugSymbols
+> Task :rxpm:copyDebugJniLibsProjectAndLocalJars
 > Task :rxpm:generateDebugBuildConfig
 > Task :rxpm:generateDebugResValues
 > Task :rxpm:mergeDebugShaders
@@ -42,90 +45,88 @@
 > Task :rxpm:packageDebugAssets
 > Task :rxpm:packageDebugRenderscript NO-SOURCE
 > Task :rxpm:processDebugJavaRes NO-SOURCE
-> Task :rxpm:mergeDebugJniLibFolders
-> Task :rxpm:processDebugManifest
-> Task :rxpm:prepareLintJarForPublish
 > Task :rxpm:preReleaseBuild UP-TO-DATE
-> Task :rxpm:checkReleaseManifest
-> Task :rxpm:compileDebugAidl NO-SOURCE
-> Task :rxpm:compileDebugRenderscript NO-SOURCE
-> Task :rxpm:generateDebugResources
-> Task :rxpm:packageDebugResources
-> Task :rxpm:compileReleaseAidl NO-SOURCE
-> Task :rxpm:compileReleaseRenderscript NO-SOURCE
+> Task :rxpm:mergeReleaseJniLibFolders
 > Task :rxpm:generateReleaseBuildConfig
 > Task :rxpm:generateReleaseResValues
-> Task :rxpm:generateReleaseResources
-> Task :rxpm:packageReleaseResources
+> Task :rxpm:prepareLintJarForPublish
 > Task :rxpm:mergeReleaseShaders
 > Task :rxpm:compileReleaseShaders
 > Task :rxpm:generateReleaseAssets
 > Task :rxpm:packageReleaseAssets
 > Task :rxpm:packageReleaseRenderscript NO-SOURCE
 > Task :rxpm:processReleaseJavaRes NO-SOURCE
-> Task :rxpm:mergeReleaseJniLibFolders
-> Task :rxpm:parseDebugLibraryResources
-> Task :rxpm:sourcesJar
-> Task :rxpm:mergeReleaseResources
-> Task :rxpm:generateDebugRFile
-> Task :rxpm:compileDebugKotlin
 > Task :rxpm:mergeReleaseNativeLibs
 > Task :rxpm:stripReleaseDebugSymbols
-> Task :rxpm:transformNativeLibsWithSyncJniLibsForRelease
-> Task :rxpm:javaPreCompileDebug
-> Task :rxpm:compileDebugJavaWithJavac
-> Task :rxpm:extractDebugAnnotations
-> Task :rxpm:mergeDebugGeneratedProguardFiles
-> Task :rxpm:mergeDebugConsumerProguardFiles
-> Task :rxpm:mergeDebugNativeLibs
-> Task :rxpm:stripDebugDebugSymbols
-> Task :rxpm:transformNativeLibsWithSyncJniLibsForDebug
-> Task :rxpm:compileDebugSources
+> Task :rxpm:copyReleaseJniLibsProjectAndLocalJars
+> Task :rxpm:processDebugManifest
+> Task :rxpm:sourcesJar
 > Task :rxpm:processReleaseManifest
-> Task :rxpm:parseReleaseLibraryResources
+> Task :rxpm:compileDebugRenderscript NO-SOURCE
+> Task :rxpm:compileDebugAidl NO-SOURCE
+> Task :rxpm:generateDebugResources
+> Task :rxpm:packageDebugResources
+> Task :rxpm:compileReleaseAidl NO-SOURCE
+> Task :rxpm:compileReleaseRenderscript NO-SOURCE
+> Task :rxpm:generateReleaseResources
+> Task :rxpm:packageReleaseResources
+> Task :rxpm:mergeReleaseResources
+> Task :rxpm:parseDebugLocalResources
+> Task :rxpm:parseReleaseLocalResources
 > Task :rxpm:generateReleaseRFile
+
 > Task :rxpm:compileReleaseKotlin
-> Task :rxpm:verifyReleaseResources
-> Task :rxpm:mergeDebugJavaResource
-> Task :rxpm:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :rxpm:bundleDebugAar
-> Task :rxpm:assembleDebug
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/delegate/PmFragmentDelegate.kt: (47, 23): Parameter 'savedInstanceState' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/delegate/PmFragmentDelegate.kt: (54, 27): Parameter 'savedInstanceState' is never used
+
+> Task :rxpm:generateDebugRFile
+
+> Task :rxpm:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/delegate/PmFragmentDelegate.kt: (47, 23): Parameter 'savedInstanceState' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/rxpm/src/main/kotlin/me/dmdev/rxpm/delegate/PmFragmentDelegate.kt: (54, 27): Parameter 'savedInstanceState' is never used
+
 > Task :rxpm:javaPreCompileRelease
 > Task :rxpm:compileReleaseJavaWithJavac
 > Task :rxpm:extractReleaseAnnotations
 > Task :rxpm:mergeReleaseGeneratedProguardFiles
 > Task :rxpm:mergeReleaseConsumerProguardFiles
 > Task :rxpm:compileReleaseSources
+> Task :rxpm:mergeDebugJavaResource
+> Task :rxpm:javaPreCompileDebug
+> Task :rxpm:compileDebugJavaWithJavac
+> Task :rxpm:extractDebugAnnotations
+> Task :rxpm:mergeDebugGeneratedProguardFiles
+> Task :rxpm:mergeDebugConsumerProguardFiles
+> Task :rxpm:syncDebugLibJars
+> Task :rxpm:bundleDebugAar
+> Task :rxpm:compileDebugSources
+> Task :rxpm:assembleDebug
 > Task :rxpm:mergeReleaseJavaResource
-> Task :rxpm:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :rxpm:syncReleaseLibJars
 > Task :rxpm:bundleReleaseAar
+> Task :rxpm:verifyReleaseResources
 > Task :rxpm:assembleRelease
 > Task :rxpm:assemble
 > Task :rxpm:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 32s
+48 actionable tasks: 48 executed
 
-BUILD SUCCESSFUL in 23s
-50 actionable tasks: 50 executed
-
-2019-12-28 20:13:22,050 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 20:13:22,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 20:13:28,084 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-28 20:13:28,084 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 20:13:28,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 20:14:38,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 17:38:40,173 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 17:38:40,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 17:38:47,309 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 17:38:47,309 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 17:38:47,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 17:40:07,778 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :rxpm:preBuild UP-TO-DATE
 > Task :rxpm:preDebugBuild UP-TO-DATE
 > Task :rxpm:compileDebugAidl NO-SOURCE
-> Task :rxpm:checkDebugManifest UP-TO-DATE
-> Task :rxpm:compileDebugRenderscript NO-SOURCE
 > Task :rxpm:generateDebugBuildConfig UP-TO-DATE
+> Task :rxpm:compileDebugRenderscript NO-SOURCE
 > Task :rxpm:generateDebugResValues UP-TO-DATE
 > Task :rxpm:generateDebugResources UP-TO-DATE
 > Task :rxpm:packageDebugResources UP-TO-DATE
-> Task :rxpm:parseDebugLibraryResources UP-TO-DATE
+> Task :rxpm:parseDebugLocalResources UP-TO-DATE
 > Task :rxpm:processDebugManifest UP-TO-DATE
 > Task :rxpm:generateDebugRFile UP-TO-DATE
 > Task :rxpm:compileDebugKotlin UP-TO-DATE
@@ -133,26 +134,25 @@ BUILD SUCCESSFUL in 23s
 > Task :rxpm:compileDebugJavaWithJavac UP-TO-DATE
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
-> Task :rxpm:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugAidl NO-SOURCE
+> Task :rxpm:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
 > Task :rxpm:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
+> Task :rxpm:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :rxpm:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/util/Country.kt: (14, 70): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/util/Country.kt: (14, 70): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
 
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :rxpm:mergeDebugShaders UP-TO-DATE
 > Task :rxpm:compileDebugShaders UP-TO-DATE
 > Task :rxpm:generateDebugAssets UP-TO-DATE
@@ -161,73 +161,73 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :rxpm:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :rxpm:bundleLibResDebug
-> Task :rxpm:bundleLibRuntimeDebug
-> Task :rxpm:createFullJarDebug
-> Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeDebugJavaResource
+> Task :sample:checkDebugDuplicateClasses
 > Task :sample:desugarDebugFileDependencies
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
+> Task :rxpm:bundleLibRuntimeDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
 > Task :rxpm:mergeDebugJniLibFolders UP-TO-DATE
 > Task :rxpm:mergeDebugNativeLibs UP-TO-DATE
 > Task :rxpm:stripDebugDebugSymbols UP-TO-DATE
-> Task :rxpm:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :rxpm:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :rxpm:preReleaseBuild UP-TO-DATE
 > Task :rxpm:compileReleaseAidl NO-SOURCE
 > Task :rxpm:compileReleaseRenderscript NO-SOURCE
-> Task :rxpm:checkReleaseManifest UP-TO-DATE
 > Task :rxpm:generateReleaseBuildConfig UP-TO-DATE
 > Task :rxpm:generateReleaseResValues UP-TO-DATE
 > Task :rxpm:generateReleaseResources UP-TO-DATE
 > Task :rxpm:packageReleaseResources UP-TO-DATE
-> Task :rxpm:parseReleaseLibraryResources UP-TO-DATE
+> Task :rxpm:parseReleaseLocalResources UP-TO-DATE
 > Task :rxpm:processReleaseManifest UP-TO-DATE
 > Task :rxpm:generateReleaseRFile UP-TO-DATE
 > Task :rxpm:compileReleaseKotlin UP-TO-DATE
 > Task :rxpm:javaPreCompileRelease UP-TO-DATE
 > Task :rxpm:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :rxpm:bundleLibCompileRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :rxpm:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
+> Task :rxpm:compileReleaseLibraryResources
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
-> Task :rxpm:bundleLibCompileRelease
-> Task :rxpm:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
-> Task :rxpm:processReleaseJavaRes NO-SOURCE
-> Task :sample:checkReleaseDuplicateClasses
-> Task :rxpm:bundleLibResRelease
+> Task :rxpm:extractDeepLinksRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseManifest
+> Task :sample:mergeProjectDexDebug
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/util/Country.kt: (14, 70): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/src/main/kotlin/me/dmdev/rxpm/sample/main/util/Country.kt: (14, 70): Unnecessary non-null assertion (!!) on a non-null receiver of type String!
 
-> Task :rxpm:bundleLibRuntimeRelease
-> Task :rxpm:createFullJarRelease
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :rxpm:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
 > Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :sample:checkReleaseDuplicateClasses
+> Task :rxpm:bundleLibRuntimeRelease
+> Task :sample:dexBuilderRelease
 > Task :sample:desugarReleaseFileDependencies
-> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :rxpm:mergeReleaseShaders UP-TO-DATE
 > Task :rxpm:compileReleaseShaders UP-TO-DATE
 > Task :rxpm:generateReleaseAssets UP-TO-DATE
@@ -236,12 +236,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :rxpm:processReleaseJavaRes NO-SOURCE
+> Task :rxpm:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
 > Task :rxpm:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :rxpm:mergeReleaseNativeLibs UP-TO-DATE
 > Task :rxpm:stripReleaseDebugSymbols UP-TO-DATE
-> Task :rxpm:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :rxpm:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
@@ -253,11 +254,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 19s
+95 actionable tasks: 64 executed, 31 up-to-date
 
-BUILD SUCCESSFUL in 1m 9s
-96 actionable tasks: 63 executed, 33 up-to-date
-
-2019-12-28 20:14:38,097 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577538767835-0/src/RxPM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-29 17:40:07,857 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585478276143-0/src/RxPM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
