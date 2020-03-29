@@ -1,33 +1,33 @@
-2019-09-26 12:25:05,945 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/MayI/archive/master.zip", attempt 3
-2019-09-26 12:25:08,657 INFO  DownloadService - Downloaded https://github.com/ThanosFisherman/MayI/archive/master.zip, attempt 3
-2019-09-26 12:25:08,657 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/master.zip": 869 KB
-2019-09-26 12:25:08,657 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 12:25:08,657 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/master.zip: true
-2019-09-26 12:25:08,657 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src'.
-2019-09-26 12:25:08,684 INFO  FullProcessService - Size of directory with sources: 921 KB
-2019-09-26 12:25:08,684 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src]
-2019-09-26 12:25:08,709 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/.git/
+2020-03-29 16:39:17,347 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/MayI/archive/master.zip", attempt 3
+2020-03-29 16:39:18,993 INFO  DownloadService - Downloaded https://github.com/ThanosFisherman/MayI/archive/master.zip, attempt 3
+2020-03-29 16:39:18,993 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/master.zip": 869 KB
+2020-03-29 16:39:18,993 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 16:39:18,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/master.zip: true
+2020-03-29 16:39:18,993 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src'.
+2020-03-29 16:39:19,022 INFO  FullProcessService - Size of directory with sources: 921 KB
+2020-03-29 16:39:19,022 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src]
+2020-03-29 16:39:19,043 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/.git/
 
-2019-09-26 12:25:08,711 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/gradlew
-2019-09-26 12:25:08,714 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/build.gradle
-2019-09-26 12:25:08,717 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/settings.gradle
-2019-09-26 12:25:08,717 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 12:25:08,717 INFO  ProjectFixService - Fixing project...
-2019-09-26 12:25:08,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/local.properties
-2019-09-26 12:25:08,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-09-26 12:25:08,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/local.properties
-2019-09-26 12:25:08,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-09-26 12:25:08,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/local.properties
-2019-09-26 12:25:08,732 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-26 12:25:08,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-26 12:25:08,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-09-26 12:25:08,733 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 12:25:08,733 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 12:25:08,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 12:25:16,788 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-09-26 12:25:16,788 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-26 12:25:16,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-26 12:25:41,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 16:39:19,048 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/gradlew
+2020-03-29 16:39:19,052 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/build.gradle
+2020-03-29 16:39:19,056 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/settings.gradle
+2020-03-29 16:39:19,056 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 16:39:19,056 INFO  ProjectFixService - Fixing project...
+2020-03-29 16:39:19,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/local.properties
+2020-03-29 16:39:19,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:39:19,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/local.properties
+2020-03-29 16:39:19,072 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:39:19,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/local.properties
+2020-03-29 16:39:19,073 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 16:39:19,073 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 16:39:19,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:39:19,074 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 16:39:19,074 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 16:39:19,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 16:39:25,203 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-29 16:39:25,203 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 16:39:25,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 16:39:42,283 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mayi:preBuild UP-TO-DATE
 > Task :mayi:preDebugBuild UP-TO-DATE
 > Task :mayi:compileDebugAidl NO-SOURCE
@@ -44,6 +44,7 @@
 > Task :mayi:packageDebugRenderscript NO-SOURCE
 > Task :mayi:processDebugJavaRes NO-SOURCE
 > Task :mayi:mergeDebugJniLibFolders
+> Task :mayi:parseDebugLibraryResources
 > Task :mayi:preReleaseBuild UP-TO-DATE
 > Task :mayi:compileReleaseAidl NO-SOURCE
 > Task :mayi:compileReleaseRenderscript NO-SOURCE
@@ -52,9 +53,9 @@
 > Task :mayi:generateReleaseResValues
 > Task :mayi:generateReleaseResources
 > Task :mayi:packageReleaseResources
-> Task :mayi:processDebugManifest
-> Task :mayi:parseDebugLibraryResources
-> Task :mayi:processReleaseManifest
+> Task :mayi:mergeDebugNativeLibs
+> Task :mayi:stripDebugDebugSymbols
+> Task :mayi:transformNativeLibsWithSyncJniLibsForDebug
 > Task :mayi:mergeReleaseShaders
 > Task :mayi:compileReleaseShaders
 > Task :mayi:generateReleaseAssets
@@ -62,11 +63,10 @@
 > Task :mayi:packageReleaseRenderscript NO-SOURCE
 > Task :mayi:processReleaseJavaRes NO-SOURCE
 > Task :mayi:mergeReleaseJniLibFolders
-> Task :mayi:mergeDebugNativeLibs
-> Task :mayi:stripDebugDebugSymbols
-> Task :mayi:transformNativeLibsWithSyncJniLibsForDebug
-> Task :mayi:mergeReleaseResources
 > Task :mayi:parseReleaseLibraryResources
+> Task :mayi:mergeReleaseResources
+> Task :mayi:processReleaseManifest
+> Task :mayi:processDebugManifest
 > Task :mayi:prepareLintJarForPublish
 > Task :mayi:mergeReleaseNativeLibs
 > Task :mayi:stripReleaseDebugSymbols
@@ -81,17 +81,17 @@
 > Task :mayi:extractDebugAnnotations
 > Task :mayi:mergeDebugGeneratedProguardFiles
 > Task :mayi:mergeDebugConsumerProguardFiles
-> Task :mayi:javaPreCompileRelease
 > Task :mayi:compileDebugSources
+> Task :mayi:javaPreCompileRelease
 > Task :mayi:compileReleaseJavaWithJavac
 > Task :mayi:extractReleaseAnnotations
 > Task :mayi:mergeReleaseGeneratedProguardFiles
 > Task :mayi:mergeReleaseConsumerProguardFiles
+> Task :mayi:compileReleaseSources
 > Task :mayi:mergeDebugJavaResource
 > Task :mayi:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :mayi:bundleDebugAar
 > Task :mayi:assembleDebug
-> Task :mayi:compileReleaseSources
 > Task :mayi:mergeReleaseJavaResource
 > Task :mayi:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :mayi:bundleReleaseAar
@@ -103,15 +103,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 16s
 49 actionable tasks: 49 executed
 
-2019-09-26 12:25:41,821 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 12:25:41,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 12:25:54,614 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 12:25:54,614 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 12:25:54,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 12:27:23,074 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 16:39:42,302 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 16:39:42,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 16:39:48,563 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 16:39:48,563 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 16:39:48,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 16:40:34,244 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mayi:preBuild UP-TO-DATE
 > Task :mayi:preDebugBuild UP-TO-DATE
 > Task :mayi:compileDebugAidl NO-SOURCE
@@ -143,6 +143,9 @@ BUILD SUCCESSFUL in 24s
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :mayi:mergeDebugShaders UP-TO-DATE
 > Task :mayi:compileDebugShaders UP-TO-DATE
 > Task :mayi:generateDebugAssets UP-TO-DATE
@@ -151,18 +154,14 @@ BUILD SUCCESSFUL in 24s
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :mayi:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :mayi:bundleLibResDebug
 > Task :mayi:bundleLibRuntimeDebug
-> Task :mayi:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeDebugJavaResource
-> Task :sample:desugarDebugFileDependencies
 > Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:desugarDebugFileDependencies
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :mayi:mergeDebugJniLibFolders UP-TO-DATE
@@ -193,18 +192,15 @@ BUILD SUCCESSFUL in 24s
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
 > Task :mayi:bundleLibCompileRelease
 > Task :mayi:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
-> Task :mayi:processReleaseJavaRes NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :mayi:bundleLibResRelease
 > Task :mayi:bundleLibRuntimeRelease
-> Task :mayi:createFullJarRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
@@ -213,7 +209,7 @@ BUILD SUCCESSFUL in 24s
 > Task :sample:compileReleaseSources
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b69bad13e037a5f78e167bbf3c616aa2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/69e3a79ba0490b09052a936ba2d6f5ed/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :sample:desugarReleaseFileDependencies
 > Task :sample:transformClassesWithDexBuilderForRelease
@@ -225,6 +221,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :mayi:processReleaseJavaRes NO-SOURCE
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :mayi:mergeReleaseJniLibFolders UP-TO-DATE
@@ -232,10 +229,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :mayi:stripReleaseDebugSymbols UP-TO-DATE
 > Task :mayi:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
+> Task :mayi:bundleLibResRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
@@ -250,7 +248,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 27s
-96 actionable tasks: 63 executed, 33 up-to-date
+BUILD SUCCESSFUL in 45s
+94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-09-26 12:27:23,137 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569475505942-0/src/MayI-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-29 16:40:34,340 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474757345-0/src/MayI-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
