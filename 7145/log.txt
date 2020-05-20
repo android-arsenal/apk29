@@ -1,42 +1,87 @@
-2019-12-03 14:48:21,217 INFO  DownloadService - Downloading "https://github.com/GrenderG/MarkdownView/archive/master.zip", attempt 3
-2019-12-03 14:48:23,221 INFO  DownloadService - Downloaded https://github.com/GrenderG/MarkdownView/archive/master.zip, attempt 3
-2019-12-03 14:48:23,221 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/master.zip": 1 MB
-2019-12-03 14:48:23,221 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-03 14:48:23,227 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/master.zip: true
-2019-12-03 14:48:23,227 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src'.
-2019-12-03 14:48:23,253 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-12-03 14:48:23,253 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src]
-2019-12-03 14:48:23,271 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/.git/
+2020-05-20 14:21:47,979 INFO  DownloadService - Downloading "https://github.com/GrenderG/MarkdownView/archive/master.zip", attempt 3
+2020-05-20 14:21:49,238 INFO  DownloadService - Downloaded https://github.com/GrenderG/MarkdownView/archive/master.zip, attempt 3
+2020-05-20 14:21:49,239 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/master.zip": 1 MB
+2020-05-20 14:21:49,239 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-20 14:21:49,239 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/master.zip: true
+2020-05-20 14:21:49,240 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src'.
+2020-05-20 14:21:49,267 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-05-20 14:21:49,267 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src]
+2020-05-20 14:21:49,292 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/.git/
 
-2019-12-03 14:48:23,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/gradlew
-2019-12-03 14:48:23,276 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/build.gradle
-2019-12-03 14:48:23,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/build.gradle
-2019-12-03 14:48:23,278 INFO  ProjectBuildService - Remote scripts: none
-2019-12-03 14:48:23,278 INFO  ProjectFixService - Fixing project...
-2019-12-03 14:48:23,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/local.properties
-2019-12-03 14:48:23,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-03 14:48:23,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-03 14:48:23,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/local.properties
-2019-12-03 14:48:23,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-12-03 14:48:23,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-12-03 14:48:23,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/local.properties
-2019-12-03 14:48:23,287 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-12-03 14:48:23,288 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-12-03 14:48:23,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-03 14:48:23,289 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-03 14:48:23,289 INFO  ProjectFixService - Project was maybe fixed
-2019-12-03 14:48:23,289 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-03 14:48:23,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-03 14:48:30,344 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-03 14:48:30,344 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-03 14:48:30,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-03 14:48:55,148 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-20 14:21:49,295 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/gradlew
+2020-05-20 14:21:49,298 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/build.gradle
+2020-05-20 14:21:49,301 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/build.gradle
+2020-05-20 14:21:49,301 INFO  ProjectBuildService - Remote scripts: none
+2020-05-20 14:21:49,301 INFO  ProjectFixService - Fixing project...
+2020-05-20 14:21:49,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/local.properties
+2020-05-20 14:21:49,310 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-20 14:21:49,310 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-20 14:21:49,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/local.properties
+2020-05-20 14:21:49,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-05-20 14:21:49,312 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-05-20 14:21:49,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/local.properties
+2020-05-20 14:21:49,313 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-05-20 14:21:49,313 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-05-20 14:21:49,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-20 14:21:49,314 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-20 14:21:49,315 INFO  ProjectFixService - Project was maybe fixed
+2020-05-20 14:21:49,315 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-20 14:21:49,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-20 14:21:56,225 INFO  VirusProcessorServiceImpl - Queued project 7147 to scan viruses
+2020-05-20 14:21:59,754 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-05-20 14:21:59,755 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-20 14:21:59,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-20 14:22:36,308 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :markdownview:preBuild UP-TO-DATE
 :markdownview:preDebugBuild UP-TO-DATE
 :markdownview:checkDebugManifest
 :markdownview:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-rc02/appcompat-v7-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-rc02/animated-vector-drawable-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-rc02/support-core-utils-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-rc02/support-compat-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-rc02/support-vector-drawable-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-rc02/support-fragment-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-rc02/support-annotations-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-rc02/cursoradapter-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-rc02/collections-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-rc02/versionedparcelable-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-rc02/print-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-rc02/localbroadcastmanager-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-rc02/documentfile-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-rc02/loader-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-rc02/support-core-ui-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-rc02/interpolator-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-rc02/swiperefreshlayout-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-rc02/slidingpanelayout-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-rc02/drawerlayout-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-rc02/asynclayoutinflater-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-rc02/viewpager-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-rc02/coordinatorlayout-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-rc02/customview-28.0.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-rc02/support-vector-drawable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-rc02/support-core-ui-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-rc02/animated-vector-drawable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-rc02/support-core-utils-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-rc02/support-fragment-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-rc02/loader-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-rc02/viewpager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-rc02/appcompat-v7-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-rc02/coordinatorlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-rc02/slidingpanelayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-rc02/drawerlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-rc02/customview-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-rc02/swiperefreshlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-rc02/asynclayoutinflater-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-rc02/support-compat-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-rc02/documentfile-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-rc02/versionedparcelable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-rc02/interpolator-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-rc02/localbroadcastmanager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-rc02/cursoradapter-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-rc02/print-28.0.0-rc02.aar
 :markdownview:compileDebugAidl
 :app:compileDebugAidl
 :markdownview:packageDebugRenderscript NO-SOURCE
@@ -121,11 +166,13 @@
 :app:processDebugResources
 :app:generateDebugSources
 :markdownview:generateDebugSources
-:markdownview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
+:markdownview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :markdownview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-rc02/collections-28.0.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-rc02/support-annotations-28.0.0-rc02.jar
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
@@ -140,7 +187,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseResources
 :app:generateReleaseSources
 :markdownview:generateReleaseSources
-:markdownview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
+:markdownview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/markdownview/src/main/java/es/dmoral/markdownview/MarkdownView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :markdownview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -159,7 +206,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 35s
 91 actionable tasks: 91 executed
 
-2019-12-03 14:48:55,216 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575359301214-0/src/MarkdownView-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-20 14:22:36,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959307976-0/src/MarkdownView-master/app/build/outputs/apk/debug/app-debug.apk

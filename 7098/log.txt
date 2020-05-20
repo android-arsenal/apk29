@@ -1,36 +1,33 @@
-2020-03-30 01:58:07,528 INFO  DownloadService - Downloading "https://github.com/ChilliBits/drawing-activity/archive/master.zip", attempt 3
-2020-03-30 01:58:09,750 INFO  DownloadService - Downloaded https://github.com/ChilliBits/drawing-activity/archive/master.zip, attempt 3
-2020-03-30 01:58:09,750 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/master.zip": 189 KB
-2020-03-30 01:58:09,750 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 01:58:09,752 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/master.zip: true
-2020-03-30 01:58:09,752 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src'.
-2020-03-30 01:58:09,775 INFO  FullProcessService - Size of directory with sources: 410 KB
-2020-03-30 01:58:09,775 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src]
-2020-03-30 01:58:09,794 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/.git/
+2020-05-20 14:29:26,682 INFO  DownloadService - Downloading "https://github.com/ChilliBits/drawing-activity/archive/master.zip", attempt 3
+2020-05-20 14:29:29,035 INFO  DownloadService - Downloaded https://github.com/ChilliBits/drawing-activity/archive/master.zip, attempt 3
+2020-05-20 14:29:29,035 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/master.zip": 192 KB
+2020-05-20 14:29:29,035 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-20 14:29:29,035 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/master.zip: true
+2020-05-20 14:29:29,035 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src'.
+2020-05-20 14:29:29,066 INFO  FullProcessService - Size of directory with sources: 413 KB
+2020-05-20 14:29:29,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src]
+2020-05-20 14:29:29,094 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/.git/
 
-2020-03-30 01:58:09,797 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/gradlew
-2020-03-30 01:58:09,801 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/drawingactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/build.gradle
-2020-03-30 01:58:09,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/drawingactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/settings.gradle
-2020-03-30 01:58:09,805 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 01:58:09,805 INFO  ProjectFixService - Fixing project...
-2020-03-30 01:58:09,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/local.properties
-2020-03-30 01:58:09,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/drawingactivity/local.properties
-2020-03-30 01:58:09,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/drawingactivity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/drawingactivity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/local.properties
-2020-03-30 01:58:09,818 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-30 01:58:09,818 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-30 01:58:09,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,820 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-30 01:58:09,820 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 01:58:09,820 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 01:58:09,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 01:58:16,439 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-03-30 01:58:16,439 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 01:58:16,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 01:59:18,962 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-20 14:29:29,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/gradlew
+2020-05-20 14:29:29,102 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/drawingactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/build.gradle
+2020-05-20 14:29:29,107 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/drawingactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/settings.gradle
+2020-05-20 14:29:29,107 INFO  ProjectBuildService - Remote scripts: none
+2020-05-20 14:29:29,107 INFO  ProjectFixService - Fixing project...
+2020-05-20 14:29:29,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/local.properties
+2020-05-20 14:29:29,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-20 14:29:29,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/drawingactivity/local.properties
+2020-05-20 14:29:29,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/drawingactivity/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-20 14:29:29,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/local.properties
+2020-05-20 14:29:29,122 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-20 14:29:29,123 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-20 14:29:29,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-20 14:29:29,124 INFO  ProjectFixService - Project was maybe fixed
+2020-05-20 14:29:29,124 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-20 14:29:29,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-20 14:29:48,049 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-05-20 14:29:48,049 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-20 14:29:48,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-20 14:31:36,179 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -51,17 +48,17 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :drawingactivity:generateDebugResValues
-> Task :app:createDebugCompatibleScreenManifests
 > Task :drawingactivity:compileDebugRenderscript NO-SOURCE
 > Task :drawingactivity:generateDebugResources
 > Task :drawingactivity:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :drawingactivity:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :drawingactivity:parseDebugLocalResources
 > Task :drawingactivity:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :drawingactivity:compileDebugLibraryResources
-> Task :drawingactivity:parseDebugLocalResources
 > Task :drawingactivity:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -73,9 +70,26 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :drawingactivity:processDebugJavaRes NO-SOURCE
+> Task :drawingactivity:generateDebugRFile
+> Task :app:processDebugResources
+> Task :drawingactivity:compileDebugKotlin
 > Task :app:checkDebugDuplicateClasses
+> Task :drawingactivity:javaPreCompileDebug
+> Task :drawingactivity:compileDebugJavaWithJavac
+> Task :drawingactivity:bundleLibResDebug
+> Task :drawingactivity:bundleLibRuntimeDebug
+> Task :drawingactivity:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :drawingactivity:mergeDebugJniLibFolders
+> Task :drawingactivity:mergeDebugNativeLibs
+> Task :drawingactivity:stripDebugDebugSymbols
+> Task :drawingactivity:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:extractProguardFiles
 > Task :app:preReleaseBuild
@@ -84,9 +98,6 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :drawingactivity:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :drawingactivity:generateDebugRFile
-> Task :app:processDebugResources
-> Task :drawingactivity:compileDebugKotlin
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -98,35 +109,12 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :drawingactivity:extractDeepLinksRelease
-> Task :drawingactivity:javaPreCompileDebug
-> Task :drawingactivity:compileDebugJavaWithJavac
-> Task :drawingactivity:parseReleaseLocalResources
-> Task :drawingactivity:mergeDebugNativeLibs
-> Task :drawingactivity:stripDebugDebugSymbols
-> Task :drawingactivity:copyDebugJniLibsProjectOnly
 > Task :drawingactivity:generateReleaseBuildConfig
-> Task :drawingactivity:bundleLibResDebug
-> Task :app:mergeExtDexDebug
-> Task :app:mergeReleaseResources
-> Task :drawingactivity:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
 > Task :drawingactivity:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
-> Task :drawingactivity:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :drawingactivity:compileReleaseKotlin
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :drawingactivity:javaPreCompileRelease
-> Task :drawingactivity:compileReleaseJavaWithJavac
-> Task :drawingactivity:bundleLibRuntimeDebug
-> Task :drawingactivity:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
+> Task :drawingactivity:parseReleaseLocalResources
 > Task :app:prepareLintJar
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -137,37 +125,50 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :drawingactivity:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :drawingactivity:prepareLintJarForPublish
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :drawingactivity:mergeReleaseGeneratedProguardFiles
 > Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeReleaseGeneratedProguardFiles
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :drawingactivity:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :drawingactivity:mergeReleaseJniLibFolders
-> Task :drawingactivity:bundleLibResRelease
-> Task :drawingactivity:bundleLibRuntimeRelease
+> Task :drawingactivity:generateReleaseRFile
+> Task :drawingactivity:compileReleaseKotlin
 > Task :drawingactivity:mergeReleaseNativeLibs
 > Task :drawingactivity:stripReleaseDebugSymbols
 > Task :drawingactivity:copyReleaseJniLibsProjectOnly
+> Task :drawingactivity:javaPreCompileRelease
+> Task :drawingactivity:compileReleaseJavaWithJavac
+> Task :drawingactivity:mergeReleaseGeneratedProguardFiles
 > Task :drawingactivity:exportReleaseConsumerProguardFiles
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :drawingactivity:bundleLibResRelease
+> Task :drawingactivity:bundleLibCompileRelease
+> Task :drawingactivity:bundleLibRuntimeRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:mergeReleaseGeneratedProguardFiles
 > Task :app:mergeReleaseJavaResource
+
 > Task :app:minifyReleaseWithR8
+R8: Missing class: java.lang.instrument.ClassFileTransformer
+R8: Missing class: sun.misc.SignalHandler
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseNativeLibs
 > Task :app:shrinkReleaseRes
+> Task :app:stripReleaseDebugSymbols
 > Task :app:packageRelease
 > Task :app:assembleRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 1s
+BUILD SUCCESSFUL in 1m 47s
 94 actionable tasks: 94 executed
 
-2020-03-30 01:59:19,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508287524-0/src/drawing-activity-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-20 14:31:36,271 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589959766679-0/src/drawing-activity-master/app/build/outputs/apk/debug/app-debug.apk
