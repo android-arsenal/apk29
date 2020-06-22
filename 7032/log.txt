@@ -1,457 +1,434 @@
-2019-04-05 23:30:21,802 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/ArmsComponent/archive/master.zip", attempt 3
-2019-04-05 23:30:23,955 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/ArmsComponent/archive/master.zip, attempt 3
-2019-04-05 23:30:23,955 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/master.zip": 2 MB
-2019-04-05 23:30:23,955 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 23:30:23,956 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/master.zip: true
-2019-04-05 23:30:23,957 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src'.
-2019-04-05 23:30:24,052 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-04-05 23:30:24,052 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src]
-2019-04-05 23:30:24,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/.git/
+2020-06-23 01:46:44,603 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/ArmsComponent/archive/master.zip", attempt 3
+2020-06-23 01:46:47,152 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/ArmsComponent/archive/master.zip, attempt 3
+2020-06-23 01:46:47,152 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/master.zip": 2 MB
+2020-06-23 01:46:47,152 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-23 01:46:47,153 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/master.zip: true
+2020-06-23 01:46:47,154 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src'.
+2020-06-23 01:46:47,345 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-06-23 01:46:47,346 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src]
+2020-06-23 01:46:47,454 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/.git/
 
-2019-04-05 23:30:24,083 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew
-2019-04-05 23:30:24,098 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/build.gradle
-2019-04-05 23:30:24,109 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/common_component_build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle
-2019-04-05 23:30:24,110 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 23:30:24,110 INFO  ProjectFixService - Fixing project...
-2019-04-05 23:30:24,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/local.properties
-2019-04-05 23:30:24,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,143 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/local.properties
-2019-04-05 23:30:24,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/local.properties
-2019-04-05 23:30:24,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/local.properties
-2019-04-05 23:30:24,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,167 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/local.properties
-2019-04-05 23:30:24,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/local.properties
-2019-04-05 23:30:24,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/local.properties
-2019-04-05 23:30:24,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,189 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,190 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/local.properties
-2019-04-05 23:30:24,190 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-05 23:30:24,190 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-05 23:30:24,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:30:24,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:30:24,197 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 23:30:24,197 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 23:30:24,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 23:30:32,369 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-05 23:30:32,369 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 23:30:32,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 23:30:52,328 INFO  SysUtils - Configuration on demand is an incubating feature.
-:CommonRes:preBuild UP-TO-DATE
-:CommonRes:preDebugBuild UP-TO-DATE
-:CommonSDK:preBuild UP-TO-DATE
-:CommonSDK:preDebugBuild UP-TO-DATE
-:CommonSDK:compileDebugAidl NO-SOURCE
-:CommonRes:compileDebugAidl NO-SOURCE
-:CommonSDK:packageDebugRenderscript NO-SOURCE
-:CommonRes:compileDebugRenderscript
-Download https://jcenter.bintray.com/com/alibaba/arouter-api/1.4.1/arouter-api-1.4.1.aar
-Download https://jcenter.bintray.com/me/jessyan/arms/2.5.0/arms-2.5.0.aar
-:CommonRes:checkDebugManifest
-:CommonRes:generateDebugBuildConfig
-:CommonRes:generateDebugResValues
-:CommonRes:generateDebugResources
-:CommonRes:packageDebugResources
-:CommonRes:processDebugManifest
-:CommonSDK:compileDebugRenderscript
-:CommonSDK:generateDebugResValues
-:CommonSDK:generateDebugResources
-:CommonSDK:packageDebugResources
-:CommonSDK:checkDebugManifest
-:CommonSDK:processDebugManifest
-:CommonSDK:generateDebugRFile
-:CommonRes:generateDebugRFile
-:CommonRes:prepareLintJar
-:CommonRes:generateDebugSources
-:CommonSDK:generateDebugBuildConfig
-:CommonSDK:prepareLintJar
-:CommonSDK:generateDebugSources
-:CommonSDK:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/google/dagger/dagger/2.19/dagger-2.19.jar
-Download https://jcenter.bintray.com/com/alibaba/arouter-annotation/1.0.6/arouter-annotation-1.0.6.jar
-:CommonSDK:compileDebugJavaWithJavac
-:CommonSDK:processDebugJavaRes NO-SOURCE
-:CommonSDK:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:CommonRes:javaPreCompileDebug
-:CommonRes:compileDebugJavaWithJavac
-:CommonRes:extractDebugAnnotations
-:CommonRes:mergeDebugConsumerProguardFiles
-:CommonRes:mergeDebugShaders
-:CommonRes:compileDebugShaders
-:CommonRes:generateDebugAssets
-:CommonRes:packageDebugAssets
-:CommonRes:packageDebugRenderscript NO-SOURCE
-:CommonRes:processDebugJavaRes NO-SOURCE
-:CommonRes:transformResourcesWithMergeJavaResForDebug
-:CommonRes:transformClassesAndResourcesWithSyncLibJarsForDebug
-:CommonRes:compileDebugNdk NO-SOURCE
-:CommonRes:mergeDebugJniLibFolders
-:CommonRes:transformNativeLibsWithMergeJniLibsForDebug
-:CommonRes:transformNativeLibsWithStripDebugSymbolForDebug
-:CommonRes:transformNativeLibsWithSyncJniLibsForDebug
-:CommonRes:bundleDebugAar
-:CommonRes:compileDebugSources
-:CommonRes:assembleDebug
-:CommonRes:preReleaseBuild UP-TO-DATE
-:CommonSDK:preReleaseBuild UP-TO-DATE
-:CommonSDK:compileReleaseAidl NO-SOURCE
-:CommonRes:compileReleaseAidl NO-SOURCE
-:CommonSDK:packageReleaseRenderscript NO-SOURCE
-:CommonRes:compileReleaseRenderscript
-:CommonRes:checkReleaseManifest
-:CommonRes:generateReleaseBuildConfig
-:CommonRes:generateReleaseResValues
-:CommonRes:generateReleaseResources
-:CommonRes:packageReleaseResources
-:CommonRes:processReleaseManifest
-:CommonSDK:compileReleaseRenderscript
-:CommonSDK:generateReleaseResValues
-:CommonSDK:generateReleaseResources
-:CommonSDK:packageReleaseResources
-:CommonSDK:checkReleaseManifest
-:CommonSDK:processReleaseManifest
-:CommonSDK:generateReleaseRFile
-:CommonRes:generateReleaseRFile
-:CommonRes:generateReleaseSources
-:CommonSDK:generateReleaseBuildConfig
-:CommonSDK:generateReleaseSources
-:CommonSDK:javaPreCompileRelease
-:CommonSDK:compileReleaseJavaWithJavac
-:CommonSDK:processReleaseJavaRes NO-SOURCE
-:CommonSDK:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:CommonRes:javaPreCompileRelease
-:CommonRes:compileReleaseJavaWithJavac
-:CommonRes:extractReleaseAnnotations
-:CommonRes:mergeReleaseConsumerProguardFiles
-:CommonRes:mergeReleaseShaders
-:CommonRes:compileReleaseShaders
-:CommonRes:generateReleaseAssets
-:CommonRes:packageReleaseAssets
-:CommonRes:packageReleaseRenderscript NO-SOURCE
-:CommonRes:processReleaseJavaRes NO-SOURCE
-:CommonRes:transformResourcesWithMergeJavaResForRelease
-:CommonRes:transformClassesAndResourcesWithSyncLibJarsForRelease
-:CommonRes:compileReleaseNdk NO-SOURCE
-:CommonRes:mergeReleaseJniLibFolders
-:CommonRes:transformNativeLibsWithMergeJniLibsForRelease
-:CommonRes:transformNativeLibsWithStripDebugSymbolForRelease
-:CommonRes:transformNativeLibsWithSyncJniLibsForRelease
-:CommonRes:bundleReleaseAar
-:CommonRes:compileReleaseSources
-:CommonRes:mergeReleaseResources
-:CommonRes:verifyReleaseResources
-:CommonRes:assembleRelease
-:CommonRes:assemble
-:CommonRes:build
+2020-06-23 01:46:47,481 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew
+2020-06-23 01:46:47,520 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_zhihu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/build.gradle
+2020-06-23 01:46:47,551 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_zhihu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/common_component_build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle
+2020-06-23 01:46:47,558 INFO  ProjectBuildService - Remote scripts: none
+2020-06-23 01:46:47,558 INFO  ProjectFixService - Fixing project...
+2020-06-23 01:46:47,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/local.properties
+2020-06-23 01:46:47,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,768 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/local.properties
+2020-06-23 01:46:47,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/local.properties
+2020-06-23 01:46:47,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/local.properties
+2020-06-23 01:46:47,824 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,824 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/local.properties
+2020-06-23 01:46:47,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/local.properties
+2020-06-23 01:46:47,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_zhihu/local.properties
+2020-06-23 01:46:47,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_zhihu/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_zhihu/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/local.properties
+2020-06-23 01:46:47,967 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-06-23 01:46:47,968 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-06-23 01:46:47,996 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 01:46:47,996 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 01:46:47,997 INFO  ProjectFixService - Project was maybe fixed
+2020-06-23 01:46:47,997 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:46:47,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:46:53,208 INFO  VirusProcessorServiceImpl - Queued project 7154 to scan viruses
+2020-06-23 01:47:16,411 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-06-23 01:47:16,411 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-06-23 01:47:16,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonRes/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-06-23 01:48:26,823 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :CommonRes:preBuild UP-TO-DATE
+> Task :CommonRes:preDebugBuild UP-TO-DATE
+> Task :CommonSDK:preBuild UP-TO-DATE
+> Task :CommonSDK:preDebugBuild UP-TO-DATE
+> Task :CommonSDK:compileDebugAidl NO-SOURCE
+> Task :CommonRes:compileDebugAidl NO-SOURCE
+> Task :CommonSDK:packageDebugRenderscript NO-SOURCE
+> Task :CommonRes:compileDebugRenderscript NO-SOURCE
+> Task :CommonRes:checkDebugManifest
+> Task :CommonRes:generateDebugBuildConfig
+> Task :CommonRes:generateDebugResValues
+> Task :CommonRes:generateDebugResources
+> Task :CommonRes:packageDebugResources
+> Task :CommonRes:processDebugManifest
+> Task :CommonSDK:compileDebugRenderscript NO-SOURCE
+> Task :CommonSDK:generateDebugResValues
+> Task :CommonSDK:generateDebugResources
+> Task :CommonSDK:packageDebugResources
+> Task :CommonSDK:checkDebugManifest
+> Task :CommonSDK:processDebugManifest
+> Task :CommonSDK:generateDebugRFile
+> Task :CommonRes:generateDebugRFile
+> Task :CommonRes:prepareLintJar
+> Task :CommonRes:generateDebugSources
+> Task :CommonSDK:generateDebugBuildConfig
+> Task :CommonSDK:prepareLintJar
+> Task :CommonSDK:generateDebugSources
+> Task :CommonSDK:javaPreCompileDebug
+> Task :CommonSDK:compileDebugJavaWithJavac
+> Task :CommonSDK:bundleLibCompileDebug
+> Task :CommonRes:javaPreCompileDebug
+> Task :CommonRes:compileDebugJavaWithJavac
+> Task :CommonRes:extractDebugAnnotations
+> Task :CommonRes:mergeDebugConsumerProguardFiles
+> Task :CommonRes:mergeDebugShaders
+> Task :CommonRes:compileDebugShaders
+> Task :CommonRes:generateDebugAssets
+> Task :CommonRes:packageDebugAssets
+> Task :CommonRes:packageDebugRenderscript NO-SOURCE
+> Task :CommonRes:prepareLintJarForPublish
+> Task :CommonRes:processDebugJavaRes NO-SOURCE
+> Task :CommonRes:transformResourcesWithMergeJavaResForDebug
+> Task :CommonRes:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :CommonRes:mergeDebugJniLibFolders
+> Task :CommonRes:transformNativeLibsWithMergeJniLibsForDebug
+> Task :CommonRes:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :CommonRes:transformNativeLibsWithSyncJniLibsForDebug
+> Task :CommonRes:bundleDebugAar
+> Task :CommonRes:compileDebugSources
+> Task :CommonRes:assembleDebug
+> Task :CommonRes:preReleaseBuild UP-TO-DATE
+> Task :CommonSDK:preReleaseBuild UP-TO-DATE
+> Task :CommonSDK:compileReleaseAidl NO-SOURCE
+> Task :CommonRes:compileReleaseAidl NO-SOURCE
+> Task :CommonSDK:packageReleaseRenderscript NO-SOURCE
+> Task :CommonRes:compileReleaseRenderscript NO-SOURCE
+> Task :CommonRes:checkReleaseManifest
+> Task :CommonRes:generateReleaseBuildConfig
+> Task :CommonRes:generateReleaseResValues
+> Task :CommonRes:generateReleaseResources
+> Task :CommonRes:packageReleaseResources
+> Task :CommonRes:processReleaseManifest
+> Task :CommonSDK:compileReleaseRenderscript NO-SOURCE
+> Task :CommonSDK:generateReleaseResValues
+> Task :CommonSDK:generateReleaseResources
+> Task :CommonSDK:packageReleaseResources
+> Task :CommonSDK:checkReleaseManifest
+> Task :CommonSDK:processReleaseManifest
+> Task :CommonSDK:generateReleaseRFile
+> Task :CommonRes:generateReleaseRFile
+> Task :CommonRes:generateReleaseSources
+> Task :CommonSDK:generateReleaseBuildConfig
+> Task :CommonSDK:generateReleaseSources
+> Task :CommonSDK:javaPreCompileRelease
+> Task :CommonSDK:compileReleaseJavaWithJavac
+> Task :CommonSDK:bundleLibCompileRelease
+> Task :CommonRes:javaPreCompileRelease
+> Task :CommonRes:compileReleaseJavaWithJavac
+> Task :CommonRes:extractReleaseAnnotations
+> Task :CommonRes:mergeReleaseConsumerProguardFiles
+> Task :CommonRes:mergeReleaseShaders
+> Task :CommonRes:compileReleaseShaders
+> Task :CommonRes:generateReleaseAssets
+> Task :CommonRes:packageReleaseAssets
+> Task :CommonRes:packageReleaseRenderscript NO-SOURCE
+> Task :CommonRes:processReleaseJavaRes NO-SOURCE
+> Task :CommonRes:transformResourcesWithMergeJavaResForRelease
+> Task :CommonRes:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :CommonRes:mergeReleaseJniLibFolders
+> Task :CommonRes:transformNativeLibsWithMergeJniLibsForRelease
+> Task :CommonRes:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :CommonRes:transformNativeLibsWithSyncJniLibsForRelease
+> Task :CommonRes:bundleReleaseAar
+> Task :CommonRes:compileReleaseSources
+> Task :CommonRes:mergeReleaseResources
+> Task :CommonRes:verifyReleaseResources
+> Task :CommonRes:assembleRelease
+> Task :CommonRes:assemble
+> Task :CommonRes:build
 
-BUILD SUCCESSFUL in 19s
-66 actionable tasks: 66 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-04-05 23:30:52,437 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 23:30:52,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 23:30:58,541 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-05 23:30:58,541 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 23:30:58,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 23:31:07,368 INFO  SysUtils - Configuration on demand is an incubating feature.
-:CommonSDK:preBuild UP-TO-DATE
-:CommonSDK:preDebugBuild UP-TO-DATE
-:CommonSDK:compileDebugAidl NO-SOURCE
-:CommonSDK:compileDebugRenderscript UP-TO-DATE
-:CommonSDK:checkDebugManifest UP-TO-DATE
-:CommonSDK:generateDebugBuildConfig UP-TO-DATE
-:CommonSDK:generateDebugResValues UP-TO-DATE
-:CommonSDK:generateDebugResources UP-TO-DATE
-:CommonSDK:packageDebugResources UP-TO-DATE
-:CommonSDK:processDebugManifest UP-TO-DATE
-:CommonSDK:generateDebugRFile UP-TO-DATE
-:CommonSDK:prepareLintJar UP-TO-DATE
-:CommonSDK:generateDebugSources UP-TO-DATE
-:CommonSDK:javaPreCompileDebug UP-TO-DATE
-:CommonSDK:compileDebugJavaWithJavac UP-TO-DATE
-:CommonSDK:extractDebugAnnotations
-:CommonSDK:mergeDebugConsumerProguardFiles
-:CommonSDK:mergeDebugShaders
-:CommonSDK:compileDebugShaders
-:CommonSDK:generateDebugAssets
-:CommonSDK:packageDebugAssets
-:CommonSDK:packageDebugRenderscript NO-SOURCE
-:CommonSDK:processDebugJavaRes NO-SOURCE
-:CommonSDK:transformResourcesWithMergeJavaResForDebug
-:CommonSDK:transformClassesAndResourcesWithSyncLibJarsForDebug
-:CommonSDK:compileDebugNdk NO-SOURCE
-:CommonSDK:mergeDebugJniLibFolders
-:CommonSDK:transformNativeLibsWithMergeJniLibsForDebug
-:CommonSDK:transformNativeLibsWithStripDebugSymbolForDebug
-:CommonSDK:transformNativeLibsWithSyncJniLibsForDebug
-:CommonSDK:bundleDebugAar
-:CommonSDK:compileDebugSources UP-TO-DATE
-:CommonSDK:assembleDebug
-:CommonSDK:preReleaseBuild UP-TO-DATE
-:CommonSDK:compileReleaseAidl NO-SOURCE
-:CommonSDK:compileReleaseRenderscript UP-TO-DATE
-:CommonSDK:checkReleaseManifest UP-TO-DATE
-:CommonSDK:generateReleaseBuildConfig UP-TO-DATE
-:CommonSDK:generateReleaseResValues UP-TO-DATE
-:CommonSDK:generateReleaseResources UP-TO-DATE
-:CommonSDK:packageReleaseResources UP-TO-DATE
-:CommonSDK:processReleaseManifest UP-TO-DATE
-:CommonSDK:generateReleaseRFile UP-TO-DATE
-:CommonSDK:generateReleaseSources UP-TO-DATE
-:CommonSDK:javaPreCompileRelease UP-TO-DATE
-:CommonSDK:compileReleaseJavaWithJavac UP-TO-DATE
-:CommonSDK:extractReleaseAnnotations
-:CommonSDK:mergeReleaseConsumerProguardFiles
-:CommonSDK:mergeReleaseShaders
-:CommonSDK:compileReleaseShaders
-:CommonSDK:generateReleaseAssets
-:CommonSDK:packageReleaseAssets
-:CommonSDK:packageReleaseRenderscript NO-SOURCE
-:CommonSDK:processReleaseJavaRes NO-SOURCE
-:CommonSDK:transformResourcesWithMergeJavaResForRelease
-:CommonSDK:transformClassesAndResourcesWithSyncLibJarsForRelease
-:CommonSDK:compileReleaseNdk NO-SOURCE
-:CommonSDK:mergeReleaseJniLibFolders
-:CommonSDK:transformNativeLibsWithMergeJniLibsForRelease
-:CommonSDK:transformNativeLibsWithStripDebugSymbolForRelease
-:CommonSDK:transformNativeLibsWithSyncJniLibsForRelease
-:CommonSDK:bundleReleaseAar
-:CommonSDK:compileReleaseSources UP-TO-DATE
-:CommonSDK:mergeReleaseResources
-:CommonSDK:verifyReleaseResources
-:CommonSDK:assembleRelease
-:CommonSDK:assemble
-:CommonSDK:build
+BUILD SUCCESSFUL in 1m 10s
+63 actionable tasks: 63 executed
 
-BUILD SUCCESSFUL in 8s
-45 actionable tasks: 26 executed, 19 up-to-date
+2020-06-23 01:48:27,010 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:48:27,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:48:53,647 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-06-23 01:48:53,647 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-06-23 01:48:53,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonSDK/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-06-23 01:49:29,591 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :CommonSDK:preBuild UP-TO-DATE
+> Task :CommonSDK:preDebugBuild UP-TO-DATE
+> Task :CommonSDK:compileDebugAidl NO-SOURCE
+> Task :CommonSDK:compileDebugRenderscript NO-SOURCE
+> Task :CommonSDK:checkDebugManifest UP-TO-DATE
+> Task :CommonSDK:generateDebugBuildConfig UP-TO-DATE
+> Task :CommonSDK:generateDebugResValues UP-TO-DATE
+> Task :CommonSDK:generateDebugResources UP-TO-DATE
+> Task :CommonSDK:packageDebugResources UP-TO-DATE
+> Task :CommonSDK:processDebugManifest UP-TO-DATE
+> Task :CommonSDK:generateDebugRFile UP-TO-DATE
+> Task :CommonSDK:prepareLintJar UP-TO-DATE
+> Task :CommonSDK:generateDebugSources UP-TO-DATE
+> Task :CommonSDK:javaPreCompileDebug UP-TO-DATE
+> Task :CommonSDK:compileDebugJavaWithJavac UP-TO-DATE
+> Task :CommonSDK:extractDebugAnnotations
+> Task :CommonSDK:mergeDebugConsumerProguardFiles
+> Task :CommonSDK:mergeDebugShaders
+> Task :CommonSDK:compileDebugShaders
+> Task :CommonSDK:generateDebugAssets
+> Task :CommonSDK:packageDebugAssets
+> Task :CommonSDK:packageDebugRenderscript NO-SOURCE
+> Task :CommonSDK:prepareLintJarForPublish
+> Task :CommonSDK:processDebugJavaRes NO-SOURCE
+> Task :CommonSDK:transformResourcesWithMergeJavaResForDebug
+> Task :CommonSDK:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :CommonSDK:mergeDebugJniLibFolders
+> Task :CommonSDK:transformNativeLibsWithMergeJniLibsForDebug
+> Task :CommonSDK:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :CommonSDK:transformNativeLibsWithSyncJniLibsForDebug
+> Task :CommonSDK:bundleDebugAar
+> Task :CommonSDK:compileDebugSources UP-TO-DATE
+> Task :CommonSDK:assembleDebug
+> Task :CommonSDK:preReleaseBuild UP-TO-DATE
+> Task :CommonSDK:compileReleaseAidl NO-SOURCE
+> Task :CommonSDK:compileReleaseRenderscript NO-SOURCE
+> Task :CommonSDK:checkReleaseManifest UP-TO-DATE
+> Task :CommonSDK:generateReleaseBuildConfig UP-TO-DATE
+> Task :CommonSDK:generateReleaseResValues UP-TO-DATE
+> Task :CommonSDK:generateReleaseResources UP-TO-DATE
+> Task :CommonSDK:packageReleaseResources UP-TO-DATE
+> Task :CommonSDK:processReleaseManifest UP-TO-DATE
+> Task :CommonSDK:generateReleaseRFile UP-TO-DATE
+> Task :CommonSDK:generateReleaseSources UP-TO-DATE
+> Task :CommonSDK:javaPreCompileRelease UP-TO-DATE
+> Task :CommonSDK:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :CommonSDK:extractReleaseAnnotations
+> Task :CommonSDK:mergeReleaseConsumerProguardFiles
+> Task :CommonSDK:mergeReleaseShaders
+> Task :CommonSDK:compileReleaseShaders
+> Task :CommonSDK:generateReleaseAssets
+> Task :CommonSDK:packageReleaseAssets
+> Task :CommonSDK:packageReleaseRenderscript NO-SOURCE
+> Task :CommonSDK:processReleaseJavaRes NO-SOURCE
+> Task :CommonSDK:transformResourcesWithMergeJavaResForRelease
+> Task :CommonSDK:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :CommonSDK:mergeReleaseJniLibFolders
+> Task :CommonSDK:transformNativeLibsWithMergeJniLibsForRelease
+> Task :CommonSDK:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :CommonSDK:transformNativeLibsWithSyncJniLibsForRelease
+> Task :CommonSDK:bundleReleaseAar
+> Task :CommonSDK:compileReleaseSources UP-TO-DATE
+> Task :CommonSDK:mergeReleaseResources
+> Task :CommonSDK:verifyReleaseResources
+> Task :CommonSDK:assembleRelease
+> Task :CommonSDK:assemble
+> Task :CommonSDK:build
 
-2019-04-05 23:31:07,500 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 23:31:07,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 23:31:13,627 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-05 23:31:13,627 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-05 23:31:13,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-05 23:31:21,853 INFO  SysUtils - Configuration on demand is an incubating feature.
-:CommonService:preBuild UP-TO-DATE
-:CommonService:preDebugBuild UP-TO-DATE
-:CommonService:compileDebugAidl NO-SOURCE
-:CommonService:compileDebugRenderscript
-:CommonService:checkDebugManifest
-:CommonService:generateDebugBuildConfig
-:CommonService:generateDebugResValues
-:CommonService:generateDebugResources
-:CommonService:packageDebugResources
-:CommonService:processDebugManifest
-:CommonService:generateDebugRFile
-:CommonService:prepareLintJar
-:CommonService:generateDebugSources
-:CommonService:javaPreCompileDebug
-:CommonService:compileDebugJavaWithJavac
-:CommonService:extractDebugAnnotations
-:CommonService:mergeDebugConsumerProguardFiles
-:CommonService:mergeDebugShaders
-:CommonService:compileDebugShaders
-:CommonService:generateDebugAssets
-:CommonService:packageDebugAssets
-:CommonService:packageDebugRenderscript NO-SOURCE
-:CommonService:processDebugJavaRes NO-SOURCE
-:CommonService:transformResourcesWithMergeJavaResForDebug
-:CommonService:transformClassesAndResourcesWithSyncLibJarsForDebug
-:CommonService:compileDebugNdk NO-SOURCE
-:CommonService:mergeDebugJniLibFolders
-:CommonService:transformNativeLibsWithMergeJniLibsForDebug
-:CommonService:transformNativeLibsWithStripDebugSymbolForDebug
-:CommonService:transformNativeLibsWithSyncJniLibsForDebug
-:CommonService:bundleDebugAar
-:CommonService:compileDebugSources
-:CommonService:assembleDebug
-:CommonService:preReleaseBuild UP-TO-DATE
-:CommonService:compileReleaseAidl NO-SOURCE
-:CommonService:compileReleaseRenderscript
-:CommonService:checkReleaseManifest
-:CommonService:generateReleaseBuildConfig
-:CommonService:generateReleaseResValues
-:CommonService:generateReleaseResources
-:CommonService:packageReleaseResources
-:CommonService:processReleaseManifest
-:CommonService:generateReleaseRFile
-:CommonService:generateReleaseSources
-:CommonService:javaPreCompileRelease
-:CommonService:compileReleaseJavaWithJavac
-:CommonService:extractReleaseAnnotations
-:CommonService:mergeReleaseConsumerProguardFiles
-:CommonService:mergeReleaseShaders
-:CommonService:compileReleaseShaders
-:CommonService:generateReleaseAssets
-:CommonService:packageReleaseAssets
-:CommonService:packageReleaseRenderscript NO-SOURCE
-:CommonService:processReleaseJavaRes NO-SOURCE
-:CommonService:transformResourcesWithMergeJavaResForRelease
-:CommonService:transformClassesAndResourcesWithSyncLibJarsForRelease
-:CommonService:compileReleaseNdk NO-SOURCE
-:CommonService:mergeReleaseJniLibFolders
-:CommonService:transformNativeLibsWithMergeJniLibsForRelease
-:CommonService:transformNativeLibsWithStripDebugSymbolForRelease
-:CommonService:transformNativeLibsWithSyncJniLibsForRelease
-:CommonService:bundleReleaseAar
-:CommonService:compileReleaseSources
-:CommonService:mergeReleaseResources
-:CommonService:verifyReleaseResources
-:CommonService:assembleRelease
-:CommonService:assemble
-:CommonService:build
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 8s
-45 actionable tasks: 45 executed
+BUILD SUCCESSFUL in 35s
+44 actionable tasks: 27 executed, 17 up-to-date
 
-2019-04-05 23:31:21,998 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 23:31:21,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 23:31:28,464 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 23:31:28,465 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 23:31:28,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 23:32:40,372 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 23:32:40,375 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:CommonRes:preBuild UP-TO-DATE
-:CommonRes:preDebugBuild UP-TO-DATE
-:CommonRes:checkDebugManifest UP-TO-DATE
-:CommonRes:processDebugManifest UP-TO-DATE
-:CommonSDK:preBuild UP-TO-DATE
-:CommonSDK:preDebugBuild UP-TO-DATE
-:CommonSDK:checkDebugManifest UP-TO-DATE
-:CommonSDK:processDebugManifest UP-TO-DATE
-:CommonService:preBuild UP-TO-DATE
-:CommonService:preDebugBuild UP-TO-DATE
-:CommonService:checkDebugManifest UP-TO-DATE
-:CommonService:processDebugManifest UP-TO-DATE
-:module_gank:preBuild UP-TO-DATE
-:module_gank:preDebugBuild UP-TO-DATE
-:module_gank:checkDebugManifest
-:module_gank:processDebugManifest
-:module_gold:preBuild UP-TO-DATE
-:module_gold:preDebugBuild UP-TO-DATE
-:module_gold:checkDebugManifest
-:module_gold:processDebugManifest
-:module_zhihu:preBuild UP-TO-DATE
-:module_zhihu:preDebugBuild UP-TO-DATE
-:module_zhihu:checkDebugManifest
-:module_zhihu:processDebugManifest
-:app:preDebugBuild
-:CommonSDK:compileDebugAidl NO-SOURCE
-:CommonRes:compileDebugAidl NO-SOURCE
-:CommonService:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:CommonRes:packageDebugRenderscript NO-SOURCE
-:CommonSDK:packageDebugRenderscript NO-SOURCE
-:CommonService:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:CommonRes:compileDebugRenderscript UP-TO-DATE
-:CommonRes:generateDebugResValues UP-TO-DATE
-:CommonRes:generateDebugResources UP-TO-DATE
-:CommonRes:packageDebugResources UP-TO-DATE
-:CommonSDK:compileDebugRenderscript UP-TO-DATE
-:CommonSDK:generateDebugResValues UP-TO-DATE
-:CommonSDK:generateDebugResources UP-TO-DATE
-:CommonSDK:packageDebugResources UP-TO-DATE
-:CommonService:compileDebugRenderscript UP-TO-DATE
-:CommonService:generateDebugResValues UP-TO-DATE
-:CommonService:generateDebugResources UP-TO-DATE
-:CommonService:packageDebugResources UP-TO-DATE
-:module_gank:compileDebugRenderscript
-:module_gank:generateDebugResValues
-:module_gank:generateDebugResources
-:module_gank:packageDebugResources
-:module_gold:compileDebugRenderscript
-:module_gold:generateDebugResValues
-:module_gold:generateDebugResources
-:module_gold:packageDebugResources
-:module_zhihu:compileDebugRenderscript
-:module_zhihu:generateDebugResValues
-:module_zhihu:generateDebugResources
-:module_zhihu:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:CommonSDK:generateDebugRFile UP-TO-DATE
-:CommonRes:generateDebugRFile UP-TO-DATE
-:CommonService:generateDebugRFile UP-TO-DATE
-:module_gank:generateDebugRFile
-:module_gold:generateDebugRFile
-:module_zhihu:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:CommonRes:generateDebugBuildConfig UP-TO-DATE
-:CommonRes:prepareLintJar UP-TO-DATE
-:CommonRes:generateDebugSources UP-TO-DATE
-:CommonSDK:generateDebugBuildConfig UP-TO-DATE
-:CommonSDK:prepareLintJar UP-TO-DATE
-:CommonSDK:generateDebugSources UP-TO-DATE
-:CommonSDK:javaPreCompileDebug UP-TO-DATE
-:CommonSDK:compileDebugJavaWithJavac UP-TO-DATE
-:CommonSDK:processDebugJavaRes NO-SOURCE
-:CommonSDK:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-:CommonRes:javaPreCompileDebug UP-TO-DATE
-:CommonRes:compileDebugJavaWithJavac UP-TO-DATE
-:CommonRes:processDebugJavaRes NO-SOURCE
-:CommonRes:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:CommonService:generateDebugBuildConfig UP-TO-DATE
-:CommonService:prepareLintJar UP-TO-DATE
-:CommonService:generateDebugSources UP-TO-DATE
-:CommonService:javaPreCompileDebug UP-TO-DATE
-:CommonService:compileDebugJavaWithJavac UP-TO-DATE
-:CommonService:processDebugJavaRes NO-SOURCE
-:CommonService:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.19/dagger-producers-2.19.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-spi/2.19/dagger-spi-2.19.jar
-Download https://jcenter.bintray.com/com/alibaba/arouter-compiler/1.2.2/arouter-compiler-1.2.2.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.19/dagger-compiler-2.19.jar
-Download https://jcenter.bintray.com/com/alibaba/fastjson/1.2.48/fastjson-1.2.48.jar
-:app:compileDebugJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+2020-06-23 01:49:50,437 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:49:50,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:50:12,789 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-06-23 01:50:12,789 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-06-23 01:50:12,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/CommonService/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-06-23 01:50:34,547 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :CommonService:preBuild UP-TO-DATE
+> Task :CommonService:preDebugBuild UP-TO-DATE
+> Task :CommonService:compileDebugAidl NO-SOURCE
+> Task :CommonService:compileDebugRenderscript NO-SOURCE
+> Task :CommonService:checkDebugManifest
+> Task :CommonService:generateDebugBuildConfig
+> Task :CommonService:generateDebugResValues
+> Task :CommonService:generateDebugResources
+> Task :CommonService:packageDebugResources
+> Task :CommonService:processDebugManifest
+> Task :CommonService:generateDebugRFile
+> Task :CommonService:prepareLintJar
+> Task :CommonService:generateDebugSources
+> Task :CommonService:javaPreCompileDebug
+> Task :CommonService:compileDebugJavaWithJavac
+> Task :CommonService:extractDebugAnnotations
+> Task :CommonService:mergeDebugConsumerProguardFiles
+> Task :CommonService:mergeDebugShaders
+> Task :CommonService:compileDebugShaders
+> Task :CommonService:generateDebugAssets
+> Task :CommonService:packageDebugAssets
+> Task :CommonService:packageDebugRenderscript NO-SOURCE
+> Task :CommonService:prepareLintJarForPublish
+> Task :CommonService:processDebugJavaRes NO-SOURCE
+> Task :CommonService:transformResourcesWithMergeJavaResForDebug
+> Task :CommonService:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :CommonService:mergeDebugJniLibFolders
+> Task :CommonService:transformNativeLibsWithMergeJniLibsForDebug
+> Task :CommonService:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :CommonService:transformNativeLibsWithSyncJniLibsForDebug
+> Task :CommonService:bundleDebugAar
+> Task :CommonService:compileDebugSources
+> Task :CommonService:assembleDebug
+> Task :CommonService:preReleaseBuild UP-TO-DATE
+> Task :CommonService:compileReleaseAidl NO-SOURCE
+> Task :CommonService:compileReleaseRenderscript NO-SOURCE
+> Task :CommonService:checkReleaseManifest
+> Task :CommonService:generateReleaseBuildConfig
+> Task :CommonService:generateReleaseResValues
+> Task :CommonService:generateReleaseResources
+> Task :CommonService:packageReleaseResources
+> Task :CommonService:processReleaseManifest
+> Task :CommonService:generateReleaseRFile
+> Task :CommonService:generateReleaseSources
+> Task :CommonService:javaPreCompileRelease
+> Task :CommonService:compileReleaseJavaWithJavac
+> Task :CommonService:extractReleaseAnnotations
+> Task :CommonService:mergeReleaseConsumerProguardFiles
+> Task :CommonService:mergeReleaseShaders
+> Task :CommonService:compileReleaseShaders
+> Task :CommonService:generateReleaseAssets
+> Task :CommonService:packageReleaseAssets
+> Task :CommonService:packageReleaseRenderscript NO-SOURCE
+> Task :CommonService:processReleaseJavaRes NO-SOURCE
+> Task :CommonService:transformResourcesWithMergeJavaResForRelease
+> Task :CommonService:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :CommonService:mergeReleaseJniLibFolders
+> Task :CommonService:transformNativeLibsWithMergeJniLibsForRelease
+> Task :CommonService:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :CommonService:transformNativeLibsWithSyncJniLibsForRelease
+> Task :CommonService:bundleReleaseAar
+> Task :CommonService:compileReleaseSources
+> Task :CommonService:mergeReleaseResources
+> Task :CommonService:verifyReleaseResources
+> Task :CommonService:assembleRelease
+> Task :CommonService:assemble
+> Task :CommonService:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 21s
+44 actionable tasks: 44 executed
+
+2020-06-23 01:50:35,142 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:50:35,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:50:55,255 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-06-23 01:50:55,255 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-23 01:50:55,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-23 01:53:53,430 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :module_zhihu
+WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :CommonRes:preBuild UP-TO-DATE
+> Task :CommonRes:preDebugBuild UP-TO-DATE
+> Task :CommonRes:checkDebugManifest UP-TO-DATE
+> Task :CommonRes:processDebugManifest UP-TO-DATE
+> Task :CommonSDK:preBuild UP-TO-DATE
+> Task :CommonSDK:preDebugBuild UP-TO-DATE
+> Task :CommonSDK:checkDebugManifest UP-TO-DATE
+> Task :CommonSDK:processDebugManifest UP-TO-DATE
+> Task :CommonService:preBuild UP-TO-DATE
+> Task :CommonService:preDebugBuild UP-TO-DATE
+> Task :CommonService:checkDebugManifest UP-TO-DATE
+> Task :CommonService:processDebugManifest UP-TO-DATE
+> Task :module_gank:preBuild UP-TO-DATE
+> Task :module_gank:preDebugBuild UP-TO-DATE
+> Task :module_gank:checkDebugManifest
+> Task :module_gank:processDebugManifest
+> Task :module_gold:preBuild UP-TO-DATE
+> Task :module_gold:preDebugBuild UP-TO-DATE
+> Task :module_gold:checkDebugManifest
+> Task :module_gold:processDebugManifest
+> Task :module_zhihu:preBuild UP-TO-DATE
+> Task :module_zhihu:preDebugBuild UP-TO-DATE
+> Task :module_zhihu:checkDebugManifest
+> Task :module_zhihu:processDebugManifest
+> Task :app:preDebugBuild
+> Task :CommonSDK:compileDebugAidl NO-SOURCE
+> Task :CommonRes:compileDebugAidl NO-SOURCE
+> Task :CommonService:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :CommonRes:packageDebugRenderscript NO-SOURCE
+> Task :CommonSDK:packageDebugRenderscript NO-SOURCE
+> Task :CommonService:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :CommonRes:compileDebugRenderscript NO-SOURCE
+> Task :CommonRes:generateDebugBuildConfig UP-TO-DATE
+> Task :CommonRes:generateDebugResValues UP-TO-DATE
+> Task :CommonRes:generateDebugResources UP-TO-DATE
+> Task :CommonRes:packageDebugResources UP-TO-DATE
+> Task :CommonSDK:compileDebugRenderscript NO-SOURCE
+> Task :CommonSDK:generateDebugResValues UP-TO-DATE
+> Task :CommonSDK:generateDebugResources UP-TO-DATE
+> Task :CommonSDK:packageDebugResources UP-TO-DATE
+> Task :CommonSDK:generateDebugRFile UP-TO-DATE
+> Task :CommonRes:generateDebugRFile UP-TO-DATE
+> Task :CommonRes:prepareLintJar UP-TO-DATE
+> Task :CommonRes:generateDebugSources UP-TO-DATE
+> Task :CommonSDK:generateDebugBuildConfig UP-TO-DATE
+> Task :CommonSDK:prepareLintJar UP-TO-DATE
+> Task :CommonSDK:generateDebugSources UP-TO-DATE
+> Task :CommonSDK:javaPreCompileDebug UP-TO-DATE
+> Task :CommonSDK:compileDebugJavaWithJavac UP-TO-DATE
+> Task :CommonSDK:bundleLibCompileDebug UP-TO-DATE
+> Task :CommonRes:javaPreCompileDebug UP-TO-DATE
+> Task :CommonRes:compileDebugJavaWithJavac UP-TO-DATE
+> Task :CommonRes:bundleLibCompileDebug
+> Task :CommonService:compileDebugRenderscript NO-SOURCE
+> Task :CommonService:generateDebugBuildConfig UP-TO-DATE
+> Task :CommonService:generateDebugResValues UP-TO-DATE
+> Task :CommonService:generateDebugResources UP-TO-DATE
+> Task :CommonService:packageDebugResources UP-TO-DATE
+> Task :CommonService:generateDebugRFile UP-TO-DATE
+> Task :CommonService:prepareLintJar UP-TO-DATE
+> Task :CommonService:generateDebugSources UP-TO-DATE
+> Task :CommonService:javaPreCompileDebug UP-TO-DATE
+> Task :CommonService:compileDebugJavaWithJavac UP-TO-DATE
+> Task :CommonService:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :module_gank:compileDebugRenderscript NO-SOURCE
+> Task :module_gank:generateDebugResValues
+> Task :module_gank:generateDebugResources
+> Task :module_gank:packageDebugResources
+> Task :module_gold:compileDebugRenderscript NO-SOURCE
+> Task :module_gold:generateDebugResValues
+> Task :module_gold:generateDebugResources
+> Task :module_gold:packageDebugResources
+> Task :module_zhihu:compileDebugRenderscript NO-SOURCE
+> Task :module_zhihu:generateDebugResValues
+> Task :module_zhihu:generateDebugResources
+> Task :module_zhihu:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :module_gank:generateDebugRFile
+> Task :module_gold:generateDebugRFile
+> Task :module_zhihu:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found autowired field, start... <<<
 Note: ARouter::Compiler categories finished.
 Note: ARouter::Compiler >>> Start process 3 field in MainActivity ... <<<
@@ -459,13 +436,13 @@ Note: ARouter::Compiler >>> MainActivity has been processed, MainActivity$$ARout
 Note: ARouter::Compiler >>> Autowired processor stop. <<<
 Note: ARouter::Compiler The user has configuration the module name, it was [app]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found interceptors, size is 1 <<<
 Note: ARouter::Compiler A interceptor verify over, its me.jessyan.armscomponent.app.app.RouterInterceptor
 Note: ARouter::Compiler >>> Interceptor group write over. <<<
 Note: ARouter::Compiler The user has configuration the module name, it was [app]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 2 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.app.mvp.ui.activity.MainActivity <<<
@@ -479,53 +456,68 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:CommonRes:mergeDebugShaders UP-TO-DATE
-:CommonRes:compileDebugShaders UP-TO-DATE
-:CommonRes:generateDebugAssets UP-TO-DATE
-:CommonRes:packageDebugAssets UP-TO-DATE
-:CommonSDK:mergeDebugShaders UP-TO-DATE
-:CommonSDK:compileDebugShaders UP-TO-DATE
-:CommonSDK:generateDebugAssets UP-TO-DATE
-:CommonSDK:packageDebugAssets UP-TO-DATE
-:CommonService:mergeDebugShaders UP-TO-DATE
-:CommonService:compileDebugShaders UP-TO-DATE
-:CommonService:generateDebugAssets UP-TO-DATE
-:CommonService:packageDebugAssets UP-TO-DATE
-:module_gank:mergeDebugShaders
-:module_gank:compileDebugShaders
-:module_gank:generateDebugAssets
-:module_gank:packageDebugAssets
-:module_gold:mergeDebugShaders
-:module_gold:compileDebugShaders
-:module_gold:generateDebugAssets
-:module_gold:packageDebugAssets
-:module_zhihu:mergeDebugShaders
-:module_zhihu:compileDebugShaders
-:module_zhihu:generateDebugAssets
-:module_zhihu:packageDebugAssets
-:app:mergeDebugAssets
-:CommonRes:createFullJarDebug
-:CommonSDK:createFullJarDebug
-:CommonService:createFullJarDebug
-:module_gank:compileDebugAidl NO-SOURCE
-:module_gank:generateDebugBuildConfig
-:module_gank:generateDebugR2
-:module_gank:prepareLintJar
-:module_gank:generateDebugSources
-:module_gank:javaPreCompileDebug
-:module_gank:compileDebugJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :CommonRes:mergeDebugShaders UP-TO-DATE
+> Task :CommonRes:compileDebugShaders UP-TO-DATE
+> Task :CommonRes:generateDebugAssets UP-TO-DATE
+> Task :CommonRes:packageDebugAssets UP-TO-DATE
+> Task :CommonSDK:mergeDebugShaders UP-TO-DATE
+> Task :CommonSDK:compileDebugShaders UP-TO-DATE
+> Task :CommonSDK:generateDebugAssets UP-TO-DATE
+> Task :CommonSDK:packageDebugAssets UP-TO-DATE
+> Task :CommonService:mergeDebugShaders UP-TO-DATE
+> Task :CommonService:compileDebugShaders UP-TO-DATE
+> Task :CommonService:generateDebugAssets UP-TO-DATE
+> Task :CommonService:packageDebugAssets UP-TO-DATE
+> Task :module_gank:mergeDebugShaders
+> Task :module_gank:compileDebugShaders
+> Task :module_gank:generateDebugAssets
+> Task :module_gank:packageDebugAssets
+> Task :module_gold:mergeDebugShaders
+> Task :module_gold:compileDebugShaders
+> Task :module_gold:generateDebugAssets
+> Task :module_gold:packageDebugAssets
+> Task :module_zhihu:mergeDebugShaders
+> Task :module_zhihu:compileDebugShaders
+> Task :module_zhihu:generateDebugAssets
+> Task :module_zhihu:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :CommonRes:bundleLibRuntimeDebug
+> Task :CommonSDK:bundleLibRuntimeDebug
+> Task :CommonService:bundleLibRuntimeDebug
+> Task :CommonSDK:processDebugJavaRes NO-SOURCE
+> Task :CommonSDK:bundleLibResDebug
+> Task :CommonSDK:createFullJarDebug
+> Task :CommonService:processDebugJavaRes NO-SOURCE
+> Task :CommonService:bundleLibResDebug
+> Task :CommonService:createFullJarDebug
+> Task :CommonRes:processDebugJavaRes NO-SOURCE
+> Task :CommonRes:bundleLibResDebug
+> Task :CommonRes:createFullJarDebug
+> Task :module_gank:compileDebugAidl NO-SOURCE
+> Task :module_gank:generateDebugBuildConfig
+> Task :module_gank:generateDebugR2
+> Task :module_gank:prepareLintJar
+> Task :module_gank:generateDebugSources
+> Task :module_gank:javaPreCompileDebug
+
+> Task :module_gank:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gank]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gank]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 2 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.gank.mvp.ui.activity.GankHomeActivity <<<
@@ -535,26 +527,29 @@ Note: ARouter::Compiler >>> Start categories, group = gank, path = /gank/service
 Note: ARouter::Compiler >>> Generated group: gank<<<
 Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$module_gank <<<
 Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$module_gank <<<
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build/generated/source/apt/debug/me/jessyan/armscomponent/gank/di/component/DaggerGankHomeComponent.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build/generated/source/apt/debug/me/jessyan/armscomponent/gank/di/component/DaggerGankHomeComponent.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 3 warnings
 
-:module_gank:processDebugJavaRes NO-SOURCE
-:module_gank:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:module_gold:compileDebugAidl NO-SOURCE
-:module_gold:generateDebugBuildConfig
-:module_gold:generateDebugR2
-:module_gold:prepareLintJar
-:module_gold:generateDebugSources
-:module_gold:javaPreCompileDebug
-:module_gold:compileDebugJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :module_gank:bundleLibRuntimeDebug
+> Task :module_gold:compileDebugAidl NO-SOURCE
+> Task :module_gold:generateDebugBuildConfig
+> Task :module_gold:generateDebugR2
+> Task :module_gold:prepareLintJar
+> Task :module_gold:generateDebugSources
+> Task :module_gold:javaPreCompileDebug
+
+> Task :module_gold:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gold]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gold]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 3 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.gold.mvp.ui.activity.DetailActivity <<<
@@ -568,26 +563,29 @@ Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$
 Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$module_gold <<<
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/src/main/java/me/jessyan/armscomponent/gold/mvp/ui/activity/DetailActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/src/main/java/me/jessyan/armscomponent/gold/mvp/ui/activity/DetailActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
-:module_gold:processDebugJavaRes NO-SOURCE
-:module_gold:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:module_zhihu:compileDebugAidl NO-SOURCE
-:module_zhihu:generateDebugBuildConfig
-:module_zhihu:generateDebugR2
-:module_zhihu:prepareLintJar
-:module_zhihu:generateDebugSources
-:module_zhihu:javaPreCompileDebug
-:module_zhihu:compileDebugJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :module_gold:bundleLibRuntimeDebug
+> Task :module_zhihu:compileDebugAidl NO-SOURCE
+> Task :module_zhihu:generateDebugBuildConfig
+> Task :module_zhihu:generateDebugR2
+> Task :module_zhihu:prepareLintJar
+> Task :module_zhihu:generateDebugSources
+> Task :module_zhihu:javaPreCompileDebug
+
+> Task :module_zhihu:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_zhihu]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_zhihu]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 3 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.zhihu.mvp.ui.activity.DetailActivity <<<
@@ -603,148 +601,158 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 3 warnings
 
-:module_zhihu:processDebugJavaRes NO-SOURCE
-:module_zhihu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arms-2.5.0.aar/1b01d16ef585cdba233ab5795f4bf5b6/jars/classes.jar: D8: Type `android.support.design.widget.Snackbar` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.integration.AppManager$1.run()`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arms-2.5.0.aar/1b01d16ef585cdba233ab5795f4bf5b6/jars/classes.jar: D8: Type `com.zhy.autolayout.utils.AutoUtils` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.base.BaseHolder.<init>(android.view.View)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arms-2.5.0.aar/1b01d16ef585cdba233ab5795f4bf5b6/jars/classes.jar: D8: Type `org.greenrobot.eventbus.EventBus` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.integration.EventBusManager.register(java.lang.Object)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:CommonRes:compileDebugNdk NO-SOURCE
-:CommonRes:mergeDebugJniLibFolders UP-TO-DATE
-:CommonRes:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:CommonRes:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:CommonRes:transformNativeLibsWithIntermediateJniLibsForDebug
-:CommonSDK:compileDebugNdk NO-SOURCE
-:CommonSDK:mergeDebugJniLibFolders UP-TO-DATE
-:CommonSDK:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:CommonSDK:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:CommonSDK:transformNativeLibsWithIntermediateJniLibsForDebug
-:CommonService:compileDebugNdk NO-SOURCE
-:CommonService:mergeDebugJniLibFolders UP-TO-DATE
-:CommonService:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:CommonService:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:CommonService:transformNativeLibsWithIntermediateJniLibsForDebug
-:module_gank:compileDebugNdk NO-SOURCE
-:module_gank:mergeDebugJniLibFolders
-:module_gank:transformNativeLibsWithMergeJniLibsForDebug
-:module_gank:transformNativeLibsWithStripDebugSymbolForDebug
-:module_gank:transformNativeLibsWithIntermediateJniLibsForDebug
-:module_gold:compileDebugNdk NO-SOURCE
-:module_gold:mergeDebugJniLibFolders
-:module_gold:transformNativeLibsWithMergeJniLibsForDebug
-:module_gold:transformNativeLibsWithStripDebugSymbolForDebug
-:module_gold:transformNativeLibsWithIntermediateJniLibsForDebug
-:module_zhihu:compileDebugNdk NO-SOURCE
-:module_zhihu:mergeDebugJniLibFolders
-:module_zhihu:transformNativeLibsWithMergeJniLibsForDebug
-:module_zhihu:transformNativeLibsWithStripDebugSymbolForDebug
-:module_zhihu:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:app:extractProguardFiles
-:CommonRes:preReleaseBuild UP-TO-DATE
-:CommonRes:checkReleaseManifest UP-TO-DATE
-:CommonRes:processReleaseManifest UP-TO-DATE
-:CommonSDK:preReleaseBuild UP-TO-DATE
-:CommonSDK:checkReleaseManifest UP-TO-DATE
-:CommonSDK:processReleaseManifest UP-TO-DATE
-:CommonService:preReleaseBuild UP-TO-DATE
-:CommonService:checkReleaseManifest UP-TO-DATE
-:CommonService:processReleaseManifest UP-TO-DATE
-:module_gank:extractProguardFiles
-:module_gank:preReleaseBuild
-:module_gank:checkReleaseManifest
-:module_gank:processReleaseManifest
-:module_gold:extractProguardFiles
-:module_gold:preReleaseBuild
-:module_gold:checkReleaseManifest
-:module_gold:processReleaseManifest
-:module_zhihu:extractProguardFiles
-:module_zhihu:preReleaseBuild
-:module_zhihu:checkReleaseManifest
-:module_zhihu:processReleaseManifest
-:app:preReleaseBuild
-:CommonSDK:compileReleaseAidl NO-SOURCE
-:CommonRes:compileReleaseAidl NO-SOURCE
-:CommonService:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:CommonRes:packageReleaseRenderscript NO-SOURCE
-:CommonSDK:packageReleaseRenderscript NO-SOURCE
-:CommonService:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:CommonRes:compileReleaseRenderscript UP-TO-DATE
-:CommonRes:generateReleaseResValues UP-TO-DATE
-:CommonRes:generateReleaseResources UP-TO-DATE
-:CommonRes:packageReleaseResources UP-TO-DATE
-:CommonSDK:compileReleaseRenderscript UP-TO-DATE
-:CommonSDK:generateReleaseResValues UP-TO-DATE
-:CommonSDK:generateReleaseResources UP-TO-DATE
-:CommonSDK:packageReleaseResources UP-TO-DATE
-:CommonService:compileReleaseRenderscript UP-TO-DATE
-:CommonService:generateReleaseResValues UP-TO-DATE
-:CommonService:generateReleaseResources UP-TO-DATE
-:CommonService:packageReleaseResources UP-TO-DATE
-:module_gank:compileReleaseRenderscript
-:module_gank:generateReleaseResValues
-:module_gank:generateReleaseResources
-:module_gank:packageReleaseResources
-:module_gold:compileReleaseRenderscript
-:module_gold:generateReleaseResValues
-:module_gold:generateReleaseResources
-:module_gold:packageReleaseResources
-:module_zhihu:compileReleaseRenderscript
-:module_zhihu:generateReleaseResValues
-:module_zhihu:generateReleaseResources
-:module_zhihu:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:CommonSDK:generateReleaseRFile UP-TO-DATE
-:CommonRes:generateReleaseRFile UP-TO-DATE
-:CommonService:generateReleaseRFile UP-TO-DATE
-:module_gank:generateReleaseRFile
-:module_gold:generateReleaseRFile
-:module_zhihu:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:CommonRes:generateReleaseBuildConfig UP-TO-DATE
-:CommonRes:generateReleaseSources UP-TO-DATE
-:CommonSDK:generateReleaseBuildConfig UP-TO-DATE
-:CommonSDK:generateReleaseSources UP-TO-DATE
-:CommonSDK:javaPreCompileRelease UP-TO-DATE
-:CommonSDK:compileReleaseJavaWithJavac UP-TO-DATE
-:CommonSDK:processReleaseJavaRes NO-SOURCE
-:CommonSDK:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-:CommonRes:javaPreCompileRelease UP-TO-DATE
-:CommonRes:compileReleaseJavaWithJavac UP-TO-DATE
-:CommonRes:processReleaseJavaRes NO-SOURCE
-:CommonRes:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:CommonService:generateReleaseBuildConfig UP-TO-DATE
-:CommonService:generateReleaseSources UP-TO-DATE
-:CommonService:javaPreCompileRelease UP-TO-DATE
-:CommonService:compileReleaseJavaWithJavac UP-TO-DATE
-:CommonService:processReleaseJavaRes NO-SOURCE
-:CommonService:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :module_zhihu:bundleLibRuntimeDebug
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/817f8a458aa106d3421f64e713f82cd0/jars/classes.jar: D8: Type `android.support.design.widget.Snackbar` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.integration.AppManager$1.run()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/817f8a458aa106d3421f64e713f82cd0/jars/classes.jar: D8: Type `com.zhy.autolayout.utils.AutoUtils` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.base.BaseHolder.<init>(android.view.View)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/817f8a458aa106d3421f64e713f82cd0/jars/classes.jar: D8: Type `org.greenrobot.eventbus.EventBus` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.integration.EventBusManager.register(java.lang.Object)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.KotlinExtensions.create(retrofit2.Retrofit)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.coroutines.intrinsics.IntrinsicsKt` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.KotlinExtensions.await(retrofit2.Call, kotlin.coroutines.Continuation)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.coroutines.jvm.internal.DebugProbesKt` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.KotlinExtensions.await(retrofit2.Call, kotlin.coroutines.Continuation)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$awaitResponse$2$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.Result` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$awaitResponse$2$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.ResultKt` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$awaitResponse$2$2.onFailure(retrofit2.Call, java.lang.Throwable)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Interface `kotlin.jvm.functions.Function1` not found. It's needed to make sure desugaring of `retrofit2.KotlinExtensions$await$$inlined$suspendCancellableCoroutine$lambda$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.ResultKt` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$4$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.Result` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$4$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$2$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.ResultKt` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$2$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.Result` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$2$2.onResponse(retrofit2.Call, retrofit2.Response)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Interface `kotlin.jvm.functions.Function1` not found. It's needed to make sure desugaring of `retrofit2.KotlinExtensions$awaitResponse$$inlined$suspendCancellableCoroutine$lambda$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.3/4a1c4c7b89298e7a00e83e4b3bc75af9cc6307f1/okhttp-3.12.3.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :CommonRes:mergeDebugJniLibFolders UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :CommonSDK:mergeDebugJniLibFolders UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :CommonService:mergeDebugJniLibFolders UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :module_gank:processDebugJavaRes NO-SOURCE
+> Task :module_gank:bundleLibResDebug
+> Task :module_gank:mergeDebugJniLibFolders
+> Task :module_gank:transformNativeLibsWithMergeJniLibsForDebug
+> Task :module_gank:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :module_gank:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :module_gold:processDebugJavaRes NO-SOURCE
+> Task :module_gold:bundleLibResDebug
+> Task :module_gold:mergeDebugJniLibFolders
+> Task :module_gold:transformNativeLibsWithMergeJniLibsForDebug
+> Task :module_gold:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :module_gold:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :module_zhihu:processDebugJavaRes NO-SOURCE
+> Task :module_zhihu:bundleLibResDebug
+> Task :module_zhihu:mergeDebugJniLibFolders
+> Task :module_zhihu:transformNativeLibsWithMergeJniLibsForDebug
+> Task :module_zhihu:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :module_zhihu:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:extractProguardFiles
+> Task :CommonRes:preReleaseBuild UP-TO-DATE
+> Task :CommonRes:checkReleaseManifest UP-TO-DATE
+> Task :CommonRes:processReleaseManifest UP-TO-DATE
+> Task :CommonSDK:preReleaseBuild UP-TO-DATE
+> Task :CommonSDK:checkReleaseManifest UP-TO-DATE
+> Task :CommonSDK:processReleaseManifest UP-TO-DATE
+> Task :CommonService:preReleaseBuild UP-TO-DATE
+> Task :CommonService:checkReleaseManifest UP-TO-DATE
+> Task :CommonService:processReleaseManifest UP-TO-DATE
+> Task :module_gank:extractProguardFiles
+> Task :module_gank:preReleaseBuild
+> Task :module_gank:checkReleaseManifest
+> Task :module_gank:processReleaseManifest
+> Task :module_gold:extractProguardFiles
+> Task :module_gold:preReleaseBuild
+> Task :module_gold:checkReleaseManifest
+> Task :module_gold:processReleaseManifest
+> Task :module_zhihu:extractProguardFiles
+> Task :module_zhihu:preReleaseBuild
+> Task :module_zhihu:checkReleaseManifest
+> Task :module_zhihu:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :CommonSDK:compileReleaseAidl NO-SOURCE
+> Task :CommonRes:compileReleaseAidl NO-SOURCE
+> Task :CommonService:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :CommonRes:packageReleaseRenderscript NO-SOURCE
+> Task :CommonSDK:packageReleaseRenderscript NO-SOURCE
+> Task :CommonService:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :CommonRes:compileReleaseRenderscript NO-SOURCE
+> Task :CommonRes:generateReleaseBuildConfig UP-TO-DATE
+> Task :CommonRes:generateReleaseResValues UP-TO-DATE
+> Task :CommonRes:generateReleaseResources UP-TO-DATE
+> Task :CommonRes:packageReleaseResources UP-TO-DATE
+> Task :CommonSDK:compileReleaseRenderscript NO-SOURCE
+> Task :CommonSDK:generateReleaseResValues UP-TO-DATE
+> Task :CommonSDK:generateReleaseResources UP-TO-DATE
+> Task :CommonSDK:packageReleaseResources UP-TO-DATE
+> Task :CommonSDK:generateReleaseRFile UP-TO-DATE
+> Task :CommonRes:generateReleaseRFile UP-TO-DATE
+> Task :CommonRes:generateReleaseSources UP-TO-DATE
+> Task :CommonSDK:generateReleaseBuildConfig UP-TO-DATE
+> Task :CommonSDK:generateReleaseSources UP-TO-DATE
+> Task :CommonSDK:javaPreCompileRelease UP-TO-DATE
+> Task :CommonSDK:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :CommonSDK:bundleLibCompileRelease UP-TO-DATE
+> Task :CommonRes:javaPreCompileRelease UP-TO-DATE
+> Task :CommonRes:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :CommonRes:bundleLibCompileRelease
+> Task :CommonService:compileReleaseRenderscript NO-SOURCE
+> Task :CommonService:generateReleaseBuildConfig UP-TO-DATE
+> Task :CommonService:generateReleaseResValues UP-TO-DATE
+> Task :CommonService:generateReleaseResources UP-TO-DATE
+> Task :CommonService:packageReleaseResources UP-TO-DATE
+> Task :CommonService:generateReleaseRFile UP-TO-DATE
+> Task :CommonService:generateReleaseSources UP-TO-DATE
+> Task :CommonService:javaPreCompileRelease UP-TO-DATE
+> Task :CommonService:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :CommonService:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :module_gank:compileReleaseRenderscript NO-SOURCE
+> Task :module_gank:generateReleaseResValues
+> Task :module_gank:generateReleaseResources
+> Task :module_gank:packageReleaseResources
+> Task :module_gold:compileReleaseRenderscript NO-SOURCE
+> Task :module_gold:generateReleaseResValues
+> Task :module_gold:generateReleaseResources
+> Task :module_gold:packageReleaseResources
+> Task :module_zhihu:compileReleaseRenderscript NO-SOURCE
+> Task :module_zhihu:generateReleaseResValues
+> Task :module_zhihu:generateReleaseResources
+> Task :module_zhihu:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :module_gank:generateReleaseRFile
+> Task :module_gold:generateReleaseRFile
+> Task :module_zhihu:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found autowired field, start... <<<
 Note: ARouter::Compiler categories finished.
 Note: ARouter::Compiler >>> Start process 3 field in MainActivity ... <<<
@@ -752,13 +760,13 @@ Note: ARouter::Compiler >>> MainActivity has been processed, MainActivity$$ARout
 Note: ARouter::Compiler >>> Autowired processor stop. <<<
 Note: ARouter::Compiler The user has configuration the module name, it was [app]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found interceptors, size is 1 <<<
 Note: ARouter::Compiler A interceptor verify over, its me.jessyan.armscomponent.app.app.RouterInterceptor
 Note: ARouter::Compiler >>> Interceptor group write over. <<<
 Note: ARouter::Compiler The user has configuration the module name, it was [app]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 2 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.app.mvp.ui.activity.MainActivity <<<
@@ -772,11 +780,17 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/77c21c33aa25950a7e3f79dab26406ed/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/src/main/res/values-w820dp/dimens.xml:5: Error: The dimen "activity_horizontal_margin" in values-w820dp has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+> Task :app:compileReleaseSources
+> Task :CommonRes:prepareLintJarForPublish UP-TO-DATE
+> Task :CommonSDK:prepareLintJarForPublish UP-TO-DATE
+> Task :CommonService:prepareLintJarForPublish UP-TO-DATE
+> Task :module_gank:prepareLintJarForPublish
+> Task :module_gold:prepareLintJarForPublish
+> Task :module_zhihu:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a123228501113c18ed2b083b4001802c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/src/main/res/values-w820dp/dimens.xml:5: Error: The dimen "activity_horizontal_margin" in values-w820dp has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
     <dimen name="activity_horizontal_margin">64dp</dimen>
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -806,52 +820,66 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
    ExtraTranslation.)
 
 1 errors, 0 warnings
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:CommonRes:mergeReleaseShaders UP-TO-DATE
-:CommonRes:compileReleaseShaders UP-TO-DATE
-:CommonRes:generateReleaseAssets UP-TO-DATE
-:CommonRes:packageReleaseAssets UP-TO-DATE
-:CommonSDK:mergeReleaseShaders UP-TO-DATE
-:CommonSDK:compileReleaseShaders UP-TO-DATE
-:CommonSDK:generateReleaseAssets UP-TO-DATE
-:CommonSDK:packageReleaseAssets UP-TO-DATE
-:CommonService:mergeReleaseShaders UP-TO-DATE
-:CommonService:compileReleaseShaders UP-TO-DATE
-:CommonService:generateReleaseAssets UP-TO-DATE
-:CommonService:packageReleaseAssets UP-TO-DATE
-:module_gank:mergeReleaseShaders
-:module_gank:compileReleaseShaders
-:module_gank:generateReleaseAssets
-:module_gank:packageReleaseAssets
-:module_gold:mergeReleaseShaders
-:module_gold:compileReleaseShaders
-:module_gold:generateReleaseAssets
-:module_gold:packageReleaseAssets
-:module_zhihu:mergeReleaseShaders
-:module_zhihu:compileReleaseShaders
-:module_zhihu:generateReleaseAssets
-:module_zhihu:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:CommonRes:createFullJarRelease
-:CommonSDK:createFullJarRelease
-:CommonService:createFullJarRelease
-:module_gank:compileReleaseAidl NO-SOURCE
-:module_gank:generateReleaseBuildConfig
-:module_gank:generateReleaseR2
-:module_gank:generateReleaseSources
-:module_gank:javaPreCompileRelease
-:module_gank:compileReleaseJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :CommonRes:mergeReleaseShaders UP-TO-DATE
+> Task :CommonRes:compileReleaseShaders UP-TO-DATE
+> Task :CommonRes:generateReleaseAssets UP-TO-DATE
+> Task :CommonRes:packageReleaseAssets UP-TO-DATE
+> Task :CommonSDK:mergeReleaseShaders UP-TO-DATE
+> Task :CommonSDK:compileReleaseShaders UP-TO-DATE
+> Task :CommonSDK:generateReleaseAssets UP-TO-DATE
+> Task :CommonSDK:packageReleaseAssets UP-TO-DATE
+> Task :CommonService:mergeReleaseShaders UP-TO-DATE
+> Task :CommonService:compileReleaseShaders UP-TO-DATE
+> Task :CommonService:generateReleaseAssets UP-TO-DATE
+> Task :CommonService:packageReleaseAssets UP-TO-DATE
+> Task :module_gank:mergeReleaseShaders
+> Task :module_gank:compileReleaseShaders
+> Task :module_gank:generateReleaseAssets
+> Task :module_gank:packageReleaseAssets
+> Task :module_gold:mergeReleaseShaders
+> Task :module_gold:compileReleaseShaders
+> Task :module_gold:generateReleaseAssets
+> Task :module_gold:packageReleaseAssets
+> Task :module_zhihu:mergeReleaseShaders
+> Task :module_zhihu:compileReleaseShaders
+> Task :module_zhihu:generateReleaseAssets
+> Task :module_zhihu:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :CommonRes:processReleaseJavaRes NO-SOURCE
+> Task :CommonRes:bundleLibResRelease
+> Task :CommonSDK:processReleaseJavaRes NO-SOURCE
+> Task :CommonSDK:bundleLibResRelease
+> Task :CommonService:processReleaseJavaRes NO-SOURCE
+> Task :CommonService:bundleLibResRelease
+> Task :CommonSDK:bundleLibRuntimeRelease
+> Task :CommonSDK:createFullJarRelease
+> Task :CommonService:bundleLibRuntimeRelease
+> Task :CommonService:createFullJarRelease
+> Task :CommonRes:bundleLibRuntimeRelease
+> Task :CommonRes:createFullJarRelease
+> Task :module_gank:compileReleaseAidl NO-SOURCE
+> Task :module_gank:generateReleaseBuildConfig
+> Task :module_gank:generateReleaseR2
+> Task :module_gank:generateReleaseSources
+> Task :module_gank:javaPreCompileRelease
+
+> Task :module_gank:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gank]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gank]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 2 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.gank.mvp.ui.activity.GankHomeActivity <<<
@@ -861,25 +889,29 @@ Note: ARouter::Compiler >>> Start categories, group = gank, path = /gank/service
 Note: ARouter::Compiler >>> Generated group: gank<<<
 Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$module_gank <<<
 Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$module_gank <<<
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build/generated/source/apt/release/me/jessyan/armscomponent/gank/di/component/DaggerGankHomeComponent.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gank/build/generated/source/apt/release/me/jessyan/armscomponent/gank/di/component/DaggerGankHomeComponent.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 3 warnings
 
-:module_gank:processReleaseJavaRes NO-SOURCE
-:module_gank:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:module_gold:compileReleaseAidl NO-SOURCE
-:module_gold:generateReleaseBuildConfig
-:module_gold:generateReleaseR2
-:module_gold:generateReleaseSources
-:module_gold:javaPreCompileRelease
-:module_gold:compileReleaseJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :module_gank:processReleaseJavaRes NO-SOURCE
+> Task :module_gank:bundleLibResRelease
+> Task :module_gold:compileReleaseAidl NO-SOURCE
+> Task :module_gold:generateReleaseBuildConfig
+> Task :module_gold:generateReleaseR2
+> Task :module_gold:generateReleaseSources
+> Task :module_gold:javaPreCompileRelease
+
+> Task :module_gold:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gold]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_gold]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 3 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.gold.mvp.ui.activity.DetailActivity <<<
@@ -893,25 +925,29 @@ Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$
 Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$module_gold <<<
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/src/main/java/me/jessyan/armscomponent/gold/mvp/ui/activity/DetailActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/module_gold/src/main/java/me/jessyan/armscomponent/gold/mvp/ui/activity/DetailActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
-:module_gold:processReleaseJavaRes NO-SOURCE
-:module_gold:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:module_zhihu:compileReleaseAidl NO-SOURCE
-:module_zhihu:generateReleaseBuildConfig
-:module_zhihu:generateReleaseR2
-:module_zhihu:generateReleaseSources
-:module_zhihu:javaPreCompileRelease
-:module_zhihu:compileReleaseJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.AutowiredProcessor' less than -source '1.8'
+> Task :module_gold:processReleaseJavaRes NO-SOURCE
+> Task :module_gold:bundleLibResRelease
+> Task :module_zhihu:compileReleaseAidl NO-SOURCE
+> Task :module_zhihu:generateReleaseBuildConfig
+> Task :module_zhihu:generateReleaseR2
+> Task :module_zhihu:generateReleaseSources
+> Task :module_zhihu:javaPreCompileRelease
+
+> Task :module_zhihu:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0.jar (com.jakewharton:butterknife-compiler:9.0.0), arouter-compiler-1.2.2.jar (com.alibaba:arouter-compiler:1.2.2), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: ARouter::Compiler >>> AutowiredProcessor init. <<<
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_zhihu]
 Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.InterceptorProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler The user has configuration the module name, it was [module_zhihu]
 Note: ARouter::Compiler >>> RouteProcessor init. <<<
-warning: Supported source version 'RELEASE_7' from annotation processor 'com.alibaba.android.arouter.compiler.processor.RouteProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor' less than -source '1.8'
 Note: ARouter::Compiler >>> Found routes, start... <<<
 Note: ARouter::Compiler >>> Found routes, size is 3 <<<
 Note: ARouter::Compiler >>> Found activity route: me.jessyan.armscomponent.zhihu.mvp.ui.activity.DetailActivity <<<
@@ -927,586 +963,83 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 3 warnings
 
-:module_zhihu:processReleaseJavaRes NO-SOURCE
-:module_zhihu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:transformResourcesWithMergeJavaResForRelease
-:CommonRes:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:CommonSDK:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:CommonService:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:module_gank:mergeReleaseConsumerProguardFiles
-:module_gold:mergeReleaseConsumerProguardFiles
-:module_zhihu:mergeReleaseConsumerProguardFiles
-:app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.5.4.aar/fb406b372d1d27f144fb210807b011f9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/autosize-1.1.1.aar/b892bcadc79bce1aac13b41fae9b2aa9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ef877699b71f774c1c6dbc323f5cf947/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/paginate-0.5.1.aar/2d0ff9ad5c6bd46e428b17ac01667471/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/c4a5c4ca12ca7371a32fa2bc0c8304c3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arms-2.5.0.aar/1b01d16ef585cdba233ab5795f4bf5b6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arms-imageloader-glide-2.5.0.aar/8550618f47b552f1c349a125b465f439/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/androideventbus-1.0.5.1.aar/ce28e729f9c4c73c59a92ffcc7bbc492/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/arouter-api-1.4.1.aar/aff98aeaaee9e10a370b9f96fa8a6e72/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/retrofit-url-manager-1.4.0.aar/64c9a3beb51d6001871db8ce39837b98/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5ee36ddafbf37f3c7fc35991f28417fc/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0251e4582b02dd8d7a9bec7b30e9e8b6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/cff592907728fe7d67ac2eabf8e218cc/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1d70e86286cab677d7489eb6bed86085/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/e4b114de6958f612ba125a19339ff19d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/bea44d006fa1761fbb3413bc467bbdd8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/128ff8605fb7eb6e45545fb8daaab238/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a37b4ba98a7ee8f27554230f4a9061dc/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e835f9304f080c0a682d15e1f302c572/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7785971d4efd1ed3742da69a334a0b16/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/727a5df1562ab39a3a53839d75ddefd0/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d22eb5d365018bebad0ed8593db0b446/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d3ebb4c79a243615cd1bc8f43b62756d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c7888060a3547bf82cf5e0c426147b70/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6967cffe56f3418153a4a2f01eaefb99/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/911e08424bad963ee1d9d22c771dc245/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a6db3255b33fa8754d594fc8e43e723e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c20acdffa9b79d90da3cb85c547ab322/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/da26bd9be6cc69b6e87d09d8520bf626/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/65a875f2d62c23749b60c417b5f1fc34/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a092dd99bb6c73c0457a4f732b66f2d3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2079fa7cbd5b5fce14d0e2207f1838f1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e5e1d1af0c6a0e76c8a43d6d8f5d9108/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b52837b9e17dce0688f39e1deb6f717/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/451c794de80f9c2e92d775d771cb8192/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b20c0c0379e5945fdff409a55846d1c5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/80a4e8cce31933dbbec8be0cbdd3b740/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8a6aa6428bd88dc1756410b4dec3bdd6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/5c24b21e83f7ef34a3f4c6ad97ae9b57/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1baf651488152bfd6204163ab8808191/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/3c01036382cf9705e5f6c98aae9cfd3d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.3/f829e7c489f5b3586bca2199c9017a6d6e1e01be/rxjava-2.2.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/45532411c06a99e1a7de1baea95a8eac/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.VictorAlbertos.RxCache/runtime/1.8.3-2.x/5d60efc9aa388588311720be7838084a43a7c95a/runtime-1.8.3-2.x.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle/2.2.2/9f7871bca116775d9b1c88b839c4d7e1559471a1/rxlifecycle-2.2.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxlifecycle-android-2.2.2.aar/d85025d48fc3f4c79ffcd74bcbb61fc7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxerrorhandler-2.1.1.aar/0049f1aabd59caf3b3e79e9b07f132b1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/fc4aa382632bfaa7be7b41579efba41d5a71ecf3/retrofit-2.4.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.19/ccf08b5bb60a4b4c149524595ec1d2eb02b8ba80/dagger-2.19.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/9713d1983004c83d51ce6378eff40dff/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.VictorAlbertos.Jolyglot/gson/0.0.4/339ce273f2b11db4cace9af3d6a93f0aad549414/gson-0.0.4.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.4.0/15d7790ee311d961379c51b00aba12d5967cb7ea/converter-gson-2.4.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.4.0/9286ea8ac29dc3822cca03291259db825e118506/adapter-rxjava2-2.4.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/ad236e0493f04e4f1c3e03b86a1130ee/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.alibaba/arouter-annotation/1.0.6/667fa943838b31d3a94cce6fe9e0b786cd9445ae/arouter-annotation-1.0.6.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/bc373fb6bc7bca3035041b924f158fd2b946ee8d/butterknife-annotations-8.8.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.VictorAlbertos.RxCache/core/1.8.3-2.x/70f0a0f6df9592f6bb9ff85e65c1f9a973d2bade/core-1.8.3-2.x.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.1/c1a6655cebcac68e63e4c24d23f573035032eb2a/annotations-16.0.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.VictorAlbertos.Jolyglot/api/0.0.4/80a382133062b156b7ffba6a8e574b58ae9c99a0/api-0.0.4.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.VictorAlbertos.Jolyglot/common/0.0.4/e6d92721f516ead2585e4381beffd2fb675576f3/common-0.0.4.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/a4615c3307bbe82050751995c3dfddd8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.annotation/10.0-b28/30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba/javax.annotation-10.0-b28.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_zhihu/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gank/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/module_gold/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonRes/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonService/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/CommonSDK/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.alibaba.android.arouter.facade.model.RouteMeta: can't find referenced class javax.lang.model.element.Element
-Warning: com.jess.arms.base.BaseHolder: can't find referenced class com.zhy.autolayout.utils.AutoUtils
-Warning: com.jess.arms.base.BaseHolder: can't find referenced class com.zhy.autolayout.utils.AutoUtils
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.Subscribe
-Warning: com.jess.arms.integration.EventBusManager: can't find referenced class org.greenrobot.eventbus.EventBus
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoFrameLayout
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoFrameLayout
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoLinearLayout
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoLinearLayout
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoRelativeLayout
-Warning: com.jess.arms.utils.ThirdViewUtil: can't find referenced class com.zhy.autolayout.AutoRelativeLayout
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.LifecycleProvider: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.LifecycleTransformer: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: com.trello.rxlifecycle2.OutsideLifecycleException: can't find referenced class javax.annotation.Nullable
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.CheckReturnValue
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: com.trello.rxlifecycle2.RxLifecycle: can't find referenced class javax.annotation.Nonnull
-Warning: me.jessyan.armscomponent.gank.di.component.DaggerGankHomeComponent: can't find referenced class com.google.errorprone.annotations.CanIgnoreReturnValue
-Warning: me.jessyan.armscomponent.gold.di.component.DaggerGoldHomeComponent: can't find referenced class com.google.errorprone.annotations.CanIgnoreReturnValue
-Warning: me.jessyan.armscomponent.zhihu.di.component.DaggerDetailComponent: can't find referenced class com.google.errorprone.annotations.CanIgnoreReturnValue
-Warning: me.jessyan.armscomponent.zhihu.di.component.DaggerZhihuHomeComponent: can't find referenced class com.google.errorprone.annotations.CanIgnoreReturnValue
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.WebSocketListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.Util: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.AndroidPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.Jdk9Platform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.JdkWithJettyBootPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.Platform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.ws.RealWebSocket: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
-Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
-Warning: okio.BufferedSource: can't find referenced class javax.annotation.Nullable
-Warning: okio.ByteString: can't find referenced class javax.annotation.Nullable
-Warning: okio.DeflaterSink: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
-Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
-Warning: okio.Okio: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-Warning: okio.Okio: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-Warning: okio.Okio$4: can't find referenced class javax.annotation.Nullable
-Warning: okio.RealBufferedSource: can't find referenced class javax.annotation.Nullable
-Warning: okio.Segment: can't find referenced class javax.annotation.Nullable
-Warning: okio.SegmentPool: can't find referenced class javax.annotation.Nullable
-Warning: okio.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: retrofit2.CallAdapter$Factory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
-Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$2: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Body: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Field: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Header: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Part: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Path: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$Query: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$QueryName: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ParameterHandler$RelativeUrl: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform$Android: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform$Java8: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Platform$Java8: can't find referenced class org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit$1: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.ServiceMethod: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.Utils$ParameterizedTypeImpl: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.Result: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.RxJava2CallAdapter: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.RxJava2CallAdapter: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory: can't find referenced class javax.annotation.Nullable
-Warning: retrofit2.adapter.rxjava2.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: retrofit2.converter.gson.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: retrofit2.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Note: com.alibaba.android.arouter.launcher._ARouter: can't find dynamically referenced class android.app.ActivityThread
-Note: com.alibaba.android.arouter.utils.ClassUtils: can't find dynamically referenced class com.android.tools.fd.runtime.Paths
-Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
-Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor: can't find dynamically referenced class sun.misc.Unsafe
-Note: com.jess.arms.utils.DeviceUtils: can't find dynamically referenced class com.android.internal.R$dimen
-Note: com.jess.arms.utils.DeviceUtils: can't find dynamically referenced class com.android.internal.R$dimen
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
-Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
-Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
-Note: the configuration keeps the entry point 'com.airbnb.lottie.LottieAnimationView { void setCompositionTask(com.airbnb.lottie.LottieTask); }', but not the descriptor class 'com.airbnb.lottie.LottieTask'
-Note: the configuration keeps the entry point 'com.airbnb.lottie.LottieAnimationView { void setComposition(com.airbnb.lottie.LottieComposition); }', but not the descriptor class 'com.airbnb.lottie.LottieComposition'
-Note: the configuration keeps the entry point 'com.airbnb.lottie.LottieAnimationView { void setImageAssetDelegate(com.airbnb.lottie.ImageAssetDelegate); }', but not the descriptor class 'com.airbnb.lottie.ImageAssetDelegate'
-Note: the configuration keeps the entry point 'com.airbnb.lottie.LottieAnimationView { void setFontAssetDelegate(com.airbnb.lottie.FontAssetDelegate); }', but not the descriptor class 'com.airbnb.lottie.FontAssetDelegate'
-Note: the configuration keeps the entry point 'com.airbnb.lottie.LottieAnimationView { void setTextDelegate(com.airbnb.lottie.TextDelegate); }', but not the descriptor class 'com.airbnb.lottie.TextDelegate'
-Note: the configuration keeps the entry point 'com.jess.arms.mvp.BaseModel { void onDestroy(android.arch.lifecycle.LifecycleOwner); }', but not the descriptor class 'android.arch.lifecycle.LifecycleOwner'
-Note: the configuration keeps the entry point 'com.jess.arms.mvp.BasePresenter { void onDestroy(android.arch.lifecycle.LifecycleOwner); }', but not the descriptor class 'android.arch.lifecycle.LifecycleOwner'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { okhttp3.OkHttpClient$Builder with(okhttp3.OkHttpClient$Builder); }', but not the descriptor class 'okhttp3.OkHttpClient$Builder'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { okhttp3.Request processRequest(okhttp3.Request); }', but not the descriptor class 'okhttp3.Request'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { okhttp3.Request pruneIdentification(okhttp3.Request$Builder,java.lang.String); }', but not the descriptor class 'okhttp3.Request$Builder'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { void notifyListener(okhttp3.Request,java.lang.String,java.lang.Object[]); }', but not the descriptor class 'okhttp3.Request'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { void startAdvancedModel(okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager { java.lang.String obtainDomainNameFromHeaders(okhttp3.Request); }', but not the descriptor class 'okhttp3.Request'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.RetrofitUrlManager$1 { okhttp3.Response intercept(okhttp3.Interceptor$Chain); }', but not the descriptor class 'okhttp3.Interceptor$Chain'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.onUrlChangeListener { void onUrlChangeBefore(okhttp3.HttpUrl,java.lang.String); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.onUrlChangeListener { void onUrlChanged(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.onUrlChangeListener { void onUrlChanged(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.AdvancedUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.AdvancedUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.AdvancedUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.AdvancedUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DefaultUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DefaultUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DomainUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DomainUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DomainUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.DomainUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl,int); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { java.lang.String getKey(okhttp3.HttpUrl,okhttp3.HttpUrl,int); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { int resolvePathSize(okhttp3.HttpUrl,okhttp3.HttpUrl$Builder); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.SuperUrlParser { int resolvePathSize(okhttp3.HttpUrl,okhttp3.HttpUrl$Builder); }', but not the descriptor class 'okhttp3.HttpUrl$Builder'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.UrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.retrofiturlmanager.parser.UrlParser { okhttp3.HttpUrl parseUrl(okhttp3.HttpUrl,okhttp3.HttpUrl); }', but not the descriptor class 'okhttp3.HttpUrl'
-Note: the configuration keeps the entry point 'me.jessyan.rxerrorhandler.handler.ErrorHandleSubscriber { void onSubscribe(io.reactivex.disposables.Disposable); }', but not the descriptor class 'io.reactivex.disposables.Disposable'
-Note: the configuration keeps the entry point 'me.jessyan.rxerrorhandler.handler.ErrorHandleSubscriberOfFlowable { void onSubscribe(org.reactivestreams.Subscription); }', but not the descriptor class 'org.reactivestreams.Subscription'
-Note: the configuration keeps the entry point 'me.jessyan.rxerrorhandler.handler.RetryWithDelay { io.reactivex.ObservableSource apply(io.reactivex.Observable); }', but not the descriptor class 'io.reactivex.Observable'
-Note: the configuration keeps the entry point 'me.jessyan.rxerrorhandler.handler.RetryWithDelayOfFlowable { org.reactivestreams.Publisher apply(io.reactivex.Flowable); }', but not the descriptor class 'io.reactivex.Flowable'
-Note: there were 39 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 11 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Warning: there were 336 unresolved references to classes or interfaces.
-         You may need to add missing library jars or update their versions.
-         If your code works fine without the missing classes, you can suppress
-         the warnings with '-dontwarn' options.
-         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
-Warning: Exception while processing task java.io.IOException: Please correct the above warnings first.
-Thread(Tasks limiter_1): destruction
-:app:transformClassesAndResourcesWithProguardForRelease FAILED
+> Task :module_zhihu:processReleaseJavaRes NO-SOURCE
+> Task :module_zhihu:bundleLibResRelease
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :CommonRes:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :CommonSDK:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :CommonService:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :module_gank:bundleLibRuntimeRelease
+> Task :module_gank:mergeReleaseConsumerProguardFiles
+> Task :module_gold:bundleLibRuntimeRelease
+> Task :module_gold:mergeReleaseConsumerProguardFiles
+> Task :module_zhihu:bundleLibRuntimeRelease
+> Task :module_zhihu:mergeReleaseConsumerProguardFiles
 
-FAILURE: Build failed with an exception.
+> Task :app:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
-* What went wrong:
-Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
-> Job failed, see logs for details
+D8: Missing class: kotlin.jvm.internal.Lambda
+D8: Missing class: kotlin.jvm.functions.Function1
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.3/4a1c4c7b89298e7a00e83e4b3bc75af9cc6307f1/okhttp-3.12.3.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.ConscryptPlatform.configureSslSocketFactory(javax.net.ssl.SSLSocketFactory)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$2$2.onFailure(retrofit2.Call, java.lang.Throwable)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.ResultKt` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$2$2.onFailure(retrofit2.Call, java.lang.Throwable)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.Result` was not found, it is required for default or static interface methods desugaring of `void retrofit2.KotlinExtensions$await$4$2.onFailure(retrofit2.Call, java.lang.Throwable)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.coroutines.intrinsics.IntrinsicsKt` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.KotlinExtensions.awaitNullable(retrofit2.Call, kotlin.coroutines.Continuation)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Type `kotlin.coroutines.jvm.internal.DebugProbesKt` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.KotlinExtensions.awaitNullable(retrofit2.Call, kotlin.coroutines.Continuation)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/817f8a458aa106d3421f64e713f82cd0/jars/classes.jar: D8: Type `com.zhy.autolayout.utils.AutoUtils` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.base.BaseHolder.<init>(android.view.View)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/817f8a458aa106d3421f64e713f82cd0/jars/classes.jar: D8: Type `org.greenrobot.eventbus.EventBus` was not found, it is required for default or static interface methods desugaring of `void com.jess.arms.integration.EventBusManager.register(java.lang.Object)`
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
 
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.RuntimeException: Job failed, see logs for details
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.transform(ProGuardTransform.java:207)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
-	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 30 more
-Caused by: java.io.IOException: Please correct the above warnings first.
-	at proguard.Initializer.execute(Initializer.java:485)
-	at proguard.ProGuard.initialize(ProGuard.java:271)
-	at proguard.ProGuard.execute(ProGuard.java:113)
-	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:64)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.doMinification(ProGuardTransform.java:262)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.access$000(ProGuardTransform.java:65)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform$1.run(ProGuardTransform.java:176)
-	at com.android.builder.tasks.Job.runTask(Job.java:47)
-	at com.android.build.gradle.tasks.SimpleWorkQueue$EmptyThreadContext.runTask(SimpleWorkQueue.java:41)
-	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:282)
+> Task :app:transformClassesAndResourcesWithR8ForRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar: D8: Interface `kotlin.jvm.functions.Function1` not found. It's needed to make sure desugaring of `retrofit2.KotlinExtensions$await$$inlined$suspendCancellableCoroutine$lambda$1` is correct. Desugaring will assume that this interface has no default method.
+Removed unused resources: Binary resource data reduced from 678KB to 656KB: Removed 3%
 
+> Task :app:transformClassesAndDexWithShrinkResForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :CommonRes:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :CommonRes:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :CommonSDK:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :CommonSDK:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :CommonService:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :CommonService:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :module_gank:mergeReleaseJniLibFolders
+> Task :module_gank:transformNativeLibsWithMergeJniLibsForRelease
+> Task :module_gank:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :module_gank:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :module_gold:mergeReleaseJniLibFolders
+> Task :module_gold:transformNativeLibsWithMergeJniLibsForRelease
+> Task :module_gold:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :module_gold:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :module_zhihu:mergeReleaseJniLibFolders
+> Task :module_zhihu:transformNativeLibsWithMergeJniLibsForRelease
+> Task :module_zhihu:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :module_zhihu:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-* Get more help at https://help.gradle.org
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 11s
-257 actionable tasks: 168 executed, 89 up-to-date
+BUILD SUCCESSFUL in 2m 57s
+293 actionable tasks: 198 executed, 95 up-to-date
 
-2019-04-05 23:32:40,725 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554481821797-0/src/ArmsComponent-master/app/build/outputs/apk/debug/app-debug.apk
+2020-06-23 01:53:55,429 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592851604598-0/src/ArmsComponent-master/app/build/outputs/apk/debug/app-debug.apk
